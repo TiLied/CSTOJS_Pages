@@ -1,0 +1,2185 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class HTMLMediaElement
+ | CSharpToJavaScript </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class HTMLMediaElement
+ | CSharpToJavaScript ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement">
+
+
+
+  <h1 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement" class="text-break">
+    Class HTMLMediaElement
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CSharpToJavaScript.html">CSharpToJavaScript</a>.<a class="xref" href="CSharpToJavaScript.APIs.html">APIs</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.html">JS</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>The <strong><code>HTMLMediaElement</code></strong> interface adds to <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html">HTMLElement</a> the properties and methods needed to support basic media-related capabilities that are common to audio and video.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;Default&quot;)]
+public class HTMLMediaElement : HTMLElement, ParentNode, NonDocumentTypeChildNode, ChildNode, Slottable, GlobalEventHandlers, DocumentAndElementEventHandlers, ElementContentEditable, HTMLOrSVGElement</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html">EventTarget</a></div>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a></div>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html">Element</a></div>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html">HTMLElement</a></div>
+      <div><span class="xref">HTMLMediaElement</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.ParentNode.html">ParentNode</a></div>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.NonDocumentTypeChildNode.html">NonDocumentTypeChildNode</a></div>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.ChildNode.html">ChildNode</a></div>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.Slottable.html">Slottable</a></div>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalEventHandlers.html">GlobalEventHandlers</a></div>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.DocumentAndElementEventHandlers.html">DocumentAndElementEventHandlers</a></div>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.ElementContentEditable.html">ElementContentEditable</a></div>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLOrSVGElement.html">HTMLOrSVGElement</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLAudioElement.html">HTMLAudioElement</a></div>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLVideoElement.html">HTMLVideoElement</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_Title">HTMLElement.Title</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_Lang">HTMLElement.Lang</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_Translate">HTMLElement.Translate</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_Dir">HTMLElement.Dir</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_Hidden">HTMLElement.Hidden</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_Inert">HTMLElement.Inert</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_Click">HTMLElement.Click()</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_AccessKey">HTMLElement.AccessKey</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_AccessKeyLabel">HTMLElement.AccessKeyLabel</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_Draggable">HTMLElement.Draggable</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_Spellcheck">HTMLElement.Spellcheck</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_Autocapitalize">HTMLElement.Autocapitalize</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_InnerText">HTMLElement.InnerText</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_OuterText">HTMLElement.OuterText</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_AttachInternals">HTMLElement.AttachInternals()</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_Style">HTMLElement.Style</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_NamespaceURI">Element.NamespaceURI</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_Prefix">Element.Prefix</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_LocalName">Element.LocalName</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_TagName">Element.TagName</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_Id">Element.Id</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ClassName">Element.ClassName</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ClassList">Element.ClassList</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_Slot">Element.Slot</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_HasAttributes">Element.HasAttributes()</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_Attributes">Element.Attributes</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_GetAttributeNames">Element.GetAttributeNames()</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_GetAttribute_System_String_">Element.GetAttribute(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_GetAttributeNS_System_String_System_String_">Element.GetAttributeNS(string, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_SetAttribute_System_String_System_String_">Element.SetAttribute(string, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_SetAttributeNS_System_String_System_String_System_String_">Element.SetAttributeNS(string, string, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_RemoveAttribute_System_String_">Element.RemoveAttribute(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_RemoveAttributeNS_System_String_System_String_">Element.RemoveAttributeNS(string, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ToggleAttribute_System_String_System_Boolean_">Element.ToggleAttribute(string, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_HasAttribute_System_String_">Element.HasAttribute(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_HasAttributeNS_System_String_System_String_">Element.HasAttributeNS(string, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_GetAttributeNode_System_String_">Element.GetAttributeNode(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_GetAttributeNodeNS_System_String_System_String_">Element.GetAttributeNodeNS(string, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_SetAttributeNode_CSharpToJavaScript_APIs_JS_Attr_">Element.SetAttributeNode(Attr)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_SetAttributeNodeNS_CSharpToJavaScript_APIs_JS_Attr_">Element.SetAttributeNodeNS(Attr)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_RemoveAttributeNode_CSharpToJavaScript_APIs_JS_Attr_">Element.RemoveAttributeNode(Attr)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_AttachShadow_CSharpToJavaScript_APIs_JS_ShadowRootInit_">Element.AttachShadow(ShadowRootInit)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ShadowRoot">Element.ShadowRoot</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_Closest_System_String_">Element.Closest(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_Matches_System_String_">Element.Matches(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_WebkitMatchesSelector_System_String_">Element.WebkitMatchesSelector(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_GetElementsByTagName_System_String_">Element.GetElementsByTagName(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_GetElementsByTagNameNS_System_String_System_String_">Element.GetElementsByTagNameNS(string, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_GetElementsByClassName_System_String_">Element.GetElementsByClassName(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_InsertAdjacentElement_System_String_CSharpToJavaScript_APIs_JS_Element_">Element.InsertAdjacentElement(string, Element)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_InsertAdjacentText_System_String_System_String_">Element.InsertAdjacentText(string, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_RequestFullscreen_CSharpToJavaScript_APIs_JS_FullscreenOptions_">Element.RequestFullscreen(FullscreenOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_Onfullscreenchange">Element.Onfullscreenchange</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_Onfullscreenerror">Element.Onfullscreenerror</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_ELEMENT_NODE">Node.ELEMENT_NODE</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_ATTRIBUTE_NODE">Node.ATTRIBUTE_NODE</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_TEXT_NODE">Node.TEXT_NODE</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_CDATA_SECTION_NODE">Node.CDATA_SECTION_NODE</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_ENTITY_REFERENCE_NODE">Node.ENTITY_REFERENCE_NODE</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_ENTITY_NODE">Node.ENTITY_NODE</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_PROCESSING_INSTRUCTION_NODE">Node.PROCESSING_INSTRUCTION_NODE</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_COMMENT_NODE">Node.COMMENT_NODE</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_DOCUMENT_NODE">Node.DOCUMENT_NODE</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_DOCUMENT_TYPE_NODE">Node.DOCUMENT_TYPE_NODE</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_DOCUMENT_FRAGMENT_NODE">Node.DOCUMENT_FRAGMENT_NODE</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_NOTATION_NODE">Node.NOTATION_NODE</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_NodeType">Node.NodeType</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_NodeName">Node.NodeName</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_BaseURI">Node.BaseURI</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_IsConnected">Node.IsConnected</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_OwnerDocument">Node.OwnerDocument</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_GetRootNode_CSharpToJavaScript_APIs_JS_GetRootNodeOptions_">Node.GetRootNode(GetRootNodeOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_ParentNode">Node.ParentNode</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_ParentElement">Node.ParentElement</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_HasChildNodes">Node.HasChildNodes()</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_ChildNodes">Node.ChildNodes</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_FirstChild">Node.FirstChild</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_LastChild">Node.LastChild</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_PreviousSibling">Node.PreviousSibling</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_NextSibling">Node.NextSibling</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_NodeValue">Node.NodeValue</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_TextContent">Node.TextContent</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_Normalize">Node.Normalize()</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_CloneNode_System_Boolean_">Node.CloneNode(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_IsEqualNode_CSharpToJavaScript_APIs_JS_Node_">Node.IsEqualNode(Node)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_IsSameNode_CSharpToJavaScript_APIs_JS_Node_">Node.IsSameNode(Node)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_DOCUMENT_POSITION_DISCONNECTED">Node.DOCUMENT_POSITION_DISCONNECTED</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_DOCUMENT_POSITION_PRECEDING">Node.DOCUMENT_POSITION_PRECEDING</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_DOCUMENT_POSITION_FOLLOWING">Node.DOCUMENT_POSITION_FOLLOWING</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_DOCUMENT_POSITION_CONTAINS">Node.DOCUMENT_POSITION_CONTAINS</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_DOCUMENT_POSITION_CONTAINED_BY">Node.DOCUMENT_POSITION_CONTAINED_BY</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC">Node.DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_CompareDocumentPosition_CSharpToJavaScript_APIs_JS_Node_">Node.CompareDocumentPosition(Node)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_Contains_CSharpToJavaScript_APIs_JS_Node_">Node.Contains(Node)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_LookupPrefix_System_String_">Node.LookupPrefix(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_LookupNamespaceURI_System_String_">Node.LookupNamespaceURI(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_IsDefaultNamespace_System_String_">Node.IsDefaultNamespace(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_InsertBefore_CSharpToJavaScript_APIs_JS_Node_CSharpToJavaScript_APIs_JS_Node_">Node.InsertBefore(Node, Node)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_AppendChild_CSharpToJavaScript_APIs_JS_Node_">Node.AppendChild(Node)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_ReplaceChild_CSharpToJavaScript_APIs_JS_Node_CSharpToJavaScript_APIs_JS_Node_">Node.ReplaceChild(Node, Node)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_RemoveChild_CSharpToJavaScript_APIs_JS_Node_">Node.RemoveChild(Node)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union1_">EventTarget.AddEventListener(string, Action, Union1)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_MouseEvent__CSharpToJavaScript_APIs_JS_Union1_">EventTarget.AddEventListener(string, Action&lt;MouseEvent&gt;, Union1)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Event__CSharpToJavaScript_APIs_JS_Union1_">EventTarget.AddEventListener(string, Action&lt;Event&gt;, Union1)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_RemoveEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union2_">EventTarget.RemoveEventListener(string, Action, Union2)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_CSharpToJavaScript_APIs_JS_EventListener_CSharpToJavaScript_APIs_JS_Union1_">EventTarget.AddEventListener(string, EventListener, Union1)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_RemoveEventListener_System_String_CSharpToJavaScript_APIs_JS_EventListener_CSharpToJavaScript_APIs_JS_Union2_">EventTarget.RemoveEventListener(string, EventListener, Union2)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_DispatchEvent_CSharpToJavaScript_APIs_JS_Event_">EventTarget.DispatchEvent(Event)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+  <h2 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLVideoElement.html">HTMLVideoElement</a> and <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLAudioElement.html">HTMLAudioElement</a> elements both inherit this interface.</p><p></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_HAVE_CURRENT_DATA" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.HAVE_CURRENT_DATA">
+  HAVE_CURRENT_DATA
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public const ushort HAVE_CURRENT_DATA = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_HAVE_ENOUGH_DATA" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.HAVE_ENOUGH_DATA">
+  HAVE_ENOUGH_DATA
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public const ushort HAVE_ENOUGH_DATA = 4</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_HAVE_FUTURE_DATA" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.HAVE_FUTURE_DATA">
+  HAVE_FUTURE_DATA
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public const ushort HAVE_FUTURE_DATA = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_HAVE_METADATA" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.HAVE_METADATA">
+  HAVE_METADATA
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public const ushort HAVE_METADATA = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_HAVE_NOTHING" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.HAVE_NOTHING">
+  HAVE_NOTHING
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public const ushort HAVE_NOTHING = 0</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_NETWORK_EMPTY" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.NETWORK_EMPTY">
+  NETWORK_EMPTY
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public const ushort NETWORK_EMPTY = 0</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_NETWORK_IDLE" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.NETWORK_IDLE">
+  NETWORK_IDLE
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public const ushort NETWORK_IDLE = 1</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_NETWORK_LOADING" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.NETWORK_LOADING">
+  NETWORK_LOADING
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public const ushort NETWORK_LOADING = 2</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_NETWORK_NO_SOURCE" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.NETWORK_NO_SOURCE">
+  NETWORK_NO_SOURCE
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public const ushort NETWORK_NO_SOURCE = 3</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_AudioTracks_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.AudioTracks*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_AudioTracks" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.AudioTracks">
+  AudioTracks
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The read-only <strong><code>audioTracks</code></strong><br>property on <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a> objects returns<br>an <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioTrackList.html">AudioTrackList</a> object listing all of the <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioTrack.html">AudioTrack</a><br>objects representing the media element&amp;apos;s audio tracks.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public AudioTrackList AudioTracks { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.AudioTrackList.html">AudioTrackList</a></dt>
+    <dd><p>An <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioTrackList.html">AudioTrackList</a> object representing the list of audio tracks included<br>in the media element. The list of tracks can be accessed using array notation, or using<br>the object's <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioTrackList.html#CSharpToJavaScript_APIs_JS_AudioTrackList_GetTrackById_System_String_">GetTrackById(string)</a> method.Each track is represented by an <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioTrack.html">AudioTrack</a> object which provides<br>information about the track.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_AudioTracks_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The media element may be<br>either an <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio">audio</a> element or a <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video">video</a> element.</p><p>The returned list is <strong>live</strong>; that is, as tracks are added to and removed from<br>the media element, the list&amp;apos;s contents change dynamically. Once you have a reference to<br>the list, you can monitor it for changes to detect when new audio tracks are added or<br>existing ones removed. See <a href="https://developer.mozilla.org/en-US/docs/Web/API/AudioTrackList#events">AudioTrackList events</a><br>to learn more about watching for changes to a media element&amp;apos;s track list.</p>
+<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a>: Interface used to define the <code>HTMLMediaElement.audioTracks</code> property<br>-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio">audio</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video">video</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.AudioTrack.html">AudioTrack</a>, <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioTrackList.html">AudioTrackList</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/audioTracks"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Autoplay_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Autoplay*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Autoplay" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Autoplay">
+  Autoplay
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>HTMLMediaElement.autoplay</code></strong><br>property reflects the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video#autoplay"><code>autoplay</code></a> HTML attribute, indicating<br>whether playback should automatically begin as soon as enough media is available to do<br>so without interruption.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public bool Autoplay { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A boolean value which is <code>true</code> if the media element will<br>begin playback as soon as enough content has loaded to allow it to do so without<br>interruption.<blockquote class="NOTE"><h5>NOTE</h5><strong>Note:</strong> Some browsers offer users the ability to override<br><code>autoplay</code> in order to prevent disruptive audio or video from playing<br>without permission or in the background. Do not rely on <code>autoplay</code> actually<br>starting playback and instead use HTMLMediaElement.Play_event<br>event.</blockquote>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Autoplay_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>A media element whose source is a MediaStream and whose<br><code>autoplay</code> property is <code>true</code> will begin playback when it becomes<br>active (that is, when MediaStream.Active becomes <code>true</code>).</p><blockquote class="NOTE"><h5>NOTE</h5><p><strong>Note:</strong> Sites which automatically play audio (or videos with an audio<br>track) can be an unpleasant experience for users, so it should be avoided when<br>possible. If you must offer autoplay functionality, you should make it opt-in<br>(requiring a user to specifically enable it). However, autoplay can be useful when<br>creating media elements whose source will be set at a later time, under user control.</p></blockquote><p>For a much more in-depth look at autoplay, autoplay blocking, and how to respond when<br>autoplay is blocked by the user&amp;apos;s browser, see our article <a href="https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide">Autoplay guide for media and Web Audio APIs</a>.</p>
+<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a>: Interface used to define the <code>HTMLMediaElement.autoplay</code> property<br>-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio">audio</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video">video</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/autoplay"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Buffered_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Buffered*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Buffered" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Buffered">
+  Buffered
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>buffered</code></strong> read-only property of <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a> objects returns a new static <a href="https://developer.mozilla.org/en-US/docs/Web/API/TimeRanges#normalized_timeranges_objects">normalized <code>TimeRanges</code> object</a> that represents the ranges of the media resource, if any, that the user agent has buffered at the moment the <code>buffered</code> property is accessed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public TimeRanges Buffered { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.TimeRanges.html">TimeRanges</a></dt>
+    <dd><p>A new static <a href="https://developer.mozilla.org/en-US/docs/Web/API/TimeRanges#normalized_timeranges_objects">normalized TimeRanges object</a> that represents the ranges of the media resource, if any, that the user agent has buffered at the moment the <code>buffered</code> property is accessed.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Buffered_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><blockquote class="NOTE"><h5>NOTE</h5><p><strong>Note:</strong> This feature is not available in <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API">Web Workers</a>.</p></blockquote>
+<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a>: Interface used to define the <code>HTMLMediaElement.buffered</code> property<br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/buffered"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_BufferingThrottled_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.BufferingThrottled*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_BufferingThrottled" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.BufferingThrottled">
+  BufferingThrottled
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public bool BufferingThrottled { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Controls_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Controls*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Controls" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Controls">
+  Controls
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>HTMLMediaElement.controls</code></strong> property reflects the<br><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video#controls"><code>controls</code></a> HTML attribute, which controls whether user<br>interface controls for playing the media item will be displayed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public bool Controls { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A boolean value. A value of <code>true</code> means controls will be<br>displayed.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Controls_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a>: Interface used to define the <code>HTMLMediaElement.controls</code> property<br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/controls"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_CrossOrigin_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.CrossOrigin*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_CrossOrigin" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.CrossOrigin">
+  CrossOrigin
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>HTMLMediaElement.crossOrigin</code></strong> property is the CORS setting for this media element. See <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/crossorigin">CORS settings attributes</a> for details.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public string? CrossOrigin { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_CrossOrigin_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a>: Interface used to define the <code>HTMLMediaElement.crossOrigin</code> property<br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/crossOrigin"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_CurrentSrc_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.CurrentSrc*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_CurrentSrc" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.CurrentSrc">
+  CurrentSrc
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>HTMLMediaElement.currentSrc</code></strong> property contains the<br>absolute URL of the chosen media resource. This could happen, for example, if the web<br>server selects a media file based on the resolution of the user&amp;apos;s display. The value<br>is an empty string if the <code>networkState</code> property is <code>EMPTY</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public string CurrentSrc { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A string object containing the absolute URL of the chosen media<br>source; this may be an empty string if <code>networkState</code> is <code>EMPTY</code>;<br>otherwise, it will be one of the resources listed by the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLSourceElement.html">HTMLSourceElement</a> contained within the media element, or the value or src<br>if no <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source">source</a> element is provided.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_CurrentSrc_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a>: Interface used to define the <code>HTMLMediaElement.currentSrc</code> property<br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/currentSrc"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_CurrentTime_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.CurrentTime*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_CurrentTime" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.CurrentTime">
+  CurrentTime
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a> interface's<br><strong><code>currentTime</code></strong> property specifies the current playback time<br>in seconds.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public double CurrentTime { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>A double-precision floating-point value indicating the current playback time in<br>seconds.If the media is not yet playing, the value of <code>currentTime</code> indicates the<br>time position within the media at which playback will begin once the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_Play">Play()</a> method is called.Setting <code>currentTime</code> to a new value seeks the media to the given time, if<br>the media is available.For media without a known duration—such as media being streamed live—it&amp;apos;s possible that<br>the browser may not be able to obtain parts of the media that have expired from the<br>media buffer. Also, media whose timeline doesn&amp;apos;t begin at 0 seconds cannot be seeked to<br>a time before its timeline&amp;apos;s earliest time.The length of the media in seconds can be determined using the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_Duration">Duration</a> property.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_CurrentTime_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Changing the value of <code>currentTime</code> seeks the media to<br>the new time.</p>
+<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a>: Interface used to define the <code>HTMLMediaElement.currentTime</code> property<br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_FastSeek_System_Double_">FastSeek(double)</a>: Another way to set the time<br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_Duration">Duration</a>: The duration of the media in seconds<br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/currentTime"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_DefaultMuted_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.DefaultMuted*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_DefaultMuted" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.DefaultMuted">
+  DefaultMuted
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>HTMLMediaElement.defaultMuted</code></strong> property reflects the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video#muted"><code>muted</code></a> HTML attribute, which indicates whether the media element's audio output should be muted by default. This property has no dynamic effect. To mute and unmute the audio output, use the <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_Muted">Muted</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public bool DefaultMuted { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A boolean value. A value of <code>true</code> means that the audio output will be muted by default.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_DefaultMuted_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a>: Interface used to define the <code>HTMLMediaElement.defaultMuted</code> property<br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_Muted">Muted</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_Volume">Volume</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/defaultMuted"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_DefaultPlaybackRate_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.DefaultPlaybackRate*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_DefaultPlaybackRate" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.DefaultPlaybackRate">
+  DefaultPlaybackRate
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>HTMLMediaElement.defaultPlaybackRate</code></strong> property indicates the default playback rate for the media.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public double DefaultPlaybackRate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>A double. <code>1.0</code> is &amp;quot;normal speed,&amp;quot; values lower than <code>1.0</code> make the media play slower than normal, higher values make it play faster.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_DefaultPlaybackRate_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a>: Interface used to define the <code>HTMLMediaElement.defaultPlaybackRate</code> property<br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/defaultPlaybackRate"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Duration_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Duration*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Duration" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Duration">
+  Duration
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong>read-only</strong> <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a><br>property <strong><code>duration</code></strong> indicates the length of the element&amp;apos;s<br>media in seconds.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public double Duration { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>A double-precision floating-point value indicating the duration of the media in<br>seconds. If no media data is available, the value <code>NaN</code> is returned. If the<br>element&amp;apos;s media doesn&amp;apos;t have a known duration—such as for live media streams—the value<br>of <code>duration</code> is <code>+Infinity</code>.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Duration_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/Media">Web media technologies</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_CurrentTime">CurrentTime</a>: The current playback position of the<br>media<br>-The <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio">audio</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video">video</a> elements<br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/duration"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Ended_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Ended*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Ended" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Ended">
+  Ended
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>HTMLMediaElement.ended</code></strong> property indicates whether the media<br>element has ended playback.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public bool Ended { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A boolean value which is <code>true</code> if the media contained in the<br>element has finished playing.If the source of the media is a MediaStream, this value is<br><code>true</code> if the value of the stream&amp;apos;s {{domxref(&amp;quot;MediaStream.active&amp;quot;,<br>&amp;quot;active&amp;quot;)}} property is <code>false</code>.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Ended_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a>: Interface used to define the <code>HTMLMediaElement.ended</code> property<br>-MediaStream<br>-MediaStream.Active<br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/ended"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Error_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Error*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Error" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Error">
+  Error
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>HTMLMediaElement.error</code></strong> property is the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.MediaError.html">MediaError</a> object for the most recent error, or <code>null</code> if<br>there has not been an error. When an HTMLMediaElement/error_event event is received by the<br>element, you can determine details about what happened by examining this object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public MediaError? Error { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.MediaError.html">MediaError</a></dt>
+    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.MediaError.html">MediaError</a> object describing the most recent error to occur on the<br>media element or <code>null</code> if no errors have occurred.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Error_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a>: Interface used to define the <code>HTMLMediaElement.error</code> property<br>-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio">audio</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video">video</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/error"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Loop_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Loop*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Loop" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Loop">
+  Loop
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>HTMLMediaElement.loop</code></strong> property reflects the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video#loop"><code>loop</code></a> HTML attribute, which controls whether the media element should start over when it reaches the end.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public bool Loop { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A boolean value.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Loop_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a>: Interface used to define the <code>HTMLMediaElement.loop</code> property<br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/loop"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Muted_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Muted*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Muted" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Muted">
+  Muted
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>HTMLMediaElement.muted</code></strong> property indicates whether the media<br>element is muted.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public bool Muted { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A boolean value. <code>true</code> means muted and <code>false</code> means<br>not muted.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Muted_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a>: Interface used to define the <code>HTMLMediaElement.muted</code> property<br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_DefaultMuted">DefaultMuted</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_Volume">Volume</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/muted"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_NetworkState_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.NetworkState*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_NetworkState" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.NetworkState">
+  NetworkState
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The<br><strong><code>HTMLMediaElement.networkState</code></strong> property indicates the<br>current state of the fetching of media over the network.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public ushort NetworkState { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd><p>An <code>unsigned short</code>. Possible values are:<table><tr><td>Constant</td><td>Value</td><td>Description</td></tr><tr><td><code>NETWORK_EMPTY</code></td><td>0</td><td>There is no data yet. Also, <code>readyState</code> is <code>HAVE_NOTHING</code>.</td></tr><tr><td><code>NETWORK_IDLE</code></td><td>1</td><td>HTMLMediaElement is active and has selected a resource, but is not using the network.</td></tr><tr><td><code>NETWORK_LOADING</code></td><td>2</td><td>The browser is downloading HTMLMediaElement data.</td></tr><tr><td><code>NETWORK_NO_SOURCE</code></td><td>3</td><td>No HTMLMediaElement src found.</td></tr></table>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_NetworkState_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a>: Interface used to define the <code>HTMLMediaElement.networkState</code> property<br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/networkState"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Paused_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Paused*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Paused" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Paused">
+  Paused
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The read-only <strong><code>HTMLMediaElement.paused</code></strong> property<br>tells whether the media element is paused.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public bool Paused { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A boolean value. <code>true</code> is paused and <code>false</code> is not<br>paused.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Paused_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a>: Interface used to define the <code>HTMLMediaElement.paused</code> property<br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/paused"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_PlaybackRate_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.PlaybackRate*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_PlaybackRate" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.PlaybackRate">
+  PlaybackRate
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>HTMLMediaElement.playbackRate</code></strong> property sets the rate at which the media is being played back. This is used to implement user controls for fast forward, slow motion, and so forth. The normal playback rate is multiplied by this value to obtain the current rate, so a value of 1.0 indicates normal speed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public double PlaybackRate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>A <a href="https://en.wikipedia.org/wiki/Double-precision_floating-point_format"><code>double</code></a>. <code>1.0</code> is &amp;quot;normal speed,&amp;quot; values lower than <code>1.0</code> make the media play slower than normal, higher values make it play faster. (<strong>Default:</strong> <code>1.0</code>)</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_PlaybackRate_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>If <code>playbackRate</code> is negative, the media is <strong>not</strong> played backwards.</p><p>The audio is muted when the fast forward or slow motion is outside a useful range (for example, Gecko mutes the sound outside the range <code>0.25</code> to <code>4.0</code>).</p><p>The pitch of the audio is corrected by default. You can disable pitch correction using the <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_PreservesPitch">PreservesPitch</a> property.</p>
+<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a>: Interface used to define the <code>HTMLMediaElement.playbackRate</code> property<br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/playbackRate"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Played_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Played*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Played" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Played">
+  Played
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public TimeRanges Played { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.TimeRanges.html">TimeRanges</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Preload_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Preload*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Preload" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Preload">
+  Preload
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public string Preload { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_PreservesPitch_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.PreservesPitch*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_PreservesPitch" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.PreservesPitch">
+  PreservesPitch
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>HTMLMediaElement.preservesPitch</code></strong> property determines whether or not the browser should adjust the pitch of the audio to compensate for changes to the playback rate made by setting <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_PlaybackRate">PlaybackRate</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public bool PreservesPitch { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A boolean value defaulting to <code>true</code>.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_PreservesPitch_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_PlaybackRate">PlaybackRate</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/Audio_and_video_delivery/WebAudio_playbackRate_explained">Web Audio playbackRate explained</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/preservesPitch"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_ReadyState_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.ReadyState*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_ReadyState" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.ReadyState">
+  ReadyState
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>HTMLMediaElement.readyState</code></strong> property indicates the<br>readiness state of the media.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public ushort ReadyState { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
+    <dd><p>An <code>unsigned short</code>. Possible values are:</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_ReadyState_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a>: Interface used to define the <code>HTMLMediaElement.readyState</code> property<br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/readyState"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Seekable_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Seekable*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Seekable" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Seekable">
+  Seekable
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>seekable</code></strong> read-only property of <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a> objects returns a new static <a href="https://developer.mozilla.org/en-US/docs/Web/API/TimeRanges#normalized_timeranges_objects">normalized <code>TimeRanges</code> object</a> that represents the ranges of the media resource, if any, that the user agent is able to seek to at the time <code>seekable</code> property is accessed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public TimeRanges Seekable { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.TimeRanges.html">TimeRanges</a></dt>
+    <dd><p>A new static <a href="https://developer.mozilla.org/en-US/docs/Web/API/TimeRanges#normalized_timeranges_objects">normalized TimeRanges object</a> that represents the ranges of the media resource, if any, that the user agent is able to seek to at the time <code>seekable</code> property is accessed.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Seekable_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a>: Interface used to define the <code>HTMLMediaElement.seekable</code> property<br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Media_Source_Extensions_API">Media Source API</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/Audio_and_video_delivery/buffering_seeking_time_ranges">Media buffering, seeking, and time ranges</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/seekable"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Seeking_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Seeking*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Seeking" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Seeking">
+  Seeking
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public bool Seeking { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Src_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Src*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Src" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Src">
+  Src
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>HTMLMediaElement.src</code></strong> property reflects the value of<br>the HTML media element&amp;apos;s <code>src</code> attribute, which indicates the URL of a media<br>resource to use in the element.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public string Src { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A string object containing the URL of a media resource to use in the<br>element; this property reflects the value of the HTML element&amp;apos;s <code>src</code><br>attribute.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Src_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><blockquote class="NOTE"><h5>NOTE</h5><p><strong>Note:</strong> The best way to know the URL of the media resource currently<br>in active use in this element is to look at the value of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_CurrentSrc">CurrentSrc</a> attribute, which also takes<br>into account selection of a best or preferred media resource from a list provided in<br>an <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLSourceElement.html">HTMLSourceElement</a> (which represents a {{HTMLElement("source")}}<br>element).</p></blockquote>
+<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a>: Interface used to define the <code>HTMLMediaElement.src</code> property<br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/src"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_SrcObject_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.SrcObject*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_SrcObject" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.SrcObject">
+  SrcObject
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>srcObject</code></strong> property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a> interface sets or returns the object which serves as<br>the source of the media associated with the <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public Union20? SrcObject { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Union20.html">Union20</a>?</dt>
+    <dd><p>A 'MediaStream', 'MediaSource', 'Blob', or<br>'File' object (though see the compatibility table for what is actually<br>supported).</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_SrcObject_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The object can be a MediaStream, a MediaSource, a<br>Blob, or a File (which inherits from <code>Blob</code>).</p><blockquote class="NOTE"><h5>NOTE</h5><p><strong>Note:</strong> As of March 2020, only Safari has full support for <code>srcObject</code>, i.e. using <code>MediaSource</code>, <code>MediaStream</code>, <code>Blob</code>, and <code>File</code> objects as values. Other browsers support <code>MediaStream</code> objects; until they catch up, consider falling back to creating a URL with URL.CreateObjectURL and assigning it to <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_Src">Src</a> (see below for an example). In addition, as of version 108 Chromium supports attaching a dedicated worker <code>MediaSource</code> object by assigning that object's MediaSourceHandle instance (transferred from the worker) to <code>srcObject</code>.</p></blockquote>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/srcObject"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_TextTracks_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.TextTracks*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_TextTracks" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.TextTracks">
+  TextTracks
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The read-only <strong><code>textTracks</code></strong><br>property on <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a> objects returns a<br><a class="xref" href="CSharpToJavaScript.APIs.JS.TextTrackList.html">TextTrackList</a> object listing all of the <a class="xref" href="CSharpToJavaScript.APIs.JS.TextTrack.html">TextTrack</a><br>objects representing the media element&amp;apos;s text tracks, in the same order as in<br>the list of text tracks.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public TextTrackList TextTracks { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.TextTrackList.html">TextTrackList</a></dt>
+    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.TextTrackList.html">TextTrackList</a> object representing the list of text tracks included in the media element. The list of tracks can be accessed using <code>textTracks[n]</code> to get the n-th text track from the object&amp;apos;s list of text tracks, or using the <code>textTracks</code>.<a href="https://developer.mozilla.org/en-US/docs/Web/API/TextTrackList/getTrackById"><code>getTrackById()</code></a><br>method.Each track is represented by a <a class="xref" href="CSharpToJavaScript.APIs.JS.TextTrack.html">TextTrack</a> object which provides<br>information about the track.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_TextTracks_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>You can detect when tracks are added to and removed from an<br><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio"><code>&amp;lt;audio&amp;gt;</code></a> or<br><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video"><code>&amp;lt;video&amp;gt;</code></a> element<br>using the <code>addtrack</code> and <code>removetrack</code> events. However, these<br>events aren&amp;apos;t sent directly to the media element itself. Instead, they&amp;apos;re sent to the<br>track list object of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement"><code>HTMLMediaElement</code></a><br>that corresponds to the type of track that was added to the element</p><p>The returned list is <strong>live</strong>; that is, as tracks are added to and removed from<br>the media element, the list&amp;apos;s contents change dynamically. Once you have a reference to<br>the list, you can monitor it for changes to detect when new text tracks are added or<br>existing ones removed.</p><p>See <a href="https://developer.mozilla.org/en-US/docs/Web/API/TextTrackList#events">TextTrackList events</a> to learn<br>more about watching for changes to a media element&amp;apos;s track list.</p>
+<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a>: Interface used to define the <code>HTMLMediaElement.textTracks</code> property<br>-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio">audio</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video">video</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.AudioTrack.html">AudioTrack</a>, <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioTrackList.html">AudioTrackList</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.VideoTrack.html">VideoTrack</a>, <a class="xref" href="CSharpToJavaScript.APIs.JS.VideoTrackList.html">VideoTrackList</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/VideoTrackList/addtrack_event"><code>addtrack</code></a>,<br><a href="https://developer.mozilla.org/en-US/docs/Web/API/VideoTrackList/change_event"><code>change</code></a>,<br><a href="https://developer.mozilla.org/en-US/docs/Web/API/VideoTrackList/removetrack_event"><code>removetrack</code></a>: AudioTrackList events<br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/VideoTrackList/addtrack_event"><code>addtrack</code></a>,<br><a href="https://developer.mozilla.org/en-US/docs/Web/API/VideoTrackList/change_event"><code>change</code></a>,<br><a href="https://developer.mozilla.org/en-US/docs/Web/API/VideoTrackList/removetrack_event"><code>removetrack</code></a>: VideoTrackList events<br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/textTracks"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_VideoTracks_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.VideoTracks*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_VideoTracks" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.VideoTracks">
+  VideoTracks
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The read-only <strong><code>videoTracks</code></strong><br>property on <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a> objects returns a<br><a class="xref" href="CSharpToJavaScript.APIs.JS.VideoTrackList.html">VideoTrackList</a> object listing all of the <a class="xref" href="CSharpToJavaScript.APIs.JS.VideoTrack.html">VideoTrack</a><br>objects representing the media element&amp;apos;s video tracks.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public VideoTrackList VideoTracks { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.VideoTrackList.html">VideoTrackList</a></dt>
+    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.VideoTrackList.html">VideoTrackList</a> object representing the list of video tracks included<br>in the media element. The list of tracks can be accessed using array notation, or using<br>the object's <a class="xref" href="CSharpToJavaScript.APIs.JS.VideoTrackList.html#CSharpToJavaScript_APIs_JS_VideoTrackList_GetTrackById_System_String_">GetTrackById(string)</a> method.Each track is represented by a <a class="xref" href="CSharpToJavaScript.APIs.JS.VideoTrack.html">VideoTrack</a> object which provides<br>information about the track.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_VideoTracks_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The returned list is <strong>live</strong>; that is, as tracks are added to and removed from<br>the media element, the list&amp;apos;s contents change dynamically. Once you have a reference to<br>the list, you can monitor it for changes to detect when new video tracks are added or<br>existing ones removed. See <a href="https://developer.mozilla.org/en-US/docs/Web/API/VideoTrackList#events">VideoTrackList events</a><br>to learn more about watching for changes to a media element&amp;apos;s track list.</p>
+<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a>: Interface used to define the <code>HTMLMediaElement.videoTracks</code> property<br>-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video">video</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.VideoTrack.html">VideoTrack</a>, <a class="xref" href="CSharpToJavaScript.APIs.JS.VideoTrackList.html">VideoTrackList</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/videoTracks"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Volume_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Volume*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Volume" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Volume">
+  Volume
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>HTMLMediaElement.volume</code></strong> property sets the volume at<br>which the media will be played.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public double Volume { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>A double values must fall between 0 and 1, where 0 is effectively muted and 1 is the<br>loudest possible value.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Volume_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a>: Interface used to define the <code>HTMLMediaElement.volume</code> property<br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_Muted">Muted</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/volume"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_AddTextTrack_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.AddTextTrack*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_AddTextTrack_CSharpToJavaScript_APIs_JS_TextTrackKind_System_String_System_String_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.AddTextTrack(CSharpToJavaScript.APIs.JS.TextTrackKind,System.String,System.String)">
+  AddTextTrack(TextTrackKind, string, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public TextTrack AddTextTrack(TextTrackKind kind, string label, string language)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>kind</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.TextTrackKind.html">TextTrackKind</a></dt>
+    <dd></dd>
+    <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>language</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.TextTrack.html">TextTrack</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_CanPlayType_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.CanPlayType*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_CanPlayType_System_String_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.CanPlayType(System.String)">
+  CanPlayType(string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a> method <strong><code>canPlayType()</code></strong> reports how likely it is that the current browser will be able to play media of a given MIME type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public CanPlayTypeResult CanPlayType(string type)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.CanPlayTypeResult.html">CanPlayTypeResult</a></dt>
+    <dd><p>A string indicating how likely it is that the media can be played.<br>The string will be one of the following values:</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_CanPlayType_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><blockquote class="NOTE"><h5>NOTE</h5><p><strong>Note:</strong> This feature is not available in <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API">Web Workers</a>.</p></blockquote>
+<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a>: Interface used to define the <code>HTMLMediaElement.canPlayType()</code> method<br>-MediaCapabilities<br>-<a href="https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Support_issues">Handling media support issues in web content</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/Media/Formats">Media type and format guide</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/Media/Formats/codecs_parameter">Codecs in common media types</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/canPlayType"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_FastSeek_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.FastSeek*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_FastSeek_System_Double_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.FastSeek(System.Double)">
+  FastSeek(double)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>HTMLMediaElement.fastSeek()</code></strong> method quickly seeks the<br>media to the new time with precision tradeoff.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public GlobalObject.Undefined FastSeek(double time)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>time</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_FastSeek_System_Double__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><blockquote class="NOTE"><h5>NOTE</h5><p><strong>Note:</strong> If you need to seek with precision, you should set <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/currentTime"><code>HTMLMediaElement.currentTime</code></a><br>instead.</p></blockquote>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/currentTime">HTMLMediaElement.currentTime</a><br>for seeking without precision tradeoff<br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/fastSeek"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_GetStartDate_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.GetStartDate*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_GetStartDate" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.GetStartDate">
+  GetStartDate()
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public object GetStartDate()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Load_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Load*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Load" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Load">
+  Load()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a> method<br><strong><code>load()</code></strong> resets the media element to its initial state and<br>begins the process of selecting a media source and loading the media in preparation<br>for playback to begin at the beginning.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public GlobalObject.Undefined Load()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Load_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The amount of media data that is<br>prefetched is determined by the value of the element&amp;apos;s <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video#preload"><code>preload</code></a> attribute.</p><p>This method is generally only useful when you&amp;apos;ve made dynamic changes to the set of<br>sources available for the media element, either by changing the element&amp;apos;s<br><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video#src"><code>src</code></a> attribute or by adding or removing<br><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source">source</a> elements nested within the media element itself.<br><code>load()</code> will reset the element and rescan the available sources, thereby<br>causing the changes to take effect.</p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/load"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Pause_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Pause*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Pause" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Pause">
+  Pause()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>HTMLMediaElement.pause()</code></strong> method will pause playback<br>of the media, if the media is already in a paused state this method will have no effect.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public GlobalObject.Undefined Pause()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Pause_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/pause"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Play_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Play*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Play" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Play">
+  Play()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a><br><strong><code>play()</code></strong> method attempts to begin playback of the media.<br>It returns a Promise which is resolved when playback has been<br>successfully started.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public Task&lt;GlobalObject.Undefined&gt; Play()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a>&gt;</dt>
+    <dd><p>A Promise which is resolved when playback has been started, or is<br>rejected if for any reason playback cannot be started.<blockquote class="NOTE"><h5>NOTE</h5><strong>Note:</strong> Browsers released before 2019 may not return a value from<br><code>play()</code>.</blockquote>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Play_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Failure to begin playback for any reason, such as<br>permission issues, result in the promise being rejected.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/Media">Web media technologies</a><br>-Learning: <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Video_and_audio_content">Video and audio content</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide">Autoplay guide for media and Web Audio APIs</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API">Using the Web Audio API</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/play"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
