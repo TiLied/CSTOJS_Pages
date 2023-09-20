@@ -43,10 +43,10 @@
           "images/**"
         ]
       },
-      {
-        "files": "BWA/**",
-        "dest": "./"
-      }
+			{
+				"files": "CSTOJS_Pages/BWA/**",
+				"dest": "./"
+			}
     ],
     "output": "docs",
     "globalMetadata": {
@@ -65,7 +65,7 @@
     "keepFileLink": false,
     "disableGitFeatures": false,
     "sitemap": {
-      "baseUrl": "https://tilied.github.io/CSTOJSPages",
+      "baseUrl": "https://tilied.github.io/CSTOJS_Pages",
       "changefreq": "weekly"
     }
   }
