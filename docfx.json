@@ -44,8 +44,9 @@
         ]
       },
 			{
-				"files": "BWA/**",
-				"dest": "./"
+				"files": "**",
+        "src": "BWA/wwwroot/",
+				"dest": "./BWA"
 			}
     ],
     "output": "docs",

@@ -17,7 +17,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/CSTOJS_BWA.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/CSTOJS_BWA.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/CSTOJS_BWA.dll"
@@ -27,7 +27,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/CSTOJS_BWA.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/CSTOJS_BWA.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/CSTOJS_BWA.dll.br"
@@ -37,7 +37,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/CSTOJS_BWA.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/CSTOJS_BWA.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/CSTOJS_BWA.dll.gz"
@@ -47,7 +47,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/CSTOJS_BWA.pdb.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/CSTOJS_BWA.pdb.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/CSTOJS_BWA.pdb.gz"
@@ -57,7 +57,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/CSharpToJavaScript.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/CSharpToJavaScript.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/CSharpToJavaScript.dll"
@@ -67,7 +67,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/CSharpToJavaScript.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/CSharpToJavaScript.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/CSharpToJavaScript.dll.br"
@@ -77,7 +77,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/CSharpToJavaScript.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/CSharpToJavaScript.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/CSharpToJavaScript.dll.gz"
@@ -87,17 +87,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/CSharpToJavaScript.pdb.gz",
-      "output": {
-        "resource": {
-          "relative_path": "BWA/_framework/CSharpToJavaScript.pdb.gz"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "BWA/_framework/Microsoft.AspNetCore.Components.Forms.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/Microsoft.AspNetCore.Components.Forms.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/Microsoft.AspNetCore.Components.Forms.dll"
@@ -107,7 +97,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/Microsoft.AspNetCore.Components.Forms.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/Microsoft.AspNetCore.Components.Forms.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/Microsoft.AspNetCore.Components.Forms.dll.br"
@@ -117,7 +107,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/Microsoft.AspNetCore.Components.Forms.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/Microsoft.AspNetCore.Components.Forms.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/Microsoft.AspNetCore.Components.Forms.dll.gz"
@@ -127,7 +117,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/Microsoft.AspNetCore.Components.Web.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/Microsoft.AspNetCore.Components.Web.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/Microsoft.AspNetCore.Components.Web.dll"
@@ -137,7 +127,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/Microsoft.AspNetCore.Components.Web.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/Microsoft.AspNetCore.Components.Web.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/Microsoft.AspNetCore.Components.Web.dll.br"
@@ -147,7 +137,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/Microsoft.AspNetCore.Components.Web.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/Microsoft.AspNetCore.Components.Web.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/Microsoft.AspNetCore.Components.Web.dll.gz"
@@ -157,7 +147,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/Microsoft.AspNetCore.Components.WebAssembly.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/Microsoft.AspNetCore.Components.WebAssembly.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/Microsoft.AspNetCore.Components.WebAssembly.dll"
@@ -167,7 +157,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/Microsoft.AspNetCore.Components.WebAssembly.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/Microsoft.AspNetCore.Components.WebAssembly.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/Microsoft.AspNetCore.Components.WebAssembly.dll.br"
@@ -177,7 +167,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/Microsoft.AspNetCore.Components.WebAssembly.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/Microsoft.AspNetCore.Components.WebAssembly.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/Microsoft.AspNetCore.Components.WebAssembly.dll.gz"
@@ -187,7 +177,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/Microsoft.AspNetCore.Components.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/Microsoft.AspNetCore.Components.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/Microsoft.AspNetCore.Components.dll"
@@ -197,7 +187,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/Microsoft.AspNetCore.Components.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/Microsoft.AspNetCore.Components.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/Microsoft.AspNetCore.Components.dll.br"
@@ -207,7 +197,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/Microsoft.AspNetCore.Components.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/Microsoft.AspNetCore.Components.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/Microsoft.AspNetCore.Components.dll.gz"
@@ -217,7 +207,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/Microsoft.CSharp.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/Microsoft.CSharp.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/Microsoft.CSharp.dll"
@@ -227,7 +217,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/Microsoft.CSharp.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/Microsoft.CSharp.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/Microsoft.CSharp.dll.br"
@@ -237,7 +227,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/Microsoft.CSharp.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/Microsoft.CSharp.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/Microsoft.CSharp.dll.gz"
@@ -247,7 +237,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/Microsoft.CodeAnalysis.CSharp.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/Microsoft.CodeAnalysis.CSharp.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/Microsoft.CodeAnalysis.CSharp.dll"
@@ -257,7 +247,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/Microsoft.CodeAnalysis.CSharp.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/Microsoft.CodeAnalysis.CSharp.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/Microsoft.CodeAnalysis.CSharp.dll.br"
@@ -267,7 +257,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/Microsoft.CodeAnalysis.CSharp.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/Microsoft.CodeAnalysis.CSharp.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/Microsoft.CodeAnalysis.CSharp.dll.gz"
@@ -277,7 +267,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/Microsoft.CodeAnalysis.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/Microsoft.CodeAnalysis.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/Microsoft.CodeAnalysis.dll"
@@ -287,7 +277,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/Microsoft.CodeAnalysis.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/Microsoft.CodeAnalysis.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/Microsoft.CodeAnalysis.dll.br"
@@ -297,7 +287,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/Microsoft.CodeAnalysis.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/Microsoft.CodeAnalysis.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/Microsoft.CodeAnalysis.dll.gz"
@@ -307,7 +297,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/Microsoft.Extensions.Configuration.Abstractions.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/Microsoft.Extensions.Configuration.Abstractions.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/Microsoft.Extensions.Configuration.Abstractions.dll"
@@ -317,7 +307,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/Microsoft.Extensions.Configuration.Abstractions.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/Microsoft.Extensions.Configuration.Abstractions.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/Microsoft.Extensions.Configuration.Abstractions.dll.br"
@@ -327,7 +317,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/Microsoft.Extensions.Configuration.Abstractions.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/Microsoft.Extensions.Configuration.Abstractions.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/Microsoft.Extensions.Configuration.Abstractions.dll.gz"
@@ -337,7 +327,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/Microsoft.Extensions.Configuration.Json.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/Microsoft.Extensions.Configuration.Json.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/Microsoft.Extensions.Configuration.Json.dll"
@@ -347,7 +337,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/Microsoft.Extensions.Configuration.Json.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/Microsoft.Extensions.Configuration.Json.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/Microsoft.Extensions.Configuration.Json.dll.br"
@@ -357,7 +347,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/Microsoft.Extensions.Configuration.Json.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/Microsoft.Extensions.Configuration.Json.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/Microsoft.Extensions.Configuration.Json.dll.gz"
@@ -367,7 +357,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/Microsoft.Extensions.Configuration.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/Microsoft.Extensions.Configuration.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/Microsoft.Extensions.Configuration.dll"
@@ -377,7 +367,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/Microsoft.Extensions.Configuration.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/Microsoft.Extensions.Configuration.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/Microsoft.Extensions.Configuration.dll.br"
@@ -387,7 +377,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/Microsoft.Extensions.Configuration.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/Microsoft.Extensions.Configuration.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/Microsoft.Extensions.Configuration.dll.gz"
@@ -397,7 +387,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/Microsoft.Extensions.DependencyInjection.Abstractions.dll"
@@ -407,7 +397,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/Microsoft.Extensions.DependencyInjection.Abstractions.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/Microsoft.Extensions.DependencyInjection.Abstractions.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/Microsoft.Extensions.DependencyInjection.Abstractions.dll.br"
@@ -417,7 +407,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/Microsoft.Extensions.DependencyInjection.Abstractions.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/Microsoft.Extensions.DependencyInjection.Abstractions.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/Microsoft.Extensions.DependencyInjection.Abstractions.dll.gz"
@@ -427,7 +417,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/Microsoft.Extensions.DependencyInjection.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/Microsoft.Extensions.DependencyInjection.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/Microsoft.Extensions.DependencyInjection.dll"
@@ -437,7 +427,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/Microsoft.Extensions.DependencyInjection.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/Microsoft.Extensions.DependencyInjection.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/Microsoft.Extensions.DependencyInjection.dll.br"
@@ -447,7 +437,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/Microsoft.Extensions.DependencyInjection.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/Microsoft.Extensions.DependencyInjection.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/Microsoft.Extensions.DependencyInjection.dll.gz"
@@ -457,7 +447,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/Microsoft.Extensions.Logging.Abstractions.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/Microsoft.Extensions.Logging.Abstractions.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/Microsoft.Extensions.Logging.Abstractions.dll"
@@ -467,7 +457,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/Microsoft.Extensions.Logging.Abstractions.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/Microsoft.Extensions.Logging.Abstractions.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/Microsoft.Extensions.Logging.Abstractions.dll.br"
@@ -477,7 +467,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz"
@@ -487,7 +477,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/Microsoft.Extensions.Logging.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/Microsoft.Extensions.Logging.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/Microsoft.Extensions.Logging.dll"
@@ -497,7 +487,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/Microsoft.Extensions.Logging.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/Microsoft.Extensions.Logging.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/Microsoft.Extensions.Logging.dll.br"
@@ -507,7 +497,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/Microsoft.Extensions.Logging.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/Microsoft.Extensions.Logging.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/Microsoft.Extensions.Logging.dll.gz"
@@ -517,7 +507,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/Microsoft.Extensions.Options.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/Microsoft.Extensions.Options.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/Microsoft.Extensions.Options.dll"
@@ -527,7 +517,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/Microsoft.Extensions.Options.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/Microsoft.Extensions.Options.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/Microsoft.Extensions.Options.dll.br"
@@ -537,7 +527,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/Microsoft.Extensions.Options.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/Microsoft.Extensions.Options.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/Microsoft.Extensions.Options.dll.gz"
@@ -547,7 +537,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/Microsoft.Extensions.Primitives.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/Microsoft.Extensions.Primitives.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/Microsoft.Extensions.Primitives.dll"
@@ -557,7 +547,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/Microsoft.Extensions.Primitives.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/Microsoft.Extensions.Primitives.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/Microsoft.Extensions.Primitives.dll.br"
@@ -567,7 +557,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/Microsoft.Extensions.Primitives.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/Microsoft.Extensions.Primitives.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/Microsoft.Extensions.Primitives.dll.gz"
@@ -577,7 +567,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/Microsoft.JSInterop.WebAssembly.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/Microsoft.JSInterop.WebAssembly.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/Microsoft.JSInterop.WebAssembly.dll"
@@ -587,7 +577,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/Microsoft.JSInterop.WebAssembly.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/Microsoft.JSInterop.WebAssembly.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/Microsoft.JSInterop.WebAssembly.dll.br"
@@ -597,7 +587,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/Microsoft.JSInterop.WebAssembly.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/Microsoft.JSInterop.WebAssembly.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/Microsoft.JSInterop.WebAssembly.dll.gz"
@@ -607,7 +597,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/Microsoft.JSInterop.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/Microsoft.JSInterop.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/Microsoft.JSInterop.dll"
@@ -617,7 +607,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/Microsoft.JSInterop.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/Microsoft.JSInterop.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/Microsoft.JSInterop.dll.br"
@@ -627,7 +617,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/Microsoft.JSInterop.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/Microsoft.JSInterop.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/Microsoft.JSInterop.dll.gz"
@@ -637,7 +627,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Collections.Concurrent.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Collections.Concurrent.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Collections.Concurrent.dll"
@@ -647,7 +637,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Collections.Concurrent.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Collections.Concurrent.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Collections.Concurrent.dll.br"
@@ -657,7 +647,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Collections.Concurrent.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Collections.Concurrent.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Collections.Concurrent.dll.gz"
@@ -667,7 +657,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Collections.Immutable.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Collections.Immutable.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Collections.Immutable.dll"
@@ -677,7 +667,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Collections.Immutable.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Collections.Immutable.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Collections.Immutable.dll.br"
@@ -687,7 +677,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Collections.Immutable.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Collections.Immutable.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Collections.Immutable.dll.gz"
@@ -697,7 +687,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Collections.NonGeneric.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Collections.NonGeneric.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Collections.NonGeneric.dll"
@@ -707,7 +697,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Collections.NonGeneric.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Collections.NonGeneric.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Collections.NonGeneric.dll.br"
@@ -717,7 +707,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Collections.NonGeneric.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Collections.NonGeneric.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Collections.NonGeneric.dll.gz"
@@ -727,7 +717,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Collections.Specialized.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Collections.Specialized.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Collections.Specialized.dll"
@@ -737,7 +727,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Collections.Specialized.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Collections.Specialized.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Collections.Specialized.dll.br"
@@ -747,7 +737,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Collections.Specialized.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Collections.Specialized.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Collections.Specialized.dll.gz"
@@ -757,7 +747,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Collections.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Collections.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Collections.dll"
@@ -767,7 +757,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Collections.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Collections.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Collections.dll.br"
@@ -777,7 +767,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Collections.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Collections.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Collections.dll.gz"
@@ -787,7 +777,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.ComponentModel.Annotations.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/System.ComponentModel.Annotations.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.ComponentModel.Annotations.dll"
@@ -797,7 +787,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.ComponentModel.Annotations.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/System.ComponentModel.Annotations.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.ComponentModel.Annotations.dll.br"
@@ -807,7 +797,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.ComponentModel.Annotations.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/System.ComponentModel.Annotations.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.ComponentModel.Annotations.dll.gz"
@@ -817,7 +807,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.ComponentModel.Primitives.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/System.ComponentModel.Primitives.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.ComponentModel.Primitives.dll"
@@ -827,7 +817,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.ComponentModel.Primitives.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/System.ComponentModel.Primitives.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.ComponentModel.Primitives.dll.br"
@@ -837,7 +827,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.ComponentModel.Primitives.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/System.ComponentModel.Primitives.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.ComponentModel.Primitives.dll.gz"
@@ -847,7 +837,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.ComponentModel.TypeConverter.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/System.ComponentModel.TypeConverter.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.ComponentModel.TypeConverter.dll"
@@ -857,7 +847,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.ComponentModel.TypeConverter.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/System.ComponentModel.TypeConverter.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.ComponentModel.TypeConverter.dll.br"
@@ -867,7 +857,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.ComponentModel.TypeConverter.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/System.ComponentModel.TypeConverter.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.ComponentModel.TypeConverter.dll.gz"
@@ -877,7 +867,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.ComponentModel.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/System.ComponentModel.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.ComponentModel.dll"
@@ -887,7 +877,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.ComponentModel.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/System.ComponentModel.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.ComponentModel.dll.br"
@@ -897,7 +887,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.ComponentModel.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/System.ComponentModel.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.ComponentModel.dll.gz"
@@ -907,7 +897,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Console.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Console.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Console.dll"
@@ -917,7 +907,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Console.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Console.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Console.dll.br"
@@ -927,7 +917,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Console.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Console.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Console.dll.gz"
@@ -937,7 +927,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Diagnostics.StackTrace.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Diagnostics.StackTrace.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Diagnostics.StackTrace.dll"
@@ -947,7 +937,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Diagnostics.StackTrace.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Diagnostics.StackTrace.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Diagnostics.StackTrace.dll.br"
@@ -957,7 +947,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Diagnostics.StackTrace.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Diagnostics.StackTrace.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Diagnostics.StackTrace.dll.gz"
@@ -967,7 +957,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Diagnostics.TextWriterTraceListener.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Diagnostics.TextWriterTraceListener.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Diagnostics.TextWriterTraceListener.dll"
@@ -977,7 +967,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Diagnostics.TextWriterTraceListener.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Diagnostics.TextWriterTraceListener.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Diagnostics.TextWriterTraceListener.dll.br"
@@ -987,7 +977,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Diagnostics.TextWriterTraceListener.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Diagnostics.TextWriterTraceListener.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Diagnostics.TextWriterTraceListener.dll.gz"
@@ -997,7 +987,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Diagnostics.TraceSource.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Diagnostics.TraceSource.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Diagnostics.TraceSource.dll"
@@ -1007,7 +997,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Diagnostics.TraceSource.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Diagnostics.TraceSource.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Diagnostics.TraceSource.dll.br"
@@ -1017,7 +1007,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Diagnostics.TraceSource.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Diagnostics.TraceSource.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Diagnostics.TraceSource.dll.gz"
@@ -1027,7 +1017,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Diagnostics.Tracing.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Diagnostics.Tracing.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Diagnostics.Tracing.dll"
@@ -1037,7 +1027,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Diagnostics.Tracing.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Diagnostics.Tracing.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Diagnostics.Tracing.dll.br"
@@ -1047,7 +1037,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Diagnostics.Tracing.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Diagnostics.Tracing.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Diagnostics.Tracing.dll.gz"
@@ -1057,7 +1047,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Globalization.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Globalization.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Globalization.dll"
@@ -1067,7 +1057,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Globalization.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Globalization.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Globalization.dll.br"
@@ -1077,7 +1067,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Globalization.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Globalization.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Globalization.dll.gz"
@@ -1087,7 +1077,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.IO.Compression.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/System.IO.Compression.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.IO.Compression.dll"
@@ -1097,7 +1087,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.IO.Compression.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/System.IO.Compression.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.IO.Compression.dll.br"
@@ -1107,7 +1097,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.IO.Compression.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/System.IO.Compression.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.IO.Compression.dll.gz"
@@ -1117,7 +1107,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.IO.MemoryMappedFiles.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/System.IO.MemoryMappedFiles.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.IO.MemoryMappedFiles.dll"
@@ -1127,7 +1117,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.IO.MemoryMappedFiles.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/System.IO.MemoryMappedFiles.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.IO.MemoryMappedFiles.dll.br"
@@ -1137,7 +1127,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.IO.MemoryMappedFiles.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/System.IO.MemoryMappedFiles.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.IO.MemoryMappedFiles.dll.gz"
@@ -1147,7 +1137,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Linq.Expressions.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Linq.Expressions.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Linq.Expressions.dll"
@@ -1157,7 +1147,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Linq.Expressions.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Linq.Expressions.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Linq.Expressions.dll.br"
@@ -1167,7 +1157,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Linq.Expressions.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Linq.Expressions.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Linq.Expressions.dll.gz"
@@ -1177,7 +1167,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Linq.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Linq.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Linq.dll"
@@ -1187,7 +1177,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Linq.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Linq.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Linq.dll.br"
@@ -1197,7 +1187,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Linq.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Linq.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Linq.dll.gz"
@@ -1207,7 +1197,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Memory.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Memory.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Memory.dll"
@@ -1217,7 +1207,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Memory.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Memory.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Memory.dll.br"
@@ -1227,7 +1217,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Memory.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Memory.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Memory.dll.gz"
@@ -1237,7 +1227,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Net.Http.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Net.Http.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Net.Http.dll"
@@ -1247,7 +1237,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Net.Http.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Net.Http.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Net.Http.dll.br"
@@ -1257,7 +1247,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Net.Http.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Net.Http.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Net.Http.dll.gz"
@@ -1267,7 +1257,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Net.Primitives.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Net.Primitives.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Net.Primitives.dll"
@@ -1277,7 +1267,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Net.Primitives.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Net.Primitives.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Net.Primitives.dll.br"
@@ -1287,7 +1277,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Net.Primitives.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Net.Primitives.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Net.Primitives.dll.gz"
@@ -1297,7 +1287,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.ObjectModel.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/System.ObjectModel.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.ObjectModel.dll"
@@ -1307,7 +1297,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.ObjectModel.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/System.ObjectModel.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.ObjectModel.dll.br"
@@ -1317,7 +1307,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.ObjectModel.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/System.ObjectModel.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.ObjectModel.dll.gz"
@@ -1327,7 +1317,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Private.CoreLib.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Private.CoreLib.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Private.CoreLib.dll"
@@ -1337,7 +1327,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Private.CoreLib.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Private.CoreLib.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Private.CoreLib.dll.br"
@@ -1347,7 +1337,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Private.CoreLib.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Private.CoreLib.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Private.CoreLib.dll.gz"
@@ -1357,7 +1347,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Private.Uri.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Private.Uri.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Private.Uri.dll"
@@ -1367,7 +1357,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Private.Uri.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Private.Uri.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Private.Uri.dll.br"
@@ -1377,7 +1367,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Private.Uri.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Private.Uri.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Private.Uri.dll.gz"
@@ -1387,7 +1377,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Private.Xml.Linq.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Private.Xml.Linq.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Private.Xml.Linq.dll"
@@ -1397,7 +1387,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Private.Xml.Linq.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Private.Xml.Linq.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Private.Xml.Linq.dll.br"
@@ -1407,7 +1397,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Private.Xml.Linq.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Private.Xml.Linq.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Private.Xml.Linq.dll.gz"
@@ -1417,7 +1407,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Private.Xml.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Private.Xml.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Private.Xml.dll"
@@ -1427,7 +1417,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Private.Xml.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Private.Xml.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Private.Xml.dll.br"
@@ -1437,7 +1427,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Private.Xml.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Private.Xml.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Private.Xml.dll.gz"
@@ -1447,7 +1437,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Reflection.Metadata.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Reflection.Metadata.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Reflection.Metadata.dll"
@@ -1457,7 +1447,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Reflection.Metadata.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Reflection.Metadata.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Reflection.Metadata.dll.br"
@@ -1467,7 +1457,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Reflection.Metadata.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Reflection.Metadata.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Reflection.Metadata.dll.gz"
@@ -1477,7 +1467,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Reflection.Primitives.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Reflection.Primitives.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Reflection.Primitives.dll"
@@ -1487,7 +1477,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Reflection.Primitives.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Reflection.Primitives.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Reflection.Primitives.dll.br"
@@ -1497,7 +1487,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Reflection.Primitives.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Reflection.Primitives.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Reflection.Primitives.dll.gz"
@@ -1507,7 +1497,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Runtime.InteropServices.JavaScript.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Runtime.InteropServices.JavaScript.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Runtime.InteropServices.JavaScript.dll"
@@ -1517,7 +1507,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Runtime.InteropServices.JavaScript.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Runtime.InteropServices.JavaScript.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Runtime.InteropServices.JavaScript.dll.br"
@@ -1527,7 +1517,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Runtime.InteropServices.JavaScript.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Runtime.InteropServices.JavaScript.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Runtime.InteropServices.JavaScript.dll.gz"
@@ -1537,7 +1527,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Runtime.InteropServices.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Runtime.InteropServices.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Runtime.InteropServices.dll"
@@ -1547,7 +1537,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Runtime.InteropServices.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Runtime.InteropServices.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Runtime.InteropServices.dll.br"
@@ -1557,7 +1547,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Runtime.InteropServices.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Runtime.InteropServices.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Runtime.InteropServices.dll.gz"
@@ -1567,7 +1557,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Runtime.Loader.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Runtime.Loader.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Runtime.Loader.dll"
@@ -1577,7 +1567,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Runtime.Loader.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Runtime.Loader.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Runtime.Loader.dll.br"
@@ -1587,7 +1577,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Runtime.Loader.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Runtime.Loader.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Runtime.Loader.dll.gz"
@@ -1597,7 +1587,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Runtime.Numerics.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Runtime.Numerics.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Runtime.Numerics.dll"
@@ -1607,7 +1597,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Runtime.Numerics.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Runtime.Numerics.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Runtime.Numerics.dll.br"
@@ -1617,7 +1607,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Runtime.Numerics.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Runtime.Numerics.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Runtime.Numerics.dll.gz"
@@ -1627,7 +1617,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Runtime.Serialization.Primitives.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Runtime.Serialization.Primitives.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Runtime.Serialization.Primitives.dll"
@@ -1637,7 +1627,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Runtime.Serialization.Primitives.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Runtime.Serialization.Primitives.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Runtime.Serialization.Primitives.dll.br"
@@ -1647,7 +1637,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Runtime.Serialization.Primitives.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Runtime.Serialization.Primitives.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Runtime.Serialization.Primitives.dll.gz"
@@ -1657,7 +1647,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Runtime.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Runtime.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Runtime.dll"
@@ -1667,7 +1657,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Runtime.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Runtime.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Runtime.dll.br"
@@ -1677,7 +1667,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Runtime.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Runtime.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Runtime.dll.gz"
@@ -1687,7 +1677,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Security.Cryptography.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Security.Cryptography.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Security.Cryptography.dll"
@@ -1697,7 +1687,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Security.Cryptography.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Security.Cryptography.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Security.Cryptography.dll.br"
@@ -1707,7 +1697,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Security.Cryptography.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Security.Cryptography.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Security.Cryptography.dll.gz"
@@ -1717,7 +1707,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Text.Encoding.CodePages.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Text.Encoding.CodePages.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Text.Encoding.CodePages.dll"
@@ -1727,7 +1717,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Text.Encoding.CodePages.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Text.Encoding.CodePages.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Text.Encoding.CodePages.dll.br"
@@ -1737,7 +1727,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Text.Encoding.CodePages.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Text.Encoding.CodePages.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Text.Encoding.CodePages.dll.gz"
@@ -1747,7 +1737,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Text.Encoding.Extensions.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Text.Encoding.Extensions.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Text.Encoding.Extensions.dll"
@@ -1757,7 +1747,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Text.Encoding.Extensions.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Text.Encoding.Extensions.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Text.Encoding.Extensions.dll.br"
@@ -1767,7 +1757,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Text.Encoding.Extensions.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Text.Encoding.Extensions.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Text.Encoding.Extensions.dll.gz"
@@ -1777,7 +1767,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Text.Encodings.Web.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Text.Encodings.Web.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Text.Encodings.Web.dll"
@@ -1787,7 +1777,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Text.Encodings.Web.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Text.Encodings.Web.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Text.Encodings.Web.dll.br"
@@ -1797,7 +1787,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Text.Encodings.Web.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Text.Encodings.Web.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Text.Encodings.Web.dll.gz"
@@ -1807,7 +1797,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Text.Json.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Text.Json.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Text.Json.dll"
@@ -1817,7 +1807,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Text.Json.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Text.Json.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Text.Json.dll.br"
@@ -1827,7 +1817,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Text.Json.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Text.Json.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Text.Json.dll.gz"
@@ -1837,7 +1827,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Text.RegularExpressions.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Text.RegularExpressions.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Text.RegularExpressions.dll"
@@ -1847,7 +1837,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Text.RegularExpressions.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Text.RegularExpressions.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Text.RegularExpressions.dll.br"
@@ -1857,7 +1847,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Text.RegularExpressions.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Text.RegularExpressions.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Text.RegularExpressions.dll.gz"
@@ -1867,7 +1857,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Threading.Tasks.Parallel.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Threading.Tasks.Parallel.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Threading.Tasks.Parallel.dll"
@@ -1877,7 +1867,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Threading.Tasks.Parallel.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Threading.Tasks.Parallel.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Threading.Tasks.Parallel.dll.br"
@@ -1887,7 +1877,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Threading.Tasks.Parallel.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Threading.Tasks.Parallel.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Threading.Tasks.Parallel.dll.gz"
@@ -1897,7 +1887,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Threading.Thread.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Threading.Thread.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Threading.Thread.dll"
@@ -1907,7 +1897,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Threading.Thread.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Threading.Thread.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Threading.Thread.dll.br"
@@ -1917,7 +1907,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Threading.Thread.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Threading.Thread.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Threading.Thread.dll.gz"
@@ -1927,7 +1917,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Threading.ThreadPool.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Threading.ThreadPool.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Threading.ThreadPool.dll"
@@ -1937,7 +1927,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Threading.ThreadPool.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Threading.ThreadPool.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Threading.ThreadPool.dll.br"
@@ -1947,7 +1937,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Threading.ThreadPool.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Threading.ThreadPool.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Threading.ThreadPool.dll.gz"
@@ -1957,7 +1947,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Threading.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Threading.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Threading.dll"
@@ -1967,7 +1957,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Threading.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Threading.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Threading.dll.br"
@@ -1977,7 +1967,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Threading.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Threading.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Threading.dll.gz"
@@ -1987,7 +1977,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Xml.Linq.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Xml.Linq.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Xml.Linq.dll"
@@ -1997,7 +1987,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Xml.Linq.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Xml.Linq.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Xml.Linq.dll.br"
@@ -2007,7 +1997,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Xml.Linq.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Xml.Linq.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Xml.Linq.dll.gz"
@@ -2017,7 +2007,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Xml.ReaderWriter.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Xml.ReaderWriter.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Xml.ReaderWriter.dll"
@@ -2027,7 +2017,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Xml.ReaderWriter.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Xml.ReaderWriter.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Xml.ReaderWriter.dll.br"
@@ -2037,7 +2027,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Xml.ReaderWriter.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Xml.ReaderWriter.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Xml.ReaderWriter.dll.gz"
@@ -2047,7 +2037,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Xml.XDocument.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Xml.XDocument.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Xml.XDocument.dll"
@@ -2057,7 +2047,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Xml.XDocument.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Xml.XDocument.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Xml.XDocument.dll.br"
@@ -2067,7 +2057,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Xml.XDocument.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Xml.XDocument.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Xml.XDocument.dll.gz"
@@ -2077,7 +2067,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Xml.XPath.XDocument.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Xml.XPath.XDocument.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Xml.XPath.XDocument.dll"
@@ -2087,7 +2077,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Xml.XPath.XDocument.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Xml.XPath.XDocument.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Xml.XPath.XDocument.dll.br"
@@ -2097,7 +2087,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.Xml.XPath.XDocument.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Xml.XPath.XDocument.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.Xml.XPath.XDocument.dll.gz"
@@ -2107,7 +2097,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/System.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.dll"
@@ -2117,7 +2107,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/System.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.dll.br"
@@ -2127,7 +2117,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/System.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/System.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.dll.gz"
@@ -2137,7 +2127,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/blazor.boot.json",
+      "source_relative_path": "BWA/wwwroot/_framework/blazor.boot.json",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/blazor.boot.json"
@@ -2147,7 +2137,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/blazor.boot.json.br",
+      "source_relative_path": "BWA/wwwroot/_framework/blazor.boot.json.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/blazor.boot.json.br"
@@ -2157,7 +2147,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/blazor.boot.json.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/blazor.boot.json.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/blazor.boot.json.gz"
@@ -2167,7 +2157,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/blazor.webassembly.js",
+      "source_relative_path": "BWA/wwwroot/_framework/blazor.webassembly.js",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/blazor.webassembly.js"
@@ -2177,7 +2167,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/blazor.webassembly.js.br",
+      "source_relative_path": "BWA/wwwroot/_framework/blazor.webassembly.js.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/blazor.webassembly.js.br"
@@ -2187,7 +2177,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/blazor.webassembly.js.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/blazor.webassembly.js.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/blazor.webassembly.js.gz"
@@ -2197,7 +2187,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/cs/Microsoft.CodeAnalysis.CSharp.resources.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/cs/Microsoft.CodeAnalysis.CSharp.resources.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/cs/Microsoft.CodeAnalysis.CSharp.resources.dll"
@@ -2207,7 +2197,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/cs/Microsoft.CodeAnalysis.CSharp.resources.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/cs/Microsoft.CodeAnalysis.CSharp.resources.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/cs/Microsoft.CodeAnalysis.CSharp.resources.dll.br"
@@ -2217,7 +2207,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/cs/Microsoft.CodeAnalysis.CSharp.resources.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/cs/Microsoft.CodeAnalysis.CSharp.resources.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/cs/Microsoft.CodeAnalysis.CSharp.resources.dll.gz"
@@ -2227,7 +2217,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/cs/Microsoft.CodeAnalysis.resources.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/cs/Microsoft.CodeAnalysis.resources.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/cs/Microsoft.CodeAnalysis.resources.dll"
@@ -2237,7 +2227,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/cs/Microsoft.CodeAnalysis.resources.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/cs/Microsoft.CodeAnalysis.resources.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/cs/Microsoft.CodeAnalysis.resources.dll.br"
@@ -2247,7 +2237,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/cs/Microsoft.CodeAnalysis.resources.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/cs/Microsoft.CodeAnalysis.resources.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/cs/Microsoft.CodeAnalysis.resources.dll.gz"
@@ -2257,7 +2247,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/de/Microsoft.CodeAnalysis.CSharp.resources.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/de/Microsoft.CodeAnalysis.CSharp.resources.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/de/Microsoft.CodeAnalysis.CSharp.resources.dll"
@@ -2267,7 +2257,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/de/Microsoft.CodeAnalysis.CSharp.resources.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/de/Microsoft.CodeAnalysis.CSharp.resources.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/de/Microsoft.CodeAnalysis.CSharp.resources.dll.br"
@@ -2277,7 +2267,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/de/Microsoft.CodeAnalysis.CSharp.resources.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/de/Microsoft.CodeAnalysis.CSharp.resources.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/de/Microsoft.CodeAnalysis.CSharp.resources.dll.gz"
@@ -2287,7 +2277,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/de/Microsoft.CodeAnalysis.resources.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/de/Microsoft.CodeAnalysis.resources.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/de/Microsoft.CodeAnalysis.resources.dll"
@@ -2297,7 +2287,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/de/Microsoft.CodeAnalysis.resources.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/de/Microsoft.CodeAnalysis.resources.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/de/Microsoft.CodeAnalysis.resources.dll.br"
@@ -2307,7 +2297,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/de/Microsoft.CodeAnalysis.resources.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/de/Microsoft.CodeAnalysis.resources.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/de/Microsoft.CodeAnalysis.resources.dll.gz"
@@ -2317,7 +2307,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/dotnet.7.0.11.fz6dzwl09u.js",
+      "source_relative_path": "BWA/wwwroot/_framework/dotnet.7.0.11.fz6dzwl09u.js",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/dotnet.7.0.11.fz6dzwl09u.js"
@@ -2327,7 +2317,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/dotnet.7.0.11.fz6dzwl09u.js.br",
+      "source_relative_path": "BWA/wwwroot/_framework/dotnet.7.0.11.fz6dzwl09u.js.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/dotnet.7.0.11.fz6dzwl09u.js.br"
@@ -2337,7 +2327,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/dotnet.7.0.11.fz6dzwl09u.js.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/dotnet.7.0.11.fz6dzwl09u.js.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/dotnet.7.0.11.fz6dzwl09u.js.gz"
@@ -2347,7 +2337,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/dotnet.timezones.blat",
+      "source_relative_path": "BWA/wwwroot/_framework/dotnet.timezones.blat",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/dotnet.timezones.blat"
@@ -2357,7 +2347,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/dotnet.timezones.blat.br",
+      "source_relative_path": "BWA/wwwroot/_framework/dotnet.timezones.blat.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/dotnet.timezones.blat.br"
@@ -2367,7 +2357,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/dotnet.timezones.blat.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/dotnet.timezones.blat.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/dotnet.timezones.blat.gz"
@@ -2377,7 +2367,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/dotnet.wasm",
+      "source_relative_path": "BWA/wwwroot/_framework/dotnet.wasm",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/dotnet.wasm"
@@ -2387,7 +2377,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/dotnet.wasm.br",
+      "source_relative_path": "BWA/wwwroot/_framework/dotnet.wasm.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/dotnet.wasm.br"
@@ -2397,7 +2387,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/dotnet.wasm.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/dotnet.wasm.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/dotnet.wasm.gz"
@@ -2407,7 +2397,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/es/Microsoft.CodeAnalysis.CSharp.resources.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/es/Microsoft.CodeAnalysis.CSharp.resources.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/es/Microsoft.CodeAnalysis.CSharp.resources.dll"
@@ -2417,7 +2407,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/es/Microsoft.CodeAnalysis.CSharp.resources.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/es/Microsoft.CodeAnalysis.CSharp.resources.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/es/Microsoft.CodeAnalysis.CSharp.resources.dll.br"
@@ -2427,7 +2417,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/es/Microsoft.CodeAnalysis.CSharp.resources.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/es/Microsoft.CodeAnalysis.CSharp.resources.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/es/Microsoft.CodeAnalysis.CSharp.resources.dll.gz"
@@ -2437,7 +2427,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/es/Microsoft.CodeAnalysis.resources.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/es/Microsoft.CodeAnalysis.resources.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/es/Microsoft.CodeAnalysis.resources.dll"
@@ -2447,7 +2437,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/es/Microsoft.CodeAnalysis.resources.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/es/Microsoft.CodeAnalysis.resources.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/es/Microsoft.CodeAnalysis.resources.dll.br"
@@ -2457,7 +2447,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/es/Microsoft.CodeAnalysis.resources.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/es/Microsoft.CodeAnalysis.resources.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/es/Microsoft.CodeAnalysis.resources.dll.gz"
@@ -2467,7 +2457,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/fr/Microsoft.CodeAnalysis.CSharp.resources.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/fr/Microsoft.CodeAnalysis.CSharp.resources.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/fr/Microsoft.CodeAnalysis.CSharp.resources.dll"
@@ -2477,7 +2467,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/fr/Microsoft.CodeAnalysis.CSharp.resources.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/fr/Microsoft.CodeAnalysis.CSharp.resources.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/fr/Microsoft.CodeAnalysis.CSharp.resources.dll.br"
@@ -2487,7 +2477,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/fr/Microsoft.CodeAnalysis.CSharp.resources.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/fr/Microsoft.CodeAnalysis.CSharp.resources.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/fr/Microsoft.CodeAnalysis.CSharp.resources.dll.gz"
@@ -2497,7 +2487,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/fr/Microsoft.CodeAnalysis.resources.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/fr/Microsoft.CodeAnalysis.resources.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/fr/Microsoft.CodeAnalysis.resources.dll"
@@ -2507,7 +2497,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/fr/Microsoft.CodeAnalysis.resources.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/fr/Microsoft.CodeAnalysis.resources.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/fr/Microsoft.CodeAnalysis.resources.dll.br"
@@ -2517,7 +2507,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/fr/Microsoft.CodeAnalysis.resources.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/fr/Microsoft.CodeAnalysis.resources.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/fr/Microsoft.CodeAnalysis.resources.dll.gz"
@@ -2527,7 +2517,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/icudt.dat",
+      "source_relative_path": "BWA/wwwroot/_framework/icudt.dat",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/icudt.dat"
@@ -2537,7 +2527,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/icudt.dat.br",
+      "source_relative_path": "BWA/wwwroot/_framework/icudt.dat.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/icudt.dat.br"
@@ -2547,7 +2537,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/icudt.dat.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/icudt.dat.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/icudt.dat.gz"
@@ -2557,7 +2547,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/icudt_CJK.dat",
+      "source_relative_path": "BWA/wwwroot/_framework/icudt_CJK.dat",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/icudt_CJK.dat"
@@ -2567,7 +2557,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/icudt_CJK.dat.br",
+      "source_relative_path": "BWA/wwwroot/_framework/icudt_CJK.dat.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/icudt_CJK.dat.br"
@@ -2577,7 +2567,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/icudt_CJK.dat.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/icudt_CJK.dat.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/icudt_CJK.dat.gz"
@@ -2587,7 +2577,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/icudt_EFIGS.dat",
+      "source_relative_path": "BWA/wwwroot/_framework/icudt_EFIGS.dat",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/icudt_EFIGS.dat"
@@ -2597,7 +2587,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/icudt_EFIGS.dat.br",
+      "source_relative_path": "BWA/wwwroot/_framework/icudt_EFIGS.dat.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/icudt_EFIGS.dat.br"
@@ -2607,7 +2597,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/icudt_EFIGS.dat.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/icudt_EFIGS.dat.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/icudt_EFIGS.dat.gz"
@@ -2617,7 +2607,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/icudt_no_CJK.dat",
+      "source_relative_path": "BWA/wwwroot/_framework/icudt_no_CJK.dat",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/icudt_no_CJK.dat"
@@ -2627,7 +2617,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/icudt_no_CJK.dat.br",
+      "source_relative_path": "BWA/wwwroot/_framework/icudt_no_CJK.dat.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/icudt_no_CJK.dat.br"
@@ -2637,7 +2627,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/icudt_no_CJK.dat.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/icudt_no_CJK.dat.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/icudt_no_CJK.dat.gz"
@@ -2647,7 +2637,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/it/Microsoft.CodeAnalysis.CSharp.resources.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/it/Microsoft.CodeAnalysis.CSharp.resources.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/it/Microsoft.CodeAnalysis.CSharp.resources.dll"
@@ -2657,7 +2647,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/it/Microsoft.CodeAnalysis.CSharp.resources.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/it/Microsoft.CodeAnalysis.CSharp.resources.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/it/Microsoft.CodeAnalysis.CSharp.resources.dll.br"
@@ -2667,7 +2657,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/it/Microsoft.CodeAnalysis.CSharp.resources.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/it/Microsoft.CodeAnalysis.CSharp.resources.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/it/Microsoft.CodeAnalysis.CSharp.resources.dll.gz"
@@ -2677,7 +2667,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/it/Microsoft.CodeAnalysis.resources.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/it/Microsoft.CodeAnalysis.resources.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/it/Microsoft.CodeAnalysis.resources.dll"
@@ -2687,7 +2677,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/it/Microsoft.CodeAnalysis.resources.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/it/Microsoft.CodeAnalysis.resources.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/it/Microsoft.CodeAnalysis.resources.dll.br"
@@ -2697,7 +2687,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/it/Microsoft.CodeAnalysis.resources.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/it/Microsoft.CodeAnalysis.resources.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/it/Microsoft.CodeAnalysis.resources.dll.gz"
@@ -2707,7 +2697,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/ja/Microsoft.CodeAnalysis.CSharp.resources.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/ja/Microsoft.CodeAnalysis.CSharp.resources.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/ja/Microsoft.CodeAnalysis.CSharp.resources.dll"
@@ -2717,7 +2707,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/ja/Microsoft.CodeAnalysis.CSharp.resources.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/ja/Microsoft.CodeAnalysis.CSharp.resources.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/ja/Microsoft.CodeAnalysis.CSharp.resources.dll.br"
@@ -2727,7 +2717,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/ja/Microsoft.CodeAnalysis.CSharp.resources.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/ja/Microsoft.CodeAnalysis.CSharp.resources.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/ja/Microsoft.CodeAnalysis.CSharp.resources.dll.gz"
@@ -2737,7 +2727,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/ja/Microsoft.CodeAnalysis.resources.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/ja/Microsoft.CodeAnalysis.resources.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/ja/Microsoft.CodeAnalysis.resources.dll"
@@ -2747,7 +2737,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/ja/Microsoft.CodeAnalysis.resources.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/ja/Microsoft.CodeAnalysis.resources.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/ja/Microsoft.CodeAnalysis.resources.dll.br"
@@ -2757,7 +2747,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/ja/Microsoft.CodeAnalysis.resources.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/ja/Microsoft.CodeAnalysis.resources.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/ja/Microsoft.CodeAnalysis.resources.dll.gz"
@@ -2767,7 +2757,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/ko/Microsoft.CodeAnalysis.CSharp.resources.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/ko/Microsoft.CodeAnalysis.CSharp.resources.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/ko/Microsoft.CodeAnalysis.CSharp.resources.dll"
@@ -2777,7 +2767,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/ko/Microsoft.CodeAnalysis.CSharp.resources.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/ko/Microsoft.CodeAnalysis.CSharp.resources.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/ko/Microsoft.CodeAnalysis.CSharp.resources.dll.br"
@@ -2787,7 +2777,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/ko/Microsoft.CodeAnalysis.CSharp.resources.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/ko/Microsoft.CodeAnalysis.CSharp.resources.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/ko/Microsoft.CodeAnalysis.CSharp.resources.dll.gz"
@@ -2797,7 +2787,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/ko/Microsoft.CodeAnalysis.resources.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/ko/Microsoft.CodeAnalysis.resources.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/ko/Microsoft.CodeAnalysis.resources.dll"
@@ -2807,7 +2797,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/ko/Microsoft.CodeAnalysis.resources.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/ko/Microsoft.CodeAnalysis.resources.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/ko/Microsoft.CodeAnalysis.resources.dll.br"
@@ -2817,7 +2807,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/ko/Microsoft.CodeAnalysis.resources.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/ko/Microsoft.CodeAnalysis.resources.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/ko/Microsoft.CodeAnalysis.resources.dll.gz"
@@ -2827,7 +2817,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/pl/Microsoft.CodeAnalysis.CSharp.resources.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/pl/Microsoft.CodeAnalysis.CSharp.resources.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/pl/Microsoft.CodeAnalysis.CSharp.resources.dll"
@@ -2837,7 +2827,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/pl/Microsoft.CodeAnalysis.CSharp.resources.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/pl/Microsoft.CodeAnalysis.CSharp.resources.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/pl/Microsoft.CodeAnalysis.CSharp.resources.dll.br"
@@ -2847,7 +2837,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/pl/Microsoft.CodeAnalysis.CSharp.resources.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/pl/Microsoft.CodeAnalysis.CSharp.resources.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/pl/Microsoft.CodeAnalysis.CSharp.resources.dll.gz"
@@ -2857,7 +2847,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/pl/Microsoft.CodeAnalysis.resources.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/pl/Microsoft.CodeAnalysis.resources.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/pl/Microsoft.CodeAnalysis.resources.dll"
@@ -2867,7 +2857,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/pl/Microsoft.CodeAnalysis.resources.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/pl/Microsoft.CodeAnalysis.resources.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/pl/Microsoft.CodeAnalysis.resources.dll.br"
@@ -2877,7 +2867,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/pl/Microsoft.CodeAnalysis.resources.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/pl/Microsoft.CodeAnalysis.resources.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/pl/Microsoft.CodeAnalysis.resources.dll.gz"
@@ -2887,7 +2877,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll"
@@ -2897,7 +2887,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll.br"
@@ -2907,7 +2897,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll.gz"
@@ -2917,7 +2907,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/pt-BR/Microsoft.CodeAnalysis.resources.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/pt-BR/Microsoft.CodeAnalysis.resources.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/pt-BR/Microsoft.CodeAnalysis.resources.dll"
@@ -2927,7 +2917,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/pt-BR/Microsoft.CodeAnalysis.resources.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/pt-BR/Microsoft.CodeAnalysis.resources.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/pt-BR/Microsoft.CodeAnalysis.resources.dll.br"
@@ -2937,7 +2927,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/pt-BR/Microsoft.CodeAnalysis.resources.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/pt-BR/Microsoft.CodeAnalysis.resources.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/pt-BR/Microsoft.CodeAnalysis.resources.dll.gz"
@@ -2947,7 +2937,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/ru/Microsoft.CodeAnalysis.CSharp.resources.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/ru/Microsoft.CodeAnalysis.CSharp.resources.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/ru/Microsoft.CodeAnalysis.CSharp.resources.dll"
@@ -2957,7 +2947,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/ru/Microsoft.CodeAnalysis.CSharp.resources.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/ru/Microsoft.CodeAnalysis.CSharp.resources.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/ru/Microsoft.CodeAnalysis.CSharp.resources.dll.br"
@@ -2967,7 +2957,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/ru/Microsoft.CodeAnalysis.CSharp.resources.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/ru/Microsoft.CodeAnalysis.CSharp.resources.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/ru/Microsoft.CodeAnalysis.CSharp.resources.dll.gz"
@@ -2977,7 +2967,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/ru/Microsoft.CodeAnalysis.resources.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/ru/Microsoft.CodeAnalysis.resources.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/ru/Microsoft.CodeAnalysis.resources.dll"
@@ -2987,7 +2977,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/ru/Microsoft.CodeAnalysis.resources.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/ru/Microsoft.CodeAnalysis.resources.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/ru/Microsoft.CodeAnalysis.resources.dll.br"
@@ -2997,7 +2987,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/ru/Microsoft.CodeAnalysis.resources.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/ru/Microsoft.CodeAnalysis.resources.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/ru/Microsoft.CodeAnalysis.resources.dll.gz"
@@ -3007,7 +2997,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/tr/Microsoft.CodeAnalysis.CSharp.resources.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/tr/Microsoft.CodeAnalysis.CSharp.resources.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/tr/Microsoft.CodeAnalysis.CSharp.resources.dll"
@@ -3017,7 +3007,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/tr/Microsoft.CodeAnalysis.CSharp.resources.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/tr/Microsoft.CodeAnalysis.CSharp.resources.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/tr/Microsoft.CodeAnalysis.CSharp.resources.dll.br"
@@ -3027,7 +3017,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/tr/Microsoft.CodeAnalysis.CSharp.resources.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/tr/Microsoft.CodeAnalysis.CSharp.resources.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/tr/Microsoft.CodeAnalysis.CSharp.resources.dll.gz"
@@ -3037,7 +3027,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/tr/Microsoft.CodeAnalysis.resources.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/tr/Microsoft.CodeAnalysis.resources.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/tr/Microsoft.CodeAnalysis.resources.dll"
@@ -3047,7 +3037,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/tr/Microsoft.CodeAnalysis.resources.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/tr/Microsoft.CodeAnalysis.resources.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/tr/Microsoft.CodeAnalysis.resources.dll.br"
@@ -3057,7 +3047,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/tr/Microsoft.CodeAnalysis.resources.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/tr/Microsoft.CodeAnalysis.resources.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/tr/Microsoft.CodeAnalysis.resources.dll.gz"
@@ -3067,7 +3057,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll"
@@ -3077,7 +3067,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll.br"
@@ -3087,7 +3077,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll.gz"
@@ -3097,7 +3087,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/zh-Hans/Microsoft.CodeAnalysis.resources.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/zh-Hans/Microsoft.CodeAnalysis.resources.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/zh-Hans/Microsoft.CodeAnalysis.resources.dll"
@@ -3107,7 +3097,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/zh-Hans/Microsoft.CodeAnalysis.resources.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/zh-Hans/Microsoft.CodeAnalysis.resources.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/zh-Hans/Microsoft.CodeAnalysis.resources.dll.br"
@@ -3117,7 +3107,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/zh-Hans/Microsoft.CodeAnalysis.resources.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/zh-Hans/Microsoft.CodeAnalysis.resources.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/zh-Hans/Microsoft.CodeAnalysis.resources.dll.gz"
@@ -3127,7 +3117,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll"
@@ -3137,7 +3127,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll.br"
@@ -3147,7 +3137,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll.gz"
@@ -3157,7 +3147,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/zh-Hant/Microsoft.CodeAnalysis.resources.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/zh-Hant/Microsoft.CodeAnalysis.resources.dll",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/zh-Hant/Microsoft.CodeAnalysis.resources.dll"
@@ -3167,7 +3157,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/zh-Hant/Microsoft.CodeAnalysis.resources.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/zh-Hant/Microsoft.CodeAnalysis.resources.dll.br",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/zh-Hant/Microsoft.CodeAnalysis.resources.dll.br"
@@ -3177,7 +3167,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/_framework/zh-Hant/Microsoft.CodeAnalysis.resources.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/zh-Hant/Microsoft.CodeAnalysis.resources.dll.gz",
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/zh-Hant/Microsoft.CodeAnalysis.resources.dll.gz"
@@ -3187,7 +3177,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/css/app.css",
+      "source_relative_path": "BWA/wwwroot/css/app.css",
       "output": {
         "resource": {
           "relative_path": "BWA/css/app.css"
@@ -3197,7 +3187,7 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/index.html",
+      "source_relative_path": "BWA/wwwroot/index.html",
       "output": {
         "resource": {
           "relative_path": "BWA/index.html"
