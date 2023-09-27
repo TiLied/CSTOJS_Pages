@@ -32798,22 +32798,22 @@ references:
   isSpec: "True"
   fullName: CSharpToJavaScript.CSTOJS.GenerateOneAsync
   nameWithType: CSTOJS.GenerateOneAsync
-- uid: CSharpToJavaScript.CSTOJS.GenerateOneFromStringAsync(System.String,System.Collections.Generic.List{Microsoft.CodeAnalysis.MetadataReference})
-  name: GenerateOneFromStringAsync(string, List<MetadataReference>?)
-  href: api/CSharpToJavaScript.CSTOJS.html#CSharpToJavaScript_CSTOJS_GenerateOneFromStringAsync_System_String_System_Collections_Generic_List_Microsoft_CodeAnalysis_MetadataReference__
-  commentId: M:CSharpToJavaScript.CSTOJS.GenerateOneFromStringAsync(System.String,System.Collections.Generic.List{Microsoft.CodeAnalysis.MetadataReference})
-  name.vb: GenerateOneFromStringAsync(String, List(Of MetadataReference))
-  fullName: CSharpToJavaScript.CSTOJS.GenerateOneFromStringAsync(string, System.Collections.Generic.List<Microsoft.CodeAnalysis.MetadataReference>?)
-  fullName.vb: CSharpToJavaScript.CSTOJS.GenerateOneFromStringAsync(String, System.Collections.Generic.List(Of Microsoft.CodeAnalysis.MetadataReference))
-  nameWithType: CSTOJS.GenerateOneFromStringAsync(string, List<MetadataReference>?)
-  nameWithType.vb: CSTOJS.GenerateOneFromStringAsync(String, List(Of MetadataReference))
-- uid: CSharpToJavaScript.CSTOJS.GenerateOneFromStringAsync*
-  name: GenerateOneFromStringAsync
-  href: api/CSharpToJavaScript.CSTOJS.html#CSharpToJavaScript_CSTOJS_GenerateOneFromStringAsync_
-  commentId: Overload:CSharpToJavaScript.CSTOJS.GenerateOneFromStringAsync
+- uid: CSharpToJavaScript.CSTOJS.GenerateOneFromString(System.String,System.Collections.Generic.List{Microsoft.CodeAnalysis.MetadataReference})
+  name: GenerateOneFromString(string, List<MetadataReference>?)
+  href: api/CSharpToJavaScript.CSTOJS.html#CSharpToJavaScript_CSTOJS_GenerateOneFromString_System_String_System_Collections_Generic_List_Microsoft_CodeAnalysis_MetadataReference__
+  commentId: M:CSharpToJavaScript.CSTOJS.GenerateOneFromString(System.String,System.Collections.Generic.List{Microsoft.CodeAnalysis.MetadataReference})
+  name.vb: GenerateOneFromString(String, List(Of MetadataReference))
+  fullName: CSharpToJavaScript.CSTOJS.GenerateOneFromString(string, System.Collections.Generic.List<Microsoft.CodeAnalysis.MetadataReference>?)
+  fullName.vb: CSharpToJavaScript.CSTOJS.GenerateOneFromString(String, System.Collections.Generic.List(Of Microsoft.CodeAnalysis.MetadataReference))
+  nameWithType: CSTOJS.GenerateOneFromString(string, List<MetadataReference>?)
+  nameWithType.vb: CSTOJS.GenerateOneFromString(String, List(Of MetadataReference))
+- uid: CSharpToJavaScript.CSTOJS.GenerateOneFromString*
+  name: GenerateOneFromString
+  href: api/CSharpToJavaScript.CSTOJS.html#CSharpToJavaScript_CSTOJS_GenerateOneFromString_
+  commentId: Overload:CSharpToJavaScript.CSTOJS.GenerateOneFromString
   isSpec: "True"
-  fullName: CSharpToJavaScript.CSTOJS.GenerateOneFromStringAsync
-  nameWithType: CSTOJS.GenerateOneFromStringAsync
+  fullName: CSharpToJavaScript.CSTOJS.GenerateOneFromString
+  nameWithType: CSTOJS.GenerateOneFromString
 - uid: CSharpToJavaScript.CSTOJS.Log(System.String,System.String,System.String,System.Int32)
   name: Log(string, string?, string?, int)
   href: api/CSharpToJavaScript.CSTOJS.html#CSharpToJavaScript_CSTOJS_Log_System_String_System_String_System_String_System_Int32_
@@ -32830,19 +32830,6 @@ references:
   isSpec: "True"
   fullName: CSharpToJavaScript.CSTOJS.Log
   nameWithType: CSTOJS.Log
-- uid: CSharpToJavaScript.CSTOJS.Model
-  name: Model
-  href: api/CSharpToJavaScript.CSTOJS.html#CSharpToJavaScript_CSTOJS_Model
-  commentId: P:CSharpToJavaScript.CSTOJS.Model
-  fullName: CSharpToJavaScript.CSTOJS.Model
-  nameWithType: CSTOJS.Model
-- uid: CSharpToJavaScript.CSTOJS.Model*
-  name: Model
-  href: api/CSharpToJavaScript.CSTOJS.html#CSharpToJavaScript_CSTOJS_Model_
-  commentId: Overload:CSharpToJavaScript.CSTOJS.Model
-  isSpec: "True"
-  fullName: CSharpToJavaScript.CSTOJS.Model
-  nameWithType: CSTOJS.Model
 - uid: CSharpToJavaScript.CSTOJS.Options
   name: Options
   href: api/CSharpToJavaScript.CSTOJS.html#CSharpToJavaScript_CSTOJS_Options
@@ -32959,6 +32946,19 @@ references:
   isSpec: "True"
   fullName: CSharpToJavaScript.CSTOJSOptions.DisableConsoleColors
   nameWithType: CSTOJSOptions.DisableConsoleColors
+- uid: CSharpToJavaScript.CSTOJSOptions.DisableConsoleOutput
+  name: DisableConsoleOutput
+  href: api/CSharpToJavaScript.CSTOJSOptions.html#CSharpToJavaScript_CSTOJSOptions_DisableConsoleOutput
+  commentId: P:CSharpToJavaScript.CSTOJSOptions.DisableConsoleOutput
+  fullName: CSharpToJavaScript.CSTOJSOptions.DisableConsoleOutput
+  nameWithType: CSTOJSOptions.DisableConsoleOutput
+- uid: CSharpToJavaScript.CSTOJSOptions.DisableConsoleOutput*
+  name: DisableConsoleOutput
+  href: api/CSharpToJavaScript.CSTOJSOptions.html#CSharpToJavaScript_CSTOJSOptions_DisableConsoleOutput_
+  commentId: Overload:CSharpToJavaScript.CSTOJSOptions.DisableConsoleOutput
+  isSpec: "True"
+  fullName: CSharpToJavaScript.CSTOJSOptions.DisableConsoleOutput
+  nameWithType: CSTOJSOptions.DisableConsoleOutput
 - uid: CSharpToJavaScript.CSTOJSOptions.OutPutPath
   name: OutPutPath
   href: api/CSharpToJavaScript.CSTOJSOptions.html#CSharpToJavaScript_CSTOJSOptions_OutPutPath
