@@ -8,8 +8,8 @@
   "resources": {
     "assembly": {
       "CSharpToJavaScript.dll": "sha256-yrd\/MgpAQj+SzmQu4tyz6O7+bQsxQj4fHXNpx+PJzz0=",
-      "CSTOJS_BWA.dll": "sha256-cQGIhBgVJmHfV1Q6Yc4TSb+xiPuurS2HeBLFcGYdLQQ=",
-      "Microsoft.AspNetCore.Components.dll": "sha256-nB1NLRqiiSzaFI5tkv8EtOUuz6ChbTRhwNCNDtqAjFQ=",
+      "CSTOJS_BWA.dll": "sha256-3vXIbWyaCRAnOe63rlM74c9ee3Ypq50lcysh\/I2Byuc=",
+      "Microsoft.AspNetCore.Components.dll": "sha256-LyAWA1zgM6zNtKGUZjl0g8pYMFgznaNBAF7nKcCgXO4=",
       "Microsoft.AspNetCore.Components.Forms.dll": "sha256-yxySASdoEQnPIg6UgjQ6wRDp12No9olYuP4CFSJk\/4Q=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-jKDy1j08YyqrgNZAWeXuYRV1po3U9buZ5P7mgQ1XPCA=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-XYM80863rCSqPKTIFsPNKnli9FGEN6ydRhJq9gbYJAE=",

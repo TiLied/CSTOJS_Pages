@@ -2,7 +2,7 @@
   "README.html": {
     "href": "README.html",
     "title": "CSTOJS_Pages | CSharpToJavaScript",
-    "keywords": "CSTOJS_Pages Website for CSharpToJavaScript. https://tilied.github.io/CSTOJS_Pages/"
+    "keywords": "CSTOJS_Pages Website for CSharpToJavaScript library. https://tilied.github.io/CSTOJS_Pages/ Related Repository Blazor WebAssembly: https://github.com/TiLied/CSTOJS_BWA CSharpToJavaScript library: https://github.com/TiLied/CSharpToJavaScript Library for generating docs: https://github.com/TiLied/GenDocsLib Library for generating csharp: https://github.com/TiLied/GenCSharpLib CLI for library: https://github.com/TiLied/CSTOJS_CLI Thanks for packages and content <3 docfx for generating static website."
   },
   "api/CSharpToJavaScript.APIs.JS.AbortController.html": {
     "href": "api/CSharpToJavaScript.APIs.JS.AbortController.html",
@@ -2122,6 +2122,6 @@
   "index.html": {
     "href": "index.html",
     "title": "CSharpToJavaScript documentation. | CSharpToJavaScript",
-    "keywords": "CSharpToJavaScript documentation. Github Nuget Visit articles for more examples. Try it online!"
+    "keywords": "CSharpToJavaScript documentation. Github Nuget CLI Visual Studio Extension Visual Studio Code Extension Visit articles for more examples. Try it online!"
   }
 }
