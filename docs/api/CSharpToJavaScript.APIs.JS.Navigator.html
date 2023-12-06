@@ -17,7 +17,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      
+      <meta name="docfx:docurl" content="https://github.com/TiLied/CSharpToJavaScript/new/master/apiSpec/new?filename=CSharpToJavaScript_APIs_JS_Navigator.md&amp;value=---%0Auid%3A%20CSharpToJavaScript.APIs.JS.Navigator%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -29,13 +29,10 @@
       <meta name="loc:themeAuto" content="Auto">
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
   </head>
 
-  <script type="module">
-    import options from './../public/main.js'
-    import { init } from './../public/docfx.min.js'
-    init(options)
-  </script>
+  <script type="module" src="./../public/docfx.min.js"></script>
 
   <script>
     const theme = localStorage.getItem('theme') || 'auto'
@@ -94,7 +91,7 @@
 
   <h1 id="CSharpToJavaScript_APIs_JS_Navigator" data-uid="CSharpToJavaScript.APIs.JS.Navigator" class="text-break">
     Class Navigator
-  
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16775"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -159,13 +156,490 @@ public class Navigator</code></pre>
 </div>
 
 
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_Navigator_Clipboard_" data-uid="CSharpToJavaScript.APIs.JS.Navigator.Clipboard*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_Navigator_Clipboard" data-uid="CSharpToJavaScript.APIs.JS.Navigator.Clipboard">
+  Clipboard
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4635"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <a href="https://developer.mozilla.org/en-US/docs/Web/API/Clipboard_API">Clipboard API</a> adds to the <strong><a class="xref" href="CSharpToJavaScript.APIs.JS.Navigator.html">Navigator</a></strong> interface the<br>read-only <strong><code>clipboard</code></strong> property, which returns the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Navigator.html#CSharpToJavaScript_APIs_JS_Navigator_Clipboard">Clipboard</a> object used to read and write the clipboard's<br>contents.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Clipboard Clipboard { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Clipboard.html">Clipboard</a></dt>
+    <dd><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.Navigator.html#CSharpToJavaScript_APIs_JS_Navigator_Clipboard">Clipboard</a> object used to access the system clipboard.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Navigator_Clipboard_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The Clipboard API can be used to implement cut, copy, and paste<br>features within a web application.</p><p>Use of the asynchronous clipboard read and write methods requires that the user grant<br>the website or app permission to access the clipboard. This permission must be obtained<br>from the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Permissions_API">Permissions API</a> using the<br><code>&amp;quot;clipboard-read&amp;quot;</code> and/or <code>&amp;quot;clipboard-write&amp;quot;</code> permissions.</p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Navigator/clipboard"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_Navigator_Contacts_" data-uid="CSharpToJavaScript.APIs.JS.Navigator.Contacts*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_Navigator_Contacts" data-uid="CSharpToJavaScript.APIs.JS.Navigator.Contacts">
+  Contacts
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4692"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>contacts</code></strong> read-only property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Navigator.html">Navigator</a> interface returns a 'ContactsManager' interface<br>which allows users to select entries from their contact list and share limited details<br>of the selected entries with a website or application.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ContactsManager Contacts { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.ContactsManager.html">ContactsManager</a></dt>
+    <dd><p>A 'ContactsManager' object. Two successive calls return the same object.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Navigator_Contacts_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a href="https://web.dev/contact-picker/">A Contact Picker for the Web</a><br>-<a href="https://contact-picker.glitch.me/">A Contact Picker demo on glitch</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Navigator/contacts"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_Navigator_Credentials_" data-uid="CSharpToJavaScript.APIs.JS.Navigator.Credentials*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_Navigator_Credentials" data-uid="CSharpToJavaScript.APIs.JS.Navigator.Credentials">
+  Credentials
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4851"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>credentials</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Navigator.html">Navigator</a><br>interface returns the <a class="xref" href="CSharpToJavaScript.APIs.JS.CredentialsContainer.html">CredentialsContainer</a> interface, which exposes<br>methods to request credentials. The <a class="xref" href="CSharpToJavaScript.APIs.JS.CredentialsContainer.html">CredentialsContainer</a> interface also<br>notifies the user agent when an interesting event occurs, such as a successful sign-in<br>or sign-out. This interface can be used for feature detection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CredentialsContainer Credentials { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.CredentialsContainer.html">CredentialsContainer</a></dt>
+    <dd><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.CredentialsContainer.html">CredentialsContainer</a> interface.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Navigator_Credentials_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Navigator/credentials"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_Navigator_MediaCapabilities_" data-uid="CSharpToJavaScript.APIs.JS.Navigator.MediaCapabilities*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_Navigator_MediaCapabilities" data-uid="CSharpToJavaScript.APIs.JS.Navigator.MediaCapabilities">
+  MediaCapabilities
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10068"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>Navigator.mediaCapabilities</code></strong> read-only property<br>returns a <a class="xref" href="CSharpToJavaScript.APIs.JS.Navigator.html#CSharpToJavaScript_APIs_JS_Navigator_MediaCapabilities">MediaCapabilities</a> object that can expose information about the<br>decoding and encoding capabilities for a given format and output capabilities as defined<br>by the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Media_Capabilities_API">Media Capabilities API</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MediaCapabilities MediaCapabilities { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.MediaCapabilities.html">MediaCapabilities</a></dt>
+    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.Navigator.html#CSharpToJavaScript_APIs_JS_Navigator_MediaCapabilities">MediaCapabilities</a> object.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Navigator_MediaCapabilities_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Media_Capabilities_API">Media Capabilities API</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Navigator.html">Navigator</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Navigator/mediaCapabilities"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_Navigator_MediaSession_" data-uid="CSharpToJavaScript.APIs.JS.Navigator.MediaSession*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_Navigator_MediaSession" data-uid="CSharpToJavaScript.APIs.JS.Navigator.MediaSession">
+  MediaSession
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10092"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The read-only <a class="xref" href="CSharpToJavaScript.APIs.JS.Navigator.html">Navigator</a> property<br><strong><code>mediaSession</code></strong> returns a <a class="xref" href="CSharpToJavaScript.APIs.JS.Navigator.html#CSharpToJavaScript_APIs_JS_Navigator_MediaSession">MediaSession</a><br>object that can be used to share with the browser metadata and other information about<br>the current playback state of media being handled by a document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MediaSession MediaSession { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.MediaSession.html">MediaSession</a></dt>
+    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.Navigator.html#CSharpToJavaScript_APIs_JS_Navigator_MediaSession">MediaSession</a> object the current document can use to share information<br>about media it&amp;apos;s playing and its current playback status. This information can include<br>typical metadata such as the title, artist, and album name of the song being played as<br>well as potentially one or more images containing things like album art, artist photos,<br>and so forth.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Navigator_MediaSession_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This<br>information may, in turn, be shared with the device and/or operating system in order to<br>a device&amp;apos;s standard media control user experience to describe and control the playback<br>of the media.</p><p>In addition, the <code>MediaSession</code> interface provides the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.MediaSession.html#CSharpToJavaScript_APIs_JS_MediaSession_SetActionHandler_CSharpToJavaScript_APIs_JS_MediaSessionAction_System_Nullable_CSharpToJavaScript_APIs_JS_MediaSessionActionHandler__">SetActionHandler(MediaSessionAction, MediaSessionActionHandler?)</a> method, which lets<br>you receive events when the user engages device controls such as either onscreen or<br>physical play, pause, seek, and other similar controls. An internet radio app, for<br>example, can use <code>setActionHandler()</code> to let the media controls on a keyboard<br>or elsewhere on the user&amp;apos;s device be used to control the app&amp;apos;s media playback.</p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Navigator/mediaSession"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_Navigator_ServiceWorker_" data-uid="CSharpToJavaScript.APIs.JS.Navigator.ServiceWorker*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_Navigator_ServiceWorker" data-uid="CSharpToJavaScript.APIs.JS.Navigator.ServiceWorker">
+  ServiceWorker
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L11046"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>Navigator.serviceWorker</code></strong><br>read-only property returns the <a class="xref" href="CSharpToJavaScript.APIs.JS.ServiceWorkerContainer.html">ServiceWorkerContainer</a> object for the <a href="https://html.spec.whatwg.org/multipage/browsers.html#concept-document-window">associated document</a>, which provides access to registration, removal, upgrade, and<br>communication with the <a class="xref" href="CSharpToJavaScript.APIs.JS.Navigator.html#CSharpToJavaScript_APIs_JS_Navigator_ServiceWorker">ServiceWorker</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ServiceWorkerContainer ServiceWorker { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.ServiceWorkerContainer.html">ServiceWorkerContainer</a></dt>
+    <dd><p><a class="xref" href="CSharpToJavaScript.APIs.JS.ServiceWorkerContainer.html">ServiceWorkerContainer</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Navigator_ServiceWorker_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The feature may not be available in private mode.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API">Service Worker API</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers">Using Service Workers</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Navigator/serviceWorker"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_Navigator_UserActivation_" data-uid="CSharpToJavaScript.APIs.JS.Navigator.UserActivation*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_Navigator_UserActivation" data-uid="CSharpToJavaScript.APIs.JS.Navigator.UserActivation">
+  UserActivation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L2684"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The read-only <strong><code>userActivation</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Navigator.html">Navigator</a> interface returns a <a class="xref" href="CSharpToJavaScript.APIs.JS.Navigator.html#CSharpToJavaScript_APIs_JS_Navigator_UserActivation">UserActivation</a> object which contains information about the current window's user activation state.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UserActivation UserActivation { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.UserActivation.html">UserActivation</a></dt>
+    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.Navigator.html#CSharpToJavaScript_APIs_JS_Navigator_UserActivation">UserActivation</a> object.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Navigator_UserActivation_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Navigator.html#CSharpToJavaScript_APIs_JS_Navigator_UserActivation">UserActivation</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.UserActivation.html#CSharpToJavaScript_APIs_JS_UserActivation_HasBeenActive">HasBeenActive</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.UserActivation.html#CSharpToJavaScript_APIs_JS_UserActivation_IsActive">IsActive</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/Security/User_activation">Features gated by user activation</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Navigator/userActivation"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_Navigator_Xr_" data-uid="CSharpToJavaScript.APIs.JS.Navigator.Xr*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_Navigator_Xr" data-uid="CSharpToJavaScript.APIs.JS.Navigator.Xr">
+  Xr
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16778"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The read-only <strong><code>xr</code></strong> property<br>provided by the <a class="xref" href="CSharpToJavaScript.APIs.JS.Navigator.html">Navigator</a> interface returns an <a class="xref" href="CSharpToJavaScript.APIs.JS.XRSystem.html">XRSystem</a> object<br>which can be used to access the <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebXR_Device_API">WebXR Device API</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public XRSystem Xr { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.XRSystem.html">XRSystem</a></dt>
+    <dd><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.XRSystem.html">XRSystem</a> object used to interface with the <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebXR_Device_API">WebXR Device API</a> in the current<br>context. This can be used to present augmented and/or virtual reality imagery to the<br>user.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Navigator_Xr_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API">WebGL API</a>: 2D and 3D accelerated<br>graphics for the web<br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API">Canvas API</a>: 2D graphics API<br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Navigator/xr"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_Navigator_GetAutoplayPolicy_" data-uid="CSharpToJavaScript.APIs.JS.Navigator.GetAutoplayPolicy*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_Navigator_GetAutoplayPolicy_CSharpToJavaScript_APIs_JS_AudioContext_" data-uid="CSharpToJavaScript.APIs.JS.Navigator.GetAutoplayPolicy(CSharpToJavaScript.APIs.JS.AudioContext)">
+  GetAutoplayPolicy(AudioContext)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4611"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>getAutoplayPolicy()</code></strong> method of the <strong>Autoplay Policy Detection API</strong> provides information about whether <a href="https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide">autoplay</a> of media elements and audio contexts is allowed, disallowed, or only allowed if the audio is muted.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AutoplayPolicy GetAutoplayPolicy(AudioContext context)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioContext.html">AudioContext</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.AutoplayPolicy.html">AutoplayPolicy</a></dt>
+    <dd><p>A string indicating the autoplay policy for the specified media feature type, element, or context.<br>This will be a string containing one of the following values:Note that the autoplay policy returned for a <code>type</code> parameter is the <strong>broad</strong> policy for items of the indicated type.<br>On page load, all items of a type will have the same policy as the type.<br>Once the user has interacted with the page/site, on some browsers individual items <strong>may</strong> have a different policy to the corresponding type.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Navigator_GetAutoplayPolicy_CSharpToJavaScript_APIs_JS_AudioContext__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Applications can use this information to provide an appropriate user experience.<br>For example, if the user agent policy only allows autoplay of inaudible content, the application might mute videos so that they can still autoplay.</p><p>The method can be used to get either the broad autoplay policy for all items of a particular type in the document, or for specific media elements or audio contexts.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide">Autoplay guide for media and Web Audio APIs</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Navigator/getAutoplayPolicy"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_Navigator_GetAutoplayPolicy_" data-uid="CSharpToJavaScript.APIs.JS.Navigator.GetAutoplayPolicy*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_Navigator_GetAutoplayPolicy_CSharpToJavaScript_APIs_JS_AutoplayPolicyMediaType_" data-uid="CSharpToJavaScript.APIs.JS.Navigator.GetAutoplayPolicy(CSharpToJavaScript.APIs.JS.AutoplayPolicyMediaType)">
+  GetAutoplayPolicy(AutoplayPolicyMediaType)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4607"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>getAutoplayPolicy()</code></strong> method of the <strong>Autoplay Policy Detection API</strong> provides information about whether <a href="https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide">autoplay</a> of media elements and audio contexts is allowed, disallowed, or only allowed if the audio is muted.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AutoplayPolicy GetAutoplayPolicy(AutoplayPolicyMediaType type)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>type</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.AutoplayPolicyMediaType.html">AutoplayPolicyMediaType</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.AutoplayPolicy.html">AutoplayPolicy</a></dt>
+    <dd><p>A string indicating the autoplay policy for the specified media feature type, element, or context.<br>This will be a string containing one of the following values:Note that the autoplay policy returned for a <code>type</code> parameter is the <strong>broad</strong> policy for items of the indicated type.<br>On page load, all items of a type will have the same policy as the type.<br>Once the user has interacted with the page/site, on some browsers individual items <strong>may</strong> have a different policy to the corresponding type.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Navigator_GetAutoplayPolicy_CSharpToJavaScript_APIs_JS_AutoplayPolicyMediaType__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Applications can use this information to provide an appropriate user experience.<br>For example, if the user agent policy only allows autoplay of inaudible content, the application might mute videos so that they can still autoplay.</p><p>The method can be used to get either the broad autoplay policy for all items of a particular type in the document, or for specific media elements or audio contexts.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide">Autoplay guide for media and Web Audio APIs</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Navigator/getAutoplayPolicy"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_Navigator_GetAutoplayPolicy_" data-uid="CSharpToJavaScript.APIs.JS.Navigator.GetAutoplayPolicy*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_Navigator_GetAutoplayPolicy_CSharpToJavaScript_APIs_JS_HTMLMediaElement_" data-uid="CSharpToJavaScript.APIs.JS.Navigator.GetAutoplayPolicy(CSharpToJavaScript.APIs.JS.HTMLMediaElement)">
+  GetAutoplayPolicy(HTMLMediaElement)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4609"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>getAutoplayPolicy()</code></strong> method of the <strong>Autoplay Policy Detection API</strong> provides information about whether <a href="https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide">autoplay</a> of media elements and audio contexts is allowed, disallowed, or only allowed if the audio is muted.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AutoplayPolicy GetAutoplayPolicy(HTMLMediaElement element)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.AutoplayPolicy.html">AutoplayPolicy</a></dt>
+    <dd><p>A string indicating the autoplay policy for the specified media feature type, element, or context.<br>This will be a string containing one of the following values:Note that the autoplay policy returned for a <code>type</code> parameter is the <strong>broad</strong> policy for items of the indicated type.<br>On page load, all items of a type will have the same policy as the type.<br>Once the user has interacted with the page/site, on some browsers individual items <strong>may</strong> have a different policy to the corresponding type.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Navigator_GetAutoplayPolicy_CSharpToJavaScript_APIs_JS_HTMLMediaElement__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Applications can use this information to provide an appropriate user experience.<br>For example, if the user agent policy only allows autoplay of inaudible content, the application might mute videos so that they can still autoplay.</p><p>The method can be used to get either the broad autoplay policy for all items of a particular type in the document, or for specific media elements or audio contexts.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide">Autoplay guide for media and Web Audio APIs</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Navigator/getAutoplayPolicy"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_Navigator_RequestMIDIAccess_" data-uid="CSharpToJavaScript.APIs.JS.Navigator.RequestMIDIAccess*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_Navigator_RequestMIDIAccess_CSharpToJavaScript_APIs_JS_MIDIOptions_" data-uid="CSharpToJavaScript.APIs.JS.Navigator.RequestMIDIAccess(CSharpToJavaScript.APIs.JS.MIDIOptions)">
+  RequestMIDIAccess(MIDIOptions)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L15439"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>requestMIDIAccess()</code></strong> method of the 'Navigator' interface returns a {{jsxref('Promise')}} representing a request for access to MIDI devices on a user's system.<br>This method is part of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_MIDI_API">Web MIDI API</a>, which provides a means for accessing, enumerating, and manipulating MIDI devices.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MIDIAccess&gt; RequestMIDIAccess(MIDIOptions options)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>options</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.MIDIOptions.html">MIDIOptions</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CSharpToJavaScript.APIs.JS.MIDIAccess.html">MIDIAccess</a>&gt;</dt>
+    <dd><p>A 'Promise' that resolves with a <a href="https://developer.mozilla.org/en-US/docs/Web/API/MIDIAccess"><code>MIDIAccess</code></a> object.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Navigator_RequestMIDIAccess_CSharpToJavaScript_APIs_JS_MIDIOptions__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This method may prompt the user for access to MIDI devices available to their system, or it may use a previously established preference to grant or deny access.<br>If permission is granted then the 'Promise' resolves and a <a href="https://developer.mozilla.org/en-US/docs/Web/API/MIDIAccess"><code>MIDIAccess</code></a> object is returned.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_MIDI_API">Web MIDI API</a><br>-<a href="https://code.tutsplus.com/tutorials/introduction-to-web-midi--cms-25220">Introduction to Web MIDI</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Navigator/requestMIDIAccess"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16775" class="edit-link">Edit this page</a>
         </div>
 
-        
+
       </div>
 
       <div class="affix">
@@ -175,7 +649,7 @@ public class Navigator</code></pre>
 
     <div class="container-xxl search-results" id="search-results"></div>
 
-    <footer class="border-top">
+    <footer class="border-top text-secondary">
       <div class="container-xxl">
         <div class="flex-fill">
           <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>

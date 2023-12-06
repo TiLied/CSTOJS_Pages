@@ -17,7 +17,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      
+      <meta name="docfx:docurl" content="https://github.com/TiLied/CSharpToJavaScript/new/master/apiSpec/new?filename=CSharpToJavaScript_APIs_JS_NotificationEvent.md&amp;value=---%0Auid%3A%20CSharpToJavaScript.APIs.JS.NotificationEvent%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -29,13 +29,10 @@
       <meta name="loc:themeAuto" content="Auto">
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
   </head>
 
-  <script type="module">
-    import options from './../public/main.js'
-    import { init } from './../public/docfx.min.js'
-    init(options)
-  </script>
+  <script type="module" src="./../public/docfx.min.js"></script>
 
   <script>
     const theme = localStorage.getItem('theme') || 'auto'
@@ -94,7 +91,7 @@
 
   <h1 id="CSharpToJavaScript_APIs_JS_NotificationEvent" data-uid="CSharpToJavaScript.APIs.JS.NotificationEvent" class="text-break">
     Class NotificationEvent
-  
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8544"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -102,13 +99,13 @@
   <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>The parameter passed into the ServiceWorkerGlobalScope.Notificationclick_event handler, the <code>NotificationEvent</code> interface represents a notification click event that is dispatched on the <a class="xref" href="CSharpToJavaScript.APIs.JS.ServiceWorkerGlobalScope.html">ServiceWorkerGlobalScope</a> of a ServiceWorker.</p>
+  <div class="markdown summary"><p>The parameter passed into the ServiceWorkerGlobalScope.Notificationclick_event handler, the <code>NotificationEvent</code> interface represents a notification click event that is dispatched on the <a class="xref" href="CSharpToJavaScript.APIs.JS.ServiceWorkerGlobalScope.html">ServiceWorkerGlobalScope</a> of a <a class="xref" href="CSharpToJavaScript.APIs.JS.ServiceWorker.html">ServiceWorker</a>.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
-public class NotificationEvent</code></pre>
+public class NotificationEvent : ExtendableEvent</code></pre>
   </div>
 
 
@@ -118,6 +115,8 @@ public class NotificationEvent</code></pre>
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html">Event</a></div>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.ExtendableEvent.html">ExtendableEvent</a></div>
       <div><span class="xref">NotificationEvent</span></div>
     </dd>
   </dl>
@@ -127,6 +126,75 @@ public class NotificationEvent</code></pre>
   <dl class="typelist derived">
     <dt>Inherited Members</dt>
     <dd>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.ExtendableEvent.html#CSharpToJavaScript_APIs_JS_ExtendableEvent_WaitUntil_System_Threading_Tasks_Task_System_Object__">ExtendableEvent.WaitUntil(Task&lt;dynamic&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_Type">Event.Type</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_Target">Event.Target</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_SrcElement">Event.SrcElement</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_CurrentTarget">Event.CurrentTarget</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_ComposedPath">Event.ComposedPath()</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_NONE">Event.NONE</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_CAPTURING_PHASE">Event.CAPTURING_PHASE</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_AT_TARGET">Event.AT_TARGET</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_BUBBLING_PHASE">Event.BUBBLING_PHASE</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_EventPhase">Event.EventPhase</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_StopPropagation">Event.StopPropagation()</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_CancelBubble">Event.CancelBubble</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_StopImmediatePropagation">Event.StopImmediatePropagation()</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_Bubbles">Event.Bubbles</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_Cancelable">Event.Cancelable</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_ReturnValue">Event.ReturnValue</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_PreventDefault">Event.PreventDefault()</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_DefaultPrevented">Event.DefaultPrevented</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_Composed">Event.Composed</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_IsTrusted">Event.IsTrusted</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_TimeStamp">Event.TimeStamp</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_InitEvent_System_String_System_Boolean_System_Boolean_">Event.InitEvent(string, bool, bool)</a>
+    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -154,7 +222,7 @@ public class NotificationEvent</code></pre>
 
 
   <h2 id="CSharpToJavaScript_APIs_JS_NotificationEvent_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>This interface inherits from the ExtendableEvent interface.</p><p></p>
+  <div class="markdown level0 remarks"><p>This interface inherits from the <a class="xref" href="CSharpToJavaScript.APIs.JS.ExtendableEvent.html">ExtendableEvent</a> interface.</p><p></p>
 <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/NotificationEvent"> <em>See also on MDN</em> </a></p>
 </div>
 
@@ -165,9 +233,35 @@ public class NotificationEvent</code></pre>
 
   <a id="CSharpToJavaScript_APIs_JS_NotificationEvent__ctor_" data-uid="CSharpToJavaScript.APIs.JS.NotificationEvent.#ctor*"></a>
 
+  <h3 id="CSharpToJavaScript_APIs_JS_NotificationEvent__ctor" data-uid="CSharpToJavaScript.APIs.JS.NotificationEvent.#ctor">
+  NotificationEvent()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8553"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NotificationEvent()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_NotificationEvent__ctor_" data-uid="CSharpToJavaScript.APIs.JS.NotificationEvent.#ctor*"></a>
+
   <h3 id="CSharpToJavaScript_APIs_JS_NotificationEvent__ctor_System_String_CSharpToJavaScript_APIs_JS_NotificationEventInit_" data-uid="CSharpToJavaScript.APIs.JS.NotificationEvent.#ctor(System.String,CSharpToJavaScript.APIs.JS.NotificationEventInit)">
   NotificationEvent(string, NotificationEventInit)
-  
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8548"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>NotificationEvent()</code></strong> constructor creates a new <a class="xref" href="CSharpToJavaScript.APIs.JS.NotificationEvent.html">NotificationEvent</a> object.</p>
@@ -208,7 +302,7 @@ public class NotificationEvent</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_NotificationEvent_Action" data-uid="CSharpToJavaScript.APIs.JS.NotificationEvent.Action">
   Action
-  
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8552"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Returns the string ID of the notification button the user clicked. This value returns an empty string if the user clicked the notification somewhere other than an action button, or the notification does not have a button. The notification id is set during the creation of the Notification via the actions array attribute and can&amp;apos;t be modified unless the notification is replaced.</p>
@@ -244,7 +338,7 @@ public class NotificationEvent</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_NotificationEvent_Notification" data-uid="CSharpToJavaScript.APIs.JS.NotificationEvent.Notification">
   Notification
-  
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8550"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <code>notification</code> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.NotificationEvent.html">NotificationEvent</a> interface returns the instance of the <a class="xref" href="CSharpToJavaScript.APIs.JS.NotificationEvent.html#CSharpToJavaScript_APIs_JS_NotificationEvent_Notification">Notification</a> that was clicked to fire the event. The <a class="xref" href="CSharpToJavaScript.APIs.JS.NotificationEvent.html#CSharpToJavaScript_APIs_JS_NotificationEvent_Notification">Notification</a> provides read-only access to many properties that were set at the instantiation time of the Notification such as <code>tag</code> and <code>data</code> attributes that allow you to store information for deferred use in the <code>notificationclick</code> event.</p>
@@ -280,9 +374,10 @@ public class NotificationEvent</code></pre>
 </article>
 
         <div class="contribution d-print-none">
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8544" class="edit-link">Edit this page</a>
         </div>
 
-        
+
       </div>
 
       <div class="affix">
@@ -292,7 +387,7 @@ public class NotificationEvent</code></pre>
 
     <div class="container-xxl search-results" id="search-results"></div>
 
-    <footer class="border-top">
+    <footer class="border-top text-secondary">
       <div class="container-xxl">
         <div class="flex-fill">
           <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>

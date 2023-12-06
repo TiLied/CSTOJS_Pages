@@ -1,0 +1,455 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class WebTransportDatagramDuplexStream
+ | CSharpToJavaScript </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class WebTransportDatagramDuplexStream
+ | CSharpToJavaScript ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/TiLied/CSharpToJavaScript/new/master/apiSpec/new?filename=CSharpToJavaScript_APIs_JS_WebTransportDatagramDuplexStream.md&amp;value=---%0Auid%3A%20CSharpToJavaScript.APIs.JS.WebTransportDatagramDuplexStream%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="CSharpToJavaScript.APIs.JS.WebTransportDatagramDuplexStream">
+
+
+
+  <h1 id="CSharpToJavaScript_APIs_JS_WebTransportDatagramDuplexStream" data-uid="CSharpToJavaScript.APIs.JS.WebTransportDatagramDuplexStream" class="text-break">
+    Class WebTransportDatagramDuplexStream
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16376"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CSharpToJavaScript.html">CSharpToJavaScript</a>.<a class="xref" href="CSharpToJavaScript.APIs.html">APIs</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.html">JS</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>The <strong><code>WebTransportDatagramDuplexStream</code></strong> interface of the {{domxref(&amp;quot;WebTransport API&amp;quot;, &amp;quot;WebTransport API&amp;quot;, &amp;quot;&amp;quot;, &quot;nocode&quot;)}} represents a duplex stream that can be used for unreliable transport of datagrams between client and server. Provides access to a <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStream.html">ReadableStream</a> for reading incoming datagrams, a <a class="xref" href="CSharpToJavaScript.APIs.JS.WritableStream.html">WritableStream</a> for writing outgoing datagrams, and various settings and statistics related to the stream.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public class WebTransportDatagramDuplexStream</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">WebTransportDatagramDuplexStream</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+  <h2 id="CSharpToJavaScript_APIs_JS_WebTransportDatagramDuplexStream_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>This is accessed via the <a class="xref" href="CSharpToJavaScript.APIs.JS.WebTransport.html#CSharpToJavaScript_APIs_JS_WebTransport_Datagrams">Datagrams</a> property.</p><p>&amp;quot;Unreliable&amp;quot; means that transmission of data is not guaranteed, nor is arrival in a specific order. This is fine in some situations and provides very fast delivery. For example, you might want to transmit regular game state updates where each message supersedes the last one that arrives, and order is not important.</p><p></p><p>AvailableInWorkers</p>
+<p>-<a href="https://web.dev/webtransport/">Using WebTransport</a><br>-{{domxref(&amp;quot;WebSockets API&amp;quot;, &amp;quot;WebSockets API&amp;quot;, &amp;quot;&amp;quot;, &amp;quot;nocode&amp;quot;)}}<br>-{{domxref(&amp;quot;Streams API&amp;quot;, &amp;quot;Streams API&amp;quot;, &amp;quot;&amp;quot;, &amp;quot;nocode&amp;quot;)}}<br>-<a href="https://datatracker.ietf.org/doc/html/draft-ietf-webtrans-http3/">WebTransport over HTTP/3</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/WebTransportDatagramDuplexStream"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_WebTransportDatagramDuplexStream_IncomingHighWaterMark_" data-uid="CSharpToJavaScript.APIs.JS.WebTransportDatagramDuplexStream.IncomingHighWaterMark*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_WebTransportDatagramDuplexStream_IncomingHighWaterMark" data-uid="CSharpToJavaScript.APIs.JS.WebTransportDatagramDuplexStream.IncomingHighWaterMark">
+  IncomingHighWaterMark
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16390"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>incomingHighWaterMark</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.WebTransportDatagramDuplexStream.html">WebTransportDatagramDuplexStream</a> interface gets or sets the high water mark for incoming chunks of data — this is the maximum size, in chunks, that the incoming <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStream.html">ReadableStream</a>'s internal queue can reach before it is considered full. See <a href="https://developer.mozilla.org/en-US/docs/Web/API/Streams_API/Concepts#internal_queues_and_queuing_strategies">Internal queues and queuing strategies</a> for more information.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double IncomingHighWaterMark { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>A number.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_WebTransportDatagramDuplexStream_IncomingHighWaterMark_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>AvailableInWorkers</p>
+<p>-<a href="https://web.dev/webtransport/">Using WebTransport</a><br>-{{domxref(&amp;quot;WebSockets API&amp;quot;, &amp;quot;WebSockets API&amp;quot;, &amp;quot;&amp;quot;, &amp;quot;nocode&amp;quot;)}}<br>-{{domxref(&amp;quot;Streams API&amp;quot;, &amp;quot;Streams API&amp;quot;, &amp;quot;&amp;quot;, &amp;quot;nocode&amp;quot;)}}<br>-<a href="https://datatracker.ietf.org/doc/html/draft-ietf-webtrans-http3/">WebTransport over HTTP/3</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/WebTransportDatagramDuplexStream/incomingHighWaterMark"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_WebTransportDatagramDuplexStream_IncomingMaxAge_" data-uid="CSharpToJavaScript.APIs.JS.WebTransportDatagramDuplexStream.IncomingMaxAge*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_WebTransportDatagramDuplexStream_IncomingMaxAge" data-uid="CSharpToJavaScript.APIs.JS.WebTransportDatagramDuplexStream.IncomingMaxAge">
+  IncomingMaxAge
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16386"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>incomingMaxAge</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.WebTransportDatagramDuplexStream.html">WebTransportDatagramDuplexStream</a> interface gets or sets the maximum age for incoming datagrams, in milliseconds.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double IncomingMaxAge { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>A number, or <code>null</code> if no maximum age has been set.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_WebTransportDatagramDuplexStream_IncomingMaxAge_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>AvailableInWorkers</p>
+<p>-<a href="https://web.dev/webtransport/">Using WebTransport</a><br>-{{domxref(&amp;quot;WebSockets API&amp;quot;, &amp;quot;WebSockets API&amp;quot;, &amp;quot;&amp;quot;, &amp;quot;nocode&amp;quot;)}}<br>-{{domxref(&amp;quot;Streams API&amp;quot;, &amp;quot;Streams API&amp;quot;, &amp;quot;&amp;quot;, &amp;quot;nocode&amp;quot;)}}<br>-<a href="https://datatracker.ietf.org/doc/html/draft-ietf-webtrans-http3/">WebTransport over HTTP/3</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/WebTransportDatagramDuplexStream/incomingMaxAge"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_WebTransportDatagramDuplexStream_MaxDatagramSize_" data-uid="CSharpToJavaScript.APIs.JS.WebTransportDatagramDuplexStream.MaxDatagramSize*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_WebTransportDatagramDuplexStream_MaxDatagramSize" data-uid="CSharpToJavaScript.APIs.JS.WebTransportDatagramDuplexStream.MaxDatagramSize">
+  MaxDatagramSize
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16384"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>maxDatagramSize</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.WebTransportDatagramDuplexStream.html">WebTransportDatagramDuplexStream</a> interface returns the maximum allowable size of outgoing datagrams, in bytes, that can be written to <a class="xref" href="CSharpToJavaScript.APIs.JS.WebTransportDatagramDuplexStream.html#CSharpToJavaScript_APIs_JS_WebTransportDatagramDuplexStream_Writable">Writable</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong MaxDatagramSize { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd><p>A number.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_WebTransportDatagramDuplexStream_MaxDatagramSize_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>AvailableInWorkers</p>
+<p>-<a href="https://web.dev/webtransport/">Using WebTransport</a><br>-{{domxref(&amp;quot;WebSockets API&amp;quot;, &amp;quot;WebSockets API&amp;quot;, &amp;quot;&amp;quot;, &amp;quot;nocode&amp;quot;)}}<br>-{{domxref(&amp;quot;Streams API&amp;quot;, &amp;quot;Streams API&amp;quot;, &amp;quot;&amp;quot;, &amp;quot;nocode&amp;quot;)}}<br>-<a href="https://datatracker.ietf.org/doc/html/draft-ietf-webtrans-http3/">WebTransport over HTTP/3</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/WebTransportDatagramDuplexStream/maxDatagramSize"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_WebTransportDatagramDuplexStream_OutgoingHighWaterMark_" data-uid="CSharpToJavaScript.APIs.JS.WebTransportDatagramDuplexStream.OutgoingHighWaterMark*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_WebTransportDatagramDuplexStream_OutgoingHighWaterMark" data-uid="CSharpToJavaScript.APIs.JS.WebTransportDatagramDuplexStream.OutgoingHighWaterMark">
+  OutgoingHighWaterMark
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16392"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>outgoingHighWaterMark</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.WebTransportDatagramDuplexStream.html">WebTransportDatagramDuplexStream</a> interface gets or sets the high water mark for outgoing chunks of data — this is the maximum size, in chunks, that the outgoing <a class="xref" href="CSharpToJavaScript.APIs.JS.WritableStream.html">WritableStream</a>'s internal queue can reach before it is considered full. See <a href="https://developer.mozilla.org/en-US/docs/Web/API/Streams_API/Concepts#internal_queues_and_queuing_strategies">Internal queues and queuing strategies</a> for more information.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double OutgoingHighWaterMark { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>A number.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_WebTransportDatagramDuplexStream_OutgoingHighWaterMark_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>AvailableInWorkers</p>
+<p>-<a href="https://web.dev/webtransport/">Using WebTransport</a><br>-{{domxref(&amp;quot;WebSockets API&amp;quot;, &amp;quot;WebSockets API&amp;quot;, &amp;quot;&amp;quot;, &amp;quot;nocode&amp;quot;)}}<br>-{{domxref(&amp;quot;Streams API&amp;quot;, &amp;quot;Streams API&amp;quot;, &amp;quot;&amp;quot;, &amp;quot;nocode&amp;quot;)}}<br>-<a href="https://datatracker.ietf.org/doc/html/draft-ietf-webtrans-http3/">WebTransport over HTTP/3</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/WebTransportDatagramDuplexStream/outgoingHighWaterMark"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_WebTransportDatagramDuplexStream_OutgoingMaxAge_" data-uid="CSharpToJavaScript.APIs.JS.WebTransportDatagramDuplexStream.OutgoingMaxAge*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_WebTransportDatagramDuplexStream_OutgoingMaxAge" data-uid="CSharpToJavaScript.APIs.JS.WebTransportDatagramDuplexStream.OutgoingMaxAge">
+  OutgoingMaxAge
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16388"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>outgoingMaxAge</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.WebTransportDatagramDuplexStream.html">WebTransportDatagramDuplexStream</a> interface gets or sets the maximum age for outgoing datagrams, in milliseconds.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double OutgoingMaxAge { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>A number, or <code>null</code> if no maximum age has been set.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_WebTransportDatagramDuplexStream_OutgoingMaxAge_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>AvailableInWorkers</p>
+<p>-<a href="https://web.dev/webtransport/">Using WebTransport</a><br>-{{domxref(&amp;quot;WebSockets API&amp;quot;, &amp;quot;WebSockets API&amp;quot;, &amp;quot;&amp;quot;, &amp;quot;nocode&amp;quot;)}}<br>-{{domxref(&amp;quot;Streams API&amp;quot;, &amp;quot;Streams API&amp;quot;, &amp;quot;&amp;quot;, &amp;quot;nocode&amp;quot;)}}<br>-<a href="https://datatracker.ietf.org/doc/html/draft-ietf-webtrans-http3/">WebTransport over HTTP/3</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/WebTransportDatagramDuplexStream/outgoingMaxAge"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_WebTransportDatagramDuplexStream_Readable_" data-uid="CSharpToJavaScript.APIs.JS.WebTransportDatagramDuplexStream.Readable*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_WebTransportDatagramDuplexStream_Readable" data-uid="CSharpToJavaScript.APIs.JS.WebTransportDatagramDuplexStream.Readable">
+  Readable
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16380"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>readable</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.WebTransportDatagramDuplexStream.html">WebTransportDatagramDuplexStream</a> interface returns a <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStream.html">ReadableStream</a> instance that can be used to unreliably read incoming datagrams from the stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ReadableStream Readable { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStream.html">ReadableStream</a></dt>
+    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStream.html">ReadableStream</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_WebTransportDatagramDuplexStream_Readable_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>&amp;quot;Unreliably&amp;quot; means that transmission of data is not guaranteed, nor is arrival in a specific order. This is fine in some situations and provides very fast delivery. For example, you might want to transmit regular game state updates where each message supersedes the last one that arrives, and order is not important.</p><p>AvailableInWorkers</p>
+<p>-<a href="https://web.dev/webtransport/">Using WebTransport</a><br>-{{domxref(&amp;quot;WebSockets API&amp;quot;, &amp;quot;WebSockets API&amp;quot;, &amp;quot;&amp;quot;, &amp;quot;nocode&amp;quot;)}}<br>-{{domxref(&amp;quot;Streams API&amp;quot;, &amp;quot;Streams API&amp;quot;, &amp;quot;&amp;quot;, &amp;quot;nocode&amp;quot;)}}<br>-<a href="https://datatracker.ietf.org/doc/html/draft-ietf-webtrans-http3/">WebTransport over HTTP/3</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/WebTransportDatagramDuplexStream/readable"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_WebTransportDatagramDuplexStream_Writable_" data-uid="CSharpToJavaScript.APIs.JS.WebTransportDatagramDuplexStream.Writable*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_WebTransportDatagramDuplexStream_Writable" data-uid="CSharpToJavaScript.APIs.JS.WebTransportDatagramDuplexStream.Writable">
+  Writable
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16382"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>writable</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.WebTransportDatagramDuplexStream.html">WebTransportDatagramDuplexStream</a> interface returns a <a class="xref" href="CSharpToJavaScript.APIs.JS.WritableStream.html">WritableStream</a> instance that can be used to unreliably write outgoing datagrams to the stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public WritableStream Writable { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.WritableStream.html">WritableStream</a></dt>
+    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.WritableStream.html">WritableStream</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_WebTransportDatagramDuplexStream_Writable_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>&amp;quot;Unreliably&amp;quot; means that transmission of data is not guaranteed, nor is arrival in a specific order. This is fine in some situations and provides very fast delivery. For example, you might want to transmit regular game state updates where each message supersedes the last one that arrives, and order is not important.</p><p>AvailableInWorkers</p>
+<p>-<a href="https://web.dev/webtransport/">Using WebTransport</a><br>-{{domxref(&amp;quot;WebSockets API&amp;quot;, &amp;quot;WebSockets API&amp;quot;, &amp;quot;&amp;quot;, &amp;quot;nocode&amp;quot;)}}<br>-{{domxref(&amp;quot;Streams API&amp;quot;, &amp;quot;Streams API&amp;quot;, &amp;quot;&amp;quot;, &amp;quot;nocode&amp;quot;)}}<br>-<a href="https://datatracker.ietf.org/doc/html/draft-ietf-webtrans-http3/">WebTransport over HTTP/3</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/WebTransportDatagramDuplexStream/writable"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16376" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

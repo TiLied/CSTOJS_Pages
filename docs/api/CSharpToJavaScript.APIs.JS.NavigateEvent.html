@@ -1,0 +1,742 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class NavigateEvent
+ | CSharpToJavaScript </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class NavigateEvent
+ | CSharpToJavaScript ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/TiLied/CSharpToJavaScript/new/master/apiSpec/new?filename=CSharpToJavaScript_APIs_JS_NavigateEvent.md&amp;value=---%0Auid%3A%20CSharpToJavaScript.APIs.JS.NavigateEvent%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="CSharpToJavaScript.APIs.JS.NavigateEvent">
+
+
+
+  <h1 id="CSharpToJavaScript_APIs_JS_NavigateEvent" data-uid="CSharpToJavaScript.APIs.JS.NavigateEvent" class="text-break">
+    Class NavigateEvent
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L3117"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CSharpToJavaScript.html">CSharpToJavaScript</a>.<a class="xref" href="CSharpToJavaScript.APIs.html">APIs</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.html">JS</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>The <strong><code>NavigateEvent</code></strong> interface of the {{domxref(&amp;quot;Navigation API&amp;quot;, &amp;quot;Navigation API&amp;quot;, &amp;quot;&amp;quot;, &quot;nocode&quot;)}} is the event object for the Navigation/navigate_event event, which fires when <a href="https://github.com/WICG/navigation-api#appendix-types-of-navigations">any type of navigation</a> is initiated (this includes usage of {{domxref(&amp;quot;History API&amp;quot;, &amp;quot;History API&amp;quot;, &amp;quot;&amp;quot;, &quot;nocode&quot;)}} features like <a class="xref" href="CSharpToJavaScript.APIs.JS.History.html#CSharpToJavaScript_APIs_JS_History_Go_System_Int64_">Go(long)</a>). <code>NavigateEvent</code> provides access to information about that navigation, and allows developers to intercept and control the navigation handling.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public class NavigateEvent : Event</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html">Event</a></div>
+      <div><span class="xref">NavigateEvent</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_Type">Event.Type</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_Target">Event.Target</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_SrcElement">Event.SrcElement</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_CurrentTarget">Event.CurrentTarget</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_ComposedPath">Event.ComposedPath()</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_NONE">Event.NONE</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_CAPTURING_PHASE">Event.CAPTURING_PHASE</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_AT_TARGET">Event.AT_TARGET</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_BUBBLING_PHASE">Event.BUBBLING_PHASE</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_EventPhase">Event.EventPhase</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_StopPropagation">Event.StopPropagation()</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_CancelBubble">Event.CancelBubble</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_StopImmediatePropagation">Event.StopImmediatePropagation()</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_Bubbles">Event.Bubbles</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_Cancelable">Event.Cancelable</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_ReturnValue">Event.ReturnValue</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_PreventDefault">Event.PreventDefault()</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_DefaultPrevented">Event.DefaultPrevented</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_Composed">Event.Composed</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_IsTrusted">Event.IsTrusted</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_TimeStamp">Event.TimeStamp</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_InitEvent_System_String_System_Boolean_System_Boolean_">Event.InitEvent(string, bool, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+  <h2 id="CSharpToJavaScript_APIs_JS_NavigateEvent_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p></p>
+<p>-<a href="https://developer.chrome.com/docs/web-platform/navigation-api/">Modern client-side routing: the Navigation API</a><br>-<a href="https://github.com/WICG/navigation-api/blob/main/README.md">Navigation API explainer</a><br>-Domenic Denicola&amp;apos;s <a href="https://gigantic-honored-octagon.glitch.me/">Navigation API live demo</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/NavigateEvent"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_NavigateEvent__ctor_" data-uid="CSharpToJavaScript.APIs.JS.NavigateEvent.#ctor*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_NavigateEvent__ctor" data-uid="CSharpToJavaScript.APIs.JS.NavigateEvent.#ctor">
+  NavigateEvent()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L3144"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NavigateEvent()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_NavigateEvent__ctor_" data-uid="CSharpToJavaScript.APIs.JS.NavigateEvent.#ctor*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_NavigateEvent__ctor_System_String_CSharpToJavaScript_APIs_JS_NavigateEventInit_" data-uid="CSharpToJavaScript.APIs.JS.NavigateEvent.#ctor(System.String,CSharpToJavaScript.APIs.JS.NavigateEventInit)">
+  NavigateEvent(string, NavigateEventInit)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L3121"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>NavigateEvent()</code></strong> constructor creates a new<br><a class="xref" href="CSharpToJavaScript.APIs.JS.NavigateEvent.html">NavigateEvent</a> object instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NavigateEvent(string type, NavigateEventInit eventInitDict)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>eventInitDict</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.NavigateEventInit.html">NavigateEventInit</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_NavigateEvent__ctor_System_String_CSharpToJavaScript_APIs_JS_NavigateEventInit__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.chrome.com/docs/web-platform/navigation-api/">Modern client-side routing: the Navigation API</a><br>-<a href="https://github.com/WICG/navigation-api/blob/main/README.md">Navigation API explainer</a><br>-Domenic Denicola&amp;apos;s <a href="https://gigantic-honored-octagon.glitch.me/">Navigation API live demo</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/NavigateEvent/NavigateEvent"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_NavigateEvent_CanIntercept_" data-uid="CSharpToJavaScript.APIs.JS.NavigateEvent.CanIntercept*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_NavigateEvent_CanIntercept" data-uid="CSharpToJavaScript.APIs.JS.NavigateEvent.CanIntercept">
+  CanIntercept
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L3127"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>canIntercept</code></strong> read-only property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.NavigateEvent.html">NavigateEvent</a> interface returns <code>true</code> if the navigation can be intercepted and have its URL rewritten, or <code>false</code> otherwise</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CanIntercept { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A boolean value—<code>true</code> if the navigation can be intercepted, <code>false</code> if not.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_NavigateEvent_CanIntercept_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>There are several rules around when a navigation can be intercepted. For example:</p><p>See the spec for more explanation on <a href="https://html.spec.whatwg.org/multipage/nav-history-apis.html#can-have-its-url-rewritten">when a Document can have its URL rewritten</a>, including a table of examples.</p>
+<p>-<a href="https://developer.chrome.com/docs/web-platform/navigation-api/">Modern client-side routing: the Navigation API</a><br>-<a href="https://github.com/WICG/navigation-api/blob/main/README.md">Navigation API explainer</a><br>-Domenic Denicola&amp;apos;s <a href="https://gigantic-honored-octagon.glitch.me/">Navigation API live demo</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/NavigateEvent/canIntercept"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_NavigateEvent_Destination_" data-uid="CSharpToJavaScript.APIs.JS.NavigateEvent.Destination*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_NavigateEvent_Destination" data-uid="CSharpToJavaScript.APIs.JS.NavigateEvent.Destination">
+  Destination
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L3125"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>destination</code></strong> read-only property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.NavigateEvent.html">NavigateEvent</a> interface returns a <a class="xref" href="CSharpToJavaScript.APIs.JS.NavigationDestination.html">NavigationDestination</a> object representing the destination being navigated to.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NavigationDestination Destination { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.NavigationDestination.html">NavigationDestination</a></dt>
+    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.NavigationDestination.html">NavigationDestination</a> object.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_NavigateEvent_Destination_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.chrome.com/docs/web-platform/navigation-api/">Modern client-side routing: the Navigation API</a><br>-<a href="https://github.com/WICG/navigation-api/blob/main/README.md">Navigation API explainer</a><br>-Domenic Denicola&amp;apos;s <a href="https://gigantic-honored-octagon.glitch.me/">Navigation API live demo</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/NavigateEvent/destination"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_NavigateEvent_DownloadRequest_" data-uid="CSharpToJavaScript.APIs.JS.NavigateEvent.DownloadRequest*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_NavigateEvent_DownloadRequest" data-uid="CSharpToJavaScript.APIs.JS.NavigateEvent.DownloadRequest">
+  DownloadRequest
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L3137"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>downloadRequest</code></strong> read-only property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.NavigateEvent.html">NavigateEvent</a> interface returns the filename of the file requested for download, in the case of a download navigation (e.g. an {{htmlelement(&quot;a&quot;)}} or {{htmlelement(&quot;area&quot;)}} element with a <code>download</code> attribute), or <code>null</code> otherwise.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? DownloadRequest { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A string containing the filename of the file requested for download, or <code>null</code>.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_NavigateEvent_DownloadRequest_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.chrome.com/docs/web-platform/navigation-api/">Modern client-side routing: the Navigation API</a><br>-<a href="https://github.com/WICG/navigation-api/blob/main/README.md">Navigation API explainer</a><br>-Domenic Denicola&amp;apos;s <a href="https://gigantic-honored-octagon.glitch.me/">Navigation API live demo</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/NavigateEvent/downloadRequest"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_NavigateEvent_FormData_" data-uid="CSharpToJavaScript.APIs.JS.NavigateEvent.FormData*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_NavigateEvent_FormData" data-uid="CSharpToJavaScript.APIs.JS.NavigateEvent.FormData">
+  FormData
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L3135"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>formData</code></strong> read-only property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.NavigateEvent.html">NavigateEvent</a> interface returns the <a class="xref" href="CSharpToJavaScript.APIs.JS.NavigateEvent.html#CSharpToJavaScript_APIs_JS_NavigateEvent_FormData">FormData</a> object representing the submitted data in the case of a <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/POST"><code>POST</code></a> form submission, or <code>null</code> otherwise.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FormData? FormData { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.FormData.html">FormData</a></dt>
+    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.NavigateEvent.html#CSharpToJavaScript_APIs_JS_NavigateEvent_FormData">FormData</a> object, or <code>null</code>.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_NavigateEvent_FormData_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.chrome.com/docs/web-platform/navigation-api/">Modern client-side routing: the Navigation API</a><br>-<a href="https://github.com/WICG/navigation-api/blob/main/README.md">Navigation API explainer</a><br>-Domenic Denicola&amp;apos;s <a href="https://gigantic-honored-octagon.glitch.me/">Navigation API live demo</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/NavigateEvent/formData"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_NavigateEvent_HashChange_" data-uid="CSharpToJavaScript.APIs.JS.NavigateEvent.HashChange*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_NavigateEvent_HashChange" data-uid="CSharpToJavaScript.APIs.JS.NavigateEvent.HashChange">
+  HashChange
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L3131"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>hashChange</code></strong> read-only property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.NavigateEvent.html">NavigateEvent</a> interface returns <code>true</code> if the navigation is a fragment navigation (i.e. to a fragment identifier in the same document), or <code>false</code> otherwise.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HashChange { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A boolean value—<code>true</code> if the navigation is a fragment navigation, <code>false</code> if not.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_NavigateEvent_HashChange_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.chrome.com/docs/web-platform/navigation-api/">Modern client-side routing: the Navigation API</a><br>-<a href="https://github.com/WICG/navigation-api/blob/main/README.md">Navigation API explainer</a><br>-Domenic Denicola&amp;apos;s <a href="https://gigantic-honored-octagon.glitch.me/">Navigation API live demo</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/NavigateEvent/hashChange"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_NavigateEvent_Info_" data-uid="CSharpToJavaScript.APIs.JS.NavigateEvent.Info*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_NavigateEvent_Info" data-uid="CSharpToJavaScript.APIs.JS.NavigateEvent.Info">
+  Info
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L3139"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>info</code></strong> read-only property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.NavigateEvent.html">NavigateEvent</a> interface returns the <code>info</code> data value passed by the initiating navigation operation (e.g. <a class="xref" href="CSharpToJavaScript.APIs.JS.Navigation.html#CSharpToJavaScript_APIs_JS_Navigation_Back_CSharpToJavaScript_APIs_JS_NavigationOptions_">Back(NavigationOptions)</a>, or <a class="xref" href="CSharpToJavaScript.APIs.JS.Navigation.html#CSharpToJavaScript_APIs_JS_Navigation_Navigate_System_String_CSharpToJavaScript_APIs_JS_NavigationNavigateOptions_">Navigate(string, NavigationNavigateOptions)</a>), or <code>undefined</code> if no <code>info</code> data was passed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public dynamic Info { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">dynamic</span></dt>
+    <dd><p>The <code>info</code> value passed by the initiating navigation operation, or <code>undefined</code> if none was passed.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_NavigateEvent_Info_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.chrome.com/docs/web-platform/navigation-api/">Modern client-side routing: the Navigation API</a><br>-<a href="https://github.com/WICG/navigation-api/blob/main/README.md">Navigation API explainer</a><br>-Domenic Denicola&amp;apos;s <a href="https://gigantic-honored-octagon.glitch.me/">Navigation API live demo</a><br>-Methods that allow info to be passed — <a class="xref" href="CSharpToJavaScript.APIs.JS.Navigation.html#CSharpToJavaScript_APIs_JS_Navigation_Back_CSharpToJavaScript_APIs_JS_NavigationOptions_">Back(NavigationOptions)</a>, <a class="xref" href="CSharpToJavaScript.APIs.JS.Navigation.html#CSharpToJavaScript_APIs_JS_Navigation_Forward_CSharpToJavaScript_APIs_JS_NavigationOptions_">Forward(NavigationOptions)</a>, <a class="xref" href="CSharpToJavaScript.APIs.JS.Navigation.html#CSharpToJavaScript_APIs_JS_Navigation_Navigate_System_String_CSharpToJavaScript_APIs_JS_NavigationNavigateOptions_">Navigate(string, NavigationNavigateOptions)</a>, <a class="xref" href="CSharpToJavaScript.APIs.JS.Navigation.html#CSharpToJavaScript_APIs_JS_Navigation_Reload_CSharpToJavaScript_APIs_JS_NavigationReloadOptions_">Reload(NavigationReloadOptions)</a>, and <a class="xref" href="CSharpToJavaScript.APIs.JS.Navigation.html#CSharpToJavaScript_APIs_JS_Navigation_TraverseTo_System_String_CSharpToJavaScript_APIs_JS_NavigationOptions_">TraverseTo(string, NavigationOptions)</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/NavigateEvent/info"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_NavigateEvent_NavigationType_" data-uid="CSharpToJavaScript.APIs.JS.NavigateEvent.NavigationType*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_NavigateEvent_NavigationType" data-uid="CSharpToJavaScript.APIs.JS.NavigateEvent.NavigationType">
+  NavigationType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L3123"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>navigationType</code></strong> read-only property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.NavigateEvent.html">NavigateEvent</a> interface returns the type of the navigation — <code>push</code>, <code>reload</code>, <code>replace</code>, or <code>traverse</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NavigationType NavigationType { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.NavigationType.html">NavigationType</a></dt>
+    <dd><p>An enumerated value representing the type of navigation.The possible values are:</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_NavigateEvent_NavigationType_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.chrome.com/docs/web-platform/navigation-api/">Modern client-side routing: the Navigation API</a><br>-<a href="https://github.com/WICG/navigation-api/blob/main/README.md">Navigation API explainer</a><br>-Domenic Denicola&amp;apos;s <a href="https://gigantic-honored-octagon.glitch.me/">Navigation API live demo</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/NavigateEvent/navigationType"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_NavigateEvent_Signal_" data-uid="CSharpToJavaScript.APIs.JS.NavigateEvent.Signal*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_NavigateEvent_Signal" data-uid="CSharpToJavaScript.APIs.JS.NavigateEvent.Signal">
+  Signal
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L3133"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>signal</code></strong> read-only property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.NavigateEvent.html">NavigateEvent</a> interface returns an <a class="xref" href="CSharpToJavaScript.APIs.JS.AbortSignal.html">AbortSignal</a>, which will become aborted if the navigation is cancelled (e.g. by the user pressing the browser's &quot;Stop&quot; button, or another navigation starting and thus cancelling the ongoing one).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AbortSignal Signal { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.AbortSignal.html">AbortSignal</a></dt>
+    <dd><p>An <a class="xref" href="CSharpToJavaScript.APIs.JS.AbortSignal.html">AbortSignal</a> object.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_NavigateEvent_Signal_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.chrome.com/docs/web-platform/navigation-api/">Modern client-side routing: the Navigation API</a><br>-<a href="https://github.com/WICG/navigation-api/blob/main/README.md">Navigation API explainer</a><br>-Domenic Denicola&amp;apos;s <a href="https://gigantic-honored-octagon.glitch.me/">Navigation API live demo</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/NavigateEvent/signal"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_NavigateEvent_UserInitiated_" data-uid="CSharpToJavaScript.APIs.JS.NavigateEvent.UserInitiated*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_NavigateEvent_UserInitiated" data-uid="CSharpToJavaScript.APIs.JS.NavigateEvent.UserInitiated">
+  UserInitiated
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L3129"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>userInitiated</code></strong> read-only property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.NavigateEvent.html">NavigateEvent</a> interface returns <code>true</code> if the navigation was initiated by the user (e.g. by clicking a link, submitting a form, or pressing the browser&amp;apos;s &amp;quot;Back&amp;quot;/&amp;quot;Forward&amp;quot; buttons), or <code>false</code> otherwise.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool UserInitiated { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A boolean value—<code>true</code> if the navigation is user-initiated, <code>false</code> if not.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_NavigateEvent_UserInitiated_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><blockquote class="NOTE"><h5>NOTE</h5><p><strong>Note:</strong> The table found at <a href="https://github.com/WICG/navigation-api#appendix-types-of-navigations">Appendix: types of navigations</a> shows which navigation types are user-initiated.</p></blockquote>
+<p>-<a href="https://developer.chrome.com/docs/web-platform/navigation-api/">Modern client-side routing: the Navigation API</a><br>-<a href="https://github.com/WICG/navigation-api/blob/main/README.md">Navigation API explainer</a><br>-Domenic Denicola&amp;apos;s <a href="https://gigantic-honored-octagon.glitch.me/">Navigation API live demo</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/NavigateEvent/userInitiated"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_NavigateEvent_Intercept_" data-uid="CSharpToJavaScript.APIs.JS.NavigateEvent.Intercept*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_NavigateEvent_Intercept_CSharpToJavaScript_APIs_JS_NavigationInterceptOptions_" data-uid="CSharpToJavaScript.APIs.JS.NavigateEvent.Intercept(CSharpToJavaScript.APIs.JS.NavigationInterceptOptions)">
+  Intercept(NavigationInterceptOptions)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L3141"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>intercept()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.NavigateEvent.html">NavigateEvent</a> interface intercepts this navigation, turning it into a same-document navigation to the <a class="xref" href="CSharpToJavaScript.APIs.JS.NavigationDestination.html#CSharpToJavaScript_APIs_JS_NavigationDestination_Url">Url</a> URL.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined Intercept(NavigationInterceptOptions options)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>options</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.NavigationInterceptOptions.html">NavigationInterceptOptions</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd><p>None (<code>undefined</code>).</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_NavigateEvent_Intercept_CSharpToJavaScript_APIs_JS_NavigationInterceptOptions__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.chrome.com/docs/web-platform/navigation-api/">Modern client-side routing: the Navigation API</a><br>-<a href="https://github.com/WICG/navigation-api/blob/main/README.md">Navigation API explainer</a><br>-Domenic Denicola&amp;apos;s <a href="https://gigantic-honored-octagon.glitch.me/">Navigation API live demo</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/NavigateEvent/intercept"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_NavigateEvent_Scroll_" data-uid="CSharpToJavaScript.APIs.JS.NavigateEvent.Scroll*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_NavigateEvent_Scroll" data-uid="CSharpToJavaScript.APIs.JS.NavigateEvent.Scroll">
+  Scroll()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L3143"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>scroll()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.NavigateEvent.html">NavigateEvent</a> interface can be called to manually trigger the browser-driven scrolling behavior that occurs in response to the navigation, if you want it to happen before the navigation handling has completed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined Scroll()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd><p><code>undefined</code>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_NavigateEvent_Scroll_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.chrome.com/docs/web-platform/navigation-api/">Modern client-side routing: the Navigation API</a><br>-<a href="https://github.com/WICG/navigation-api/blob/main/README.md">Navigation API explainer</a><br>-Domenic Denicola&amp;apos;s <a href="https://gigantic-honored-octagon.glitch.me/">Navigation API live demo</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/NavigateEvent/scroll"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L3117" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

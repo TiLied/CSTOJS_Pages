@@ -1,0 +1,1153 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class GPUDevice
+ | CSharpToJavaScript </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class GPUDevice
+ | CSharpToJavaScript ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/TiLied/CSharpToJavaScript/new/master/apiSpec/new?filename=CSharpToJavaScript_APIs_JS_GPUDevice.md&amp;value=---%0Auid%3A%20CSharpToJavaScript.APIs.JS.GPUDevice%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="CSharpToJavaScript.APIs.JS.GPUDevice">
+
+
+
+  <h1 id="CSharpToJavaScript_APIs_JS_GPUDevice" data-uid="CSharpToJavaScript.APIs.JS.GPUDevice" class="text-break">
+    Class GPUDevice
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L15314"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CSharpToJavaScript.html">CSharpToJavaScript</a>.<a class="xref" href="CSharpToJavaScript.APIs.html">APIs</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.html">JS</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>The <strong><code>GPUDevice</code></strong> interface of the {{domxref(&amp;quot;WebGPU API&amp;quot;, &amp;quot;WebGPU API&amp;quot;, &amp;quot;&amp;quot;, &amp;quot;nocode&amp;quot;)}} represents a logical GPU device. This is the main interface through which the majority of WebGPU functionality is accessed.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public class GPUDevice : EventTarget, GPUObjectBase</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html">EventTarget</a></div>
+      <div><span class="xref">GPUDevice</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.GPUObjectBase.html">GPUObjectBase</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union41_">EventTarget.AddEventListener(string, Action, Union41)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_MouseEvent__CSharpToJavaScript_APIs_JS_Union41_">EventTarget.AddEventListener(string, Action&lt;MouseEvent&gt;, Union41)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Event__CSharpToJavaScript_APIs_JS_Union41_">EventTarget.AddEventListener(string, Action&lt;Event&gt;, Union41)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_RemoveEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union2_">EventTarget.RemoveEventListener(string, Action, Union2)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_CSharpToJavaScript_APIs_JS_EventListener_CSharpToJavaScript_APIs_JS_Union41_">EventTarget.AddEventListener(string, EventListener, Union41)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_RemoveEventListener_System_String_CSharpToJavaScript_APIs_JS_EventListener_CSharpToJavaScript_APIs_JS_Union42_">EventTarget.RemoveEventListener(string, EventListener, Union42)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_DispatchEvent_CSharpToJavaScript_APIs_JS_Event_">EventTarget.DispatchEvent(Event)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+  <h2 id="CSharpToJavaScript_APIs_JS_GPUDevice_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>A <code>GPUDevice</code> object is requested using the <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUAdapter.html#CSharpToJavaScript_APIs_JS_GPUAdapter_RequestDevice_CSharpToJavaScript_APIs_JS_GPUDeviceDescriptor_">RequestDevice(GPUDeviceDescriptor)</a> method.</p><p></p>
+<p>-The <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API">WebGPU API</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/GPUDevice"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_GPUDevice_Features_" data-uid="CSharpToJavaScript.APIs.JS.GPUDevice.Features*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_GPUDevice_Features" data-uid="CSharpToJavaScript.APIs.JS.GPUDevice.Features">
+  Features
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L14015"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>features</code></strong> read-only property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.GPUDevice.html">GPUDevice</a> interface returns a <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUSupportedFeatures.html">GPUSupportedFeatures</a> object that describes additional functionality supported by the device. Only features requested during the creation of the device (i.e. when <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUAdapter.html#CSharpToJavaScript_APIs_JS_GPUAdapter_RequestDevice_CSharpToJavaScript_APIs_JS_GPUDeviceDescriptor_">RequestDevice(GPUDeviceDescriptor)</a> is called) are included.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GPUSupportedFeatures Features { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GPUSupportedFeatures.html">GPUSupportedFeatures</a></dt>
+    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUSupportedFeatures.html">GPUSupportedFeatures</a> object instance. This is a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set">setlike</a> object.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_GPUDevice_Features_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><blockquote class="NOTE"><h5>NOTE</h5><p><strong>Note:</strong> Not all features will be available to WebGPU in all browsers that support it, even if the features are supported by the underlying hardware. See <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUAdapter.html#CSharpToJavaScript_APIs_JS_GPUAdapter_Features">Features</a> for more details.</p></blockquote>
+<p>-The <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API">WebGPU API</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/GPUDevice/features"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_GPUDevice_Limits_" data-uid="CSharpToJavaScript.APIs.JS.GPUDevice.Limits*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_GPUDevice_Limits" data-uid="CSharpToJavaScript.APIs.JS.GPUDevice.Limits">
+  Limits
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L14017"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>limits</code></strong> read-only property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.GPUDevice.html">GPUDevice</a> interface returns a <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUSupportedLimits.html">GPUSupportedLimits</a> object that describes the limits supported by the device. All limit values will be included, and the limits requested during the creation of the device (i.e. when <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUAdapter.html#CSharpToJavaScript_APIs_JS_GPUAdapter_RequestDevice_CSharpToJavaScript_APIs_JS_GPUDeviceDescriptor_">RequestDevice(GPUDeviceDescriptor)</a> is called) will be reflected in those values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GPUSupportedLimits Limits { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GPUSupportedLimits.html">GPUSupportedLimits</a></dt>
+    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUSupportedLimits.html">GPUSupportedLimits</a> object instance.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_GPUDevice_Limits_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><blockquote class="NOTE"><h5>NOTE</h5><p><strong>Note:</strong> Not all limits will be reported as expected, even if they are supported by the underlying hardware. See <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUAdapter.html#CSharpToJavaScript_APIs_JS_GPUAdapter_Limits">Limits</a> for more details.</p></blockquote>
+<p>-The <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API">WebGPU API</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/GPUDevice/limits"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_GPUDevice_Lost_" data-uid="CSharpToJavaScript.APIs.JS.GPUDevice.Lost*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_GPUDevice_Lost" data-uid="CSharpToJavaScript.APIs.JS.GPUDevice.Lost">
+  Lost
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L15242"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>lost</code></strong> read-only property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.GPUDevice.html">GPUDevice</a> interface contains a {{jsxref(&quot;Promise&quot;)}} that remains pending throughout the device's lifetime and resolves with a <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUDeviceLostInfo.html">GPUDeviceLostInfo</a> object when the device is lost.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;GPUDeviceLostInfo&gt; Lost { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CSharpToJavaScript.APIs.JS.GPUDeviceLostInfo.html">GPUDeviceLostInfo</a>&gt;</dt>
+    <dd><p>A promise that resolves with a <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUDeviceLostInfo.html">GPUDeviceLostInfo</a> object when the device is lost.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_GPUDevice_Lost_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p><a class="xref" href="CSharpToJavaScript.APIs.JS.GPUAdapter.html#CSharpToJavaScript_APIs_JS_GPUAdapter_RequestDevice_CSharpToJavaScript_APIs_JS_GPUDeviceDescriptor_">RequestDevice(GPUDeviceDescriptor)</a> will never return <code>null</code>, and it will reject only if the request is invalid, i.e. it exceeds the capabilities of the <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUAdapter.html">GPUAdapter</a>. If a valid device request can't be fulfilled for some reason however it may resolve to a device that has already been lost. Additionally, devices can be lost at any time after creation for a variety of reasons (such as browser resource management or driver updates), so it's a good idea to always handle lost devices gracefully.</p><p>Many causes for lost devices are transient, so you should try getting a new device once a previous one has been lost unless the loss was caused by the application intentionally destroying the device (i.e. with <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUDevice.html#CSharpToJavaScript_APIs_JS_GPUDevice_Destroy">Destroy()</a>). Note that any WebGPU resources created with a previous device (buffers, textures, etc.) will need to be re-created with the new one.</p><blockquote class="NOTE"><h5>NOTE</h5><p><strong>Note:</strong> Also bear in mind that a <code>GPUAdapter</code> may become unavailable, e.g. if the physical GPU is unplugged from the system or disabled to save power. From then on, the adapter can no longer return valid devices, and will always return already-lost devices.</p></blockquote>
+<p>-The <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API">WebGPU API</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/GPUDevice/lost"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_GPUDevice_Onuncapturederror_" data-uid="CSharpToJavaScript.APIs.JS.GPUDevice.Onuncapturederror*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_GPUDevice_Onuncapturederror" data-uid="CSharpToJavaScript.APIs.JS.GPUDevice.Onuncapturederror">
+  Onuncapturederror
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L15316"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EventHandlerNonNull Onuncapturederror { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.EventHandlerNonNull.html">EventHandlerNonNull</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_GPUDevice_Queue_" data-uid="CSharpToJavaScript.APIs.JS.GPUDevice.Queue*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_GPUDevice_Queue" data-uid="CSharpToJavaScript.APIs.JS.GPUDevice.Queue">
+  Queue
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L14019"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>queue</code></strong> read-only property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.GPUDevice.html">GPUDevice</a> interface returns the primary <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUQueue.html">GPUQueue</a> for the device.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GPUQueue Queue { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GPUQueue.html">GPUQueue</a></dt>
+    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUQueue.html">GPUQueue</a> object instance.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_GPUDevice_Queue_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-The <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API">WebGPU API</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/GPUDevice/queue"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_GPUDevice_CreateBindGroup_" data-uid="CSharpToJavaScript.APIs.JS.GPUDevice.CreateBindGroup*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_GPUDevice_CreateBindGroup_CSharpToJavaScript_APIs_JS_GPUBindGroupDescriptor_" data-uid="CSharpToJavaScript.APIs.JS.GPUDevice.CreateBindGroup(CSharpToJavaScript.APIs.JS.GPUBindGroupDescriptor)">
+  CreateBindGroup(GPUBindGroupDescriptor)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L14035"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>createBindGroup()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.GPUDevice.html">GPUDevice</a> interface creates a <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUBindGroup.html">GPUBindGroup</a> based on a <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUBindGroupLayout.html">GPUBindGroupLayout</a> that defines a set of resources to be bound together in a group and how those resources are used in shader stages.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GPUBindGroup CreateBindGroup(GPUBindGroupDescriptor descriptor)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>descriptor</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUBindGroupDescriptor.html">GPUBindGroupDescriptor</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GPUBindGroup.html">GPUBindGroup</a></dt>
+    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUBindGroup.html">GPUBindGroup</a> object instance.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_GPUDevice_CreateBindGroup_CSharpToJavaScript_APIs_JS_GPUBindGroupDescriptor__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-The <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API">WebGPU API</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/GPUDevice/createBindGroup"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_GPUDevice_CreateBindGroupLayout_" data-uid="CSharpToJavaScript.APIs.JS.GPUDevice.CreateBindGroupLayout*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_GPUDevice_CreateBindGroupLayout_CSharpToJavaScript_APIs_JS_GPUBindGroupLayoutDescriptor_" data-uid="CSharpToJavaScript.APIs.JS.GPUDevice.CreateBindGroupLayout(CSharpToJavaScript.APIs.JS.GPUBindGroupLayoutDescriptor)">
+  CreateBindGroupLayout(GPUBindGroupLayoutDescriptor)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L14031"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>createBindGroupLayout()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.GPUDevice.html">GPUDevice</a> interface creates a <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUBindGroupLayout.html">GPUBindGroupLayout</a> that defines the structure and purpose of related GPU resources such as buffers that will be used in a pipeline, and is used as a template when creating <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUBindGroup.html">GPUBindGroup</a>s.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GPUBindGroupLayout CreateBindGroupLayout(GPUBindGroupLayoutDescriptor descriptor)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>descriptor</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUBindGroupLayoutDescriptor.html">GPUBindGroupLayoutDescriptor</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GPUBindGroupLayout.html">GPUBindGroupLayout</a></dt>
+    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUBindGroupLayout.html">GPUBindGroupLayout</a> object instance.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_GPUDevice_CreateBindGroupLayout_CSharpToJavaScript_APIs_JS_GPUBindGroupLayoutDescriptor__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-The <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API">WebGPU API</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/GPUDevice/createBindGroupLayout"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_GPUDevice_CreateBuffer_" data-uid="CSharpToJavaScript.APIs.JS.GPUDevice.CreateBuffer*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_GPUDevice_CreateBuffer_CSharpToJavaScript_APIs_JS_GPUBufferDescriptor_" data-uid="CSharpToJavaScript.APIs.JS.GPUDevice.CreateBuffer(CSharpToJavaScript.APIs.JS.GPUBufferDescriptor)">
+  CreateBuffer(GPUBufferDescriptor)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L14023"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>createBuffer()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.GPUDevice.html">GPUDevice</a> interface creates a <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUBuffer.html">GPUBuffer</a> in which to store raw data to use in GPU operations.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GPUBuffer CreateBuffer(GPUBufferDescriptor descriptor)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>descriptor</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUBufferDescriptor.html">GPUBufferDescriptor</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GPUBuffer.html">GPUBuffer</a></dt>
+    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUBuffer.html">GPUBuffer</a> object instance.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_GPUDevice_CreateBuffer_CSharpToJavaScript_APIs_JS_GPUBufferDescriptor__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-The <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API">WebGPU API</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/GPUDevice/createBuffer"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_GPUDevice_CreateCommandEncoder_" data-uid="CSharpToJavaScript.APIs.JS.GPUDevice.CreateCommandEncoder*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_GPUDevice_CreateCommandEncoder_CSharpToJavaScript_APIs_JS_GPUCommandEncoderDescriptor_" data-uid="CSharpToJavaScript.APIs.JS.GPUDevice.CreateCommandEncoder(CSharpToJavaScript.APIs.JS.GPUCommandEncoderDescriptor)">
+  CreateCommandEncoder(GPUCommandEncoderDescriptor)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L14047"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>createCommandEncoder()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.GPUDevice.html">GPUDevice</a> interface creates a <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUCommandEncoder.html">GPUCommandEncoder</a>, used to encode commands to be issued to the GPU.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GPUCommandEncoder CreateCommandEncoder(GPUCommandEncoderDescriptor descriptor)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>descriptor</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUCommandEncoderDescriptor.html">GPUCommandEncoderDescriptor</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GPUCommandEncoder.html">GPUCommandEncoder</a></dt>
+    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUCommandEncoder.html">GPUCommandEncoder</a> object instance.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_GPUDevice_CreateCommandEncoder_CSharpToJavaScript_APIs_JS_GPUCommandEncoderDescriptor__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-The <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API">WebGPU API</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/GPUDevice/createCommandEncoder"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_GPUDevice_CreateComputePipeline_" data-uid="CSharpToJavaScript.APIs.JS.GPUDevice.CreateComputePipeline*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_GPUDevice_CreateComputePipeline_CSharpToJavaScript_APIs_JS_GPUComputePipelineDescriptor_" data-uid="CSharpToJavaScript.APIs.JS.GPUDevice.CreateComputePipeline(CSharpToJavaScript.APIs.JS.GPUComputePipelineDescriptor)">
+  CreateComputePipeline(GPUComputePipelineDescriptor)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L14039"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>createComputePipeline()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.GPUDevice.html">GPUDevice</a> interface creates a <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUComputePipeline.html">GPUComputePipeline</a> that can control the compute shader stage and be used in a <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUComputePassEncoder.html">GPUComputePassEncoder</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GPUComputePipeline CreateComputePipeline(GPUComputePipelineDescriptor descriptor)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>descriptor</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUComputePipelineDescriptor.html">GPUComputePipelineDescriptor</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GPUComputePipeline.html">GPUComputePipeline</a></dt>
+    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUComputePipeline.html">GPUComputePipeline</a> object instance.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_GPUDevice_CreateComputePipeline_CSharpToJavaScript_APIs_JS_GPUComputePipelineDescriptor__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-The <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API">WebGPU API</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/GPUDevice/createComputePipeline"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_GPUDevice_CreateComputePipelineAsync_" data-uid="CSharpToJavaScript.APIs.JS.GPUDevice.CreateComputePipelineAsync*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_GPUDevice_CreateComputePipelineAsync_CSharpToJavaScript_APIs_JS_GPUComputePipelineDescriptor_" data-uid="CSharpToJavaScript.APIs.JS.GPUDevice.CreateComputePipelineAsync(CSharpToJavaScript.APIs.JS.GPUComputePipelineDescriptor)">
+  CreateComputePipelineAsync(GPUComputePipelineDescriptor)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L14043"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>createComputePipelineAsync()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.GPUDevice.html">GPUDevice</a> interface returns a {{jsxref(&quot;Promise&quot;)}} that fulfills with a <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUComputePipeline.html">GPUComputePipeline</a>, which can control the compute shader stage and be used in a <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUComputePassEncoder.html">GPUComputePassEncoder</a>, once the pipeline can be used without any stalling.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;GPUComputePipeline&gt; CreateComputePipelineAsync(GPUComputePipelineDescriptor descriptor)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>descriptor</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUComputePipelineDescriptor.html">GPUComputePipelineDescriptor</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CSharpToJavaScript.APIs.JS.GPUComputePipeline.html">GPUComputePipeline</a>&gt;</dt>
+    <dd><p>A {{jsxref(&quot;Promise&quot;)}} that fulfills with a <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUComputePipeline.html">GPUComputePipeline</a> object instance when the created pipeline is ready to be used without additional delay.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_GPUDevice_CreateComputePipelineAsync_CSharpToJavaScript_APIs_JS_GPUComputePipelineDescriptor__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><blockquote class="NOTE"><h5>NOTE</h5><p><strong>Note:</strong> It is generally preferable to use this method over <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUDevice.html#CSharpToJavaScript_APIs_JS_GPUDevice_CreateComputePipeline_CSharpToJavaScript_APIs_JS_GPUComputePipelineDescriptor_">CreateComputePipeline(GPUComputePipelineDescriptor)</a> whenever possible, as it prevents blocking of GPU operation execution on pipeline compilation.</p></blockquote>
+<p>-The <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API">WebGPU API</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/GPUDevice/createComputePipelineAsync"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_GPUDevice_CreatePipelineLayout_" data-uid="CSharpToJavaScript.APIs.JS.GPUDevice.CreatePipelineLayout*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_GPUDevice_CreatePipelineLayout_CSharpToJavaScript_APIs_JS_GPUPipelineLayoutDescriptor_" data-uid="CSharpToJavaScript.APIs.JS.GPUDevice.CreatePipelineLayout(CSharpToJavaScript.APIs.JS.GPUPipelineLayoutDescriptor)">
+  CreatePipelineLayout(GPUPipelineLayoutDescriptor)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L14033"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>createPipelineLayout()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.GPUDevice.html">GPUDevice</a> interface creates a <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUPipelineLayout.html">GPUPipelineLayout</a> that defines the <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUBindGroupLayout.html">GPUBindGroupLayout</a>s used by a pipeline. <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUBindGroup.html">GPUBindGroup</a>s used with the pipeline during command encoding must have compatible <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUBindGroupLayout.html">GPUBindGroupLayout</a>s.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GPUPipelineLayout CreatePipelineLayout(GPUPipelineLayoutDescriptor descriptor)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>descriptor</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUPipelineLayoutDescriptor.html">GPUPipelineLayoutDescriptor</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GPUPipelineLayout.html">GPUPipelineLayout</a></dt>
+    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUPipelineLayout.html">GPUPipelineLayout</a> object instance.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_GPUDevice_CreatePipelineLayout_CSharpToJavaScript_APIs_JS_GPUPipelineLayoutDescriptor__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-The <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API">WebGPU API</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/GPUDevice/createPipelineLayout"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_GPUDevice_CreateQuerySet_" data-uid="CSharpToJavaScript.APIs.JS.GPUDevice.CreateQuerySet*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_GPUDevice_CreateQuerySet_CSharpToJavaScript_APIs_JS_GPUQuerySetDescriptor_" data-uid="CSharpToJavaScript.APIs.JS.GPUDevice.CreateQuerySet(CSharpToJavaScript.APIs.JS.GPUQuerySetDescriptor)">
+  CreateQuerySet(GPUQuerySetDescriptor)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L14051"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>createQuerySet()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.GPUDevice.html">GPUDevice</a> interface creates a <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUQuerySet.html">GPUQuerySet</a> that can be used to record the results of queries on passes, such as occlusion or timestamp queries.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GPUQuerySet CreateQuerySet(GPUQuerySetDescriptor descriptor)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>descriptor</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUQuerySetDescriptor.html">GPUQuerySetDescriptor</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GPUQuerySet.html">GPUQuerySet</a></dt>
+    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUQuerySet.html">GPUQuerySet</a> object instance.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_GPUDevice_CreateQuerySet_CSharpToJavaScript_APIs_JS_GPUQuerySetDescriptor__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-The <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API">WebGPU API</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/GPUDevice/createQuerySet"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_GPUDevice_CreateRenderBundleEncoder_" data-uid="CSharpToJavaScript.APIs.JS.GPUDevice.CreateRenderBundleEncoder*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_GPUDevice_CreateRenderBundleEncoder_CSharpToJavaScript_APIs_JS_GPURenderBundleEncoderDescriptor_" data-uid="CSharpToJavaScript.APIs.JS.GPUDevice.CreateRenderBundleEncoder(CSharpToJavaScript.APIs.JS.GPURenderBundleEncoderDescriptor)">
+  CreateRenderBundleEncoder(GPURenderBundleEncoderDescriptor)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L14049"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>createRenderBundleEncoder()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.GPUDevice.html">GPUDevice</a> interface creates a <a class="xref" href="CSharpToJavaScript.APIs.JS.GPURenderBundleEncoder.html">GPURenderBundleEncoder</a> that can be used to pre-record bundles of commands. These can be reused in <a class="xref" href="CSharpToJavaScript.APIs.JS.GPURenderPassEncoder.html">GPURenderPassEncoder</a>s via the <a class="xref" href="CSharpToJavaScript.APIs.JS.GPURenderPassEncoder.html#CSharpToJavaScript_APIs_JS_GPURenderPassEncoder_ExecuteBundles_System_Collections_Generic_List_CSharpToJavaScript_APIs_JS_GPURenderBundle__">ExecuteBundles(List&lt;GPURenderBundle&gt;)</a> method, as many times as required.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GPURenderBundleEncoder CreateRenderBundleEncoder(GPURenderBundleEncoderDescriptor descriptor)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>descriptor</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.GPURenderBundleEncoderDescriptor.html">GPURenderBundleEncoderDescriptor</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GPURenderBundleEncoder.html">GPURenderBundleEncoder</a></dt>
+    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.GPURenderBundleEncoder.html">GPURenderBundleEncoder</a> object instance.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_GPUDevice_CreateRenderBundleEncoder_CSharpToJavaScript_APIs_JS_GPURenderBundleEncoderDescriptor__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-The <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API">WebGPU API</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/GPUDevice/createRenderBundleEncoder"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_GPUDevice_CreateRenderPipeline_" data-uid="CSharpToJavaScript.APIs.JS.GPUDevice.CreateRenderPipeline*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_GPUDevice_CreateRenderPipeline_CSharpToJavaScript_APIs_JS_GPURenderPipelineDescriptor_" data-uid="CSharpToJavaScript.APIs.JS.GPUDevice.CreateRenderPipeline(CSharpToJavaScript.APIs.JS.GPURenderPipelineDescriptor)">
+  CreateRenderPipeline(GPURenderPipelineDescriptor)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L14041"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>createRenderPipeline()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.GPUDevice.html">GPUDevice</a> interface creates a <a class="xref" href="CSharpToJavaScript.APIs.JS.GPURenderPipeline.html">GPURenderPipeline</a> that can control the vertex and fragment shader stages and be used in a <a class="xref" href="CSharpToJavaScript.APIs.JS.GPURenderPassEncoder.html">GPURenderPassEncoder</a> or <a class="xref" href="CSharpToJavaScript.APIs.JS.GPURenderBundleEncoder.html">GPURenderBundleEncoder</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GPURenderPipeline CreateRenderPipeline(GPURenderPipelineDescriptor descriptor)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>descriptor</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.GPURenderPipelineDescriptor.html">GPURenderPipelineDescriptor</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GPURenderPipeline.html">GPURenderPipeline</a></dt>
+    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.GPURenderPipeline.html">GPURenderPipeline</a> object instance.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_GPUDevice_CreateRenderPipeline_CSharpToJavaScript_APIs_JS_GPURenderPipelineDescriptor__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-The <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API">WebGPU API</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/GPUDevice/createRenderPipeline"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_GPUDevice_CreateRenderPipelineAsync_" data-uid="CSharpToJavaScript.APIs.JS.GPUDevice.CreateRenderPipelineAsync*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_GPUDevice_CreateRenderPipelineAsync_CSharpToJavaScript_APIs_JS_GPURenderPipelineDescriptor_" data-uid="CSharpToJavaScript.APIs.JS.GPUDevice.CreateRenderPipelineAsync(CSharpToJavaScript.APIs.JS.GPURenderPipelineDescriptor)">
+  CreateRenderPipelineAsync(GPURenderPipelineDescriptor)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L14045"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>createRenderPipelineAsync()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.GPUDevice.html">GPUDevice</a> interface returns a {{jsxref(&quot;Promise&quot;)}} that fulfills with a <a class="xref" href="CSharpToJavaScript.APIs.JS.GPURenderPipeline.html">GPURenderPipeline</a>, which can control the vertex and fragment shader stages and be used in a <a class="xref" href="CSharpToJavaScript.APIs.JS.GPURenderPassEncoder.html">GPURenderPassEncoder</a> or <a class="xref" href="CSharpToJavaScript.APIs.JS.GPURenderBundleEncoder.html">GPURenderBundleEncoder</a>, once the pipeline can be used without any stalling.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;GPURenderPipeline&gt; CreateRenderPipelineAsync(GPURenderPipelineDescriptor descriptor)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>descriptor</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.GPURenderPipelineDescriptor.html">GPURenderPipelineDescriptor</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CSharpToJavaScript.APIs.JS.GPURenderPipeline.html">GPURenderPipeline</a>&gt;</dt>
+    <dd><p>A {{jsxref(&quot;Promise&quot;)}} that fulfills with a <a class="xref" href="CSharpToJavaScript.APIs.JS.GPURenderPipeline.html">GPURenderPipeline</a> object instance when the created pipeline is ready to be used without additional delay.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_GPUDevice_CreateRenderPipelineAsync_CSharpToJavaScript_APIs_JS_GPURenderPipelineDescriptor__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><blockquote class="NOTE"><h5>NOTE</h5><p><strong>Note:</strong> It is generally preferable to use this method over <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUDevice.html#CSharpToJavaScript_APIs_JS_GPUDevice_CreateRenderPipeline_CSharpToJavaScript_APIs_JS_GPURenderPipelineDescriptor_">CreateRenderPipeline(GPURenderPipelineDescriptor)</a> whenever possible, as it prevents blocking of GPU operation execution on pipeline compilation.</p></blockquote>
+<p>-The <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API">WebGPU API</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/GPUDevice/createRenderPipelineAsync"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_GPUDevice_CreateSampler_" data-uid="CSharpToJavaScript.APIs.JS.GPUDevice.CreateSampler*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_GPUDevice_CreateSampler_CSharpToJavaScript_APIs_JS_GPUSamplerDescriptor_" data-uid="CSharpToJavaScript.APIs.JS.GPUDevice.CreateSampler(CSharpToJavaScript.APIs.JS.GPUSamplerDescriptor)">
+  CreateSampler(GPUSamplerDescriptor)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L14027"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>createSampler()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.GPUDevice.html">GPUDevice</a> interface creates a <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUSampler.html">GPUSampler</a>, which controls how shaders transform and filter texture resource data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GPUSampler CreateSampler(GPUSamplerDescriptor descriptor)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>descriptor</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUSamplerDescriptor.html">GPUSamplerDescriptor</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GPUSampler.html">GPUSampler</a></dt>
+    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUSampler.html">GPUSampler</a> object instance.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_GPUDevice_CreateSampler_CSharpToJavaScript_APIs_JS_GPUSamplerDescriptor__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-The <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API">WebGPU API</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/GPUDevice/createSampler"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_GPUDevice_CreateShaderModule_" data-uid="CSharpToJavaScript.APIs.JS.GPUDevice.CreateShaderModule*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_GPUDevice_CreateShaderModule_CSharpToJavaScript_APIs_JS_GPUShaderModuleDescriptor_" data-uid="CSharpToJavaScript.APIs.JS.GPUDevice.CreateShaderModule(CSharpToJavaScript.APIs.JS.GPUShaderModuleDescriptor)">
+  CreateShaderModule(GPUShaderModuleDescriptor)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L14037"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>createShaderModule()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.GPUDevice.html">GPUDevice</a> interface creates a <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUShaderModule.html">GPUShaderModule</a> from a string of <a href="https://gpuweb.github.io/gpuweb/wgsl/">WGSL</a> source code.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GPUShaderModule CreateShaderModule(GPUShaderModuleDescriptor descriptor)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>descriptor</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUShaderModuleDescriptor.html">GPUShaderModuleDescriptor</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GPUShaderModule.html">GPUShaderModule</a></dt>
+    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUShaderModule.html">GPUShaderModule</a> object instance.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_GPUDevice_CreateShaderModule_CSharpToJavaScript_APIs_JS_GPUShaderModuleDescriptor__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-The <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API">WebGPU API</a><br>-The <a href="https://gpuweb.github.io/gpuweb/wgsl/">WebGPU Shading Language specification</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/GPUDevice/createShaderModule"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_GPUDevice_CreateTexture_" data-uid="CSharpToJavaScript.APIs.JS.GPUDevice.CreateTexture*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_GPUDevice_CreateTexture_CSharpToJavaScript_APIs_JS_GPUTextureDescriptor_" data-uid="CSharpToJavaScript.APIs.JS.GPUDevice.CreateTexture(CSharpToJavaScript.APIs.JS.GPUTextureDescriptor)">
+  CreateTexture(GPUTextureDescriptor)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L14025"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>createTexture()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.GPUDevice.html">GPUDevice</a> interface creates a <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUTexture.html">GPUTexture</a> in which to store 1D, 2D, or 3D arrays of data, such as images, to use in GPU rendering operations.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GPUTexture CreateTexture(GPUTextureDescriptor descriptor)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>descriptor</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUTextureDescriptor.html">GPUTextureDescriptor</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GPUTexture.html">GPUTexture</a></dt>
+    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUTexture.html">GPUTexture</a> object instance.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_GPUDevice_CreateTexture_CSharpToJavaScript_APIs_JS_GPUTextureDescriptor__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-The <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API">WebGPU API</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/GPUDevice/createTexture"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_GPUDevice_Destroy_" data-uid="CSharpToJavaScript.APIs.JS.GPUDevice.Destroy*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_GPUDevice_Destroy" data-uid="CSharpToJavaScript.APIs.JS.GPUDevice.Destroy">
+  Destroy()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L14021"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>destroy()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.GPUDevice.html">GPUDevice</a> interface destroys the device, preventing further operations on it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined Destroy()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_GPUDevice_Destroy_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Note that:</p>
+<p>-The <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API">WebGPU API</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/GPUDevice/destroy"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_GPUDevice_ImportExternalTexture_" data-uid="CSharpToJavaScript.APIs.JS.GPUDevice.ImportExternalTexture*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_GPUDevice_ImportExternalTexture_CSharpToJavaScript_APIs_JS_GPUExternalTextureDescriptor_" data-uid="CSharpToJavaScript.APIs.JS.GPUDevice.ImportExternalTexture(CSharpToJavaScript.APIs.JS.GPUExternalTextureDescriptor)">
+  ImportExternalTexture(GPUExternalTextureDescriptor)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L14029"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>importExternalTexture()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.GPUDevice.html">GPUDevice</a> interface takes an <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLVideoElement.html">HTMLVideoElement</a> as an input and returns a <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUExternalTexture.html">GPUExternalTexture</a> wrapper object containing a snapshot of the video that can be used as a frame in GPU rendering operations.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GPUExternalTexture ImportExternalTexture(GPUExternalTextureDescriptor descriptor)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>descriptor</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUExternalTextureDescriptor.html">GPUExternalTextureDescriptor</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GPUExternalTexture.html">GPUExternalTexture</a></dt>
+    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUExternalTexture.html">GPUExternalTexture</a> object instance.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_GPUDevice_ImportExternalTexture_CSharpToJavaScript_APIs_JS_GPUExternalTextureDescriptor__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-The <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API">WebGPU API</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/GPUDevice/importExternalTexture"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_GPUDevice_PopErrorScope_" data-uid="CSharpToJavaScript.APIs.JS.GPUDevice.PopErrorScope*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_GPUDevice_PopErrorScope" data-uid="CSharpToJavaScript.APIs.JS.GPUDevice.PopErrorScope">
+  PopErrorScope()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L15293"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>popErrorScope()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.GPUDevice.html">GPUDevice</a> interface pops an existing GPU error scope from the error scope stack (originally pushed using <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUDevice.html#CSharpToJavaScript_APIs_JS_GPUDevice_PushErrorScope_CSharpToJavaScript_APIs_JS_GPUErrorFilter_">PushErrorScope(GPUErrorFilter)</a>) and returns a {{jsxref(&quot;Promise&quot;)}} that resolves to an object describing the first error captured in the scope, or <code>null</code> if no error occurred.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;GPUError?&gt; PopErrorScope()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CSharpToJavaScript.APIs.JS.GPUError.html">GPUError</a>&gt;</dt>
+    <dd><p>a Promise that resolves to an object describing the first error captured in the scope. This can be of type:If no error occurred, it resolves to <code>null</code>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_GPUDevice_PopErrorScope_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-The <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API">WebGPU API</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/GPUDevice/popErrorScope"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_GPUDevice_PushErrorScope_" data-uid="CSharpToJavaScript.APIs.JS.GPUDevice.PushErrorScope*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_GPUDevice_PushErrorScope_CSharpToJavaScript_APIs_JS_GPUErrorFilter_" data-uid="CSharpToJavaScript.APIs.JS.GPUDevice.PushErrorScope(CSharpToJavaScript.APIs.JS.GPUErrorFilter)">
+  PushErrorScope(GPUErrorFilter)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L15291"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>pushErrorScope()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.GPUDevice.html">GPUDevice</a> interface pushes a new GPU error scope onto the device's error scope stack, allowing you to capture errors of a particular type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined PushErrorScope(GPUErrorFilter filter)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>filter</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUErrorFilter.html">GPUErrorFilter</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_GPUDevice_PushErrorScope_CSharpToJavaScript_APIs_JS_GPUErrorFilter__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Once you are done capturing errors, you can end capture by invoking <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUDevice.html#CSharpToJavaScript_APIs_JS_GPUDevice_PopErrorScope">PopErrorScope()</a>. This pops the scope from the stack and returns a {{jsxref("Promise")}} that resolves to an object describing the first error captured in the scope, or <code>null</code> if no errors were captured.</p>
+<p>-The <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API">WebGPU API</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/GPUDevice/pushErrorScope"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L15314" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

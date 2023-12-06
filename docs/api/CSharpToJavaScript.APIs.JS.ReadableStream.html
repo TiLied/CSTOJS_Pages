@@ -1,0 +1,591 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class ReadableStream
+ | CSharpToJavaScript </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class ReadableStream
+ | CSharpToJavaScript ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/TiLied/CSharpToJavaScript/new/master/apiSpec/new?filename=CSharpToJavaScript_APIs_JS_ReadableStream.md&amp;value=---%0Auid%3A%20CSharpToJavaScript.APIs.JS.ReadableStream%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="CSharpToJavaScript.APIs.JS.ReadableStream">
+
+
+
+  <h1 id="CSharpToJavaScript_APIs_JS_ReadableStream" data-uid="CSharpToJavaScript.APIs.JS.ReadableStream" class="text-break">
+    Class ReadableStream
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8599"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CSharpToJavaScript.html">CSharpToJavaScript</a>.<a class="xref" href="CSharpToJavaScript.APIs.html">APIs</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.html">JS</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>The <code>ReadableStream</code> interface of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Streams_API">Streams API</a> represents a readable stream of byte data. The <a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API">Fetch API</a> offers a concrete instance of a <code>ReadableStream</code> through the Response.Body property of a <a class="xref" href="CSharpToJavaScript.APIs.JS.Response.html">Response</a> object.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public class ReadableStream</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">ReadableStream</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.WebTransportReceiveStream.html">WebTransportReceiveStream</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+  <h2 id="CSharpToJavaScript_APIs_JS_ReadableStream_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p><code>ReadableStream</code> is a <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Transferable_objects">transferable object</a>.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Streams_API">Streams API concepts</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Streams_API/Using_readable_streams">Using readable streams</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Streams_API/Using_readable_byte_streams">Using readable byte stream</a><br>-<a href="https://whatwg-stream-visualizer.glitch.me/">WHATWG Stream Visualizer</a>, for a basic visualization of readable, writable, and transform streams.<br>-<a href="https://github.com/MattiasBuelens/web-streams-polyfill">Web-streams-polyfill</a> or <a href="https://github.com/stardazed/sd-streams">sd-streams</a> - polyfills<br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStream"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_ReadableStream__ctor_" data-uid="CSharpToJavaScript.APIs.JS.ReadableStream.#ctor*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_ReadableStream__ctor" data-uid="CSharpToJavaScript.APIs.JS.ReadableStream.#ctor">
+  ReadableStream()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8618"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ReadableStream()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_ReadableStream__ctor_" data-uid="CSharpToJavaScript.APIs.JS.ReadableStream.#ctor*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_ReadableStream__ctor_System_Object_CSharpToJavaScript_APIs_JS_QueuingStrategy_" data-uid="CSharpToJavaScript.APIs.JS.ReadableStream.#ctor(System.Object,CSharpToJavaScript.APIs.JS.QueuingStrategy)">
+  ReadableStream(object, QueuingStrategy)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8603"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>ReadableStream()</code></strong> constructor creates and returns a readable stream object from the given handlers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ReadableStream(object underlyingSource, QueuingStrategy strategy)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>underlyingSource</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+    <dt><code>strategy</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.QueuingStrategy.html">QueuingStrategy</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_ReadableStream__ctor_System_Object_CSharpToJavaScript_APIs_JS_QueuingStrategy__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Note that while all parameters are technically optional, omitting the <code>underlyingSource</code> will result in a stream that has no source, and that can&amp;apos;t be read from (readers return a promise that will never be resolved).</p>
+<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStream.html">ReadableStream</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableByteStreamController.html">ReadableByteStreamController</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStreamDefaultController.html">ReadableStreamDefaultController</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Streams_API/Using_readable_streams">Using readable streams</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStream/ReadableStream"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_ReadableStream_Item_" data-uid="CSharpToJavaScript.APIs.JS.ReadableStream.Item*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_ReadableStream_Item_System_Int32_" data-uid="CSharpToJavaScript.APIs.JS.ReadableStream.Item(System.Int32)">
+  this[int]
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8617"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public dynamic this[int i] { get; set; }</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>i</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">dynamic</span></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_ReadableStream_Locked_" data-uid="CSharpToJavaScript.APIs.JS.ReadableStream.Locked*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_ReadableStream_Locked" data-uid="CSharpToJavaScript.APIs.JS.ReadableStream.Locked">
+  Locked
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8606"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>locked</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStream.html">ReadableStream</a> interface returns whether or not the readable stream is locked to a reader.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Locked { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A <a href="https://developer.mozilla.org/en-US/docs/Glossary/boolean">boolean</a> value indicating whether or not the readable stream is locked.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_ReadableStream_Locked_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>A readable stream can have at most one active reader at a time, and is locked to that reader until it is released.<br>A reader might be obtained using <a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStream/getReader"><code>ReadableStream.getReader()</code></a> and released using the reader&amp;apos;s <code>releaseLock()</code> method.</p>
+<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStream.html#CSharpToJavaScript_APIs_JS_ReadableStream__ctor_System_Object_CSharpToJavaScript_APIs_JS_QueuingStrategy_">ReadableStream(object, QueuingStrategy)</a> constructor<br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Streams_API/Using_readable_streams">Using readable streams</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStream/locked"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_ReadableStream_Cancel_" data-uid="CSharpToJavaScript.APIs.JS.ReadableStream.Cancel*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_ReadableStream_Cancel_System_Object_" data-uid="CSharpToJavaScript.APIs.JS.ReadableStream.Cancel(System.Object)">
+  Cancel(dynamic)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8608"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>cancel()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStream.html">ReadableStream</a> interface returns a {{jsxref(&quot;Promise&quot;)}} that<br>resolves when the stream is canceled.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;GlobalObject.Undefined&gt; Cancel(dynamic reason)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reason</code> <span class="xref">dynamic</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a>&gt;</dt>
+    <dd><p>A Promise, which fulfills with the value given in the <code>reason</code> parameter.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_ReadableStream_Cancel_System_Object__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Cancel is used when you&amp;apos;ve completely finished with the stream and don&amp;apos;t need any more<br>data from it, even if there are chunks enqueued waiting to be read. That data is lost<br>after cancel is called, and the stream is not readable any more. To read those chunks<br>still and not completely get rid of the stream, you&amp;apos;d use<br><a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStreamDefaultController.html#CSharpToJavaScript_APIs_JS_ReadableStreamDefaultController_Close">Close()</a>.</p>
+<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStream.html#CSharpToJavaScript_APIs_JS_ReadableStream__ctor_System_Object_CSharpToJavaScript_APIs_JS_QueuingStrategy_">ReadableStream(object, QueuingStrategy)</a> constructor<br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Streams_API/Using_readable_streams">Using readable streams</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStream/cancel"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_ReadableStream_From_" data-uid="CSharpToJavaScript.APIs.JS.ReadableStream.From*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_ReadableStream_From_System_Object_" data-uid="CSharpToJavaScript.APIs.JS.ReadableStream.From(System.Object)">
+  From(dynamic)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8604"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ReadableStream From(dynamic asyncIterable)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>asyncIterable</code> <span class="xref">dynamic</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStream.html">ReadableStream</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_ReadableStream_GetReader_" data-uid="CSharpToJavaScript.APIs.JS.ReadableStream.GetReader*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_ReadableStream_GetReader_CSharpToJavaScript_APIs_JS_ReadableStreamGetReaderOptions_" data-uid="CSharpToJavaScript.APIs.JS.ReadableStream.GetReader(CSharpToJavaScript.APIs.JS.ReadableStreamGetReaderOptions)">
+  GetReader(ReadableStreamGetReaderOptions)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8610"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>getReader()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStream.html">ReadableStream</a> interface creates a reader and locks the stream to it.<br>While the stream is locked, no other reader can be acquired until this one is released.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Union62 GetReader(ReadableStreamGetReaderOptions options)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>options</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStreamGetReaderOptions.html">ReadableStreamGetReaderOptions</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Union62.html">Union62</a></dt>
+    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStreamDefaultReader.html">ReadableStreamDefaultReader</a> or <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStreamBYOBReader.html">ReadableStreamBYOBReader</a> object instance, depending on the <code>mode</code> value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_ReadableStream_GetReader_CSharpToJavaScript_APIs_JS_ReadableStreamGetReaderOptions__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStream.html#CSharpToJavaScript_APIs_JS_ReadableStream__ctor_System_Object_CSharpToJavaScript_APIs_JS_QueuingStrategy_">ReadableStream(object, QueuingStrategy)</a> constructor<br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStreamDefaultReader.html">ReadableStreamDefaultReader</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStreamBYOBReader.html">ReadableStreamBYOBReader</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Streams_API/Using_readable_streams">Using readable streams</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Streams_API/Using_readable_byte_streams">Using readable byte stream</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStream/getReader"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_ReadableStream_PipeThrough_" data-uid="CSharpToJavaScript.APIs.JS.ReadableStream.PipeThrough*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_ReadableStream_PipeThrough_CSharpToJavaScript_APIs_JS_ReadableWritablePair_CSharpToJavaScript_APIs_JS_StreamPipeOptions_" data-uid="CSharpToJavaScript.APIs.JS.ReadableStream.PipeThrough(CSharpToJavaScript.APIs.JS.ReadableWritablePair,CSharpToJavaScript.APIs.JS.StreamPipeOptions)">
+  PipeThrough(ReadableWritablePair, StreamPipeOptions)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8612"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>pipeThrough()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStream.html">ReadableStream</a> interface provides a chainable way of piping the current stream through a transform stream or any other writable/readable pair.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ReadableStream PipeThrough(ReadableWritablePair transform, StreamPipeOptions options)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>transform</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableWritablePair.html">ReadableWritablePair</a></dt>
+    <dd></dd>
+    <dt><code>options</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.StreamPipeOptions.html">StreamPipeOptions</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStream.html">ReadableStream</a></dt>
+    <dd><p>The <code>readable</code> side of the <code>transformStream</code>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_ReadableStream_PipeThrough_CSharpToJavaScript_APIs_JS_ReadableWritablePair_CSharpToJavaScript_APIs_JS_StreamPipeOptions__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Piping a stream will generally lock it for the duration of the pipe, preventing other readers from locking it.</p>
+<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStream.html#CSharpToJavaScript_APIs_JS_ReadableStream__ctor_System_Object_CSharpToJavaScript_APIs_JS_QueuingStrategy_">ReadableStream(object, QueuingStrategy)</a> constructor<br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Streams_API/Using_readable_streams#pipe_chains">Pipe chains</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStream/pipeThrough"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_ReadableStream_PipeTo_" data-uid="CSharpToJavaScript.APIs.JS.ReadableStream.PipeTo*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_ReadableStream_PipeTo_CSharpToJavaScript_APIs_JS_WritableStream_CSharpToJavaScript_APIs_JS_StreamPipeOptions_" data-uid="CSharpToJavaScript.APIs.JS.ReadableStream.PipeTo(CSharpToJavaScript.APIs.JS.WritableStream,CSharpToJavaScript.APIs.JS.StreamPipeOptions)">
+  PipeTo(WritableStream, StreamPipeOptions)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8614"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>pipeTo()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStream.html">ReadableStream</a> interface pipes the current <code>ReadableStream</code> to a given <a class="xref" href="CSharpToJavaScript.APIs.JS.WritableStream.html">WritableStream</a> and returns a {{jsxref(&quot;Promise&quot;)}} that fulfills when the piping process completes successfully, or rejects if any errors were encountered.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;GlobalObject.Undefined&gt; PipeTo(WritableStream destination, StreamPipeOptions options)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>destination</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.WritableStream.html">WritableStream</a></dt>
+    <dd></dd>
+    <dt><code>options</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.StreamPipeOptions.html">StreamPipeOptions</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a>&gt;</dt>
+    <dd><p>A Promise that resolves when the piping process has completed.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_ReadableStream_PipeTo_CSharpToJavaScript_APIs_JS_WritableStream_CSharpToJavaScript_APIs_JS_StreamPipeOptions__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Piping a stream will generally <a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStream/locked">lock</a> it for the duration of the pipe, preventing other readers from locking it.</p>
+<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStream.html#CSharpToJavaScript_APIs_JS_ReadableStream__ctor_System_Object_CSharpToJavaScript_APIs_JS_QueuingStrategy_">ReadableStream(object, QueuingStrategy)</a> constructor<br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Streams_API/Using_readable_streams#pipe_chains">Pipe chains</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStream/pipeTo"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_ReadableStream_Tee_" data-uid="CSharpToJavaScript.APIs.JS.ReadableStream.Tee*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_ReadableStream_Tee" data-uid="CSharpToJavaScript.APIs.JS.ReadableStream.Tee">
+  Tee()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8616"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>tee()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStream.html">ReadableStream</a> interface <a href="https://streams.spec.whatwg.org/#tee-a-readable-stream">tees</a> the current readable stream, returning a<br>two-element array containing the two resulting branches as<br>new <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStream.html">ReadableStream</a> instances.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;ReadableStream&gt; Tee()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStream.html">ReadableStream</a>&gt;</dt>
+    <dd><p>An {{jsxref(&quot;Array&quot;)}} containing two <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStream.html">ReadableStream</a> instances.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_ReadableStream_Tee_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This is useful for allowing two readers to read a stream sequentially or simultaneously,<br>perhaps at different speeds.<br>For example, you might do this in a ServiceWorker if you want to fetch<br>a response from the server and stream it to the browser, but also stream it to the<br>ServiceWorker cache. Since a response body cannot be consumed more than once, you&amp;apos;d need<br>two copies to do this.</p><p>A teed stream will partially signal backpressure at the rate of the <strong>faster</strong> consumer<br>of the two <code>ReadableStream</code> branches,<br>and unread data is enqueued internally on the slower consumed <code>ReadableStream</code><br>without any limit or backpressure.<br>That is, when <strong>both</strong> branches have an unread element in their internal queue,<br>then the original <code>ReadableStream</code>&amp;apos;s controller&amp;apos;s internal queue will start to fill up,<br>and once its <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStreamDefaultController.html#CSharpToJavaScript_APIs_JS_ReadableStreamDefaultController_DesiredSize">DesiredSize</a> ≤ 0<br>or byte stream controller <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableByteStreamController.html#CSharpToJavaScript_APIs_JS_ReadableByteStreamController_DesiredSize">DesiredSize</a> ≤ 0,<br>then the controller will stop calling <code>pull(controller)</code> on the<br>underlying source passed to <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStream.html#CSharpToJavaScript_APIs_JS_ReadableStream__ctor_System_Object_CSharpToJavaScript_APIs_JS_QueuingStrategy_">ReadableStream(object, QueuingStrategy)</a>.<br>If only one branch is consumed, then the entire body will be enqueued in memory.<br>Therefore, you should not use the built-in <code>tee()</code> to read very large streams<br>in parallel at different speeds.<br>Instead, search for an implementation that fully backpressures<br>to the speed of the <strong>slower</strong> consumed branch.</p><p>To cancel the stream you then need to cancel both resulting branches. Teeing a stream<br>will generally lock it for the duration, preventing other readers from locking it.</p>
+<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStream.html#CSharpToJavaScript_APIs_JS_ReadableStream__ctor_System_Object_CSharpToJavaScript_APIs_JS_QueuingStrategy_">ReadableStream(object, QueuingStrategy)</a> constructor<br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Streams_API/Using_readable_streams#teeing_a_stream">Teeing a stream</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStream/tee"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8599" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
