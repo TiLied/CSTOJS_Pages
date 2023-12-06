@@ -12,5 +12,9 @@ CSharpToJavaScript library: https://github.com/TiLied/CSharpToJavaScript
 
 CLI for library: https://github.com/TiLied/CSTOJS_CLI
 
+VS Code Extension using CLI: https://github.com/TiLied/CSTOJS_VSCode_Ext
+
+VS Extension using CLI: https://github.com/TiLied/CSTOJS_VS_Ext
+
 ## Thanks for packages and content <3
 [docfx](https://dotnet.github.io/docfx/) for generating static website.
