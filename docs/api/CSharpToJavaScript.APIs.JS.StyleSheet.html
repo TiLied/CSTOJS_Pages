@@ -2,11 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class StyleSheet
- | CSharpToJavaScript </title>
+      <title>Class StyleSheet | CSharpToJavaScript </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class StyleSheet
- | CSharpToJavaScript ">
+      <meta name="title" content="Class StyleSheet | CSharpToJavaScript ">
       
       <meta name="description" content="An object implementing the StyleSheet interface represents a single style sheet. CSS style sheets will further implement the more specialized  interface.">
       <link rel="icon" href="../favicon.ico">
@@ -31,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -91,8 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_StyleSheet" data-uid="CSharpToJavaScript.APIs.JS.StyleSheet" class="text-break">
-    Class StyleSheet
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5520"><i class="bi bi-code-slash"></i></a>
+Class StyleSheet  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L3743"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -128,7 +125,7 @@ public class StyleSheet</code></pre>
     </dd>
   </dl>
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
     <div>
@@ -159,7 +156,11 @@ public class StyleSheet</code></pre>
 
   <h2 id="CSharpToJavaScript_APIs_JS_StyleSheet_remarks">Remarks</h2>
   <div class="markdown level0 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.CSSStyleSheet.html">CSSStyleSheet</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/StyleSheet"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/StyleSheet">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -171,7 +172,7 @@ public class StyleSheet</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_StyleSheet_Disabled" data-uid="CSharpToJavaScript.APIs.JS.StyleSheet.Disabled">
   Disabled
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5536"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L3759"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>disabled</code></strong> property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.StyleSheet.html">StyleSheet</a> interface determines whether the style sheet is prevented from<br>applying to the document.</p>
@@ -198,7 +199,11 @@ public class StyleSheet</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_StyleSheet_Disabled_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>A style sheet may be disabled by manually setting this property to <code>true</code> or<br>if it&amp;apos;s an inactive <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Alternative_style_sheets">alternative style sheet</a>. Note that <code>disabled === false</code> does not guarantee the style<br>sheet is applied (it could be removed from the document, for instance).</p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/StyleSheet/disabled"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/StyleSheet/disabled">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -208,7 +213,7 @@ public class StyleSheet</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_StyleSheet_Href" data-uid="CSharpToJavaScript.APIs.JS.StyleSheet.Href">
   Href
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5526"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L3749"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>href</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.StyleSheet.html">StyleSheet</a><br>interface returns the location of the style sheet.</p>
@@ -235,7 +240,11 @@ public class StyleSheet</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_StyleSheet_Href_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>This property is read-only.</p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/StyleSheet/href"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/StyleSheet/href">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -245,7 +254,7 @@ public class StyleSheet</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_StyleSheet_Media" data-uid="CSharpToJavaScript.APIs.JS.StyleSheet.Media">
   Media
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5534"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L3757"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>media</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.StyleSheet.html">StyleSheet</a> interface specifies the intended destination media for style information. It is a read-only, array-like <code>MediaList</code> object and can be removed with <code>deleteMedium()</code> and added with <code>appendMedium()</code>.</p>
@@ -271,7 +280,11 @@ public class StyleSheet</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_StyleSheet_Media_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p><a href="https://developer.mozilla.org/en-US/docs/Web/API/StyleSheet/media"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/StyleSheet/media">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -281,7 +294,7 @@ public class StyleSheet</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_StyleSheet_OwnerNode" data-uid="CSharpToJavaScript.APIs.JS.StyleSheet.OwnerNode">
   OwnerNode
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5528"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L3751"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>ownerNode</code></strong> property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.StyleSheet.html">StyleSheet</a> interface returns the node that associates this style sheet<br>with the document.</p>
@@ -289,7 +302,7 @@ public class StyleSheet</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Union37? OwnerNode { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Union24? OwnerNode { get; }</code></pre>
   </div>
 
 
@@ -298,7 +311,7 @@ public class StyleSheet</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Union37.html">Union37</a>?</dt>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Union24.html">Union24</a>?</dt>
     <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a> object.</p>
 </dd>
   </dl>
@@ -308,7 +321,11 @@ public class StyleSheet</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_StyleSheet_OwnerNode_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>This is usually an HTML<br><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link"><code>&amp;lt;link&amp;gt;</code></a> or<br><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style"><code>&amp;lt;style&amp;gt;</code></a> element, but<br>can also return a <a href="https://developer.mozilla.org/en-US/docs/Web/API/ProcessingInstruction">processing instruction node</a> in the case of <code>&amp;lt;?xml-stylesheet ?&amp;gt;</code>.</p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/StyleSheet/ownerNode"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/StyleSheet/ownerNode">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -318,7 +335,7 @@ public class StyleSheet</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_StyleSheet_ParentStyleSheet" data-uid="CSharpToJavaScript.APIs.JS.StyleSheet.ParentStyleSheet">
   ParentStyleSheet
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5530"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L3753"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>parentStyleSheet</code></strong> property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.StyleSheet.html">StyleSheet</a> interface returns the style sheet, if any, that is including<br>the given style sheet.</p>
@@ -344,7 +361,11 @@ public class StyleSheet</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_StyleSheet_ParentStyleSheet_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p><a href="https://developer.mozilla.org/en-US/docs/Web/API/StyleSheet/parentStyleSheet"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/StyleSheet/parentStyleSheet">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -354,7 +375,7 @@ public class StyleSheet</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_StyleSheet_Title" data-uid="CSharpToJavaScript.APIs.JS.StyleSheet.Title">
   Title
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5532"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L3755"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>title</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.StyleSheet.html">StyleSheet</a> interface returns the advisory title of the current style sheet.</p>
@@ -372,7 +393,7 @@ public class StyleSheet</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd>An object implementing the StyleSheet interface represents a single style sheet. CSS style sheets will further implement the more specialized  interface.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -380,7 +401,11 @@ public class StyleSheet</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_StyleSheet_Title_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>The title is often specified in the StyleSheet/OwnerNode.</p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/StyleSheet/title"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/StyleSheet/title">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -390,7 +415,7 @@ public class StyleSheet</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_StyleSheet_Type" data-uid="CSharpToJavaScript.APIs.JS.StyleSheet.Type">
   Type
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5524"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L3747"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>type</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.StyleSheet.html">StyleSheet</a><br>interface specifies the style sheet language for the given style sheet.</p>
@@ -398,7 +423,7 @@ public class StyleSheet</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Unsupported Type { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string Type { get; }</code></pre>
   </div>
 
 
@@ -407,7 +432,7 @@ public class StyleSheet</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.Utils.Unsupported.html">Unsupported</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd><p>A string.</p>
 </dd>
   </dl>
@@ -416,7 +441,11 @@ public class StyleSheet</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_StyleSheet_Type_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p><a href="https://developer.mozilla.org/en-US/docs/Web/API/StyleSheet/type"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/StyleSheet/type">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -426,7 +455,7 @@ public class StyleSheet</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5520" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L3743" class="edit-link">Edit this page</a>
         </div>
 
 

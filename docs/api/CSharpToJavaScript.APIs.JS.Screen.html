@@ -2,13 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class Screen
- | CSharpToJavaScript </title>
+      <title>Class Screen | CSharpToJavaScript </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class Screen
- | CSharpToJavaScript ">
+      <meta name="title" content="Class Screen | CSharpToJavaScript ">
       
-      <meta name="description" content="The Screen interface represents a screen, usually the one on which the current window is being rendered, and is obtained using Window.Screen.">
+      <meta name="description" content="The Screen interface represents a screen, usually the one on which the current window is being rendered, and is obtained using .">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -31,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -91,8 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_Screen" data-uid="CSharpToJavaScript.APIs.JS.Screen" class="text-break">
-    Class Screen
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L17772"><i class="bi bi-code-slash"></i></a>
+Class Screen  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L33561"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -100,7 +97,7 @@
   <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>The <code>Screen</code> interface represents a screen, usually the one on which the current window is being rendered, and is obtained using Window.Screen.</p>
+  <div class="markdown summary"><p>The <code>Screen</code> interface represents a screen, usually the one on which the current window is being rendered, and is obtained using <a class="xref" href="CSharpToJavaScript.APIs.JS.Window.html#CSharpToJavaScript_APIs_JS_Window_Screen">Screen</a>.</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -128,7 +125,7 @@ public class Screen</code></pre>
     </dd>
   </dl>
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
     <div>
@@ -158,8 +155,13 @@ public class Screen</code></pre>
 
 
   <h2 id="CSharpToJavaScript_APIs_JS_Screen_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>Note that browsers determine which screen to report as current by detecting which screen has the center of the browser window.</p><p></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Screen"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level0 remarks"><p>Note that browsers determine which screen to report as current by detecting which screen has the center of the browser window.</p>
+<p></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Screen">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -167,14 +169,178 @@ public class Screen</code></pre>
 </h2>
 
 
+  <a id="CSharpToJavaScript_APIs_JS_Screen_AvailHeight_" data-uid="CSharpToJavaScript.APIs.JS.Screen.AvailHeight*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_Screen_AvailHeight" data-uid="CSharpToJavaScript.APIs.JS.Screen.AvailHeight">
+  AvailHeight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L3496"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The read-only <a class="xref" href="CSharpToJavaScript.APIs.JS.Screen.html">Screen</a> interface's<br><strong><code>availHeight</code></strong> property returns the height, in CSS pixels, of<br>the space available for Web content on the screen. Since <a class="xref" href="CSharpToJavaScript.APIs.JS.Screen.html">Screen</a> is<br>exposed on the <a class="xref" href="CSharpToJavaScript.APIs.JS.Window.html">Window</a> interface's <a class="xref" href="CSharpToJavaScript.APIs.JS.Window.html#CSharpToJavaScript_APIs_JS_Window_Screen">Screen</a><br>property, you access <code>availHeight</code> using <code>window.screen.availHeight</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long AvailHeight { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd><p>A numeric value indicating the number of CSS pixels tall the screen&amp;apos;s available space<br>is. This can be no larger than the value of <a class="xref" href="CSharpToJavaScript.APIs.JS.Screen.html#CSharpToJavaScript_APIs_JS_Screen_Height">Height</a>,<br>and will be less if the device or user agent reserves any<br>vertical space for itself.For instance, on a Mac whose Dock is located at the bottom of screen (which is the<br>default), the value of <code>availHeight</code> is approximately the value of<br><code>height</code> (the total height of the screen in CSS pixels) minus the heights of<br>the Dock and menu bar, as seen in the diagram below.<a href="https://developer.mozilla.orgavailheight-diagram.svg"><a href="https://developer.mozilla.orgavailheight-diagram.svg">Diagram showing how Screen.availHeight relates to Screen.height and the screen&amp;apos;s contents</a></p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Screen_AvailHeight_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>You can similarly use <a class="xref" href="CSharpToJavaScript.APIs.JS.Screen.html#CSharpToJavaScript_APIs_JS_Screen_AvailWidth">AvailWidth</a> to get the number of pixels<br>which are horizontally available to the browser for its use.</p>
+<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Window.html">Window</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Screen.html">Screen</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Screen.html#CSharpToJavaScript_APIs_JS_Screen_AvailWidth">AvailWidth</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Window.html#CSharpToJavaScript_APIs_JS_Window_InnerHeight">InnerHeight</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Screen/availHeight">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_Screen_AvailWidth_" data-uid="CSharpToJavaScript.APIs.JS.Screen.AvailWidth*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_Screen_AvailWidth" data-uid="CSharpToJavaScript.APIs.JS.Screen.AvailWidth">
+  AvailWidth
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L3494"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>Screen.availWidth</code></strong> property returns the amount of<br>horizontal space (in pixels) available to the window.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long AvailWidth { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd><p>A number.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Screen_AvailWidth_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Screen/availWidth">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_Screen_ColorDepth_" data-uid="CSharpToJavaScript.APIs.JS.Screen.ColorDepth*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_Screen_ColorDepth" data-uid="CSharpToJavaScript.APIs.JS.Screen.ColorDepth">
+  ColorDepth
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L3502"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>Screen.colorDepth</code></strong> read-only property returns the<br>color depth of the screen. Per the CSSOM, some implementations return <code>24</code><br>for compatibility reasons. See the browser compatibility section for those that don&amp;apos;t.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong ColorDepth { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd><p>A number.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Screen_ColorDepth_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Screen.html#CSharpToJavaScript_APIs_JS_Screen_PixelDepth">PixelDepth</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Screen/colorDepth">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_Screen_Height_" data-uid="CSharpToJavaScript.APIs.JS.Screen.Height*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_Screen_Height" data-uid="CSharpToJavaScript.APIs.JS.Screen.Height">
+  Height
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L3500"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>Screen.height</code></strong> read-only property returns the height<br>of the screen in pixels.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long Height { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd><p>A number.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Screen_Height_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Screen/height">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
   <a id="CSharpToJavaScript_APIs_JS_Screen_IsExtended_" data-uid="CSharpToJavaScript.APIs.JS.Screen.IsExtended*"></a>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Screen_IsExtended" data-uid="CSharpToJavaScript.APIs.JS.Screen.IsExtended">
   IsExtended
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L17775"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L33564"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The <strong><code>isExtended</code></strong> read-only property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Screen.html">Screen</a> interface returns <code>true</code> if the user&amp;apos;s device has multiple screens, and <code>false</code> if not.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -188,12 +354,22 @@ public class Screen</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd>The Screen interface represents a screen, usually the one on which the current window is being rendered, and is obtained using Window.Screen.</dd>
+    <dd><p>A boolean value — <code>true</code> if the device has multiple screens, and <code>false</code> if not.<blockquote class="NOTE"><h5>NOTE</h5><strong>Note:</strong> If a <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Permissions-Policy/window-management">Permissions-Policy/window-management</a><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Permissions_Policy">Permissions-Policy</a> is set that blocks use the Window Management API, <code>isExtended</code> will always return <code>false</code>.</blockquote>
+</dd>
   </dl>
 
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Screen_IsExtended_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This property is typically accessed via <code>window.screen.isExtended</code>, and can be used to test whether multiple screens are available before attempting to create a multi-window, multi-screen layout using the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window_Management_API">Window Management API</a>.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Window_Management_API">Window Management API</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Screen/isExtended">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -202,7 +378,7 @@ public class Screen</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Screen_Onchange" data-uid="CSharpToJavaScript.APIs.JS.Screen.Onchange">
   Onchange
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L17776"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L33565"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -219,7 +395,7 @@ public class Screen</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.EventHandlerNonNull.html">EventHandlerNonNull</a></dt>
-    <dd>The Screen interface represents a screen, usually the one on which the current window is being rendered, and is obtained using Window.Screen.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -229,11 +405,133 @@ public class Screen</code></pre>
 
 
 
+  <a id="CSharpToJavaScript_APIs_JS_Screen_Orientation_" data-uid="CSharpToJavaScript.APIs.JS.Screen.Orientation*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_Screen_Orientation" data-uid="CSharpToJavaScript.APIs.JS.Screen.Orientation">
+  Orientation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L17561"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>ScreenOrientation</code></strong> interface of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Screen_Orientation_API">Screen Orientation API</a> provides information about the current orientation of the document.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScreenOrientation Orientation { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.ScreenOrientation.html">ScreenOrientation</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Screen_Orientation_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>A <strong><code>ScreenOrientation</code></strong> instance object can be retrieved using the <a class="xref" href="CSharpToJavaScript.APIs.JS.Screen.html#CSharpToJavaScript_APIs_JS_Screen_Orientation">Orientation</a> property.</p>
+<p></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/ScreenOrientation">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_Screen_PixelDepth_" data-uid="CSharpToJavaScript.APIs.JS.Screen.PixelDepth*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_Screen_PixelDepth" data-uid="CSharpToJavaScript.APIs.JS.Screen.PixelDepth">
+  PixelDepth
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L3504"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Returns the bit depth of the screen. Per the CSSOM, some implementations<br>return <code>24</code> for compatibility reasons. See the <a href="https://developer.mozilla.org#browser_compatibility">browser compatibility</a> section for those that don&amp;apos;t.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong PixelDepth { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd><p>A number.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Screen_PixelDepth_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Screen.html#CSharpToJavaScript_APIs_JS_Screen_ColorDepth">ColorDepth</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Screen/pixelDepth">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_Screen_Width_" data-uid="CSharpToJavaScript.APIs.JS.Screen.Width*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_Screen_Width" data-uid="CSharpToJavaScript.APIs.JS.Screen.Width">
+  Width
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L3498"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>Screen.width</code></strong> read-only property returns the width of<br>the screen in CSS pixels.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long Width { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd><p>A number.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Screen_Width_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Screen/width">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L17772" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L33561" class="edit-link">Edit this page</a>
         </div>
 
 

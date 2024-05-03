@@ -2,11 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class GPURenderBundleEncoder
- | CSharpToJavaScript </title>
+      <title>Class GPURenderBundleEncoder | CSharpToJavaScript </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class GPURenderBundleEncoder
- | CSharpToJavaScript ">
+      <meta name="title" content="Class GPURenderBundleEncoder | CSharpToJavaScript ">
       
       <meta name="description" content="The GPURenderBundleEncoder interface of the {{domxref(&amp;amp;quot;WebGPU API&amp;amp;quot;, &amp;amp;quot;WebGPU API&amp;amp;quot;, &amp;amp;quot;&amp;amp;quot;, &amp;amp;quot;nocode&amp;amp;quot;)}} is used to pre-record bundles of commands.">
       <link rel="icon" href="../favicon.ico">
@@ -31,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -91,8 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_GPURenderBundleEncoder" data-uid="CSharpToJavaScript.APIs.JS.GPURenderBundleEncoder" class="text-break">
-    Class GPURenderBundleEncoder
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L15124"><i class="bi bi-code-slash"></i></a>
+Class GPURenderBundleEncoder  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L28363"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -122,7 +119,7 @@ public class GPURenderBundleEncoder</code></pre>
 
 
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
     <div>
@@ -152,9 +149,27 @@ public class GPURenderBundleEncoder</code></pre>
 
 
   <h2 id="CSharpToJavaScript_APIs_JS_GPURenderBundleEncoder_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>The command bundles are encoded by calling the methods of <code>GPURenderBundleEncoder</code>; once the desired commands have been encoded, they are recorded into a <a class="xref" href="CSharpToJavaScript.APIs.JS.GPURenderBundle.html">GPURenderBundle</a> object instance using the <a class="xref" href="CSharpToJavaScript.APIs.JS.GPURenderBundleEncoder.html#CSharpToJavaScript_APIs_JS_GPURenderBundleEncoder_Finish_CSharpToJavaScript_APIs_JS_GPURenderBundleDescriptor_">Finish(GPURenderBundleDescriptor)</a> method. These render bundles can then be reused across multiple render passes by passing the <code>GPURenderBundle</code> objects into <a class="xref" href="CSharpToJavaScript.APIs.JS.GPURenderPassEncoder.html#CSharpToJavaScript_APIs_JS_GPURenderPassEncoder_ExecuteBundles_System_Collections_Generic_List_CSharpToJavaScript_APIs_JS_GPURenderBundle__">ExecuteBundles(List&lt;GPURenderBundle&gt;)</a> calls.</p><p>In effect, this is like a partial render pass — <code>GPURenderBundleEncoder</code>s have all the same functionality available as <a class="xref" href="CSharpToJavaScript.APIs.JS.GPURenderPassEncoder.html">GPURenderPassEncoder</a>s, except that they can't begin and end occlusion queries, and can't set the scissor rect, viewport, blend constant, and stencil reference. The <code>GPURenderBundle</code> will inherit all these values from the <a class="xref" href="CSharpToJavaScript.APIs.JS.GPURenderPassEncoder.html">GPURenderPassEncoder</a> that executes it.</p><blockquote class="NOTE"><h5>NOTE</h5><p><strong>Note:</strong> Currently set vertex buffers, index buffers, bind groups, and pipeline are all cleared prior to executing a render bundle, and once the render bundle has finished executing.</p></blockquote><p>Reusing pre-recoded commands can significantly improve app performance in situations where JavaScript draw call overhead is a bottleneck. Render bundles are most effective in situations where a batch of objects will be drawn the same way across multiple views or frames, with the only differences being the buffer content being used (such as updated matrix uniforms). A good example is VR rendering. Recording the rendering as a render bundle and then tweaking the view matrix and replaying it for each eye is a more efficient way to issue draw calls for both renderings of the scene.</p><p>A <code>GPURenderBundleEncoder</code> object instance is created via the <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUDevice.html#CSharpToJavaScript_APIs_JS_GPUDevice_CreateRenderBundleEncoder_CSharpToJavaScript_APIs_JS_GPURenderBundleEncoderDescriptor_">CreateRenderBundleEncoder(GPURenderBundleEncoderDescriptor)</a> property.</p><blockquote class="NOTE"><h5>NOTE</h5><p><strong>Note:</strong> The methods of <code>GPURenderBundleEncoder</code> are functionally identical to their equivalents available on <a class="xref" href="CSharpToJavaScript.APIs.JS.GPURenderPassEncoder.html">GPURenderPassEncoder</a>, except for <a class="xref" href="CSharpToJavaScript.APIs.JS.GPURenderBundleEncoder.html#CSharpToJavaScript_APIs_JS_GPURenderBundleEncoder_Finish_CSharpToJavaScript_APIs_JS_GPURenderBundleDescriptor_">Finish(GPURenderBundleDescriptor)</a>, which is similar in purpose to <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUCommandEncoder.html#CSharpToJavaScript_APIs_JS_GPUCommandEncoder_Finish_CSharpToJavaScript_APIs_JS_GPUCommandBufferDescriptor_">Finish(GPUCommandBufferDescriptor)</a>.</p></blockquote><p></p>
+  <div class="markdown level0 remarks"><p>The command bundles are encoded by calling the methods of <code>GPURenderBundleEncoder</code>; once the desired commands have been encoded, they are recorded into a <a class="xref" href="CSharpToJavaScript.APIs.JS.GPURenderBundle.html">GPURenderBundle</a> object instance using the <a class="xref" href="CSharpToJavaScript.APIs.JS.GPURenderBundleEncoder.html#CSharpToJavaScript_APIs_JS_GPURenderBundleEncoder_Finish_CSharpToJavaScript_APIs_JS_GPURenderBundleDescriptor_">Finish(GPURenderBundleDescriptor)</a> method. These render bundles can then be reused across multiple render passes by passing the <code>GPURenderBundle</code> objects into <a class="xref" href="CSharpToJavaScript.APIs.JS.GPURenderPassEncoder.html#CSharpToJavaScript_APIs_JS_GPURenderPassEncoder_ExecuteBundles_System_Collections_Generic_List_CSharpToJavaScript_APIs_JS_GPURenderBundle__">ExecuteBundles(List&lt;GPURenderBundle&gt;)</a> calls.</p>
+<p>In effect, this is like a partial render pass — <code>GPURenderBundleEncoder</code>s have all the same functionality available as <a class="xref" href="CSharpToJavaScript.APIs.JS.GPURenderPassEncoder.html">GPURenderPassEncoder</a>s, except that they can't begin and end occlusion queries, and can't set the scissor rect, viewport, blend constant, and stencil reference. The <code>GPURenderBundle</code> will inherit all these values from the <a class="xref" href="CSharpToJavaScript.APIs.JS.GPURenderPassEncoder.html">GPURenderPassEncoder</a> that executes it.</p>
+<blockquote class="NOTE">
+  <h5>NOTE</h5>
+  <p>
+    <strong>Note:</strong> Currently set vertex buffers, index buffers, bind groups, and pipeline are all cleared prior to executing a render bundle, and once the render bundle has finished executing.</p>
+</blockquote>
+<p>Reusing pre-recoded commands can significantly improve app performance in situations where JavaScript draw call overhead is a bottleneck. Render bundles are most effective in situations where a batch of objects will be drawn the same way across multiple views or frames, with the only differences being the buffer content being used (such as updated matrix uniforms). A good example is VR rendering. Recording the rendering as a render bundle and then tweaking the view matrix and replaying it for each eye is a more efficient way to issue draw calls for both renderings of the scene.</p>
+<p>A <code>GPURenderBundleEncoder</code> object instance is created via the <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUDevice.html#CSharpToJavaScript_APIs_JS_GPUDevice_CreateRenderBundleEncoder_CSharpToJavaScript_APIs_JS_GPURenderBundleEncoderDescriptor_">CreateRenderBundleEncoder(GPURenderBundleEncoderDescriptor)</a> property.</p>
+<blockquote class="NOTE">
+  <h5>NOTE</h5>
+  <p>
+    <strong>Note:</strong> The methods of <code>GPURenderBundleEncoder</code> are functionally identical to their equivalents available on <a class="xref" href="CSharpToJavaScript.APIs.JS.GPURenderPassEncoder.html">GPURenderPassEncoder</a>, except for <a class="xref" href="CSharpToJavaScript.APIs.JS.GPURenderBundleEncoder.html#CSharpToJavaScript_APIs_JS_GPURenderBundleEncoder_Finish_CSharpToJavaScript_APIs_JS_GPURenderBundleDescriptor_">Finish(GPURenderBundleDescriptor)</a>, which is similar in purpose to <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUCommandEncoder.html#CSharpToJavaScript_APIs_JS_GPUCommandEncoder_Finish_CSharpToJavaScript_APIs_JS_GPUCommandBufferDescriptor_">Finish(GPUCommandBufferDescriptor)</a>.</p>
+</blockquote>
+<p></p>
 <p>-The <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API">WebGPU API</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/GPURenderBundleEncoder"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/GPURenderBundleEncoder">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -166,7 +181,7 @@ public class GPURenderBundleEncoder</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_GPURenderBundleEncoder_Finish_CSharpToJavaScript_APIs_JS_GPURenderBundleDescriptor_" data-uid="CSharpToJavaScript.APIs.JS.GPURenderBundleEncoder.Finish(CSharpToJavaScript.APIs.JS.GPURenderBundleDescriptor)">
   Finish(GPURenderBundleDescriptor)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L15128"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L28367"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>finish()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.GPURenderBundleEncoder.html">GPURenderBundleEncoder</a> interface completes recording of the current render bundle command sequence, returning a <a class="xref" href="CSharpToJavaScript.APIs.JS.GPURenderBundle.html">GPURenderBundle</a> object that can be passed into a <a class="xref" href="CSharpToJavaScript.APIs.JS.GPURenderPassEncoder.html#CSharpToJavaScript_APIs_JS_GPURenderPassEncoder_ExecuteBundles_System_Collections_Generic_List_CSharpToJavaScript_APIs_JS_GPURenderBundle__">ExecuteBundles(List&lt;GPURenderBundle&gt;)</a> call to execute those commands in a specific render pass.</p>
@@ -180,7 +195,7 @@ public class GPURenderBundleEncoder</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>descriptor</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.GPURenderBundleDescriptor.html">GPURenderBundleDescriptor</a></dt>
-    <dd>The GPURenderBundleEncoder interface of the {{domxref(&amp;quot;WebGPU API&amp;quot;, &amp;quot;WebGPU API&amp;quot;, &amp;quot;&amp;quot;, &amp;quot;nocode&amp;quot;)}} is used to pre-record bundles of commands.</dd>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -198,7 +213,11 @@ public class GPURenderBundleEncoder</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_GPURenderBundleEncoder_Finish_CSharpToJavaScript_APIs_JS_GPURenderBundleDescriptor__remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-The <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API">WebGPU API</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/GPURenderBundleEncoder/finish"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/GPURenderBundleEncoder/finish">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -208,7 +227,7 @@ public class GPURenderBundleEncoder</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L15124" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L28363" class="edit-link">Edit this page</a>
         </div>
 
 

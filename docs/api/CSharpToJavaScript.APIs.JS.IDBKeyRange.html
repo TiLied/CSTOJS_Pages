@@ -2,11 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class IDBKeyRange
- | CSharpToJavaScript </title>
+      <title>Class IDBKeyRange | CSharpToJavaScript </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class IDBKeyRange
- | CSharpToJavaScript ">
+      <meta name="title" content="Class IDBKeyRange | CSharpToJavaScript ">
       
       <meta name="description" content="The IDBKeyRange interface of the IndexedDB API represents a continuous interval over some data type that is used for keys. Records can be retrieved from  and  objects using keys or a range of keys. You can limit the range using lower and upper bounds. For example, you can iterate over all values of a key in the value range A–Z.">
       <link rel="icon" href="../favicon.ico">
@@ -31,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -91,8 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_IDBKeyRange" data-uid="CSharpToJavaScript.APIs.JS.IDBKeyRange" class="text-break">
-    Class IDBKeyRange
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9614"><i class="bi bi-code-slash"></i></a>
+Class IDBKeyRange  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13315"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -122,7 +119,7 @@ public class IDBKeyRange</code></pre>
 
 
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
     <div>
@@ -152,9 +149,114 @@ public class IDBKeyRange</code></pre>
 
 
   <h2 id="CSharpToJavaScript_APIs_JS_IDBKeyRange_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>A key range can be a single value or a range with upper and lower bounds or endpoints. If the key range has both upper and lower bounds, then it is <strong>bounded</strong>; if it has no bounds, it is <strong>unbounded</strong>. A bounded key range can either be open (the endpoints are excluded) or closed (the endpoints are included). To retrieve all keys within a certain range, you can use the following code constructs:</p><table><tr><td><p>Range</p></td><td><p>Code</p></td></tr><tr><td><p>All keys ≥ <strong>x</strong></p></td><td><p><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html#CSharpToJavaScript_APIs_JS_IDBKeyRange_LowerBound_System_Object_System_Boolean_">LowerBound(dynamic, bool)</a> <code>(x)</code></p></td></tr><tr><td><p>All keys &amp;gt; <strong>x</strong></p></td><td><p><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html#CSharpToJavaScript_APIs_JS_IDBKeyRange_LowerBound_System_Object_System_Boolean_">LowerBound(dynamic, bool)</a> <code>(x, true)</code></p></td></tr><tr><td><p>All keys ≤ <strong>y</strong></p></td><td><p><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html#CSharpToJavaScript_APIs_JS_IDBKeyRange_UpperBound_System_Object_System_Boolean_">UpperBound(dynamic, bool)</a> <code>(y)</code></p></td></tr><tr><td><p>All keys &amp;lt; <strong>y</strong></p></td><td><p><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html#CSharpToJavaScript_APIs_JS_IDBKeyRange_UpperBound_System_Object_System_Boolean_">UpperBound(dynamic, bool)</a> <code>(y, true)</code></p></td></tr><tr><td><p>All keys ≥ <strong>x</strong> &amp;&amp; ≤ <strong>y</strong></p></td><td><p><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html#CSharpToJavaScript_APIs_JS_IDBKeyRange_Bound_System_Object_System_Object_System_Boolean_System_Boolean_">Bound(dynamic, dynamic, bool, bool)</a> <code>(x, y)</code></p></td></tr><tr><td><p>All keys &amp;gt; <strong>x</strong> &amp;&amp;&amp;lt; <strong>y</strong></p></td><td><p><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html#CSharpToJavaScript_APIs_JS_IDBKeyRange_Bound_System_Object_System_Object_System_Boolean_System_Boolean_">Bound(dynamic, dynamic, bool, bool)</a> <code>(x, y, true, true)</code></p></td></tr><tr><td><p>All keys &amp;gt; <strong>x</strong> &amp;&amp; ≤ <strong>y</strong></p></td><td><p><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html#CSharpToJavaScript_APIs_JS_IDBKeyRange_Bound_System_Object_System_Object_System_Boolean_System_Boolean_">Bound(dynamic, dynamic, bool, bool)</a> <code>(x, y, true, false)</code></p></td></tr><tr><td><p>All keys ≥ <strong>x</strong> &amp;&amp;&amp;lt; <strong>y</strong></p></td><td><p><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html#CSharpToJavaScript_APIs_JS_IDBKeyRange_Bound_System_Object_System_Object_System_Boolean_System_Boolean_">Bound(dynamic, dynamic, bool, bool)</a> <code>(x, y, false, true)</code></p></td></tr><tr><td><p>The key = <strong>z</strong></p></td><td><p><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html#CSharpToJavaScript_APIs_JS_IDBKeyRange_Only_System_Object_">Only(dynamic)</a> <code>(z)</code></p></td></tr></table><p>A key is in a key range if the following conditions are true:</p><p>AvailableInWorkers</p>
+  <div class="markdown level0 remarks"><p>A key range can be a single value or a range with upper and lower bounds or endpoints. If the key range has both upper and lower bounds, then it is <strong>bounded</strong>; if it has no bounds, it is <strong>unbounded</strong>. A bounded key range can either be open (the endpoints are excluded) or closed (the endpoints are included). To retrieve all keys within a certain range, you can use the following code constructs:</p>
+<table>
+  <tr>
+    <td>
+      <p>Range</p>
+    </td>
+    <td>
+      <p>Code</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p>All keys ≥ <strong>x</strong></p>
+    </td>
+    <td>
+      <p>
+        <code>IDBKeyRange.lowerBound(x)</code>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p>All keys &amp;gt; <strong>x</strong></p>
+    </td>
+    <td>
+      <p>
+        <code>IDBKeyRange.lowerBound(x, true)</code>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p>All keys ≤ <strong>y</strong></p>
+    </td>
+    <td>
+      <p>
+        <code>IDBKeyRange.upperBound(y)</code>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p>All keys &amp;lt; <strong>y</strong></p>
+    </td>
+    <td>
+      <p>
+        <code>IDBKeyRange.upperBound(y, true)</code>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p>All keys ≥ <strong>x</strong> &amp;&amp; ≤ <strong>y</strong></p>
+    </td>
+    <td>
+      <p>
+        <code>IDBKeyRange.bound(x, y)</code>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p>All keys &amp;gt; <strong>x</strong> &amp;&amp;&amp;lt; <strong>y</strong></p>
+    </td>
+    <td>
+      <p>
+        <code>IDBKeyRange.bound(x, y, true, true)</code>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p>All keys &amp;gt; <strong>x</strong> &amp;&amp; ≤ <strong>y</strong></p>
+    </td>
+    <td>
+      <p>
+        <code>IDBKeyRange.bound(x, y, true, false)</code>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p>All keys ≥ <strong>x</strong> &amp;&amp;&amp;lt; <strong>y</strong></p>
+    </td>
+    <td>
+      <p>
+        <code>IDBKeyRange.bound(x, y, false, true)</code>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p>The key = <strong>z</strong></p>
+    </td>
+    <td>
+      <p>
+        <code>IDBKeyRange.only(z)</code>
+      </p>
+    </td>
+  </tr>
+</table>
+<p>A key is in a key range if the following conditions are true:</p>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB">Using IndexedDB</a><br>-Starting transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBDatabase.html">IDBDatabase</a><br>-Using transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a><br>-Setting a range of keys: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a><br>-Retrieving and making changes to your data: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a><br>-Using cursors: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a><br>-Reference example: <a href="https://github.com/mdn/dom-examples/tree/main/to-do-notifications">To-do Notifications</a> (<a href="https://mdn.github.io/dom-examples/to-do-notifications/">View the example live</a>).<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBKeyRange"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBKeyRange">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -166,7 +268,7 @@ public class IDBKeyRange</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_IDBKeyRange_Lower" data-uid="CSharpToJavaScript.APIs.JS.IDBKeyRange.Lower">
   Lower
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9618"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13319"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>lower</code></strong> read-only property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a> interface returns the lower bound of the key range.</p>
@@ -192,9 +294,12 @@ public class IDBKeyRange</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_IDBKeyRange_Lower_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>AvailableInWorkers</p>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB">Using IndexedDB</a><br>-Starting transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBDatabase.html">IDBDatabase</a><br>-Using transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a><br>-Setting a range of keys: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a><br>-Retrieving and making changes to your data: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a><br>-Using cursors: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a><br>-Reference example: <a href="https://github.com/mdn/dom-examples/tree/main/to-do-notifications">To-do Notifications</a> (<a href="https://mdn.github.io/dom-examples/to-do-notifications/">View the example live</a>).<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBKeyRange/lower"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB">Using IndexedDB</a><br>-Starting transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBDatabase.html">IDBDatabase</a><br>-Using transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a><br>-Setting a range of keys: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a><br>-Retrieving and making changes to your data: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a><br>-Using cursors: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a><br>-Reference example: <a href="https://github.com/mdn/dom-examples/tree/main/to-do-notifications">To-do Notifications</a> (<a href="https://mdn.github.io/dom-examples/to-do-notifications/">View the example live</a>).<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBKeyRange/lower">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -204,7 +309,7 @@ public class IDBKeyRange</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_IDBKeyRange_LowerOpen" data-uid="CSharpToJavaScript.APIs.JS.IDBKeyRange.LowerOpen">
   LowerOpen
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9622"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13323"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>lowerOpen</code></strong> read-only property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a> interface returns a boolean indicating whether the<br>lower-bound value is included in the key range.</p>
@@ -230,9 +335,12 @@ public class IDBKeyRange</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_IDBKeyRange_LowerOpen_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>AvailableInWorkers</p>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB">Using IndexedDB</a><br>-Starting transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBDatabase.html">IDBDatabase</a><br>-Using transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a><br>-Setting a range of keys: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a><br>-Retrieving and making changes to your data: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a><br>-Using cursors: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a><br>-Reference example: <a href="https://github.com/mdn/dom-examples/tree/main/to-do-notifications">To-do Notifications</a> (<a href="https://mdn.github.io/dom-examples/to-do-notifications/">View the example live</a>).<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBKeyRange/lowerOpen"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB">Using IndexedDB</a><br>-Starting transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBDatabase.html">IDBDatabase</a><br>-Using transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a><br>-Setting a range of keys: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a><br>-Retrieving and making changes to your data: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a><br>-Using cursors: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a><br>-Reference example: <a href="https://github.com/mdn/dom-examples/tree/main/to-do-notifications">To-do Notifications</a> (<a href="https://mdn.github.io/dom-examples/to-do-notifications/">View the example live</a>).<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBKeyRange/lowerOpen">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -242,7 +350,7 @@ public class IDBKeyRange</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_IDBKeyRange_Upper" data-uid="CSharpToJavaScript.APIs.JS.IDBKeyRange.Upper">
   Upper
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9620"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13321"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>upper</code></strong> read-only property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a> interface returns the upper bound of the key range.</p>
@@ -268,9 +376,12 @@ public class IDBKeyRange</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_IDBKeyRange_Upper_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>AvailableInWorkers</p>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB">Using IndexedDB</a><br>-Starting transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBDatabase.html">IDBDatabase</a><br>-Using transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a><br>-Setting a range of keys: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a><br>-Retrieving and making changes to your data: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a><br>-Using cursors: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a><br>-Reference example: <a href="https://github.com/mdn/dom-examples/tree/main/to-do-notifications">To-do Notifications</a> (<a href="https://mdn.github.io/dom-examples/to-do-notifications/">View the example live</a>).<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBKeyRange/upper"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB">Using IndexedDB</a><br>-Starting transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBDatabase.html">IDBDatabase</a><br>-Using transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a><br>-Setting a range of keys: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a><br>-Retrieving and making changes to your data: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a><br>-Using cursors: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a><br>-Reference example: <a href="https://github.com/mdn/dom-examples/tree/main/to-do-notifications">To-do Notifications</a> (<a href="https://mdn.github.io/dom-examples/to-do-notifications/">View the example live</a>).<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBKeyRange/upper">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -280,7 +391,7 @@ public class IDBKeyRange</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_IDBKeyRange_UpperOpen" data-uid="CSharpToJavaScript.APIs.JS.IDBKeyRange.UpperOpen">
   UpperOpen
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9624"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13325"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>upperOpen</code></strong> read-only property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a> interface returns a boolean indicating whether the<br>upper-bound value is included in the key range.</p>
@@ -306,9 +417,12 @@ public class IDBKeyRange</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_IDBKeyRange_UpperOpen_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>AvailableInWorkers</p>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB">Using IndexedDB</a><br>-Starting transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBDatabase.html">IDBDatabase</a><br>-Using transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a><br>-Setting a range of keys: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a><br>-Retrieving and making changes to your data: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a><br>-Using cursors: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a><br>-Reference example: <a href="https://github.com/mdn/dom-examples/tree/main/to-do-notifications">To-do Notifications</a> (<a href="https://mdn.github.io/dom-examples/to-do-notifications/">View the example live</a>).<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBKeyRange/upperOpen"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB">Using IndexedDB</a><br>-Starting transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBDatabase.html">IDBDatabase</a><br>-Using transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a><br>-Setting a range of keys: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a><br>-Retrieving and making changes to your data: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a><br>-Using cursors: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a><br>-Reference example: <a href="https://github.com/mdn/dom-examples/tree/main/to-do-notifications">To-do Notifications</a> (<a href="https://mdn.github.io/dom-examples/to-do-notifications/">View the example live</a>).<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBKeyRange/upperOpen">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -322,10 +436,11 @@ public class IDBKeyRange</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_IDBKeyRange_Bound_System_Object_System_Object_System_Boolean_System_Boolean_" data-uid="CSharpToJavaScript.APIs.JS.IDBKeyRange.Bound(System.Object,System.Object,System.Boolean,System.Boolean)">
   Bound(dynamic, dynamic, bool, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9628"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13333"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The <strong><code>bound()</code></strong> static method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a><br>interface creates a new key range with the specified upper and lower bounds. The<br>bounds can be open (that is, the bounds exclude the endpoint values) or closed (that<br>is, the bounds include the endpoint values). By default, the bounds are closed.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -335,19 +450,20 @@ public class IDBKeyRange</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>lower</code> <span class="xref">dynamic</span></dt>
-    <dd>The IDBKeyRange interface of the IndexedDB API represents a continuous interval over some data type that is used for keys. Records can be retrieved from  and  objects using keys or a range of keys. You can limit the range using lower and upper bounds. For example, you can iterate over all values of a key in the value range A–Z.</dd>
+    <dd></dd>
     <dt><code>upper</code> <span class="xref">dynamic</span></dt>
-    <dd>The IDBKeyRange interface of the IndexedDB API represents a continuous interval over some data type that is used for keys. Records can be retrieved from  and  objects using keys or a range of keys. You can limit the range using lower and upper bounds. For example, you can iterate over all values of a key in the value range A–Z.</dd>
+    <dd></dd>
     <dt><code>lowerOpen</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd>The IDBKeyRange interface of the IndexedDB API represents a continuous interval over some data type that is used for keys. Records can be retrieved from  and  objects using keys or a range of keys. You can limit the range using lower and upper bounds. For example, you can iterate over all values of a key in the value range A–Z.</dd>
+    <dd></dd>
     <dt><code>upperOpen</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd>The IDBKeyRange interface of the IndexedDB API represents a continuous interval over some data type that is used for keys. Records can be retrieved from  and  objects using keys or a range of keys. You can limit the range using lower and upper bounds. For example, you can iterate over all values of a key in the value range A–Z.</dd>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a></dt>
-    <dd>The IDBKeyRange interface of the IndexedDB API represents a continuous interval over some data type that is used for keys. Records can be retrieved from  and  objects using keys or a range of keys. You can limit the range using lower and upper bounds. For example, you can iterate over all values of a key in the value range A–Z.</dd>
+    <dd><p><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a>: The newly created key range.</p>
+</dd>
   </dl>
 
 
@@ -356,6 +472,14 @@ public class IDBKeyRange</code></pre>
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_IDBKeyRange_Bound_System_Object_System_Object_System_Boolean_System_Boolean__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB">Using IndexedDB</a><br>-Starting transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBDatabase.html">IDBDatabase</a><br>-Using transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a><br>-Setting a range of keys: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a><br>-Retrieving and making changes to your data: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a><br>-Using cursors: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a><br>-Reference example: <a href="https://github.com/mdn/dom-examples/tree/main/to-do-notifications">To-do Notifications</a> (<a href="https://mdn.github.io/dom-examples/to-do-notifications/">View the example live</a>).<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBKeyRange/bound">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -364,7 +488,7 @@ public class IDBKeyRange</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_IDBKeyRange_Includes_System_Object_" data-uid="CSharpToJavaScript.APIs.JS.IDBKeyRange.Includes(System.Object)">
   Includes(dynamic)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9630"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13335"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <code>includes()</code> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a><br>interface returns a boolean indicating whether a specified key is inside the key<br>range.</p>
@@ -378,7 +502,7 @@ public class IDBKeyRange</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>key</code> <span class="xref">dynamic</span></dt>
-    <dd>The IDBKeyRange interface of the IndexedDB API represents a continuous interval over some data type that is used for keys. Records can be retrieved from  and  objects using keys or a range of keys. You can limit the range using lower and upper bounds. For example, you can iterate over all values of a key in the value range A–Z.</dd>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -395,9 +519,12 @@ public class IDBKeyRange</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_IDBKeyRange_Includes_System_Object__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>AvailableInWorkers</p>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB">Using IndexedDB</a><br>-Starting transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBDatabase.html">IDBDatabase</a><br>-Using transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a><br>-Setting a range of keys: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a><br>-Retrieving and making changes to your data: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a><br>-Using cursors: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a><br>-Reference example: <a href="https://github.com/mdn/dom-examples/tree/main/to-do-notifications">To-do Notifications</a> (<a href="https://mdn.github.io/dom-examples/to-do-notifications/">View the example live</a>).<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBKeyRange/includes"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB">Using IndexedDB</a><br>-Starting transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBDatabase.html">IDBDatabase</a><br>-Using transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a><br>-Setting a range of keys: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a><br>-Retrieving and making changes to your data: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a><br>-Using cursors: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a><br>-Reference example: <a href="https://github.com/mdn/dom-examples/tree/main/to-do-notifications">To-do Notifications</a> (<a href="https://mdn.github.io/dom-examples/to-do-notifications/">View the example live</a>).<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBKeyRange/includes">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -407,10 +534,11 @@ public class IDBKeyRange</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_IDBKeyRange_LowerBound_System_Object_System_Boolean_" data-uid="CSharpToJavaScript.APIs.JS.IDBKeyRange.LowerBound(System.Object,System.Boolean)">
   LowerBound(dynamic, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9626"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13329"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The <strong><code>lowerBound()</code></strong> static method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a> interface creates a new key range with only a lower bound.<br>By default, it includes the lower endpoint value and is closed.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -420,15 +548,16 @@ public class IDBKeyRange</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>lower</code> <span class="xref">dynamic</span></dt>
-    <dd>The IDBKeyRange interface of the IndexedDB API represents a continuous interval over some data type that is used for keys. Records can be retrieved from  and  objects using keys or a range of keys. You can limit the range using lower and upper bounds. For example, you can iterate over all values of a key in the value range A–Z.</dd>
+    <dd></dd>
     <dt><code>open</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd>The IDBKeyRange interface of the IndexedDB API represents a continuous interval over some data type that is used for keys. Records can be retrieved from  and  objects using keys or a range of keys. You can limit the range using lower and upper bounds. For example, you can iterate over all values of a key in the value range A–Z.</dd>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a></dt>
-    <dd>The IDBKeyRange interface of the IndexedDB API represents a continuous interval over some data type that is used for keys. Records can be retrieved from  and  objects using keys or a range of keys. You can limit the range using lower and upper bounds. For example, you can iterate over all values of a key in the value range A–Z.</dd>
+    <dd><p><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a>: The newly created key range.</p>
+</dd>
   </dl>
 
 
@@ -437,6 +566,14 @@ public class IDBKeyRange</code></pre>
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_IDBKeyRange_LowerBound_System_Object_System_Boolean__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB">Using IndexedDB</a><br>-Starting transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBDatabase.html">IDBDatabase</a><br>-Using transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a><br>-Setting a range of keys: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a><br>-Retrieving and making changes to your data: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a><br>-Using cursors: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a><br>-Reference example: <a href="https://github.com/mdn/dom-examples/tree/main/to-do-notifications">To-do Notifications</a> (<a href="https://mdn.github.io/dom-examples/to-do-notifications/">View the example live</a>).<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBKeyRange/lowerBound">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -445,10 +582,11 @@ public class IDBKeyRange</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_IDBKeyRange_Only_System_Object_" data-uid="CSharpToJavaScript.APIs.JS.IDBKeyRange.Only(System.Object)">
   Only(dynamic)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9625"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13327"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The <strong><code>only()</code></strong> static method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a><br>interface creates a new key range containing a single value.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -458,13 +596,14 @@ public class IDBKeyRange</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>value</code> <span class="xref">dynamic</span></dt>
-    <dd>The IDBKeyRange interface of the IndexedDB API represents a continuous interval over some data type that is used for keys. Records can be retrieved from  and  objects using keys or a range of keys. You can limit the range using lower and upper bounds. For example, you can iterate over all values of a key in the value range A–Z.</dd>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a></dt>
-    <dd>The IDBKeyRange interface of the IndexedDB API represents a continuous interval over some data type that is used for keys. Records can be retrieved from  and  objects using keys or a range of keys. You can limit the range using lower and upper bounds. For example, you can iterate over all values of a key in the value range A–Z.</dd>
+    <dd><p><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a>: The newly created key range.</p>
+</dd>
   </dl>
 
 
@@ -473,6 +612,14 @@ public class IDBKeyRange</code></pre>
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_IDBKeyRange_Only_System_Object__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB">Using IndexedDB</a><br>-Starting transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBDatabase.html">IDBDatabase</a><br>-Using transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a><br>-Setting a range of keys: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a><br>-Retrieving and making changes to your data: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a><br>-Using cursors: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a><br>-Reference example: <a href="https://github.com/mdn/dom-examples/tree/main/to-do-notifications">To-do Notifications</a> (<a href="https://mdn.github.io/dom-examples/to-do-notifications/">View the example live</a>).<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBKeyRange/only">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -481,10 +628,11 @@ public class IDBKeyRange</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_IDBKeyRange_UpperBound_System_Object_System_Boolean_" data-uid="CSharpToJavaScript.APIs.JS.IDBKeyRange.UpperBound(System.Object,System.Boolean)">
   UpperBound(dynamic, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9627"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13331"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The <strong><code>upperBound()</code></strong> static method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a> interface creates a new upper-bound key range. By default,<br>it includes the upper endpoint value and is closed.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -494,15 +642,16 @@ public class IDBKeyRange</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>upper</code> <span class="xref">dynamic</span></dt>
-    <dd>The IDBKeyRange interface of the IndexedDB API represents a continuous interval over some data type that is used for keys. Records can be retrieved from  and  objects using keys or a range of keys. You can limit the range using lower and upper bounds. For example, you can iterate over all values of a key in the value range A–Z.</dd>
+    <dd></dd>
     <dt><code>open</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd>The IDBKeyRange interface of the IndexedDB API represents a continuous interval over some data type that is used for keys. Records can be retrieved from  and  objects using keys or a range of keys. You can limit the range using lower and upper bounds. For example, you can iterate over all values of a key in the value range A–Z.</dd>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a></dt>
-    <dd>The IDBKeyRange interface of the IndexedDB API represents a continuous interval over some data type that is used for keys. Records can be retrieved from  and  objects using keys or a range of keys. You can limit the range using lower and upper bounds. For example, you can iterate over all values of a key in the value range A–Z.</dd>
+    <dd><p><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a>: The newly created key range.</p>
+</dd>
   </dl>
 
 
@@ -511,6 +660,14 @@ public class IDBKeyRange</code></pre>
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_IDBKeyRange_UpperBound_System_Object_System_Boolean__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB">Using IndexedDB</a><br>-Starting transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBDatabase.html">IDBDatabase</a><br>-Using transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a><br>-Setting a range of keys: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a><br>-Retrieving and making changes to your data: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a><br>-Using cursors: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a><br>-Reference example: <a href="https://github.com/mdn/dom-examples/tree/main/to-do-notifications">To-do Notifications</a> (<a href="https://mdn.github.io/dom-examples/to-do-notifications/">View the example live</a>).<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBKeyRange/upperBound">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -519,7 +676,7 @@ public class IDBKeyRange</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9614" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13315" class="edit-link">Edit this page</a>
         </div>
 
 

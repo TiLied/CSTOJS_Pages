@@ -1,0 +1,492 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class RTCTrackEvent | CSharpToJavaScript </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class RTCTrackEvent | CSharpToJavaScript ">
+      
+      <meta name="description" content="The WebRTC API interface RTCTrackEvent represents the RTCPeerConnection.Track_event event, which is sent when a new  is added to an  which is part of the .">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/TiLied/CSharpToJavaScript/new/master/apiSpec/new?filename=CSharpToJavaScript_APIs_JS_RTCTrackEvent.md&amp;value=---%0Auid%3A%20CSharpToJavaScript.APIs.JS.RTCTrackEvent%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="CSharpToJavaScript.APIs.JS.RTCTrackEvent">
+
+
+
+  <h1 id="CSharpToJavaScript_APIs_JS_RTCTrackEvent" data-uid="CSharpToJavaScript.APIs.JS.RTCTrackEvent" class="text-break">
+Class RTCTrackEvent  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31276"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CSharpToJavaScript.html">CSharpToJavaScript</a>.<a class="xref" href="CSharpToJavaScript.APIs.html">APIs</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.html">JS</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>The <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API">WebRTC API</a> interface <strong><code>RTCTrackEvent</code></strong> represents the RTCPeerConnection.Track_event event, which is sent when a new <a class="xref" href="CSharpToJavaScript.APIs.JS.MediaStreamTrack.html">MediaStreamTrack</a> is added to an <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpReceiver.html">RTCRtpReceiver</a> which is part of the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCPeerConnection.html">RTCPeerConnection</a>.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public class RTCTrackEvent : Event</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html">Event</a></div>
+      <div><span class="xref">RTCTrackEvent</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_Type">Event.Type</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_Target">Event.Target</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_SrcElement">Event.SrcElement</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_CurrentTarget">Event.CurrentTarget</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_ComposedPath">Event.ComposedPath()</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_NONE">Event.NONE</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_CAPTURING_PHASE">Event.CAPTURING_PHASE</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_AT_TARGET">Event.AT_TARGET</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_BUBBLING_PHASE">Event.BUBBLING_PHASE</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_EventPhase">Event.EventPhase</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_StopPropagation">Event.StopPropagation()</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_CancelBubble">Event.CancelBubble</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_StopImmediatePropagation">Event.StopImmediatePropagation()</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_Bubbles">Event.Bubbles</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_Cancelable">Event.Cancelable</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_ReturnValue">Event.ReturnValue</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_PreventDefault">Event.PreventDefault()</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_DefaultPrevented">Event.DefaultPrevented</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_Composed">Event.Composed</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_IsTrusted">Event.IsTrusted</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_TimeStamp">Event.TimeStamp</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_InitEvent_System_String_System_Boolean_System_Boolean_">Event.InitEvent(string, bool, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+  <h2 id="CSharpToJavaScript_APIs_JS_RTCTrackEvent_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>The target is the <code>RTCPeerConnection</code> object to which the track is being added.</p>
+<p>This event is sent by the WebRTC layer to the website or application, so you will not typically need to instantiate an <code>RTCTrackEvent</code> yourself.</p>
+<p></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCTrackEvent">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_RTCTrackEvent__ctor_" data-uid="CSharpToJavaScript.APIs.JS.RTCTrackEvent.#ctor*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCTrackEvent__ctor" data-uid="CSharpToJavaScript.APIs.JS.RTCTrackEvent.#ctor">
+  RTCTrackEvent()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31289"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RTCTrackEvent()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_RTCTrackEvent__ctor_" data-uid="CSharpToJavaScript.APIs.JS.RTCTrackEvent.#ctor*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCTrackEvent__ctor_System_String_CSharpToJavaScript_APIs_JS_RTCTrackEventInit_" data-uid="CSharpToJavaScript.APIs.JS.RTCTrackEvent.#ctor(System.String,CSharpToJavaScript.APIs.JS.RTCTrackEventInit)">
+  RTCTrackEvent(string, RTCTrackEventInit)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31280"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>RTCTrackEvent()</code></strong> constructor creates and returns a new <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCTrackEvent.html">RTCTrackEvent</a> object,<br>configured to describe the track which has been added to the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCPeerConnection.html">RTCPeerConnection</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RTCTrackEvent(string type, RTCTrackEventInit eventInitDict)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>eventInitDict</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCTrackEventInit.html">RTCTrackEventInit</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCTrackEvent__ctor_System_String_CSharpToJavaScript_APIs_JS_RTCTrackEventInit__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>In general, you won&amp;apos;t need to use this constructor, as <code>RTCTrackEvent</code><br>objects are created by WebRTC and delivered to your <code>RTCPeerConnector</code>&amp;apos;s<br>RTCPeerConnection.Track_event event handler as appropriate.</p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCTrackEvent/RTCTrackEvent">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_RTCTrackEvent_Receiver_" data-uid="CSharpToJavaScript.APIs.JS.RTCTrackEvent.Receiver*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCTrackEvent_Receiver" data-uid="CSharpToJavaScript.APIs.JS.RTCTrackEvent.Receiver">
+  Receiver
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31282"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The read-only <strong><code>receiver</code></strong> property<br>of the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCTrackEvent.html">RTCTrackEvent</a> interface indicates the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpReceiver.html">RTCRtpReceiver</a> which is used to receive data containing media for the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCTrackEvent.html#CSharpToJavaScript_APIs_JS_RTCTrackEvent_Track">Track</a> to which the event refers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RTCRtpReceiver Receiver { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpReceiver.html">RTCRtpReceiver</a></dt>
+    <dd><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpTransceiver.html">RTCRtpTransceiver</a> which pairs the <code>receiver</code> with a<br>sender and other properties which establish a single bidirectional <a href="https://developer.mozilla.org/en-US/docs/Glossary/RTP">RTP</a><br>stream for use by the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCTrackEvent.html#CSharpToJavaScript_APIs_JS_RTCTrackEvent_Track">Track</a> associated with the<br><code>RTCTrackEvent</code>.<blockquote class="NOTE"><h5>NOTE</h5><strong>Note:</strong> The <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCTrackEvent.html#CSharpToJavaScript_APIs_JS_RTCTrackEvent_Transceiver">Transceiver</a><br>includes its own <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpTransceiver.html#CSharpToJavaScript_APIs_JS_RTCRtpTransceiver_Receiver">Receiver</a> property, which<br>will always be the same <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpReceiver.html">RTCRtpReceiver</a> as this one.</blockquote>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCTrackEvent_Receiver_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCTrackEvent/receiver">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_RTCTrackEvent_Streams_" data-uid="CSharpToJavaScript.APIs.JS.RTCTrackEvent.Streams*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCTrackEvent_Streams" data-uid="CSharpToJavaScript.APIs.JS.RTCTrackEvent.Streams">
+  Streams
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31286"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API">WebRTC API</a><br>interface <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCTrackEvent.html">RTCTrackEvent</a>'s read-only<br><strong><code>streams</code></strong> property specifies an array of<br><a class="xref" href="CSharpToJavaScript.APIs.JS.MediaStream.html">MediaStream</a> objects, one for each of the streams that comprise the<br>track being added to the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCPeerConnection.html">RTCPeerConnection</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MediaStream[] Streams { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.MediaStream.html">MediaStream</a>[]</dt>
+    <dd><p>An {{jsxref(&quot;Array&quot;)}} of <a class="xref" href="CSharpToJavaScript.APIs.JS.MediaStream.html">MediaStream</a> objects, one for each stream that<br>make up the new track.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCTrackEvent_Streams_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCTrackEvent/streams">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_RTCTrackEvent_Track_" data-uid="CSharpToJavaScript.APIs.JS.RTCTrackEvent.Track*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCTrackEvent_Track" data-uid="CSharpToJavaScript.APIs.JS.RTCTrackEvent.Track">
+  Track
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31284"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API">WebRTC API</a><br>interface <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCTrackEvent.html">RTCTrackEvent</a>'s read-only <strong><code>track</code></strong><br>property specifies the <a class="xref" href="CSharpToJavaScript.APIs.JS.MediaStreamTrack.html">MediaStreamTrack</a> that has been added to the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCPeerConnection.html">RTCPeerConnection</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MediaStreamTrack Track { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.MediaStreamTrack.html">MediaStreamTrack</a></dt>
+    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.MediaStreamTrack.html">MediaStreamTrack</a> indicating the track which has been added to the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCPeerConnection.html">RTCPeerConnection</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCTrackEvent_Track_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCTrackEvent/track">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_RTCTrackEvent_Transceiver_" data-uid="CSharpToJavaScript.APIs.JS.RTCTrackEvent.Transceiver*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCTrackEvent_Transceiver" data-uid="CSharpToJavaScript.APIs.JS.RTCTrackEvent.Transceiver">
+  Transceiver
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31288"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The WebRTC API interface <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCTrackEvent.html">RTCTrackEvent</a>'s<br>read-only <strong><code>transceiver</code></strong> property indicates the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpTransceiver.html">RTCRtpTransceiver</a> affiliated with the event's<br><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCTrackEvent.html#CSharpToJavaScript_APIs_JS_RTCTrackEvent_Track">Track</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RTCRtpTransceiver Transceiver { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpTransceiver.html">RTCRtpTransceiver</a></dt>
+    <dd><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpTransceiver.html">RTCRtpTransceiver</a> which pairs the <code>receiver</code> with a<br>sender and other properties which establish a single bidirectional <a href="https://developer.mozilla.org/en-US/docs/Glossary/RTP">RTP</a><br>stream for use by the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCTrackEvent.html#CSharpToJavaScript_APIs_JS_RTCTrackEvent_Track">Track</a> associated with the<br><code>RTCTrackEvent</code>.<blockquote class="NOTE"><h5>NOTE</h5><strong>Note:</strong> The <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpReceiver.html">RTCRtpReceiver</a> referred to by this<br><code>RTCRtpReceiver</code>'s <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpTransceiver.html#CSharpToJavaScript_APIs_JS_RTCRtpTransceiver_Receiver">Receiver</a><br>property will always be the same as the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCTrackEvent.html">RTCTrackEvent</a>'s<br><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCTrackEvent.html#CSharpToJavaScript_APIs_JS_RTCTrackEvent_Receiver">Receiver</a> property.</blockquote>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCTrackEvent_Transceiver_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The transceiver pairs the track&amp;apos;s<br><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCTrackEvent.html#CSharpToJavaScript_APIs_JS_RTCTrackEvent_Receiver">Receiver</a> with an <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpSender.html">RTCRtpSender</a>.</p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCTrackEvent/transceiver">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31276" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

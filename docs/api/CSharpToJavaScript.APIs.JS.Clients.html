@@ -2,11 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class Clients
- | CSharpToJavaScript </title>
+      <title>Class Clients | CSharpToJavaScript </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class Clients
- | CSharpToJavaScript ">
+      <meta name="title" content="Class Clients | CSharpToJavaScript ">
       
       <meta name="description" content="The Clients interface provides access to  objects. Access it via {{domxref(&amp;amp;quot;ServiceWorkerGlobalScope&amp;amp;quot;, &amp;amp;quot;self&amp;amp;quot;)}}.clients within a service worker.">
       <link rel="icon" href="../favicon.ico">
@@ -31,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -91,8 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_Clients" data-uid="CSharpToJavaScript.APIs.JS.Clients" class="text-break">
-    Class Clients
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L11164"><i class="bi bi-code-slash"></i></a>
+Class Clients  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L18194"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -122,7 +119,7 @@ public class Clients</code></pre>
 
 
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
     <div>
@@ -152,8 +149,12 @@ public class Clients</code></pre>
 
 
   <h2 id="CSharpToJavaScript_APIs_JS_Clients_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers">Using Service Workers</a><br>-<a href="https://jakearchibald.github.io/isserviceworkerready/">Is ServiceWorker ready?</a><br>-Promise<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Clients"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level0 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers">Using Service Workers</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Clients">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -165,7 +166,7 @@ public class Clients</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Clients_Claim" data-uid="CSharpToJavaScript.APIs.JS.Clients.Claim">
   Claim()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L11174"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L18204"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>claim()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Clients.html">Clients</a> interface allows an active service worker to set itself as the <a class="xref" href="CSharpToJavaScript.APIs.JS.ServiceWorkerContainer.html#CSharpToJavaScript_APIs_JS_ServiceWorkerContainer_Controller">Controller</a> for all clients within its <a class="xref" href="CSharpToJavaScript.APIs.JS.ServiceWorkerRegistration.html#CSharpToJavaScript_APIs_JS_ServiceWorkerRegistration_Scope">Scope</a>.<br>This triggers a &amp;quot;<code>controllerchange</code>&quot; event on <a class="xref" href="CSharpToJavaScript.APIs.JS.ServiceWorkerContainer.html">ServiceWorkerContainer</a> in any clients that become controlled by this service worker.</p>
@@ -192,8 +193,12 @@ public class Clients</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_Clients_Claim_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>When a service worker is initially registered, pages won&amp;apos;t use it until they next<br>load. The <code>claim()</code> method causes those pages to be controlled immediately.<br>Be aware that this results in your service worker controlling pages that loaded<br>regularly over the network, or possibly via a different service worker.</p>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers">Using Service Workers</a><br>-<a href="https://web.dev/service-worker-lifecycle/">The service worker lifecycle</a><br>-<a href="https://jakearchibald.github.io/isserviceworkerready/">Is ServiceWorker ready?</a><br>-Promise<br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.ServiceWorkerGlobalScope.html#CSharpToJavaScript_APIs_JS_ServiceWorkerGlobalScope_SkipWaiting">SkipWaiting()</a> - skip the service worker's waiting phase<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Clients/claim"> <em>See also on MDN</em> </a></p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers">Using Service Workers</a><br>-<a href="https://web.dev/articles/service-worker-lifecycle">The service worker lifecycle</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.ServiceWorkerGlobalScope.html#CSharpToJavaScript_APIs_JS_ServiceWorkerGlobalScope_SkipWaiting">SkipWaiting()</a> - skip the service worker's waiting phase<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Clients/claim">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -203,7 +208,7 @@ public class Clients</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Clients_Get_System_String_" data-uid="CSharpToJavaScript.APIs.JS.Clients.Get(System.String)">
   Get(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L11168"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L18198"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>get()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Clients.html">Clients</a> interface gets a service worker client matching a given<br><code>id</code> and returns it in a Promise.</p>
@@ -217,7 +222,7 @@ public class Clients</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>id</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd>The Clients interface provides access to  objects. Access it via {{domxref(&amp;quot;ServiceWorkerGlobalScope&amp;quot;, &amp;quot;self&amp;quot;)}}.clients within a service worker.</dd>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -234,7 +239,11 @@ public class Clients</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_Clients_Get_System_String__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Clients/get"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Clients/get">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -244,7 +253,7 @@ public class Clients</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Clients_MatchAll_CSharpToJavaScript_APIs_JS_ClientQueryOptions_" data-uid="CSharpToJavaScript.APIs.JS.Clients.MatchAll(CSharpToJavaScript.APIs.JS.ClientQueryOptions)">
   MatchAll(ClientQueryOptions)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L11170"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L18200"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>matchAll()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Clients.html">Clients</a><br>interface returns a Promise for a list of service worker<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Client.html">Client</a> objects. Include the <code>options</code> parameter to return all service worker<br>clients whose origin is the same as the associated service worker&amp;apos;s origin. If options<br>are not included, the method returns only the service worker clients controlled by the<br>service worker.</p>
@@ -258,7 +267,7 @@ public class Clients</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>options</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.ClientQueryOptions.html">ClientQueryOptions</a></dt>
-    <dd>The Clients interface provides access to  objects. Access it via {{domxref(&amp;quot;ServiceWorkerGlobalScope&amp;quot;, &amp;quot;self&amp;quot;)}}.clients within a service worker.</dd>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -275,7 +284,11 @@ public class Clients</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_Clients_MatchAll_CSharpToJavaScript_APIs_JS_ClientQueryOptions__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Clients/matchAll"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Clients/matchAll">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -285,7 +298,7 @@ public class Clients</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Clients_OpenWindow_System_String_" data-uid="CSharpToJavaScript.APIs.JS.Clients.OpenWindow(System.String)">
   OpenWindow(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L11172"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L18202"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>openWindow()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Clients.html">Clients</a><br>interface creates a new top level browsing context and loads a given URL. If the calling<br>script doesn&amp;apos;t have permission to show popups, <code>openWindow()</code> will throw an<br><code>InvalidAccessError</code>.</p>
@@ -299,13 +312,13 @@ public class Clients</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>url</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd>The Clients interface provides access to  objects. Access it via {{domxref(&amp;quot;ServiceWorkerGlobalScope&amp;quot;, &amp;quot;self&amp;quot;)}}.clients within a service worker.</dd>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CSharpToJavaScript.APIs.JS.WindowClient.html">WindowClient</a>&gt;</dt>
-    <dd><p>A {{jsxref(&quot;Promise&quot;)}} that resolves to a <a class="xref" href="CSharpToJavaScript.APIs.JS.WindowClient.html">WindowClient</a> object if the<br>URL is from the same origin as the service worker or a {{Glossary(&amp;quot;null&amp;quot;, &amp;quot;null<br>value&amp;quot;)}} otherwise.</p>
+    <dd><p>A {{jsxref(&quot;Promise&quot;)}} that resolves to a <a class="xref" href="CSharpToJavaScript.APIs.JS.WindowClient.html">WindowClient</a> object if the<br>URL is from the same origin as the service worker or a <a href="https://developer.mozilla.org/en-US/docs/Glossary/null">null</a> otherwise.</p>
 </dd>
   </dl>
 
@@ -316,8 +329,13 @@ public class Clients</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_Clients_OpenWindow_System_String__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>In Firefox, the method is allowed to show popups only when called as the result of a<br>notification click event.</p><p>In Chrome for Android, the method may instead open the URL in an existing browsing<br>context provided by a <a href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps">standalone web app</a> previously added to the user&amp;apos;s home screen. As of recently, this also works on<br>Chrome for Windows.</p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Clients/openWindow"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>In Firefox, the method is allowed to show popups only when called as the result of a<br>notification click event.</p>
+<p>In Chrome for Android, the method may instead open the URL in an existing browsing<br>context provided by a <a href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps">standalone web app</a> previously added to the user&amp;apos;s home screen. As of recently, this also works on<br>Chrome for Windows.</p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Clients/openWindow">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -327,7 +345,7 @@ public class Clients</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L11164" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L18194" class="edit-link">Edit this page</a>
         </div>
 
 

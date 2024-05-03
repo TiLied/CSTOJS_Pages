@@ -2,13 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class HTMLAllCollection
- | CSharpToJavaScript </title>
+      <title>Class HTMLAllCollection | CSharpToJavaScript </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class HTMLAllCollection
- | CSharpToJavaScript ">
+      <meta name="title" content="Class HTMLAllCollection | CSharpToJavaScript ">
       
-      
+      <meta name="description" content="The HTMLAllCollection interface represents a collection of all of the document&amp;amp;apos;s elements, accessible by index (like an array) and by the element&amp;amp;apos;s id. It is returned by the  property.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -31,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -91,8 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_HTMLAllCollection" data-uid="CSharpToJavaScript.APIs.JS.HTMLAllCollection" class="text-break">
-    Class HTMLAllCollection
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L87"><i class="bi bi-code-slash"></i></a>
+Class HTMLAllCollection  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8134"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -100,7 +97,8 @@
   <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>The <strong><code>HTMLAllCollection</code></strong> interface represents a collection of <strong>all</strong> of the document&amp;apos;s elements, accessible by index (like an array) and by the element&amp;apos;s <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/id"><code>id</code></a>. It is returned by the <a class="xref" href="CSharpToJavaScript.APIs.JS.Document.html#CSharpToJavaScript_APIs_JS_Document_All">All</a> property.</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
@@ -121,7 +119,7 @@ public class HTMLAllCollection</code></pre>
 
 
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
     <div>
@@ -150,6 +148,16 @@ public class HTMLAllCollection</code></pre>
 
 
 
+  <h2 id="CSharpToJavaScript_APIs_JS_HTMLAllCollection_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>
+  <code>HTMLAllCollection</code> has a very similar shape to <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLCollection.html">HTMLCollection</a>, but there are many subtle behavior differences — for example, <code>HTMLAllCollection</code> can be called as a function, and its <code>item()</code> method can be called with a string representing an element&amp;apos;s <code>id</code> or <code>name</code> attribute.</p>
+<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLCollection.html">HTMLCollection</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLAllCollection">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
   <h2 class="section" id="properties">Properties
@@ -160,10 +168,11 @@ public class HTMLAllCollection</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLAllCollection_Length" data-uid="CSharpToJavaScript.APIs.JS.HTMLAllCollection.Length">
   Length
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8138"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The <strong><code>HTMLAllCollection.length</code></strong> property returns the number of items in this <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLAllCollection.html">HTMLAllCollection</a>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -178,12 +187,21 @@ public ulong Length { get; }</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
-    <dd></dd>
+    <dd><p>An integer value representing the number of items in this <code>HTMLAllCollection</code>.</p>
+</dd>
   </dl>
 
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLAllCollection_Length_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLCollection.html#CSharpToJavaScript_APIs_JS_HTMLCollection_Length">Length</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLAllCollection/length">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -196,15 +214,16 @@ public ulong Length { get; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLAllCollection_Item_System_String_" data-uid="CSharpToJavaScript.APIs.JS.HTMLAllCollection.Item(System.String)">
   Item(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L94"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8143"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The <strong><code>item()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLAllCollection.html">HTMLAllCollection</a> interface returns the element located at the specified offset into the collection, or the element with the specified value for its <code>id</code> or <code>name</code> attribute.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
-public Union1? Item(string nameOrIndex)</code></pre>
+public Union54? Item(string nameOrIndex)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -215,8 +234,9 @@ public Union1? Item(string nameOrIndex)</code></pre>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Union1.html">Union1</a>?</dt>
-    <dd></dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Union54.html">Union54</a>?</dt>
+    <dd><p>If <code>nameOrIndex</code> represents an index, <code>item()</code> returns the <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html">Element</a> at the specified index, or <code>null</code> if <code>nameOrIndex</code> is less than zero or greater than or equal to the length property. If <code>nameOrIndex</code> represents a name, <code>item()</code> returns the same value as HTMLAllCollection/namedItem.</p>
+</dd>
   </dl>
 
 
@@ -225,6 +245,14 @@ public Union1? Item(string nameOrIndex)</code></pre>
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLAllCollection_Item_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-HTMLCollection.Item<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLAllCollection/item">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -233,7 +261,7 @@ public Union1? Item(string nameOrIndex)</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L87" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8134" class="edit-link">Edit this page</a>
         </div>
 
 

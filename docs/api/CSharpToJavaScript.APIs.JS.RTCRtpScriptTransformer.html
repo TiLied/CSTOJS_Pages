@@ -2,13 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class RTCRtpScriptTransformer
- | CSharpToJavaScript </title>
+      <title>Class RTCRtpScriptTransformer | CSharpToJavaScript </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class RTCRtpScriptTransformer
- | CSharpToJavaScript ">
+      <meta name="title" content="Class RTCRtpScriptTransformer | CSharpToJavaScript ">
       
-      
+      <meta name="description" content="The RTCRtpScriptTransformer interface of the WebRTC API provides a worker-side Stream API interface that a WebRTC Encoded Transform can use to modify encoded media frames in the incoming and outgoing WebRTC pipelines.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -31,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -91,8 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_RTCRtpScriptTransformer" data-uid="CSharpToJavaScript.APIs.JS.RTCRtpScriptTransformer" class="text-break">
-    Class RTCRtpScriptTransformer
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16323"><i class="bi bi-code-slash"></i></a>
+Class RTCRtpScriptTransformer  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L29861"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -100,12 +97,13 @@
   <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>The <strong><code>RTCRtpScriptTransformer</code></strong> interface of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API">WebRTC API</a> provides a worker-side <a href="https://developer.mozilla.org/en-US/docs/Web/API/Streams_API">Stream API</a> interface that a <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API/Using_Encoded_Transforms">WebRTC Encoded Transform</a> can use to modify encoded media frames in the incoming and outgoing WebRTC pipelines.</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
-public class RTCRtpScriptTransformer</code></pre>
+public class RTCRtpScriptTransformer : EventTarget</code></pre>
   </div>
 
 
@@ -115,15 +113,37 @@ public class RTCRtpScriptTransformer</code></pre>
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html">EventTarget</a></div>
       <div><span class="xref">RTCRtpScriptTransformer</span></div>
     </dd>
   </dl>
 
 
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union27_">EventTarget.AddEventListener(string, Action, Union27)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_MouseEvent__CSharpToJavaScript_APIs_JS_Union27_">EventTarget.AddEventListener(string, Action&lt;MouseEvent&gt;, Union27)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Event__CSharpToJavaScript_APIs_JS_Union27_">EventTarget.AddEventListener(string, Action&lt;Event&gt;, Union27)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_RemoveEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union28_">EventTarget.RemoveEventListener(string, Action, Union28)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_CSharpToJavaScript_APIs_JS_EventListener_CSharpToJavaScript_APIs_JS_Union27_">EventTarget.AddEventListener(string, EventListener, Union27)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_RemoveEventListener_System_String_CSharpToJavaScript_APIs_JS_EventListener_CSharpToJavaScript_APIs_JS_Union28_">EventTarget.RemoveEventListener(string, EventListener, Union28)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_DispatchEvent_CSharpToJavaScript_APIs_JS_Event_">EventTarget.DispatchEvent(Event)</a>
+    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -150,20 +170,65 @@ public class RTCRtpScriptTransformer</code></pre>
 
 
 
+  <h2 id="CSharpToJavaScript_APIs_JS_RTCRtpScriptTransformer_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><blockquote class="NOTE">
+  <h5>NOTE</h5>
+  <p>
+    <strong>Note:</strong> This feature is available in <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API#worker_types"><strong>Dedicated</strong> Web Workers</a>.</p>
+</blockquote>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API/Using_Encoded_Transforms">Using WebRTC Encoded Transforms</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.TransformStream.html">TransformStream</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCRtpScriptTransformer">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
   <h2 class="section" id="properties">Properties
 </h2>
 
 
+  <a id="CSharpToJavaScript_APIs_JS_RTCRtpScriptTransformer_Onkeyframerequest_" data-uid="CSharpToJavaScript.APIs.JS.RTCRtpScriptTransformer.Onkeyframerequest*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCRtpScriptTransformer_Onkeyframerequest" data-uid="CSharpToJavaScript.APIs.JS.RTCRtpScriptTransformer.Onkeyframerequest">
+  Onkeyframerequest
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L29872"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EventHandlerNonNull Onkeyframerequest { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.EventHandlerNonNull.html">EventHandlerNonNull</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="CSharpToJavaScript_APIs_JS_RTCRtpScriptTransformer_Options_" data-uid="CSharpToJavaScript.APIs.JS.RTCRtpScriptTransformer.Options*"></a>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCRtpScriptTransformer_Options" data-uid="CSharpToJavaScript.APIs.JS.RTCRtpScriptTransformer.Options">
   Options
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16328"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L29874"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The <strong><code>options</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpScriptTransformer.html">RTCRtpScriptTransformer</a> interface returns the object that was (optionally) passed as the second argument <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCRtpScriptTransform/RTCRtpScriptTransform">during construction</a> of the corresponding <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpScriptTransform.html">RTCRtpScriptTransform</a>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -177,12 +242,21 @@ public class RTCRtpScriptTransformer</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><span class="xref">dynamic</span></dt>
-    <dd></dd>
+    <dd><p>An object.</p>
+</dd>
   </dl>
 
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCRtpScriptTransformer_Options_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API/Using_Encoded_Transforms">Using WebRTC Encoded Transforms</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCRtpScriptTransformer/options">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -191,10 +265,11 @@ public class RTCRtpScriptTransformer</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCRtpScriptTransformer_Readable" data-uid="CSharpToJavaScript.APIs.JS.RTCRtpScriptTransformer.Readable">
   Readable
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16326"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L29865"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The <strong><code>readable</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpScriptTransformer.html">RTCRtpScriptTransformer</a> interface returns a <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStream.html">ReadableStream</a> instance is a source for encoded media frames.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -208,12 +283,22 @@ public class RTCRtpScriptTransformer</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStream.html">ReadableStream</a></dt>
-    <dd></dd>
+    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStream.html">ReadableStream</a>.</p>
+</dd>
   </dl>
 
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCRtpScriptTransformer_Readable_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>When the corresponding <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpScriptTransform.html">RTCRtpScriptTransform</a> is inserted into the WebRTC sender and receiver pipelines, this stream may be enqueued with outgoing or incoming encoded media frames (<a class="xref" href="CSharpToJavaScript.APIs.JS.RTCEncodedVideoFrame.html">RTCEncodedVideoFrame</a> or <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCEncodedAudioFrame.html">RTCEncodedAudioFrame</a>).<br>A WebRTC encoded transform can read the frames, modify them as needed, and then send them back into the WebRTC pipeline by writing them to <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpScriptTransformer.html#CSharpToJavaScript_APIs_JS_RTCRtpScriptTransformer_Writable">Writable</a>.<br>A common way to perform this operation is to pipe the frames through a <a class="xref" href="CSharpToJavaScript.APIs.JS.TransformStream.html">TransformStream</a>.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API/Using_Encoded_Transforms">Using WebRTC Encoded Transforms</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCRtpScriptTransformer/readable">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -222,10 +307,11 @@ public class RTCRtpScriptTransformer</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCRtpScriptTransformer_Writable" data-uid="CSharpToJavaScript.APIs.JS.RTCRtpScriptTransformer.Writable">
   Writable
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16327"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L29871"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The <strong><code>writable</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpScriptTransformer.html">RTCRtpScriptTransformer</a> interface returns a <a class="xref" href="CSharpToJavaScript.APIs.JS.WritableStream.html">WritableStream</a> instance that can be used as a sink for encoded media frames enqueued on the corresponding <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpScriptTransformer.html#CSharpToJavaScript_APIs_JS_RTCRtpScriptTransformer_Readable">Readable</a>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -239,12 +325,21 @@ public class RTCRtpScriptTransformer</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.WritableStream.html">WritableStream</a></dt>
-    <dd></dd>
+    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.WritableStream.html">WritableStream</a>.</p>
+</dd>
   </dl>
 
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCRtpScriptTransformer_Writable_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>When the corresponding <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpScriptTransform.html">RTCRtpScriptTransform</a> is inserted into the WebRTC sender and receiver pipelines, encoded media frames (<a class="xref" href="CSharpToJavaScript.APIs.JS.RTCEncodedVideoFrame.html">RTCEncodedVideoFrame</a> or <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCEncodedAudioFrame.html">RTCEncodedAudioFrame</a>) may be enqueued on the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpScriptTransformer.html#CSharpToJavaScript_APIs_JS_RTCRtpScriptTransformer_Readable">Readable</a>.<br>A WebRTC encoded transform can read the frames from <code>readable</code>, modify them as needed, and then send them back into the WebRTC pipeline by sending them to this <code>writable</code>.<br>A common way to perform this operation is to pipe the frames through a <a class="xref" href="CSharpToJavaScript.APIs.JS.TransformStream.html">TransformStream</a>.</p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCRtpScriptTransformer/writable">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -257,10 +352,11 @@ public class RTCRtpScriptTransformer</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCRtpScriptTransformer_GenerateKeyFrame_System_String_" data-uid="CSharpToJavaScript.APIs.JS.RTCRtpScriptTransformer.GenerateKeyFrame(System.String)">
   GenerateKeyFrame(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16329"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L29867"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The <strong><code>generateKeyFrame()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpScriptTransformer.html">RTCRtpScriptTransformer</a> interface causes a video encoder to generate a key frame.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -276,7 +372,8 @@ public class RTCRtpScriptTransformer</code></pre>
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>&gt;</dt>
-    <dd></dd>
+    <dd><p>A Promise that fulfills with the timestamp of the frame, or rejects with an exception value.</p>
+</dd>
   </dl>
 
 
@@ -285,6 +382,14 @@ public class RTCRtpScriptTransformer</code></pre>
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCRtpScriptTransformer_GenerateKeyFrame_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API/Using_Encoded_Transforms">Using WebRTC Encoded Transforms</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCRtpScriptTransformer/generateKeyFrame">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -293,10 +398,11 @@ public class RTCRtpScriptTransformer</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCRtpScriptTransformer_SendKeyFrameRequest" data-uid="CSharpToJavaScript.APIs.JS.RTCRtpScriptTransformer.SendKeyFrameRequest">
   SendKeyFrameRequest()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16330"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L29869"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The <strong><code>sendKeyFrameRequest()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpScriptTransformer.html">RTCRtpScriptTransformer</a> interface may be called by a <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API/Using_Encoded_Transforms">WebRTC Encoded Transform</a> that is processing incoming encoded video frames, in order to request a key frame from the sender.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -307,7 +413,8 @@ public class RTCRtpScriptTransformer</code></pre>
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a>&gt;</dt>
-    <dd></dd>
+    <dd><p>A Promise that fulfills with <code>undefined</code> once the request is sent, or the user agent decides that it does not need to.</p>
+</dd>
   </dl>
 
 
@@ -316,6 +423,20 @@ public class RTCRtpScriptTransformer</code></pre>
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCRtpScriptTransformer_SendKeyFrameRequest_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The method may only be called when receiving <strong>video</strong> (not audio) frames and if, for whatever reason, a recipient will not be able to decode the video without a new key frame.<br>Note that the user agent can decide that the request for a key frame is not necessary, in which case the returned promise will fulfill even though the request was not actually sent.</p>
+<blockquote class="NOTE">
+  <h5>NOTE</h5>
+  <p>
+    <strong>Note:</strong> It might be called, for example, if a new user joins a WebRTC conference, in order to reduce the time before they receive a key frame and can hence start displaying video.<br>For more information see <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API/Using_Encoded_Transforms#triggering_a_key_frame">Triggering a key frame</a> in Using WebRTC Encoded Transforms.</p>
+</blockquote>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API/Using_Encoded_Transforms">Using WebRTC Encoded Transforms</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpScriptTransformer.html">RTCRtpScriptTransformer</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCRtpScriptTransformer/sendKeyFrameRequest">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -324,7 +445,7 @@ public class RTCRtpScriptTransformer</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16323" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L29861" class="edit-link">Edit this page</a>
         </div>
 
 

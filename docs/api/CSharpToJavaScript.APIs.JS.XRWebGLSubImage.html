@@ -2,11 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class XRWebGLSubImage
- | CSharpToJavaScript </title>
+      <title>Class XRWebGLSubImage | CSharpToJavaScript </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class XRWebGLSubImage
- | CSharpToJavaScript ">
+      <meta name="title" content="Class XRWebGLSubImage | CSharpToJavaScript ">
       
       <meta name="description" content="The XRWebGLSubImage interface is used during rendering of WebGL layers.">
       <link rel="icon" href="../favicon.ico">
@@ -31,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -91,8 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_XRWebGLSubImage" data-uid="CSharpToJavaScript.APIs.JS.XRWebGLSubImage" class="text-break">
-    Class XRWebGLSubImage
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L17530"><i class="bi bi-code-slash"></i></a>
+Class XRWebGLSubImage  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L33334"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -123,7 +120,7 @@ public class XRWebGLSubImage : XRSubImage</code></pre>
 
 
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
     <div>
@@ -158,7 +155,11 @@ public class XRWebGLSubImage : XRSubImage</code></pre>
   <h2 id="CSharpToJavaScript_APIs_JS_XRWebGLSubImage_remarks">Remarks</h2>
   <div class="markdown level0 remarks"><p></p>
 <p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.XRLayer.html">XRLayer</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.XRWebGLBinding.html#CSharpToJavaScript_APIs_JS_XRWebGLBinding_GetSubImage_CSharpToJavaScript_APIs_JS_XRCompositionLayer_CSharpToJavaScript_APIs_JS_XRFrame_CSharpToJavaScript_APIs_JS_XREye_">GetSubImage(XRCompositionLayer, XRFrame, XREye)</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.XRWebGLBinding.html#CSharpToJavaScript_APIs_JS_XRWebGLBinding_GetViewSubImage_CSharpToJavaScript_APIs_JS_XRProjectionLayer_CSharpToJavaScript_APIs_JS_XRView_">GetViewSubImage(XRProjectionLayer, XRView)</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/XRWebGLSubImage"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/XRWebGLSubImage">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -170,15 +171,15 @@ public class XRWebGLSubImage : XRSubImage</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_XRWebGLSubImage_ColorTexture" data-uid="CSharpToJavaScript.APIs.JS.XRWebGLSubImage.ColorTexture">
   ColorTexture
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L17534"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L33338"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The read-only <strong><code>colorTexture</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.XRWebGLSubImage.html">XRWebGLSubImage</a> interface represents the color WebGLTexture object for the <a class="xref" href="CSharpToJavaScript.APIs.JS.XRCompositionLayer.html">XRCompositionLayer</a> to render.</p>
+  <div class="markdown level1 summary"><p>The read-only <strong><code>colorTexture</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.XRWebGLSubImage.html">XRWebGLSubImage</a> interface represents the color <a class="xref" href="CSharpToJavaScript.APIs.JS.WebGLTexture.html">WebGLTexture</a> object for the <a class="xref" href="CSharpToJavaScript.APIs.JS.XRCompositionLayer.html">XRCompositionLayer</a> to render.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Unsupported ColorTexture { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public WebGLTexture ColorTexture { get; }</code></pre>
   </div>
 
 
@@ -187,8 +188,8 @@ public class XRWebGLSubImage : XRSubImage</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.Utils.Unsupported.html">Unsupported</a></dt>
-    <dd><p>An opaque WebGLTexture. See <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGLTexture#webxr_opaque_textures">WebXR opaque textures</a> for details.</p>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.WebGLTexture.html">WebGLTexture</a></dt>
+    <dd><p>An opaque <a class="xref" href="CSharpToJavaScript.APIs.JS.WebGLTexture.html">WebGLTexture</a>. See <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGLTexture#webxr_opaque_textures">WebXR opaque textures</a> for details.</p>
 </dd>
   </dl>
 
@@ -197,7 +198,11 @@ public class XRWebGLSubImage : XRSubImage</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_XRWebGLSubImage_ColorTexture_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-WebGL2RenderingContext.FramebufferTextureLayer<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/XRWebGLSubImage/colorTexture"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/XRWebGLSubImage/colorTexture">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -207,7 +212,7 @@ public class XRWebGLSubImage : XRSubImage</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_XRWebGLSubImage_ColorTextureHeight" data-uid="CSharpToJavaScript.APIs.JS.XRWebGLSubImage.ColorTextureHeight">
   ColorTextureHeight
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L17543"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L33347"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The read-only <strong><code>colorTextureHeight</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.XRWebGLSubImage.html">XRWebGLSubImage</a> interface is a number representing the height in pixels of the GL attachment.</p>
@@ -233,8 +238,12 @@ public class XRWebGLSubImage : XRSubImage</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_XRWebGLSubImage_ColorTextureHeight_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-WebGLTexture<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/XRWebGLSubImage/colorTextureHeight"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.WebGLTexture.html">WebGLTexture</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/XRWebGLSubImage/colorTextureHeight">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -244,7 +253,7 @@ public class XRWebGLSubImage : XRSubImage</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_XRWebGLSubImage_ColorTextureWidth" data-uid="CSharpToJavaScript.APIs.JS.XRWebGLSubImage.ColorTextureWidth">
   ColorTextureWidth
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L17541"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L33345"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The read-only <strong><code>colorTextureWidth</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.XRWebGLSubImage.html">XRWebGLSubImage</a> interface is a number representing the width in pixels of the GL attachment.</p>
@@ -270,8 +279,12 @@ public class XRWebGLSubImage : XRSubImage</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_XRWebGLSubImage_ColorTextureWidth_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-WebGLTexture<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/XRWebGLSubImage/colorTextureWidth"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.WebGLTexture.html">WebGLTexture</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/XRWebGLSubImage/colorTextureWidth">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -281,15 +294,15 @@ public class XRWebGLSubImage : XRSubImage</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_XRWebGLSubImage_DepthStencilTexture" data-uid="CSharpToJavaScript.APIs.JS.XRWebGLSubImage.DepthStencilTexture">
   DepthStencilTexture
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L17536"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L33340"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The read-only <strong><code>depthStencilTexture</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.XRWebGLSubImage.html">XRWebGLSubImage</a> interface represents the depth/stencil WebGLTexture object for the <a class="xref" href="CSharpToJavaScript.APIs.JS.XRCompositionLayer.html">XRCompositionLayer</a> to render.</p>
+  <div class="markdown level1 summary"><p>The read-only <strong><code>depthStencilTexture</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.XRWebGLSubImage.html">XRWebGLSubImage</a> interface represents the depth/stencil <a class="xref" href="CSharpToJavaScript.APIs.JS.WebGLTexture.html">WebGLTexture</a> object for the <a class="xref" href="CSharpToJavaScript.APIs.JS.XRCompositionLayer.html">XRCompositionLayer</a> to render.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Unsupported? DepthStencilTexture { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public WebGLTexture? DepthStencilTexture { get; }</code></pre>
   </div>
 
 
@@ -298,8 +311,8 @@ public class XRWebGLSubImage : XRSubImage</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.Utils.Unsupported.html">Unsupported</a></dt>
-    <dd><p>An opaque WebGLTexture. See <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGLTexture#webxr_opaque_textures">WebXR opaque textures</a> for details.</p>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.WebGLTexture.html">WebGLTexture</a></dt>
+    <dd><p>An opaque <a class="xref" href="CSharpToJavaScript.APIs.JS.WebGLTexture.html">WebGLTexture</a>. See <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGLTexture#webxr_opaque_textures">WebXR opaque textures</a> for details.</p>
 </dd>
   </dl>
 
@@ -308,7 +321,11 @@ public class XRWebGLSubImage : XRSubImage</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_XRWebGLSubImage_DepthStencilTexture_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-WebGL2RenderingContext.FramebufferTextureLayer<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/XRWebGLSubImage/depthStencilTexture"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/XRWebGLSubImage/depthStencilTexture">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -318,7 +335,7 @@ public class XRWebGLSubImage : XRSubImage</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_XRWebGLSubImage_DepthStencilTextureHeight" data-uid="CSharpToJavaScript.APIs.JS.XRWebGLSubImage.DepthStencilTextureHeight">
   DepthStencilTextureHeight
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L17545"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L33349"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -335,7 +352,7 @@ public class XRWebGLSubImage : XRSubImage</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>?</dt>
-    <dd>The XRWebGLSubImage interface is used during rendering of WebGL layers.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -349,7 +366,7 @@ public class XRWebGLSubImage : XRSubImage</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_XRWebGLSubImage_DepthStencilTextureWidth" data-uid="CSharpToJavaScript.APIs.JS.XRWebGLSubImage.DepthStencilTextureWidth">
   DepthStencilTextureWidth
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L17544"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L33348"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -366,7 +383,7 @@ public class XRWebGLSubImage : XRSubImage</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>?</dt>
-    <dd>The XRWebGLSubImage interface is used during rendering of WebGL layers.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -380,7 +397,7 @@ public class XRWebGLSubImage : XRSubImage</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_XRWebGLSubImage_ImageIndex" data-uid="CSharpToJavaScript.APIs.JS.XRWebGLSubImage.ImageIndex">
   ImageIndex
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L17539"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L33343"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The read-only <strong><code>imageIndex</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.XRWebGLSubImage.html">XRWebGLSubImage</a> interface is a number representing the offset into the texture array if the layer was requested with <code>texture-array</code>; <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/null"><code>null</code></a> otherwise.</p>
@@ -407,7 +424,11 @@ public class XRWebGLSubImage : XRSubImage</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_XRWebGLSubImage_ImageIndex_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-WebGL2RenderingContext.FramebufferTextureLayer<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/XRWebGLSubImage/imageIndex"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/XRWebGLSubImage/imageIndex">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -417,14 +438,14 @@ public class XRWebGLSubImage : XRSubImage</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_XRWebGLSubImage_MotionVectorTexture" data-uid="CSharpToJavaScript.APIs.JS.XRWebGLSubImage.MotionVectorTexture">
   MotionVectorTexture
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L17537"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L33341"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Unsupported? MotionVectorTexture { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public WebGLTexture? MotionVectorTexture { get; }</code></pre>
   </div>
 
 
@@ -433,8 +454,8 @@ public class XRWebGLSubImage : XRSubImage</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.Utils.Unsupported.html">Unsupported</a></dt>
-    <dd>The XRWebGLSubImage interface is used during rendering of WebGL layers.</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.WebGLTexture.html">WebGLTexture</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -448,7 +469,7 @@ public class XRWebGLSubImage : XRSubImage</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_XRWebGLSubImage_MotionVectorTextureHeight" data-uid="CSharpToJavaScript.APIs.JS.XRWebGLSubImage.MotionVectorTextureHeight">
   MotionVectorTextureHeight
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L17547"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L33351"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -465,7 +486,7 @@ public class XRWebGLSubImage : XRSubImage</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>?</dt>
-    <dd>The XRWebGLSubImage interface is used during rendering of WebGL layers.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -479,7 +500,7 @@ public class XRWebGLSubImage : XRSubImage</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_XRWebGLSubImage_MotionVectorTextureWidth" data-uid="CSharpToJavaScript.APIs.JS.XRWebGLSubImage.MotionVectorTextureWidth">
   MotionVectorTextureWidth
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L17546"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L33350"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -496,7 +517,7 @@ public class XRWebGLSubImage : XRSubImage</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>?</dt>
-    <dd>The XRWebGLSubImage interface is used during rendering of WebGL layers.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -510,7 +531,7 @@ public class XRWebGLSubImage : XRSubImage</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L17530" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L33334" class="edit-link">Edit this page</a>
         </div>
 
 

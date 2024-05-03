@@ -2,13 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class MediaTrackSupportedConstraints
- | CSharpToJavaScript </title>
+      <title>Class MediaTrackSupportedConstraints | CSharpToJavaScript </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class MediaTrackSupportedConstraints
- | CSharpToJavaScript ">
+      <meta name="title" content="Class MediaTrackSupportedConstraints | CSharpToJavaScript ">
       
-      <meta name="description" content="The MediaTrackSupportedConstraints dictionary establishes the list of constrainable properties recognized by the {{Glossary(&amp;quot;user agent&amp;quot;)}} or browser in its implementation of the MediaStreamTrack object. An object conforming to MediaTrackSupportedConstraints is returned by MediaDevices.GetSupportedConstraints.">
+      <meta name="description" content="The MediaTrackSupportedConstraints dictionary establishes the list of constrainable properties recognized by the {{Glossary(&amp;quot;user agent&amp;quot;)}} or browser in its implementation of the  object. An object conforming to MediaTrackSupportedConstraints is returned by .">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -31,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -91,8 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints" data-uid="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints" class="text-break">
-    Class MediaTrackSupportedConstraints
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10257"><i class="bi bi-code-slash"></i></a>
+Class MediaTrackSupportedConstraints  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L17493"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -100,7 +97,7 @@
   <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>The <strong><code>MediaTrackSupportedConstraints</code></strong> dictionary establishes the list of constrainable properties recognized by the {{Glossary(&quot;user agent&quot;)}} or browser in its implementation of the MediaStreamTrack object. An object conforming to <code>MediaTrackSupportedConstraints</code> is returned by MediaDevices.GetSupportedConstraints.</p>
+  <div class="markdown summary"><p>The <strong><code>MediaTrackSupportedConstraints</code></strong> dictionary establishes the list of constrainable properties recognized by the {{Glossary(&quot;user agent&quot;)}} or browser in its implementation of the <a class="xref" href="CSharpToJavaScript.APIs.JS.MediaStreamTrack.html">MediaStreamTrack</a> object. An object conforming to <code>MediaTrackSupportedConstraints</code> is returned by <a class="xref" href="CSharpToJavaScript.APIs.JS.MediaDevices.html#CSharpToJavaScript_APIs_JS_MediaDevices_GetSupportedConstraints">GetSupportedConstraints()</a>.</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -122,7 +119,7 @@ public class MediaTrackSupportedConstraints</code></pre>
 
 
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
     <div>
@@ -152,9 +149,15 @@ public class MediaTrackSupportedConstraints</code></pre>
 
 
   <h2 id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>Because of the way interface definitions in WebIDL work, if a constraint is requested but not supported, no error will occur. Instead, the specified constraints will be applied, with any unrecognized constraints stripped from the request. That can lead to confusing and hard to debug errors, so be sure to use <code>getSupportedConstraints()</code> to retrieve this information before attempting to establish constraints if you need to know the difference between silently ignoring a constraint and a constraint being accepted.</p><p>An actual constraint set is described using an object based on the MediaTrackConstraints dictionary.</p><p>To learn more about how constraints work, see <a href="https://developer.mozilla.org/en-US/docs/Web/API/Media_Capture_and_Streams_API/Constraints">Capabilities, constraints, and settings</a>.</p>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Media_Capture_and_Streams_API">Media Capture and Streams API</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Media_Capture_and_Streams_API/Constraints">Capabilities, constraints, and settings</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Screen_Capture_API">Screen Capture API</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Screen_Capture_API/Using_Screen_Capture">Using the Screen Capture API</a><br>-MediaTrackConstraints<br>-MediaDevices.GetUserMedia<br>-MediaStreamTrack.GetConstraints<br>-MediaStreamTrack.ApplyConstraints<br>-MediaStreamTrack.GetSettings<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaTrackSupportedConstraints"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level0 remarks"><p>Because of the way interface definitions in WebIDL work, if a constraint is requested but not supported, no error will occur. Instead, the specified constraints will be applied, with any unrecognized constraints stripped from the request. That can lead to confusing and hard to debug errors, so be sure to use <code>getSupportedConstraints()</code> to retrieve this information before attempting to establish constraints if you need to know the difference between silently ignoring a constraint and a constraint being accepted.</p>
+<p>An actual constraint set is described using an object based on the <a class="xref" href="CSharpToJavaScript.APIs.JS.MediaTrackConstraints.html">MediaTrackConstraints</a> dictionary.</p>
+<p>To learn more about how constraints work, see <a href="https://developer.mozilla.org/en-US/docs/Web/API/Media_Capture_and_Streams_API/Constraints">Capabilities, constraints, and settings</a>.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Media_Capture_and_Streams_API">Media Capture and Streams API</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Media_Capture_and_Streams_API/Constraints">Capabilities, constraints, and settings</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Screen_Capture_API">Screen Capture API</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Screen_Capture_API/Using_Screen_Capture">Using the Screen Capture API</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaTrackConstraints.html">MediaTrackConstraints</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaDevices.html#CSharpToJavaScript_APIs_JS_MediaDevices_GetUserMedia_CSharpToJavaScript_APIs_JS_MediaStreamConstraints_">GetUserMedia(MediaStreamConstraints)</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaStreamTrack.html#CSharpToJavaScript_APIs_JS_MediaStreamTrack_GetConstraints">GetConstraints()</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaStreamTrack.html#CSharpToJavaScript_APIs_JS_MediaStreamTrack_ApplyConstraints_CSharpToJavaScript_APIs_JS_MediaTrackConstraints_">ApplyConstraints(MediaTrackConstraints)</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaStreamTrack.html#CSharpToJavaScript_APIs_JS_MediaStreamTrack_GetSettings">GetSettings()</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaTrackSupportedConstraints">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -163,9 +166,92 @@ public class MediaTrackSupportedConstraints</code></pre>
 
 
 
+  <h3 id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_AspectRatio" data-uid="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.AspectRatio">
+  AspectRatio
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L14543"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.html">MediaTrackSupportedConstraints</a> dictionary's <strong><code>aspectRatio</code></strong> property is a read-only Boolean value which is present (and set to <code>true</code>) in the object returned by <a class="xref" href="CSharpToJavaScript.APIs.JS.MediaDevices.html#CSharpToJavaScript_APIs_JS_MediaDevices_GetSupportedConstraints">GetSupportedConstraints()</a> if and only if the<br><a href="https://developer.mozilla.org/en-US/docs/Glossary/user agent">user agent</a> supports the <code>aspectRatio</code> constraint.<br>If the constraint isn&amp;apos;t supported, it&amp;apos;s not included in the list, so this value will never be <code>false</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AspectRatio</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>This property is present in the dictionary (and its value is always <code>true</code>)<br>if the user agent supports the <code>aspectRatio</code> constraint. If the property<br>isn&amp;apos;t present, this property is missing from the supported constraints dictionary, and<br>you'll get <a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a> if you try to look at its value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_AspectRatio_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>You can access the supported constraints dictionary by calling <code>navigator.mediaDevices.getSupportedConstraints()</code>.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Media_Capture_and_Streams_API">Media Capture and Streams API</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaDevices.html#CSharpToJavaScript_APIs_JS_MediaDevices_GetSupportedConstraints">GetSupportedConstraints()</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.html">MediaTrackSupportedConstraints</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaStreamTrack.html">MediaStreamTrack</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaTrackSupportedConstraints/aspectRatio">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_AutoGainControl" data-uid="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.AutoGainControl">
+  AutoGainControl
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L14556"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.html">MediaTrackSupportedConstraints</a> dictionary's <strong><code>autoGainControl</code></strong> property is a read-only Boolean value which is present (and set to <code>true</code>) in the object returned by <a class="xref" href="CSharpToJavaScript.APIs.JS.MediaDevices.html#CSharpToJavaScript_APIs_JS_MediaDevices_GetSupportedConstraints">GetSupportedConstraints()</a> if and only if the {{Glossary(&quot;user agent&quot;)}} supports the <strong><code>autoGainControl</code></strong> constraint.<br>If the constraint isn&amp;apos;t supported, it&amp;apos;s not included in the list, so this value will never be <code>false</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AutoGainControl</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>This property is present in the dictionary (and its value is always <code>true</code>) if the user agent supports the <code>autoGainControl</code> constraint.<br>If the property isn't present, this property is missing from the supported constraints dictionary, and you'll get <a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a> if you try to look at its value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_AutoGainControl_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>You can access the supported constraints dictionary by calling <code>navigator.mediaDevices.getSupportedConstraints()</code>.</p>
+<p>The <code>autoGainControl</code> constraint indicates whether or not the browser offers the ability to automatically control the gain (volume) on media tracks; this obviously is contingent on whether or not the individual device supports automatic gain control as well; it&amp;apos;s typically a feature provided by microphones.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Media_Capture_and_Streams_API">Media Capture and Streams API</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaDevices.html#CSharpToJavaScript_APIs_JS_MediaDevices_GetSupportedConstraints">GetSupportedConstraints()</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.html">MediaTrackSupportedConstraints</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaStreamTrack.html">MediaStreamTrack</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaTrackSupportedConstraints/autoGainControl">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+
   <h3 id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_Brightness" data-uid="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.Brightness">
   Brightness
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10268"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L12988"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -181,7 +267,7 @@ public class MediaTrackSupportedConstraints</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd>The MediaTrackSupportedConstraints dictionary establishes the list of constrainable properties recognized by the {{Glossary(&quot;user agent&quot;)}} or browser in its implementation of the MediaStreamTrack object. An object conforming to MediaTrackSupportedConstraints is returned by MediaDevices.GetSupportedConstraints.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -193,9 +279,50 @@ public class MediaTrackSupportedConstraints</code></pre>
 
 
 
+  <h3 id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_ChannelCount" data-uid="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.ChannelCount">
+  ChannelCount
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L14562"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.html">MediaTrackSupportedConstraints</a> dictionary's<br><strong><code>channelCount</code></strong> property is a read-only Boolean value which<br>is present (and set to <code>true</code>) in the object returned by<br><a class="xref" href="CSharpToJavaScript.APIs.JS.MediaDevices.html#CSharpToJavaScript_APIs_JS_MediaDevices_GetSupportedConstraints">GetSupportedConstraints()</a> if and only if the<br><a href="https://developer.mozilla.org/en-US/docs/Glossary/user agent">user agent</a> supports the <code>channelCount</code> constraint. If the<br>constraint isn&amp;apos;t supported, it&amp;apos;s not included in the list, so this value will never be<br><code>false</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ChannelCount</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>This property is present in the dictionary (and its value is always <code>true</code>)<br>if the user agent supports the <code>channelCount</code> constraint. If the property<br>isn&amp;apos;t present, this property is missing from the supported constraints dictionary, and<br>you'll get <a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a> if you try to look at its value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_ChannelCount_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>You can access the supported constraints dictionary by calling<br><code>navigator.mediaDevices.getSupportedConstraints()</code>.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Media_Capture_and_Streams_API">Media Capture and Streams API</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaDevices.html#CSharpToJavaScript_APIs_JS_MediaDevices_GetSupportedConstraints">GetSupportedConstraints()</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.html">MediaTrackSupportedConstraints</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaStreamTrack.html">MediaStreamTrack</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaTrackSupportedConstraints/channelCount">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+
   <h3 id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_ColorTemperature" data-uid="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.ColorTemperature">
   ColorTemperature
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10266"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L12986"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -211,7 +338,7 @@ public class MediaTrackSupportedConstraints</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd>The MediaTrackSupportedConstraints dictionary establishes the list of constrainable properties recognized by the {{Glossary(&quot;user agent&quot;)}} or browser in its implementation of the MediaStreamTrack object. An object conforming to MediaTrackSupportedConstraints is returned by MediaDevices.GetSupportedConstraints.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -225,7 +352,7 @@ public class MediaTrackSupportedConstraints</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_Contrast" data-uid="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.Contrast">
   Contrast
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10269"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L12989"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -241,7 +368,7 @@ public class MediaTrackSupportedConstraints</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd>The MediaTrackSupportedConstraints dictionary establishes the list of constrainable properties recognized by the {{Glossary(&quot;user agent&quot;)}} or browser in its implementation of the MediaStreamTrack object. An object conforming to MediaTrackSupportedConstraints is returned by MediaDevices.GetSupportedConstraints.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -253,9 +380,162 @@ public class MediaTrackSupportedConstraints</code></pre>
 
 
 
+  <h3 id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_Cursor" data-uid="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.Cursor">
+  Cursor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L17499"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Cursor</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_DeviceId" data-uid="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.DeviceId">
+  DeviceId
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L14564"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.html">MediaTrackSupportedConstraints</a> dictionary's<br><strong><code>deviceId</code></strong> property is a read-only Boolean value which is<br>present (and set to <code>true</code>) in the object returned by<br><a class="xref" href="CSharpToJavaScript.APIs.JS.MediaDevices.html#CSharpToJavaScript_APIs_JS_MediaDevices_GetSupportedConstraints">GetSupportedConstraints()</a> if and only if the<br><a href="https://developer.mozilla.org/en-US/docs/Glossary/user agent">user agent</a> supports the <code>deviceId</code> constraint. If the<br>constraint isn&amp;apos;t supported, it&amp;apos;s not included in the list, so this value will never be<br><code>false</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool DeviceId</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>This property is present in the dictionary (and its value is always <code>true</code>)<br>if the user agent supports the <code>deviceId</code> constraint. If the property isn&amp;apos;t<br>present, this property is missing from the supported constraints dictionary, and you&amp;apos;ll<br>get <a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a> if you try to look at its value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_DeviceId_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>You can access the supported constraints dictionary by calling<br><code>navigator.mediaDevices.getSupportedConstraints()</code>.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Media_Capture_and_Streams_API">Media Capture and Streams API</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaDevices.html#CSharpToJavaScript_APIs_JS_MediaDevices_GetSupportedConstraints">GetSupportedConstraints()</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.html">MediaTrackSupportedConstraints</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaStreamTrack.html">MediaStreamTrack</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaTrackSupportedConstraints/deviceId">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_DisplaySurface" data-uid="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.DisplaySurface">
+  DisplaySurface
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L17496"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.html">MediaTrackSupportedConstraints</a> dictionary's <strong><code>displaySurface</code></strong> property indicates whether or not the MediaTrackConstraints.DisplaySurface constraint is supported by the user agent and the device on which the content is being used.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool DisplaySurface</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A Boolean value which is <code>true</code> if the MediaTrackConstraints.DisplaySurface constraint is supported by the device and user agent.</p>
+</dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_DisplaySurface_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The supported constraints list is obtained by calling <a class="xref" href="CSharpToJavaScript.APIs.JS.MediaDevices.html#CSharpToJavaScript_APIs_JS_MediaDevices_GetSupportedConstraints">GetSupportedConstraints()</a>.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Screen_Capture_API">Screen Capture API</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Screen_Capture_API/Using_Screen_Capture">Using the screen capture API</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Media_Capture_and_Streams_API/Constraints">Capabilities, constraints, and settings</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaDevices.html#CSharpToJavaScript_APIs_JS_MediaDevices_GetDisplayMedia_CSharpToJavaScript_APIs_JS_DisplayMediaStreamOptions_">GetDisplayMedia(DisplayMediaStreamOptions)</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaStreamTrack.html#CSharpToJavaScript_APIs_JS_MediaStreamTrack_GetConstraints">GetConstraints()</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaStreamTrack.html#CSharpToJavaScript_APIs_JS_MediaStreamTrack_ApplyConstraints_CSharpToJavaScript_APIs_JS_MediaTrackConstraints_">ApplyConstraints(MediaTrackConstraints)</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaStreamTrack.html#CSharpToJavaScript_APIs_JS_MediaStreamTrack_GetSettings">GetSettings()</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaTrackSupportedConstraints/displaySurface">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_EchoCancellation" data-uid="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.EchoCancellation">
+  EchoCancellation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L14554"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.html">MediaTrackSupportedConstraints</a> dictionary's<br><strong><code>echoCancellation</code></strong> property is a read-only Boolean value<br>which is present (and set to <code>true</code>) in the object returned by<br><a class="xref" href="CSharpToJavaScript.APIs.JS.MediaDevices.html#CSharpToJavaScript_APIs_JS_MediaDevices_GetSupportedConstraints">GetSupportedConstraints()</a> if and only if the<br><a href="https://developer.mozilla.org/en-US/docs/Glossary/user agent">user agent</a> supports the <code>echoCancellation</code> constraint. If the<br>constraint isn&amp;apos;t supported, it&amp;apos;s not included in the list, so this value will never be<br><code>false</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool EchoCancellation</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>This property is present in the dictionary (and its value is always <code>true</code>)<br>if the user agent supports the <code>echoCancellation</code> constraint. If the property<br>isn&amp;apos;t present, this property is missing from the supported constraints dictionary, and<br>you'll get <a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a> if you try to look at its value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_EchoCancellation_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>You can access the supported constraints dictionary by calling<br><code>navigator.mediaDevices.getSupportedConstraints()</code>.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Media_Capture_and_Streams_API">Media Capture and Streams API</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaDevices.html#CSharpToJavaScript_APIs_JS_MediaDevices_GetSupportedConstraints">GetSupportedConstraints()</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.html">MediaTrackSupportedConstraints</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaStreamTrack.html">MediaStreamTrack</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaTrackSupportedConstraints/echoCancellation">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+
   <h3 id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_ExposureCompensation" data-uid="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.ExposureCompensation">
   ExposureCompensation
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10264"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L12984"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -271,7 +551,7 @@ public class MediaTrackSupportedConstraints</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd>The MediaTrackSupportedConstraints dictionary establishes the list of constrainable properties recognized by the {{Glossary(&quot;user agent&quot;)}} or browser in its implementation of the MediaStreamTrack object. An object conforming to MediaTrackSupportedConstraints is returned by MediaDevices.GetSupportedConstraints.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -285,7 +565,7 @@ public class MediaTrackSupportedConstraints</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_ExposureMode" data-uid="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.ExposureMode">
   ExposureMode
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10261"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L12981"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -301,7 +581,7 @@ public class MediaTrackSupportedConstraints</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd>The MediaTrackSupportedConstraints dictionary establishes the list of constrainable properties recognized by the {{Glossary(&quot;user agent&quot;)}} or browser in its implementation of the MediaStreamTrack object. An object conforming to MediaTrackSupportedConstraints is returned by MediaDevices.GetSupportedConstraints.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -315,7 +595,7 @@ public class MediaTrackSupportedConstraints</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_ExposureTime" data-uid="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.ExposureTime">
   ExposureTime
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10265"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L12985"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -331,7 +611,7 @@ public class MediaTrackSupportedConstraints</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd>The MediaTrackSupportedConstraints dictionary establishes the list of constrainable properties recognized by the {{Glossary(&quot;user agent&quot;)}} or browser in its implementation of the MediaStreamTrack object. An object conforming to MediaTrackSupportedConstraints is returned by MediaDevices.GetSupportedConstraints.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -343,9 +623,50 @@ public class MediaTrackSupportedConstraints</code></pre>
 
 
 
+  <h3 id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_FacingMode" data-uid="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.FacingMode">
+  FacingMode
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L14547"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.html">MediaTrackSupportedConstraints</a> dictionary's<br><strong><code>facingMode</code></strong> property is a read-only Boolean value which is<br>present (and set to <code>true</code>) in the object returned by<br><a class="xref" href="CSharpToJavaScript.APIs.JS.MediaDevices.html#CSharpToJavaScript_APIs_JS_MediaDevices_GetSupportedConstraints">GetSupportedConstraints()</a> if and only if the<br><a href="https://developer.mozilla.org/en-US/docs/Glossary/user agent">user agent</a> supports the <code>facingMode</code> constraint. If the<br>constraint isn&amp;apos;t supported, it&amp;apos;s not included in the list, so this value will never be<br><code>false</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool FacingMode</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>This property is present in the dictionary (and its value is always <code>true</code>)<br>if the user agent supports the <code>facingMode</code> constraint. If the property isn&amp;apos;t<br>present, this property is missing from the supported constraints dictionary, and you&amp;apos;ll<br>get <a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a> if you try to look at its value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_FacingMode_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>You can access the supported constraints dictionary by calling<br><code>navigator.mediaDevices.getSupportedConstraints()</code>.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Media_Capture_and_Streams_API">Media Capture and Streams API</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaDevices.html#CSharpToJavaScript_APIs_JS_MediaDevices_GetSupportedConstraints">GetSupportedConstraints()</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.html">MediaTrackSupportedConstraints</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaStreamTrack.html">MediaStreamTrack</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaTrackSupportedConstraints/facingMode">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+
   <h3 id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_FocusDistance" data-uid="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.FocusDistance">
   FocusDistance
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10273"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L12993"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -361,7 +682,7 @@ public class MediaTrackSupportedConstraints</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd>The MediaTrackSupportedConstraints dictionary establishes the list of constrainable properties recognized by the {{Glossary(&quot;user agent&quot;)}} or browser in its implementation of the MediaStreamTrack object. An object conforming to MediaTrackSupportedConstraints is returned by MediaDevices.GetSupportedConstraints.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -375,7 +696,7 @@ public class MediaTrackSupportedConstraints</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_FocusMode" data-uid="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.FocusMode">
   FocusMode
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10262"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L12982"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -391,7 +712,7 @@ public class MediaTrackSupportedConstraints</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd>The MediaTrackSupportedConstraints dictionary establishes the list of constrainable properties recognized by the {{Glossary(&quot;user agent&quot;)}} or browser in its implementation of the MediaStreamTrack object. An object conforming to MediaTrackSupportedConstraints is returned by MediaDevices.GetSupportedConstraints.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -403,9 +724,133 @@ public class MediaTrackSupportedConstraints</code></pre>
 
 
 
+  <h3 id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_FrameRate" data-uid="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.FrameRate">
+  FrameRate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L14545"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.html">MediaTrackSupportedConstraints</a> dictionary's <strong><code>frameRate</code></strong> property is a read-only Boolean value which is<br>present (and set to <code>true</code>) in the object returned by <a class="xref" href="CSharpToJavaScript.APIs.JS.MediaDevices.html#CSharpToJavaScript_APIs_JS_MediaDevices_GetSupportedConstraints">GetSupportedConstraints()</a> if and only if the {{Glossary(&quot;user agent&quot;)}} supports the MediaTrackConstraints.FrameRate constraint.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool FrameRate</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>This property is present in the dictionary if the user agent supports the <code>frameRate</code> constraint.<br>If the property isn&amp;apos;t present, the user agent doesn&amp;apos;t allow specifying limits on the frame rate for video tracks.<blockquote class="NOTE"><h5>NOTE</h5><strong>Note:</strong> If this property is present, its value is always <code>true</code>.</blockquote>
+</dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_FrameRate_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>If the constraint isn&amp;apos;t supported, it&amp;apos;s not included in the list, so this value will never be <code>false</code>.</p>
+<p>The <code>frameRate</code> constraint can be used to establish acceptable upper and lower bounds on the video frame rate for a new video track, or to specify an exact frame rate that must be provided for the request to succeed.<br>Checking the value of this property lets you determine if the user agent allows constraining the video track configuration by frame rate. See the <a href="https://developer.mozilla.org#examples">example</a> to see how this can be used.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Media_Capture_and_Streams_API">Media Capture and Streams API</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaDevices.html#CSharpToJavaScript_APIs_JS_MediaDevices_GetSupportedConstraints">GetSupportedConstraints()</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.html">MediaTrackSupportedConstraints</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaStreamTrack.html">MediaStreamTrack</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaTrackSupportedConstraints/frameRate">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_GroupId" data-uid="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.GroupId">
+  GroupId
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L14566"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.html">MediaTrackSupportedConstraints</a> dictionary's<br><strong><code>groupId</code></strong> property is a read-only Boolean value which is<br>present (and set to <code>true</code>) in the object returned by<br><a class="xref" href="CSharpToJavaScript.APIs.JS.MediaDevices.html#CSharpToJavaScript_APIs_JS_MediaDevices_GetSupportedConstraints">GetSupportedConstraints()</a> if and only if the<br><a href="https://developer.mozilla.org/en-US/docs/Glossary/user agent">user agent</a> supports the <code>groupId</code> constraint. If the<br>constraint isn&amp;apos;t supported, it&amp;apos;s not included in the list, so this value will never be<br><code>false</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GroupId</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>This property is present in the dictionary (and its value is always <code>true</code>)<br>if the user agent supports the <code>groupId</code> constraint. If the property isn&amp;apos;t<br>present, this property is missing from the supported constraints dictionary, and you&amp;apos;ll<br>get <a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a> if you try to look at its value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_GroupId_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>You can access the supported constraints dictionary by calling<br><code>navigator.mediaDevices.getSupportedConstraints()</code>.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Media_Capture_and_Streams_API">Media Capture and Streams API</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaDevices.html#CSharpToJavaScript_APIs_JS_MediaDevices_GetSupportedConstraints">GetSupportedConstraints()</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.html">MediaTrackSupportedConstraints</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaStreamTrack.html">MediaStreamTrack</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaTrackSupportedConstraints/groupId">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_Height" data-uid="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.Height">
+  Height
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L14541"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.html">MediaTrackSupportedConstraints</a> dictionary's<br><strong><code>height</code></strong> property is a read-only Boolean value which is<br>present (and set to <code>true</code>) in the object returned by<br><a class="xref" href="CSharpToJavaScript.APIs.JS.MediaDevices.html#CSharpToJavaScript_APIs_JS_MediaDevices_GetSupportedConstraints">GetSupportedConstraints()</a> if and only if the<br><a href="https://developer.mozilla.org/en-US/docs/Glossary/user agent">user agent</a> supports the <code>height</code> constraint. If the<br>constraint isn&amp;apos;t supported, it&amp;apos;s not included in the list, so this value will never be<br><code>false</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Height</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>This property is present in the dictionary (and its value is always <code>true</code>)<br>if the user agent supports the <code>height</code> constraint. If the property isn&amp;apos;t<br>present, this property is missing from the supported constraints dictionary, and you&amp;apos;ll<br>get <a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a> if you try to look at its value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_Height_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>You can access the supported constraints dictionary by calling<br><code>navigator.mediaDevices.getSupportedConstraints()</code>.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Media_Capture_and_Streams_API">Media Capture and Streams API</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaDevices.html#CSharpToJavaScript_APIs_JS_MediaDevices_GetSupportedConstraints">GetSupportedConstraints()</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.html">MediaTrackSupportedConstraints</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaStreamTrack.html">MediaStreamTrack</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaTrackSupportedConstraints/height">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+
   <h3 id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_Iso" data-uid="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.Iso">
   Iso
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10267"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L12987"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -421,7 +866,7 @@ public class MediaTrackSupportedConstraints</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd>The MediaTrackSupportedConstraints dictionary establishes the list of constrainable properties recognized by the {{Glossary(&quot;user agent&quot;)}} or browser in its implementation of the MediaStreamTrack object. An object conforming to MediaTrackSupportedConstraints is returned by MediaDevices.GetSupportedConstraints.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -433,9 +878,133 @@ public class MediaTrackSupportedConstraints</code></pre>
 
 
 
+  <h3 id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_Latency" data-uid="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.Latency">
+  Latency
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L14560"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.html">MediaTrackSupportedConstraints</a> dictionary's <strong><code>latency</code></strong> property is a read-only Boolean value which is present (and set to <code>true</code>) in the object returned by <a class="xref" href="CSharpToJavaScript.APIs.JS.MediaDevices.html#CSharpToJavaScript_APIs_JS_MediaDevices_GetSupportedConstraints">GetSupportedConstraints()</a> if and only if the {{Glossary(&quot;user agent&quot;)}} supports the <code>latency</code> constraint.<br>If the constraint isn&amp;apos;t supported, it&amp;apos;s not included in the list, so this value will never be <code>false</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Latency</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>This property is present in the dictionary (and its value is always <code>true</code>) if the user agent supports the <code>latency</code> constraint.<br>If the property isn't present, this property is missing from the supported constraints dictionary, and you'll get <a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a> if you try to look at its value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_Latency_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>You can access the supported constraints dictionary by calling <code>navigator.mediaDevices.getSupportedConstraints()</code>.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Media_Capture_and_Streams_API">Media Capture and Streams API</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaDevices.html#CSharpToJavaScript_APIs_JS_MediaDevices_GetSupportedConstraints">GetSupportedConstraints()</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.html">MediaTrackSupportedConstraints</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaStreamTrack.html">MediaStreamTrack</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaTrackSupportedConstraints/latency">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_LogicalSurface" data-uid="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.LogicalSurface">
+  LogicalSurface
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L17498"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.html">MediaTrackSupportedConstraints</a> dictionary's <strong><code>logicalSurface</code></strong> property indicates whether or not the MediaTrackConstraints.LogicalSurface constraint is supported by the user agent and the device on which the content is being used.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool LogicalSurface</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A boolean value which is <code>true</code> if the MediaTrackConstraints.LogicalSurface constraint is supported by the device and user agent.</p>
+</dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_LogicalSurface_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The supported constraints list is obtained by calling <a class="xref" href="CSharpToJavaScript.APIs.JS.MediaDevices.html#CSharpToJavaScript_APIs_JS_MediaDevices_GetSupportedConstraints">GetSupportedConstraints()</a>.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Screen_Capture_API">Screen Capture API</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Screen_Capture_API/Using_Screen_Capture">Using the screen capture API</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Media_Capture_and_Streams_API/Constraints">Capabilities, constraints, and settings</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaDevices.html#CSharpToJavaScript_APIs_JS_MediaDevices_GetDisplayMedia_CSharpToJavaScript_APIs_JS_DisplayMediaStreamOptions_">GetDisplayMedia(DisplayMediaStreamOptions)</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaStreamTrack.html#CSharpToJavaScript_APIs_JS_MediaStreamTrack_GetConstraints">GetConstraints()</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaStreamTrack.html#CSharpToJavaScript_APIs_JS_MediaStreamTrack_ApplyConstraints_CSharpToJavaScript_APIs_JS_MediaTrackConstraints_">ApplyConstraints(MediaTrackConstraints)</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaStreamTrack.html#CSharpToJavaScript_APIs_JS_MediaStreamTrack_GetSettings">GetSettings()</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaTrackSupportedConstraints/logicalSurface">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_NoiseSuppression" data-uid="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.NoiseSuppression">
+  NoiseSuppression
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L14558"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.html">MediaTrackSupportedConstraints</a> dictionary's<br><strong><code>noiseSuppression</code></strong> property is a read-only Boolean value<br>which is present (and set to <code>true</code>) in the object returned by<br><a class="xref" href="CSharpToJavaScript.APIs.JS.MediaDevices.html#CSharpToJavaScript_APIs_JS_MediaDevices_GetSupportedConstraints">GetSupportedConstraints()</a> if and only if the<br><a href="https://developer.mozilla.org/en-US/docs/Glossary/user agent">user agent</a> supports the <strong><code>noiseSuppression</code></strong><br>constraint. If the constraint isn&amp;apos;t supported, it&amp;apos;s not included in the list, so this<br>value will never be <code>false</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool NoiseSuppression</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>This property is present in the dictionary (and its value is always <code>true</code>)<br>if the user agent supports the <code>noiseSuppression</code> constraint (and therefore<br>supports noise suppression on audio tracks). If the property isn&amp;apos;t present, this<br>property is missing from the supported constraints dictionary, and you&amp;apos;ll get<br><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a> if you try to look at its value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_NoiseSuppression_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>You can access the supported constraints dictionary by calling<br><code>navigator.mediaDevices.getSupportedConstraints()</code>.</p>
+<p>The <code>noiseSuppression</code> constraint indicates whether or not the browser<br>offers the ability to automatically control the gain (volume) on media tracks; this<br>obviously is contingent on whether or not the individual device supports automatic gain<br>control as well.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Media_Capture_and_Streams_API">Media Capture and Streams API</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaDevices.html#CSharpToJavaScript_APIs_JS_MediaDevices_GetSupportedConstraints">GetSupportedConstraints()</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.html">MediaTrackSupportedConstraints</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaStreamTrack.html">MediaStreamTrack</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaTrackSupportedConstraints/noiseSuppression">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+
   <h3 id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_Pan" data-uid="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.Pan">
   Pan
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10270"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L12990"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -451,7 +1020,7 @@ public class MediaTrackSupportedConstraints</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd>The MediaTrackSupportedConstraints dictionary establishes the list of constrainable properties recognized by the {{Glossary(&quot;user agent&quot;)}} or browser in its implementation of the MediaStreamTrack object. An object conforming to MediaTrackSupportedConstraints is returned by MediaDevices.GetSupportedConstraints.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -465,7 +1034,7 @@ public class MediaTrackSupportedConstraints</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_PointsOfInterest" data-uid="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.PointsOfInterest">
   PointsOfInterest
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10263"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L12983"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -481,7 +1050,7 @@ public class MediaTrackSupportedConstraints</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd>The MediaTrackSupportedConstraints dictionary establishes the list of constrainable properties recognized by the {{Glossary(&quot;user agent&quot;)}} or browser in its implementation of the MediaStreamTrack object. An object conforming to MediaTrackSupportedConstraints is returned by MediaDevices.GetSupportedConstraints.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -493,9 +1062,151 @@ public class MediaTrackSupportedConstraints</code></pre>
 
 
 
+  <h3 id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_ResizeMode" data-uid="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.ResizeMode">
+  ResizeMode
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L14548"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ResizeMode</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_RestrictOwnAudio" data-uid="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.RestrictOwnAudio">
+  RestrictOwnAudio
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L17500"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool RestrictOwnAudio</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_SampleRate" data-uid="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.SampleRate">
+  SampleRate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L14550"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.html">MediaTrackSupportedConstraints</a> dictionary's<br><strong><code>sampleRate</code></strong> property is a read-only Boolean value which is<br>present (and set to <code>true</code>) in the object returned by<br><a class="xref" href="CSharpToJavaScript.APIs.JS.MediaDevices.html#CSharpToJavaScript_APIs_JS_MediaDevices_GetSupportedConstraints">GetSupportedConstraints()</a> if and only if the<br><a href="https://developer.mozilla.org/en-US/docs/Glossary/user agent">user agent</a> supports the <code>sampleRate</code> constraint. If the<br>constraint isn&amp;apos;t supported, it&amp;apos;s not included in the list, so this value will never be<br><code>false</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SampleRate</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>This property is present in the dictionary (and its value is always <code>true</code>)<br>if the user agent supports the <code>sampleRate</code> constraint. If the property isn&amp;apos;t<br>present, this property is missing from the supported constraints dictionary, and you&amp;apos;ll<br>get <a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a> if you try to look at its value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_SampleRate_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>You can access the supported constraints dictionary by calling<br><code>navigator.mediaDevices.getSupportedConstraints()</code>.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Media_Capture_and_Streams_API">Media Capture and Streams API</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaDevices.html#CSharpToJavaScript_APIs_JS_MediaDevices_GetSupportedConstraints">GetSupportedConstraints()</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.html">MediaTrackSupportedConstraints</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaStreamTrack.html">MediaStreamTrack</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaTrackSupportedConstraints/sampleRate">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_SampleSize" data-uid="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.SampleSize">
+  SampleSize
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L14552"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.html">MediaTrackSupportedConstraints</a> dictionary's<br><strong><code>sampleSize</code></strong> property is a read-only Boolean value which is<br>present (and set to <code>true</code>) in the object returned by<br><a class="xref" href="CSharpToJavaScript.APIs.JS.MediaDevices.html#CSharpToJavaScript_APIs_JS_MediaDevices_GetSupportedConstraints">GetSupportedConstraints()</a> if and only if the<br><a href="https://developer.mozilla.org/en-US/docs/Glossary/user agent">user agent</a> supports the <code>sampleSize</code> constraint. If the<br>constraint isn&amp;apos;t supported, it&amp;apos;s not included in the list, so this value will never be<br><code>false</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SampleSize</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>This property is present in the dictionary (and its value is always <code>true</code>)<br>if the user agent supports the <code>sampleSize</code> constraint. If the property isn&amp;apos;t<br>present, this property is missing from the supported constraints dictionary, and you&amp;apos;ll<br>get <a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a> if you try to look at its value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_SampleSize_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>You can access the supported constraints dictionary by calling<br><code>navigator.mediaDevices.getSupportedConstraints()</code>.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Media_Capture_and_Streams_API">Media Capture and Streams API</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaDevices.html#CSharpToJavaScript_APIs_JS_MediaDevices_GetSupportedConstraints">GetSupportedConstraints()</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.html">MediaTrackSupportedConstraints</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaStreamTrack.html">MediaStreamTrack</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaTrackSupportedConstraints/sampleSize">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+
   <h3 id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_Saturation" data-uid="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.Saturation">
   Saturation
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10271"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L12991"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -511,7 +1222,7 @@ public class MediaTrackSupportedConstraints</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd>The MediaTrackSupportedConstraints dictionary establishes the list of constrainable properties recognized by the {{Glossary(&quot;user agent&quot;)}} or browser in its implementation of the MediaStreamTrack object. An object conforming to MediaTrackSupportedConstraints is returned by MediaDevices.GetSupportedConstraints.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -525,7 +1236,7 @@ public class MediaTrackSupportedConstraints</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_Sharpness" data-uid="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.Sharpness">
   Sharpness
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10272"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L12992"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -541,7 +1252,7 @@ public class MediaTrackSupportedConstraints</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd>The MediaTrackSupportedConstraints dictionary establishes the list of constrainable properties recognized by the {{Glossary(&quot;user agent&quot;)}} or browser in its implementation of the MediaStreamTrack object. An object conforming to MediaTrackSupportedConstraints is returned by MediaDevices.GetSupportedConstraints.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -553,9 +1264,50 @@ public class MediaTrackSupportedConstraints</code></pre>
 
 
 
+  <h3 id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_SuppressLocalAudioPlayback" data-uid="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.SuppressLocalAudioPlayback">
+  SuppressLocalAudioPlayback
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L17502"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.html">MediaTrackSupportedConstraints</a> dictionary's <strong><code>suppressLocalAudioPlayback</code></strong> property indicates whether or not the MediaTrackConstraints.SuppressLocalAudioPlayback constraint is supported by the user agent and the device on which the content is being used.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SuppressLocalAudioPlayback</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A boolean value which is <code>true</code> if the MediaTrackConstraints.SuppressLocalAudioPlayback constraint is supported by the device and user agent.</p>
+</dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_SuppressLocalAudioPlayback_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The supported constraints list is obtained by calling <a class="xref" href="CSharpToJavaScript.APIs.JS.MediaDevices.html#CSharpToJavaScript_APIs_JS_MediaDevices_GetSupportedConstraints">GetSupportedConstraints()</a>.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Screen_Capture_API">Screen Capture API</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Screen_Capture_API/Using_Screen_Capture">Using the screen capture API</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Media_Capture_and_Streams_API/Constraints">Capabilities, constraints, and settings</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaDevices.html#CSharpToJavaScript_APIs_JS_MediaDevices_GetDisplayMedia_CSharpToJavaScript_APIs_JS_DisplayMediaStreamOptions_">GetDisplayMedia(DisplayMediaStreamOptions)</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaStreamTrack.html#CSharpToJavaScript_APIs_JS_MediaStreamTrack_GetConstraints">GetConstraints()</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaStreamTrack.html#CSharpToJavaScript_APIs_JS_MediaStreamTrack_ApplyConstraints_CSharpToJavaScript_APIs_JS_MediaTrackConstraints_">ApplyConstraints(MediaTrackConstraints)</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaStreamTrack.html#CSharpToJavaScript_APIs_JS_MediaStreamTrack_GetSettings">GetSettings()</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaTrackSupportedConstraints/suppressLocalAudioPlayback">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+
   <h3 id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_Tilt" data-uid="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.Tilt">
   Tilt
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10274"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L12994"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -571,7 +1323,7 @@ public class MediaTrackSupportedConstraints</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd>The MediaTrackSupportedConstraints dictionary establishes the list of constrainable properties recognized by the {{Glossary(&quot;user agent&quot;)}} or browser in its implementation of the MediaStreamTrack object. An object conforming to MediaTrackSupportedConstraints is returned by MediaDevices.GetSupportedConstraints.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -585,7 +1337,7 @@ public class MediaTrackSupportedConstraints</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_Torch" data-uid="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.Torch">
   Torch
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10276"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L12996"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -601,7 +1353,7 @@ public class MediaTrackSupportedConstraints</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd>The MediaTrackSupportedConstraints dictionary establishes the list of constrainable properties recognized by the {{Glossary(&quot;user agent&quot;)}} or browser in its implementation of the MediaStreamTrack object. An object conforming to MediaTrackSupportedConstraints is returned by MediaDevices.GetSupportedConstraints.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -615,7 +1367,7 @@ public class MediaTrackSupportedConstraints</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_WhiteBalanceMode" data-uid="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.WhiteBalanceMode">
   WhiteBalanceMode
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10260"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L12980"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -631,7 +1383,7 @@ public class MediaTrackSupportedConstraints</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd>The MediaTrackSupportedConstraints dictionary establishes the list of constrainable properties recognized by the {{Glossary(&quot;user agent&quot;)}} or browser in its implementation of the MediaStreamTrack object. An object conforming to MediaTrackSupportedConstraints is returned by MediaDevices.GetSupportedConstraints.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -643,9 +1395,50 @@ public class MediaTrackSupportedConstraints</code></pre>
 
 
 
+  <h3 id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_Width" data-uid="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.Width">
+  Width
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L14539"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.html">MediaTrackSupportedConstraints</a> dictionary's<br><strong><code>width</code></strong> property is a read-only Boolean value which is<br>present (and set to <code>true</code>) in the object returned by<br><a class="xref" href="CSharpToJavaScript.APIs.JS.MediaDevices.html#CSharpToJavaScript_APIs_JS_MediaDevices_GetSupportedConstraints">GetSupportedConstraints()</a> if and only if the<br><a href="https://developer.mozilla.org/en-US/docs/Glossary/user agent">user agent</a> supports the <code>width</code> constraint. If the constraint<br>isn&amp;apos;t supported, it&amp;apos;s not included in the list, so this value will never be<br><code>false</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Width</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>This property is present in the dictionary (and its value is always <code>true</code>)<br>if the user agent supports the <code>width</code> constraint. If the property isn&amp;apos;t<br>present, this property is missing from the supported constraints dictionary, and you&amp;apos;ll<br>get <a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a> if you try to look at its value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_Width_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>You can access the supported constraints dictionary by calling<br><code>navigator.mediaDevices.getSupportedConstraints()</code>.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Media_Capture_and_Streams_API">Media Capture and Streams API</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaDevices.html#CSharpToJavaScript_APIs_JS_MediaDevices_GetSupportedConstraints">GetSupportedConstraints()</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.html">MediaTrackSupportedConstraints</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaStreamTrack.html">MediaStreamTrack</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaTrackSupportedConstraints/width">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+
   <h3 id="CSharpToJavaScript_APIs_JS_MediaTrackSupportedConstraints_Zoom" data-uid="CSharpToJavaScript.APIs.JS.MediaTrackSupportedConstraints.Zoom">
   Zoom
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10275"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L12995"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -661,7 +1454,7 @@ public class MediaTrackSupportedConstraints</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd>The MediaTrackSupportedConstraints dictionary establishes the list of constrainable properties recognized by the {{Glossary(&quot;user agent&quot;)}} or browser in its implementation of the MediaStreamTrack object. An object conforming to MediaTrackSupportedConstraints is returned by MediaDevices.GetSupportedConstraints.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -676,7 +1469,7 @@ public class MediaTrackSupportedConstraints</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10257" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L17493" class="edit-link">Edit this page</a>
         </div>
 
 

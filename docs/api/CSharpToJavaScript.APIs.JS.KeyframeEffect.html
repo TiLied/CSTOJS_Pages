@@ -2,11 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class KeyframeEffect
- | CSharpToJavaScript </title>
+      <title>Class KeyframeEffect | CSharpToJavaScript </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class KeyframeEffect
- | CSharpToJavaScript ">
+      <meta name="title" content="Class KeyframeEffect | CSharpToJavaScript ">
       
       <meta name="description" content="The KeyframeEffect interface of the Web Animations API lets us create sets of animatable properties and values, called keyframes. These can then be played using the  constructor.">
       <link rel="icon" href="../favicon.ico">
@@ -31,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -91,8 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_KeyframeEffect" data-uid="CSharpToJavaScript.APIs.JS.KeyframeEffect" class="text-break">
-    Class KeyframeEffect
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L11773"><i class="bi bi-code-slash"></i></a>
+Class KeyframeEffect  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L21954"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -100,13 +97,13 @@
   <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>The <strong><code>KeyframeEffect</code></strong> interface of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API">Web Animations API</a> lets us create sets of animatable properties and values, called <strong>keyframes.</strong> These can then be played using the <a class="xref" href="CSharpToJavaScript.APIs.JS.Animation.html#CSharpToJavaScript_APIs_JS_Animation__ctor">Animation()</a> constructor.</p>
+  <div class="markdown summary"><p>The <strong><code>KeyframeEffect</code></strong> interface of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API">Web Animations API</a> lets us create sets of animatable properties and values, called <strong>keyframes.</strong> These can then be played using the <a class="xref" href="CSharpToJavaScript.APIs.JS.Animation.html#CSharpToJavaScript_APIs_JS_Animation__ctor_CSharpToJavaScript_APIs_JS_AnimationEffect_CSharpToJavaScript_APIs_JS_AnimationTimeline_">Animation(AnimationEffect?, AnimationTimeline?)</a> constructor.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
-public class KeyframeEffect</code></pre>
+public class KeyframeEffect : AnimationEffect</code></pre>
   </div>
 
 
@@ -116,15 +113,46 @@ public class KeyframeEffect</code></pre>
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.AnimationEffect.html">AnimationEffect</a></div>
       <div><span class="xref">KeyframeEffect</span></div>
     </dd>
   </dl>
 
 
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.AnimationEffect.html#CSharpToJavaScript_APIs_JS_AnimationEffect_Parent">AnimationEffect.Parent</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.AnimationEffect.html#CSharpToJavaScript_APIs_JS_AnimationEffect_PreviousSibling">AnimationEffect.PreviousSibling</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.AnimationEffect.html#CSharpToJavaScript_APIs_JS_AnimationEffect_NextSibling">AnimationEffect.NextSibling</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.AnimationEffect.html#CSharpToJavaScript_APIs_JS_AnimationEffect_Before_CSharpToJavaScript_APIs_JS_AnimationEffect___">AnimationEffect.Before(params AnimationEffect[])</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.AnimationEffect.html#CSharpToJavaScript_APIs_JS_AnimationEffect_After_CSharpToJavaScript_APIs_JS_AnimationEffect___">AnimationEffect.After(params AnimationEffect[])</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.AnimationEffect.html#CSharpToJavaScript_APIs_JS_AnimationEffect_Replace_CSharpToJavaScript_APIs_JS_AnimationEffect___">AnimationEffect.Replace(params AnimationEffect[])</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.AnimationEffect.html#CSharpToJavaScript_APIs_JS_AnimationEffect_Remove">AnimationEffect.Remove()</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.AnimationEffect.html#CSharpToJavaScript_APIs_JS_AnimationEffect_GetTiming">AnimationEffect.GetTiming()</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.AnimationEffect.html#CSharpToJavaScript_APIs_JS_AnimationEffect_GetComputedTiming">AnimationEffect.GetComputedTiming()</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.AnimationEffect.html#CSharpToJavaScript_APIs_JS_AnimationEffect_UpdateTiming_CSharpToJavaScript_APIs_JS_OptionalEffectTiming_">AnimationEffect.UpdateTiming(OptionalEffectTiming)</a>
+    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -154,19 +182,178 @@ public class KeyframeEffect</code></pre>
   <h2 id="CSharpToJavaScript_APIs_JS_KeyframeEffect_remarks">Remarks</h2>
   <div class="markdown level0 remarks"><p></p>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API">Web Animations API</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Animation.html">Animation</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/KeyframeEffect"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/KeyframeEffect">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_KeyframeEffect__ctor_" data-uid="CSharpToJavaScript.APIs.JS.KeyframeEffect.#ctor*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_KeyframeEffect__ctor" data-uid="CSharpToJavaScript.APIs.JS.KeyframeEffect.#ctor">
+  KeyframeEffect()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L21970"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public KeyframeEffect()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_KeyframeEffect__ctor_" data-uid="CSharpToJavaScript.APIs.JS.KeyframeEffect.#ctor*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_KeyframeEffect__ctor_CSharpToJavaScript_APIs_JS_Element_System_Object_CSharpToJavaScript_APIs_JS_Union143_" data-uid="CSharpToJavaScript.APIs.JS.KeyframeEffect.#ctor(CSharpToJavaScript.APIs.JS.Element,System.Object,CSharpToJavaScript.APIs.JS.Union143)">
+  KeyframeEffect(Element?, object?, Union143)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L21957"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>KeyframeEffect()</code></strong> constructor of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API">Web Animations API</a> returns a new <a class="xref" href="CSharpToJavaScript.APIs.JS.KeyframeEffect.html">KeyframeEffect</a> object instance, and also allows you to clone an existing keyframe effect object instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public KeyframeEffect(Element? target, object? keyframes, Union143 options)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>target</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html">Element</a></dt>
+    <dd></dd>
+    <dt><code>keyframes</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+    <dt><code>options</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union143.html">Union143</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_KeyframeEffect__ctor_CSharpToJavaScript_APIs_JS_Element_System_Object_CSharpToJavaScript_APIs_JS_Union143__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/KeyframeEffect">KeyframeEffect Interface</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API">Web Animations API</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Animation.html">Animation</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/KeyframeEffect/KeyframeEffect">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_KeyframeEffect__ctor_" data-uid="CSharpToJavaScript.APIs.JS.KeyframeEffect.#ctor*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_KeyframeEffect__ctor_CSharpToJavaScript_APIs_JS_KeyframeEffect_" data-uid="CSharpToJavaScript.APIs.JS.KeyframeEffect.#ctor(CSharpToJavaScript.APIs.JS.KeyframeEffect)">
+  KeyframeEffect(KeyframeEffect)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L21959"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>KeyframeEffect()</code></strong> constructor of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API">Web Animations API</a> returns a new <a class="xref" href="CSharpToJavaScript.APIs.JS.KeyframeEffect.html">KeyframeEffect</a> object instance, and also allows you to clone an existing keyframe effect object instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public KeyframeEffect(KeyframeEffect source)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.KeyframeEffect.html">KeyframeEffect</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_KeyframeEffect__ctor_CSharpToJavaScript_APIs_JS_KeyframeEffect__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/KeyframeEffect">KeyframeEffect Interface</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API">Web Animations API</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Animation.html">Animation</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/KeyframeEffect/KeyframeEffect">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
 
 
   <h2 class="section" id="properties">Properties
 </h2>
 
 
+  <a id="CSharpToJavaScript_APIs_JS_KeyframeEffect_Composite_" data-uid="CSharpToJavaScript.APIs.JS.KeyframeEffect.Composite*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_KeyframeEffect_Composite" data-uid="CSharpToJavaScript.APIs.JS.KeyframeEffect.Composite">
+  Composite
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L21965"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>composite</code></strong> property of a <a class="xref" href="CSharpToJavaScript.APIs.JS.KeyframeEffect.html">KeyframeEffect</a> resolves how an element's animation impacts its underlying property values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CompositeOperation Composite { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.CompositeOperation.html">CompositeOperation</a></dt>
+    <dd><p>To understand these values, take the example of a <code>keyframeEffect</code> value of <code>blur(2)</code> working on an underlying property value of <code>blur(3)</code>.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_KeyframeEffect_Composite_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API">Web Animations API</a><br>-Property of <a class="xref" href="CSharpToJavaScript.APIs.JS.KeyframeEffect.html">KeyframeEffect</a> objects<br>-<a href="https://developer.mozilla.org/en-US/docs/Glossary/Composite operation">Composite operation</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/KeyframeEffect/composite">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
   <a id="CSharpToJavaScript_APIs_JS_KeyframeEffect_IterationComposite_" data-uid="CSharpToJavaScript.APIs.JS.KeyframeEffect.IterationComposite*"></a>
 
   <h3 id="CSharpToJavaScript_APIs_JS_KeyframeEffect_IterationComposite" data-uid="CSharpToJavaScript.APIs.JS.KeyframeEffect.IterationComposite">
   IterationComposite
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L11777"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L21739"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>iterationComposite</code></strong> property of a <a class="xref" href="CSharpToJavaScript.APIs.JS.KeyframeEffect.html">KeyframeEffect</a> resolves how the animation's property value changes accumulate or override each other upon each of the animation's iterations.</p>
@@ -193,7 +380,189 @@ public class KeyframeEffect</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_KeyframeEffect_IterationComposite_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API">Web Animations API</a><br>-Property of both <a class="xref" href="CSharpToJavaScript.APIs.JS.KeyframeEffect.html">KeyframeEffect</a> objects.<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/KeyframeEffect/iterationComposite"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/KeyframeEffect/iterationComposite">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_KeyframeEffect_PseudoElement_" data-uid="CSharpToJavaScript.APIs.JS.KeyframeEffect.PseudoElement*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_KeyframeEffect_PseudoElement" data-uid="CSharpToJavaScript.APIs.JS.KeyframeEffect.PseudoElement">
+  PseudoElement
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L21963"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>pseudoElement</code></strong> property of a <a class="xref" href="CSharpToJavaScript.APIs.JS.KeyframeEffect.html">KeyframeEffect</a> interface is a string representing the pseudo-element being animated. It may be <code>null</code> for animations that do not target a pseudo-element. It performs as both a getter and a setter, except with animations and transitions generated by CSS.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? PseudoElement { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A string or <code>null</code>.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_KeyframeEffect_PseudoElement_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><blockquote class="NOTE">
+  <h5>NOTE</h5>
+  <p>
+    <strong>Note:</strong> If set to the legacy single-colon syntax of {{cssxref(&amp;quot;::before&amp;quot;, &amp;quot;:before&amp;quot;)}}, {{cssxref(&amp;quot;::after&amp;quot;, &amp;quot;:after&amp;quot;)}}, {{cssxref(&amp;quot;::first-letter&amp;quot;, &amp;quot;:first-letter&amp;quot;)}}, or {{cssxref(&amp;quot;::first-line&amp;quot;, &amp;quot;:first-line&amp;quot;)}}, the string is transformed into its double-colon modern version ({{cssxref(&amp;quot;::before&amp;quot;)}}, {{cssxref(&amp;quot;::after&amp;quot;)}}, {{cssxref(&amp;quot;::first-letter&amp;quot;)}}, and {{cssxref(&amp;quot;::first-line&amp;quot;)}}, respectively).</p>
+</blockquote>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API">Web Animations API</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.KeyframeEffect.html">KeyframeEffect</a> interface<br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.KeyframeEffect.html#CSharpToJavaScript_APIs_JS_KeyframeEffect__ctor_CSharpToJavaScript_APIs_JS_Element_System_Object_CSharpToJavaScript_APIs_JS_Union143_">KeyframeEffect(Element?, object?, Union143)</a> constructor<br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.KeyframeEffect.html#CSharpToJavaScript_APIs_JS_KeyframeEffect_Target">Target</a> property<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/KeyframeEffect/pseudoElement">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_KeyframeEffect_Target_" data-uid="CSharpToJavaScript.APIs.JS.KeyframeEffect.Target*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_KeyframeEffect_Target" data-uid="CSharpToJavaScript.APIs.JS.KeyframeEffect.Target">
+  Target
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L21961"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>target</code></strong> property of a <a class="xref" href="CSharpToJavaScript.APIs.JS.KeyframeEffect.html">KeyframeEffect</a> interface represents the element or pseudo-element being animated. It may be <code>null</code> for animations that do not target a specific element. It performs as both a getter and a setter, except with animations and transitions generated by CSS.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Element? Target { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html">Element</a></dt>
+    <dd><p>An <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html">Element</a> or <code>null</code>.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_KeyframeEffect_Target_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API">Web Animations API</a><br>-Property of <a class="xref" href="CSharpToJavaScript.APIs.JS.KeyframeEffect.html">KeyframeEffect</a> objects.<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/KeyframeEffect/target">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_KeyframeEffect_GetKeyframes_" data-uid="CSharpToJavaScript.APIs.JS.KeyframeEffect.GetKeyframes*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_KeyframeEffect_GetKeyframes" data-uid="CSharpToJavaScript.APIs.JS.KeyframeEffect.GetKeyframes">
+  GetKeyframes()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L21967"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>getKeyframes()</code></strong> method of a <a class="xref" href="CSharpToJavaScript.APIs.JS.KeyframeEffect.html">KeyframeEffect</a> returns an Array of the computed keyframes that make up this animation along with their computed offsets.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;object&gt; GetKeyframes()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>&gt;</dt>
+    <dd><p>Returns a sequence of objects with the following format:</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_KeyframeEffect_GetKeyframes_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API">Web Animations API</a><br>-Method of <a class="xref" href="CSharpToJavaScript.APIs.JS.KeyframeEffect.html">KeyframeEffect</a> objects.<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/KeyframeEffect/getKeyframes">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_KeyframeEffect_SetKeyframes_" data-uid="CSharpToJavaScript.APIs.JS.KeyframeEffect.SetKeyframes*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_KeyframeEffect_SetKeyframes_System_Object_" data-uid="CSharpToJavaScript.APIs.JS.KeyframeEffect.SetKeyframes(System.Object)">
+  SetKeyframes(object?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L21969"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>setKeyframes()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.KeyframeEffect.html">KeyframeEffect</a> interface replaces the keyframes that make up the affected <code>KeyframeEffect</code> with a new set of keyframes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined SetKeyframes(object? keyframes)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>keyframes</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_KeyframeEffect_SetKeyframes_System_Object__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/KeyframeEffect">KeyframeEffect Interface</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API">Web Animations API</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/KeyframeEffect/setKeyframes">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -203,7 +572,7 @@ public class KeyframeEffect</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L11773" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L21954" class="edit-link">Edit this page</a>
         </div>
 
 

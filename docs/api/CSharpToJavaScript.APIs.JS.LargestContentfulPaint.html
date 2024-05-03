@@ -2,11 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class LargestContentfulPaint
- | CSharpToJavaScript </title>
+      <title>Class LargestContentfulPaint | CSharpToJavaScript </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class LargestContentfulPaint
- | CSharpToJavaScript ">
+      <meta name="title" content="Class LargestContentfulPaint | CSharpToJavaScript ">
       
       <meta name="description" content="The LargestContentfulPaint interface provides timing information about the largest image or text paint before user input on a web page.">
       <link rel="icon" href="../favicon.ico">
@@ -31,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -91,8 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_LargestContentfulPaint" data-uid="CSharpToJavaScript.APIs.JS.LargestContentfulPaint" class="text-break">
-    Class LargestContentfulPaint
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9838"><i class="bi bi-code-slash"></i></a>
+Class LargestContentfulPaint  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13713"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -106,7 +103,7 @@
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
-public class LargestContentfulPaint</code></pre>
+public class LargestContentfulPaint : PerformanceEntry</code></pre>
   </div>
 
 
@@ -116,15 +113,31 @@ public class LargestContentfulPaint</code></pre>
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceEntry.html">PerformanceEntry</a></div>
       <div><span class="xref">LargestContentfulPaint</span></div>
     </dd>
   </dl>
 
 
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceEntry.html#CSharpToJavaScript_APIs_JS_PerformanceEntry_Name">PerformanceEntry.Name</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceEntry.html#CSharpToJavaScript_APIs_JS_PerformanceEntry_EntryType">PerformanceEntry.EntryType</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceEntry.html#CSharpToJavaScript_APIs_JS_PerformanceEntry_StartTime">PerformanceEntry.StartTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceEntry.html#CSharpToJavaScript_APIs_JS_PerformanceEntry_Duration">PerformanceEntry.Duration</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceEntry.html#CSharpToJavaScript_APIs_JS_PerformanceEntry_NavigationId">PerformanceEntry.NavigationId</a>
+    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -153,7 +166,11 @@ public class LargestContentfulPaint</code></pre>
 
   <h2 id="CSharpToJavaScript_APIs_JS_LargestContentfulPaint_remarks">Remarks</h2>
   <div class="markdown level0 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Glossary/Largest Contentful Paint">Largest Contentful Paint</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Glossary/First contentful paint">First contentful paint</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Glossary/First paint">First paint</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/LargestContentfulPaint"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/LargestContentfulPaint">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -165,7 +182,7 @@ public class LargestContentfulPaint</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_LargestContentfulPaint_Element" data-uid="CSharpToJavaScript.APIs.JS.LargestContentfulPaint.Element">
   Element
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9852"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13727"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>element</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.LargestContentfulPaint.html">LargestContentfulPaint</a> interface returns an object representing the <a class="xref" href="CSharpToJavaScript.APIs.JS.LargestContentfulPaint.html#CSharpToJavaScript_APIs_JS_LargestContentfulPaint_Element">Element</a> that is the largest contentful paint.</p>
@@ -191,7 +208,11 @@ public class LargestContentfulPaint</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_LargestContentfulPaint_Element_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p><a href="https://developer.mozilla.org/en-US/docs/Web/API/LargestContentfulPaint/element"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/LargestContentfulPaint/element">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -201,7 +222,7 @@ public class LargestContentfulPaint</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_LargestContentfulPaint_Id" data-uid="CSharpToJavaScript.APIs.JS.LargestContentfulPaint.Id">
   Id
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9848"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13723"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>id</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.LargestContentfulPaint.html">LargestContentfulPaint</a> interface returns the ID of the element that is the largest contentful paint.</p>
@@ -227,7 +248,11 @@ public class LargestContentfulPaint</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_LargestContentfulPaint_Id_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p><a href="https://developer.mozilla.org/en-US/docs/Web/API/LargestContentfulPaint/id"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/LargestContentfulPaint/id">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -237,7 +262,7 @@ public class LargestContentfulPaint</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_LargestContentfulPaint_LoadTime" data-uid="CSharpToJavaScript.APIs.JS.LargestContentfulPaint.LoadTime">
   LoadTime
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9844"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13719"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>loadTime</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.LargestContentfulPaint.html">LargestContentfulPaint</a> interface returns the time that the element was loaded.</p>
@@ -245,7 +270,7 @@ public class LargestContentfulPaint</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Unsupported LoadTime { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Number LoadTime { get; }</code></pre>
   </div>
 
 
@@ -254,8 +279,8 @@ public class LargestContentfulPaint</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.Utils.Unsupported.html">Unsupported</a></dt>
-    <dd><p>A DOMHighResTimeStamp representing the time in milliseconds that the element was loaded.</p>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a> representing the time in milliseconds that the element was loaded.</p>
 </dd>
   </dl>
 
@@ -263,7 +288,11 @@ public class LargestContentfulPaint</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_LargestContentfulPaint_LoadTime_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p><a href="https://developer.mozilla.org/en-US/docs/Web/API/LargestContentfulPaint/loadTime"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/LargestContentfulPaint/loadTime">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -273,7 +302,7 @@ public class LargestContentfulPaint</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_LargestContentfulPaint_RenderTime" data-uid="CSharpToJavaScript.APIs.JS.LargestContentfulPaint.RenderTime">
   RenderTime
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9842"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13717"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>renderTime</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.LargestContentfulPaint.html">LargestContentfulPaint</a> interface represents the time that the element was rendered to the screen.</p>
@@ -281,7 +310,7 @@ public class LargestContentfulPaint</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Unsupported RenderTime { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Number RenderTime { get; }</code></pre>
   </div>
 
 
@@ -290,7 +319,7 @@ public class LargestContentfulPaint</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.Utils.Unsupported.html">Unsupported</a></dt>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
     <dd><p>The <code>renderTime</code> property can have the following values:</p>
 </dd>
   </dl>
@@ -299,7 +328,11 @@ public class LargestContentfulPaint</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_LargestContentfulPaint_RenderTime_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p><a href="https://developer.mozilla.org/en-US/docs/Web/API/LargestContentfulPaint/renderTime"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/LargestContentfulPaint/renderTime">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -309,7 +342,7 @@ public class LargestContentfulPaint</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_LargestContentfulPaint_Size" data-uid="CSharpToJavaScript.APIs.JS.LargestContentfulPaint.Size">
   Size
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9846"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13721"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>size</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.LargestContentfulPaint.html">LargestContentfulPaint</a> interface returns the intrinsic size of the element that is the largest contentful paint.</p>
@@ -336,7 +369,11 @@ public class LargestContentfulPaint</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_LargestContentfulPaint_Size_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>The <code>size</code> of the element is the <code>width</code> times <code>height</code> of the <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMRectReadOnly.html">DOMRectReadOnly</a> that this element creates on the screen.</p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/LargestContentfulPaint/size"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/LargestContentfulPaint/size">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -346,7 +383,7 @@ public class LargestContentfulPaint</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_LargestContentfulPaint_Url" data-uid="CSharpToJavaScript.APIs.JS.LargestContentfulPaint.Url">
   Url
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9850"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13725"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>url</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.LargestContentfulPaint.html">LargestContentfulPaint</a> interface returns the request URL of the element, if the element is an image.</p>
@@ -372,7 +409,11 @@ public class LargestContentfulPaint</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_LargestContentfulPaint_Url_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p><a href="https://developer.mozilla.org/en-US/docs/Web/API/LargestContentfulPaint/url"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/LargestContentfulPaint/url">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -386,7 +427,7 @@ public class LargestContentfulPaint</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_LargestContentfulPaint_ToJSON" data-uid="CSharpToJavaScript.APIs.JS.LargestContentfulPaint.ToJSON">
   ToJSON()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9854"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13729"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>toJSON()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.LargestContentfulPaint.html">LargestContentfulPaint</a> interface is a {{Glossary(&quot;Serialization&quot;,&quot;serializer&quot;)}}; it returns a JSON representation of the <a class="xref" href="CSharpToJavaScript.APIs.JS.LargestContentfulPaint.html">LargestContentfulPaint</a> object.</p>
@@ -413,7 +454,11 @@ public class LargestContentfulPaint</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_LargestContentfulPaint_ToJSON_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-JSON<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/LargestContentfulPaint/toJSON"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/LargestContentfulPaint/toJSON">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -423,7 +468,7 @@ public class LargestContentfulPaint</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9838" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13713" class="edit-link">Edit this page</a>
         </div>
 
 

@@ -2,11 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class XRViewerPose
- | CSharpToJavaScript </title>
+      <title>Class XRViewerPose | CSharpToJavaScript </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class XRViewerPose
- | CSharpToJavaScript ">
+      <meta name="title" content="Class XRViewerPose | CSharpToJavaScript ">
       
       <meta name="description" content="The WebXR Device API interface XRViewerPose represents the pose (the position and orientation) of a viewer&amp;amp;apos;s point of view on the scene. Each XRViewerPose can have multiple views to represent, for example, the slight separation between the left and right eye.">
       <link rel="icon" href="../favicon.ico">
@@ -31,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -91,8 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_XRViewerPose" data-uid="CSharpToJavaScript.APIs.JS.XRViewerPose" class="text-break">
-    Class XRViewerPose
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16989"><i class="bi bi-code-slash"></i></a>
+Class XRViewerPose  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L32991"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -123,7 +120,7 @@ public class XRViewerPose : XRPose</code></pre>
 
 
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
     <div>
@@ -165,9 +162,14 @@ public class XRViewerPose : XRPose</code></pre>
 
 
   <h2 id="CSharpToJavaScript_APIs_JS_XRViewerPose_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>This view can represent anything from the point-of-view of a user&amp;apos;s XR headset to the viewpoint represented by a player&amp;apos;s movement of an avatar using mouse and keyboard, presented on the screen, to a virtual camera capturing the scene for a spectator.</p><p></p>
+  <div class="markdown level0 remarks"><p>This view can represent anything from the point-of-view of a user&amp;apos;s XR headset to the viewpoint represented by a player&amp;apos;s movement of an avatar using mouse and keyboard, presented on the screen, to a virtual camera capturing the scene for a spectator.</p>
+<p></p>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/WebXR_Device_API">WebXR Device API</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/WebXR_Device_API/Movement_and_motion">Movement, orientation, and motion</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.XRPose.html">XRPose</a> and <a class="xref" href="CSharpToJavaScript.APIs.JS.XRView.html">XRView</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/XRViewerPose"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/XRViewerPose">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -179,7 +181,7 @@ public class XRViewerPose : XRPose</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_XRViewerPose_Views" data-uid="CSharpToJavaScript.APIs.JS.XRViewerPose.Views">
   Views
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16993"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L32995"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The read-only <a class="xref" href="CSharpToJavaScript.APIs.JS.XRViewerPose.html">XRViewerPose</a> property <strong><code>views</code></strong><br>returns an array which contains every <a class="xref" href="CSharpToJavaScript.APIs.JS.XRView.html">XRView</a> which must be rendered in<br>order to fully represent the scene from the viewpoint defined by the viewer pose. For<br>monoscopic devices, this array contains a single view.</p>
@@ -205,9 +207,18 @@ public class XRViewerPose : XRPose</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_XRViewerPose_Views_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><blockquote class="WARNING"><h5>WARNING</h5><p><strong>Warning:</strong> There is no guarantee that the number of views will<br>remain constant over the lifetime of an <a class="xref" href="CSharpToJavaScript.APIs.JS.XRSession.html">XRSession</a>. For each frame, you<br>should always use the current length of this array rather than caching the value.</p></blockquote><p>Stereo views require two views to render properly, with the left eye&amp;apos;s view having its<br><a class="xref" href="CSharpToJavaScript.APIs.JS.XRView.html#CSharpToJavaScript_APIs_JS_XRView_Eye">Eye</a> set to the string <code>left</code> and the right eye&amp;apos;s<br>view a value of <code>right</code>.</p>
+  <div class="markdown level1 remarks"><blockquote class="WARNING">
+  <h5>WARNING</h5>
+  <p>
+    <strong>Warning:</strong> There is no guarantee that the number of views will<br>remain constant over the lifetime of an <a class="xref" href="CSharpToJavaScript.APIs.JS.XRSession.html">XRSession</a>. For each frame, you<br>should always use the current length of this array rather than caching the value.</p>
+</blockquote>
+<p>Stereo views require two views to render properly, with the left eye&amp;apos;s view having its<br><a class="xref" href="CSharpToJavaScript.APIs.JS.XRView.html#CSharpToJavaScript_APIs_JS_XRView_Eye">Eye</a> set to the string <code>left</code> and the right eye&amp;apos;s<br>view a value of <code>right</code>.</p>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/WebXR_Device_API">WebXR Device API</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/WebXR_Device_API/Movement_and_motion">Movement, orientation, and motion</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/XRViewerPose/views"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/XRViewerPose/views">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -217,7 +228,7 @@ public class XRViewerPose : XRPose</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16989" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L32991" class="edit-link">Edit this page</a>
         </div>
 
 

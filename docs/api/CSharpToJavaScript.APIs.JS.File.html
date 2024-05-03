@@ -2,11 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class File
- | CSharpToJavaScript </title>
+      <title>Class File | CSharpToJavaScript </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class File
- | CSharpToJavaScript ">
+      <meta name="title" content="Class File | CSharpToJavaScript ">
       
       <meta name="description" content="The File interface provides information about files and allows JavaScript in a web page to access their content.">
       <link rel="icon" href="../favicon.ico">
@@ -31,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -91,8 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_File" data-uid="CSharpToJavaScript.APIs.JS.File" class="text-break">
-    Class File
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7135"><i class="bi bi-code-slash"></i></a>
+Class File  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6804"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -123,7 +120,7 @@ public class File : Blob</code></pre>
 
 
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
     <div>
@@ -171,9 +168,17 @@ public class File : Blob</code></pre>
 
 
   <h2 id="CSharpToJavaScript_APIs_JS_File_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p><code>File</code> objects are generally retrieved from a <a class="xref" href="CSharpToJavaScript.APIs.JS.FileList.html">FileList</a> object returned as a result of a user selecting files using the {{HTMLElement("input")}} element, or from a drag and drop operation's <a class="xref" href="CSharpToJavaScript.APIs.JS.DataTransfer.html">DataTransfer</a> object.</p><p>A <code>File</code> object is a specific kind of <a class="xref" href="CSharpToJavaScript.APIs.JS.Blob.html">Blob</a>, and can be used in any context that a Blob can. In particular, <a class="xref" href="CSharpToJavaScript.APIs.JS.FileReader.html">FileReader</a>, <a class="xref" href="CSharpToJavaScript.APIs.JS.URL.html#CSharpToJavaScript_APIs_JS_URL_CreateObjectURL_CSharpToJavaScript_APIs_JS_Union53_">CreateObjectURL(Union53)</a>, CreateImageBitmap, and {{DOMxRef("XMLHttpRequest", &amp;quot;&amp;quot;, &amp;quot;send()&amp;quot;)}} accept both <code>Blob</code>s and <code>File</code>s.</p><p>See <a href="https://developer.mozilla.org/en-US/docs/Web/API/File_API/Using_files_from_web_applications">Using files from web applications</a> for more information and examples.</p><p></p>
+  <div class="markdown level0 remarks"><p>
+  <code>File</code> objects are generally retrieved from a <a class="xref" href="CSharpToJavaScript.APIs.JS.FileList.html">FileList</a> object returned as a result of a user selecting files using the {{HTMLElement("input")}} element, or from a drag and drop operation's <a class="xref" href="CSharpToJavaScript.APIs.JS.DataTransfer.html">DataTransfer</a> object.</p>
+<p>A <code>File</code> object is a specific kind of <a class="xref" href="CSharpToJavaScript.APIs.JS.Blob.html">Blob</a>, and can be used in any context that a Blob can. In particular, <a class="xref" href="CSharpToJavaScript.APIs.JS.FileReader.html">FileReader</a>, <a class="xref" href="CSharpToJavaScript.APIs.JS.URL.html#CSharpToJavaScript_APIs_JS_URL_CreateObjectURL_CSharpToJavaScript_APIs_JS_Union48_">CreateObjectURL(Union48)</a>, CreateImageBitmap, the <a href="https://developer.mozilla.org/en-US/docs/Web/API/fetch#body"><code>body</code></a> option to Fetch, and {{DOMxRef("XMLHttpRequest", &amp;quot;&amp;quot;, &amp;quot;send()&amp;quot;)}} accept both <code>Blob</code>s and <code>File</code>s.</p>
+<p>See <a href="https://developer.mozilla.org/en-US/docs/Web/API/File_API/Using_files_from_web_applications">Using files from web applications</a> for more information and examples.</p>
+<p></p>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/File_API/Using_files_from_web_applications">Using files from web applications</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.FileReader.html">FileReader</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/File"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/File">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -185,7 +190,7 @@ public class File : Blob</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_File__ctor" data-uid="CSharpToJavaScript.APIs.JS.File.#ctor">
   File()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7144"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6812"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -209,9 +214,9 @@ public class File : Blob</code></pre>
 
   <a id="CSharpToJavaScript_APIs_JS_File__ctor_" data-uid="CSharpToJavaScript.APIs.JS.File.#ctor*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_File__ctor_System_Collections_Generic_List_CSharpToJavaScript_APIs_JS_Union51__System_String_CSharpToJavaScript_APIs_JS_FilePropertyBag_" data-uid="CSharpToJavaScript.APIs.JS.File.#ctor(System.Collections.Generic.List{CSharpToJavaScript.APIs.JS.Union51},System.String,CSharpToJavaScript.APIs.JS.FilePropertyBag)">
-  File(List&lt;Union51&gt;, string, FilePropertyBag)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7139"><i class="bi bi-code-slash"></i></a>
+  <h3 id="CSharpToJavaScript_APIs_JS_File__ctor_System_Collections_Generic_List_CSharpToJavaScript_APIs_JS_Union46__System_String_CSharpToJavaScript_APIs_JS_FilePropertyBag_" data-uid="CSharpToJavaScript.APIs.JS.File.#ctor(System.Collections.Generic.List{CSharpToJavaScript.APIs.JS.Union46},System.String,CSharpToJavaScript.APIs.JS.FilePropertyBag)">
+  File(List&lt;Union46&gt;, string, FilePropertyBag)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6807"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>File()</code></strong> constructor creates a new <a class="xref" href="CSharpToJavaScript.APIs.JS.File.html">File</a><br>object instance.</p>
@@ -219,17 +224,17 @@ public class File : Blob</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public File(List&lt;Union51&gt; fileBits, string fileName, FilePropertyBag options)</code></pre>
+    <pre><code class="lang-csharp hljs">public File(List&lt;Union46&gt; fileBits, string fileName, FilePropertyBag options)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>fileBits</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="CSharpToJavaScript.APIs.JS.Union51.html">Union51</a>&gt;</dt>
-    <dd>The File interface provides information about files and allows JavaScript in a web page to access their content.</dd>
+    <dt><code>fileBits</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="CSharpToJavaScript.APIs.JS.Union46.html">Union46</a>&gt;</dt>
+    <dd></dd>
     <dt><code>fileName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd>The File interface provides information about files and allows JavaScript in a web page to access their content.</dd>
+    <dd></dd>
     <dt><code>options</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.FilePropertyBag.html">FilePropertyBag</a></dt>
-    <dd>The File interface provides information about files and allows JavaScript in a web page to access their content.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -239,9 +244,13 @@ public class File : Blob</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_File__ctor_System_Collections_Generic_List_CSharpToJavaScript_APIs_JS_Union51__System_String_CSharpToJavaScript_APIs_JS_FilePropertyBag__remarks">Remarks</h4>
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_File__ctor_System_Collections_Generic_List_CSharpToJavaScript_APIs_JS_Union46__System_String_CSharpToJavaScript_APIs_JS_FilePropertyBag__remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.FileReader.html">FileReader</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Blob.html">Blob</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/File/File"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/File/File">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -255,10 +264,10 @@ public class File : Blob</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_File_LastModified" data-uid="CSharpToJavaScript.APIs.JS.File.LastModified">
   LastModified
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7143"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6811"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>File.lastModified</code></strong> read-only property provides the<br>last modified date of the file as the number of milliseconds since the Unix<br>epoch (January 1, 1970 at midnight). Files without a known last modified date return the<br>current date.</p>
+  <div class="markdown level1 summary"><p>The <strong><code>lastModified</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.File.html">File</a> interface provides the<br>last modified date of the file as the number of milliseconds since the Unix<br>epoch (January 1, 1970 at midnight). Files without a known last modified date return the<br>current date.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -282,7 +291,11 @@ public class File : Blob</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_File_LastModified_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.File.html">File</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/File/lastModified"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/File/lastModified">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -292,10 +305,10 @@ public class File : Blob</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_File_Name" data-uid="CSharpToJavaScript.APIs.JS.File.Name">
   Name
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7141"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6809"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Returns the name of the file represented by a <a class="xref" href="CSharpToJavaScript.APIs.JS.File.html">File</a> object. For security<br>reasons, the path is excluded from this property.</p>
+  <div class="markdown level1 summary"><p>The <strong><code>name</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.File.html">File</a> interface returns the name of the file represented by a <a class="xref" href="CSharpToJavaScript.APIs.JS.File.html">File</a> object. For security<br>reasons, the path is excluded from this property.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -319,7 +332,52 @@ public class File : Blob</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_File_Name_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/File_API/Using_files_from_web_applications">Using files from web applications</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/File/name"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/File/name">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_File_WebkitRelativePath_" data-uid="CSharpToJavaScript.APIs.JS.File.WebkitRelativePath*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_File_WebkitRelativePath" data-uid="CSharpToJavaScript.APIs.JS.File.WebkitRelativePath">
+  WebkitRelativePath
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5765"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>webkitRelativePath</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.File.html">File</a> interface<br>contains a string which specifies the file&amp;apos;s path relative to the<br>directory selected by the user in an <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input">input</a> element with its<br><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#webkitdirectory"><code>webkitdirectory</code></a> attribute set.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string WebkitRelativePath { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A string containing the path of the file relative to the ancestor<br>directory the user selected.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_File_WebkitRelativePath_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/File_and_Directory_Entries_API">File and Directory Entries API</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLInputElement.html#CSharpToJavaScript_APIs_JS_HTMLInputElement_WebkitEntries">WebkitEntries</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLInputElement.html#CSharpToJavaScript_APIs_JS_HTMLInputElement_Webkitdirectory">Webkitdirectory</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/File/webkitRelativePath">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -329,7 +387,7 @@ public class File : Blob</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7135" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6804" class="edit-link">Edit this page</a>
         </div>
 
 

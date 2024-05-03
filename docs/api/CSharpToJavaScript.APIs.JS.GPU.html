@@ -2,11 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class GPU
- | CSharpToJavaScript </title>
+      <title>Class GPU | CSharpToJavaScript </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class GPU
- | CSharpToJavaScript ">
+      <meta name="title" content="Class GPU | CSharpToJavaScript ">
       
       <meta name="description" content="The GPU interface of the {{domxref(&amp;amp;quot;WebGPU API&amp;amp;quot;, &amp;amp;quot;WebGPU API&amp;amp;quot;, &amp;amp;quot;&amp;amp;quot;, &amp;quot;nocode&amp;quot;)}} is the starting point for using WebGPU. It can be used to return a  from which you can request devices, configure features and limits, and more.">
       <link rel="icon" href="../favicon.ico">
@@ -31,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -91,8 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_GPU" data-uid="CSharpToJavaScript.APIs.JS.GPU" class="text-break">
-    Class GPU
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13947"><i class="bi bi-code-slash"></i></a>
+Class GPU  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L26926"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -122,7 +119,7 @@ public class GPU</code></pre>
 
 
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
     <div>
@@ -152,9 +149,14 @@ public class GPU</code></pre>
 
 
   <h2 id="CSharpToJavaScript_APIs_JS_GPU_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>The <code>GPU</code> object for the current context is accessed via the Navigator.Gpu or WorkerNavigator.Gpu properties.</p><p></p>
+  <div class="markdown level0 remarks"><p>The <code>GPU</code> object for the current context is accessed via the Navigator.Gpu or WorkerNavigator.Gpu properties.</p>
+<p></p>
 <p>-The <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API">WebGPU API</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/GPU"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/GPU">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -166,7 +168,7 @@ public class GPU</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_GPU_WgslLanguageFeatures" data-uid="CSharpToJavaScript.APIs.JS.GPU.WgslLanguageFeatures">
   WgslLanguageFeatures
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13955"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L26934"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>wgslLanguageFeatures</code></strong> read-only property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.GPU.html">GPU</a> interface returns a <a class="xref" href="CSharpToJavaScript.APIs.JS.WGSLLanguageFeatures.html">WGSLLanguageFeatures</a> object that reports the <a href="https://gpuweb.github.io/gpuweb/wgsl/#language-extension">WGSL language extensions</a> supported by the WebGPU implementation.</p>
@@ -192,9 +194,17 @@ public class GPU</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_GPU_WgslLanguageFeatures_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><blockquote class="NOTE"><h5>NOTE</h5><p><strong>Note:</strong> Not all WGSL language extensions are available to WebGPU in all browsers that support the API. We recommend you thoroughly test any extensions you choose to use.</p></blockquote>
+  <div class="markdown level1 remarks"><blockquote class="NOTE">
+  <h5>NOTE</h5>
+  <p>
+    <strong>Note:</strong> Not all WGSL language extensions are available to WebGPU in all browsers that support the API. We recommend you thoroughly test any extensions you choose to use.</p>
+</blockquote>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API">WebGPU API</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/GPU/wgslLanguageFeatures"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/GPU/wgslLanguageFeatures">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -208,7 +218,7 @@ public class GPU</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_GPU_GetPreferredCanvasFormat" data-uid="CSharpToJavaScript.APIs.JS.GPU.GetPreferredCanvasFormat">
   GetPreferredCanvasFormat()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13953"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L26932"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>getPreferredCanvasFormat()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.GPU.html">GPU</a> interface returns the optimal canvas texture format for displaying 8-bit depth, standard dynamic range content on the current system.</p>
@@ -236,7 +246,11 @@ public class GPU</code></pre>
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_GPU_GetPreferredCanvasFormat_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>This is commonly used to provide a <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUCanvasContext.html#CSharpToJavaScript_APIs_JS_GPUCanvasContext_Configure_CSharpToJavaScript_APIs_JS_GPUCanvasConfiguration_">Configure(GPUCanvasConfiguration)</a> call with the optimal <code>format</code> value for the current system. This is recommended — if you don&amp;apos;t use the preferred format when configuring the canvas context, you may incur additional overhead, such as additional texture copies, depending on the platform.</p>
 <p>-The <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API">WebGPU API</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/GPU/getPreferredCanvasFormat"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/GPU/getPreferredCanvasFormat">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -246,7 +260,7 @@ public class GPU</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_GPU_RequestAdapter_CSharpToJavaScript_APIs_JS_GPURequestAdapterOptions_" data-uid="CSharpToJavaScript.APIs.JS.GPU.RequestAdapter(CSharpToJavaScript.APIs.JS.GPURequestAdapterOptions)">
   RequestAdapter(GPURequestAdapterOptions)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13951"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L26930"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>requestAdapter()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.GPU.html">GPU</a> interface returns a {{jsxref(&quot;Promise&quot;)}} that fulfills with a <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUAdapter.html">GPUAdapter</a> object instance. From this you can request a <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUDevice.html">GPUDevice</a>, adapter info, features, and limits.</p>
@@ -260,7 +274,7 @@ public class GPU</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>options</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.GPURequestAdapterOptions.html">GPURequestAdapterOptions</a></dt>
-    <dd>The GPU interface of the {{domxref(&amp;quot;WebGPU API&amp;quot;, &amp;quot;WebGPU API&amp;quot;, &amp;quot;&amp;quot;, &quot;nocode&quot;)}} is the starting point for using WebGPU. It can be used to return a  from which you can request devices, configure features and limits, and more.</dd>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -279,7 +293,11 @@ public class GPU</code></pre>
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_GPU_RequestAdapter_CSharpToJavaScript_APIs_JS_GPURequestAdapterOptions__remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>Note that the user agent chooses whether to return an adapter. If so, it chooses according to the provided options. If no options are provided, the device will provide access to the default adapter, which is usually good enough for most purposes.</p>
 <p>-The <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API">WebGPU API</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/GPU/requestAdapter"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/GPU/requestAdapter">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -289,7 +307,7 @@ public class GPU</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13947" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L26926" class="edit-link">Edit this page</a>
         </div>
 
 

@@ -2,13 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class UserActivation
- | CSharpToJavaScript </title>
+      <title>Class UserActivation | CSharpToJavaScript </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class UserActivation
- | CSharpToJavaScript ">
+      <meta name="title" content="Class UserActivation | CSharpToJavaScript ">
       
-      <meta name="description" content="The UserActivation interface allows querying information about a window&amp;amp;apos;s user activation state.">
+      <meta name="description" content="The UserActivation interface provides information about whether a user is currently interacting with the page, or has completed an interaction since page load.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -31,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -91,8 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_UserActivation" data-uid="CSharpToJavaScript.APIs.JS.UserActivation" class="text-break">
-    Class UserActivation
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L2670"><i class="bi bi-code-slash"></i></a>
+Class UserActivation  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10870"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -100,7 +97,7 @@
   <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>The <strong><code>UserActivation</code></strong> interface allows querying information about a window&amp;apos;s user activation state.</p>
+  <div class="markdown summary"><p>The <strong><code>UserActivation</code></strong> interface provides information about whether a user is currently interacting with the page, or has completed an interaction since page load.</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -122,7 +119,7 @@ public class UserActivation</code></pre>
 
 
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
     <div>
@@ -152,9 +149,13 @@ public class UserActivation</code></pre>
 
 
   <h2 id="CSharpToJavaScript_APIs_JS_UserActivation_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>A user activation either implies that the user is currently interacting with the page, or has completed an interaction since page load. Typically, this is a click on a button or some other user interaction with the UI.</p><p>There are two kinds of window user activation states:</p><p>See <a href="https://developer.mozilla.org/en-US/docs/Web/Security/User_activation">Features gated by user activation</a> for more information and a list of APIs that require either sticky or transient user activation.</p><p>This API is only available in the window context and not exposed to workers.</p>
+  <div class="markdown level0 remarks"><p>This API is only available in the window context and not exposed to workers.</p>
 <p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Navigator.html#CSharpToJavaScript_APIs_JS_Navigator_UserActivation">UserActivation</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/Security/User_activation">Features gated by user activation</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/UserActivation"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/UserActivation">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -166,10 +167,10 @@ public class UserActivation</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_UserActivation_HasBeenActive" data-uid="CSharpToJavaScript.APIs.JS.UserActivation.HasBeenActive">
   HasBeenActive
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L2674"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10874"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The read-only <strong><code>hasBeenActive</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.UserActivation.html">UserActivation</a> interface indicates whether the current window has sticky user activation (see {{Glossary(&quot;sticky activation&quot;)}}).</p>
+  <div class="markdown level1 summary"><p>The read-only <strong><code>hasBeenActive</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.UserActivation.html">UserActivation</a> interface indicates whether the current window has {{Glossary(&quot;sticky activation&quot;,&quot;sticky user activation&quot;)}}.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -193,7 +194,11 @@ public class UserActivation</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_UserActivation_HasBeenActive_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.UserActivation.html">UserActivation</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.UserActivation.html#CSharpToJavaScript_APIs_JS_UserActivation_IsActive">IsActive</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/Security/User_activation">Features gated by user activation</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/UserActivation/hasBeenActive"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/UserActivation/hasBeenActive">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -203,10 +208,10 @@ public class UserActivation</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_UserActivation_IsActive" data-uid="CSharpToJavaScript.APIs.JS.UserActivation.IsActive">
   IsActive
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L2676"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10876"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The read-only <strong><code>isActive</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.UserActivation.html">UserActivation</a> interface indicates whether the current window has transient user activation (see {{Glossary(&quot;transient activation&quot;)}}).</p>
+  <div class="markdown level1 summary"><p>The read-only <strong><code>isActive</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.UserActivation.html">UserActivation</a> interface indicates whether the current window has {{Glossary(&quot;transient activation&quot;, &quot;transient user activation&quot;)}}.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -230,7 +235,11 @@ public class UserActivation</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_UserActivation_IsActive_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.UserActivation.html">UserActivation</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.UserActivation.html#CSharpToJavaScript_APIs_JS_UserActivation_HasBeenActive">HasBeenActive</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/Security/User_activation">Features gated by user activation</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/UserActivation/isActive"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/UserActivation/isActive">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -240,7 +249,7 @@ public class UserActivation</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L2670" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10870" class="edit-link">Edit this page</a>
         </div>
 
 

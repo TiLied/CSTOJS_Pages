@@ -1,0 +1,545 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class NDEFRecord | CSharpToJavaScript </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class NDEFRecord | CSharpToJavaScript ">
+      
+      <meta name="description" content="The NDEFRecord interface of the Web NFC API provides data that can be read from, or written to, compatible NFC devices, e.g. NFC tags supporting NDEF.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/TiLied/CSharpToJavaScript/new/master/apiSpec/new?filename=CSharpToJavaScript_APIs_JS_NDEFRecord.md&amp;value=---%0Auid%3A%20CSharpToJavaScript.APIs.JS.NDEFRecord%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="CSharpToJavaScript.APIs.JS.NDEFRecord">
+
+
+
+  <h1 id="CSharpToJavaScript_APIs_JS_NDEFRecord" data-uid="CSharpToJavaScript.APIs.JS.NDEFRecord" class="text-break">
+Class NDEFRecord  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L22574"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CSharpToJavaScript.html">CSharpToJavaScript</a>.<a class="xref" href="CSharpToJavaScript.APIs.html">APIs</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.html">JS</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>The <strong><code>NDEFRecord</code></strong> interface of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_NFC_API">Web NFC API</a> provides data that can be read from, or written to, compatible NFC devices, e.g. NFC tags supporting NDEF.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public class NDEFRecord</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">NDEFRecord</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+  <h2 id="CSharpToJavaScript_APIs_JS_NDEFRecord_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/NDEFRecord">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_NDEFRecord__ctor_" data-uid="CSharpToJavaScript.APIs.JS.NDEFRecord.#ctor*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_NDEFRecord__ctor" data-uid="CSharpToJavaScript.APIs.JS.NDEFRecord.#ctor">
+  NDEFRecord()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L22593"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NDEFRecord()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_NDEFRecord__ctor_" data-uid="CSharpToJavaScript.APIs.JS.NDEFRecord.#ctor*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_NDEFRecord__ctor_CSharpToJavaScript_APIs_JS_NDEFRecordInit_" data-uid="CSharpToJavaScript.APIs.JS.NDEFRecord.#ctor(CSharpToJavaScript.APIs.JS.NDEFRecordInit)">
+  NDEFRecord(NDEFRecordInit)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L22578"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>NDEFRecord()</code></strong><br>constructor of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_NFC_API">Web NFC API</a> returns a<br>newly constructed <a class="xref" href="CSharpToJavaScript.APIs.JS.NDEFRecord.html">NDEFRecord</a> object that represents data that can be<br>read from, or written to, compatible NFC devices; e.g. NFC tags supporting NDEF.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NDEFRecord(NDEFRecordInit recordInit)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>recordInit</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.NDEFRecordInit.html">NDEFRecordInit</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_NDEFRecord__ctor_CSharpToJavaScript_APIs_JS_NDEFRecordInit__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/NDEFRecord/NDEFRecord">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_NDEFRecord_Data_" data-uid="CSharpToJavaScript.APIs.JS.NDEFRecord.Data*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_NDEFRecord_Data" data-uid="CSharpToJavaScript.APIs.JS.NDEFRecord.Data">
+  Data
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L22586"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>data</code></strong><br>property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.NDEFRecord.html">NDEFRecord</a> interface returns a<br>DataView containing the raw bytes of the record's payload.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Unsupported? Data { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.Utils.Unsupported.html">Unsupported</a></dt>
+    <dd><p>A DataView that contains encoded payload data of the record.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_NDEFRecord_Data_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/NDEFRecord/data">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_NDEFRecord_Encoding_" data-uid="CSharpToJavaScript.APIs.JS.NDEFRecord.Encoding*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_NDEFRecord_Encoding" data-uid="CSharpToJavaScript.APIs.JS.NDEFRecord.Encoding">
+  Encoding
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L22588"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>encoding</code></strong><br>property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.NDEFRecord.html">NDEFRecord</a> interface returns the encoding of<br>a textual payload, or <code>null</code> otherwise.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Encoding { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A string which can be one of the following: <code>&amp;quot;utf-8&amp;quot;</code>,<br><code>&amp;quot;utf-16&amp;quot;</code>, <code>&amp;quot;utf-16le&amp;quot;</code>, or <code>&amp;quot;utf-16be&amp;quot;</code>.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_NDEFRecord_Encoding_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/NDEFRecord/encoding">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_NDEFRecord_Id_" data-uid="CSharpToJavaScript.APIs.JS.NDEFRecord.Id*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_NDEFRecord_Id" data-uid="CSharpToJavaScript.APIs.JS.NDEFRecord.Id">
+  Id
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L22584"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>id</code></strong> property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.NDEFRecord.html">NDEFRecord</a> interface returns the record identifier, which is an<br>absolute or relative URL used to identify the record.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Id { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A string.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_NDEFRecord_Id_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This identifier is created by the generator of the record which is solely responsible<br>for enforcing record identifier uniqueness. Web NFC does not sign the NFC content, thus<br>record consumer should not make any assumptions about integrity or authenticity of the<br>identifier or any other part of the records.</p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/NDEFRecord/id">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_NDEFRecord_Lang_" data-uid="CSharpToJavaScript.APIs.JS.NDEFRecord.Lang*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_NDEFRecord_Lang" data-uid="CSharpToJavaScript.APIs.JS.NDEFRecord.Lang">
+  Lang
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L22590"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>lang</code></strong><br>property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.NDEFRecord.html">NDEFRecord</a> interface returns the language of<br>a textual payload, or <code>null</code> if one was not supplied.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? Lang { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A string.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_NDEFRecord_Lang_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The record might be missing a language tag, for example, if the recorded information is<br>not locale-specific.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang">HTML <code>lang</code> attribute</a>, that declares content language of the document or its elements<br>-HTTP headers that declare content language: <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Language">Content-Language</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-Language">Accept-Language</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/NDEFRecord/lang">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_NDEFRecord_MediaType_" data-uid="CSharpToJavaScript.APIs.JS.NDEFRecord.MediaType*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_NDEFRecord_MediaType" data-uid="CSharpToJavaScript.APIs.JS.NDEFRecord.MediaType">
+  MediaType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L22582"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>mediaType</code></strong><br>property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.NDEFRecord.html">NDEFRecord</a> interface returns the {{Glossary(&quot;MIME type&quot;)}} of the record. This value will be <code>null</code> if <code>recordType</code> is not equal to <code>&amp;quot;mime&amp;quot;</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string? MediaType { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A string, containing the <a href="https://developer.mozilla.org/en-US/docs/Glossary/MIME type">MIME type</a> of the record<br>payload.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_NDEFRecord_MediaType_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/NDEFRecord/mediaType">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_NDEFRecord_RecordType_" data-uid="CSharpToJavaScript.APIs.JS.NDEFRecord.RecordType*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_NDEFRecord_RecordType" data-uid="CSharpToJavaScript.APIs.JS.NDEFRecord.RecordType">
+  RecordType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L22580"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>recordType</code></strong><br>property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.NDEFRecord.html">NDEFRecord</a> interface returns the record type of the record.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string RecordType { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A string which can be one of the following:</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_NDEFRecord_RecordType_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/NDEFRecord/recordType">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_NDEFRecord_ToRecords_" data-uid="CSharpToJavaScript.APIs.JS.NDEFRecord.ToRecords*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_NDEFRecord_ToRecords" data-uid="CSharpToJavaScript.APIs.JS.NDEFRecord.ToRecords">
+  ToRecords()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L22592"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>toRecords()</code></strong><br>method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.NDEFRecord.html">NDEFRecord</a> interface converts<br><a class="xref" href="CSharpToJavaScript.APIs.JS.NDEFRecord.html#CSharpToJavaScript_APIs_JS_NDEFRecord_Data">Data</a> to a sequence of records based on<br><a class="xref" href="CSharpToJavaScript.APIs.JS.NDEFRecord.html#CSharpToJavaScript_APIs_JS_NDEFRecord_RecordType">RecordType</a>, and returns the result. This allows<br>parsing the payloads of record types which may contain nested records, such<br>as smart poster and external type records.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;NDEFRecord&gt;? ToRecords()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="CSharpToJavaScript.APIs.JS.NDEFRecord.html">NDEFRecord</a>&gt;</dt>
+    <dd><p>A list of <a class="xref" href="CSharpToJavaScript.APIs.JS.NDEFRecord.html">NDEFRecord</a>s.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_NDEFRecord_ToRecords_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/NDEFRecord/toRecords">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L22574" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

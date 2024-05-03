@@ -2,13 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class CSSTransition
- | CSharpToJavaScript </title>
+      <title>Class CSSTransition | CSharpToJavaScript </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class CSSTransition
- | CSharpToJavaScript ">
+      <meta name="title" content="Class CSSTransition | CSharpToJavaScript ">
       
-      <meta name="description" content="The transition CSS property is a shorthand property for transition-property, transition-duration, transition-timing-function, transition-delay, and transition-behavior.">
+      <meta name="description" content="The CSSTransition interface of the &#39;Web Animations API&#39; represents an  object used for a CSS Transition.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -31,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -91,8 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_CSSTransition" data-uid="CSharpToJavaScript.APIs.JS.CSSTransition" class="text-break">
-    Class CSSTransition
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5901"><i class="bi bi-code-slash"></i></a>
+Class CSSTransition  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L2643"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -100,7 +97,7 @@
   <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>The <strong><code>transition</code></strong> <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a> property is a <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties">shorthand property</a> for <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transition-property">transition-property</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transition-duration">transition-duration</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function">transition-timing-function</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transition-delay">transition-delay</a>, and <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transition-behavior">transition-behavior</a>.</p>
+  <div class="markdown summary"><p>The <strong><code>CSSTransition</code></strong> interface of the 'Web Animations API' represents an <a class="xref" href="CSharpToJavaScript.APIs.JS.Animation.html">Animation</a> object used for a <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_transitions">CSS Transition</a>.</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -116,6 +113,7 @@ public class CSSTransition : Animation</code></pre>
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html">EventTarget</a></div>
       <div><a class="xref" href="CSharpToJavaScript.APIs.JS.Animation.html">Animation</a></div>
       <div><span class="xref">CSSTransition</span></div>
     </dd>
@@ -123,7 +121,7 @@ public class CSSTransition : Animation</code></pre>
 
 
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
     <div>
@@ -131,6 +129,90 @@ public class CSSTransition : Animation</code></pre>
     </div>
     <div>
       <a class="xref" href="CSharpToJavaScript.APIs.JS.Animation.html#CSharpToJavaScript_APIs_JS_Animation_CurrentTime">Animation.CurrentTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Animation.html#CSharpToJavaScript_APIs_JS_Animation_Progress">Animation.Progress</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Animation.html#CSharpToJavaScript_APIs_JS_Animation_Id">Animation.Id</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Animation.html#CSharpToJavaScript_APIs_JS_Animation_Effect">Animation.Effect</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Animation.html#CSharpToJavaScript_APIs_JS_Animation_Timeline">Animation.Timeline</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Animation.html#CSharpToJavaScript_APIs_JS_Animation_PlaybackRate">Animation.PlaybackRate</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Animation.html#CSharpToJavaScript_APIs_JS_Animation_PlayState">Animation.PlayState</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Animation.html#CSharpToJavaScript_APIs_JS_Animation_ReplaceState">Animation.ReplaceState</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Animation.html#CSharpToJavaScript_APIs_JS_Animation_Pending">Animation.Pending</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Animation.html#CSharpToJavaScript_APIs_JS_Animation_Ready">Animation.Ready</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Animation.html#CSharpToJavaScript_APIs_JS_Animation_Finished">Animation.Finished</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Animation.html#CSharpToJavaScript_APIs_JS_Animation_Onfinish">Animation.Onfinish</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Animation.html#CSharpToJavaScript_APIs_JS_Animation_Oncancel">Animation.Oncancel</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Animation.html#CSharpToJavaScript_APIs_JS_Animation_Onremove">Animation.Onremove</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Animation.html#CSharpToJavaScript_APIs_JS_Animation_Cancel">Animation.Cancel()</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Animation.html#CSharpToJavaScript_APIs_JS_Animation_Finish">Animation.Finish()</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Animation.html#CSharpToJavaScript_APIs_JS_Animation_Play">Animation.Play()</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Animation.html#CSharpToJavaScript_APIs_JS_Animation_Pause">Animation.Pause()</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Animation.html#CSharpToJavaScript_APIs_JS_Animation_UpdatePlaybackRate_CSharpToJavaScript_APIs_JS_Number_">Animation.UpdatePlaybackRate(Number)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Animation.html#CSharpToJavaScript_APIs_JS_Animation_Reverse">Animation.Reverse()</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Animation.html#CSharpToJavaScript_APIs_JS_Animation_Persist">Animation.Persist()</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Animation.html#CSharpToJavaScript_APIs_JS_Animation_CommitStyles">Animation.CommitStyles()</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union27_">EventTarget.AddEventListener(string, Action, Union27)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_MouseEvent__CSharpToJavaScript_APIs_JS_Union27_">EventTarget.AddEventListener(string, Action&lt;MouseEvent&gt;, Union27)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Event__CSharpToJavaScript_APIs_JS_Union27_">EventTarget.AddEventListener(string, Action&lt;Event&gt;, Union27)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_RemoveEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union28_">EventTarget.RemoveEventListener(string, Action, Union28)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_CSharpToJavaScript_APIs_JS_EventListener_CSharpToJavaScript_APIs_JS_Union27_">EventTarget.AddEventListener(string, EventListener, Union27)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_RemoveEventListener_System_String_CSharpToJavaScript_APIs_JS_EventListener_CSharpToJavaScript_APIs_JS_Union28_">EventTarget.RemoveEventListener(string, EventListener, Union28)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_DispatchEvent_CSharpToJavaScript_APIs_JS_Event_">EventTarget.DispatchEvent(Event)</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
@@ -159,9 +241,12 @@ public class CSSTransition : Animation</code></pre>
 
 
   <h2 id="CSharpToJavaScript_APIs_JS_CSSTransition_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>EmbedInteractiveExample("pages/css/transition.html")</p><p>Transitions enable you to define the transition between two states of an element. Different states may be defined using <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes">pseudo-classes</a> like <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/:hover">:hover</a> or <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/:active">:active</a> or dynamically set using JavaScript.</p>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_transitions">CSS transitions</a> module<br>-<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_transitions/Using_CSS_transitions">Using CSS transitions</a><br>-TransitionEvent.<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transition"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level0 remarks"><p></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/CSSTransition">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -173,7 +258,7 @@ public class CSSTransition : Animation</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_CSSTransition_TransitionProperty" data-uid="CSharpToJavaScript.APIs.JS.CSSTransition.TransitionProperty">
   TransitionProperty
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5905"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L2647"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>transitionProperty</code></strong> property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.CSSTransition.html">CSSTransition</a> interface returns the <strong>expanded transition property</strong><strong><br></strong><strong>name</strong> of the transition. This is the longhand CSS property for which the<br>transition was generated.</p>
@@ -181,7 +266,7 @@ public class CSSTransition : Animation</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Unsupported TransitionProperty { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string TransitionProperty { get; }</code></pre>
   </div>
 
 
@@ -190,7 +275,7 @@ public class CSSTransition : Animation</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.Utils.Unsupported.html">Unsupported</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd><p>A string.</p>
 </dd>
   </dl>
@@ -199,7 +284,11 @@ public class CSSTransition : Animation</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_CSSTransition_TransitionProperty_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p><a href="https://developer.mozilla.org/en-US/docs/Web/API/CSSTransition/transitionProperty"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/CSSTransition/transitionProperty">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -209,7 +298,7 @@ public class CSSTransition : Animation</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5901" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L2643" class="edit-link">Edit this page</a>
         </div>
 
 

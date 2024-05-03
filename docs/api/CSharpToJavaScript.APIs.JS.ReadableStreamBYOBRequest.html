@@ -2,11 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class ReadableStreamBYOBRequest
- | CSharpToJavaScript </title>
+      <title>Class ReadableStreamBYOBRequest | CSharpToJavaScript </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class ReadableStreamBYOBRequest
- | CSharpToJavaScript ">
+      <meta name="title" content="Class ReadableStreamBYOBRequest | CSharpToJavaScript ">
       
       <meta name="description" content="The ReadableStreamBYOBRequest interface of the Streams API represents a &amp;amp;quot;pull request&amp;amp;quot; for data from an underlying source that will made as a zero-copy transfer to a consumer (bypassing the stream&amp;amp;apos;s internal queues).">
       <link rel="icon" href="../favicon.ico">
@@ -31,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -91,8 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_ReadableStreamBYOBRequest" data-uid="CSharpToJavaScript.APIs.JS.ReadableStreamBYOBRequest" class="text-break">
-    Class ReadableStreamBYOBRequest
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8759"><i class="bi bi-code-slash"></i></a>
+Class ReadableStreamBYOBRequest  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L19169"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -122,7 +119,7 @@ public class ReadableStreamBYOBRequest</code></pre>
 
 
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
     <div>
@@ -152,9 +149,17 @@ public class ReadableStreamBYOBRequest</code></pre>
 
 
   <h2 id="CSharpToJavaScript_APIs_JS_ReadableStreamBYOBRequest_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p><code>ReadableStreamBYOBRequest</code> objects are created in &amp;quot;BYOB mode&amp;quot; when a consumer makes a request for data and the stream&amp;apos;s internal queue is <strong>empty</strong>.<br>(The stream will resolve the consumer&amp;apos;s request directly if it already has buffered data).<br>An underlying byte source can access active BYOB requests through its controller's <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableByteStreamController.html#CSharpToJavaScript_APIs_JS_ReadableByteStreamController_ByobRequest">ByobRequest</a> property, which will be set to <code>null</code> if there is no outstanding request.</p><p>An underlying source that supports "BYOB mode" should check for <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableByteStreamController.html#CSharpToJavaScript_APIs_JS_ReadableByteStreamController_ByobRequest">ByobRequest</a> and must use it for transferring data, if present.<br>If data arrives from the underlying source when <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableByteStreamController.html#CSharpToJavaScript_APIs_JS_ReadableByteStreamController_ByobRequest">ByobRequest</a> is <code>null</code>, it can be queued using <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableByteStreamController.html#CSharpToJavaScript_APIs_JS_ReadableByteStreamController_Enqueue_CSharpToJavaScript_APIs_JS_Union66_">Enqueue(Union66)</a>.<br>This might happen when an underlying push source receives new data when the stream&amp;apos;s internal buffers are not empty.</p><p>An underlying source uses the request by writing data to the BYOB request&amp;apos;s <a href="https://developer.mozilla.org#readablestreambyobrequest.view"><code>view</code></a> and then calling <a href="https://developer.mozilla.org#readablestreambyobrequest.respond"><code>respond()</code></a>, or by calling <a href="https://developer.mozilla.org#readablestreambyobrequest.respondwithnewview"><code>respondWithNewView()</code></a> and passing a new view as an argument.<br>Note that the &amp;quot;new view&amp;quot; must actually be a view over the <strong>same</strong> buffer as the original <code>view</code>, starting at the same offset.<br>This might be used to return a shorter buffer if the underlying source is unable to fill the entire original view.</p><p>Note that a <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableByteStreamController.html">ReadableByteStreamController</a> is only created for underlying sources when <code>type=&amp;quot;bytes&amp;quot;</code> is specified for the source in the <a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStream/ReadableStream#type"><code>ReadableStream()</code> constructor</a>.<br>&amp;quot;BYOB mode&amp;quot; is enabled when either <a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStream/ReadableStream#autoallocatechunksize"><code>autoAllocateChunkSize</code></a> is specified in the <a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStream/ReadableStream#autoallocatechunksize"><code>ReadableController()</code> constructor</a> or when using a <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStreamBYOBReader.html">ReadableStreamBYOBReader</a> (typically constructed by calling <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStream.html#CSharpToJavaScript_APIs_JS_ReadableStream_GetReader_CSharpToJavaScript_APIs_JS_ReadableStreamGetReaderOptions_">GetReader(ReadableStreamGetReaderOptions)</a> with the argument <code>{ mode: &amp;apos;byob&amp;apos; }</code>).</p>
+  <div class="markdown level0 remarks"><p>
+  <code>ReadableStreamBYOBRequest</code> objects are created in &amp;quot;BYOB mode&amp;quot; when a consumer makes a request for data and the stream&amp;apos;s internal queue is <strong>empty</strong>.<br>(The stream will resolve the consumer&amp;apos;s request directly if it already has buffered data).<br>An underlying byte source can access active BYOB requests through its controller's <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableByteStreamController.html#CSharpToJavaScript_APIs_JS_ReadableByteStreamController_ByobRequest">ByobRequest</a> property, which will be set to <code>null</code> if there is no outstanding request.</p>
+<p>An underlying source that supports "BYOB mode" should check for <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableByteStreamController.html#CSharpToJavaScript_APIs_JS_ReadableByteStreamController_ByobRequest">ByobRequest</a> and must use it for transferring data, if present.<br>If data arrives from the underlying source when <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableByteStreamController.html#CSharpToJavaScript_APIs_JS_ReadableByteStreamController_ByobRequest">ByobRequest</a> is <code>null</code>, it can be queued using <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableByteStreamController.html#CSharpToJavaScript_APIs_JS_ReadableByteStreamController_Enqueue_CSharpToJavaScript_APIs_JS_Union199_">Enqueue(Union199)</a>.<br>This might happen when an underlying push source receives new data when the stream&amp;apos;s internal buffers are not empty.</p>
+<p>An underlying source uses the request by writing data to the BYOB request&amp;apos;s <a href="https://developer.mozilla.org#readablestreambyobrequest.view"><code>view</code></a> and then calling <a href="https://developer.mozilla.org#readablestreambyobrequest.respond"><code>respond()</code></a>, or by calling <a href="https://developer.mozilla.org#readablestreambyobrequest.respondwithnewview"><code>respondWithNewView()</code></a> and passing a new view as an argument.<br>Note that the &amp;quot;new view&amp;quot; must actually be a view over the <strong>same</strong> buffer as the original <code>view</code>, starting at the same offset.<br>This might be used to return a shorter buffer if the underlying source is unable to fill the entire original view.</p>
+<p>Note that a <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableByteStreamController.html">ReadableByteStreamController</a> is only created for underlying sources when <code>type=&amp;quot;bytes&amp;quot;</code> is specified for the source in the <a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStream/ReadableStream#type"><code>ReadableStream()</code> constructor</a>.<br>&amp;quot;BYOB mode&amp;quot; is enabled when either <a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStream/ReadableStream#autoallocatechunksize"><code>autoAllocateChunkSize</code></a> is specified in the <a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStream/ReadableStream#autoallocatechunksize"><code>ReadableController()</code> constructor</a> or when using a <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStreamBYOBReader.html">ReadableStreamBYOBReader</a> (typically constructed by calling <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStream.html#CSharpToJavaScript_APIs_JS_ReadableStream_GetReader_CSharpToJavaScript_APIs_JS_ReadableStreamGetReaderOptions_">GetReader(ReadableStreamGetReaderOptions)</a> with the argument <code>{ mode: &amp;apos;byob&amp;apos; }</code>).</p>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Streams_API/Using_readable_byte_streams">Using readable byte stream</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStreamBYOBRequest"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStreamBYOBRequest">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -166,7 +171,7 @@ public class ReadableStreamBYOBRequest</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_ReadableStreamBYOBRequest_View" data-uid="CSharpToJavaScript.APIs.JS.ReadableStreamBYOBRequest.View">
   View
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8763"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L19173"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>view</code></strong> getter property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStreamBYOBRequest.html">ReadableStreamBYOBRequest</a> interface returns the current view.</p>
@@ -174,7 +179,7 @@ public class ReadableStreamBYOBRequest</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Union66? View { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Union199? View { get; }</code></pre>
   </div>
 
 
@@ -183,8 +188,8 @@ public class ReadableStreamBYOBRequest</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Union66.html">Union66</a>?</dt>
-    <dd><p>A <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays">typed array</a> representing the destination region to which the controller can write generated data.<code>null</code> if the request has already been responded to, by calling <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStreamBYOBRequest.html#CSharpToJavaScript_APIs_JS_ReadableStreamBYOBRequest_Respond_System_UInt64_">Respond(ulong)</a> or <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStreamBYOBRequest.html#CSharpToJavaScript_APIs_JS_ReadableStreamBYOBRequest_RespondWithNewView_CSharpToJavaScript_APIs_JS_Union66_">RespondWithNewView(Union66)</a>.</p>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Union199.html">Union199</a>?</dt>
+    <dd><p>A <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Typed_arrays">typed array</a> representing the destination region to which the controller can write generated data.<code>null</code> if the request has already been responded to, by calling <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStreamBYOBRequest.html#CSharpToJavaScript_APIs_JS_ReadableStreamBYOBRequest_Respond_System_UInt64_">Respond(ulong)</a> or <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStreamBYOBRequest.html#CSharpToJavaScript_APIs_JS_ReadableStreamBYOBRequest_RespondWithNewView_CSharpToJavaScript_APIs_JS_Union199_">RespondWithNewView(Union199)</a>.</p>
 </dd>
   </dl>
 
@@ -193,7 +198,11 @@ public class ReadableStreamBYOBRequest</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_ReadableStreamBYOBRequest_View_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Streams_API/Using_readable_byte_streams">Using readable byte stream</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStreamBYOBRequest/view"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStreamBYOBRequest/view">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -207,7 +216,7 @@ public class ReadableStreamBYOBRequest</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_ReadableStreamBYOBRequest_Respond_System_UInt64_" data-uid="CSharpToJavaScript.APIs.JS.ReadableStreamBYOBRequest.Respond(System.UInt64)">
   Respond(ulong)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8765"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L19175"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>respond()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStreamBYOBRequest.html">ReadableStreamBYOBRequest</a> interface is used to signal to the associated <a href="https://developer.mozilla.org/en-US/docs/Web/API/Streams_API/Using_readable_byte_streams">readable byte stream</a> that the specified number of bytes were written into the <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStreamBYOBRequest.html#CSharpToJavaScript_APIs_JS_ReadableStreamBYOBRequest_View">View</a>.</p>
@@ -221,7 +230,7 @@ public class ReadableStreamBYOBRequest</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>bytesWritten</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
-    <dd>The ReadableStreamBYOBRequest interface of the Streams API represents a &amp;quot;pull request&amp;quot; for data from an underlying source that will made as a zero-copy transfer to a consumer (bypassing the stream&amp;apos;s internal queues).</dd>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -240,7 +249,11 @@ public class ReadableStreamBYOBRequest</code></pre>
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_ReadableStreamBYOBRequest_Respond_System_UInt64__remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>After this method is called, the ReadableStreamBYOBRequest/view will be transferred and no longer modifiable.</p>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Streams_API/Using_readable_byte_streams">Using readable byte stream</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStreamBYOBRequest/respond"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStreamBYOBRequest/respond">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -248,9 +261,9 @@ public class ReadableStreamBYOBRequest</code></pre>
 
   <a id="CSharpToJavaScript_APIs_JS_ReadableStreamBYOBRequest_RespondWithNewView_" data-uid="CSharpToJavaScript.APIs.JS.ReadableStreamBYOBRequest.RespondWithNewView*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_ReadableStreamBYOBRequest_RespondWithNewView_CSharpToJavaScript_APIs_JS_Union66_" data-uid="CSharpToJavaScript.APIs.JS.ReadableStreamBYOBRequest.RespondWithNewView(CSharpToJavaScript.APIs.JS.Union66)">
-  RespondWithNewView(Union66)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8767"><i class="bi bi-code-slash"></i></a>
+  <h3 id="CSharpToJavaScript_APIs_JS_ReadableStreamBYOBRequest_RespondWithNewView_CSharpToJavaScript_APIs_JS_Union199_" data-uid="CSharpToJavaScript.APIs.JS.ReadableStreamBYOBRequest.RespondWithNewView(CSharpToJavaScript.APIs.JS.Union199)">
+  RespondWithNewView(Union199)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L19177"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>respondWithNewView()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStreamBYOBRequest.html">ReadableStreamBYOBRequest</a> interface specifies a new view that the consumer of the associated readable byte stream should write to instead of <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStreamBYOBRequest.html#CSharpToJavaScript_APIs_JS_ReadableStreamBYOBRequest_View">View</a>.</p>
@@ -258,13 +271,13 @@ public class ReadableStreamBYOBRequest</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined RespondWithNewView(Union66 view)</code></pre>
+    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined RespondWithNewView(Union199 view)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>view</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union66.html">Union66</a></dt>
-    <dd>The ReadableStreamBYOBRequest interface of the Streams API represents a &amp;quot;pull request&amp;quot; for data from an underlying source that will made as a zero-copy transfer to a consumer (bypassing the stream&amp;apos;s internal queues).</dd>
+    <dt><code>view</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union199.html">Union199</a></dt>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -280,10 +293,15 @@ public class ReadableStreamBYOBRequest</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_ReadableStreamBYOBRequest_RespondWithNewView_CSharpToJavaScript_APIs_JS_Union66__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>The new view must be a {{jsxref("TypedArray")}} or a {{jsxref("DataView")}} that provides a view onto the same backing memory region as <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStreamBYOBRequest.html#CSharpToJavaScript_APIs_JS_ReadableStreamBYOBRequest_View">View</a>.<br>After this method is called, the view that was passed into the method will be transferred and no longer modifiable.</p><p>The method is intended for use cases where an underlying byte source needs to transfer a <code>byobRequest.view</code> internally before finishing its response.<br>For example, the source may transfer the BYOB view to a separate worker thread, and wait for the worker to transfer it back once it has been filled.</p>
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_ReadableStreamBYOBRequest_RespondWithNewView_CSharpToJavaScript_APIs_JS_Union199__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The new view must be a {{jsxref("TypedArray")}} or a {{jsxref("DataView")}} that provides a view onto the same backing memory region as <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStreamBYOBRequest.html#CSharpToJavaScript_APIs_JS_ReadableStreamBYOBRequest_View">View</a>.<br>After this method is called, the view that was passed into the method will be transferred and no longer modifiable.</p>
+<p>The method is intended for use cases where an underlying byte source needs to transfer a <code>byobRequest.view</code> internally before finishing its response.<br>For example, the source may transfer the BYOB view to a separate worker thread, and wait for the worker to transfer it back once it has been filled.</p>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Streams_API/Using_readable_byte_streams">Using readable byte stream</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStreamBYOBRequest/respondWithNewView"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStreamBYOBRequest/respondWithNewView">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -293,7 +311,7 @@ public class ReadableStreamBYOBRequest</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8759" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L19169" class="edit-link">Edit this page</a>
         </div>
 
 

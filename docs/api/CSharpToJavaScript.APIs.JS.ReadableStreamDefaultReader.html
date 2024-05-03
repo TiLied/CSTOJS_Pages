@@ -2,11 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class ReadableStreamDefaultReader
- | CSharpToJavaScript </title>
+      <title>Class ReadableStreamDefaultReader | CSharpToJavaScript </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class ReadableStreamDefaultReader
- | CSharpToJavaScript ">
+      <meta name="title" content="Class ReadableStreamDefaultReader | CSharpToJavaScript ">
       
       <meta name="description" content="The ReadableStreamDefaultReader interface of the Streams API represents a default reader that can be used to read stream data supplied from a network (such as a fetch request).">
       <link rel="icon" href="../favicon.ico">
@@ -31,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -91,8 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_ReadableStreamDefaultReader" data-uid="CSharpToJavaScript.APIs.JS.ReadableStreamDefaultReader" class="text-break">
-    Class ReadableStreamDefaultReader
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8694"><i class="bi bi-code-slash"></i></a>
+Class ReadableStreamDefaultReader  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L19098"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -122,7 +119,7 @@ public class ReadableStreamDefaultReader</code></pre>
 
 
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
     <div>
@@ -152,9 +149,14 @@ public class ReadableStreamDefaultReader</code></pre>
 
 
   <h2 id="CSharpToJavaScript_APIs_JS_ReadableStreamDefaultReader_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>A <code>ReadableStreamDefaultReader</code> can be used to read from a <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStream.html">ReadableStream</a> that has an underlying source of any type (unlike a <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStreamBYOBReader.html">ReadableStreamBYOBReader</a>, which can only be used with readable streams that have an <strong>underlying byte source</strong>).</p><p>Note however that zero-copy transfer from an underlying source is only supported for underlying byte sources that autoallocate buffers.<br>In other words, the stream must have been <a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStream/ReadableStream">constructed</a> specifying both <a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStream/ReadableStream#type"><code>type=&amp;quot;bytes&amp;quot;</code></a> and <a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStream/ReadableStream#autoallocatechunksize"><code>autoAllocateChunkSize</code></a>.<br>For any other underlying source, the stream will always satisfy read requests with data from internal queues.</p>
+  <div class="markdown level0 remarks"><p>A <code>ReadableStreamDefaultReader</code> can be used to read from a <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStream.html">ReadableStream</a> that has an underlying source of any type (unlike a <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStreamBYOBReader.html">ReadableStreamBYOBReader</a>, which can only be used with readable streams that have an <strong>underlying byte source</strong>).</p>
+<p>Note however that zero-copy transfer from an underlying source is only supported for underlying byte sources that autoallocate buffers.<br>In other words, the stream must have been <a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStream/ReadableStream">constructed</a> specifying both <a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStream/ReadableStream#type"><code>type=&amp;quot;bytes&amp;quot;</code></a> and <a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStream/ReadableStream#autoallocatechunksize"><code>autoAllocateChunkSize</code></a>.<br>For any other underlying source, the stream will always satisfy read requests with data from internal queues.</p>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Streams_API">Streams API concepts</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Streams_API/Using_readable_streams">Using readable streams</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStream.html">ReadableStream</a><br>-<a href="https://whatwg-stream-visualizer.glitch.me/">WHATWG Stream Visualizer</a>, for a basic visualization of readable, writable, and transform streams.<br>-<a href="https://github.com/MattiasBuelens/web-streams-polyfill">Web-streams-polyfill</a> or <a href="https://github.com/stardazed/sd-streams">sd-streams</a> - polyfills<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStreamDefaultReader"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStreamDefaultReader">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -166,7 +168,7 @@ public class ReadableStreamDefaultReader</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_ReadableStreamDefaultReader__ctor" data-uid="CSharpToJavaScript.APIs.JS.ReadableStreamDefaultReader.#ctor">
   ReadableStreamDefaultReader()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8703"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L19107"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -192,7 +194,7 @@ public class ReadableStreamDefaultReader</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_ReadableStreamDefaultReader__ctor_CSharpToJavaScript_APIs_JS_ReadableStream_" data-uid="CSharpToJavaScript.APIs.JS.ReadableStreamDefaultReader.#ctor(CSharpToJavaScript.APIs.JS.ReadableStream)">
   ReadableStreamDefaultReader(ReadableStream)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8698"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L19102"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>ReadableStreamDefaultReader()</code></strong><br>constructor creates and returns a <code>ReadableStreamDefaultReader</code> object<br>instance.</p>
@@ -206,7 +208,7 @@ public class ReadableStreamDefaultReader</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>stream</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStream.html">ReadableStream</a></dt>
-    <dd>The ReadableStreamDefaultReader interface of the Streams API represents a default reader that can be used to read stream data supplied from a network (such as a fetch request).</dd>
+    <dd></dd>
   </dl>
 
 
@@ -217,9 +219,17 @@ public class ReadableStreamDefaultReader</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_ReadableStreamDefaultReader__ctor_CSharpToJavaScript_APIs_JS_ReadableStream__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><blockquote class="NOTE"><h5>NOTE</h5><p><strong>Note:</strong> You generally wouldn&amp;apos;t use this constructor manually; instead,<br>you'd use the <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStream.html#CSharpToJavaScript_APIs_JS_ReadableStream_GetReader_CSharpToJavaScript_APIs_JS_ReadableStreamGetReaderOptions_">GetReader(ReadableStreamGetReaderOptions)</a> method.</p></blockquote>
+  <div class="markdown level1 remarks"><blockquote class="NOTE">
+  <h5>NOTE</h5>
+  <p>
+    <strong>Note:</strong> You generally wouldn&amp;apos;t use this constructor manually; instead,<br>you'd use the <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStream.html#CSharpToJavaScript_APIs_JS_ReadableStream_GetReader_CSharpToJavaScript_APIs_JS_ReadableStreamGetReaderOptions_">GetReader(ReadableStreamGetReaderOptions)</a> method.</p>
+</blockquote>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Streams_API">Streams API concepts</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Streams_API/Using_readable_streams">Using readable streams</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStream.html">ReadableStream</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStreamDefaultController.html">ReadableStreamDefaultController</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStreamDefaultReader/ReadableStreamDefaultReader"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStreamDefaultReader/ReadableStreamDefaultReader">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -233,7 +243,7 @@ public class ReadableStreamDefaultReader</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_ReadableStreamDefaultReader_Read" data-uid="CSharpToJavaScript.APIs.JS.ReadableStreamDefaultReader.Read">
   Read()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8700"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L19104"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>read()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStreamDefaultReader.html">ReadableStreamDefaultReader</a> interface returns a {{jsxref(&quot;Promise&quot;)}} providing access to the next chunk in the stream's internal queue.</p>
@@ -260,7 +270,11 @@ public class ReadableStreamDefaultReader</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_ReadableStreamDefaultReader_Read_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStreamDefaultReader.html#CSharpToJavaScript_APIs_JS_ReadableStreamDefaultReader__ctor_CSharpToJavaScript_APIs_JS_ReadableStream_">ReadableStreamDefaultReader(ReadableStream)</a> constructor<br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Streams_API/Using_readable_streams">Using readable streams</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStreamDefaultReader/read"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStreamDefaultReader/read">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -270,7 +284,7 @@ public class ReadableStreamDefaultReader</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_ReadableStreamDefaultReader_ReleaseLock" data-uid="CSharpToJavaScript.APIs.JS.ReadableStreamDefaultReader.ReleaseLock">
   ReleaseLock()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8702"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L19106"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>releaseLock()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStreamDefaultReader.html">ReadableStreamDefaultReader</a> interface releases the reader's lock on the stream.</p>
@@ -296,9 +310,14 @@ public class ReadableStreamDefaultReader</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_ReadableStreamDefaultReader_ReleaseLock_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>If the associated stream is errored when the lock is released, the reader will appear errored in that same way subsequently; otherwise, the reader will appear closed.</p><p>If the reader's lock is released while it still has pending read requests then the promises returned by the reader's <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStreamDefaultReader.html#CSharpToJavaScript_APIs_JS_ReadableStreamDefaultReader_Read">Read()</a> method are immediately rejected with a <code>TypeError</code>.<br>Unread chunks remain in the stream&amp;apos;s internal queue and can be read later by acquiring a new reader.</p>
+  <div class="markdown level1 remarks"><p>If the associated stream is errored when the lock is released, the reader will appear errored in that same way subsequently; otherwise, the reader will appear closed.</p>
+<p>If the reader's lock is released while it still has pending read requests then the promises returned by the reader's <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStreamDefaultReader.html#CSharpToJavaScript_APIs_JS_ReadableStreamDefaultReader_Read">Read()</a> method are immediately rejected with a <code>TypeError</code>.<br>Unread chunks remain in the stream&amp;apos;s internal queue and can be read later by acquiring a new reader.</p>
 <p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStreamDefaultReader.html#CSharpToJavaScript_APIs_JS_ReadableStreamDefaultReader__ctor_CSharpToJavaScript_APIs_JS_ReadableStream_">ReadableStreamDefaultReader(ReadableStream)</a> constructor<br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Streams_API/Using_readable_streams">Using readable streams</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStreamDefaultReader/releaseLock"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStreamDefaultReader/releaseLock">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -308,7 +327,7 @@ public class ReadableStreamDefaultReader</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8694" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L19098" class="edit-link">Edit this page</a>
         </div>
 
 

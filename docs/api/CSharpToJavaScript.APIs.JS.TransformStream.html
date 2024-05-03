@@ -2,13 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class TransformStream
- | CSharpToJavaScript </title>
+      <title>Class TransformStream | CSharpToJavaScript </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class TransformStream
- | CSharpToJavaScript ">
+      <meta name="title" content="Class TransformStream | CSharpToJavaScript ">
       
-      <meta name="description" content="The TransformStream interface of the Streams API represents a concrete implementation of the pipe chain transform stream concept.">
+      <meta name="description" content="The TransformStream interface of the Streams API represents a concrete implementation of the pipe chaintransform stream concept.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -31,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -91,8 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_TransformStream" data-uid="CSharpToJavaScript.APIs.JS.TransformStream" class="text-break">
-    Class TransformStream
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8851"><i class="bi bi-code-slash"></i></a>
+Class TransformStream  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L19261"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -100,7 +97,7 @@
   <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>The <strong><code>TransformStream</code></strong> interface of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Streams_API">Streams API</a> represents a concrete implementation of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Streams_API/Concepts#pipe_chains">pipe chain</a> <strong>transform stream</strong> concept.</p>
+  <div class="markdown summary"><p>The <strong><code>TransformStream</code></strong> interface of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Streams_API">Streams API</a> represents a concrete implementation of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Streams_API/Concepts#pipe_chains">pipe chain</a><strong>transform stream</strong> concept.</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -122,7 +119,7 @@ public class TransformStream</code></pre>
 
 
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
     <div>
@@ -152,9 +149,16 @@ public class TransformStream</code></pre>
 
 
   <h2 id="CSharpToJavaScript_APIs_JS_TransformStream_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>It may be passed to the <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStream.html#CSharpToJavaScript_APIs_JS_ReadableStream_PipeThrough_CSharpToJavaScript_APIs_JS_ReadableWritablePair_CSharpToJavaScript_APIs_JS_StreamPipeOptions_">PipeThrough(ReadableWritablePair, StreamPipeOptions)</a> method in order to transform a stream of data from one format into another.<br>For example, it might be used to decode (or encode) video frames, decompress data, or convert the stream from XML to JSON.</p><p>A transformation algorithm may be provided as an optional argument to the object constructor.<br>If not supplied, data is not modified when piped through the stream.</p><p><code>TransformStream</code> is a <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Transferable_objects">transferable object</a>.</p>
-<p>-<a href="https://whatwg-stream-visualizer.glitch.me/">WHATWG Stream Visualizer</a>, for a basic visualization of readable, writable, and transform streams.<br>-<a href="https://web.dev/streams/">Streams—The Definitive Guide</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/TransformStream"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level0 remarks"><p>It may be passed to the <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStream.html#CSharpToJavaScript_APIs_JS_ReadableStream_PipeThrough_CSharpToJavaScript_APIs_JS_ReadableWritablePair_CSharpToJavaScript_APIs_JS_StreamPipeOptions_">PipeThrough(ReadableWritablePair, StreamPipeOptions)</a> method in order to transform a stream of data from one format into another.<br>For example, it might be used to decode (or encode) video frames, decompress data, or convert the stream from XML to JSON.</p>
+<p>A transformation algorithm may be provided as an optional argument to the object constructor.<br>If not supplied, data is not modified when piped through the stream.</p>
+<p>
+  <code>TransformStream</code> is a <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Transferable_objects">transferable object</a>.</p>
+<p>-<a href="https://whatwg-stream-visualizer.glitch.me/">WHATWG Stream Visualizer</a>, for a basic visualization of readable, writable, and transform streams.<br>-<a href="https://web.dev/articles/streams">Streams—The Definitive Guide</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/TransformStream">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -166,7 +170,7 @@ public class TransformStream</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_TransformStream__ctor" data-uid="CSharpToJavaScript.APIs.JS.TransformStream.#ctor">
   TransformStream()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8860"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L19270"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -192,7 +196,7 @@ public class TransformStream</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_TransformStream__ctor_System_Object_CSharpToJavaScript_APIs_JS_QueuingStrategy_CSharpToJavaScript_APIs_JS_QueuingStrategy_" data-uid="CSharpToJavaScript.APIs.JS.TransformStream.#ctor(System.Object,CSharpToJavaScript.APIs.JS.QueuingStrategy,CSharpToJavaScript.APIs.JS.QueuingStrategy)">
   TransformStream(object, QueuingStrategy, QueuingStrategy)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8855"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L19265"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>TransformStream()</code></strong> constructor creates a new <a class="xref" href="CSharpToJavaScript.APIs.JS.TransformStream.html">TransformStream</a> object which represents a pair of streams: a <a class="xref" href="CSharpToJavaScript.APIs.JS.WritableStream.html">WritableStream</a> representing the writable side, and a <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStream.html">ReadableStream</a> representing the readable side.</p>
@@ -206,11 +210,11 @@ public class TransformStream</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>transformer</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
-    <dd>The TransformStream interface of the Streams API represents a concrete implementation of the pipe chain transform stream concept.</dd>
+    <dd></dd>
     <dt><code>writableStrategy</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.QueuingStrategy.html">QueuingStrategy</a></dt>
-    <dd>The TransformStream interface of the Streams API represents a concrete implementation of the pipe chain transform stream concept.</dd>
+    <dd></dd>
     <dt><code>readableStrategy</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.QueuingStrategy.html">QueuingStrategy</a></dt>
-    <dd>The TransformStream interface of the Streams API represents a concrete implementation of the pipe chain transform stream concept.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -221,7 +225,11 @@ public class TransformStream</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_TransformStream__ctor_System_Object_CSharpToJavaScript_APIs_JS_QueuingStrategy_CSharpToJavaScript_APIs_JS_QueuingStrategy__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p><a href="https://developer.mozilla.org/en-US/docs/Web/API/TransformStream/TransformStream"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/TransformStream/TransformStream">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -235,7 +243,7 @@ public class TransformStream</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_TransformStream_Readable" data-uid="CSharpToJavaScript.APIs.JS.TransformStream.Readable">
   Readable
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8857"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L19267"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>readable</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.TransformStream.html">TransformStream</a> interface returns the <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStream.html">ReadableStream</a> instance controlled by this <code>TransformStream</code>.</p>
@@ -261,7 +269,11 @@ public class TransformStream</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_TransformStream_Readable_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p><a href="https://developer.mozilla.org/en-US/docs/Web/API/TransformStream/readable"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/TransformStream/readable">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -271,7 +283,7 @@ public class TransformStream</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_TransformStream_Writable" data-uid="CSharpToJavaScript.APIs.JS.TransformStream.Writable">
   Writable
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8859"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L19269"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>writable</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.TransformStream.html">TransformStream</a> interface returns the <a class="xref" href="CSharpToJavaScript.APIs.JS.WritableStream.html">WritableStream</a> instance controlled by this <code>TransformStream</code>.</p>
@@ -297,7 +309,11 @@ public class TransformStream</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_TransformStream_Writable_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p><a href="https://developer.mozilla.org/en-US/docs/Web/API/TransformStream/writable"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/TransformStream/writable">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -307,7 +323,7 @@ public class TransformStream</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8851" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L19261" class="edit-link">Edit this page</a>
         </div>
 
 

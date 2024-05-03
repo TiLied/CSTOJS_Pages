@@ -2,13 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class RTCDataChannel
- | CSharpToJavaScript </title>
+      <title>Class RTCDataChannel | CSharpToJavaScript </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class RTCDataChannel
- | CSharpToJavaScript ">
+      <meta name="title" content="Class RTCDataChannel | CSharpToJavaScript ">
       
-      <meta name="description" content="The RTCDataChannel interface represents a network channel which can be used for bidirectional peer-to-peer transfers of arbitrary data. Every data channel is associated with an RTCPeerConnection, and each peer connection can have up to a theoretical maximum of 65,534 data channels (the actual limit may vary from browser to browser).">
+      <meta name="description" content="The RTCDataChannel interface represents a network channel which can be used for bidirectional peer-to-peer transfers of arbitrary data. Every data channel is associated with an , and each peer connection can have up to a theoretical maximum of 65,534 data channels (the actual limit may vary from browser to browser).">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -31,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -91,8 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_RTCDataChannel" data-uid="CSharpToJavaScript.APIs.JS.RTCDataChannel" class="text-break">
-    Class RTCDataChannel
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16363"><i class="bi bi-code-slash"></i></a>
+Class RTCDataChannel  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31339"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -100,13 +97,13 @@
   <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>The <strong><code>RTCDataChannel</code></strong> interface represents a network channel which can be used for bidirectional peer-to-peer transfers of arbitrary data. Every data channel is associated with an RTCPeerConnection, and each peer connection can have up to a theoretical maximum of 65,534 data channels (the actual limit may vary from browser to browser).</p>
+  <div class="markdown summary"><p>The <strong><code>RTCDataChannel</code></strong> interface represents a network channel which can be used for bidirectional peer-to-peer transfers of arbitrary data. Every data channel is associated with an <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCPeerConnection.html">RTCPeerConnection</a>, and each peer connection can have up to a theoretical maximum of 65,534 data channels (the actual limit may vary from browser to browser).</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
-public class RTCDataChannel</code></pre>
+public class RTCDataChannel : EventTarget</code></pre>
   </div>
 
 
@@ -116,15 +113,37 @@ public class RTCDataChannel</code></pre>
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html">EventTarget</a></div>
       <div><span class="xref">RTCDataChannel</span></div>
     </dd>
   </dl>
 
 
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union27_">EventTarget.AddEventListener(string, Action, Union27)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_MouseEvent__CSharpToJavaScript_APIs_JS_Union27_">EventTarget.AddEventListener(string, Action&lt;MouseEvent&gt;, Union27)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Event__CSharpToJavaScript_APIs_JS_Union27_">EventTarget.AddEventListener(string, Action&lt;Event&gt;, Union27)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_RemoveEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union28_">EventTarget.RemoveEventListener(string, Action, Union28)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_CSharpToJavaScript_APIs_JS_EventListener_CSharpToJavaScript_APIs_JS_Union27_">EventTarget.AddEventListener(string, EventListener, Union27)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_RemoveEventListener_System_String_CSharpToJavaScript_APIs_JS_EventListener_CSharpToJavaScript_APIs_JS_Union28_">EventTarget.RemoveEventListener(string, EventListener, Union28)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_DispatchEvent_CSharpToJavaScript_APIs_JS_Event_">EventTarget.DispatchEvent(Event)</a>
+    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -152,9 +171,16 @@ public class RTCDataChannel</code></pre>
 
 
   <h2 id="CSharpToJavaScript_APIs_JS_RTCDataChannel_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>To create a data channel and ask a remote peer to join you, call the RTCPeerConnection's RTCPeerConnection.CreateDataChannel method. The peer being invited to exchange data receives a RTCPeerConnection.Datachannel_event event (which has type RTCDataChannelEvent) to let it know the data channel has been added to the connection.</p><p><code>RTCDataChannel</code> is a <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Transferable_objects">transferable object</a>.</p><p></p>
+  <div class="markdown level0 remarks"><p>To create a data channel and ask a remote peer to join you, call the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCPeerConnection.html">RTCPeerConnection</a>'s <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCPeerConnection.html#CSharpToJavaScript_APIs_JS_RTCPeerConnection_CreateDataChannel_System_String_CSharpToJavaScript_APIs_JS_RTCDataChannelInit_">CreateDataChannel(string, RTCDataChannelInit)</a> method. The peer being invited to exchange data receives a RTCPeerConnection.Datachannel_event event (which has type <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCDataChannelEvent.html">RTCDataChannelEvent</a>) to let it know the data channel has been added to the connection.</p>
+<p>
+  <code>RTCDataChannel</code> is a <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Transferable_objects">transferable object</a>.</p>
+<p></p>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API">WebRTC API</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCDataChannel"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCDataChannel">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -162,11 +188,590 @@ public class RTCDataChannel</code></pre>
 </h2>
 
 
+  <a id="CSharpToJavaScript_APIs_JS_RTCDataChannel_BinaryType_" data-uid="CSharpToJavaScript.APIs.JS.RTCDataChannel.BinaryType*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCDataChannel_BinaryType" data-uid="CSharpToJavaScript.APIs.JS.RTCDataChannel.BinaryType">
+  BinaryType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31370"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The property <strong><code>binaryType</code></strong> on the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCDataChannel.html">RTCDataChannel</a> interface is a string which specifies<br>the type of object which should be used to represent binary data received<br>on the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCDataChannel.html">RTCDataChannel</a>. Values allowed by the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.WebSocket.html#CSharpToJavaScript_APIs_JS_WebSocket_BinaryType">BinaryType</a> property are also permitted here:<br><code>blob</code> if <a class="xref" href="CSharpToJavaScript.APIs.JS.Blob.html">Blob</a> objects are being used or<br><code>arraybuffer</code> if ArrayBuffer objects are being used. The<br>default is <code>blob</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BinaryType BinaryType { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.BinaryType.html">BinaryType</a></dt>
+    <dd><p>A string that can have one of these values:</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCDataChannel_BinaryType_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>When a binary message is received on the data channel, the resulting<br>RTCDataChannel.Message_event event's <a class="xref" href="CSharpToJavaScript.APIs.JS.MessageEvent.html#CSharpToJavaScript_APIs_JS_MessageEvent_Data">Data</a> property is an object of<br>the type specified by the <code>binaryType</code>.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API">WebRTC</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API/Using_data_channels">Using WebRTC data channels</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.RTCDataChannel.html">RTCDataChannel</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.RTCDataChannel.html#CSharpToJavaScript_APIs_JS_RTCDataChannel_Send_System_String_">Send(string)</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCDataChannel/binaryType">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_RTCDataChannel_BufferedAmount_" data-uid="CSharpToJavaScript.APIs.JS.RTCDataChannel.BufferedAmount*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCDataChannel_BufferedAmount" data-uid="CSharpToJavaScript.APIs.JS.RTCDataChannel.BufferedAmount">
+  BufferedAmount
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31358"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The read-only <code>RTCDataChannel</code> property<br><strong><code>bufferedAmount</code></strong> returns the number of bytes of data<br>currently queued to be sent over the data channel. The queue may build up as a<br>result of calls to the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCDataChannel.html#CSharpToJavaScript_APIs_JS_RTCDataChannel_Send_System_String_">Send(string)</a> method. This only<br>includes data buffered by the user agent itself; it doesn&amp;apos;t include any framing overhead<br>or buffering done by the operating system or network hardware.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong BufferedAmount { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd><p>The number of bytes of data currently queued to be sent over the data channel but have<br>not yet been sent.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCDataChannel_BufferedAmount_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The user agent may implement the process of actually sending data in any way it<br>chooses; this may be done periodically during the event loop or truly asynchronously. As<br>messages are actually sent, this value is reduced accordingly.</p>
+<blockquote class="NOTE">
+  <h5>NOTE</h5>
+  <p>
+    <strong>Note:</strong> Closing the data channel doesn&amp;apos;t reset this count, even though the user agent purges<br>the queued messages. However, even after closing the channel, attempts to send<br>messages continue to add to the <code>bufferedAmount</code> value, even though the<br>messages are neither sent nor buffered.</p>
+</blockquote>
+<p>Whenever this value decreases to fall to or below the value specified in the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCDataChannel.html#CSharpToJavaScript_APIs_JS_RTCDataChannel_BufferedAmountLowThreshold">BufferedAmountLowThreshold</a><br>property, the user agent fires the RTCDataChannel.Bufferedamountlow_event event. This event may<br>be used, for example, to implement code which queues more messages to be sent whenever<br>there&amp;apos;s room to buffer them.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API">WebRTC</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API/Using_data_channels">Using WebRTC data channels</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.RTCDataChannel.html">RTCDataChannel</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.RTCDataChannel.html#CSharpToJavaScript_APIs_JS_RTCDataChannel_BufferedAmountLowThreshold">BufferedAmountLowThreshold</a><br>-RTCDataChannel.Bufferedamountlow_event event<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCDataChannel/bufferedAmount">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_RTCDataChannel_BufferedAmountLowThreshold_" data-uid="CSharpToJavaScript.APIs.JS.RTCDataChannel.BufferedAmountLowThreshold*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCDataChannel_BufferedAmountLowThreshold" data-uid="CSharpToJavaScript.APIs.JS.RTCDataChannel.BufferedAmountLowThreshold">
+  BufferedAmountLowThreshold
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31360"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <code>RTCDataChannel</code> property<br><strong><code>bufferedAmountLowThreshold</code></strong> is used to specify the number<br>of bytes of buffered outgoing data that is considered &amp;quot;low.&amp;quot; The default value is<br>0. When the number of buffered outgoing bytes, as indicated by the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCDataChannel.html#CSharpToJavaScript_APIs_JS_RTCDataChannel_BufferedAmount">BufferedAmount</a> property, falls to or<br>below this value, a RTCDataChannel.Bufferedamountlow_event event is fired. This event may be<br>used, for example, to implement code which queues more messages to be sent whenever<br>there&amp;apos;s room to buffer them. Listeners may be added with<br>RTCDataChannel.Bufferedamountlow_event or<br><a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union27_">AddEventListener(string, Action?, Union27)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong BufferedAmountLowThreshold { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd><p>The number of queued outgoing data bytes below which the buffer is considered to be<br>&amp;quot;low.&amp;quot;</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCDataChannel_BufferedAmountLowThreshold_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The user agent may implement the process of actually sending data in any way it<br>chooses; this may be done periodically during the event loop or truly asynchronously. As<br>messages are actually sent, this value is reduced accordingly.</p>
+<blockquote class="NOTE">
+  <h5>NOTE</h5>
+  <p>
+    <strong>Note:</strong>
+    <code>bufferedamountlow</code> events are not fired after the data channel is closed.</p>
+</blockquote>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API">WebRTC</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API/Using_data_channels">Using WebRTC data channels</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.RTCDataChannel.html">RTCDataChannel</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.RTCDataChannel.html#CSharpToJavaScript_APIs_JS_RTCDataChannel_BufferedAmount">BufferedAmount</a><br>-RTCDataChannel.Bufferedamountlow_event event<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCDataChannel/bufferedAmountLowThreshold">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_RTCDataChannel_Id_" data-uid="CSharpToJavaScript.APIs.JS.RTCDataChannel.Id*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCDataChannel_Id" data-uid="CSharpToJavaScript.APIs.JS.RTCDataChannel.Id">
+  Id
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31354"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The read-only <code>RTCDataChannel</code> property<br><strong><code>id</code></strong> returns an ID number (between 0 and 65,534) which<br>uniquely identifies the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCDataChannel.html">RTCDataChannel</a>. This ID is set at the<br>time the data channel is created, either by the user agent (if<br><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCDataChannel.html#CSharpToJavaScript_APIs_JS_RTCDataChannel_Negotiated">Negotiated</a> is <code>false</code>) or by the site or app<br>script (if <code>negotiated</code> is <code>true</code>).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort? Id { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a>?</dt>
+    <dd><p>An <code>unsigned short</code> value (that is, an integer between 0 and 65,535) which<br>uniquely identifies the data channel.While the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCDataChannel.html#CSharpToJavaScript_APIs_JS_RTCDataChannel_Label">Label</a> property doesn't have to be<br>unique, this ID number is guaranteed to be unique among all data channels. Additionally,<br>known implementations of WebRTC use the same ID on both peers. A unique ID makes it<br>easier for your code to do its own out-of-band data channel-related signaling.This can be also useful for logging and debugging purposes.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCDataChannel_Id_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Each <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCPeerConnection.html">RTCPeerConnection</a> can therefore have up to a theoretical maximum of<br>65,534 data channels on it, although the actual maximum may vary from browser to<br>browser.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API">WebRTC</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.RTCDataChannel.html">RTCDataChannel</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.RTCPeerConnection.html#CSharpToJavaScript_APIs_JS_RTCPeerConnection_CreateDataChannel_System_String_CSharpToJavaScript_APIs_JS_RTCDataChannelInit_">CreateDataChannel(string, RTCDataChannelInit)</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCDataChannel/id">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_RTCDataChannel_Label_" data-uid="CSharpToJavaScript.APIs.JS.RTCDataChannel.Label*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCDataChannel_Label" data-uid="CSharpToJavaScript.APIs.JS.RTCDataChannel.Label">
+  Label
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31342"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The read-only <code>RTCDataChannel</code> property <strong><code>label</code></strong><br>returns a string containing a name describing the data channel. These<br>labels are not required to be unique.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Label { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A string identifier assigned by the website or app when the data channel was created,<br>as specified when <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCPeerConnection.html#CSharpToJavaScript_APIs_JS_RTCPeerConnection_CreateDataChannel_System_String_CSharpToJavaScript_APIs_JS_RTCDataChannelInit_">CreateDataChannel(string, RTCDataChannelInit)</a> was called to<br>create the channel.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCDataChannel_Label_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>You may use the label as you wish; you could use it to identify all the channels that<br>are being used for the same purpose, by giving them all the same name. Or you could give<br>each channel a unique label for tracking purposes. It&amp;apos;s entirely up to the design<br>decisions made when building your site or app.</p>
+<p>A unique ID can be found in the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCDataChannel.html#CSharpToJavaScript_APIs_JS_RTCDataChannel_Id">Id</a> property.</p>
+<blockquote class="NOTE">
+  <h5>NOTE</h5>
+  <p>
+    <strong>Note:</strong> A data channel&amp;apos;s label is set when the channel is created by calling<br><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCPeerConnection.html#CSharpToJavaScript_APIs_JS_RTCPeerConnection_CreateDataChannel_System_String_CSharpToJavaScript_APIs_JS_RTCDataChannelInit_">CreateDataChannel(string, RTCDataChannelInit)</a>. It cannot be changed after that.</p>
+</blockquote>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API">WebRTC</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.RTCDataChannel.html">RTCDataChannel</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.RTCDataChannel.html#CSharpToJavaScript_APIs_JS_RTCDataChannel_Id">Id</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.RTCPeerConnection.html#CSharpToJavaScript_APIs_JS_RTCPeerConnection_CreateDataChannel_System_String_CSharpToJavaScript_APIs_JS_RTCDataChannelInit_">CreateDataChannel(string, RTCDataChannelInit)</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCDataChannel/label">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_RTCDataChannel_MaxPacketLifeTime_" data-uid="CSharpToJavaScript.APIs.JS.RTCDataChannel.MaxPacketLifeTime*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCDataChannel_MaxPacketLifeTime" data-uid="CSharpToJavaScript.APIs.JS.RTCDataChannel.MaxPacketLifeTime">
+  MaxPacketLifeTime
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31346"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The read-only <code>RTCDataChannel</code> property<br><strong><code>maxPacketLifeTime</code></strong> returns the amount of time, in<br>milliseconds, the browser is allowed to take to attempt to transmit a message, as set<br>when the data channel was created, or <code>null</code>. This limits how long<br>the browser can continue to attempt to transmit and retransmit the message before giving<br>up.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort? MaxPacketLifeTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a>?</dt>
+    <dd><p>The number of milliseconds over which the browser may continue to attempt to transmit<br>the message until it either succeeds or gives up. If not set when<br><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCPeerConnection.html#CSharpToJavaScript_APIs_JS_RTCPeerConnection_CreateDataChannel_System_String_CSharpToJavaScript_APIs_JS_RTCDataChannelInit_">CreateDataChannel(string, RTCDataChannelInit)</a> was called to create the data<br>channel, this value is <code>null</code>.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCDataChannel_MaxPacketLifeTime_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API">WebRTC</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.RTCDataChannel.html">RTCDataChannel</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.RTCDataChannel.html#CSharpToJavaScript_APIs_JS_RTCDataChannel_MaxRetransmits">MaxRetransmits</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.RTCPeerConnection.html#CSharpToJavaScript_APIs_JS_RTCPeerConnection_CreateDataChannel_System_String_CSharpToJavaScript_APIs_JS_RTCDataChannelInit_">CreateDataChannel(string, RTCDataChannelInit)</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCDataChannel/maxPacketLifeTime">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_RTCDataChannel_MaxRetransmits_" data-uid="CSharpToJavaScript.APIs.JS.RTCDataChannel.MaxRetransmits*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCDataChannel_MaxRetransmits" data-uid="CSharpToJavaScript.APIs.JS.RTCDataChannel.MaxRetransmits">
+  MaxRetransmits
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31348"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The read-only <code>RTCDataChannel</code> property<br><strong><code>maxRetransmits</code></strong> returns the maximum number of times the<br>browser should try to retransmit a message before giving up, as set when the data<br>channel was created, or <code>null</code>, which indicates that there is no<br>maximum. This can only be set when the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCDataChannel.html">RTCDataChannel</a> is created<br>by calling <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCPeerConnection.html#CSharpToJavaScript_APIs_JS_RTCPeerConnection_CreateDataChannel_System_String_CSharpToJavaScript_APIs_JS_RTCDataChannelInit_">CreateDataChannel(string, RTCDataChannelInit)</a>, using the<br><code>maxRetransmits</code> field in the specified <code>options</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort? MaxRetransmits { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a>?</dt>
+    <dd><p>The maximum number of times the browser will try to retransmit a message before giving<br>up, or <code>null</code> if not set when<br><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCPeerConnection.html#CSharpToJavaScript_APIs_JS_RTCPeerConnection_CreateDataChannel_System_String_CSharpToJavaScript_APIs_JS_RTCDataChannelInit_">CreateDataChannel(string, RTCDataChannelInit)</a> was called. The default is<br><code>null</code>.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCDataChannel_MaxRetransmits_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API">WebRTC</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.RTCDataChannel.html">RTCDataChannel</a><br>-RTCDataChannel.MaxPacketLifetime<br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.RTCPeerConnection.html#CSharpToJavaScript_APIs_JS_RTCPeerConnection_CreateDataChannel_System_String_CSharpToJavaScript_APIs_JS_RTCDataChannelInit_">CreateDataChannel(string, RTCDataChannelInit)</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCDataChannel/maxRetransmits">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_RTCDataChannel_Negotiated_" data-uid="CSharpToJavaScript.APIs.JS.RTCDataChannel.Negotiated*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCDataChannel_Negotiated" data-uid="CSharpToJavaScript.APIs.JS.RTCDataChannel.Negotiated">
+  Negotiated
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31352"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The read-only <code>RTCDataChannel</code> property<br><strong><code>negotiated</code></strong> indicates whether the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCDataChannel.html">RTCDataChannel</a>'s connection was negotiated by the Web app<br>(<code>true</code>) or by the WebRTC layer (<code>false</code>). <strong>The</strong><strong><br></strong><strong>default is </strong><strong><code>false</code></strong><strong>.</strong></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Negotiated { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p><code>true</code> if the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCDataChannel.html">RTCDataChannel</a>'s connection was negotiated by<br>the Web app itself; <code>false</code> if the negotiation was handled by the WebRTC<br>layer. The default is <code>false</code>.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCDataChannel_Negotiated_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>See <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API/Using_data_channels#creating_a_data_channel">Creating a data channel</a> for further information about this property.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API">WebRTC</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API/Using_data_channels">Using WebRTC data channels</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.RTCDataChannel.html">RTCDataChannel</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.RTCPeerConnection.html#CSharpToJavaScript_APIs_JS_RTCPeerConnection_CreateDataChannel_System_String_CSharpToJavaScript_APIs_JS_RTCDataChannelInit_">CreateDataChannel(string, RTCDataChannelInit)</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCDataChannel/negotiated">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_RTCDataChannel_Onbufferedamountlow_" data-uid="CSharpToJavaScript.APIs.JS.RTCDataChannel.Onbufferedamountlow*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCDataChannel_Onbufferedamountlow" data-uid="CSharpToJavaScript.APIs.JS.RTCDataChannel.Onbufferedamountlow">
+  Onbufferedamountlow
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31362"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EventHandlerNonNull Onbufferedamountlow { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.EventHandlerNonNull.html">EventHandlerNonNull</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_RTCDataChannel_Onclose_" data-uid="CSharpToJavaScript.APIs.JS.RTCDataChannel.Onclose*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCDataChannel_Onclose" data-uid="CSharpToJavaScript.APIs.JS.RTCDataChannel.Onclose">
+  Onclose
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31365"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EventHandlerNonNull Onclose { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.EventHandlerNonNull.html">EventHandlerNonNull</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_RTCDataChannel_Onclosing_" data-uid="CSharpToJavaScript.APIs.JS.RTCDataChannel.Onclosing*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCDataChannel_Onclosing" data-uid="CSharpToJavaScript.APIs.JS.RTCDataChannel.Onclosing">
+  Onclosing
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31364"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EventHandlerNonNull Onclosing { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.EventHandlerNonNull.html">EventHandlerNonNull</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_RTCDataChannel_Onerror_" data-uid="CSharpToJavaScript.APIs.JS.RTCDataChannel.Onerror*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCDataChannel_Onerror" data-uid="CSharpToJavaScript.APIs.JS.RTCDataChannel.Onerror">
+  Onerror
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31363"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EventHandlerNonNull Onerror { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.EventHandlerNonNull.html">EventHandlerNonNull</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_RTCDataChannel_Onmessage_" data-uid="CSharpToJavaScript.APIs.JS.RTCDataChannel.Onmessage*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCDataChannel_Onmessage" data-uid="CSharpToJavaScript.APIs.JS.RTCDataChannel.Onmessage">
+  Onmessage
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31368"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EventHandlerNonNull Onmessage { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.EventHandlerNonNull.html">EventHandlerNonNull</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_RTCDataChannel_Onopen_" data-uid="CSharpToJavaScript.APIs.JS.RTCDataChannel.Onopen*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCDataChannel_Onopen" data-uid="CSharpToJavaScript.APIs.JS.RTCDataChannel.Onopen">
+  Onopen
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31361"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EventHandlerNonNull Onopen { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.EventHandlerNonNull.html">EventHandlerNonNull</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_RTCDataChannel_Ordered_" data-uid="CSharpToJavaScript.APIs.JS.RTCDataChannel.Ordered*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCDataChannel_Ordered" data-uid="CSharpToJavaScript.APIs.JS.RTCDataChannel.Ordered">
+  Ordered
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31344"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The read-only <code>RTCDataChannel</code> property <strong><code>ordered</code></strong> indicates<br>whether or not the data channel guarantees in-order delivery of messages;<br>the default is <code>true</code>,<br>which indicates that the data channel is indeed ordered.<br>This is set when the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCDataChannel.html">RTCDataChannel</a> is created,<br>by setting the <code>ordered</code> property<br>on the object passed as <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCPeerConnection.html#CSharpToJavaScript_APIs_JS_RTCPeerConnection_CreateDataChannel_System_String_CSharpToJavaScript_APIs_JS_RTCDataChannelInit_">CreateDataChannel(string, RTCDataChannelInit)</a>'s <code>options</code> parameter.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Ordered { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A boolean value which is <code>true</code> if in-order delivery is<br>guaranteed and is otherwise <code>false</code>.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCDataChannel_Ordered_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API">WebRTC</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.RTCDataChannel.html">RTCDataChannel</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.RTCPeerConnection.html#CSharpToJavaScript_APIs_JS_RTCPeerConnection_CreateDataChannel_System_String_CSharpToJavaScript_APIs_JS_RTCDataChannelInit_">CreateDataChannel(string, RTCDataChannelInit)</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCDataChannel/ordered">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
   <a id="CSharpToJavaScript_APIs_JS_RTCDataChannel_Priority_" data-uid="CSharpToJavaScript.APIs.JS.RTCDataChannel.Priority*"></a>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCDataChannel_Priority" data-uid="CSharpToJavaScript.APIs.JS.RTCDataChannel.Priority">
   Priority
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16366"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30085"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -183,7 +788,7 @@ public class RTCDataChannel</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCPriorityType.html">RTCPriorityType</a></dt>
-    <dd>The RTCDataChannel interface represents a network channel which can be used for bidirectional peer-to-peer transfers of arbitrary data. Every data channel is associated with an RTCPeerConnection, and each peer connection can have up to a theoretical maximum of 65,534 data channels (the actual limit may vary from browser to browser).</dd>
+    <dd></dd>
   </dl>
 
 
@@ -193,11 +798,350 @@ public class RTCDataChannel</code></pre>
 
 
 
+  <a id="CSharpToJavaScript_APIs_JS_RTCDataChannel_Protocol_" data-uid="CSharpToJavaScript.APIs.JS.RTCDataChannel.Protocol*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCDataChannel_Protocol" data-uid="CSharpToJavaScript.APIs.JS.RTCDataChannel.Protocol">
+  Protocol
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31350"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The read-only <code>RTCDataChannel</code> property<br><strong><code>protocol</code></strong> returns a string containing the<br>name of the subprotocol in use. If no protocol was specified when the data channel was<br>created, then this property&amp;apos;s value is the empty string (<code>&amp;quot;&amp;quot;</code>).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Protocol { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A string identifying the app-defined subprotocol being used for exchanging data on the<br>channel. If none has been established, this is an empty string (&amp;quot;&amp;quot;).</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCDataChannel_Protocol_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><blockquote class="NOTE">
+  <h5>NOTE</h5>
+  <p>
+    <strong>Note:</strong> The permitted values of this property are defined by the website or app using the<br>data channel.</p>
+</blockquote>
+<p>The ability for each channel to have a defined subprotocol lets your app, for example,<br>use JSON objects as messages on one channel while another channel is plaintext and<br>another is raw binary or even some other format.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API">WebRTC</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.RTCDataChannel.html">RTCDataChannel</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.RTCPeerConnection.html#CSharpToJavaScript_APIs_JS_RTCPeerConnection_CreateDataChannel_System_String_CSharpToJavaScript_APIs_JS_RTCDataChannelInit_">CreateDataChannel(string, RTCDataChannelInit)</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCDataChannel/protocol">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_RTCDataChannel_ReadyState_" data-uid="CSharpToJavaScript.APIs.JS.RTCDataChannel.ReadyState*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCDataChannel_ReadyState" data-uid="CSharpToJavaScript.APIs.JS.RTCDataChannel.ReadyState">
+  ReadyState
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31356"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The read-only <code>RTCDataChannel</code> property <strong><code>readyState</code></strong> returns a string which indicates the state of the data channel&amp;apos;s underlying data connection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RTCDataChannelState ReadyState { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCDataChannelState.html">RTCDataChannelState</a></dt>
+    <dd><p>A string indicating the current state of the underlying data transport, which is one of the following values:</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCDataChannel_ReadyState_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API">WebRTC</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API/Using_data_channels">Using WebRTC data channels</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.RTCDataChannel.html">RTCDataChannel</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.RTCPeerConnection.html#CSharpToJavaScript_APIs_JS_RTCPeerConnection_CreateDataChannel_System_String_CSharpToJavaScript_APIs_JS_RTCDataChannelInit_">CreateDataChannel(string, RTCDataChannelInit)</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCDataChannel/readyState">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_RTCDataChannel_Close_" data-uid="CSharpToJavaScript.APIs.JS.RTCDataChannel.Close*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCDataChannel_Close" data-uid="CSharpToJavaScript.APIs.JS.RTCDataChannel.Close">
+  Close()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31367"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>RTCDataChannel.close()</code></strong> method closes the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCDataChannel.html">RTCDataChannel</a>. Either peer is permitted to call this method to initiate<br>closure of the channel.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined Close()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).<code>undefined</code>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCDataChannel_Close_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Closure of the data channel is not instantaneous. Most of the process of closing the<br>connection is handled asynchronously; you can detect when the channel has finished<br>closing by watching for a RTCDataChannel.Close_event event on the data channel.</p>
+<p>The sequence of events which occurs in response to this method being called:</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API">WebRTC</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.RTCDataChannel.html">RTCDataChannel</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.RTCDataChannel.html#CSharpToJavaScript_APIs_JS_RTCDataChannel_ReadyState">ReadyState</a><br>-RTCDataChannel.Close_event event<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCDataChannel/close">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_RTCDataChannel_Send_" data-uid="CSharpToJavaScript.APIs.JS.RTCDataChannel.Send*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCDataChannel_Send_CSharpToJavaScript_APIs_JS_Blob_" data-uid="CSharpToJavaScript.APIs.JS.RTCDataChannel.Send(CSharpToJavaScript.APIs.JS.Blob)">
+  Send(Blob)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31374"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>send()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCDataChannel.html">RTCDataChannel</a> interface sends data across the data channel to the<br>remote peer.<br>This can be done any time except during the initial process of<br>creating the underlying transport channel. Data sent before connecting is buffered if<br>possible (or an error occurs if it&amp;apos;s not possible), and is also buffered if sent while<br>the connection is closing or closed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined Send(Blob data)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>data</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Blob.html">Blob</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCDataChannel_Send_CSharpToJavaScript_APIs_JS_Blob__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><blockquote class="NOTE">
+  <h5>NOTE</h5>
+  <p>
+    <strong>Note:</strong> Different browsers have different limitations on the size of the message you can<br>send. Specifications exist to define how to automatically fragment large messages, but<br>not all browsers implement them, and those that do have various additional<br>restrictions. This will get less complicated over time, but for now, if you have<br>questions, see <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API/Using_data_channels#understanding_message_size_limits">Understanding message size limits</a>.</p>
+</blockquote>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API">WebRTC</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.RTCDataChannel.html">RTCDataChannel</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.RTCDataChannel.html#CSharpToJavaScript_APIs_JS_RTCDataChannel_ReadyState">ReadyState</a><br>-RTCDataChannel.Close_event event<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCDataChannel/send">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_RTCDataChannel_Send_" data-uid="CSharpToJavaScript.APIs.JS.RTCDataChannel.Send*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCDataChannel_Send_CSharpToJavaScript_APIs_JS_Union199_" data-uid="CSharpToJavaScript.APIs.JS.RTCDataChannel.Send(CSharpToJavaScript.APIs.JS.Union199)">
+  Send(Union199)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31378"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>send()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCDataChannel.html">RTCDataChannel</a> interface sends data across the data channel to the<br>remote peer.<br>This can be done any time except during the initial process of<br>creating the underlying transport channel. Data sent before connecting is buffered if<br>possible (or an error occurs if it&amp;apos;s not possible), and is also buffered if sent while<br>the connection is closing or closed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined Send(Union199 data)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>data</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union199.html">Union199</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCDataChannel_Send_CSharpToJavaScript_APIs_JS_Union199__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><blockquote class="NOTE">
+  <h5>NOTE</h5>
+  <p>
+    <strong>Note:</strong> Different browsers have different limitations on the size of the message you can<br>send. Specifications exist to define how to automatically fragment large messages, but<br>not all browsers implement them, and those that do have various additional<br>restrictions. This will get less complicated over time, but for now, if you have<br>questions, see <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API/Using_data_channels#understanding_message_size_limits">Understanding message size limits</a>.</p>
+</blockquote>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API">WebRTC</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.RTCDataChannel.html">RTCDataChannel</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.RTCDataChannel.html#CSharpToJavaScript_APIs_JS_RTCDataChannel_ReadyState">ReadyState</a><br>-RTCDataChannel.Close_event event<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCDataChannel/send">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_RTCDataChannel_Send_" data-uid="CSharpToJavaScript.APIs.JS.RTCDataChannel.Send*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCDataChannel_Send_System_Byte___" data-uid="CSharpToJavaScript.APIs.JS.RTCDataChannel.Send(System.Byte[])">
+  Send(byte[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31376"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>send()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCDataChannel.html">RTCDataChannel</a> interface sends data across the data channel to the<br>remote peer.<br>This can be done any time except during the initial process of<br>creating the underlying transport channel. Data sent before connecting is buffered if<br>possible (or an error occurs if it&amp;apos;s not possible), and is also buffered if sent while<br>the connection is closing or closed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined Send(byte[] data)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>data</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCDataChannel_Send_System_Byte____remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><blockquote class="NOTE">
+  <h5>NOTE</h5>
+  <p>
+    <strong>Note:</strong> Different browsers have different limitations on the size of the message you can<br>send. Specifications exist to define how to automatically fragment large messages, but<br>not all browsers implement them, and those that do have various additional<br>restrictions. This will get less complicated over time, but for now, if you have<br>questions, see <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API/Using_data_channels#understanding_message_size_limits">Understanding message size limits</a>.</p>
+</blockquote>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API">WebRTC</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.RTCDataChannel.html">RTCDataChannel</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.RTCDataChannel.html#CSharpToJavaScript_APIs_JS_RTCDataChannel_ReadyState">ReadyState</a><br>-RTCDataChannel.Close_event event<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCDataChannel/send">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_RTCDataChannel_Send_" data-uid="CSharpToJavaScript.APIs.JS.RTCDataChannel.Send*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCDataChannel_Send_System_String_" data-uid="CSharpToJavaScript.APIs.JS.RTCDataChannel.Send(System.String)">
+  Send(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31372"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>send()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCDataChannel.html">RTCDataChannel</a> interface sends data across the data channel to the<br>remote peer.<br>This can be done any time except during the initial process of<br>creating the underlying transport channel. Data sent before connecting is buffered if<br>possible (or an error occurs if it&amp;apos;s not possible), and is also buffered if sent while<br>the connection is closing or closed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined Send(string data)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>data</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCDataChannel_Send_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><blockquote class="NOTE">
+  <h5>NOTE</h5>
+  <p>
+    <strong>Note:</strong> Different browsers have different limitations on the size of the message you can<br>send. Specifications exist to define how to automatically fragment large messages, but<br>not all browsers implement them, and those that do have various additional<br>restrictions. This will get less complicated over time, but for now, if you have<br>questions, see <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API/Using_data_channels#understanding_message_size_limits">Understanding message size limits</a>.</p>
+</blockquote>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API">WebRTC</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.RTCDataChannel.html">RTCDataChannel</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.RTCDataChannel.html#CSharpToJavaScript_APIs_JS_RTCDataChannel_ReadyState">ReadyState</a><br>-RTCDataChannel.Close_event event<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCDataChannel/send">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16363" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31339" class="edit-link">Edit this page</a>
         </div>
 
 
