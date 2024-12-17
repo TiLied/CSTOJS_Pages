@@ -3,9 +3,9 @@
 - name: Api Documentation
   href: api/
 - name: Try it online!
-  href: BWA/
+  href: CSTOJS_Pages/BWA/
 - name: GitHub
-  href: https://github.com/TiLied/CSharpToJavaScript
+  href: https://github.com/TiLied/CSTOJS_Pages
 - name: Nuget package
   href: https://www.nuget.org/packages/CSharpToJavaScript/
   homepage: api/index.md
