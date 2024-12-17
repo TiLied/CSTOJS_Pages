@@ -5,7 +5,7 @@
 - name: Try it online!
   href: BWA/
 - name: GitHub
-  href: https://github.com/TiLied/CSTOJS_Pages
+  href: https://github.com/TiLied/CSharpToJavaScript
 - name: Nuget package
   href: https://www.nuget.org/packages/CSharpToJavaScript/
   homepage: api/index.md

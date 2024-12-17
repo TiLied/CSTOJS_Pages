@@ -3,4 +3,4 @@
 
 [Nuget](https://www.nuget.org/packages/CSharpToJavaScript/)
 
-Visit articles for more examples. [Try it online!](/BWA/)
+Visit articles for more examples. [Try it online!](/CSTOJS_Pages/BWA/)
