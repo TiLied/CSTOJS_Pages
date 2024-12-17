@@ -1,0 +1,559 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class XSLTProcessor
+ | CSharpToJavaScript </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class XSLTProcessor
+ | CSharpToJavaScript ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="CSharpToJavaScript.APIs.JS.XSLTProcessor">
+
+
+
+  <h1 id="CSharpToJavaScript_APIs_JS_XSLTProcessor" data-uid="CSharpToJavaScript.APIs.JS.XSLTProcessor" class="text-break">
+    Class XSLTProcessor
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CSharpToJavaScript.html">CSharpToJavaScript</a>.<a class="xref" href="CSharpToJavaScript.APIs.html">APIs</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.html">JS</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>An <strong><code>XSLTProcessor</code></strong> applies an <a href="https://developer.mozilla.org/en-US/docs/Web/XSLT">XSLT</a> stylesheet transformation to an XML document to<br>produce a new XML document as output. It has methods to load the XSLT stylesheet, to<br>manipulate <code>&amp;lt;xsl:param&amp;gt;</code> parameter values, and to apply the<br>transformation to documents.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public class XSLTProcessor</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">XSLTProcessor</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+  <h2 id="CSharpToJavaScript_APIs_JS_XSLTProcessor_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/XSLT/Using_the_Mozilla_JavaScript_interface_to_XSL_Transformations">Using the Mozilla JavaScript interface to XSL Transformations</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/XSLTProcessor"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_XSLTProcessor__ctor_" data-uid="CSharpToJavaScript.APIs.JS.XSLTProcessor.#ctor*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_XSLTProcessor__ctor" data-uid="CSharpToJavaScript.APIs.JS.XSLTProcessor.#ctor">
+  XSLTProcessor()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>XSLTProcessor()</code></strong> constructor creates a new <a class="xref" href="CSharpToJavaScript.APIs.JS.XSLTProcessor.html">XSLTProcessor</a> object instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public XSLTProcessor()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_XSLTProcessor__ctor_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p><a href="https://developer.mozilla.org/en-US/docs/Web/API/XSLTProcessor/XSLTProcessor"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_XSLTProcessor_ClearParameters_" data-uid="CSharpToJavaScript.APIs.JS.XSLTProcessor.ClearParameters*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_XSLTProcessor_ClearParameters" data-uid="CSharpToJavaScript.APIs.JS.XSLTProcessor.ClearParameters">
+  ClearParameters()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <code>clearParameters()</code> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.XSLTProcessor.html">XSLTProcessor</a> interface removes all parameters (<code>&amp;lt;xsl:param&amp;gt;</code>) and their values from the stylesheet imported in the processor. The <code>XSLTProcessor</code> will then use the default values specified in the XSLT stylesheet.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined ClearParameters()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_XSLTProcessor_ClearParameters_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.XSLTProcessor.html#CSharpToJavaScript_APIs_JS_XSLTProcessor_GetParameter_System_String_System_String_">GetParameter(string, string)</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.XSLTProcessor.html#CSharpToJavaScript_APIs_JS_XSLTProcessor_SetParameter_System_String_System_String_System_Object_">SetParameter(string, string, dynamic)</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.XSLTProcessor.html#CSharpToJavaScript_APIs_JS_XSLTProcessor_RemoveParameter_System_String_System_String_">RemoveParameter(string, string)</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.XSLTProcessor.html#CSharpToJavaScript_APIs_JS_XSLTProcessor_Reset">Reset()</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/XSLTProcessor/clearParameters"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_XSLTProcessor_GetParameter_" data-uid="CSharpToJavaScript.APIs.JS.XSLTProcessor.GetParameter*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_XSLTProcessor_GetParameter_System_String_System_String_" data-uid="CSharpToJavaScript.APIs.JS.XSLTProcessor.GetParameter(System.String,System.String)">
+  GetParameter(string, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <code>getParameter()</code> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.XSLTProcessor.html">XSLTProcessor</a> interface returns the value of a parameter (<code>&amp;lt;xsl:param&amp;gt;</code>) from the stylesheet imported in the processor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public dynamic GetParameter(string namespaceURI, string localName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>namespaceURI</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>localName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">dynamic</span></dt>
+    <dd><p>An object that is the value associated with the parameter. It can be of any type.<blockquote class="NOTE"><h5>NOTE</h5><strong>Note:</strong> Firefox supports any kind of parameter. Chrome, Edge and Safari only support string parameters.</blockquote>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_XSLTProcessor_GetParameter_System_String_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.XSLTProcessor.html#CSharpToJavaScript_APIs_JS_XSLTProcessor_SetParameter_System_String_System_String_System_Object_">SetParameter(string, string, dynamic)</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.XSLTProcessor.html#CSharpToJavaScript_APIs_JS_XSLTProcessor_RemoveParameter_System_String_System_String_">RemoveParameter(string, string)</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.XSLTProcessor.html#CSharpToJavaScript_APIs_JS_XSLTProcessor_ClearParameters">ClearParameters()</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.XSLTProcessor.html#CSharpToJavaScript_APIs_JS_XSLTProcessor_Reset">Reset()</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/XSLTProcessor/getParameter"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_XSLTProcessor_ImportStylesheet_" data-uid="CSharpToJavaScript.APIs.JS.XSLTProcessor.ImportStylesheet*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_XSLTProcessor_ImportStylesheet_CSharpToJavaScript_APIs_JS_Node_" data-uid="CSharpToJavaScript.APIs.JS.XSLTProcessor.ImportStylesheet(CSharpToJavaScript.APIs.JS.Node)">
+  ImportStylesheet(Node)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <code>importStylesheet()</code> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.XSLTProcessor.html">XSLTProcessor</a> interface imports an XSLT stylesheet for the processor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined ImportStylesheet(Node style)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>style</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_XSLTProcessor_ImportStylesheet_CSharpToJavaScript_APIs_JS_Node__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p><a href="https://developer.mozilla.org/en-US/docs/Web/API/XSLTProcessor/importStylesheet"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_XSLTProcessor_RemoveParameter_" data-uid="CSharpToJavaScript.APIs.JS.XSLTProcessor.RemoveParameter*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_XSLTProcessor_RemoveParameter_System_String_System_String_" data-uid="CSharpToJavaScript.APIs.JS.XSLTProcessor.RemoveParameter(System.String,System.String)">
+  RemoveParameter(string, string)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <code>removeParameter()</code> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.XSLTProcessor.html">XSLTProcessor</a> interface removes the parameter (<code>&amp;lt;xsl:param&amp;gt;</code>) and its value from the stylesheet imported in the processor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined RemoveParameter(string namespaceURI, string localName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>namespaceURI</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>localName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_XSLTProcessor_RemoveParameter_System_String_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.XSLTProcessor.html#CSharpToJavaScript_APIs_JS_XSLTProcessor_GetParameter_System_String_System_String_">GetParameter(string, string)</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.XSLTProcessor.html#CSharpToJavaScript_APIs_JS_XSLTProcessor_SetParameter_System_String_System_String_System_Object_">SetParameter(string, string, dynamic)</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.XSLTProcessor.html#CSharpToJavaScript_APIs_JS_XSLTProcessor_ClearParameters">ClearParameters()</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.XSLTProcessor.html#CSharpToJavaScript_APIs_JS_XSLTProcessor_Reset">Reset()</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/XSLTProcessor/removeParameter"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_XSLTProcessor_Reset_" data-uid="CSharpToJavaScript.APIs.JS.XSLTProcessor.Reset*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_XSLTProcessor_Reset" data-uid="CSharpToJavaScript.APIs.JS.XSLTProcessor.Reset">
+  Reset()
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <code>reset()</code> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.XSLTProcessor.html">XSLTProcessor</a> interface removes all parameters (<code>&amp;lt;xsl:param&amp;gt;</code>) and the XSLT stylesheet from the processor. The <code>XSLTProcessor</code> will then be in its original state when it was created.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined Reset()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_XSLTProcessor_Reset_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.XSLTProcessor.html#CSharpToJavaScript_APIs_JS_XSLTProcessor_GetParameter_System_String_System_String_">GetParameter(string, string)</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.XSLTProcessor.html#CSharpToJavaScript_APIs_JS_XSLTProcessor_SetParameter_System_String_System_String_System_Object_">SetParameter(string, string, dynamic)</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.XSLTProcessor.html#CSharpToJavaScript_APIs_JS_XSLTProcessor_RemoveParameter_System_String_System_String_">RemoveParameter(string, string)</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.XSLTProcessor.html#CSharpToJavaScript_APIs_JS_XSLTProcessor_ClearParameters">ClearParameters()</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/XSLTProcessor/reset"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_XSLTProcessor_SetParameter_" data-uid="CSharpToJavaScript.APIs.JS.XSLTProcessor.SetParameter*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_XSLTProcessor_SetParameter_System_String_System_String_System_Object_" data-uid="CSharpToJavaScript.APIs.JS.XSLTProcessor.SetParameter(System.String,System.String,System.Object)">
+  SetParameter(string, string, dynamic)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <code>setParameter()</code> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.XSLTProcessor.html">XSLTProcessor</a> interface sets the value of a parameter (<code>&amp;lt;xsl:param&amp;gt;</code>) in the stylesheet imported in the processor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined SetParameter(string namespaceURI, string localName, dynamic value)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>namespaceURI</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>localName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <span class="xref">dynamic</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_XSLTProcessor_SetParameter_System_String_System_String_System_Object__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.XSLTProcessor.html#CSharpToJavaScript_APIs_JS_XSLTProcessor_GetParameter_System_String_System_String_">GetParameter(string, string)</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.XSLTProcessor.html#CSharpToJavaScript_APIs_JS_XSLTProcessor_RemoveParameter_System_String_System_String_">RemoveParameter(string, string)</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.XSLTProcessor.html#CSharpToJavaScript_APIs_JS_XSLTProcessor_ClearParameters">ClearParameters()</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.XSLTProcessor.html#CSharpToJavaScript_APIs_JS_XSLTProcessor_Reset">Reset()</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/XSLTProcessor/setParameter"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_XSLTProcessor_TransformToDocument_" data-uid="CSharpToJavaScript.APIs.JS.XSLTProcessor.TransformToDocument*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_XSLTProcessor_TransformToDocument_CSharpToJavaScript_APIs_JS_Node_" data-uid="CSharpToJavaScript.APIs.JS.XSLTProcessor.TransformToDocument(CSharpToJavaScript.APIs.JS.Node)">
+  TransformToDocument(Node)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <code>transformToDocument()</code> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.XSLTProcessor.html">XSLTProcessor</a> interface transforms the provided <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a> source to a <a class="xref" href="CSharpToJavaScript.APIs.JS.Document.html">Document</a> using the XSLT stylesheet associated with <code>XSLTProcessor</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Document TransformToDocument(Node source)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Document.html">Document</a></dt>
+    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.Document.html">Document</a>. The actual interface depends on the <a href="https://www.w3.org/TR/1999/REC-xslt-19991116#output">output method</a> of the stylesheet:<table><tr><td>Output method</td><td>Result interface</td></tr><tr><td><code>html</code></td><td>HTMLDocument</td></tr><tr><td><code>xml</code></td><td>XMLDocument</td></tr><tr><td><code>text</code></td><td>XMLDocument with a single root element <code>&amp;lt;transformiix:result&amp;gt;</code> with the text as a child</td></tr></table>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_XSLTProcessor_TransformToDocument_CSharpToJavaScript_APIs_JS_Node__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.XSLTProcessor.html#CSharpToJavaScript_APIs_JS_XSLTProcessor_TransformToDocument_CSharpToJavaScript_APIs_JS_Node_">TransformToDocument(Node)</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/XSLTProcessor/transformToDocument"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_XSLTProcessor_TransformToFragment_" data-uid="CSharpToJavaScript.APIs.JS.XSLTProcessor.TransformToFragment*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_XSLTProcessor_TransformToFragment_CSharpToJavaScript_APIs_JS_Node_CSharpToJavaScript_APIs_JS_Document_" data-uid="CSharpToJavaScript.APIs.JS.XSLTProcessor.TransformToFragment(CSharpToJavaScript.APIs.JS.Node,CSharpToJavaScript.APIs.JS.Document)">
+  TransformToFragment(Node, Document)
+  
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <code>transformToFragment()</code> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.XSLTProcessor.html">XSLTProcessor</a> interface transforms a provided <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a> source to a <a class="xref" href="CSharpToJavaScript.APIs.JS.DocumentFragment.html">DocumentFragment</a> using the XSLT stylesheet associated with the <code>XSLTProcessor</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DocumentFragment TransformToFragment(Node source, Document output)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>source</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a></dt>
+    <dd></dd>
+    <dt><code>output</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Document.html">Document</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.DocumentFragment.html">DocumentFragment</a></dt>
+    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.DocumentFragment.html">DocumentFragment</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_XSLTProcessor_TransformToFragment_CSharpToJavaScript_APIs_JS_Node_CSharpToJavaScript_APIs_JS_Document__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.XSLTProcessor.html#CSharpToJavaScript_APIs_JS_XSLTProcessor_TransformToDocument_CSharpToJavaScript_APIs_JS_Node_">TransformToDocument(Node)</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/XSLTProcessor/transformToFragment"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
