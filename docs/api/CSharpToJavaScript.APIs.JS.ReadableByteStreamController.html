@@ -2,11 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class ReadableByteStreamController
- | CSharpToJavaScript </title>
+      <title>Class ReadableByteStreamController | CSharpToJavaScript </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class ReadableByteStreamController
- | CSharpToJavaScript ">
+      <meta name="title" content="Class ReadableByteStreamController | CSharpToJavaScript ">
       
       <meta name="description" content="The ReadableByteStreamController interface of the Streams API represents a controller for a readable byte stream.It allows control of the state and internal queue of a  with an underlying byte source, and enables efficient zero-copy transfer of data from the underlying source to a consumer when the stream&#39;s internal queue is empty.">
       <link rel="icon" href="../favicon.ico">
@@ -31,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -91,8 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_ReadableByteStreamController" data-uid="CSharpToJavaScript.APIs.JS.ReadableByteStreamController" class="text-break">
-    Class ReadableByteStreamController
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8743"><i class="bi bi-code-slash"></i></a>
+Class ReadableByteStreamController  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L19153"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -122,7 +119,7 @@ public class ReadableByteStreamController</code></pre>
 
 
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
     <div>
@@ -152,9 +149,17 @@ public class ReadableByteStreamController</code></pre>
 
 
   <h2 id="CSharpToJavaScript_APIs_JS_ReadableByteStreamController_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>An instance of this controller type is created if an <code>underlyingSource</code> object with the property <code>type=&amp;quot;bytes&amp;quot;</code> is passed as an argument to the <a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStream/ReadableStream#type"><code>ReadableStream()</code> constructor</a>.<br>The <code>underlyingSource</code> object may also define <a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStream/ReadableStream#start"><code>start()</code></a> and <a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStream/ReadableStream#pull"><code>pull()</code></a> callback functions.<br>These are called with the controller as a parameter, in order to setup the underlying source, and request data when needed.</p><p>The underlying source uses the controller to supply data to the stream via its <a href="https://developer.mozilla.org#readablebytestreamcontroller.byobrequest"><code>byobRequest</code></a> property or <a href="https://developer.mozilla.org#readablebytestreamcontroller.enqueue"><code>enqueue()</code></a> method.<br><a href="https://developer.mozilla.org#readablebytestreamcontroller.byobrequest"><code>byobRequest</code></a> is a <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStreamBYOBRequest.html">ReadableStreamBYOBRequest</a> object that represents a pending request from a consumer to make a zero-copy transfer of data direct to a consumer.<br><code>byobRequest</code> must be used to copy data if it exists (do not use <code>enqueue()</code> in this case)!<br>If the underlying source needs to pass data to the stream and <code>byobRequest</code> is <code>null</code> then the source can call <a href="https://developer.mozilla.org#readablebytestreamcontroller.enqueue"><code>enqueue()</code></a> to add the data to the stream&amp;apos;s internal queues.</p><p>Note that the <a href="https://developer.mozilla.org#readablebytestreamcontroller.byobrequest"><code>byobRequest</code></a> is only created in &amp;quot;BYOB mode&amp;quot; when there is a request from a reader and the stream&amp;apos;s internal queue is empty.<br>"BYOB mode" is enabled when using a <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStreamBYOBReader.html">ReadableStreamBYOBReader</a> (typically constructed by calling <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStream.html#CSharpToJavaScript_APIs_JS_ReadableStream_GetReader_CSharpToJavaScript_APIs_JS_ReadableStreamGetReaderOptions_">GetReader(ReadableStreamGetReaderOptions)</a> with the argument <code>{ mode: &amp;apos;byob&amp;apos; }</code>).<br>It is also enabled when using a default reader and <a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStream/ReadableStream#autoallocatechunksize"><code>autoAllocateChunkSize</code></a> is specified in the <a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStream/ReadableStream#autoallocatechunksize"><code>ReadableController()</code> constructor</a>.</p><p>An underlying byte source can also use the controller to <a href="https://developer.mozilla.org#readablebytestreamcontroller.close"><code>close()</code></a> the stream when all the data has been sent and report errors from the underlying source using <a href="https://developer.mozilla.org#readablebytestreamcontroller.error"><code>error()</code></a>.<br>The controller&amp;apos;s <a href="https://developer.mozilla.org#readablebytestreamcontroller.desiredsize"><code>desiredSize</code></a> property is used to apply &amp;quot;backpressure&amp;quot;, informing the underlying source of the size of the internal queue (small values indicate that the queue is filling up, hinting to the underlying source that it is be desirable to pause or throttle the inflow).</p><p>Note that even though the controller is primarily used by the underlying byte source, there is no reason it cannot be stored used by other parts of the system to signal the stream.</p>
+  <div class="markdown level0 remarks"><p>An instance of this controller type is created if an <code>underlyingSource</code> object with the property <code>type=&amp;quot;bytes&amp;quot;</code> is passed as an argument to the <a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStream/ReadableStream#type"><code>ReadableStream()</code> constructor</a>.<br>The <code>underlyingSource</code> object may also define <a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStream/ReadableStream#start"><code>start()</code></a> and <a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStream/ReadableStream#pull"><code>pull()</code></a> callback functions.<br>These are called with the controller as a parameter, in order to set up the underlying source, and request data when needed.</p>
+<p>The underlying source uses the controller to supply data to the stream via its <a href="https://developer.mozilla.org#readablebytestreamcontroller.byobrequest"><code>byobRequest</code></a> property or <a href="https://developer.mozilla.org#readablebytestreamcontroller.enqueue"><code>enqueue()</code></a> method.<br><a href="https://developer.mozilla.org#readablebytestreamcontroller.byobrequest"><code>byobRequest</code></a> is a <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStreamBYOBRequest.html">ReadableStreamBYOBRequest</a> object that represents a pending request from a consumer to make a zero-copy transfer of data direct to a consumer.<br><code>byobRequest</code> must be used to copy data if it exists (do not use <code>enqueue()</code> in this case)!<br>If the underlying source needs to pass data to the stream and <code>byobRequest</code> is <code>null</code> then the source can call <a href="https://developer.mozilla.org#readablebytestreamcontroller.enqueue"><code>enqueue()</code></a> to add the data to the stream&amp;apos;s internal queues.</p>
+<p>Note that the <a href="https://developer.mozilla.org#readablebytestreamcontroller.byobrequest"><code>byobRequest</code></a> is only created in &amp;quot;BYOB mode&amp;quot; when there is a request from a reader and the stream&amp;apos;s internal queue is empty.<br>"BYOB mode" is enabled when using a <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStreamBYOBReader.html">ReadableStreamBYOBReader</a> (typically constructed by calling <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStream.html#CSharpToJavaScript_APIs_JS_ReadableStream_GetReader_CSharpToJavaScript_APIs_JS_ReadableStreamGetReaderOptions_">GetReader(ReadableStreamGetReaderOptions)</a> with the argument <code>{ mode: &amp;apos;byob&amp;apos; }</code>).<br>It is also enabled when using a default reader and <a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStream/ReadableStream#autoallocatechunksize"><code>autoAllocateChunkSize</code></a> is specified in the <a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStream/ReadableStream#autoallocatechunksize"><code>ReadableController()</code> constructor</a>.</p>
+<p>An underlying byte source can also use the controller to <a href="https://developer.mozilla.org#readablebytestreamcontroller.close"><code>close()</code></a> the stream when all the data has been sent and report errors from the underlying source using <a href="https://developer.mozilla.org#readablebytestreamcontroller.error"><code>error()</code></a>.<br>The controller&amp;apos;s <a href="https://developer.mozilla.org#readablebytestreamcontroller.desiredsize"><code>desiredSize</code></a> property is used to apply &amp;quot;backpressure&amp;quot;, informing the underlying source of the size of the internal queue (small values indicate that the queue is filling up, hinting to the underlying source that it is be desirable to pause or throttle the inflow).</p>
+<p>Note that even though the controller is primarily used by the underlying byte source, there is no reason it cannot be stored used by other parts of the system to signal the stream.</p>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Streams_API">Streams API concepts</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Streams_API/Using_readable_byte_streams">Using readable byte streams</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStream.html">ReadableStream</a><br>-<a href="https://whatwg-stream-visualizer.glitch.me/">WHATWG Stream Visualizer</a>, for a basic visualization of readable, writable, and transform streams.<br>-<a href="https://github.com/MattiasBuelens/web-streams-polyfill">Web-streams-polyfill</a> or <a href="https://github.com/stardazed/sd-streams">sd-streams</a> - polyfills<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableByteStreamController"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableByteStreamController">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -166,7 +171,7 @@ public class ReadableByteStreamController</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_ReadableByteStreamController_ByobRequest" data-uid="CSharpToJavaScript.APIs.JS.ReadableByteStreamController.ByobRequest">
   ByobRequest
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8747"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L19157"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>byobRequest</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableByteStreamController.html">ReadableByteStreamController</a> interface returns the current BYOB request, or <code>null</code> if there are no pending requests.</p>
@@ -192,9 +197,13 @@ public class ReadableByteStreamController</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_ReadableByteStreamController_ByobRequest_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>An underlying byte source should check this property, and use it to write data to the stream if it exists (rather than using <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableByteStreamController.html#CSharpToJavaScript_APIs_JS_ReadableByteStreamController_Enqueue_CSharpToJavaScript_APIs_JS_Union66_">Enqueue(Union66)</a>).<br>This will result in an efficient zero-byte transfer of the data to the consumer.</p>
+  <div class="markdown level1 remarks"><p>An underlying byte source should check this property, and use it to write data to the stream if it exists (rather than using <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableByteStreamController.html#CSharpToJavaScript_APIs_JS_ReadableByteStreamController_Enqueue_CSharpToJavaScript_APIs_JS_Union199_">Enqueue(Union199)</a>).<br>This will result in an efficient zero-byte transfer of the data to the consumer.</p>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Streams_API/Using_readable_byte_streams">Using readable byte streams</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableByteStreamController.html">ReadableByteStreamController</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableByteStreamController/byobRequest"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableByteStreamController/byobRequest">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -204,7 +213,7 @@ public class ReadableByteStreamController</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_ReadableByteStreamController_DesiredSize" data-uid="CSharpToJavaScript.APIs.JS.ReadableByteStreamController.DesiredSize">
   DesiredSize
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8749"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L19159"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>desiredSize</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableByteStreamController.html">ReadableByteStreamController</a> interface returns the number of bytes required to fill the stream's internal queue to its &quot;desired size&quot;.</p>
@@ -230,9 +239,14 @@ public class ReadableByteStreamController</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_ReadableByteStreamController_DesiredSize_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>The value is used by the stream to indicate a preferred flow rate to the underlying source.<br>Sources that support throttling or pausing their inflow of data (not all do!) should control the inflow such that <code>desiredSize</code> of the stream buffer is kept positive and as close to zero as possible.</p><p>The <code>desiredSize</code> is used to apply <a href="https://developer.mozilla.org/en-US/docs/Web/API/Streams_API/Concepts#backpressure">backpressure</a> from downstream consumers.</p>
+  <div class="markdown level1 remarks"><p>The value is used by the stream to indicate a preferred flow rate to the underlying source.<br>Sources that support throttling or pausing their inflow of data (not all do!) should control the inflow such that <code>desiredSize</code> of the stream buffer is kept positive and as close to zero as possible.</p>
+<p>The <code>desiredSize</code> is used to apply <a href="https://developer.mozilla.org/en-US/docs/Web/API/Streams_API/Concepts#backpressure">backpressure</a> from downstream consumers.</p>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Streams_API/Using_readable_byte_streams">Using readable byte streams</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableByteStreamController.html">ReadableByteStreamController</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableByteStreamController/desiredSize"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableByteStreamController/desiredSize">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -246,7 +260,7 @@ public class ReadableByteStreamController</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_ReadableByteStreamController_Close" data-uid="CSharpToJavaScript.APIs.JS.ReadableByteStreamController.Close">
   Close()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8751"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L19161"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>close()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableByteStreamController.html">ReadableByteStreamController</a> interface closes the associated stream.</p>
@@ -272,9 +286,18 @@ public class ReadableByteStreamController</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_ReadableByteStreamController_Close_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>This might be called by the underlying source when its data source has been exhausted/completed.</p><blockquote class="NOTE"><h5>NOTE</h5><p><strong>Note:</strong> Readers will still be able to read any previously-enqueued chunks from the stream, but once those are read, the stream will become closed.<br>However if there is an outstanding and partially written <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableByteStreamController.html#CSharpToJavaScript_APIs_JS_ReadableByteStreamController_ByobRequest">ByobRequest</a> when <code>close()</code> is called, the stream will be errored.</p></blockquote>
+  <div class="markdown level1 remarks"><p>This might be called by the underlying source when its data source has been exhausted/completed.</p>
+<blockquote class="NOTE">
+  <h5>NOTE</h5>
+  <p>
+    <strong>Note:</strong> Readers will still be able to read any previously-enqueued chunks from the stream, but once those are read, the stream will become closed.<br>However if there is an outstanding and partially written <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableByteStreamController.html#CSharpToJavaScript_APIs_JS_ReadableByteStreamController_ByobRequest">ByobRequest</a> when <code>close()</code> is called, the stream will be errored.</p>
+</blockquote>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Streams_API/Using_readable_byte_streams">Using readable byte streams</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableByteStreamController.html">ReadableByteStreamController</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableByteStreamController/close"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableByteStreamController/close">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -282,9 +305,9 @@ public class ReadableByteStreamController</code></pre>
 
   <a id="CSharpToJavaScript_APIs_JS_ReadableByteStreamController_Enqueue_" data-uid="CSharpToJavaScript.APIs.JS.ReadableByteStreamController.Enqueue*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_ReadableByteStreamController_Enqueue_CSharpToJavaScript_APIs_JS_Union66_" data-uid="CSharpToJavaScript.APIs.JS.ReadableByteStreamController.Enqueue(CSharpToJavaScript.APIs.JS.Union66)">
-  Enqueue(Union66)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8753"><i class="bi bi-code-slash"></i></a>
+  <h3 id="CSharpToJavaScript_APIs_JS_ReadableByteStreamController_Enqueue_CSharpToJavaScript_APIs_JS_Union199_" data-uid="CSharpToJavaScript.APIs.JS.ReadableByteStreamController.Enqueue(CSharpToJavaScript.APIs.JS.Union199)">
+  Enqueue(Union199)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L19163"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>enqueue()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableByteStreamController.html">ReadableByteStreamController</a> interface enqueues a given chunk on the associated readable byte stream (the chunk is copied into the stream's internal queues).</p>
@@ -292,13 +315,13 @@ public class ReadableByteStreamController</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined Enqueue(Union66 chunk)</code></pre>
+    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined Enqueue(Union199 chunk)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>chunk</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union66.html">Union66</a></dt>
-    <dd>The ReadableByteStreamController interface of the Streams API represents a controller for a readable byte stream.It allows control of the state and internal queue of a  with an underlying byte source, and enables efficient zero-copy transfer of data from the underlying source to a consumer when the stream's internal queue is empty.</dd>
+    <dt><code>chunk</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union199.html">Union199</a></dt>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -314,10 +337,14 @@ public class ReadableByteStreamController</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_ReadableByteStreamController_Enqueue_CSharpToJavaScript_APIs_JS_Union66__remarks">Remarks</h4>
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_ReadableByteStreamController_Enqueue_CSharpToJavaScript_APIs_JS_Union199__remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>This should only be used to transfer data to the queue when <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableByteStreamController.html#CSharpToJavaScript_APIs_JS_ReadableByteStreamController_ByobRequest">ByobRequest</a> is <code>null</code>.</p>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Streams_API/Using_readable_byte_streams">Using readable byte streams</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableByteStreamController.html">ReadableByteStreamController</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableByteStreamController/enqueue"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableByteStreamController/enqueue">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -327,7 +354,7 @@ public class ReadableByteStreamController</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_ReadableByteStreamController_Error_System_Object_" data-uid="CSharpToJavaScript.APIs.JS.ReadableByteStreamController.Error(System.Object)">
   Error(dynamic)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8755"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L19165"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>error()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableByteStreamController.html">ReadableByteStreamController</a> interface causes any future interactions with the associated stream to error with the specified reason.</p>
@@ -341,7 +368,7 @@ public class ReadableByteStreamController</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>e</code> <span class="xref">dynamic</span></dt>
-    <dd>The ReadableByteStreamController interface of the Streams API represents a controller for a readable byte stream.It allows control of the state and internal queue of a  with an underlying byte source, and enables efficient zero-copy transfer of data from the underlying source to a consumer when the stream's internal queue is empty.</dd>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -360,7 +387,11 @@ public class ReadableByteStreamController</code></pre>
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_ReadableByteStreamController_Error_System_Object__remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>This is commonly called by an underlying source to surface an error from the interface where it gets its data (such as a file-read or socket error).<br>It can also be called from elsewhere to trigger a stream error, for example if another part of the system that the stream relies on fails.</p>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Streams_API/Using_readable_byte_streams">Using readable byte streams</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableByteStreamController/error"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableByteStreamController/error">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -370,7 +401,7 @@ public class ReadableByteStreamController</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8743" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L19153" class="edit-link">Edit this page</a>
         </div>
 
 

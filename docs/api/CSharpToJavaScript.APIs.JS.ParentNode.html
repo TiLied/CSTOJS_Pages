@@ -2,13 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Interface ParentNode
- | CSharpToJavaScript </title>
+      <title>Interface ParentNode | CSharpToJavaScript </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Interface ParentNode
- | CSharpToJavaScript ">
+      <meta name="title" content="Interface ParentNode | CSharpToJavaScript ">
       
-      
+      <meta name="description" content="Element  is the most general base class from which all element objects (i.e. objects that represent elements) in a  inherit. It only has methods and properties common to all kinds of elements. More specific classes inherit from Element.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -31,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -91,8 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_ParentNode" data-uid="CSharpToJavaScript.APIs.JS.ParentNode" class="text-break">
-    Interface ParentNode
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6220"><i class="bi bi-code-slash"></i></a>
+Interface ParentNode  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/ParentNode.cs/#L9"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -100,7 +97,10 @@
   <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><strong>
+  <code>Element</code>
+</strong> is the most general base class from which all element objects (i.e. objects that represent elements) in a <a class="xref" href="CSharpToJavaScript.APIs.JS.Document.html">Document</a> inherit. It only has methods and properties common to all kinds of elements. More specific classes inherit from <code>Element</code>.
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
@@ -118,6 +118,16 @@ public interface ParentNode</code></pre>
 
 
 
+  <h2 id="CSharpToJavaScript_APIs_JS_ParentNode_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>For example, the <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html">HTMLElement</a> interface is the base interface for HTML elements. Similarly, the <a class="xref" href="CSharpToJavaScript.APIs.JS.SVGElement.html">SVGElement</a> interface is the basis for all SVG elements, and the <a class="xref" href="CSharpToJavaScript.APIs.JS.MathMLElement.html">MathMLElement</a> interface is the base interface for MathML elements. Most functionality is specified further down the class hierarchy.</p>
+<p>Languages outside the realm of the Web platform, like XUL through the <code>XULElement</code> interface, also implement <code>Element</code>.</p>
+<p></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
   <h2 class="section" id="properties">Properties
@@ -128,10 +138,11 @@ public interface ParentNode</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_ParentNode_ChildElementCount" data-uid="CSharpToJavaScript.APIs.JS.ParentNode.ChildElementCount">
   ChildElementCount
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6226"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4374"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The <strong><code>Element.childElementCount</code></strong> read-only property<br>returns the number of child elements of this element.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -151,6 +162,14 @@ public interface ParentNode</code></pre>
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_ParentNode_ChildElementCount_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-Document.ChildElementCount<br>-DocumentFragment.ChildElementCount<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/childElementCount">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -159,10 +178,11 @@ public interface ParentNode</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_ParentNode_Children" data-uid="CSharpToJavaScript.APIs.JS.ParentNode.Children">
   Children
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6223"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4368"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The read-only <strong><code>children</code></strong> property returns a live <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLCollection.html">HTMLCollection</a><br>which contains all of the child <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html">Element</a> of the element upon which it was called.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -176,12 +196,23 @@ public interface ParentNode</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLCollection.html">HTMLCollection</a></dt>
-    <dd></dd>
+    <dd><p>An <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLCollection.html">HTMLCollection</a> which is a live, ordered collection of the DOM<br>elements which are children of <code>node</code>. You can access the<br>individual child nodes in the collection by using either the<br>HTMLCollection.Item method on the collection, or by using<br>JavaScript array-style notation.If the element has no element children, then <code>children</code> is an empty list with a<br><code>length</code> of <code>0</code>.</p>
+</dd>
   </dl>
 
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_ParentNode_Children_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <code>Element.children</code> includes only element nodes. To get all child nodes, including non-element nodes like text and comment nodes, use <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_ChildNodes">ChildNodes</a>.</p>
+<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_ChildNodes">ChildNodes</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/children">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -190,10 +221,11 @@ public interface ParentNode</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_ParentNode_FirstElementChild" data-uid="CSharpToJavaScript.APIs.JS.ParentNode.FirstElementChild">
   FirstElementChild
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6224"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4370"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The <strong><code>Element.firstElementChild</code></strong> read-only property<br>returns an element's first child <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html">Element</a>, or <code>null</code> if there<br>are no child elements.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -207,12 +239,23 @@ public interface ParentNode</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html">Element</a></dt>
-    <dd></dd>
+    <dd><p>An <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html">Element</a> object, or <code>null</code>.</p>
+</dd>
   </dl>
 
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_ParentNode_FirstElementChild_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <code>Element.firstElementChild</code> includes only element nodes.<br>To get all child nodes, including non-element nodes like text and comment nodes, use <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_FirstChild">FirstChild</a>.</p>
+<p>-Element.NextElementSibling<br>-Element.LastElementChild<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/firstElementChild">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -221,10 +264,11 @@ public interface ParentNode</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_ParentNode_LastElementChild" data-uid="CSharpToJavaScript.APIs.JS.ParentNode.LastElementChild">
   LastElementChild
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6225"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4372"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The <strong><code>Element.lastElementChild</code></strong> read-only property<br>returns an element's last child <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html">Element</a>, or <code>null</code> if there<br>are no child elements.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -238,12 +282,23 @@ public interface ParentNode</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html">Element</a></dt>
-    <dd></dd>
+    <dd><p>An <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html">Element</a> object, or <code>null</code>.</p>
+</dd>
   </dl>
 
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_ParentNode_LastElementChild_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <code>Element.lastElementChild</code> includes only element nodes.<br>To get all child nodes, including non-element nodes like text and comment nodes, use <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_LastChild">LastChild</a>.</p>
+<p>-Element.PreviousElementSibling<br>-Element.FirstElementChild<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/lastElementChild">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -254,28 +309,30 @@ public interface ParentNode</code></pre>
 
   <a id="CSharpToJavaScript_APIs_JS_ParentNode_Append_" data-uid="CSharpToJavaScript.APIs.JS.ParentNode.Append*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_ParentNode_Append_CSharpToJavaScript_APIs_JS_Union44___" data-uid="CSharpToJavaScript.APIs.JS.ParentNode.Append(CSharpToJavaScript.APIs.JS.Union44[])">
-  Append(params Union44[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6228"><i class="bi bi-code-slash"></i></a>
+  <h3 id="CSharpToJavaScript_APIs_JS_ParentNode_Append_CSharpToJavaScript_APIs_JS_Union30___" data-uid="CSharpToJavaScript.APIs.JS.ParentNode.Append(CSharpToJavaScript.APIs.JS.Union30[])">
+  Append(params Union30[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4378"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The <strong><code>Element.append()</code></strong> method<br>inserts a set of <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a> objects or string objects after<br>the last child of the <code>Element</code>. String objects<br>are inserted as equivalent <a class="xref" href="CSharpToJavaScript.APIs.JS.Text.html">Text</a> nodes.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">GlobalObject.Undefined Append(params Union44[] nodes)</code></pre>
+    <pre><code class="lang-csharp hljs">GlobalObject.Undefined Append(params Union30[] nodes)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>nodes</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union44.html">Union44</a>[]</dt>
+    <dt><code>nodes</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union30.html">Union30</a>[]</dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
-    <dd></dd>
+    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
+</dd>
   </dl>
 
 
@@ -284,34 +341,45 @@ public interface ParentNode</code></pre>
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_ParentNode_Append_CSharpToJavaScript_APIs_JS_Union30____remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Differences from <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_AppendChild_CSharpToJavaScript_APIs_JS_Node_">AppendChild(Node)</a>:</p>
+<p>-Element.Prepend<br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_AppendChild_CSharpToJavaScript_APIs_JS_Node_">AppendChild(Node)</a><br>-Element.After<br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_InsertAdjacentElement_System_String_CSharpToJavaScript_APIs_JS_Element_">InsertAdjacentElement(string, Element)</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.NodeList.html">NodeList</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/append">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
 
   <a id="CSharpToJavaScript_APIs_JS_ParentNode_Prepend_" data-uid="CSharpToJavaScript.APIs.JS.ParentNode.Prepend*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_ParentNode_Prepend_CSharpToJavaScript_APIs_JS_Union43___" data-uid="CSharpToJavaScript.APIs.JS.ParentNode.Prepend(CSharpToJavaScript.APIs.JS.Union43[])">
-  Prepend(params Union43[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6227"><i class="bi bi-code-slash"></i></a>
+  <h3 id="CSharpToJavaScript_APIs_JS_ParentNode_Prepend_CSharpToJavaScript_APIs_JS_Union29___" data-uid="CSharpToJavaScript.APIs.JS.ParentNode.Prepend(CSharpToJavaScript.APIs.JS.Union29[])">
+  Prepend(params Union29[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4376"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The <strong><code>Element.prepend()</code></strong> method inserts a set of<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a> objects or string objects before the first child<br>of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html">Element</a>. String objects are inserted as<br>equivalent <a class="xref" href="CSharpToJavaScript.APIs.JS.Text.html">Text</a> nodes.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">GlobalObject.Undefined Prepend(params Union43[] nodes)</code></pre>
+    <pre><code class="lang-csharp hljs">GlobalObject.Undefined Prepend(params Union29[] nodes)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>nodes</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union43.html">Union43</a>[]</dt>
+    <dt><code>nodes</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union29.html">Union29</a>[]</dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
-    <dd></dd>
+    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
+</dd>
   </dl>
 
 
@@ -320,6 +388,14 @@ public interface ParentNode</code></pre>
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_ParentNode_Prepend_CSharpToJavaScript_APIs_JS_Union29____remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-Element.Append<br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_AppendChild_CSharpToJavaScript_APIs_JS_Node_">AppendChild(Node)</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_InsertBefore_CSharpToJavaScript_APIs_JS_Node_CSharpToJavaScript_APIs_JS_Node_">InsertBefore(Node, Node?)</a><br>-Element.Before<br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_InsertAdjacentElement_System_String_CSharpToJavaScript_APIs_JS_Element_">InsertAdjacentElement(string, Element)</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.NodeList.html">NodeList</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/prepend">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -328,10 +404,11 @@ public interface ParentNode</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_ParentNode_QuerySelector_System_String_" data-uid="CSharpToJavaScript.APIs.JS.ParentNode.QuerySelector(System.String)">
   QuerySelector(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6230"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4382"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The <strong><code>querySelector()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html">Element</a><br>interface returns the first element that is a descendant of the element on which it is<br>invoked that matches the specified group of selectors.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -347,7 +424,8 @@ public interface ParentNode</code></pre>
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html">Element</a></dt>
-    <dd></dd>
+    <dd><p>The first descendant element of <code>baseElement</code> which matches the specified<br>group of <code>selectors</code>. The entire hierarchy of elements is considered when<br>matching, including those outside the set of elements including <code>baseElement</code><br>and its descendants; in other words, <code>selectors</code> is first applied to the<br>whole document, not the <code>baseElement</code>, to generate an initial list of<br>potential elements. The resulting elements are then examined to see if they are<br>descendants of <code>baseElement</code>. The first match of those remaining elements is<br>returned by the <code>querySelector()</code> method.If no matches are found, the returned value is <code>null</code>.</p>
+</dd>
   </dl>
 
 
@@ -356,6 +434,14 @@ public interface ParentNode</code></pre>
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_ParentNode_QuerySelector_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_object_model/Locating_DOM_elements_using_selectors">Locating DOM elements using selectors</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors">Attribute selectors</a> in the CSS<br>Guide<br>-<a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Attribute_selectors">Attribute selectors</a> in the MDN Learning Area<br>-Element.QuerySelectorAll<br>-Document.QuerySelector and<br>Document.QuerySelectorAll<br>-DocumentFragment.QuerySelector and<br>DocumentFragment.QuerySelectorAll<br>-Other methods that take selectors: <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_Closest_System_String_">Closest(string)</a> and<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_Matches_System_String_">Matches(string)</a>.<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/querySelector">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -364,10 +450,11 @@ public interface ParentNode</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_ParentNode_QuerySelectorAll_System_String_" data-uid="CSharpToJavaScript.APIs.JS.ParentNode.QuerySelectorAll(System.String)">
   QuerySelectorAll(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6231"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4384"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html">Element</a> method <strong><code>querySelectorAll()</code></strong><br>returns a static (not live) <a class="xref" href="CSharpToJavaScript.APIs.JS.NodeList.html">NodeList</a> representing a list of elements<br>matching the specified group of selectors which are descendants of the element on which<br>the method was called.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -383,7 +470,8 @@ public interface ParentNode</code></pre>
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.NodeList.html">NodeList</a></dt>
-    <dd></dd>
+    <dd><p>A non-live <a class="xref" href="CSharpToJavaScript.APIs.JS.NodeList.html">NodeList</a> containing one <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html">Element</a> object for<br>each descendant node that matches at least one of the specified selectors.<blockquote class="NOTE"><h5>NOTE</h5><strong>Note:</strong> If the specified <code>selectors</code> include a <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements">CSS pseudo-element</a>, the returned list<br>is always empty.</blockquote>
+</dd>
   </dl>
 
 
@@ -392,34 +480,95 @@ public interface ParentNode</code></pre>
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_ParentNode_QuerySelectorAll_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_object_model/Locating_DOM_elements_using_selectors">Locating DOM elements using selectors</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors">Attribute selectors</a> in the CSS<br>Guide<br>-<a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Attribute_selectors">Attribute selectors</a> in the MDN Learning Area<br>-Element.QuerySelector<br>-Document.QuerySelector and<br>Document.QuerySelectorAll<br>-DocumentFragment.QuerySelector and<br>DocumentFragment.QuerySelectorAll<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/querySelectorAll">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_ParentNode_QuerySelector_" data-uid="CSharpToJavaScript.APIs.JS.ParentNode.QuerySelector*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_ParentNode_QuerySelector__1_System_String_" data-uid="CSharpToJavaScript.APIs.JS.ParentNode.QuerySelector``1(System.String)">
+  QuerySelector&lt;T&gt;(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/ParentNode.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>querySelector()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html">Element</a><br>interface returns the first element that is a descendant of the element on which it is<br>invoked that matches the specified group of selectors.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">T? QuerySelector&lt;T&gt;(string selectors) where T : Element</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>selectors</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd><p>The first descendant element of <code>baseElement</code> which matches the specified<br>group of <code>selectors</code>. The entire hierarchy of elements is considered when<br>matching, including those outside the set of elements including <code>baseElement</code><br>and its descendants; in other words, <code>selectors</code> is first applied to the<br>whole document, not the <code>baseElement</code>, to generate an initial list of<br>potential elements. The resulting elements are then examined to see if they are<br>descendants of <code>baseElement</code>. The first match of those remaining elements is<br>returned by the <code>querySelector()</code> method.If no matches are found, the returned value is <code>null</code>.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_ParentNode_QuerySelector__1_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_object_model/Locating_DOM_elements_using_selectors">Locating DOM elements using selectors</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors">Attribute selectors</a> in the CSS<br>Guide<br>-<a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Attribute_selectors">Attribute selectors</a> in the MDN Learning Area<br>-Element.QuerySelectorAll<br>-Document.QuerySelector and<br>Document.QuerySelectorAll<br>-DocumentFragment.QuerySelector and<br>DocumentFragment.QuerySelectorAll<br>-Other methods that take selectors: <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_Closest_System_String_">Closest(string)</a> and<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_Matches_System_String_">Matches(string)</a>.<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/querySelector">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
 
   <a id="CSharpToJavaScript_APIs_JS_ParentNode_ReplaceChildren_" data-uid="CSharpToJavaScript.APIs.JS.ParentNode.ReplaceChildren*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_ParentNode_ReplaceChildren_CSharpToJavaScript_APIs_JS_Union45___" data-uid="CSharpToJavaScript.APIs.JS.ParentNode.ReplaceChildren(CSharpToJavaScript.APIs.JS.Union45[])">
-  ReplaceChildren(params Union45[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6229"><i class="bi bi-code-slash"></i></a>
+  <h3 id="CSharpToJavaScript_APIs_JS_ParentNode_ReplaceChildren_CSharpToJavaScript_APIs_JS_Union31___" data-uid="CSharpToJavaScript.APIs.JS.ParentNode.ReplaceChildren(CSharpToJavaScript.APIs.JS.Union31[])">
+  ReplaceChildren(params Union31[])
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4380"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The <strong><code>Element.replaceChildren()</code></strong> method replaces the<br>existing children of a <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a> with a specified new set of children. These<br>can be string or <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a> objects.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">GlobalObject.Undefined ReplaceChildren(params Union45[] nodes)</code></pre>
+    <pre><code class="lang-csharp hljs">GlobalObject.Undefined ReplaceChildren(params Union31[] nodes)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>nodes</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union45.html">Union45</a>[]</dt>
+    <dt><code>nodes</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union31.html">Union31</a>[]</dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
-    <dd></dd>
+    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
+</dd>
   </dl>
 
 
@@ -428,6 +577,14 @@ public interface ParentNode</code></pre>
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_ParentNode_ReplaceChildren_CSharpToJavaScript_APIs_JS_Union31____remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-Element.Prepend<br>-Element.Append<br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.NodeList.html">NodeList</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/replaceChildren">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -436,7 +593,7 @@ public interface ParentNode</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6220" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/ParentNode.cs/#L9" class="edit-link">Edit this page</a>
         </div>
 
 

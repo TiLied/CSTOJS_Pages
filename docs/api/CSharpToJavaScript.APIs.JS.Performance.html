@@ -2,13 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class Performance
- | CSharpToJavaScript </title>
+      <title>Class Performance | CSharpToJavaScript </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class Performance
- | CSharpToJavaScript ">
+      <meta name="title" content="Class Performance | CSharpToJavaScript ">
       
-      <meta name="description" content="Web performance is the objective measurements and the perceived user experience of load time and runtime. Web performance is how long a site takes to load, become interactive and responsive, and how smooth the content is during user interactions - is the scrolling smooth? are buttons clickable? Are pop-ups quick to load and display, and do they animate smoothly as they do so? Web performance includes both objective measurements like time to load, frames per second, and time to become interactive, and subjective experiences of how long it felt like it took the content to load.">
+      <meta name="description" content="The Performance interface provides access to performance-related information for the current page.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -31,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -91,8 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_Performance" data-uid="CSharpToJavaScript.APIs.JS.Performance" class="text-break">
-    Class Performance
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10540"><i class="bi bi-code-slash"></i></a>
+Class Performance  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L21345"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -100,13 +97,13 @@
   <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Web performance is the objective measurements and the perceived user experience of load time and runtime. Web performance is how long a site takes to load, become interactive and responsive, and how smooth the content is during user interactions - is the scrolling smooth? are buttons clickable? Are pop-ups quick to load and display, and do they animate smoothly as they do so? Web performance includes both objective measurements like time to load, frames per second, and time to become interactive, and subjective experiences of how long it felt like it took the content to load.</p>
+  <div class="markdown summary"><p>The <strong><code>Performance</code></strong> interface provides access to performance-related information for the current page.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
-public class Performance</code></pre>
+public class Performance : EventTarget</code></pre>
   </div>
 
 
@@ -116,15 +113,37 @@ public class Performance</code></pre>
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html">EventTarget</a></div>
       <div><span class="xref">Performance</span></div>
     </dd>
   </dl>
 
 
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union27_">EventTarget.AddEventListener(string, Action, Union27)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_MouseEvent__CSharpToJavaScript_APIs_JS_Union27_">EventTarget.AddEventListener(string, Action&lt;MouseEvent&gt;, Union27)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Event__CSharpToJavaScript_APIs_JS_Union27_">EventTarget.AddEventListener(string, Action&lt;Event&gt;, Union27)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_RemoveEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union28_">EventTarget.RemoveEventListener(string, Action, Union28)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_CSharpToJavaScript_APIs_JS_EventListener_CSharpToJavaScript_APIs_JS_Union27_">EventTarget.AddEventListener(string, EventListener, Union27)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_RemoveEventListener_System_String_CSharpToJavaScript_APIs_JS_EventListener_CSharpToJavaScript_APIs_JS_Union28_">EventTarget.RemoveEventListener(string, EventListener, Union28)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_DispatchEvent_CSharpToJavaScript_APIs_JS_Event_">EventTarget.DispatchEvent(Event)</a>
+    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -152,9 +171,13 @@ public class Performance</code></pre>
 
 
   <h2 id="CSharpToJavaScript_APIs_JS_Performance_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>The longer it takes for a site to respond, the more users will abandon the site. It is important to minimize the loading and response times and add additional features to conceal latency by making the experience as available and interactive as possible, as soon as possible, while asynchronously loading in the longer tail parts of the experience.</p><p>There are tools, APIs, and best practices that help us measure and improve web performance. We cover them in this section:</p>
-<p>HTML-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture">The <code>&amp;lt;picture&amp;gt;</code> Element</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video">The <code>&amp;lt;video&amp;gt;</code> Element</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source">The <code>&amp;lt;source&amp;gt;</code> Element</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attributes">The <code>&amp;lt;img&amp;gt; srcset</code> attribute</a>-<a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images">Responsive images</a><br><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel/preload">Preloading content with <code>rel=&amp;quot;preload&amp;quot;</code></a><br>-<a href="https://w3c.github.io/preload/">https://w3c.github.io/preload/</a><br>CSS-<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/will-change">will-change</a><br>-GPU v CPU<br>-Measuring layout<br>-Font-loading best practices<br>JavaScript-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/DOMContentLoaded_event">DOMContentLoaded</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Glossary/Garbage_collection">Garbage collection</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame">requestAnimationFrame</a><br>APIs-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Performance_API">Performance API</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Performance_API/Navigation_timing">Navigation Timing API</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Media_Capabilities_API/Using_the_Media_Capabilities_API">Media Capabilities API</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Network_Information_API">Network Information API</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/PerformanceNavigationTiming">PerformanceNavigationTiming</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Battery_Status_API">Battery Status API</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Navigator/deviceMemory">Navigator.deviceMemory</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API">Intersection Observer</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Performance_API/User_timing">Using the User Timing API</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/DOMHighResTimeStamp">High Resolution Timing API</a> (<a href="https://w3c.github.io/hr-time/">https://w3c.github.io/hr-time/)</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Performance_API/Resource_timing">Resource Timing API</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Page_Visibility_API">Page Visibility</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Background_Tasks_API">Cooperative Scheduling of Background Tasks API</a>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/requestIdleCallback">requestIdleCallback()</a><br><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Beacon_API">Beacon API</a><br>-Resource Hints - <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-DNS-Prefetch-Control">dns-prefetch</a>, preconnect, <a href="https://developer.mozilla.org/en-US/docs/Glossary/Prefetch">prefetch</a>, and prerender<br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/FetchEvent/preloadResponse">FetchEvent.preloadResponse</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/PerformanceServerTiming">Performance Server Timing API</a><br>Headers-<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Encoding">Content-encoding</a><br>-HTTP/2<br>-<a href="https://developer.mozilla.org/en-US/docs/Glossary/GZip_compression">gZip</a><br>-Client Hints<br>Tools-<a href="https://profiler.firefox.com/docs/#/">Performance in Firefox Developer Tools</a><br>Additional Metrics-Speed Index and Perceptual Speed Index<br>Best Practices-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers">Using Service Workers</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers">Using Web Workers</a>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API">Web Workers API</a><br><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Offline_and_background_operation">Offline and background operation</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching">Caching</a><br>-Content Delivery Networks (CDN)<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/Performance"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level0 remarks"><p>An object of this type can be obtained by calling <code>window.performance</code> or <code>self.performance</code> in workers. Note that Performance entries are per context. If you create a mark on the main thread (or other worker), you cannot see it in a worker thread, and vice versa. See <a href="https://developer.mozilla.org/en-US/docs/Web/API/performance_property"><code>self.performance</code></a> for which APIs are available in window and worker contexts.</p>
+<p></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Performance">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -166,7 +189,7 @@ public class Performance</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Performance_EventCounts" data-uid="CSharpToJavaScript.APIs.JS.Performance.EventCounts">
   EventCounts
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7089"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5901"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The read-only <code>performance.eventCounts</code> property is an <a class="xref" href="CSharpToJavaScript.APIs.JS.Performance.html#CSharpToJavaScript_APIs_JS_Performance_EventCounts">EventCounts</a> map containing the number of events which have been dispatched per event type.</p>
@@ -194,7 +217,11 @@ public class Performance</code></pre>
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_Performance_EventCounts_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>Not all event types are exposed. You can only get counts for event types supported by the <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceEventTiming.html">PerformanceEventTiming</a> interface.</p>
 <p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Performance.html#CSharpToJavaScript_APIs_JS_Performance_EventCounts">EventCounts</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceEventTiming.html">PerformanceEventTiming</a><br>-Map<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Performance/eventCounts"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Performance/eventCounts">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -204,7 +231,7 @@ public class Performance</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Performance_InteractionCount" data-uid="CSharpToJavaScript.APIs.JS.Performance.InteractionCount">
   InteractionCount
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7090"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5902"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -221,7 +248,7 @@ public class Performance</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
-    <dd>Web performance is the objective measurements and the perceived user experience of load time and runtime. Web performance is how long a site takes to load, become interactive and responsive, and how smooth the content is during user interactions - is the scrolling smooth? are buttons clickable? Are pop-ups quick to load and display, and do they animate smoothly as they do so? Web performance includes both objective measurements like time to load, frames per second, and time to become interactive, and subjective experiences of how long it felt like it took the content to load.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -235,10 +262,13 @@ public class Performance</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Performance_Navigation" data-uid="CSharpToJavaScript.APIs.JS.Performance.Navigation">
   Navigation
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10545"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L15254"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><div class="IMPORTANT"><h5>IMPORTANT</h5> <strong>Deprecated</strong></div> The legacy <strong><code>PerformanceNavigation</code></strong> interface represents information about how the navigation to the current document was done.
+  <div class="markdown level1 summary"><div class="IMPORTANT">
+  <h5>IMPORTANT</h5>
+  <strong>Deprecated</strong>
+</div> The legacy <strong><code>PerformanceNavigation</code></strong> interface represents information about how the navigation to the current document was done.
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -253,16 +283,102 @@ public class Performance</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceNavigation.html">PerformanceNavigation</a></dt>
-    <dd>Web performance is the objective measurements and the perceived user experience of load time and runtime. Web performance is how long a site takes to load, become interactive and responsive, and how smooth the content is during user interactions - is the scrolling smooth? are buttons clickable? Are pop-ups quick to load and display, and do they animate smoothly as they do so? Web performance includes both objective measurements like time to load, frames per second, and time to become interactive, and subjective experiences of how long it felt like it took the content to load.</dd>
+    <dd></dd>
   </dl>
 
 
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_Performance_Navigation_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><blockquote class="WARNING"><h5>WARNING</h5><p><strong>Warning:</strong> This interface is deprecated in the <a href="https://w3c.github.io/navigation-timing/#obsolete">Navigation Timing Level 2 specification</a>.<br>Please use the PerformanceNavigationTiming interface instead.</p></blockquote><p>An object of this type can be obtained by calling the <a class="xref" href="CSharpToJavaScript.APIs.JS.Performance.html#CSharpToJavaScript_APIs_JS_Performance_Navigation">Navigation</a> read-only attribute.</p>
-<p>-The <a class="xref" href="CSharpToJavaScript.APIs.JS.Performance.html">Performance</a> that allows access to an object of this type.<br>-PerformanceNavigationTiming (part of Navigation Timing Level 2) that has superseded this API.<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/PerformanceNavigation"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><blockquote class="WARNING">
+  <h5>WARNING</h5>
+  <p>
+    <strong>Warning:</strong> This interface is deprecated in the <a href="https://w3c.github.io/navigation-timing/#obsolete">Navigation Timing Level 2 specification</a>.<br>Please use the <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceNavigationTiming.html">PerformanceNavigationTiming</a> interface instead.</p>
+</blockquote>
+<p>An object of this type can be obtained by calling the <a class="xref" href="CSharpToJavaScript.APIs.JS.Performance.html#CSharpToJavaScript_APIs_JS_Performance_Navigation">Navigation</a> read-only attribute.</p>
+<p>-The <a class="xref" href="CSharpToJavaScript.APIs.JS.Performance.html">Performance</a> that allows access to an object of this type.<br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceNavigationTiming.html">PerformanceNavigationTiming</a> (part of Navigation Timing Level 2) that has superseded this API.<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/PerformanceNavigation">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_Performance_Onresourcetimingbufferfull_" data-uid="CSharpToJavaScript.APIs.JS.Performance.Onresourcetimingbufferfull*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_Performance_Onresourcetimingbufferfull" data-uid="CSharpToJavaScript.APIs.JS.Performance.Onresourcetimingbufferfull">
+  Onresourcetimingbufferfull
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L17265"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EventHandlerNonNull Onresourcetimingbufferfull { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.EventHandlerNonNull.html">EventHandlerNonNull</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_Performance_TimeOrigin_" data-uid="CSharpToJavaScript.APIs.JS.Performance.TimeOrigin*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_Performance_TimeOrigin" data-uid="CSharpToJavaScript.APIs.JS.Performance.TimeOrigin">
+  TimeOrigin
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8116"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>timeOrigin</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Performance.html">Performance</a> interface returns the high resolution timestamp that is used as the baseline for performance-related timestamps.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Number TimeOrigin { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dd><p>A high resolution timestamp which considered to be the beginning of the current document&amp;apos;s lifetime. It&amp;apos;s calculated like this:</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Performance_TimeOrigin_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>In Window contexts, this value represents the time when navigation has started. In <a class="xref" href="CSharpToJavaScript.APIs.JS.Worker.html">Worker</a> and <a class="xref" href="CSharpToJavaScript.APIs.JS.ServiceWorker.html">ServiceWorker</a> contexts, this value represents the time when the worker is run. You can use this property to synchronize the time origins between the contexts (see example below).</p>
+<blockquote class="NOTE">
+  <h5>NOTE</h5>
+  <p>
+    <strong>Note:</strong> The value of <code>performance.timeOrigin</code> may differ from the value returned by DateNow executed at the time origin, because <code>Date.now()</code> may have been impacted by system and user clock adjustments, clock skew, etc. The <code>timeOrigin</code> property is a <a href="https://w3c.github.io/hr-time/#dfn-monotonic-clock">monotonic clock</a> which current time never decreases and which isn&amp;apos;t subject to these adjustments.</p>
+</blockquote>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Performance/timeOrigin">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -272,10 +388,16 @@ public class Performance</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Performance_Timing" data-uid="CSharpToJavaScript.APIs.JS.Performance.Timing">
   Timing
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10543"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L15252"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><div class="IMPORTANT"><h5>IMPORTANT</h5> <strong>Deprecated</strong></div> <blockquote class="WARNING"><h5>WARNING</h5><strong>Warning:</strong> This interface is deprecated in the <a href="https://w3c.github.io/navigation-timing/#obsolete">Navigation Timing Level 2 specification</a>. Please use the PerformanceNavigationTiming interface instead.</blockquote>
+  <div class="markdown level1 summary"><div class="IMPORTANT">
+  <h5>IMPORTANT</h5>
+  <strong>Deprecated</strong>
+</div>
+<blockquote class="WARNING">
+  <h5>WARNING</h5>
+  <strong>Warning:</strong> This interface is deprecated in the <a href="https://w3c.github.io/navigation-timing/#obsolete">Navigation Timing Level 2 specification</a>. Please use the <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceNavigationTiming.html">PerformanceNavigationTiming</a> interface instead.</blockquote>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -290,7 +412,7 @@ public class Performance</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceTiming.html">PerformanceTiming</a></dt>
-    <dd>Web performance is the objective measurements and the perceived user experience of load time and runtime. Web performance is how long a site takes to load, become interactive and responsive, and how smooth the content is during user interactions - is the scrolling smooth? are buttons clickable? Are pop-ups quick to load and display, and do they animate smoothly as they do so? Web performance includes both objective measurements like time to load, frames per second, and time to become interactive, and subjective experiences of how long it felt like it took the content to load.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -298,8 +420,585 @@ public class Performance</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_Performance_Timing_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>The <strong><code>PerformanceTiming</code></strong> interface is a legacy interface kept for backwards compatibility and contains properties that offer performance timing information for various events which occur during the loading and use of the current page. You get a <code>PerformanceTiming</code> object describing your page using the <a class="xref" href="CSharpToJavaScript.APIs.JS.Performance.html#CSharpToJavaScript_APIs_JS_Performance_Timing">Timing</a> property.</p>
-<p>-The <a class="xref" href="CSharpToJavaScript.APIs.JS.Performance.html#CSharpToJavaScript_APIs_JS_Performance_Timing">Timing</a> property that creates such an object.<br>-PerformanceNavigationTiming (part of Navigation Timing Level 2) that has superseded this API.<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/PerformanceTiming"> <em>See also on MDN</em> </a></p>
+<p>-The <a class="xref" href="CSharpToJavaScript.APIs.JS.Performance.html#CSharpToJavaScript_APIs_JS_Performance_Timing">Timing</a> property that creates such an object.<br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceNavigationTiming.html">PerformanceNavigationTiming</a> (part of Navigation Timing Level 2) that has superseded this API.<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/PerformanceTiming">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_Performance_ClearMarks_" data-uid="CSharpToJavaScript.APIs.JS.Performance.ClearMarks*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_Performance_ClearMarks_System_String_" data-uid="CSharpToJavaScript.APIs.JS.Performance.ClearMarks(System.String)">
+  ClearMarks(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L21350"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>clearMarks()</code></strong> method removes all or specific <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceMark.html">PerformanceMark</a> objects from the browser's performance timeline.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined ClearMarks(string markName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>markName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Performance_ClearMarks_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceMark.html">PerformanceMark</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Performance/clearMarks">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_Performance_ClearMeasures_" data-uid="CSharpToJavaScript.APIs.JS.Performance.ClearMeasures*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_Performance_ClearMeasures_System_String_" data-uid="CSharpToJavaScript.APIs.JS.Performance.ClearMeasures(System.String)">
+  ClearMeasures(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L21354"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>clearMeasures()</code></strong> method removes all or specific <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceMeasure.html">PerformanceMeasure</a> objects from the browser's performance timeline.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined ClearMeasures(string measureName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>measureName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Performance_ClearMeasures_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceMeasure.html">PerformanceMeasure</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Performance/clearMeasures">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_Performance_ClearResourceTimings_" data-uid="CSharpToJavaScript.APIs.JS.Performance.ClearResourceTimings*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_Performance_ClearResourceTimings" data-uid="CSharpToJavaScript.APIs.JS.Performance.ClearResourceTimings">
+  ClearResourceTimings()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L17262"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>clearResourceTimings()</code></strong> method removes all performance entries with an <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceEntry.html#CSharpToJavaScript_APIs_JS_PerformanceEntry_EntryType">EntryType</a> of &quot;<code>resource</code>&amp;quot; from the browser&amp;apos;s performance timeline and sets the size of the performance resource data buffer to zero.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined ClearResourceTimings()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Performance_ClearResourceTimings_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>To set the size of the browser&amp;apos;s performance resource data buffer, use the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Performance.html#CSharpToJavaScript_APIs_JS_Performance_SetResourceTimingBufferSize_System_UInt64_">SetResourceTimingBufferSize(ulong)</a> method.</p>
+<p>To get notified when the browser's resource timing buffer is full, listen for the Performance.Resourcetimingbufferfull_event event.</p>
+<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Performance.html#CSharpToJavaScript_APIs_JS_Performance_SetResourceTimingBufferSize_System_UInt64_">SetResourceTimingBufferSize(ulong)</a><br>-Performance.Resourcetimingbufferfull_event<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Performance/clearResourceTimings">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_Performance_GetEntries_" data-uid="CSharpToJavaScript.APIs.JS.Performance.GetEntries*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_Performance_GetEntries" data-uid="CSharpToJavaScript.APIs.JS.Performance.GetEntries">
+  GetEntries()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16101"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>getEntries()</code></strong> method returns an array of all <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceEntry.html">PerformanceEntry</a> objects currently present in the performance timeline.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;PerformanceEntry&gt; GetEntries()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceEntry.html">PerformanceEntry</a>&gt;</dt>
+    <dd><p>An {{jsxref(&quot;Array&quot;)}} of <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceEntry.html">PerformanceEntry</a> objects. The items will be in chronological order based on the entries' <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceEntry.html#CSharpToJavaScript_APIs_JS_PerformanceEntry_StartTime">StartTime</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Performance_GetEntries_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>If you are only interested in performance entries of certain types or that have certain names, see <a class="xref" href="CSharpToJavaScript.APIs.JS.Performance.html#CSharpToJavaScript_APIs_JS_Performance_GetEntriesByType_System_String_">GetEntriesByType(string)</a> and <a class="xref" href="CSharpToJavaScript.APIs.JS.Performance.html#CSharpToJavaScript_APIs_JS_Performance_GetEntriesByName_System_String_System_String_">GetEntriesByName(string, string)</a>.</p>
+<blockquote class="NOTE">
+  <h5>NOTE</h5>
+  <p>
+    <strong>Note:</strong> This method does not notify you about new performance entries; you will only get entries that are present in the performance timeline at the time you call this method.<br>To receive notifications about entries as they become available, use a <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceObserver.html">PerformanceObserver</a>.</p>
+</blockquote>
+<p>The following entry types are not supported by this method at all and won&amp;apos;t be returned even if entries for these types might exist:</p>
+<p>To access entries of these types, you must use a <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceObserver.html">PerformanceObserver</a> instead.</p>
+<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Performance.html#CSharpToJavaScript_APIs_JS_Performance_GetEntriesByType_System_String_">GetEntriesByType(string)</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Performance.html#CSharpToJavaScript_APIs_JS_Performance_GetEntriesByName_System_String_System_String_">GetEntriesByName(string, string)</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Performance/getEntries">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_Performance_GetEntriesByName_" data-uid="CSharpToJavaScript.APIs.JS.Performance.GetEntriesByName*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_Performance_GetEntriesByName_System_String_System_String_" data-uid="CSharpToJavaScript.APIs.JS.Performance.GetEntriesByName(System.String,System.String)">
+  GetEntriesByName(string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16105"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>getEntriesByName()</code></strong> method returns an array of <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceEntry.html">PerformanceEntry</a> objects currently present in the performance timeline with the given <strong>name</strong> and <strong>type</strong>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;PerformanceEntry&gt; GetEntriesByName(string name, string type)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceEntry.html">PerformanceEntry</a>&gt;</dt>
+    <dd><p>An {{jsxref(&quot;Array&quot;)}} of <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceEntry.html">PerformanceEntry</a> objects that have the specified <code>name</code> and <code>type</code>.<br>The items will be in chronological order based on the entries' <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceEntry.html#CSharpToJavaScript_APIs_JS_PerformanceEntry_StartTime">StartTime</a>. If no objects meet the<br>specified criteria, an empty array is returned.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Performance_GetEntriesByName_System_String_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>If you are interested in performance entries of certain types, see <a class="xref" href="CSharpToJavaScript.APIs.JS.Performance.html#CSharpToJavaScript_APIs_JS_Performance_GetEntriesByType_System_String_">GetEntriesByType(string)</a>. For all performance entries, see <a class="xref" href="CSharpToJavaScript.APIs.JS.Performance.html#CSharpToJavaScript_APIs_JS_Performance_GetEntries">GetEntries()</a>.</p>
+<blockquote class="NOTE">
+  <h5>NOTE</h5>
+  <p>
+    <strong>Note:</strong> This method does not notify you about new performance entries; you will only get entries that are present in the performance timeline at the time you call this method.<br>To receive notifications about entries as they become available, use a <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceObserver.html">PerformanceObserver</a>.</p>
+</blockquote>
+<p>The following entry types are not supported by this method at all and won&amp;apos;t be returned even if entries for these types might exist:</p>
+<p>To access entries of these types, you must use a <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceObserver.html">PerformanceObserver</a> instead.</p>
+<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Performance.html#CSharpToJavaScript_APIs_JS_Performance_GetEntries">GetEntries()</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Performance.html#CSharpToJavaScript_APIs_JS_Performance_GetEntriesByType_System_String_">GetEntriesByType(string)</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Performance/getEntriesByName">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_Performance_GetEntriesByType_" data-uid="CSharpToJavaScript.APIs.JS.Performance.GetEntriesByType*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_Performance_GetEntriesByType_System_String_" data-uid="CSharpToJavaScript.APIs.JS.Performance.GetEntriesByType(System.String)">
+  GetEntriesByType(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16103"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>getEntriesByType()</code></strong> method returns an array of <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceEntry.html">PerformanceEntry</a> objects currently present in the performance timeline for a given <strong>type</strong>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;PerformanceEntry&gt; GetEntriesByType(string type)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceEntry.html">PerformanceEntry</a>&gt;</dt>
+    <dd><p>An {{jsxref(&quot;Array&quot;)}} of <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceEntry.html">PerformanceEntry</a> objects that have the specified <code>type</code>. The items will be in chronological order based on the entries' <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceEntry.html#CSharpToJavaScript_APIs_JS_PerformanceEntry_StartTime">StartTime</a>. If no objects have the specified <code>type</code>, or no argument is provided, an empty array is returned.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Performance_GetEntriesByType_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>If you are interested in performance entries of certain name, see <a class="xref" href="CSharpToJavaScript.APIs.JS.Performance.html#CSharpToJavaScript_APIs_JS_Performance_GetEntriesByName_System_String_System_String_">GetEntriesByName(string, string)</a>. For all performance entries, see <a class="xref" href="CSharpToJavaScript.APIs.JS.Performance.html#CSharpToJavaScript_APIs_JS_Performance_GetEntries">GetEntries()</a>.</p>
+<blockquote class="NOTE">
+  <h5>NOTE</h5>
+  <p>
+    <strong>Note:</strong> This method does not notify you about new performance entries; you will only get entries that are present in the performance timeline at the time you call this method.<br>To receive notifications about entries as they become available, use a <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceObserver.html">PerformanceObserver</a>.</p>
+</blockquote>
+<p>The following entry types are not supported by this method at all and won&amp;apos;t be returned even if entries for these types might exist:</p>
+<p>To access entries of these types, you must use a <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceObserver.html">PerformanceObserver</a> instead.</p>
+<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Performance.html#CSharpToJavaScript_APIs_JS_Performance_GetEntries">GetEntries()</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Performance.html#CSharpToJavaScript_APIs_JS_Performance_GetEntriesByName_System_String_System_String_">GetEntriesByName(string, string)</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceObserver.html#CSharpToJavaScript_APIs_JS_PerformanceObserver_SupportedEntryTypes">SupportedEntryTypes</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Performance/getEntriesByType">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_Performance_Mark_" data-uid="CSharpToJavaScript.APIs.JS.Performance.Mark*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_Performance_Mark_System_String_CSharpToJavaScript_APIs_JS_PerformanceMarkOptions_" data-uid="CSharpToJavaScript.APIs.JS.Performance.Mark(System.String,CSharpToJavaScript.APIs.JS.PerformanceMarkOptions)">
+  Mark(string, PerformanceMarkOptions)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L21348"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><strong>
+  <code>PerformanceMark</code>
+</strong> is an interface for <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceEntry.html">PerformanceEntry</a> objects with an <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceEntry.html#CSharpToJavaScript_APIs_JS_PerformanceEntry_EntryType">EntryType</a> of "<code>mark</code>&amp;quot;.
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PerformanceMark Mark(string markName, PerformanceMarkOptions markOptions)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>markName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>markOptions</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceMarkOptions.html">PerformanceMarkOptions</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceMark.html">PerformanceMark</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Performance_Mark_System_String_CSharpToJavaScript_APIs_JS_PerformanceMarkOptions__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Entries of this type are typically created by calling <a class="xref" href="CSharpToJavaScript.APIs.JS.Performance.html#CSharpToJavaScript_APIs_JS_Performance_Mark_System_String_CSharpToJavaScript_APIs_JS_PerformanceMarkOptions_">Mark(string, PerformanceMarkOptions)</a> to add a <strong>named</strong><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a> (the <strong>mark</strong>) to the browser&amp;apos;s performance timeline. To create a performance mark that isn&amp;apos;t added to the browser&amp;apos;s performance timeline, use the constructor.</p>
+<p></p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Performance_API/User_timing">User Timing (Overview)</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Performance_API/User_timing">Using the User Timing API</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/PerformanceMark">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_Performance_Measure_" data-uid="CSharpToJavaScript.APIs.JS.Performance.Measure*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_Performance_Measure_System_String_CSharpToJavaScript_APIs_JS_Union134_System_String_" data-uid="CSharpToJavaScript.APIs.JS.Performance.Measure(System.String,CSharpToJavaScript.APIs.JS.Union134,System.String)">
+  Measure(string, Union134, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L21352"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><strong>
+  <code>PerformanceMeasure</code>
+</strong> is an <strong>abstract</strong> interface for <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceEntry.html">PerformanceEntry</a> objects with an <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceEntry.html#CSharpToJavaScript_APIs_JS_PerformanceEntry_EntryType">EntryType</a> of "<code>measure</code>". Entries of this type are created by calling <a class="xref" href="CSharpToJavaScript.APIs.JS.Performance.html#CSharpToJavaScript_APIs_JS_Performance_Measure_System_String_CSharpToJavaScript_APIs_JS_Union134_System_String_">Measure(string, Union134, string)</a> to add a <strong>named</strong><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a> (the <strong>measure</strong>) between two <strong>marks</strong> to the browser&amp;apos;s <strong>performance timeline</strong>.
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PerformanceMeasure Measure(string measureName, Union134 startOrMeasureOptions, string endMark)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>measureName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>startOrMeasureOptions</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union134.html">Union134</a></dt>
+    <dd></dd>
+    <dt><code>endMark</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceMeasure.html">PerformanceMeasure</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Performance_Measure_System_String_CSharpToJavaScript_APIs_JS_Union134_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p></p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Performance_API/User_timing">User Timing (Overview)</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Performance_API/User_timing">Using the User Timing API</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/PerformanceMeasure">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_Performance_MeasureUserAgentSpecificMemory_" data-uid="CSharpToJavaScript.APIs.JS.Performance.MeasureUserAgentSpecificMemory*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_Performance_MeasureUserAgentSpecificMemory" data-uid="CSharpToJavaScript.APIs.JS.Performance.MeasureUserAgentSpecificMemory">
+  MeasureUserAgentSpecificMemory()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16094"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>measureUserAgentSpecificMemory()</code></strong> method is used to estimate the memory usage of a web application including all its iframes and workers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MemoryMeasurement&gt; MeasureUserAgentSpecificMemory()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CSharpToJavaScript.APIs.JS.MemoryMeasurement.html">MemoryMeasurement</a>&gt;</dt>
+    <dd><p>A Promise that resolves to an object containing the following properties:An example return value looks like this:</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Performance_MeasureUserAgentSpecificMemory_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-SetTimeout<br>-<a href="https://web.dev/articles/monitor-total-page-memory-usage">Monitor your web page&amp;apos;s total memory usage with measureUserAgentSpecificMemory() - web.dev</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Performance/measureUserAgentSpecificMemory">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_Performance_Now_" data-uid="CSharpToJavaScript.APIs.JS.Performance.Now*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_Performance_Now" data-uid="CSharpToJavaScript.APIs.JS.Performance.Now">
+  Now()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8114"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>performance.now()</code></strong> method returns a high resolution timestamp in milliseconds. It represents the time elapsed since <a class="xref" href="CSharpToJavaScript.APIs.JS.Performance.html#CSharpToJavaScript_APIs_JS_Performance_TimeOrigin">TimeOrigin</a> (the time when navigation has started in window contexts, or the time when the worker is run in <a class="xref" href="CSharpToJavaScript.APIs.JS.Worker.html">Worker</a> and <a class="xref" href="CSharpToJavaScript.APIs.JS.ServiceWorker.html">ServiceWorker</a> contexts).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Number Now()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dd><p>Returns a <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a> measured in milliseconds.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Performance_Now_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Performance.html#CSharpToJavaScript_APIs_JS_Performance_TimeOrigin">TimeOrigin</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Performance/now">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_Performance_SetResourceTimingBufferSize_" data-uid="CSharpToJavaScript.APIs.JS.Performance.SetResourceTimingBufferSize*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_Performance_SetResourceTimingBufferSize_System_UInt64_" data-uid="CSharpToJavaScript.APIs.JS.Performance.SetResourceTimingBufferSize(System.UInt64)">
+  SetResourceTimingBufferSize(ulong)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L17264"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>setResourceTimingBufferSize()</code></strong> method sets the desired size of the browser&amp;apos;s resource timing buffer which stores the &amp;quot;<code>resource</code>&amp;quot; performance entries.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined SetResourceTimingBufferSize(ulong maxSize)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>maxSize</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Performance_SetResourceTimingBufferSize_System_UInt64__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The specification requires the resource timing buffer initially to be 250 or greater.</p>
+<p>To clear the browser&amp;apos;s performance resource data buffer, use the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Performance.html#CSharpToJavaScript_APIs_JS_Performance_ClearResourceTimings">ClearResourceTimings()</a> method.</p>
+<p>To get notified when the browser's resource timing buffer is full, listen for the Performance.Resourcetimingbufferfull_event event.</p>
+<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Performance.html#CSharpToJavaScript_APIs_JS_Performance_ClearResourceTimings">ClearResourceTimings()</a><br>-Performance.Resourcetimingbufferfull_event<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Performance/setResourceTimingBufferSize">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_Performance_ToJSON_" data-uid="CSharpToJavaScript.APIs.JS.Performance.ToJSON*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_Performance_ToJSON" data-uid="CSharpToJavaScript.APIs.JS.Performance.ToJSON">
+  ToJSON()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8118"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>toJSON()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Performance.html">Performance</a> interface is a {{Glossary(&quot;Serialization&quot;,&quot;serializer&quot;)}}; it returns a JSON representation of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Performance.html">Performance</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object ToJSON()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>A {{jsxref(&quot;JSON&quot;)}} object that is the serialization of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Performance.html">Performance</a> object.The returned JSON doesn't contain the <a class="xref" href="CSharpToJavaScript.APIs.JS.Performance.html#CSharpToJavaScript_APIs_JS_Performance_EventCounts">EventCounts</a> property because it is of type <a class="xref" href="CSharpToJavaScript.APIs.JS.Performance.html#CSharpToJavaScript_APIs_JS_Performance_EventCounts">EventCounts</a>, which doesn't provide a <code>toJSON()</code> operation.<blockquote class="NOTE"><h5>NOTE</h5><strong>Note:</strong> The JSON object contains the serialization of the deprecated <a class="xref" href="CSharpToJavaScript.APIs.JS.Performance.html#CSharpToJavaScript_APIs_JS_Performance_Timing">Timing</a> and <a class="xref" href="CSharpToJavaScript.APIs.JS.Performance.html#CSharpToJavaScript_APIs_JS_Performance_Navigation">Navigation</a> properties. To get a JSON representation of the newer <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceNavigationTiming.html">PerformanceNavigationTiming</a> interface, call <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceNavigationTiming.html#CSharpToJavaScript_APIs_JS_PerformanceNavigationTiming_ToJSON">ToJSON()</a> instead.</blockquote>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Performance_ToJSON_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-JSON<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Performance/toJSON">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -309,7 +1008,7 @@ public class Performance</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10540" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L21345" class="edit-link">Edit this page</a>
         </div>
 
 

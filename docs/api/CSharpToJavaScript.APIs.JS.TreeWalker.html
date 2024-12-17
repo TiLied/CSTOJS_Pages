@@ -2,11 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class TreeWalker
- | CSharpToJavaScript </title>
+      <title>Class TreeWalker | CSharpToJavaScript </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class TreeWalker
- | CSharpToJavaScript ">
+      <meta name="title" content="Class TreeWalker | CSharpToJavaScript ">
       
       <meta name="description" content="The TreeWalker object represents the nodes of a document subtree and a position within them.">
       <link rel="icon" href="../favicon.ico">
@@ -31,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -91,8 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_TreeWalker" data-uid="CSharpToJavaScript.APIs.JS.TreeWalker" class="text-break">
-    Class TreeWalker
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6858"><i class="bi bi-code-slash"></i></a>
+Class TreeWalker  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5026"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -122,7 +119,7 @@ public class TreeWalker</code></pre>
 
 
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
     <div>
@@ -153,8 +150,12 @@ public class TreeWalker</code></pre>
 
   <h2 id="CSharpToJavaScript_APIs_JS_TreeWalker_remarks">Remarks</h2>
   <div class="markdown level0 remarks"><p>A <code>TreeWalker</code> can be created using the <a class="xref" href="CSharpToJavaScript.APIs.JS.Document.html#CSharpToJavaScript_APIs_JS_Document_CreateTreeWalker_CSharpToJavaScript_APIs_JS_Node_System_UInt64_CSharpToJavaScript_APIs_JS_NodeFilter_">CreateTreeWalker(Node, ulong, NodeFilter?)</a> method.</p>
-<p>-The creator method: <a class="xref" href="CSharpToJavaScript.APIs.JS.Document.html#CSharpToJavaScript_APIs_JS_Document_CreateTreeWalker_CSharpToJavaScript_APIs_JS_Node_System_UInt64_CSharpToJavaScript_APIs_JS_NodeFilter_">CreateTreeWalker(Node, ulong, NodeFilter?)</a>.<br>-Related interfaces: <a class="xref" href="CSharpToJavaScript.APIs.JS.NodeFilter.html">NodeFilter</a>, <a class="xref" href="CSharpToJavaScript.APIs.JS.NodeIterator.html">NodeIterator</a>.<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/TreeWalker"> <em>See also on MDN</em> </a></p>
+<p>-The creator method: <a class="xref" href="CSharpToJavaScript.APIs.JS.Document.html#CSharpToJavaScript_APIs_JS_Document_CreateTreeWalker_CSharpToJavaScript_APIs_JS_Node_System_UInt64_CSharpToJavaScript_APIs_JS_NodeFilter_">CreateTreeWalker(Node, ulong, NodeFilter?)</a>.<br>-Related interface: <a class="xref" href="CSharpToJavaScript.APIs.JS.NodeIterator.html">NodeIterator</a>.<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/TreeWalker">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -166,7 +167,7 @@ public class TreeWalker</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_TreeWalker_CurrentNode" data-uid="CSharpToJavaScript.APIs.JS.TreeWalker.CurrentNode">
   CurrentNode
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6868"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5036"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>TreeWalker.currentNode</code></strong> property represents the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a> which the <a class="xref" href="CSharpToJavaScript.APIs.JS.TreeWalker.html">TreeWalker</a> is currently pointing at.</p>
@@ -193,7 +194,11 @@ public class TreeWalker</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_TreeWalker_CurrentNode_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-The <a class="xref" href="CSharpToJavaScript.APIs.JS.TreeWalker.html">TreeWalker</a> interface.<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/TreeWalker/currentNode"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/TreeWalker/currentNode">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -203,10 +208,10 @@ public class TreeWalker</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_TreeWalker_Filter" data-uid="CSharpToJavaScript.APIs.JS.TreeWalker.Filter">
   Filter
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6866"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5034"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>TreeWalker.filter</code></strong> read-only property returns a<br><a class="xref" href="CSharpToJavaScript.APIs.JS.NodeFilter.html">NodeFilter</a> that is the filtering object associated with the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.TreeWalker.html">TreeWalker</a>.</p>
+  <div class="markdown level1 summary"><p>The <strong><code>TreeWalker.filter</code></strong> read-only property returns a<br><code>NodeFilter</code> that is the filtering object associated with the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.TreeWalker.html">TreeWalker</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -221,7 +226,7 @@ public class TreeWalker</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.NodeFilter.html">NodeFilter</a></dt>
-    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.NodeFilter.html">NodeFilter</a> object.</p>
+    <dd><p>A <code>NodeFilter</code> object.</p>
 </dd>
   </dl>
 
@@ -229,9 +234,13 @@ public class TreeWalker</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_TreeWalker_Filter_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>When creating the <code>TreeWalker</code>, the filter object is passed in as the third<br>parameter, and its method <a class="xref" href="CSharpToJavaScript.APIs.JS.NodeFilter.html#CSharpToJavaScript_APIs_JS_NodeFilter_AcceptNode_CSharpToJavaScript_APIs_JS_Node_">AcceptNode(Node)</a> is called on every<br>single node to determine whether or not to accept it.</p>
+  <div class="markdown level1 remarks"><p>When creating the <code>TreeWalker</code>, the filter object is passed in as the third<br>parameter, and its method <code>acceptNode()</code> is called on every<br>single node to determine whether or not to accept it.</p>
 <p>-The <a class="xref" href="CSharpToJavaScript.APIs.JS.TreeWalker.html">TreeWalker</a> interface it belongs to.<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/TreeWalker/filter"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/TreeWalker/filter">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -241,7 +250,7 @@ public class TreeWalker</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_TreeWalker_Root" data-uid="CSharpToJavaScript.APIs.JS.TreeWalker.Root">
   Root
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6862"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5030"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>TreeWalker.root</code></strong> read-only property returns the node<br>that is the root of what the TreeWalker traverses.</p>
@@ -268,7 +277,11 @@ public class TreeWalker</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_TreeWalker_Root_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-The <a class="xref" href="CSharpToJavaScript.APIs.JS.TreeWalker.html">TreeWalker</a> interface.<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/TreeWalker/root"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/TreeWalker/root">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -278,7 +291,7 @@ public class TreeWalker</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_TreeWalker_WhatToShow" data-uid="CSharpToJavaScript.APIs.JS.TreeWalker.WhatToShow">
   WhatToShow
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6864"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5032"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>TreeWalker.whatToShow</code></strong> read-only property returns a<br>bitmask that indicates the types of<br><a href="https://developer.mozilla.org/en-US/docs/Web/API/Node">nodes</a> to show. Non-matching nodes are skipped, but their<br>children may be included, if relevant. The possible values are:</p>
@@ -305,7 +318,11 @@ public class TreeWalker</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_TreeWalker_WhatToShow_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-The <a class="xref" href="CSharpToJavaScript.APIs.JS.TreeWalker.html">TreeWalker</a> interface.<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/TreeWalker/whatToShow"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/TreeWalker/whatToShow">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -319,7 +336,7 @@ public class TreeWalker</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_TreeWalker_FirstChild" data-uid="CSharpToJavaScript.APIs.JS.TreeWalker.FirstChild">
   FirstChild()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6872"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5040"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>TreeWalker.firstChild()</code></strong> method moves the current<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a> to the first <strong>visible</strong> child of the current node, and returns<br>the found child. If no such child exists, it returns <code>null</code> and the current node is not changed.</p>
@@ -346,7 +363,11 @@ public class TreeWalker</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_TreeWalker_FirstChild_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-The <a class="xref" href="CSharpToJavaScript.APIs.JS.TreeWalker.html">TreeWalker</a> interface it belongs to.<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/TreeWalker/firstChild"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/TreeWalker/firstChild">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -356,7 +377,7 @@ public class TreeWalker</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_TreeWalker_LastChild" data-uid="CSharpToJavaScript.APIs.JS.TreeWalker.LastChild">
   LastChild()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6874"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5042"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>TreeWalker.lastChild()</code></strong> method moves the current<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a> to the last <strong>visible</strong> child of the current node, and returns<br>the found child. If no such child exists, it returns <code>null</code> and the current node is not changed.</p>
@@ -383,7 +404,11 @@ public class TreeWalker</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_TreeWalker_LastChild_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-The <a class="xref" href="CSharpToJavaScript.APIs.JS.TreeWalker.html">TreeWalker</a> interface it belongs to.<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/TreeWalker/lastChild"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/TreeWalker/lastChild">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -393,7 +418,7 @@ public class TreeWalker</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_TreeWalker_NextNode" data-uid="CSharpToJavaScript.APIs.JS.TreeWalker.NextNode">
   NextNode()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6882"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5050"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>TreeWalker.nextNode()</code></strong> method moves the current<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a> to the next <strong>visible</strong> node in the document order, and returns<br>the found node. If no such node exists, it returns <code>null</code> and the current node is not changed.</p>
@@ -420,7 +445,11 @@ public class TreeWalker</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_TreeWalker_NextNode_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-The <a class="xref" href="CSharpToJavaScript.APIs.JS.TreeWalker.html">TreeWalker</a> interface it belongs to.<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/TreeWalker/nextNode"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/TreeWalker/nextNode">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -430,7 +459,7 @@ public class TreeWalker</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_TreeWalker_NextSibling" data-uid="CSharpToJavaScript.APIs.JS.TreeWalker.NextSibling">
   NextSibling()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6878"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5046"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>TreeWalker.nextSibling()</code></strong> method moves the current<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a> to its next sibling, if any, and returns the found sibling. If there<br>is no such node, it returns <code>null</code> and the current node is not changed.</p>
@@ -457,7 +486,11 @@ public class TreeWalker</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_TreeWalker_NextSibling_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-The <a class="xref" href="CSharpToJavaScript.APIs.JS.TreeWalker.html">TreeWalker</a> interface it belongs to.<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/TreeWalker/nextSibling"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/TreeWalker/nextSibling">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -467,7 +500,7 @@ public class TreeWalker</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_TreeWalker_ParentNode" data-uid="CSharpToJavaScript.APIs.JS.TreeWalker.ParentNode">
   ParentNode()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6870"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5038"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>TreeWalker.parentNode()</code></strong> method moves the current<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a> to the first <strong>visible</strong> ancestor node in the document order,<br>and returns the found node. If no such node exists, or if it is above the<br><code>TreeWalker</code>&amp;apos;s <strong>root node</strong>, it returns <code>null</code> and the current<br>node is not changed.</p>
@@ -494,7 +527,11 @@ public class TreeWalker</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_TreeWalker_ParentNode_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-The <a class="xref" href="CSharpToJavaScript.APIs.JS.TreeWalker.html">TreeWalker</a> interface it belongs to.<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/TreeWalker/parentNode"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/TreeWalker/parentNode">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -504,7 +541,7 @@ public class TreeWalker</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_TreeWalker_PreviousNode" data-uid="CSharpToJavaScript.APIs.JS.TreeWalker.PreviousNode">
   PreviousNode()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6880"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5048"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>TreeWalker.previousNode()</code></strong> method moves the current<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a> to the previous <strong>visible</strong> node in the document order, and<br>returns the found node. If no such node<br>exists, or if it is before that the <strong>root node</strong> defined at the object<br>construction, it returns <code>null</code> and the current node is not changed.</p>
@@ -531,7 +568,11 @@ public class TreeWalker</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_TreeWalker_PreviousNode_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-The <a class="xref" href="CSharpToJavaScript.APIs.JS.TreeWalker.html">TreeWalker</a> interface it belongs to.<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/TreeWalker/previousNode"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/TreeWalker/previousNode">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -541,7 +582,7 @@ public class TreeWalker</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_TreeWalker_PreviousSibling" data-uid="CSharpToJavaScript.APIs.JS.TreeWalker.PreviousSibling">
   PreviousSibling()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6876"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5044"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>TreeWalker.previousSibling()</code></strong> method moves the current<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a> to its previous sibling, if any, and returns the found sibling. If<br>there is no such node, it returns <code>null</code> and the current node is not changed.</p>
@@ -568,7 +609,11 @@ public class TreeWalker</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_TreeWalker_PreviousSibling_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-The <a class="xref" href="CSharpToJavaScript.APIs.JS.TreeWalker.html">TreeWalker</a> interface it belongs to.<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/TreeWalker/previousSibling"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/TreeWalker/previousSibling">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -578,7 +623,7 @@ public class TreeWalker</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6858" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5026" class="edit-link">Edit this page</a>
         </div>
 
 

@@ -2,11 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Enum DocumentReadyState
- | CSharpToJavaScript </title>
+      <title>Enum DocumentReadyState | CSharpToJavaScript </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Enum DocumentReadyState
- | CSharpToJavaScript ">
+      <meta name="title" content="Enum DocumentReadyState | CSharpToJavaScript ">
       
       <meta name="description" content="The Document.readyState property describes the loading state of the .When the value of this property changes, a Document/readystatechange_event event fires on the  object.">
       <link rel="icon" href="../favicon.ico">
@@ -31,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -92,8 +90,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_DocumentReadyState" data-uid="CSharpToJavaScript.APIs.JS.DocumentReadyState" class="text-break">
-    Enum DocumentReadyState
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L140"><i class="bi bi-code-slash"></i></a>
+Enum DocumentReadyState  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8189"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -106,7 +103,8 @@
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public enum DocumentReadyState</code></pre>
+    <pre><code class="lang-csharp hljs">[To(&quot;None&quot;)]
+public enum DocumentReadyState</code></pre>
   </div>
 
 
@@ -120,24 +118,31 @@
   <h2 id="fields">Fields
 </h2>
   <dl class="parameters">
-    <dt id="CSharpToJavaScript_APIs_JS_DocumentReadyState_Complete"><code>Complete = 2</code></dt>
+    <dt id="CSharpToJavaScript_APIs_JS_DocumentReadyState_Complete"><code>[Value(&quot;complete&quot;)]
+Complete = 2</code></dt>
     <dd></dd>
-    <dt id="CSharpToJavaScript_APIs_JS_DocumentReadyState_Interactive"><code>Interactive = 1</code></dt>
+    <dt id="CSharpToJavaScript_APIs_JS_DocumentReadyState_Interactive"><code>[Value(&quot;interactive&quot;)]
+Interactive = 1</code></dt>
     <dd></dd>
-    <dt id="CSharpToJavaScript_APIs_JS_DocumentReadyState_Loading"><code>Loading = 0</code></dt>
+    <dt id="CSharpToJavaScript_APIs_JS_DocumentReadyState_Loading"><code>[Value(&quot;loading&quot;)]
+Loading = 0</code></dt>
     <dd></dd>
   </dl>
 
 
   <h2 id="CSharpToJavaScript_APIs_JS_DocumentReadyState_remarks">Remarks</h2>
   <div class="markdown level0 remarks"><p>-Related events:-Document/readystatechange_event<br>-Document/DOMContentLoaded_event<br>-Window/load_event<br><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/readyState"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/readyState">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L140" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8189" class="edit-link">Edit this page</a>
         </div>
 
 

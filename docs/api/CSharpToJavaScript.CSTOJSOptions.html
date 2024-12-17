@@ -2,11 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class CSTOJSOptions
- | CSharpToJavaScript </title>
+      <title>Class CSTOJSOptions | CSharpToJavaScript </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class CSTOJSOptions
- | CSharpToJavaScript ">
+      <meta name="title" content="Class CSTOJSOptions | CSharpToJavaScript ">
       
       <meta name="description" content="Options for .">
       <link rel="icon" href="../favicon.ico">
@@ -31,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -91,8 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_CSTOJSOptions" data-uid="CSharpToJavaScript.CSTOJSOptions" class="text-break">
-    Class CSTOJSOptions
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/CSTOJSOptions.cs/#L12"><i class="bi bi-code-slash"></i></a>
+Class CSTOJSOptions  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/CSTOJSOptions.cs/#L12"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -127,7 +124,7 @@
   </dl>
 
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
     <div>
@@ -166,7 +163,7 @@
 
   <h3 id="CSharpToJavaScript_CSTOJSOptions__ctor" data-uid="CSharpToJavaScript.CSTOJSOptions.#ctor">
   CSTOJSOptions()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/CSTOJSOptions.cs/#L91"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/CSTOJSOptions.cs/#L113"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Creates new default options. See <a class="xref" href="CSharpToJavaScript.CSTOJSOptions.html">CSTOJSOptions</a>.</p>
@@ -197,7 +194,7 @@
 
   <h3 id="CSharpToJavaScript_CSTOJSOptions_AddSBInEnd" data-uid="CSharpToJavaScript.CSTOJSOptions.AddSBInEnd">
   AddSBInEnd
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/CSTOJSOptions.cs/#L87"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/CSTOJSOptions.cs/#L109"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Add a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.text.stringbuilder">StringBuilder</a> to the end of a javascript file.</p>
@@ -233,7 +230,7 @@
 
   <h3 id="CSharpToJavaScript_CSTOJSOptions_AddSBInFront" data-uid="CSharpToJavaScript.CSTOJSOptions.AddSBInFront">
   AddSBInFront
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/CSTOJSOptions.cs/#L79"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/CSTOJSOptions.cs/#L101"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Add a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.text.stringbuilder">StringBuilder</a> to the front of a javascript file.</p>
@@ -269,7 +266,7 @@
 
   <h3 id="CSharpToJavaScript_CSTOJSOptions_CustomCSNamesToJS" data-uid="CSharpToJavaScript.CSTOJSOptions.CustomCSNamesToJS">
   CustomCSNamesToJS
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/CSTOJSOptions.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/CSTOJSOptions.cs/#L84"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>List of custom names to convert.</p>
@@ -305,7 +302,7 @@
 
   <h3 id="CSharpToJavaScript_CSTOJSOptions_CustomCSTypesToJS" data-uid="CSharpToJavaScript.CSTOJSOptions.CustomCSTypesToJS">
   CustomCSTypesToJS
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/CSTOJSOptions.cs/#L70"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/CSTOJSOptions.cs/#L92"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>List of types to convert.</p>
@@ -432,6 +429,84 @@
 
 
 
+
+
+
+
+  <a id="CSharpToJavaScript_CSTOJSOptions_KeepBraceOnTheSameLine_" data-uid="CSharpToJavaScript.CSTOJSOptions.KeepBraceOnTheSameLine*"></a>
+
+  <h3 id="CSharpToJavaScript_CSTOJSOptions_KeepBraceOnTheSameLine" data-uid="CSharpToJavaScript.CSTOJSOptions.KeepBraceOnTheSameLine">
+  KeepBraceOnTheSameLine
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/CSTOJSOptions.cs/#L64"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Keep Brace <code>{</code> on the same line.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool KeepBraceOnTheSameLine { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Default: <code>false</code></p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_CSTOJSOptions_KeepBraceOnTheSameLine_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><blockquote class="NOTE">
+  <h5>NOTE</h5>
+  <p>Note: It is better write from the start in c#, then using this option.</p>
+</blockquote>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_CSTOJSOptions_NormalizeWhitespace_" data-uid="CSharpToJavaScript.CSTOJSOptions.NormalizeWhitespace*"></a>
+
+  <h3 id="CSharpToJavaScript_CSTOJSOptions_NormalizeWhitespace" data-uid="CSharpToJavaScript.CSTOJSOptions.NormalizeWhitespace">
+  NormalizeWhitespace
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/CSTOJSOptions.cs/#L75"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Self-explanatory, Normalize Whitespace. /&gt;</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool NormalizeWhitespace { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>Default: <code>false</code></p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_CSTOJSOptions_NormalizeWhitespace_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><blockquote class="NOTE">
+  <h5>NOTE</h5>
+  <p>Note: If using with <a class="xref" href="CSharpToJavaScript.CSTOJSOptions.html#CSharpToJavaScript_CSTOJSOptions_KeepBraceOnTheSameLine">KeepBraceOnTheSameLine</a>. Normalization running before <a class="xref" href="CSharpToJavaScript.CSTOJSOptions.html#CSharpToJavaScript_CSTOJSOptions_KeepBraceOnTheSameLine">KeepBraceOnTheSameLine</a>.</p>
+</blockquote>
+</div>
 
 
 

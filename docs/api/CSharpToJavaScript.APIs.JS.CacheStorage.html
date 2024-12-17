@@ -2,11 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class CacheStorage
- | CSharpToJavaScript </title>
+      <title>Class CacheStorage | CSharpToJavaScript </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class CacheStorage
- | CSharpToJavaScript ">
+      <meta name="title" content="Class CacheStorage | CSharpToJavaScript ">
       
       <meta name="description" content="The CacheStorage interface represents the storage for  objects.">
       <link rel="icon" href="../favicon.ico">
@@ -31,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -91,8 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_CacheStorage" data-uid="CSharpToJavaScript.APIs.JS.CacheStorage" class="text-break">
-    Class CacheStorage
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L11306"><i class="bi bi-code-slash"></i></a>
+Class CacheStorage  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L18396"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -122,7 +119,7 @@ public class CacheStorage</code></pre>
 
 
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
     <div>
@@ -152,9 +149,28 @@ public class CacheStorage</code></pre>
 
 
   <h2 id="CSharpToJavaScript_APIs_JS_CacheStorage_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>The interface:</p><p>Use <a class="xref" href="CSharpToJavaScript.APIs.JS.CacheStorage.html#CSharpToJavaScript_APIs_JS_CacheStorage_Open_System_String_">Open(string)</a> to obtain a <a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html">Cache</a> instance.</p><p>Use <a class="xref" href="CSharpToJavaScript.APIs.JS.CacheStorage.html#CSharpToJavaScript_APIs_JS_CacheStorage_Match_CSharpToJavaScript_APIs_JS_Union59_CSharpToJavaScript_APIs_JS_MultiCacheQueryOptions_">Match(Union59, MultiCacheQueryOptions)</a> to check if a given <a class="xref" href="CSharpToJavaScript.APIs.JS.Request.html">Request</a> is a key in any of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html">Cache</a> objects that the <code>CacheStorage</code> object tracks.</p><p>You can access <code>CacheStorage</code> through the global Caches property.</p><blockquote class="NOTE"><h5>NOTE</h5><p><strong>Note:</strong> <code>CacheStorage</code> always rejects with a <code>SecurityError</code> on untrusted origins (i.e. those that aren&amp;apos;t using HTTPS, although this definition will likely become more complex in the future.) When testing on Firefox, you can get around this by checking the <strong>Enable Service Workers over HTTP (when toolbox is open)</strong> option in the Firefox Devtools options/gear menu. Furthermore, because <code>CacheStorage</code> requires file-system access, it may be unavailable in private mode in Firefox.</p></blockquote><blockquote class="NOTE"><h5>NOTE</h5><p><strong>Note:</strong> <a class="xref" href="CSharpToJavaScript.APIs.JS.CacheStorage.html#CSharpToJavaScript_APIs_JS_CacheStorage_Match_CSharpToJavaScript_APIs_JS_Union59_CSharpToJavaScript_APIs_JS_MultiCacheQueryOptions_">Match(Union59, MultiCacheQueryOptions)</a> is a convenience method. Equivalent functionality to match a cache entry can be implemented by returning an array of cache names from <a class="xref" href="CSharpToJavaScript.APIs.JS.CacheStorage.html#CSharpToJavaScript_APIs_JS_CacheStorage_Keys">Keys()</a>, opening each cache with <a class="xref" href="CSharpToJavaScript.APIs.JS.CacheStorage.html#CSharpToJavaScript_APIs_JS_CacheStorage_Open_System_String_">Open(string)</a>, and matching the one you want with <a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html#CSharpToJavaScript_APIs_JS_Cache_Match_CSharpToJavaScript_APIs_JS_Union59_CSharpToJavaScript_APIs_JS_CacheQueryOptions_">Match(Union59, CacheQueryOptions)</a>.</p></blockquote><p>AvailableInWorkers</p><p></p>
+  <div class="markdown level0 remarks"><p>The interface:</p>
+<p>Use <a class="xref" href="CSharpToJavaScript.APIs.JS.CacheStorage.html#CSharpToJavaScript_APIs_JS_CacheStorage_Open_System_String_">Open(string)</a> to obtain a <a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html">Cache</a> instance.</p>
+<p>Use <a class="xref" href="CSharpToJavaScript.APIs.JS.CacheStorage.html#CSharpToJavaScript_APIs_JS_CacheStorage_Match_CSharpToJavaScript_APIs_JS_Union44_CSharpToJavaScript_APIs_JS_MultiCacheQueryOptions_">Match(Union44, MultiCacheQueryOptions)</a> to check if a given <a class="xref" href="CSharpToJavaScript.APIs.JS.Request.html">Request</a> is a key in any of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html">Cache</a> objects that the <code>CacheStorage</code> object tracks.</p>
+<p>You can access <code>CacheStorage</code> through the global Caches property.</p>
+<blockquote class="NOTE">
+  <h5>NOTE</h5>
+  <p>
+    <strong>Note:</strong>
+    <code>CacheStorage</code> always rejects with a <code>SecurityError</code> on untrusted origins (i.e. those that aren&amp;apos;t using HTTPS, although this definition will likely become more complex in the future.) When testing on Firefox, you can get around this by checking the <strong>Enable Service Workers over HTTP (when toolbox is open)</strong> option in the Firefox Devtools options/gear menu. Furthermore, because <code>CacheStorage</code> requires file-system access, it may be unavailable in private mode in Firefox.</p>
+</blockquote>
+<blockquote class="NOTE">
+  <h5>NOTE</h5>
+  <p>
+    <strong>Note:</strong>
+    <a class="xref" href="CSharpToJavaScript.APIs.JS.CacheStorage.html#CSharpToJavaScript_APIs_JS_CacheStorage_Match_CSharpToJavaScript_APIs_JS_Union44_CSharpToJavaScript_APIs_JS_MultiCacheQueryOptions_">Match(Union44, MultiCacheQueryOptions)</a> is a convenience method. Equivalent functionality to match a cache entry can be implemented by returning an array of cache names from <a class="xref" href="CSharpToJavaScript.APIs.JS.CacheStorage.html#CSharpToJavaScript_APIs_JS_CacheStorage_Keys">Keys()</a>, opening each cache with <a class="xref" href="CSharpToJavaScript.APIs.JS.CacheStorage.html#CSharpToJavaScript_APIs_JS_CacheStorage_Open_System_String_">Open(string)</a>, and matching the one you want with <a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html#CSharpToJavaScript_APIs_JS_Cache_Match_CSharpToJavaScript_APIs_JS_Union44_CSharpToJavaScript_APIs_JS_CacheQueryOptions_">Match(Union44, CacheQueryOptions)</a>.</p>
+</blockquote>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers">Using Service Workers</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html">Cache</a><br>-Caches<br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API#private_browsing_incognito_modes">Private Browsing / Incognito modes</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -166,7 +182,7 @@ public class CacheStorage</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_CacheStorage_Delete_System_String_" data-uid="CSharpToJavaScript.APIs.JS.CacheStorage.Delete(System.String)">
   Delete(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L11316"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L18406"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>delete()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.CacheStorage.html">CacheStorage</a> interface finds the <a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html">Cache</a> object matching the <code>cacheName</code>, and if found, deletes the <a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html">Cache</a> object and returns a {{jsxref(&quot;Promise&quot;)}} that resolves to <code>true</code>.<br>If no <a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html">Cache</a> object is found, it resolves to <code>false</code>.</p>
@@ -180,7 +196,7 @@ public class CacheStorage</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>cacheName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd>The CacheStorage interface represents the storage for  objects.</dd>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -199,7 +215,11 @@ public class CacheStorage</code></pre>
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_CacheStorage_Delete_System_String__remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>You can access <code>CacheStorage</code> through the global Caches property.</p>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers">Using Service Workers</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html">Cache</a><br>-Caches<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/delete"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/delete">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -209,7 +229,7 @@ public class CacheStorage</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_CacheStorage_Has_System_String_" data-uid="CSharpToJavaScript.APIs.JS.CacheStorage.Has(System.String)">
   Has(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L11312"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L18402"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>has()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.CacheStorage.html">CacheStorage</a><br>interface returns a Promise that resolves to <code>true</code> if a<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html">Cache</a> object matches the <code>cacheName</code>.</p>
@@ -223,7 +243,7 @@ public class CacheStorage</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>cacheName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd>The CacheStorage interface represents the storage for  objects.</dd>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -242,7 +262,11 @@ public class CacheStorage</code></pre>
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_CacheStorage_Has_System_String__remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>You can access <code>CacheStorage</code> through the global Caches property.</p>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers">Using Service Workers</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html">Cache</a><br>-Caches<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/has"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/has">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -252,7 +276,7 @@ public class CacheStorage</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_CacheStorage_Keys" data-uid="CSharpToJavaScript.APIs.JS.CacheStorage.Keys">
   Keys()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L11318"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L18408"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>keys()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.CacheStorage.html">CacheStorage</a> interface returns a {{jsxref(&quot;Promise&quot;)}} that will resolve with an array containing strings corresponding to all of the named <a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html">Cache</a> objects tracked by the <a class="xref" href="CSharpToJavaScript.APIs.JS.CacheStorage.html">CacheStorage</a> object in the order they were created.<br>Use this method to iterate over a list of all <a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html">Cache</a> objects.</p>
@@ -280,7 +304,11 @@ public class CacheStorage</code></pre>
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_CacheStorage_Keys_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>You can access <code>CacheStorage</code> through the global Caches property.</p>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers">Using Service Workers</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html">Cache</a><br>-Caches<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/keys"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/keys">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -288,9 +316,9 @@ public class CacheStorage</code></pre>
 
   <a id="CSharpToJavaScript_APIs_JS_CacheStorage_Match_" data-uid="CSharpToJavaScript.APIs.JS.CacheStorage.Match*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_CacheStorage_Match_CSharpToJavaScript_APIs_JS_Union59_CSharpToJavaScript_APIs_JS_MultiCacheQueryOptions_" data-uid="CSharpToJavaScript.APIs.JS.CacheStorage.Match(CSharpToJavaScript.APIs.JS.Union59,CSharpToJavaScript.APIs.JS.MultiCacheQueryOptions)">
-  Match(Union59, MultiCacheQueryOptions)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L11310"><i class="bi bi-code-slash"></i></a>
+  <h3 id="CSharpToJavaScript_APIs_JS_CacheStorage_Match_CSharpToJavaScript_APIs_JS_Union44_CSharpToJavaScript_APIs_JS_MultiCacheQueryOptions_" data-uid="CSharpToJavaScript.APIs.JS.CacheStorage.Match(CSharpToJavaScript.APIs.JS.Union44,CSharpToJavaScript.APIs.JS.MultiCacheQueryOptions)">
+  Match(Union44, MultiCacheQueryOptions)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L18400"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>match()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.CacheStorage.html">CacheStorage</a> interface checks if a given <a class="xref" href="CSharpToJavaScript.APIs.JS.Request.html">Request</a> or URL string is a key for a stored <a class="xref" href="CSharpToJavaScript.APIs.JS.Response.html">Response</a>.<br>This method returns a {{jsxref(&quot;Promise&quot;)}} for a <a class="xref" href="CSharpToJavaScript.APIs.JS.Response.html">Response</a>, or a {{jsxref(&quot;Promise&quot;)}} which resolves to <code>undefined</code> if no match is found.</p>
@@ -298,15 +326,15 @@ public class CacheStorage</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;Response&gt; Match(Union59 request, MultiCacheQueryOptions options)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;Response&gt; Match(Union44 request, MultiCacheQueryOptions options)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>request</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union59.html">Union59</a></dt>
-    <dd>The CacheStorage interface represents the storage for  objects.</dd>
+    <dt><code>request</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union44.html">Union44</a></dt>
+    <dd></dd>
     <dt><code>options</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.MultiCacheQueryOptions.html">MultiCacheQueryOptions</a></dt>
-    <dd>The CacheStorage interface represents the storage for  objects.</dd>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -322,10 +350,22 @@ public class CacheStorage</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_CacheStorage_Match_CSharpToJavaScript_APIs_JS_Union59_CSharpToJavaScript_APIs_JS_MultiCacheQueryOptions__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>You can access <code>CacheStorage</code> through the global<br>Caches property.</p><p><code>Cache</code> objects are searched in creation order.</p><blockquote class="NOTE"><h5>NOTE</h5><p><strong>Note:</strong> <a class="xref" href="CSharpToJavaScript.APIs.JS.CacheStorage.html#CSharpToJavaScript_APIs_JS_CacheStorage_Match_CSharpToJavaScript_APIs_JS_Union59_CSharpToJavaScript_APIs_JS_MultiCacheQueryOptions_">Match(Union59, MultiCacheQueryOptions)</a> is a convenience method.<br>Equivalent functionality is to call <a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html#CSharpToJavaScript_APIs_JS_Cache_Match_CSharpToJavaScript_APIs_JS_Union59_CSharpToJavaScript_APIs_JS_CacheQueryOptions_">Match(Union59, CacheQueryOptions)</a> on each cache (in the order returned by <a class="xref" href="CSharpToJavaScript.APIs.JS.CacheStorage.html#CSharpToJavaScript_APIs_JS_CacheStorage_Keys">Keys()</a>) until a <a class="xref" href="CSharpToJavaScript.APIs.JS.Response.html">Response</a> is returned.</p></blockquote>
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_CacheStorage_Match_CSharpToJavaScript_APIs_JS_Union44_CSharpToJavaScript_APIs_JS_MultiCacheQueryOptions__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>You can access <code>CacheStorage</code> through the global<br>Caches property.</p>
+<p>
+  <code>Cache</code> objects are searched in creation order.</p>
+<blockquote class="NOTE">
+  <h5>NOTE</h5>
+  <p>
+    <strong>Note:</strong>
+    <a class="xref" href="CSharpToJavaScript.APIs.JS.CacheStorage.html#CSharpToJavaScript_APIs_JS_CacheStorage_Match_CSharpToJavaScript_APIs_JS_Union44_CSharpToJavaScript_APIs_JS_MultiCacheQueryOptions_">Match(Union44, MultiCacheQueryOptions)</a> is a convenience method.<br>Equivalent functionality is to call <a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html#CSharpToJavaScript_APIs_JS_Cache_Match_CSharpToJavaScript_APIs_JS_Union44_CSharpToJavaScript_APIs_JS_CacheQueryOptions_">Match(Union44, CacheQueryOptions)</a> on each cache (in the order returned by <a class="xref" href="CSharpToJavaScript.APIs.JS.CacheStorage.html#CSharpToJavaScript_APIs_JS_CacheStorage_Keys">Keys()</a>) until a <a class="xref" href="CSharpToJavaScript.APIs.JS.Response.html">Response</a> is returned.</p>
+</blockquote>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers">Using Service Workers</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html">Cache</a><br>-Caches<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/match"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/match">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -335,7 +375,7 @@ public class CacheStorage</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_CacheStorage_Open_System_String_" data-uid="CSharpToJavaScript.APIs.JS.CacheStorage.Open(System.String)">
   Open(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L11314"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L18404"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>open()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.CacheStorage.html">CacheStorage</a> interface returns a {{jsxref(&quot;Promise&quot;)}} that resolves to<br>the <a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html">Cache</a> object matching the <code>cacheName</code>.</p>
@@ -349,7 +389,7 @@ public class CacheStorage</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>cacheName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd>The CacheStorage interface represents the storage for  objects.</dd>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -366,9 +406,18 @@ public class CacheStorage</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_CacheStorage_Open_System_String__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>You can access <code>CacheStorage</code> through the global<br>Caches property.</p><blockquote class="NOTE"><h5>NOTE</h5><p><strong>Note:</strong> If the specified <a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html">Cache</a> does not exist, a new<br>cache is created with that <code>cacheName</code> and a Promise that<br>resolves to this new <a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html">Cache</a> object is returned.</p></blockquote>
+  <div class="markdown level1 remarks"><p>You can access <code>CacheStorage</code> through the global<br>Caches property.</p>
+<blockquote class="NOTE">
+  <h5>NOTE</h5>
+  <p>
+    <strong>Note:</strong> If the specified <a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html">Cache</a> does not exist, a new<br>cache is created with that <code>cacheName</code> and a Promise that<br>resolves to this new <a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html">Cache</a> object is returned.</p>
+</blockquote>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers">Using Service Workers</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html">Cache</a><br>-Caches<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/open"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage/open">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -378,7 +427,7 @@ public class CacheStorage</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L11306" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L18396" class="edit-link">Edit this page</a>
         </div>
 
 

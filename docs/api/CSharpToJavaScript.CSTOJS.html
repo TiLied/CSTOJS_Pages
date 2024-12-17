@@ -2,11 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class CSTOJS
- | CSharpToJavaScript </title>
+      <title>Class CSTOJS | CSharpToJavaScript </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class CSTOJS
- | CSharpToJavaScript ">
+      <meta name="title" content="Class CSTOJS | CSharpToJavaScript ">
       
       <meta name="description" content="Main type for CSharpToJavaScript.">
       <link rel="icon" href="../favicon.ico">
@@ -31,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -91,8 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_CSTOJS" data-uid="CSharpToJavaScript.CSTOJS" class="text-break">
-    Class CSTOJS
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/CSTOJS.cs/#L20"><i class="bi bi-code-slash"></i></a>
+Class CSTOJS  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/CSTOJS.cs/#L20"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -121,7 +118,7 @@
 
 
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
     <div>
@@ -160,7 +157,7 @@
 
   <h3 id="CSharpToJavaScript_CSTOJS__ctor" data-uid="CSharpToJavaScript.CSTOJS.#ctor">
   CSTOJS()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/CSTOJS.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/CSTOJS.cs/#L32"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>New instance of <a class="xref" href="CSharpToJavaScript.CSTOJS.html">CSTOJS</a> with default options, see <a class="xref" href="CSharpToJavaScript.CSTOJSOptions.html">CSTOJSOptions</a>.</p>
@@ -187,7 +184,7 @@
 
   <h3 id="CSharpToJavaScript_CSTOJS__ctor_CSharpToJavaScript_CSTOJSOptions_" data-uid="CSharpToJavaScript.CSTOJS.#ctor(CSharpToJavaScript.CSTOJSOptions)">
   CSTOJS(CSTOJSOptions)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/CSTOJS.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/CSTOJS.cs/#L45"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>New instance of <a class="xref" href="CSharpToJavaScript.CSTOJS.html">CSTOJS</a></p>
@@ -216,41 +213,6 @@
 
 
 
-  <h2 class="section" id="properties">Properties
-</h2>
-
-
-  <a id="CSharpToJavaScript_CSTOJS_Options_" data-uid="CSharpToJavaScript.CSTOJS.Options*"></a>
-
-  <h3 id="CSharpToJavaScript_CSTOJS_Options" data-uid="CSharpToJavaScript.CSTOJS.Options">
-  Options
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/CSTOJS.cs/#L22"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CSTOJSOptions Options { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.CSTOJSOptions.html">CSTOJSOptions</a></dt>
-    <dd>Main type for CSharpToJavaScript.</dd>
-  </dl>
-
-
-
-
-
-
-
-
   <h2 class="section" id="methods">Methods
 </h2>
 
@@ -259,7 +221,7 @@
 
   <h3 id="CSharpToJavaScript_CSTOJS_GenerateOne_System_String_" data-uid="CSharpToJavaScript.CSTOJS.GenerateOne(System.String)">
   GenerateOne(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/CSTOJS.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/CSTOJS.cs/#L124"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Method for generating js StringBuilder/StringBuilders.</p>
@@ -291,6 +253,11 @@
 
 
 
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.directorynotfoundexception">DirectoryNotFoundException</a></dt>
+    <dd></dd>
+  </dl>
 
 
 
@@ -298,7 +265,7 @@
 
   <h3 id="CSharpToJavaScript_CSTOJS_GenerateOneAsync_System_String_System_String_" data-uid="CSharpToJavaScript.CSTOJS.GenerateOneAsync(System.String,System.String)">
   GenerateOneAsync(string, string?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/CSTOJS.cs/#L64"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/CSTOJS.cs/#L66"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Method for generating js file/files.</p>
@@ -333,6 +300,11 @@
 
 
 
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.io.directorynotfoundexception">DirectoryNotFoundException</a></dt>
+    <dd></dd>
+  </dl>
 
 
 
@@ -340,7 +312,7 @@
 
   <h3 id="CSharpToJavaScript_CSTOJS_GenerateOneFromString_System_String_System_Collections_Generic_List_Microsoft_CodeAnalysis_MetadataReference__" data-uid="CSharpToJavaScript.CSTOJS.GenerateOneFromString(System.String,System.Collections.Generic.List{Microsoft.CodeAnalysis.MetadataReference})">
   GenerateOneFromString(string, List&lt;MetadataReference&gt;?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/CSTOJS.cs/#L164"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/CSTOJS.cs/#L173"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Method for generating from string.</p>
@@ -387,7 +359,7 @@
 
   <h3 id="CSharpToJavaScript_CSTOJS_GenerateOneFromStringAsync_System_String_System_String_System_Collections_Generic_List_Microsoft_CodeAnalysis_MetadataReference__" data-uid="CSharpToJavaScript.CSTOJS.GenerateOneFromStringAsync(System.String,System.String,System.Collections.Generic.List{Microsoft.CodeAnalysis.MetadataReference})">
   GenerateOneFromStringAsync(string, string?, List&lt;MetadataReference&gt;?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/CSTOJS.cs/#L192"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/CSTOJS.cs/#L200"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Method for generating from string. Writes a file.</p>
@@ -430,43 +402,6 @@
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></dt>
     <dd></dd>
   </dl>
-
-
-
-  <a id="CSharpToJavaScript_CSTOJS_Log_" data-uid="CSharpToJavaScript.CSTOJS.Log*"></a>
-
-  <h3 id="CSharpToJavaScript_CSTOJS_Log_System_String_System_String_System_String_System_Int32_" data-uid="CSharpToJavaScript.CSTOJS.Log(System.String,System.String,System.String,System.Int32)">
-  Log(string, string?, string?, int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/CSTOJS.cs/#L485"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Log(string message, string? file = null, string? member = null, int line = 0)</code></pre>
-  </div>
-
-  <h4 class="section">Parameters</h4>
-  <dl class="parameters">
-    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd>Main type for CSharpToJavaScript.</dd>
-    <dt><code>file</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd>Main type for CSharpToJavaScript.</dd>
-    <dt><code>member</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd>Main type for CSharpToJavaScript.</dd>
-    <dt><code>line</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd>Main type for CSharpToJavaScript.</dd>
-  </dl>
-
-
-
-
-
-
-
-
-
 
 
 

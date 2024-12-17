@@ -2,11 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class ReadableStreamBYOBReader
- | CSharpToJavaScript </title>
+      <title>Class ReadableStreamBYOBReader | CSharpToJavaScript </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class ReadableStreamBYOBReader
- | CSharpToJavaScript ">
+      <meta name="title" content="Class ReadableStreamBYOBReader | CSharpToJavaScript ">
       
       <meta name="description" content="The ReadableStreamBYOBReader interface of the Streams API defines a reader for a  that supports zero-copy reading from an underlying byte source.It is used for efficient copying from underlying sources where the data is delivered as an &amp;amp;quot;anonymous&amp;amp;quot; sequence of bytes, such as files.">
       <link rel="icon" href="../favicon.ico">
@@ -31,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -91,8 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_ReadableStreamBYOBReader" data-uid="CSharpToJavaScript.APIs.JS.ReadableStreamBYOBReader" class="text-break">
-    Class ReadableStreamBYOBReader
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8715"><i class="bi bi-code-slash"></i></a>
+Class ReadableStreamBYOBReader  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L19119"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -122,7 +119,7 @@ public class ReadableStreamBYOBReader</code></pre>
 
 
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
     <div>
@@ -152,9 +149,15 @@ public class ReadableStreamBYOBReader</code></pre>
 
 
   <h2 id="CSharpToJavaScript_APIs_JS_ReadableStreamBYOBReader_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>An instance of this reader type should usually be obtained by calling <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStream.html#CSharpToJavaScript_APIs_JS_ReadableStream_GetReader_CSharpToJavaScript_APIs_JS_ReadableStreamGetReaderOptions_">GetReader(ReadableStreamGetReaderOptions)</a> on the stream, specifying <code>mode: &amp;quot;byob&amp;quot;</code> in the options parameter.<br>The readable stream must have an <strong>underlying byte source</strong>. In other words, it must have been <a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStream/ReadableStream">constructed</a> specifying an underlying source with <a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStream/ReadableStream#type"><code>type: &amp;quot;bytes&amp;quot;</code></a>).</p><p>Using this kind of reader, a <a href="https://developer.mozilla.org#readablestreambyobreader.read"><code>read()</code></a> request when the readable stream&amp;apos;s internal queues are empty will result in a zero copy transfer from the underlying source (bypassing the stream&amp;apos;s internal queues).<br>If the internal queues are not empty, a <code>read()</code> will satisfy the request from the buffered data.</p><p>Note that the methods and properties are similar to those for the default reader (<a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStreamDefaultReader.html">ReadableStreamDefaultReader</a>).<br>The <code>read()</code> method differs in that it provide a view into which data should be written.</p>
+  <div class="markdown level0 remarks"><p>An instance of this reader type should usually be obtained by calling <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStream.html#CSharpToJavaScript_APIs_JS_ReadableStream_GetReader_CSharpToJavaScript_APIs_JS_ReadableStreamGetReaderOptions_">GetReader(ReadableStreamGetReaderOptions)</a> on the stream, specifying <code>mode: &amp;quot;byob&amp;quot;</code> in the options parameter.<br>The readable stream must have an <strong>underlying byte source</strong>. In other words, it must have been <a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStream/ReadableStream">constructed</a> specifying an underlying source with <a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStream/ReadableStream#type"><code>type: &amp;quot;bytes&amp;quot;</code></a>).</p>
+<p>Using this kind of reader, a <a href="https://developer.mozilla.org#readablestreambyobreader.read"><code>read()</code></a> request when the readable stream&amp;apos;s internal queues are empty will result in a zero copy transfer from the underlying source (bypassing the stream&amp;apos;s internal queues).<br>If the internal queues are not empty, a <code>read()</code> will satisfy the request from the buffered data.</p>
+<p>Note that the methods and properties are similar to those for the default reader (<a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStreamDefaultReader.html">ReadableStreamDefaultReader</a>).<br>The <code>read()</code> method differs in that it provide a view into which data should be written.</p>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Streams_API">Streams API concepts</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Streams_API/Using_readable_byte_streams">Using readable byte stream</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStream.html">ReadableStream</a><br>-<a href="https://whatwg-stream-visualizer.glitch.me/">WHATWG Stream Visualizer</a>, for a basic visualization of readable, writable, and transform streams.<br>-<a href="https://github.com/MattiasBuelens/web-streams-polyfill">Web-streams-polyfill</a> or <a href="https://github.com/stardazed/sd-streams">sd-streams</a> - polyfills<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStreamBYOBReader"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStreamBYOBReader">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -166,7 +169,7 @@ public class ReadableStreamBYOBReader</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_ReadableStreamBYOBReader__ctor" data-uid="CSharpToJavaScript.APIs.JS.ReadableStreamBYOBReader.#ctor">
   ReadableStreamBYOBReader()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8724"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L19128"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -192,7 +195,7 @@ public class ReadableStreamBYOBReader</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_ReadableStreamBYOBReader__ctor_CSharpToJavaScript_APIs_JS_ReadableStream_" data-uid="CSharpToJavaScript.APIs.JS.ReadableStreamBYOBReader.#ctor(CSharpToJavaScript.APIs.JS.ReadableStream)">
   ReadableStreamBYOBReader(ReadableStream)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8719"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L19123"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>ReadableStreamBYOBReader()</code></strong> constructor creates and returns a <code>ReadableStreamBYOBReader</code> object instance.</p>
@@ -206,7 +209,7 @@ public class ReadableStreamBYOBReader</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>stream</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStream.html">ReadableStream</a></dt>
-    <dd>The ReadableStreamBYOBReader interface of the Streams API defines a reader for a  that supports zero-copy reading from an underlying byte source.It is used for efficient copying from underlying sources where the data is delivered as an &amp;quot;anonymous&amp;quot; sequence of bytes, such as files.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -217,9 +220,17 @@ public class ReadableStreamBYOBReader</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_ReadableStreamBYOBReader__ctor_CSharpToJavaScript_APIs_JS_ReadableStream__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><blockquote class="NOTE"><h5>NOTE</h5><p><strong>Note:</strong> You generally wouldn&amp;apos;t use this constructor manually;<br>instead, you'd use the <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStream.html#CSharpToJavaScript_APIs_JS_ReadableStream_GetReader_CSharpToJavaScript_APIs_JS_ReadableStreamGetReaderOptions_">GetReader(ReadableStreamGetReaderOptions)</a> method with the argument <code>&amp;quot;byob&amp;quot;</code>.</p></blockquote>
+  <div class="markdown level1 remarks"><blockquote class="NOTE">
+  <h5>NOTE</h5>
+  <p>
+    <strong>Note:</strong> You generally wouldn&amp;apos;t use this constructor manually;<br>instead, you'd use the <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStream.html#CSharpToJavaScript_APIs_JS_ReadableStream_GetReader_CSharpToJavaScript_APIs_JS_ReadableStreamGetReaderOptions_">GetReader(ReadableStreamGetReaderOptions)</a> method with the argument <code>&amp;quot;byob&amp;quot;</code>.</p>
+</blockquote>
 <p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStreamBYOBReader.html">ReadableStreamBYOBReader</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Streams_API/Using_readable_byte_streams">Using readable byte stream</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStreamBYOBReader/ReadableStreamBYOBReader"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStreamBYOBReader/ReadableStreamBYOBReader">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -231,9 +242,9 @@ public class ReadableStreamBYOBReader</code></pre>
 
   <a id="CSharpToJavaScript_APIs_JS_ReadableStreamBYOBReader_Read_" data-uid="CSharpToJavaScript.APIs.JS.ReadableStreamBYOBReader.Read*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_ReadableStreamBYOBReader_Read_CSharpToJavaScript_APIs_JS_Union66_" data-uid="CSharpToJavaScript.APIs.JS.ReadableStreamBYOBReader.Read(CSharpToJavaScript.APIs.JS.Union66)">
-  Read(Union66)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8721"><i class="bi bi-code-slash"></i></a>
+  <h3 id="CSharpToJavaScript_APIs_JS_ReadableStreamBYOBReader_Read_CSharpToJavaScript_APIs_JS_Union199_CSharpToJavaScript_APIs_JS_ReadableStreamBYOBReaderReadOptions_" data-uid="CSharpToJavaScript.APIs.JS.ReadableStreamBYOBReader.Read(CSharpToJavaScript.APIs.JS.Union199,CSharpToJavaScript.APIs.JS.ReadableStreamBYOBReaderReadOptions)">
+  Read(Union199, ReadableStreamBYOBReaderReadOptions)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L19125"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>read()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStreamBYOBReader.html">ReadableStreamBYOBReader</a> interface is used to read data into a view on a user-supplied buffer from an associated <a href="https://developer.mozilla.org/en-US/docs/Web/API/Streams_API/Using_readable_byte_streams">readable byte stream</a>.<br>A request for data will be satisfied from the stream&amp;apos;s internal queues if there is any data present.<br>If the stream queues are empty, the request may be supplied as a zero-copy transfer from the underlying byte source.</p>
@@ -241,13 +252,15 @@ public class ReadableStreamBYOBReader</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;ReadableStreamReadResult&gt; Read(Union66 view)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;ReadableStreamReadResult&gt; Read(Union199 view, ReadableStreamBYOBReaderReadOptions options)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>view</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union66.html">Union66</a></dt>
-    <dd>The ReadableStreamBYOBReader interface of the Streams API defines a reader for a  that supports zero-copy reading from an underlying byte source.It is used for efficient copying from underlying sources where the data is delivered as an &amp;quot;anonymous&amp;quot; sequence of bytes, such as files.</dd>
+    <dt><code>view</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union199.html">Union199</a></dt>
+    <dd></dd>
+    <dt><code>options</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStreamBYOBReaderReadOptions.html">ReadableStreamBYOBReaderReadOptions</a></dt>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -263,10 +276,16 @@ public class ReadableStreamBYOBReader</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_ReadableStreamBYOBReader_Read_CSharpToJavaScript_APIs_JS_Union66__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>The method takes as an argument a view on a buffer that supplied data is to be read into, and returns a Promise.<br>The promise fulfills with an object that has properties <code>value</code> and <code>done</code> when data comes available, or if the stream is cancelled.<br>If the stream is errored, the promise will be rejected with the relevant error object.</p><p>If a chunk of data is supplied, the <code>value</code> property will contain a new view.<br>This will be a view over the same buffer/backing memory (and of the same type) as the original <code>view</code> passed to the <code>read()</code> method, now populated with the new chunk of data.<br>Note that once the promise fulfills, the original <code>view</code> passed to the method will be detached and no longer usable.<br>The promise will fulfill with a <code>value: undefined</code> if the stream has been cancelled.<br>In this case the backing memory region of <code>view</code> is discarded and not returned to the caller (all previously read data in the view&amp;apos;s buffer is lost).</p><p>The <code>done</code> property indicates whether or not more data is expected.<br>The value is set <code>true</code> if the stream is closed or cancelled, and <code>false</code> otherwise.</p>
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_ReadableStreamBYOBReader_Read_CSharpToJavaScript_APIs_JS_Union199_CSharpToJavaScript_APIs_JS_ReadableStreamBYOBReaderReadOptions__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The method takes as an argument a view on a buffer that supplied data is to be read into, and returns a Promise.<br>The promise fulfills with an object that has properties <code>value</code> and <code>done</code> when data comes available, or if the stream is cancelled.<br>If the stream is errored, the promise will be rejected with the relevant error object.</p>
+<p>If a chunk of data is supplied, the <code>value</code> property will contain a new view.<br>This will be a view over the same buffer/backing memory (and of the same type) as the original <code>view</code> passed to the <code>read()</code> method, now populated with the new chunk of data.<br>Note that once the promise fulfills, the original <code>view</code> passed to the method will be detached and no longer usable.<br>The promise will fulfill with a <code>value: undefined</code> if the stream has been cancelled.<br>In this case the backing memory region of <code>view</code> is discarded and not returned to the caller (all previously read data in the view&amp;apos;s buffer is lost).</p>
+<p>The <code>done</code> property indicates whether or not more data is expected.<br>The value is set <code>true</code> if the stream is closed or cancelled, and <code>false</code> otherwise.</p>
 <p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStreamBYOBReader.html#CSharpToJavaScript_APIs_JS_ReadableStreamBYOBReader__ctor_CSharpToJavaScript_APIs_JS_ReadableStream_">ReadableStreamBYOBReader(ReadableStream)</a> constructor<br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Streams_API/Using_readable_byte_streams">Using readable byte stream</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStreamBYOBReader/read"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStreamBYOBReader/read">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -276,7 +295,7 @@ public class ReadableStreamBYOBReader</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_ReadableStreamBYOBReader_ReleaseLock" data-uid="CSharpToJavaScript.APIs.JS.ReadableStreamBYOBReader.ReleaseLock">
   ReleaseLock()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8723"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L19127"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>releaseLock()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStreamBYOBReader.html">ReadableStreamBYOBReader</a> interface releases the reader's lock on the stream.<br>After the lock is released, the reader is no longer active.</p>
@@ -302,9 +321,14 @@ public class ReadableStreamBYOBReader</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_ReadableStreamBYOBReader_ReleaseLock_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>The reader will appear errored if the associated stream is errored when the lock is released; otherwise, the reader will appear closed.</p><p>If the reader's lock is released while it still has pending read requests then the promises returned by the reader's <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStreamBYOBReader.html#CSharpToJavaScript_APIs_JS_ReadableStreamBYOBReader_Read_CSharpToJavaScript_APIs_JS_Union66_">Read(Union66)</a> method are immediately rejected with a <code>TypeError</code>.<br>Unread chunks remain in the stream&amp;apos;s internal queue and can be read later by acquiring a new reader.</p>
+  <div class="markdown level1 remarks"><p>The reader will appear errored if the associated stream is errored when the lock is released; otherwise, the reader will appear closed.</p>
+<p>If the reader's lock is released while it still has pending read requests then the promises returned by the reader's <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStreamBYOBReader.html#CSharpToJavaScript_APIs_JS_ReadableStreamBYOBReader_Read_CSharpToJavaScript_APIs_JS_Union199_CSharpToJavaScript_APIs_JS_ReadableStreamBYOBReaderReadOptions_">Read(Union199, ReadableStreamBYOBReaderReadOptions)</a> method are immediately rejected with a <code>TypeError</code>.<br>Unread chunks remain in the stream&amp;apos;s internal queue and can be read later by acquiring a new reader.</p>
 <p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStreamBYOBReader.html#CSharpToJavaScript_APIs_JS_ReadableStreamBYOBReader__ctor_CSharpToJavaScript_APIs_JS_ReadableStream_">ReadableStreamBYOBReader(ReadableStream)</a> constructor<br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Streams_API/Using_readable_byte_streams">Using readable byte stream</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStreamBYOBReader/releaseLock"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStreamBYOBReader/releaseLock">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -314,7 +338,7 @@ public class ReadableStreamBYOBReader</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8715" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L19119" class="edit-link">Edit this page</a>
         </div>
 
 

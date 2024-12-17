@@ -2,11 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Interface NavigatorOnLine
- | CSharpToJavaScript </title>
+      <title>Interface NavigatorOnLine | CSharpToJavaScript </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Interface NavigatorOnLine
- | CSharpToJavaScript ">
+      <meta name="title" content="Interface NavigatorOnLine | CSharpToJavaScript ">
       
       <meta name="description" content="Returns the online status of the browser. The property returns a boolean value, withtrue meaning online and false meaning offline. The propertysends updates whenever the browser&amp;amp;apos;s ability to connect to the network changes. Theupdate occurs when the user follows links or when a script requests a remote page. Forexample, the property should return false when users click links soon afterthey lose internet connection.">
       <link rel="icon" href="../favicon.ico">
@@ -31,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -91,8 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_NavigatorOnLine" data-uid="CSharpToJavaScript.APIs.JS.NavigatorOnLine" class="text-break">
-    Interface NavigatorOnLine
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L3529"><i class="bi bi-code-slash"></i></a>
+Interface NavigatorOnLine  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L11855"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -120,8 +117,15 @@ public interface NavigatorOnLine</code></pre>
 
 
   <h2 id="CSharpToJavaScript_APIs_JS_NavigatorOnLine_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>Browsers implement this property differently.</p><p>In Chrome and Safari, if the browser is not able to connect to a local area network<br>(LAN) or a router, it is offline; all other conditions return <code>true</code>. So<br>while you can assume that the browser is offline when it returns a <code>false</code><br>value, you cannot assume that a true value necessarily means that the browser can access<br>the internet. You could be getting false positives, such as in cases where the computer<br>is running a virtualization software that has virtual ethernet adapters that are always<br>&amp;quot;connected.&amp;quot; Therefore, if you really want to determine the online status of the<br>browser, you should develop additional means for checking.</p><p>In Firefox, switching the browser to offline mode sends a <code>false</code> value. Until Firefox<br>41, all other conditions returned a <code>true</code> value; testing actual behavior on Nightly 68 on<br>Windows shows that it only looks for LAN connection like Chrome and Safari giving false<br>positives.</p><p>You can see changes in the network state by listening to the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/online_event"><code>online</code></a> and <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/offline_event"><code>offline</code></a> events.</p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Navigator/onLine"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level0 remarks"><p>Browsers implement this property differently.</p>
+<p>In Chrome and Safari, if the browser is not able to connect to a local area network<br>(LAN) or a router, it is offline; all other conditions return <code>true</code>. So<br>while you can assume that the browser is offline when it returns a <code>false</code><br>value, you cannot assume that a true value necessarily means that the browser can access<br>the internet. You could be getting false positives, such as in cases where the computer<br>is running a virtualization software that has virtual ethernet adapters that are always<br>&amp;quot;connected.&amp;quot; Therefore, if you really want to determine the online status of the<br>browser, you should develop additional means for checking.</p>
+<p>In Firefox, switching the browser to offline mode sends a <code>false</code> value. Until Firefox<br>41, all other conditions returned a <code>true</code> value; testing actual behavior on Nightly 68 on<br>Windows shows that it only looks for LAN connection like Chrome and Safari giving false<br>positives.</p>
+<p>You can see changes in the network state by listening to the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/online_event"><code>online</code></a> and <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/offline_event"><code>offline</code></a> events.</p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Navigator/onLine">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -133,7 +137,7 @@ public interface NavigatorOnLine</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_NavigatorOnLine_OnLine" data-uid="CSharpToJavaScript.APIs.JS.NavigatorOnLine.OnLine">
   OnLine
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L3532"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L11858"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -150,7 +154,7 @@ public interface NavigatorOnLine</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd>Returns the online status of the browser. The property returns a boolean value, withtrue meaning online and false meaning offline. The propertysends updates whenever the browser&amp;apos;s ability to connect to the network changes. Theupdate occurs when the user follows links or when a script requests a remote page. Forexample, the property should return false when users click links soon afterthey lose internet connection.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -164,7 +168,7 @@ public interface NavigatorOnLine</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L3529" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L11855" class="edit-link">Edit this page</a>
         </div>
 
 

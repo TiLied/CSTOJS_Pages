@@ -2,13 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class IDBCursor
- | CSharpToJavaScript </title>
+      <title>Class IDBCursor | CSharpToJavaScript </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class IDBCursor
- | CSharpToJavaScript ">
+      <meta name="title" content="Class IDBCursor | CSharpToJavaScript ">
       
-      <meta name="description" content="NOTENote: Not to be confused with  which is just an IDBCursor interface with an additional value property.">
+      <meta name="description" content="NOTE   Note: Not to be confused with  which is just an IDBCursor interface with an additional value property.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -31,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -91,8 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_IDBCursor" data-uid="CSharpToJavaScript.APIs.JS.IDBCursor" class="text-break">
-    Class IDBCursor
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9634"><i class="bi bi-code-slash"></i></a>
+Class IDBCursor  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13339"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -100,7 +97,9 @@
   <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><blockquote class="NOTE"><h5>NOTE</h5><strong>Note:</strong> Not to be confused with <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursorWithValue.html">IDBCursorWithValue</a> which is just an <strong><code>IDBCursor</code></strong> interface with an additional <strong><code>value</code></strong> property.</blockquote>
+  <div class="markdown summary"><blockquote class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Note:</strong> Not to be confused with <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursorWithValue.html">IDBCursorWithValue</a> which is just an <strong><code>IDBCursor</code></strong> interface with an additional <strong><code>value</code></strong> property.</blockquote>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -128,7 +127,7 @@ public class IDBCursor</code></pre>
     </dd>
   </dl>
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
     <div>
@@ -158,9 +157,15 @@ public class IDBCursor</code></pre>
 
 
   <h2 id="CSharpToJavaScript_APIs_JS_IDBCursor_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>The <strong><code>IDBCursor</code></strong> interface of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API">IndexedDB API</a> represents a <a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Basic_Terminology#cursor">cursor</a> for traversing or iterating over multiple records in a database.</p><p>The cursor has a source that indicates which index or object store it is iterating over. It has a position within the range, and moves in a direction that is increasing or decreasing in the order of record keys. The cursor enables an application to asynchronously process all the records in the cursor&amp;apos;s range.</p><p>You can have an unlimited number of cursors at the same time. You always get the same <code>IDBCursor</code> object representing a given cursor. Operations are performed on the underlying index or object store.</p><p>AvailableInWorkers</p>
+  <div class="markdown level0 remarks"><p>The <strong><code>IDBCursor</code></strong> interface of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API">IndexedDB API</a> represents a <a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Basic_Terminology#cursor">cursor</a> for traversing or iterating over multiple records in a database.</p>
+<p>The cursor has a source that indicates which index or object store it is iterating over. It has a position within the range, and moves in a direction that is increasing or decreasing in the order of record keys. The cursor enables an application to asynchronously process all the records in the cursor&amp;apos;s range.</p>
+<p>You can have an unlimited number of cursors at the same time. You always get the same <code>IDBCursor</code> object representing a given cursor. Operations are performed on the underlying index or object store.</p>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB">Using IndexedDB</a><br>-Starting transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBDatabase.html">IDBDatabase</a><br>-Using transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a><br>-Setting a range of keys: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a><br>-Retrieving and making changes to your data: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a><br>-Using cursors: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a><br>-Reference example: <a href="https://github.com/mdn/dom-examples/tree/main/to-do-notifications">To-do Notifications</a> (<a href="https://mdn.github.io/dom-examples/to-do-notifications/">view example live</a>).<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBCursor"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBCursor">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -172,7 +177,7 @@ public class IDBCursor</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_IDBCursor_Direction" data-uid="CSharpToJavaScript.APIs.JS.IDBCursor.Direction">
   Direction
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9640"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13345"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>direction</code></strong> read-only property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a> interface is a string that returns the<br>direction of traversal of the cursor (set using<br><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html#CSharpToJavaScript_APIs_JS_IDBObjectStore_OpenCursor_System_Object_CSharpToJavaScript_APIs_JS_IDBCursorDirection_">OpenCursor(dynamic, IDBCursorDirection)</a> for example). See the <a href="https://developer.mozilla.org#values">Values</a><br>section below for possible values.</p>
@@ -198,9 +203,12 @@ public class IDBCursor</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_IDBCursor_Direction_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>AvailableInWorkers</p>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB">Using IndexedDB</a><br>-Starting transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBDatabase.html">IDBDatabase</a><br>-Using transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a><br>-Setting a range of keys: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a><br>-Retrieving and making changes to your data: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a><br>-Using cursors: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a><br>-Reference example: <a href="https://github.com/mdn/dom-examples/tree/main/to-do-notifications">To-do Notifications</a> (<a href="https://mdn.github.io/dom-examples/to-do-notifications/">View the example live</a>).<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBCursor/direction"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB">Using IndexedDB</a><br>-Starting transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBDatabase.html">IDBDatabase</a><br>-Using transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a><br>-Setting a range of keys: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a><br>-Retrieving and making changes to your data: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a><br>-Using cursors: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a><br>-Reference example: <a href="https://github.com/mdn/dom-examples/tree/main/to-do-notifications">To-do Notifications</a> (<a href="https://mdn.github.io/dom-examples/to-do-notifications/">View the example live</a>).<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBCursor/direction">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -210,7 +218,7 @@ public class IDBCursor</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_IDBCursor_Key" data-uid="CSharpToJavaScript.APIs.JS.IDBCursor.Key">
   Key
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9642"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13347"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>key</code></strong> read-only property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a> interface returns the key for the record at the cursor's<br>position. If the cursor is outside its range, this is set to undefined. The cursor&amp;apos;s<br>key can be any data type.</p>
@@ -236,9 +244,12 @@ public class IDBCursor</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_IDBCursor_Key_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>AvailableInWorkers</p>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB">Using IndexedDB</a><br>-Starting transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBDatabase.html">IDBDatabase</a><br>-Using transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a><br>-Setting a range of keys: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a><br>-Retrieving and making changes to your data: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a><br>-Using cursors: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a><br>-Reference example: <a href="https://github.com/mdn/dom-examples/tree/main/to-do-notifications">To-do Notifications</a> (<a href="https://mdn.github.io/dom-examples/to-do-notifications/">View the example live</a>).<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBCursor/key"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB">Using IndexedDB</a><br>-Starting transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBDatabase.html">IDBDatabase</a><br>-Using transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a><br>-Setting a range of keys: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a><br>-Retrieving and making changes to your data: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a><br>-Using cursors: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a><br>-Reference example: <a href="https://github.com/mdn/dom-examples/tree/main/to-do-notifications">To-do Notifications</a> (<a href="https://mdn.github.io/dom-examples/to-do-notifications/">View the example live</a>).<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBCursor/key">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -248,7 +259,7 @@ public class IDBCursor</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_IDBCursor_PrimaryKey" data-uid="CSharpToJavaScript.APIs.JS.IDBCursor.PrimaryKey">
   PrimaryKey
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9644"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13349"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>primaryKey</code></strong> read-only property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a> interface returns the cursor's current effective key. If the<br>cursor is currently being iterated or has iterated outside its range, this is set to<br>undefined. The cursor&amp;apos;s primary key can be any data type.</p>
@@ -274,9 +285,12 @@ public class IDBCursor</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_IDBCursor_PrimaryKey_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>AvailableInWorkers</p>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB">Using IndexedDB</a><br>-Starting transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBDatabase.html">IDBDatabase</a><br>-Using transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a><br>-Setting a range of keys: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a><br>-Retrieving and making changes to your data: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a><br>-Using cursors: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a><br>-Reference example: <a href="https://github.com/mdn/dom-examples/tree/main/to-do-notifications">To-do Notifications</a> (<a href="https://mdn.github.io/dom-examples/to-do-notifications/">View the example live</a>).<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBCursor/primaryKey"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB">Using IndexedDB</a><br>-Starting transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBDatabase.html">IDBDatabase</a><br>-Using transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a><br>-Setting a range of keys: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a><br>-Retrieving and making changes to your data: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a><br>-Using cursors: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a><br>-Reference example: <a href="https://github.com/mdn/dom-examples/tree/main/to-do-notifications">To-do Notifications</a> (<a href="https://mdn.github.io/dom-examples/to-do-notifications/">View the example live</a>).<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBCursor/primaryKey">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -286,7 +300,7 @@ public class IDBCursor</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_IDBCursor_Request" data-uid="CSharpToJavaScript.APIs.JS.IDBCursor.Request">
   Request
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9646"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13351"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>request</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a> interface returns the <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBRequest.html">IDBRequest</a> used to obtain the cursor.</p>
@@ -312,9 +326,12 @@ public class IDBCursor</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_IDBCursor_Request_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>AvailableInWorkers</p>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB">Using IndexedDB</a><br>-Starting transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBDatabase.html">IDBDatabase</a><br>-Using transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a><br>-Setting a range of keys: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a><br>-Retrieving and making changes to your data: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a><br>-Using cursors: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a><br>-Reference example: <a href="https://github.com/mdn/dom-examples/tree/main/to-do-notifications">To-do Notifications</a> (<a href="https://mdn.github.io/dom-examples/to-do-notifications/">View the example live</a>).<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBCursor/request"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB">Using IndexedDB</a><br>-Starting transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBDatabase.html">IDBDatabase</a><br>-Using transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a><br>-Setting a range of keys: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a><br>-Retrieving and making changes to your data: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a><br>-Using cursors: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a><br>-Reference example: <a href="https://github.com/mdn/dom-examples/tree/main/to-do-notifications">To-do Notifications</a> (<a href="https://mdn.github.io/dom-examples/to-do-notifications/">View the example live</a>).<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBCursor/request">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -324,7 +341,7 @@ public class IDBCursor</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_IDBCursor_Source" data-uid="CSharpToJavaScript.APIs.JS.IDBCursor.Source">
   Source
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9638"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13343"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>source</code></strong> read-only property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a> interface returns the <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a> or<br><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBIndex.html">IDBIndex</a> that the cursor is iterating over. This function never returns<br>null or throws an exception, even if the cursor is currently being iterated, has<br>iterated past its end, or its transaction is not active.</p>
@@ -332,7 +349,7 @@ public class IDBCursor</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Union77 Source { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Union93 Source { get; }</code></pre>
   </div>
 
 
@@ -341,7 +358,7 @@ public class IDBCursor</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Union77.html">Union77</a></dt>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Union93.html">Union93</a></dt>
     <dd><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a> or <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBIndex.html">IDBIndex</a> that the cursor is<br>iterating over.</p>
 </dd>
   </dl>
@@ -350,9 +367,12 @@ public class IDBCursor</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_IDBCursor_Source_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>AvailableInWorkers</p>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB">Using IndexedDB</a><br>-Starting transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBDatabase.html">IDBDatabase</a><br>-Using transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a><br>-Setting a range of keys: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a><br>-Retrieving and making changes to your data: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a><br>-Using cursors: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a><br>-Reference example: <a href="https://github.com/mdn/dom-examples/tree/main/to-do-notifications">To-do Notifications</a> (<a href="https://mdn.github.io/dom-examples/to-do-notifications/">View the example live</a>).<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBCursor/source"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB">Using IndexedDB</a><br>-Starting transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBDatabase.html">IDBDatabase</a><br>-Using transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a><br>-Setting a range of keys: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a><br>-Retrieving and making changes to your data: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a><br>-Using cursors: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a><br>-Reference example: <a href="https://github.com/mdn/dom-examples/tree/main/to-do-notifications">To-do Notifications</a> (<a href="https://mdn.github.io/dom-examples/to-do-notifications/">View the example live</a>).<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBCursor/source">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -366,7 +386,7 @@ public class IDBCursor</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_IDBCursor_Advance_System_UInt64_" data-uid="CSharpToJavaScript.APIs.JS.IDBCursor.Advance(System.UInt64)">
   Advance(ulong)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9648"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13353"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>advance()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a><br>interface sets the number of times a cursor should move<br>its position forward.</p>
@@ -380,7 +400,7 @@ public class IDBCursor</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>count</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
-    <dd>NOTENote: Not to be confused with  which is just an IDBCursor interface with an additional value property.</dd>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -397,9 +417,12 @@ public class IDBCursor</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_IDBCursor_Advance_System_UInt64__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>AvailableInWorkers</p>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB">Using IndexedDB</a><br>-Starting transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBDatabase.html">IDBDatabase</a><br>-Using transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a><br>-Setting a range of keys: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a><br>-Retrieving and making changes to your data: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a><br>-Using cursors: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a><br>-Reference example: <a href="https://github.com/mdn/dom-examples/tree/main/to-do-notifications">To-do Notifications</a> (<a href="https://mdn.github.io/dom-examples/to-do-notifications/">View the example live</a>).<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBCursor/advance"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB">Using IndexedDB</a><br>-Starting transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBDatabase.html">IDBDatabase</a><br>-Using transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a><br>-Setting a range of keys: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a><br>-Retrieving and making changes to your data: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a><br>-Using cursors: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a><br>-Reference example: <a href="https://github.com/mdn/dom-examples/tree/main/to-do-notifications">To-do Notifications</a> (<a href="https://mdn.github.io/dom-examples/to-do-notifications/">View the example live</a>).<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBCursor/advance">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -409,7 +432,7 @@ public class IDBCursor</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_IDBCursor_Continue_System_Object_" data-uid="CSharpToJavaScript.APIs.JS.IDBCursor.Continue(System.Object)">
   Continue(dynamic)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9650"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13355"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>continue()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a><br>interface advances the cursor to the next position along its direction, to the item<br>whose key matches the optional key parameter. If no key is specified, the cursor<br>advances to the immediate next position, based on its direction.</p>
@@ -423,7 +446,7 @@ public class IDBCursor</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>key</code> <span class="xref">dynamic</span></dt>
-    <dd>NOTENote: Not to be confused with  which is just an IDBCursor interface with an additional value property.</dd>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -440,9 +463,12 @@ public class IDBCursor</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_IDBCursor_Continue_System_Object__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>AvailableInWorkers</p>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB">Using IndexedDB</a><br>-Starting transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBDatabase.html">IDBDatabase</a><br>-Using transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a><br>-Setting a range of keys: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a><br>-Retrieving and making changes to your data: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a><br>-Using cursors: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a><br>-Reference example: <a href="https://github.com/mdn/dom-examples/tree/main/to-do-notifications">To-do Notifications</a> (<a href="https://mdn.github.io/dom-examples/to-do-notifications/">View the example live</a>).<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBCursor/continue"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB">Using IndexedDB</a><br>-Starting transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBDatabase.html">IDBDatabase</a><br>-Using transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a><br>-Setting a range of keys: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a><br>-Retrieving and making changes to your data: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a><br>-Using cursors: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a><br>-Reference example: <a href="https://github.com/mdn/dom-examples/tree/main/to-do-notifications">To-do Notifications</a> (<a href="https://mdn.github.io/dom-examples/to-do-notifications/">View the example live</a>).<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBCursor/continue">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -452,7 +478,7 @@ public class IDBCursor</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_IDBCursor_ContinuePrimaryKey_System_Object_System_Object_" data-uid="CSharpToJavaScript.APIs.JS.IDBCursor.ContinuePrimaryKey(System.Object,System.Object)">
   ContinuePrimaryKey(dynamic, dynamic)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9652"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13357"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>continuePrimaryKey()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a> interface advances the cursor to the item whose key<br>matches the key parameter as well as whose primary key matches the primary key<br>parameter.</p>
@@ -466,9 +492,9 @@ public class IDBCursor</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>key</code> <span class="xref">dynamic</span></dt>
-    <dd>NOTENote: Not to be confused with  which is just an IDBCursor interface with an additional value property.</dd>
+    <dd></dd>
     <dt><code>primaryKey</code> <span class="xref">dynamic</span></dt>
-    <dd>NOTENote: Not to be confused with  which is just an IDBCursor interface with an additional value property.</dd>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -485,9 +511,15 @@ public class IDBCursor</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_IDBCursor_ContinuePrimaryKey_System_Object_System_Object__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>A typical use case, is to resume the iteration where a previous cursor has been closed,<br>without having to compare the keys one by one.</p><p>Calling this method more than once before new cursor data has been loaded - for<br>example, calling <code>continuePrimaryKey()</code> twice from the same onsuccess handler<br>- results in an <code>InvalidStateError</code> being thrown on the second call because<br>the cursor&amp;apos;s got value flag has been unset.</p><p>This method is only valid for cursors coming from an index. Using it for cursors coming<br>from an object store will throw an error.</p><p>AvailableInWorkers</p>
+  <div class="markdown level1 remarks"><p>A typical use case, is to resume the iteration where a previous cursor has been closed,<br>without having to compare the keys one by one.</p>
+<p>Calling this method more than once before new cursor data has been loaded - for<br>example, calling <code>continuePrimaryKey()</code> twice from the same onsuccess handler<br>- results in an <code>InvalidStateError</code> being thrown on the second call because<br>the cursor&amp;apos;s got value flag has been unset.</p>
+<p>This method is only valid for cursors coming from an index. Using it for cursors coming<br>from an object store will throw an error.</p>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB">Using IndexedDB</a><br>-Starting transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBDatabase.html">IDBDatabase</a><br>-Using transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a><br>-Setting a range of keys: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a><br>-Retrieving and making changes to your data: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a><br>-Using cursors: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a><br>-Reference example: <a href="https://github.com/mdn/dom-examples/tree/main/to-do-notifications">To-do Notifications</a> (<a href="https://mdn.github.io/dom-examples/to-do-notifications/">View the example live</a>).<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBCursor/continuePrimaryKey"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBCursor/continuePrimaryKey">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -497,7 +529,7 @@ public class IDBCursor</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_IDBCursor_Delete" data-uid="CSharpToJavaScript.APIs.JS.IDBCursor.Delete">
   Delete()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9656"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13361"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>delete()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a><br>interface returns an <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBRequest.html">IDBRequest</a> object, and, in a separate thread,<br>deletes the record at the cursor&amp;apos;s position, without changing the cursor&amp;apos;s position.<br>Once the record is deleted, the cursor&amp;apos;s value is set to null.</p>
@@ -523,9 +555,13 @@ public class IDBCursor</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_IDBCursor_Delete_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>Be aware that you can&amp;apos;t call <code>delete()</code> (or<br><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html#CSharpToJavaScript_APIs_JS_IDBCursor_Update_System_Object_">Update(dynamic)</a>) on cursors obtained from<br><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBIndex.html#CSharpToJavaScript_APIs_JS_IDBIndex_OpenKeyCursor_System_Object_CSharpToJavaScript_APIs_JS_IDBCursorDirection_">OpenKeyCursor(dynamic, IDBCursorDirection)</a>. For such needs, you have to use<br><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBIndex.html#CSharpToJavaScript_APIs_JS_IDBIndex_OpenCursor_System_Object_CSharpToJavaScript_APIs_JS_IDBCursorDirection_">OpenCursor(dynamic, IDBCursorDirection)</a> instead.</p><p>AvailableInWorkers</p>
+  <div class="markdown level1 remarks"><p>Be aware that you can&amp;apos;t call <code>delete()</code> (or<br><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html#CSharpToJavaScript_APIs_JS_IDBCursor_Update_System_Object_">Update(dynamic)</a>) on cursors obtained from<br><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBIndex.html#CSharpToJavaScript_APIs_JS_IDBIndex_OpenKeyCursor_System_Object_CSharpToJavaScript_APIs_JS_IDBCursorDirection_">OpenKeyCursor(dynamic, IDBCursorDirection)</a>. For such needs, you have to use<br><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBIndex.html#CSharpToJavaScript_APIs_JS_IDBIndex_OpenCursor_System_Object_CSharpToJavaScript_APIs_JS_IDBCursorDirection_">OpenCursor(dynamic, IDBCursorDirection)</a> instead.</p>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB">Using IndexedDB</a><br>-Starting transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBDatabase.html">IDBDatabase</a><br>-Using transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a><br>-Setting a range of keys: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a><br>-Retrieving and making changes to your data: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a><br>-Using cursors: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a><br>-Reference example: <a href="https://github.com/mdn/dom-examples/tree/main/to-do-notifications">To-do Notifications</a> (<a href="https://mdn.github.io/dom-examples/to-do-notifications/">View the example live</a>).<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBCursor/delete"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBCursor/delete">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -535,7 +571,7 @@ public class IDBCursor</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_IDBCursor_Update_System_Object_" data-uid="CSharpToJavaScript.APIs.JS.IDBCursor.Update(System.Object)">
   Update(dynamic)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9654"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13359"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>update()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a><br>interface returns an <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBRequest.html">IDBRequest</a> object, and, in a separate thread,<br>updates the value at the current position of the cursor in the object store. If the<br>cursor points to a record that has just been deleted, a new record is created.</p>
@@ -549,7 +585,7 @@ public class IDBCursor</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>value</code> <span class="xref">dynamic</span></dt>
-    <dd>NOTENote: Not to be confused with  which is just an IDBCursor interface with an additional value property.</dd>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -566,9 +602,13 @@ public class IDBCursor</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_IDBCursor_Update_System_Object__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>Be aware that you can&amp;apos;t call <code>update()</code> (or<br><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html#CSharpToJavaScript_APIs_JS_IDBCursor_Delete">Delete()</a>) on cursors obtained from<br><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBIndex.html#CSharpToJavaScript_APIs_JS_IDBIndex_OpenKeyCursor_System_Object_CSharpToJavaScript_APIs_JS_IDBCursorDirection_">OpenKeyCursor(dynamic, IDBCursorDirection)</a>. For such needs, you have to use<br><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBIndex.html#CSharpToJavaScript_APIs_JS_IDBIndex_OpenCursor_System_Object_CSharpToJavaScript_APIs_JS_IDBCursorDirection_">OpenCursor(dynamic, IDBCursorDirection)</a> instead.</p><p>AvailableInWorkers</p>
+  <div class="markdown level1 remarks"><p>Be aware that you can&amp;apos;t call <code>update()</code> (or<br><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html#CSharpToJavaScript_APIs_JS_IDBCursor_Delete">Delete()</a>) on cursors obtained from<br><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBIndex.html#CSharpToJavaScript_APIs_JS_IDBIndex_OpenKeyCursor_System_Object_CSharpToJavaScript_APIs_JS_IDBCursorDirection_">OpenKeyCursor(dynamic, IDBCursorDirection)</a>. For such needs, you have to use<br><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBIndex.html#CSharpToJavaScript_APIs_JS_IDBIndex_OpenCursor_System_Object_CSharpToJavaScript_APIs_JS_IDBCursorDirection_">OpenCursor(dynamic, IDBCursorDirection)</a> instead.</p>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB">Using IndexedDB</a><br>-Starting transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBDatabase.html">IDBDatabase</a><br>-Using transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a><br>-Setting a range of keys: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a><br>-Retrieving and making changes to your data: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a><br>-Using cursors: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a><br>-Reference example: <a href="https://github.com/mdn/dom-examples/tree/main/to-do-notifications">To-do Notifications</a> (<a href="https://mdn.github.io/dom-examples/to-do-notifications/">View the example live</a>).<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBCursor/update"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBCursor/update">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -578,7 +618,7 @@ public class IDBCursor</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9634" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13339" class="edit-link">Edit this page</a>
         </div>
 
 

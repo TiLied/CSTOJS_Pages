@@ -1,0 +1,1911 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class RTCInboundRtpStreamStats | CSharpToJavaScript </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class RTCInboundRtpStreamStats | CSharpToJavaScript ">
+      
+      <meta name="description" content="The RTCInboundRtpStreamStats dictionary of the WebRTC API is used to report statistics related to the receiving end of an RTP stream on the local end of the .">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/TiLied/CSharpToJavaScript/new/master/apiSpec/new?filename=CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats.md&amp;value=---%0Auid%3A%20CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats">
+
+
+
+  <h1 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats" data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats" class="text-break">
+Class RTCInboundRtpStreamStats  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30168"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CSharpToJavaScript.html">CSharpToJavaScript</a>.<a class="xref" href="CSharpToJavaScript.APIs.html">APIs</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.html">JS</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>The <strong><code>RTCInboundRtpStreamStats</code></strong> dictionary of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API">WebRTC API</a> is used to report statistics related to the receiving end of an RTP stream on the local end of the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCPeerConnection.html">RTCPeerConnection</a>.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public class RTCInboundRtpStreamStats : RTCReceivedRtpStreamStats</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCStats.html">RTCStats</a></div>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpStreamStats.html">RTCRtpStreamStats</a></div>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCReceivedRtpStreamStats.html">RTCReceivedRtpStreamStats</a></div>
+      <div><span class="xref">RTCInboundRtpStreamStats</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCReceivedRtpStreamStats.html#CSharpToJavaScript_APIs_JS_RTCReceivedRtpStreamStats_PacketsReceived">RTCReceivedRtpStreamStats.PacketsReceived</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCReceivedRtpStreamStats.html#CSharpToJavaScript_APIs_JS_RTCReceivedRtpStreamStats_PacketsLost">RTCReceivedRtpStreamStats.PacketsLost</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCReceivedRtpStreamStats.html#CSharpToJavaScript_APIs_JS_RTCReceivedRtpStreamStats_Jitter">RTCReceivedRtpStreamStats.Jitter</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpStreamStats.html#CSharpToJavaScript_APIs_JS_RTCRtpStreamStats_Ssrc">RTCRtpStreamStats.Ssrc</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpStreamStats.html#CSharpToJavaScript_APIs_JS_RTCRtpStreamStats_Kind">RTCRtpStreamStats.Kind</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpStreamStats.html#CSharpToJavaScript_APIs_JS_RTCRtpStreamStats_TransportId">RTCRtpStreamStats.TransportId</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpStreamStats.html#CSharpToJavaScript_APIs_JS_RTCRtpStreamStats_CodecId">RTCRtpStreamStats.CodecId</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCStats.html#CSharpToJavaScript_APIs_JS_RTCStats_Timestamp">RTCStats.Timestamp</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCStats.html#CSharpToJavaScript_APIs_JS_RTCStats_Type">RTCStats.Type</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCStats.html#CSharpToJavaScript_APIs_JS_RTCStats_Id">RTCStats.Id</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+  <h2 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>The statistics can be obtained by iterating the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCStatsReport.html">RTCStatsReport</a> returned by <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCPeerConnection.html#CSharpToJavaScript_APIs_JS_RTCPeerConnection_GetStats_CSharpToJavaScript_APIs_JS_MediaStreamTrack_">GetStats(MediaStreamTrack?)</a> or <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpReceiver.html#CSharpToJavaScript_APIs_JS_RTCRtpReceiver_GetStats">GetStats()</a> until you find a report with the <a href="https://developer.mozilla.org#type"><code>type</code></a> of <code>inbound-rtp</code>.</p>
+<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.RTCStatsReport.html">RTCStatsReport</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCInboundRtpStreamStats">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_AudioLevel" data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.AudioLevel">
+  AudioLevel
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30221"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Number AudioLevel</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_BytesReceived" data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.BytesReceived">
+  BytesReceived
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30202"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.html">RTCInboundRtpStreamStats</a> dictionary's<br><strong><code>bytesReceived</code></strong> property is an integer value which<br>indicates the total number of bytes received so far from this synchronization source<br>(SSRC).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong BytesReceived</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd><p>An unsigned integer value indicating the total number of bytes received so far on this<br>RTP stream, not including header and padding bytes. This value can be used to calculate<br>an approximation of the average media data rate:This value gets reset to zero if the sender&amp;apos;s SSRC identifier changes for any reason.</p>
+</dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_BytesReceived_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCInboundRtpStreamStats/bytesReceived">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_ConcealedSamples" data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.ConcealedSamples">
+  ConcealedSamples
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30216"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong ConcealedSamples</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_ConcealmentEvents" data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.ConcealmentEvents">
+  ConcealmentEvents
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30218"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong ConcealmentEvents</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_DecoderImplementation" data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.DecoderImplementation">
+  DecoderImplementation
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30225"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string DecoderImplementation</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_EstimatedPlayoutTimestamp" data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.EstimatedPlayoutTimestamp">
+  EstimatedPlayoutTimestamp
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30210"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Number EstimatedPlayoutTimestamp</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_FecBytesReceived" data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.FecBytesReceived">
+  FecBytesReceived
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30196"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong FecBytesReceived</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_FecPacketsDiscarded" data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.FecPacketsDiscarded">
+  FecPacketsDiscarded
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30200"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>fecPacketsDiscarded</code></strong> property<br>of the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.html">RTCInboundRtpStreamStats</a> dictionary is a numeric value<br>indicating the number of <a href="https://developer.mozilla.org/en-US/docs/Glossary/RTP">RTP</a> Forward Error Correction (FEC) packets<br>that have been discarded.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong FecPacketsDiscarded</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd><p>An unsigned integer value indicating how many FEC packets have been received whose<br>error correction payload has been discarded.This can happen if all the packets covered by the FEC packet have already been received<br>or recovered using another FEC packet, or if the FEC packet arrived outside the recovery<br>window and the lost RTP packets have already been skipped during playback as a result.<br>The value of <code>fecPacketsReceived</code> includes these discarded packets.</p>
+</dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_FecPacketsDiscarded_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCInboundRtpStreamStats/fecPacketsDiscarded">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_FecPacketsReceived" data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.FecPacketsReceived">
+  FecPacketsReceived
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30198"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>fecPacketsReceived</code></strong> property<br>of the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.html">RTCInboundRtpStreamStats</a> dictionary indicates how many<br>Forward Error Correction (FEC) packets have been received by this RTP receiver<br>from the remote peer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong FecPacketsReceived</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd><p>An unsigned integer value which indicates the total number of FEC packets which have<br>been received from the remote peer during this RTP session. Forward Error Correction<br>uses an exclusive-or method to perform parity checks on the received data.By using the FEC parity information to attempt to reconstruct damaged packets, it is<br>possible to avoid the need to retransmit damaged packets, which in turn helps to<br>reduce lag, or the need to skip damaged frames entirely.<blockquote class="NOTE"><h5>NOTE</h5><strong>Note:</strong> This counter may also be incremented when FEC packets arrive<br>in-band along with media content; this can happen with Opus, for example.</blockquote>
+</dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_FecPacketsReceived_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>An FEC packet provides parity information which can<br>be used to attempt to reconstruct RTP data packets which have been corrupted in<br>transit.</p>
+<p>-{{RFC(5109)}} (RTP Payload Format for Generic Forward Error Correction)<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCInboundRtpStreamStats/fecPacketsReceived">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_FecSsrc" data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.FecSsrc">
+  FecSsrc
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30233"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong FecSsrc</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_FirCount" data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.FirCount">
+  FirCount
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30206"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>firCount</code></strong> property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.html">RTCInboundRtpStreamStats</a> dictionary indicates the number of<br><strong>Full Intra Request</strong> (<strong>FIR</strong>) packets have been sent by<br>the receiver to the sender.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong FirCount</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd><p>An integer value indicating how many FIR packets have been received by the sender<br>during the current connection. This statistic is available only for video tracks.The receiver sends a FIR packet to the sender any time it falls behind or loses packets<br>and cannot decode the incoming stream any longer because of the lost data. This tells<br>the sender to send a full frame instead of a delta frame, so that the receiver can catch<br>up.The higher <code>firCount</code> is, the more often frames were dropped, which may be<br>an indication that the media&amp;apos;s bit rate is too high for the available bandwidth, or that<br>the receiving device is overburdened and is therefore unable to process the incoming<br>data.</p>
+</dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_FirCount_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The receiver sends a FIR packet when the stream<br>falls behind and needs to skip frames in order to catch up.</p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCInboundRtpStreamStats/firCount">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_FrameHeight" data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.FrameHeight">
+  FrameHeight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30181"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong FrameHeight</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_FrameWidth" data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.FrameWidth">
+  FrameWidth
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30180"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong FrameWidth</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_FramesAssembledFromMultiplePackets" data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.FramesAssembledFromMultiplePackets">
+  FramesAssembledFromMultiplePackets
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30228"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong FramesAssembledFromMultiplePackets</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_FramesDecoded" data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.FramesDecoded">
+  FramesDecoded
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30176"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>framesDecoded</code></strong> property of<br>the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.html">RTCInboundRtpStreamStats</a> dictionary indicates the total number of<br>frames which have been decoded successfully for this media source.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong FramesDecoded</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd><p>An integer value indicating the total number of video frames which have been decoded<br>for this stream so far. This represents the number of frames that would have been<br>displayed assuming no frames were skipped.</p>
+</dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_FramesDecoded_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCInboundRtpStreamStats/framesDecoded">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_FramesDropped" data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.FramesDropped">
+  FramesDropped
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30179"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong FramesDropped</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_FramesPerSecond" data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.FramesPerSecond">
+  FramesPerSecond
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30182"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Number FramesPerSecond</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_FramesReceived" data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.FramesReceived">
+  FramesReceived
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30224"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong FramesReceived</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_FramesRendered" data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.FramesRendered">
+  FramesRendered
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30178"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong FramesRendered</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_FreezeCount" data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.FreezeCount">
+  FreezeCount
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30190"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong FreezeCount</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_HeaderBytesReceived" data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.HeaderBytesReceived">
+  HeaderBytesReceived
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30194"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong HeaderBytesReceived</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_InsertedSamplesForDeceleration" data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.InsertedSamplesForDeceleration">
+  InsertedSamplesForDeceleration
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30219"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong InsertedSamplesForDeceleration</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_JitterBufferDelay" data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.JitterBufferDelay">
+  JitterBufferDelay
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30211"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Number JitterBufferDelay</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_JitterBufferEmittedCount" data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.JitterBufferEmittedCount">
+  JitterBufferEmittedCount
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30213"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong JitterBufferEmittedCount</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_JitterBufferMinimumDelay" data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.JitterBufferMinimumDelay">
+  JitterBufferMinimumDelay
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30214"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Number JitterBufferMinimumDelay</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_JitterBufferTargetDelay" data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.JitterBufferTargetDelay">
+  JitterBufferTargetDelay
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30212"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Number JitterBufferTargetDelay</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_KeyFramesDecoded" data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.KeyFramesDecoded">
+  KeyFramesDecoded
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30177"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong KeyFramesDecoded</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_LastPacketReceivedTimestamp" data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.LastPacketReceivedTimestamp">
+  LastPacketReceivedTimestamp
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30193"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>lastPacketReceivedTimestamp</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.html">RTCInboundRtpStreamStats</a> dictionary indicates the time at which the most recently received packet arrived from this source.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Number LastPacketReceivedTimestamp</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a> which specifies the time at which the most recently received packet arrived on this RTP stream.<blockquote class="NOTE"><h5>NOTE</h5><strong>Note:</strong> This value differs from the RTCInboundRtpStreamStats.Timestamp,<br>which represents the time at which the statistics object was created.</blockquote>
+</dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_LastPacketReceivedTimestamp_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCInboundRtpStreamStats/lastPacketReceivedTimestamp">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_Mid" data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.Mid">
+  Mid
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30172"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Mid</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_NackCount" data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.NackCount">
+  NackCount
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30204"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>nackCount</code></strong> property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.html">RTCInboundRtpStreamStats</a> dictionary is a numeric value indicating the<br>number of times the receiver sent a <strong>NACK</strong> packet to the sender.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong NackCount</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd><p>An integer value indicating how many times the receiver sent a NACK packet to the<br>sender after detecting that one or more packets were lost during transport.</p>
+</dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_NackCount_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>A NACK (Negative ACKnowledgement, also called &amp;quot;Generic NACK&amp;quot;) packet tells the sender<br>that one or more of the <a href="https://developer.mozilla.org/en-US/docs/Glossary/RTP">RTP</a> packets it sent were lost in transport.</p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCInboundRtpStreamStats/nackCount">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_PacketsDiscarded" data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.PacketsDiscarded">
+  PacketsDiscarded
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30195"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong PacketsDiscarded</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_PauseCount" data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.PauseCount">
+  PauseCount
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30188"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong PauseCount</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_PlayoutId" data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.PlayoutId">
+  PlayoutId
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30226"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string PlayoutId</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_PliCount" data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.PliCount">
+  PliCount
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30208"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>pliCount</code></strong> property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.html">RTCInboundRtpStreamStats</a> dictionary states the number of times the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpReceiver.html">RTCRtpReceiver</a> described by these statistics sent a <strong>Picture</strong><strong><br></strong><strong>Loss Indication</strong> (<strong>PLI</strong>) packet to the sender.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong PliCount</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd><p>An integer value indicating the number of times a PLI packet was sent by the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpReceiver.html">RTCRtpReceiver</a> to the sender. These are sent by the receiver's decoder to<br>notify the encoder (the sender) that an undefined amount of coded video data, which may<br>span frame boundaries, has been lost. This information is only available for video<br>streams.This may trigger the sender to send a full frame in order to allow the receiver to<br>re-synchronize, since lost data may be an irrecoverable situation for decoding media.<br>However, the primary purpose of this message is to allow the sender to consider<br>techniques to mitigate network performance issues. This is often achieved by methods<br>such as increasing the compression, lowering resolution, or finding other ways to reduce<br>the bit rate of the stream.</p>
+</dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_PliCount_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>A PLI<br>packet indicates that some amount of encoded video data has been lost for one or more<br>frames.</p>
+<p>-{{RFC(4585, &amp;quot;&amp;quot;, &amp;quot;6.3.1&amp;quot;)}}: Definition of &amp;quot;PLI messages&amp;quot; in the document <strong>Extended</strong><strong><br></strong><strong>RTP Profile for Real-time Transport Control Protocol (RTCP)-Based Feedback</strong><strong><br></strong><strong>(RTP/AVPF)</strong>.<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCInboundRtpStreamStats/pliCount">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_PowerEfficientDecoder" data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.PowerEfficientDecoder">
+  PowerEfficientDecoder
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30227"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool PowerEfficientDecoder</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_QpSum" data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.QpSum">
+  QpSum
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30184"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>qpSum</code></strong> property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.html">RTCInboundRtpStreamStats</a> dictionary is a value generated by adding the<br><strong>Quantization Parameter</strong> (<strong>QP</strong>) values for every frame<br>sent or received to date on the video track corresponding to this<br><code>RTCInboundRtpStreamStats</code> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong QpSum</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd><p>An unsigned 64-bit integer value which indicates the sum of the quantization parameter<br>(QP) value for every frame sent or received so far on the track described by the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.html">RTCInboundRtpStreamStats</a> object. Since the value of QP is typically<br>larger to indicate higher compression factors, the larger this sum is, the more heavily<br>compressed the stream generally has been.<blockquote class="NOTE"><h5>NOTE</h5><strong>Note:</strong> This value is only available for video media.</blockquote>
+</dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_QpSum_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>In general, the higher this<br>number is, the more heavily compressed the video data is.</p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCInboundRtpStreamStats/qpSum">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_RemoteId" data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.RemoteId">
+  RemoteId
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30174"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>remoteId</code></strong> property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.html">RTCInboundRtpStreamStats</a> dictionary specifies the RTCInboundRtpStreamStats.Id of the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRemoteOutboundRtpStreamStats.html">RTCRemoteOutboundRtpStreamStats</a> object representing the remote peer's <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpSender.html">RTCRtpSender</a> which is sending the media to the local peer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string RemoteId</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A string containing the ID of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRemoteOutboundRtpStreamStats.html">RTCRemoteOutboundRtpStreamStats</a> object that represents the remote peer's<br><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpSender.html">RTCRtpSender</a> for the synchronization source represented by this stats<br>object.</p>
+</dd>
+  </dl>
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_RemoteId_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCInboundRtpStreamStats/remoteId">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_RemovedSamplesForAcceleration" data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.RemovedSamplesForAcceleration">
+  RemovedSamplesForAcceleration
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30220"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong RemovedSamplesForAcceleration</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_RetransmittedBytesReceived" data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.RetransmittedBytesReceived">
+  RetransmittedBytesReceived
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30231"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong RetransmittedBytesReceived</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_RetransmittedPacketsReceived" data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.RetransmittedPacketsReceived">
+  RetransmittedPacketsReceived
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30230"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong RetransmittedPacketsReceived</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_RtxSsrc" data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.RtxSsrc">
+  RtxSsrc
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30232"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong RtxSsrc</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_SilentConcealedSamples" data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.SilentConcealedSamples">
+  SilentConcealedSamples
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30217"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong SilentConcealedSamples</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_TotalAssemblyTime" data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.TotalAssemblyTime">
+  TotalAssemblyTime
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30229"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Number TotalAssemblyTime</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_TotalAudioEnergy" data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.TotalAudioEnergy">
+  TotalAudioEnergy
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30222"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Number TotalAudioEnergy</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_TotalDecodeTime" data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.TotalDecodeTime">
+  TotalDecodeTime
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30185"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Number TotalDecodeTime</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_TotalFreezesDuration" data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.TotalFreezesDuration">
+  TotalFreezesDuration
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30191"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Number TotalFreezesDuration</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_TotalInterFrameDelay" data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.TotalInterFrameDelay">
+  TotalInterFrameDelay
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30186"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Number TotalInterFrameDelay</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_TotalPausesDuration" data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.TotalPausesDuration">
+  TotalPausesDuration
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30189"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Number TotalPausesDuration</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_TotalProcessingDelay" data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.TotalProcessingDelay">
+  TotalProcessingDelay
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30209"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Number TotalProcessingDelay</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_TotalSamplesDuration" data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.TotalSamplesDuration">
+  TotalSamplesDuration
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30223"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Number TotalSamplesDuration</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_TotalSamplesReceived" data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.TotalSamplesReceived">
+  TotalSamplesReceived
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30215"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong TotalSamplesReceived</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_TotalSquaredInterFrameDelay" data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.TotalSquaredInterFrameDelay">
+  TotalSquaredInterFrameDelay
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30187"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Number TotalSquaredInterFrameDelay</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCInboundRtpStreamStats_TrackIdentifier" data-uid="CSharpToJavaScript.APIs.JS.RTCInboundRtpStreamStats.TrackIdentifier">
+  TrackIdentifier
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30171"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public required string TrackIdentifier</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30168" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -2,11 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class CSSStyleDeclaration
- | CSharpToJavaScript </title>
+      <title>Class CSSStyleDeclaration | CSharpToJavaScript </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class CSSStyleDeclaration
- | CSharpToJavaScript ">
+      <meta name="title" content="Class CSSStyleDeclaration | CSharpToJavaScript ">
       
       <meta name="description" content="The CSSStyleDeclaration interface represents an object that is a CSS declaration block, and exposes style information and various style-related methods and properties.">
       <link rel="icon" href="../favicon.ico">
@@ -31,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -91,8 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_CSSStyleDeclaration" data-uid="CSharpToJavaScript.APIs.JS.CSSStyleDeclaration" class="text-break">
-    Class CSSStyleDeclaration
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/HTMLElement.cs/#L15"><i class="bi bi-code-slash"></i></a>
+Class CSSStyleDeclaration  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L3937"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -121,8 +118,17 @@ public class CSSStyleDeclaration</code></pre>
   </dl>
 
 
-
   <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.CSSFontFaceDescriptors.html">CSSFontFaceDescriptors</a></div>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.CSSPageDescriptors.html">CSSPageDescriptors</a></div>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.CSSPositionTryDescriptors.html">CSSPositionTryDescriptors</a></div>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.CSSStyleProperties.html">CSSStyleProperties</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
     <div>
@@ -153,7 +159,11 @@ public class CSSStyleDeclaration</code></pre>
 
   <h2 id="CSharpToJavaScript_APIs_JS_CSSStyleDeclaration_remarks">Remarks</h2>
   <div class="markdown level0 remarks"><p>A <code>CSSStyleDeclaration</code> object can be exposed using three different APIs:</p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -161,48 +171,11 @@ public class CSSStyleDeclaration</code></pre>
 </h2>
 
 
-  <a id="CSharpToJavaScript_APIs_JS_CSSStyleDeclaration_CssFloat_" data-uid="CSharpToJavaScript.APIs.JS.CSSStyleDeclaration.CssFloat*"></a>
-
-  <h3 id="CSharpToJavaScript_APIs_JS_CSSStyleDeclaration_CssFloat" data-uid="CSharpToJavaScript.APIs.JS.CSSStyleDeclaration.CssFloat">
-  CssFloat
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5711"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"><p>The <strong><code>cssFloat</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.CSSStyleDeclaration.html">CSSStyleDeclaration</a> interface returns the result of invoking <a class="xref" href="CSharpToJavaScript.APIs.JS.CSSStyleDeclaration.html#CSharpToJavaScript_APIs_JS_CSSStyleDeclaration_GetPropertyValue_CSharpToJavaScript_Utils_Unsupported_">GetPropertyValue(Unsupported)</a> with <code>float</code> as an argument.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Unsupported CssFloat { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.Utils.Unsupported.html">Unsupported</a></dt>
-    <dd><p>A string.</p>
-</dd>
-  </dl>
-
-
-
-
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_CSSStyleDeclaration_CssFloat_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>When setting, it invokes <a class="xref" href="CSharpToJavaScript.APIs.JS.CSSStyleDeclaration.html#CSharpToJavaScript_APIs_JS_CSSStyleDeclaration_SetProperty_CSharpToJavaScript_Utils_Unsupported_CSharpToJavaScript_Utils_Unsupported_CSharpToJavaScript_Utils_Unsupported_">SetProperty(Unsupported, Unsupported, Unsupported)</a> with <code>float</code> as the first argument, and the given value as the second argument. The given value must be a valid value for the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/float">float</a> property.</p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration/cssFloat"> <em>See also on MDN</em> </a></p>
-</div>
-
-
-
-
   <a id="CSharpToJavaScript_APIs_JS_CSSStyleDeclaration_CssText_" data-uid="CSharpToJavaScript.APIs.JS.CSSStyleDeclaration.CssText*"></a>
 
   <h3 id="CSharpToJavaScript_APIs_JS_CSSStyleDeclaration_CssText" data-uid="CSharpToJavaScript.APIs.JS.CSSStyleDeclaration.CssText">
   CssText
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5696"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L3941"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>cssText</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.CSSStyleDeclaration.html">CSSStyleDeclaration</a> interface returns or sets the text of the element's <strong>inline</strong> style declaration only.</p>
@@ -210,44 +183,7 @@ public class CSSStyleDeclaration</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Unsupported CssText { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.Utils.Unsupported.html">Unsupported</a></dt>
-    <dd><p>A string containing the text of the element&amp;apos;s inline style declaration.</p>
-</dd>
-  </dl>
-
-
-
-
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_CSSStyleDeclaration_CssText_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>To be able to set a <strong>stylesheet</strong> rule dynamically, see <a href="https://developer.mozilla.org/en-US/docs/Web/API/CSS_Object_Model/Using_dynamic_styling_information">Using dynamic styling information</a>.</p><p>Not to be confused with stylesheet style-rule <a class="xref" href="CSharpToJavaScript.APIs.JS.CSSRule.html#CSharpToJavaScript_APIs_JS_CSSRule_CssText">CssText</a>.</p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration/cssText"> <em>See also on MDN</em> </a></p>
-</div>
-
-
-
-
-  <a id="CSharpToJavaScript_APIs_JS_CSSStyleDeclaration_Display_" data-uid="CSharpToJavaScript.APIs.JS.CSSStyleDeclaration.Display*"></a>
-
-  <h3 id="CSharpToJavaScript_APIs_JS_CSSStyleDeclaration_Display" data-uid="CSharpToJavaScript.APIs.JS.CSSStyleDeclaration.Display">
-  Display
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/HTMLElement.cs/#L17"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
-public string Display { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string CssText { get; set; }</code></pre>
   </div>
 
 
@@ -257,12 +193,22 @@ public string Display { get; set; }</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd>The CSSStyleDeclaration interface represents an object that is a CSS declaration block, and exposes style information and various style-related methods and properties.</dd>
+    <dd><p>A string containing the text of the element&amp;apos;s inline style declaration.</p>
+</dd>
   </dl>
 
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_CSSStyleDeclaration_CssText_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>To be able to set a <strong>stylesheet</strong> rule dynamically, see <a href="https://developer.mozilla.org/en-US/docs/Web/API/CSS_Object_Model/Using_dynamic_styling_information">Using dynamic styling information</a>.</p>
+<p>Not to be confused with stylesheet style-rule <a class="xref" href="CSharpToJavaScript.APIs.JS.CSSRule.html#CSharpToJavaScript_APIs_JS_CSSRule_CssText">CssText</a>.</p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration/cssText">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -271,7 +217,7 @@ public string Display { get; set; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_CSSStyleDeclaration_Length" data-uid="CSharpToJavaScript.APIs.JS.CSSStyleDeclaration.Length">
   Length
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5698"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L3943"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The read-only property returns an integer that represents the<br>number of style declarations in this CSS declaration block.</p>
@@ -297,7 +243,11 @@ public string Display { get; set; }</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_CSSStyleDeclaration_Length_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p><a href="https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration/length"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration/length">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -307,7 +257,7 @@ public string Display { get; set; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_CSSStyleDeclaration_ParentRule" data-uid="CSharpToJavaScript.APIs.JS.CSSStyleDeclaration.ParentRule">
   ParentRule
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5709"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L3954"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong>CSSStyleDeclaration.parentRule</strong> read-only<br>property returns a 'CSSRule' that is the parent of this style<br>block, e.g. a 'CSSStyleRule' representing the style for a CSS<br>selector.</p>
@@ -333,7 +283,11 @@ public string Display { get; set; }</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_CSSStyleDeclaration_ParentRule_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p><a href="https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration/parentRule"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration/parentRule">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -345,9 +299,9 @@ public string Display { get; set; }</code></pre>
 
   <a id="CSharpToJavaScript_APIs_JS_CSSStyleDeclaration_GetPropertyPriority_" data-uid="CSharpToJavaScript.APIs.JS.CSSStyleDeclaration.GetPropertyPriority*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_CSSStyleDeclaration_GetPropertyPriority_CSharpToJavaScript_Utils_Unsupported_" data-uid="CSharpToJavaScript.APIs.JS.CSSStyleDeclaration.GetPropertyPriority(CSharpToJavaScript.Utils.Unsupported)">
-  GetPropertyPriority(Unsupported)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5703"><i class="bi bi-code-slash"></i></a>
+  <h3 id="CSharpToJavaScript_APIs_JS_CSSStyleDeclaration_GetPropertyPriority_System_String_" data-uid="CSharpToJavaScript.APIs.JS.CSSStyleDeclaration.GetPropertyPriority(System.String)">
+  GetPropertyPriority(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L3948"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong>CSSStyleDeclaration.getPropertyPriority()</strong> method interface returns<br>a string that provides all explicitly set priorities on the CSS<br>property.</p>
@@ -355,18 +309,18 @@ public string Display { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Unsupported GetPropertyPriority(Unsupported property)</code></pre>
+    <pre><code class="lang-csharp hljs">public string GetPropertyPriority(string property)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>property</code> <a class="xref" href="CSharpToJavaScript.Utils.Unsupported.html">Unsupported</a></dt>
-    <dd>The CSSStyleDeclaration interface represents an object that is a CSS declaration block, and exposes style information and various style-related methods and properties.</dd>
+    <dt><code>property</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.Utils.Unsupported.html">Unsupported</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd><p>A string that represents the priority (e.g. <code>&amp;quot;important&amp;quot;</code>) if one exists.<br>If none exists, returns the empty string.</p>
 </dd>
   </dl>
@@ -377,8 +331,12 @@ public string Display { get; set; }</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_CSSStyleDeclaration_GetPropertyPriority_CSharpToJavaScript_Utils_Unsupported__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p><a href="https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration/getPropertyPriority"> <em>See also on MDN</em> </a></p>
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_CSSStyleDeclaration_GetPropertyPriority_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration/getPropertyPriority">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -386,9 +344,9 @@ public string Display { get; set; }</code></pre>
 
   <a id="CSharpToJavaScript_APIs_JS_CSSStyleDeclaration_GetPropertyValue_" data-uid="CSharpToJavaScript.APIs.JS.CSSStyleDeclaration.GetPropertyValue*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_CSSStyleDeclaration_GetPropertyValue_CSharpToJavaScript_Utils_Unsupported_" data-uid="CSharpToJavaScript.APIs.JS.CSSStyleDeclaration.GetPropertyValue(CSharpToJavaScript.Utils.Unsupported)">
-  GetPropertyValue(Unsupported)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5701"><i class="bi bi-code-slash"></i></a>
+  <h3 id="CSharpToJavaScript_APIs_JS_CSSStyleDeclaration_GetPropertyValue_System_String_" data-uid="CSharpToJavaScript.APIs.JS.CSSStyleDeclaration.GetPropertyValue(System.String)">
+  GetPropertyValue(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L3946"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong>CSSStyleDeclaration.getPropertyValue()</strong> method interface returns a<br>string containing the value of a specified CSS property.</p>
@@ -396,18 +354,18 @@ public string Display { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Unsupported GetPropertyValue(Unsupported property)</code></pre>
+    <pre><code class="lang-csharp hljs">public string GetPropertyValue(string property)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>property</code> <a class="xref" href="CSharpToJavaScript.Utils.Unsupported.html">Unsupported</a></dt>
-    <dd>The CSSStyleDeclaration interface represents an object that is a CSS declaration block, and exposes style information and various style-related methods and properties.</dd>
+    <dt><code>property</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.Utils.Unsupported.html">Unsupported</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd><p>A string containing the value of the property. If not set, returns the empty string.</p>
 </dd>
   </dl>
@@ -418,8 +376,12 @@ public string Display { get; set; }</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_CSSStyleDeclaration_GetPropertyValue_CSharpToJavaScript_Utils_Unsupported__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p><a href="https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration/getPropertyValue"> <em>See also on MDN</em> </a></p>
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_CSSStyleDeclaration_GetPropertyValue_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration/getPropertyValue">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -427,9 +389,9 @@ public string Display { get; set; }</code></pre>
 
   <a id="CSharpToJavaScript_APIs_JS_CSSStyleDeclaration_RemoveProperty_" data-uid="CSharpToJavaScript.APIs.JS.CSSStyleDeclaration.RemoveProperty*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_CSSStyleDeclaration_RemoveProperty_CSharpToJavaScript_Utils_Unsupported_" data-uid="CSharpToJavaScript.APIs.JS.CSSStyleDeclaration.RemoveProperty(CSharpToJavaScript.Utils.Unsupported)">
-  RemoveProperty(Unsupported)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5707"><i class="bi bi-code-slash"></i></a>
+  <h3 id="CSharpToJavaScript_APIs_JS_CSSStyleDeclaration_RemoveProperty_System_String_" data-uid="CSharpToJavaScript.APIs.JS.CSSStyleDeclaration.RemoveProperty(System.String)">
+  RemoveProperty(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L3952"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>CSSStyleDeclaration.removeProperty()</code></strong> method interface<br>removes a property from a CSS style declaration object.</p>
@@ -437,18 +399,18 @@ public string Display { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Unsupported RemoveProperty(Unsupported property)</code></pre>
+    <pre><code class="lang-csharp hljs">public string RemoveProperty(string property)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>property</code> <a class="xref" href="CSharpToJavaScript.Utils.Unsupported.html">Unsupported</a></dt>
-    <dd>The CSSStyleDeclaration interface represents an object that is a CSS declaration block, and exposes style information and various style-related methods and properties.</dd>
+    <dt><code>property</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.Utils.Unsupported.html">Unsupported</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd><p>A string equal to the value of the CSS property before it was removed.</p>
 </dd>
   </dl>
@@ -459,8 +421,12 @@ public string Display { get; set; }</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_CSSStyleDeclaration_RemoveProperty_CSharpToJavaScript_Utils_Unsupported__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p><a href="https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration/removeProperty"> <em>See also on MDN</em> </a></p>
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_CSSStyleDeclaration_RemoveProperty_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration/removeProperty">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -468,9 +434,9 @@ public string Display { get; set; }</code></pre>
 
   <a id="CSharpToJavaScript_APIs_JS_CSSStyleDeclaration_SetProperty_" data-uid="CSharpToJavaScript.APIs.JS.CSSStyleDeclaration.SetProperty*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_CSSStyleDeclaration_SetProperty_CSharpToJavaScript_Utils_Unsupported_CSharpToJavaScript_Utils_Unsupported_CSharpToJavaScript_Utils_Unsupported_" data-uid="CSharpToJavaScript.APIs.JS.CSSStyleDeclaration.SetProperty(CSharpToJavaScript.Utils.Unsupported,CSharpToJavaScript.Utils.Unsupported,CSharpToJavaScript.Utils.Unsupported)">
-  SetProperty(Unsupported, Unsupported, Unsupported)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5705"><i class="bi bi-code-slash"></i></a>
+  <h3 id="CSharpToJavaScript_APIs_JS_CSSStyleDeclaration_SetProperty_System_String_System_String_System_String_" data-uid="CSharpToJavaScript.APIs.JS.CSSStyleDeclaration.SetProperty(System.String,System.String,System.String)">
+  SetProperty(string, string, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L3950"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The<br><strong><code>CSSStyleDeclaration.setProperty()</code></strong> method interface sets<br>a new value for a property on a CSS style declaration object.</p>
@@ -478,17 +444,17 @@ public string Display { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined SetProperty(Unsupported property, Unsupported value, Unsupported priority)</code></pre>
+    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined SetProperty(string property, string value, string priority)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>property</code> <a class="xref" href="CSharpToJavaScript.Utils.Unsupported.html">Unsupported</a></dt>
-    <dd>The CSSStyleDeclaration interface represents an object that is a CSS declaration block, and exposes style information and various style-related methods and properties.</dd>
-    <dt><code>value</code> <a class="xref" href="CSharpToJavaScript.Utils.Unsupported.html">Unsupported</a></dt>
-    <dd>The CSSStyleDeclaration interface represents an object that is a CSS declaration block, and exposes style information and various style-related methods and properties.</dd>
-    <dt><code>priority</code> <a class="xref" href="CSharpToJavaScript.Utils.Unsupported.html">Unsupported</a></dt>
-    <dd>The CSSStyleDeclaration interface represents an object that is a CSS declaration block, and exposes style information and various style-related methods and properties.</dd>
+    <dt><code>property</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>value</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>priority</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -504,8 +470,12 @@ public string Display { get; set; }</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_CSSStyleDeclaration_SetProperty_CSharpToJavaScript_Utils_Unsupported_CSharpToJavaScript_Utils_Unsupported_CSharpToJavaScript_Utils_Unsupported__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p><a href="https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration/setProperty"> <em>See also on MDN</em> </a></p>
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_CSSStyleDeclaration_SetProperty_System_String_System_String_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration/setProperty">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -515,7 +485,7 @@ public string Display { get; set; }</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/HTMLElement.cs/#L15" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L3937" class="edit-link">Edit this page</a>
         </div>
 
 

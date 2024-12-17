@@ -2,11 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class HTMLMediaElement
- | CSharpToJavaScript </title>
+      <title>Class HTMLMediaElement | CSharpToJavaScript </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class HTMLMediaElement
- | CSharpToJavaScript ">
+      <meta name="title" content="Class HTMLMediaElement | CSharpToJavaScript ">
       
       <meta name="description" content="The HTMLMediaElement interface adds to  the properties and methods needed to support basic media-related capabilities that are common to audio and video.">
       <link rel="icon" href="../favicon.ico">
@@ -31,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -91,8 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement" class="text-break">
-    Class HTMLMediaElement
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L887"><i class="bi bi-code-slash"></i></a>
+Class HTMLMediaElement  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L17024"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -106,7 +103,7 @@
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[To(&quot;Default&quot;)]
-public class HTMLMediaElement : HTMLElement, GlobalEventHandlers, ElementContentEditable, HTMLOrSVGElement, ElementCSSInlineStyle</code></pre>
+public class HTMLMediaElement : HTMLElement</code></pre>
   </div>
 
 
@@ -124,15 +121,6 @@ public class HTMLMediaElement : HTMLElement, GlobalEventHandlers, ElementContent
     </dd>
   </dl>
 
-  <dl class="typelist implements">
-    <dt>Implements</dt>
-    <dd>
-      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalEventHandlers.html">GlobalEventHandlers</a></div>
-      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.ElementContentEditable.html">ElementContentEditable</a></div>
-      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLOrSVGElement.html">HTMLOrSVGElement</a></div>
-      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.ElementCSSInlineStyle.html">ElementCSSInlineStyle</a></div>
-    </dd>
-  </dl>
 
   <dl class="typelist derived">
     <dt>Derived</dt>
@@ -142,9 +130,27 @@ public class HTMLMediaElement : HTMLElement, GlobalEventHandlers, ElementContent
     </dd>
   </dl>
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_OffsetParent">HTMLElement.OffsetParent</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_OffsetTop">HTMLElement.OffsetTop</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_OffsetLeft">HTMLElement.OffsetLeft</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_OffsetWidth">HTMLElement.OffsetWidth</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_OffsetHeight">HTMLElement.OffsetHeight</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_EditContext">HTMLElement.EditContext</a>
+    </div>
     <div>
       <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_Title">HTMLElement.Title</a>
     </div>
@@ -179,6 +185,9 @@ public class HTMLMediaElement : HTMLElement, GlobalEventHandlers, ElementContent
       <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_Spellcheck">HTMLElement.Spellcheck</a>
     </div>
     <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_WritingSuggestions">HTMLElement.WritingSuggestions</a>
+    </div>
+    <div>
       <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_Autocapitalize">HTMLElement.Autocapitalize</a>
     </div>
     <div>
@@ -203,15 +212,6 @@ public class HTMLMediaElement : HTMLElement, GlobalEventHandlers, ElementContent
       <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_Popover">HTMLElement.Popover</a>
     </div>
     <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_Style">HTMLElement.Style</a>
-    </div>
-    <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_Pseudo_CSharpToJavaScript_Utils_Unsupported_">Element.Pseudo(Unsupported)</a>
-    </div>
-    <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_Part">Element.Part</a>
-    </div>
-    <div>
       <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_GetSpatialNavigationContainer">Element.GetSpatialNavigationContainer()</a>
     </div>
     <div>
@@ -219,6 +219,72 @@ public class HTMLMediaElement : HTMLElement, GlobalEventHandlers, ElementContent
     </div>
     <div>
       <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_SpatialNavigationSearch_CSharpToJavaScript_APIs_JS_SpatialNavigationDirection_CSharpToJavaScript_APIs_JS_SpatialNavigationSearchOptions_">Element.SpatialNavigationSearch(SpatialNavigationDirection, SpatialNavigationSearchOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_Pseudo_System_String_">Element.Pseudo(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_Part">Element.Part</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ComputedStyleMap">Element.ComputedStyleMap()</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_GetClientRects">Element.GetClientRects()</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_GetBoundingClientRect">Element.GetBoundingClientRect()</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_CheckVisibility_CSharpToJavaScript_APIs_JS_CheckVisibilityOptions_">Element.CheckVisibility(CheckVisibilityOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ScrollIntoView_CSharpToJavaScript_APIs_JS_Union22_">Element.ScrollIntoView(Union22)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_Scroll_CSharpToJavaScript_APIs_JS_ScrollToOptions_">Element.Scroll(ScrollToOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_Scroll_System_Double_System_Double_">Element.Scroll(double, double)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ScrollTo_CSharpToJavaScript_APIs_JS_ScrollToOptions_">Element.ScrollTo(ScrollToOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ScrollTo_System_Double_System_Double_">Element.ScrollTo(double, double)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ScrollBy_CSharpToJavaScript_APIs_JS_ScrollToOptions_">Element.ScrollBy(ScrollToOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ScrollBy_System_Double_System_Double_">Element.ScrollBy(double, double)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ScrollTop">Element.ScrollTop</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ScrollLeft">Element.ScrollLeft</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ScrollWidth">Element.ScrollWidth</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ScrollHeight">Element.ScrollHeight</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ClientTop">Element.ClientTop</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ClientLeft">Element.ClientLeft</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ClientWidth">Element.ClientWidth</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ClientHeight">Element.ClientHeight</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_CurrentCSSZoom">Element.CurrentCSSZoom</a>
     </div>
     <div>
       <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_NamespaceURI">Element.NamespaceURI</a>
@@ -326,13 +392,7 @@ public class HTMLMediaElement : HTMLElement, GlobalEventHandlers, ElementContent
       <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_InsertAdjacentText_System_String_System_String_">Element.InsertAdjacentText(string, string)</a>
     </div>
     <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_InnerHTML">Element.InnerHTML</a>
-    </div>
-    <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_OuterHTML">Element.OuterHTML</a>
-    </div>
-    <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_InsertAdjacentHTML_System_String_System_String_">Element.InsertAdjacentHTML(string, string)</a>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ElementTiming">Element.ElementTiming</a>
     </div>
     <div>
       <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_RequestFullscreen_CSharpToJavaScript_APIs_JS_FullscreenOptions_">Element.RequestFullscreen(FullscreenOptions)</a>
@@ -344,10 +404,31 @@ public class HTMLMediaElement : HTMLElement, GlobalEventHandlers, ElementContent
       <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_Onfullscreenerror">Element.Onfullscreenerror</a>
     </div>
     <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_Uiactions">Element.Uiactions</a>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_SetHTMLUnsafe_System_String_">Element.SetHTMLUnsafe(string)</a>
     </div>
     <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_Uitrigger">Element.Uitrigger</a>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_GetHTML_CSharpToJavaScript_APIs_JS_GetHTMLOptions_">Element.GetHTML(GetHTMLOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_InnerHTML">Element.InnerHTML</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_OuterHTML">Element.OuterHTML</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_InsertAdjacentHTML_System_String_System_String_">Element.InsertAdjacentHTML(string, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_SetPointerCapture_System_Int64_">Element.SetPointerCapture(long)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ReleasePointerCapture_System_Int64_">Element.ReleasePointerCapture(long)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_HasPointerCapture_System_Int64_">Element.HasPointerCapture(long)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_RequestPointerLock">Element.RequestPointerLock()</a>
     </div>
     <div>
       <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_ELEMENT_NODE">Node.ELEMENT_NODE</a>
@@ -491,22 +572,22 @@ public class HTMLMediaElement : HTMLElement, GlobalEventHandlers, ElementContent
       <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_RemoveChild_CSharpToJavaScript_APIs_JS_Node_">Node.RemoveChild(Node)</a>
     </div>
     <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union41_">EventTarget.AddEventListener(string, Action, Union41)</a>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union27_">EventTarget.AddEventListener(string, Action, Union27)</a>
     </div>
     <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_MouseEvent__CSharpToJavaScript_APIs_JS_Union41_">EventTarget.AddEventListener(string, Action&lt;MouseEvent&gt;, Union41)</a>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_MouseEvent__CSharpToJavaScript_APIs_JS_Union27_">EventTarget.AddEventListener(string, Action&lt;MouseEvent&gt;, Union27)</a>
     </div>
     <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Event__CSharpToJavaScript_APIs_JS_Union41_">EventTarget.AddEventListener(string, Action&lt;Event&gt;, Union41)</a>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Event__CSharpToJavaScript_APIs_JS_Union27_">EventTarget.AddEventListener(string, Action&lt;Event&gt;, Union27)</a>
     </div>
     <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_RemoveEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union2_">EventTarget.RemoveEventListener(string, Action, Union2)</a>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_RemoveEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union28_">EventTarget.RemoveEventListener(string, Action, Union28)</a>
     </div>
     <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_CSharpToJavaScript_APIs_JS_EventListener_CSharpToJavaScript_APIs_JS_Union41_">EventTarget.AddEventListener(string, EventListener, Union41)</a>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_CSharpToJavaScript_APIs_JS_EventListener_CSharpToJavaScript_APIs_JS_Union27_">EventTarget.AddEventListener(string, EventListener, Union27)</a>
     </div>
     <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_RemoveEventListener_System_String_CSharpToJavaScript_APIs_JS_EventListener_CSharpToJavaScript_APIs_JS_Union42_">EventTarget.RemoveEventListener(string, EventListener, Union42)</a>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_RemoveEventListener_System_String_CSharpToJavaScript_APIs_JS_EventListener_CSharpToJavaScript_APIs_JS_Union28_">EventTarget.RemoveEventListener(string, EventListener, Union28)</a>
     </div>
     <div>
       <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_DispatchEvent_CSharpToJavaScript_APIs_JS_Event_">EventTarget.DispatchEvent(Event)</a>
@@ -538,8 +619,13 @@ public class HTMLMediaElement : HTMLElement, GlobalEventHandlers, ElementContent
 
 
   <h2 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLVideoElement.html">HTMLVideoElement</a> and <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLAudioElement.html">HTMLAudioElement</a> elements both inherit this interface.</p><p></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level0 remarks"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLVideoElement.html">HTMLVideoElement</a> and <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLAudioElement.html">HTMLAudioElement</a> elements both inherit this interface.</p>
+<p></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -550,7 +636,7 @@ public class HTMLMediaElement : HTMLElement, GlobalEventHandlers, ElementContent
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_HAVE_CURRENT_DATA" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.HAVE_CURRENT_DATA">
   HAVE_CURRENT_DATA
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L931"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9015"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -567,7 +653,7 @@ public const ushort HAVE_CURRENT_DATA = 2</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
-    <dd>The HTMLMediaElement interface adds to  the properties and methods needed to support basic media-related capabilities that are common to audio and video.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -581,7 +667,7 @@ public const ushort HAVE_CURRENT_DATA = 2</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_HAVE_ENOUGH_DATA" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.HAVE_ENOUGH_DATA">
   HAVE_ENOUGH_DATA
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L935"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9019"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -598,7 +684,7 @@ public const ushort HAVE_ENOUGH_DATA = 4</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
-    <dd>The HTMLMediaElement interface adds to  the properties and methods needed to support basic media-related capabilities that are common to audio and video.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -612,7 +698,7 @@ public const ushort HAVE_ENOUGH_DATA = 4</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_HAVE_FUTURE_DATA" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.HAVE_FUTURE_DATA">
   HAVE_FUTURE_DATA
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L933"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9017"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -629,7 +715,7 @@ public const ushort HAVE_FUTURE_DATA = 3</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
-    <dd>The HTMLMediaElement interface adds to  the properties and methods needed to support basic media-related capabilities that are common to audio and video.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -643,7 +729,7 @@ public const ushort HAVE_FUTURE_DATA = 3</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_HAVE_METADATA" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.HAVE_METADATA">
   HAVE_METADATA
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L929"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9013"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -660,7 +746,7 @@ public const ushort HAVE_METADATA = 1</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
-    <dd>The HTMLMediaElement interface adds to  the properties and methods needed to support basic media-related capabilities that are common to audio and video.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -674,7 +760,7 @@ public const ushort HAVE_METADATA = 1</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_HAVE_NOTHING" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.HAVE_NOTHING">
   HAVE_NOTHING
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L927"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9011"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -691,7 +777,7 @@ public const ushort HAVE_NOTHING = 0</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
-    <dd>The HTMLMediaElement interface adds to  the properties and methods needed to support basic media-related capabilities that are common to audio and video.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -705,7 +791,7 @@ public const ushort HAVE_NOTHING = 0</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_NETWORK_EMPTY" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.NETWORK_EMPTY">
   NETWORK_EMPTY
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L906"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8989"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -722,7 +808,7 @@ public const ushort NETWORK_EMPTY = 0</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
-    <dd>The HTMLMediaElement interface adds to  the properties and methods needed to support basic media-related capabilities that are common to audio and video.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -736,7 +822,7 @@ public const ushort NETWORK_EMPTY = 0</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_NETWORK_IDLE" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.NETWORK_IDLE">
   NETWORK_IDLE
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L908"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8991"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -753,7 +839,7 @@ public const ushort NETWORK_IDLE = 1</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
-    <dd>The HTMLMediaElement interface adds to  the properties and methods needed to support basic media-related capabilities that are common to audio and video.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -767,7 +853,7 @@ public const ushort NETWORK_IDLE = 1</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_NETWORK_LOADING" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.NETWORK_LOADING">
   NETWORK_LOADING
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L910"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8993"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -784,7 +870,7 @@ public const ushort NETWORK_LOADING = 2</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
-    <dd>The HTMLMediaElement interface adds to  the properties and methods needed to support basic media-related capabilities that are common to audio and video.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -798,7 +884,7 @@ public const ushort NETWORK_LOADING = 2</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_NETWORK_NO_SOURCE" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.NETWORK_NO_SOURCE">
   NETWORK_NO_SOURCE
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L912"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8995"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -815,7 +901,7 @@ public const ushort NETWORK_NO_SOURCE = 3</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
-    <dd>The HTMLMediaElement interface adds to  the properties and methods needed to support basic media-related capabilities that are common to audio and video.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -834,7 +920,7 @@ public const ushort NETWORK_NO_SOURCE = 3</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_AudioTracks" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.AudioTracks">
   AudioTracks
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L997"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9081"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The read-only <strong><code>audioTracks</code></strong><br>property on <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a> objects returns<br>an <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioTrackList.html">AudioTrackList</a> object listing all of the <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioTrack.html">AudioTrack</a><br>objects representing the media element&amp;apos;s audio tracks.</p>
@@ -861,9 +947,14 @@ public AudioTrackList AudioTracks { get; }</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_AudioTracks_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>The media element may be<br>either an <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio">audio</a> element or a <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video">video</a> element.</p><p>The returned list is <strong>live</strong>; that is, as tracks are added to and removed from<br>the media element, the list&amp;apos;s contents change dynamically. Once you have a reference to<br>the list, you can monitor it for changes to detect when new audio tracks are added or<br>existing ones removed. See <a href="https://developer.mozilla.org/en-US/docs/Web/API/AudioTrackList#events">AudioTrackList events</a><br>to learn more about watching for changes to a media element&amp;apos;s track list.</p>
+  <div class="markdown level1 remarks"><p>The media element may be<br>either an <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio">audio</a> element or a <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video">video</a> element.</p>
+<p>The returned list is <strong>live</strong>; that is, as tracks are added to and removed from<br>the media element, the list&amp;apos;s contents change dynamically. Once you have a reference to<br>the list, you can monitor it for changes to detect when new audio tracks are added or<br>existing ones removed. See <a href="https://developer.mozilla.org/en-US/docs/Web/API/AudioTrackList#events">AudioTrackList events</a><br>to learn more about watching for changes to a media element&amp;apos;s track list.</p>
 <p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a>: Interface used to define the <code>HTMLMediaElement.audioTracks</code> property<br>-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio">audio</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video">video</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.AudioTrack.html">AudioTrack</a>, <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioTrackList.html">AudioTrackList</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/audioTracks"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/audioTracks">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -873,7 +964,7 @@ public AudioTrackList AudioTracks { get; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Autoplay" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Autoplay">
   Autoplay
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L973"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9057"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>HTMLMediaElement.autoplay</code></strong><br>property reflects the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video#autoplay"><code>autoplay</code></a> HTML attribute, indicating<br>whether playback should automatically begin as soon as enough media is available to do<br>so without interruption.</p>
@@ -900,27 +991,38 @@ public bool Autoplay { get; set; }</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Autoplay_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>A media element whose source is a MediaStream and whose<br><code>autoplay</code> property is <code>true</code> will begin playback when it becomes<br>active (that is, when MediaStream.Active becomes <code>true</code>).</p><blockquote class="NOTE"><h5>NOTE</h5><p><strong>Note:</strong> Sites which automatically play audio (or videos with an audio<br>track) can be an unpleasant experience for users, so it should be avoided when<br>possible. If you must offer autoplay functionality, you should make it opt-in<br>(requiring a user to specifically enable it). However, autoplay can be useful when<br>creating media elements whose source will be set at a later time, under user control.</p></blockquote><p>For a much more in-depth look at autoplay, autoplay blocking, and how to respond when<br>autoplay is blocked by the user&amp;apos;s browser, see our article <a href="https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide">Autoplay guide for media and Web Audio APIs</a>.</p>
+  <div class="markdown level1 remarks"><p>A media element whose source is a <a class="xref" href="CSharpToJavaScript.APIs.JS.MediaStream.html">MediaStream</a> and whose<br><code>autoplay</code> property is <code>true</code> will begin playback when it becomes<br>active (that is, when <a class="xref" href="CSharpToJavaScript.APIs.JS.MediaStream.html#CSharpToJavaScript_APIs_JS_MediaStream_Active">Active</a> becomes <code>true</code>).</p>
+<blockquote class="NOTE">
+  <h5>NOTE</h5>
+  <p>
+    <strong>Note:</strong> Sites which automatically play audio (or videos with an audio<br>track) can be an unpleasant experience for users, so it should be avoided when<br>possible. If you must offer autoplay functionality, you should make it opt-in<br>(requiring a user to specifically enable it). However, autoplay can be useful when<br>creating media elements whose source will be set at a later time, under user control.</p>
+</blockquote>
+<p>For a much more in-depth look at autoplay, autoplay blocking, and how to respond when<br>autoplay is blocked by the user&amp;apos;s browser, see our article <a href="https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide">Autoplay guide for media and Web Audio APIs</a>.</p>
 <p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a>: Interface used to define the <code>HTMLMediaElement.autoplay</code> property<br>-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio">audio</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video">video</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/autoplay"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/autoplay">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
 
 
-  <a id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_BufferingThrottled_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.BufferingThrottled*"></a>
+  <a id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Buffered_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Buffered*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_BufferingThrottled" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.BufferingThrottled">
-  BufferingThrottled
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L918"><i class="bi bi-code-slash"></i></a>
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Buffered" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Buffered">
+  Buffered
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9002"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The <strong><code>buffered</code></strong> read-only property of <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a> objects returns a new static <a href="https://developer.mozilla.org/en-US/docs/Web/API/TimeRanges#normalized_timeranges_objects">normalized <code>TimeRanges</code> object</a> that represents the ranges of the media resource, if any, that the user agent has buffered at the moment the <code>buffered</code> property is accessed.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
-public bool BufferingThrottled { get; }</code></pre>
+public TimeRanges Buffered { get; }</code></pre>
   </div>
 
 
@@ -929,13 +1031,22 @@ public bool BufferingThrottled { get; }</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd>The HTMLMediaElement interface adds to  the properties and methods needed to support basic media-related capabilities that are common to audio and video.</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.TimeRanges.html">TimeRanges</a></dt>
+    <dd><p>A new static <a href="https://developer.mozilla.org/en-US/docs/Web/API/TimeRanges#normalized_timeranges_objects">normalized TimeRanges object</a> that represents the ranges of the media resource, if any, that the user agent has buffered at the moment the <code>buffered</code> property is accessed.</p>
+</dd>
   </dl>
 
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Buffered_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a>: Interface used to define the <code>HTMLMediaElement.buffered</code> property<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/buffered">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -944,7 +1055,7 @@ public bool BufferingThrottled { get; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Controls" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Controls">
   Controls
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L985"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9069"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>HTMLMediaElement.controls</code></strong> property reflects the<br><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video#controls"><code>controls</code></a> HTML attribute, which controls whether user<br>interface controls for playing the media item will be displayed.</p>
@@ -972,7 +1083,11 @@ public bool Controls { get; set; }</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Controls_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a>: Interface used to define the <code>HTMLMediaElement.controls</code> property<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/controls"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/controls">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -982,7 +1097,7 @@ public bool Controls { get; set; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_CrossOrigin" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.CrossOrigin">
   CrossOrigin
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L903"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8986"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>HTMLMediaElement.crossOrigin</code></strong> property is the CORS setting for this media element. See <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/crossorigin">CORS settings attributes</a> for details.</p>
@@ -1001,15 +1116,20 @@ public string? CrossOrigin { get; set; }</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd>The HTMLMediaElement interface adds to  the properties and methods needed to support basic media-related capabilities that are common to audio and video.</dd>
+    <dd><p>A string of a keyword specifying the CORS mode to use when fetching the resource. Possible values are:If the <code>crossOrigin</code> property is specified with any other value, it is the same as specifing as the <code>anonymous</code>.If the <code>crossOrigin</code> property is not specified, the resource is fetched without CORS (the <code>no-cors</code> {{domxref(&amp;quot;Request.mode&amp;quot;, &amp;quot;mode&amp;quot;, &amp;quot;&amp;quot;, &amp;quot;nocode&amp;quot;)}} and the <code>same-origin</code> {{domxref(&amp;quot;Request.credentials&amp;quot;, &amp;quot;credentials&amp;quot;, &amp;quot;&amp;quot;, &amp;quot;nocode&amp;quot;)}} mode).</p>
+</dd>
   </dl>
 
 
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_CrossOrigin_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a>: Interface used to define the <code>HTMLMediaElement.crossOrigin</code> property<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/crossOrigin"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html#CSharpToJavaScript_APIs_JS_HTMLImageElement_CrossOrigin">CrossOrigin</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLLinkElement.html#CSharpToJavaScript_APIs_JS_HTMLLinkElement_CrossOrigin">CrossOrigin</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLScriptElement.html#CSharpToJavaScript_APIs_JS_HTMLScriptElement_CrossOrigin">CrossOrigin</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/crossOrigin">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -1019,7 +1139,7 @@ public string? CrossOrigin { get; set; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_CurrentSrc" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.CurrentSrc">
   CurrentSrc
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L900"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8983"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>HTMLMediaElement.currentSrc</code></strong> property contains the<br>absolute URL of the chosen media resource. This could happen, for example, if the web<br>server selects a media file based on the resolution of the user&amp;apos;s display. The value<br>is an empty string if the <code>networkState</code> property is <code>EMPTY</code>.</p>
@@ -1047,7 +1167,11 @@ public string CurrentSrc { get; }</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_CurrentSrc_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a>: Interface used to define the <code>HTMLMediaElement.currentSrc</code> property<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/currentSrc"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/currentSrc">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -1057,7 +1181,7 @@ public string CurrentSrc { get; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_CurrentTime" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.CurrentTime">
   CurrentTime
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L942"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9026"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a> interface's<br><strong><code>currentTime</code></strong> property specifies the current playback time<br>in seconds.</p>
@@ -1086,7 +1210,11 @@ public Number CurrentTime { get; set; }</code></pre>
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_CurrentTime_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>Changing the value of <code>currentTime</code> seeks the media to<br>the new time.</p>
 <p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a>: Interface used to define the <code>HTMLMediaElement.currentTime</code> property<br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_FastSeek_CSharpToJavaScript_APIs_JS_Number_">FastSeek(Number)</a>: Another way to set the time<br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_Duration">Duration</a>: The duration of the media in seconds<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/currentTime"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/currentTime">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -1096,7 +1224,7 @@ public Number CurrentTime { get; set; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_DefaultMuted" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.DefaultMuted">
   DefaultMuted
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L994"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9078"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>HTMLMediaElement.defaultMuted</code></strong> property reflects the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video#muted"><code>muted</code></a> HTML attribute, which indicates whether the media element's audio output should be muted by default. This property has no dynamic effect. To mute and unmute the audio output, use the <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_Muted">Muted</a> property.</p>
@@ -1124,7 +1252,11 @@ public bool DefaultMuted { get; set; }</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_DefaultMuted_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a>: Interface used to define the <code>HTMLMediaElement.defaultMuted</code> property<br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_Muted">Muted</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_Volume">Volume</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/defaultMuted"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/defaultMuted">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -1134,7 +1266,7 @@ public bool DefaultMuted { get; set; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_DefaultPlaybackRate" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.DefaultPlaybackRate">
   DefaultPlaybackRate
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L956"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9040"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>HTMLMediaElement.defaultPlaybackRate</code></strong> property indicates the default playback rate for the media.</p>
@@ -1162,7 +1294,52 @@ public Number DefaultPlaybackRate { get; set; }</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_DefaultPlaybackRate_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a>: Interface used to define the <code>HTMLMediaElement.defaultPlaybackRate</code> property<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/defaultPlaybackRate"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/defaultPlaybackRate">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_DisableRemotePlayback_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.DisableRemotePlayback*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_DisableRemotePlayback" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.DisableRemotePlayback">
+  DisableRemotePlayback
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L17030"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>disableRemotePlayback</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a> interface determines whether the media element is allowed to have a remote playback UI.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public bool DisableRemotePlayback { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd><p>A boolean value indicating whether the media element may have a remote playback<br>UI. (false means &amp;quot;not disabled&amp;quot;, which means &amp;quot;enabled&amp;quot;)</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_DisableRemotePlayback_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/disableRemotePlayback">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -1172,10 +1349,10 @@ public Number DefaultPlaybackRate { get; set; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Duration" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Duration">
   Duration
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L948"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9032"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong>read-only</strong> <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a><br>property <strong><code>duration</code></strong> indicates the length of the element&amp;apos;s<br>media in seconds.</p>
+  <div class="markdown level1 summary"><p>The <strong>read-only</strong><a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a><br>property <strong><code>duration</code></strong> indicates the length of the element&amp;apos;s<br>media in seconds.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1200,7 +1377,11 @@ public double Duration { get; }</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Duration_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/Media">Web media technologies</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_CurrentTime">CurrentTime</a>: The current playback position of the<br>media<br>-The <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio">audio</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video">video</a> elements<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/duration"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/duration">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -1210,7 +1391,7 @@ public double Duration { get; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Ended" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Ended">
   Ended
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L970"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9054"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>HTMLMediaElement.ended</code></strong> property indicates whether the media<br>element has ended playback.</p>
@@ -1229,7 +1410,7 @@ public bool Ended { get; }</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p>A boolean value which is <code>true</code> if the media contained in the<br>element has finished playing.If the source of the media is a MediaStream, this value is<br><code>true</code> if the value of the stream&amp;apos;s {{domxref(&amp;quot;MediaStream.active&amp;quot;,<br>&amp;quot;active&amp;quot;)}} property is <code>false</code>.</p>
+    <dd><p>A boolean value which is <code>true</code> if the media contained in the<br>element has finished playing.If the source of the media is a <a class="xref" href="CSharpToJavaScript.APIs.JS.MediaStream.html">MediaStream</a>, this value is<br><code>true</code> if the value of the stream's <a class="xref" href="CSharpToJavaScript.APIs.JS.MediaStream.html#CSharpToJavaScript_APIs_JS_MediaStream_Active">Active</a> property is <code>false</code>.</p>
 </dd>
   </dl>
 
@@ -1237,8 +1418,12 @@ public bool Ended { get; }</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Ended_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a>: Interface used to define the <code>HTMLMediaElement.ended</code> property<br>-MediaStream<br>-MediaStream.Active<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/ended"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a>: Interface used to define the <code>HTMLMediaElement.ended</code> property<br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaStream.html">MediaStream</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaStream.html#CSharpToJavaScript_APIs_JS_MediaStream_Active">Active</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/ended">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -1248,7 +1433,7 @@ public bool Ended { get; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Error" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Error">
   Error
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L891"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8974"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>HTMLMediaElement.error</code></strong> property is the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.MediaError.html">MediaError</a> object for the most recent error, or <code>null</code> if<br>there has not been an error. When an HTMLMediaElement/error_event event is received by the<br>element, you can determine details about what happened by examining this object.</p>
@@ -1276,7 +1461,11 @@ public MediaError? Error { get; }</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Error_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a>: Interface used to define the <code>HTMLMediaElement.error</code> property<br>-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio">audio</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video">video</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/error"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/error">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -1286,7 +1475,7 @@ public MediaError? Error { get; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Loop" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Loop">
   Loop
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L976"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9060"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>HTMLMediaElement.loop</code></strong> property reflects the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video#loop"><code>loop</code></a> HTML attribute, which controls whether the media element should start over when it reaches the end.</p>
@@ -1314,7 +1503,53 @@ public bool Loop { get; set; }</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Loop_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a>: Interface used to define the <code>HTMLMediaElement.loop</code> property<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/loop"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/loop">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_MediaKeys_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.MediaKeys*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_MediaKeys" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.MediaKeys">
+  MediaKeys
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5729"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The read-only <strong><code>HTMLMediaElement.mediaKeys</code></strong> property returns a <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_MediaKeys">MediaKeys</a> object, that is a set of keys that the element can use for decryption of media data during playback.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public MediaKeys? MediaKeys { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.MediaKeys.html">MediaKeys</a></dt>
+    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_MediaKeys">MediaKeys</a> object, or <code>null</code> if no key is available.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_MediaKeys_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_MediaKeys">MediaKeys</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/mediaKeys">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -1324,7 +1559,7 @@ public bool Loop { get; set; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Muted" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Muted">
   Muted
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L991"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9075"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>HTMLMediaElement.muted</code></strong> property indicates whether the media<br>element is muted.</p>
@@ -1352,7 +1587,11 @@ public bool Muted { get; set; }</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Muted_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a>: Interface used to define the <code>HTMLMediaElement.muted</code> property<br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_DefaultMuted">DefaultMuted</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_Volume">Volume</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/muted"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/muted">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -1362,7 +1601,7 @@ public bool Muted { get; set; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_NetworkState" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.NetworkState">
   NetworkState
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L914"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8997"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The<br><strong><code>HTMLMediaElement.networkState</code></strong> property indicates the<br>current state of the fetching of media over the network.</p>
@@ -1390,8 +1629,76 @@ public ushort NetworkState { get; }</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_NetworkState_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a>: Interface used to define the <code>HTMLMediaElement.networkState</code> property<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/networkState"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/networkState">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Onencrypted_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Onencrypted*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Onencrypted" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Onencrypted">
+  Onencrypted
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5731"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public EventHandlerNonNull Onencrypted { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.EventHandlerNonNull.html">EventHandlerNonNull</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Onwaitingforkey_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Onwaitingforkey*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Onwaitingforkey" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Onwaitingforkey">
+  Onwaitingforkey
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5733"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public EventHandlerNonNull Onwaitingforkey { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.EventHandlerNonNull.html">EventHandlerNonNull</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
 
 
 
@@ -1400,7 +1707,7 @@ public ushort NetworkState { get; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Paused" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Paused">
   Paused
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L953"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9037"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The read-only <strong><code>HTMLMediaElement.paused</code></strong> property<br>tells whether the media element is paused.</p>
@@ -1428,7 +1735,11 @@ public bool Paused { get; }</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Paused_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a>: Interface used to define the <code>HTMLMediaElement.paused</code> property<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/paused"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/paused">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -1438,7 +1749,7 @@ public bool Paused { get; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_PlaybackRate" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.PlaybackRate">
   PlaybackRate
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L959"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9043"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>HTMLMediaElement.playbackRate</code></strong> property sets the rate at which the media is being played back. This is used to implement user controls for fast forward, slow motion, and so forth. The normal playback rate is multiplied by this value to obtain the current rate, so a value of 1.0 indicates normal speed.</p>
@@ -1457,7 +1768,7 @@ public Number PlaybackRate { get; set; }</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
-    <dd><p>A <a href="https://en.wikipedia.org/wiki/Double-precision_floating-point_format"><code>double</code></a>. <code>1.0</code> is &amp;quot;normal speed,&amp;quot; values lower than <code>1.0</code> make the media play slower than normal, higher values make it play faster. (<strong>Default:</strong> <code>1.0</code>)</p>
+    <dd><p>A <a href="https://en.wikipedia.org/wiki/Double-precision_floating-point_format"><code>double</code></a>. <code>1.0</code> is &amp;quot;normal speed,&amp;quot; values lower than <code>1.0</code> make the media play slower than normal, higher values make it play faster. (<strong>Default:</strong><code>1.0</code>)</p>
 </dd>
   </dl>
 
@@ -1465,9 +1776,15 @@ public Number PlaybackRate { get; set; }</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_PlaybackRate_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>If <code>playbackRate</code> is negative, the media is <strong>not</strong> played backwards.</p><p>The audio is muted when the fast forward or slow motion is outside a useful range (for example, Gecko mutes the sound outside the range <code>0.25</code> to <code>4.0</code>).</p><p>The pitch of the audio is corrected by default. You can disable pitch correction using the <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_PreservesPitch">PreservesPitch</a> property.</p>
-<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a>: Interface used to define the <code>HTMLMediaElement.playbackRate</code> property<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/playbackRate"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>A negative <code>playbackRate</code> value indicates that the media should be played backwards, but support for this is not yet widespread.<a href="https://developer.mozilla.org#see-also">1</a></p>
+<p>The audio is muted when the fast forward or slow motion is outside a useful range (for example, Gecko mutes the sound outside the range <code>0.25</code> to <code>4.0</code>).</p>
+<p>The pitch of the audio is corrected by default. You can disable pitch correction using the <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_PreservesPitch">PreservesPitch</a> property.</p>
+<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a>: Interface used to define the <code>HTMLMediaElement.playbackRate</code> property<br>-Browser bug reports to support negative <code>playbackRate</code> in <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1468019">Firefox</a> and <a href="https://issues.chromium.org/issues/40410591">Blink</a> (Chrome, etc.)<br>-The Web Hypertext Application Technology Working Group (WHATWG) <a href="https://github.com/whatwg/html/issues/3754">issue to require support for negative <code>playbackRate</code></a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/playbackRate">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -1477,7 +1794,7 @@ public Number PlaybackRate { get; set; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Played" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Played">
   Played
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L964"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9048"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1495,7 +1812,7 @@ public TimeRanges Played { get; }</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.TimeRanges.html">TimeRanges</a></dt>
-    <dd>The HTMLMediaElement interface adds to  the properties and methods needed to support basic media-related capabilities that are common to audio and video.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -1509,7 +1826,7 @@ public TimeRanges Played { get; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Preload" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Preload">
   Preload
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L916"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8999"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1527,7 +1844,7 @@ public string Preload { get; set; }</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd>The HTMLMediaElement interface adds to  the properties and methods needed to support basic media-related capabilities that are common to audio and video.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -1541,7 +1858,7 @@ public string Preload { get; set; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_PreservesPitch" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.PreservesPitch">
   PreservesPitch
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L962"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9046"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>HTMLMediaElement.preservesPitch</code></strong> property determines whether or not the browser should adjust the pitch of the audio to compensate for changes to the playback rate made by setting <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_PlaybackRate">PlaybackRate</a>.</p>
@@ -1568,8 +1885,12 @@ public bool PreservesPitch { get; set; }</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_PreservesPitch_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_PlaybackRate">PlaybackRate</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/Audio_and_video_delivery/WebAudio_playbackRate_explained">Web Audio playbackRate explained</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/preservesPitch"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_PlaybackRate">PlaybackRate</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/Media/Audio_and_video_delivery/WebAudio_playbackRate_explained">Web Audio playbackRate explained</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/preservesPitch">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -1579,7 +1900,7 @@ public bool PreservesPitch { get; set; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_ReadyState" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.ReadyState">
   ReadyState
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L937"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9021"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>HTMLMediaElement.readyState</code></strong> property indicates the<br>readiness state of the media.</p>
@@ -1607,7 +1928,52 @@ public ushort ReadyState { get; }</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_ReadyState_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a>: Interface used to define the <code>HTMLMediaElement.readyState</code> property<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/readyState"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/readyState">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Remote_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Remote*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Remote" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Remote">
+  Remote
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L17027"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>remote</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a> interface returns the <a class="xref" href="CSharpToJavaScript.APIs.JS.RemotePlayback.html">RemotePlayback</a> object associated with the media element. The <code>RemotePlayback</code> object allow the control of remote devices playing the media.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public RemotePlayback Remote { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.RemotePlayback.html">RemotePlayback</a></dt>
+    <dd><p>The associated <a class="xref" href="CSharpToJavaScript.APIs.JS.RemotePlayback.html">RemotePlayback</a> object.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Remote_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/remote">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -1617,7 +1983,7 @@ public ushort ReadyState { get; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Seekable" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Seekable">
   Seekable
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L967"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9051"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>seekable</code></strong> read-only property of <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a> objects returns a new static <a href="https://developer.mozilla.org/en-US/docs/Web/API/TimeRanges#normalized_timeranges_objects">normalized <code>TimeRanges</code> object</a> that represents the ranges of the media resource, if any, that the user agent is able to seek to at the time <code>seekable</code> property is accessed.</p>
@@ -1644,8 +2010,12 @@ public TimeRanges Seekable { get; }</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Seekable_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a>: Interface used to define the <code>HTMLMediaElement.seekable</code> property<br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Media_Source_Extensions_API">Media Source API</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/Guide/Audio_and_video_delivery/buffering_seeking_time_ranges">Media buffering, seeking, and time ranges</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/seekable"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a>: Interface used to define the <code>HTMLMediaElement.seekable</code> property<br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Media_Source_Extensions_API">Media Source API</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/Media/Audio_and_video_delivery/buffering_seeking_time_ranges">Media buffering, seeking, and time ranges</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/seekable">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -1655,7 +2025,7 @@ public TimeRanges Seekable { get; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Seeking" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Seeking">
   Seeking
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L939"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9023"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1673,7 +2043,7 @@ public bool Seeking { get; }</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd>The HTMLMediaElement interface adds to  the properties and methods needed to support basic media-related capabilities that are common to audio and video.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -1683,11 +2053,54 @@ public bool Seeking { get; }</code></pre>
 
 
 
+  <a id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_SinkId_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.SinkId*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_SinkId" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.SinkId">
+  SinkId
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L328"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>HTMLMediaElement.sinkId</code></strong> read-only property of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Audio_Output_Devices_API">Audio Output Devices API</a> returns a string that is the unique ID of the device to be used for playing audio output.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public string SinkId { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A string indicating the current audio output device, or the empty string if the default user agent output device is being used.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_SinkId_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This ID should be one of the <a class="xref" href="CSharpToJavaScript.APIs.JS.MediaDeviceInfo.html#CSharpToJavaScript_APIs_JS_MediaDeviceInfo_DeviceId">DeviceId</a> values returned from <a class="xref" href="CSharpToJavaScript.APIs.JS.MediaDevices.html#CSharpToJavaScript_APIs_JS_MediaDevices_EnumerateDevices">EnumerateDevices()</a>, <code>id-multimedia</code>, or <code>id-communications</code>.<br>If the user agent default device is being used, it returns an empty string.</p>
+<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaDevices.html#CSharpToJavaScript_APIs_JS_MediaDevices_SelectAudioOutput_CSharpToJavaScript_APIs_JS_AudioOutputOptions_">SelectAudioOutput(AudioOutputOptions)</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_SetSinkId_System_String_">SetSinkId(string)</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/sinkId">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
   <a id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Src_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Src*"></a>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Src" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Src">
   Src
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L894"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8977"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>HTMLMediaElement.src</code></strong> property reflects the value of<br>the HTML media element&amp;apos;s <code>src</code> attribute, which indicates the URL of a media<br>resource to use in the element.</p>
@@ -1714,9 +2127,17 @@ public string Src { get; set; }</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Src_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><blockquote class="NOTE"><h5>NOTE</h5><p><strong>Note:</strong> The best way to know the URL of the media resource currently<br>in active use in this element is to look at the value of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_CurrentSrc">CurrentSrc</a> attribute, which also takes<br>into account selection of a best or preferred media resource from a list provided in<br>an <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLSourceElement.html">HTMLSourceElement</a> (which represents a {{HTMLElement("source")}}<br>element).</p></blockquote>
+  <div class="markdown level1 remarks"><blockquote class="NOTE">
+  <h5>NOTE</h5>
+  <p>
+    <strong>Note:</strong> The best way to know the URL of the media resource currently<br>in active use in this element is to look at the value of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_CurrentSrc">CurrentSrc</a> attribute, which also takes<br>into account selection of a best or preferred media resource from a list provided in<br>an <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLSourceElement.html">HTMLSourceElement</a> (which represents a {{HTMLElement("source")}}<br>element).</p>
+</blockquote>
 <p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a>: Interface used to define the <code>HTMLMediaElement.src</code> property<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/src"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/src">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -1726,7 +2147,7 @@ public string Src { get; set; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_SrcObject" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.SrcObject">
   SrcObject
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L897"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8980"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>srcObject</code></strong> property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a> interface sets or returns the object which serves as<br>the source of the media associated with the <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a>.</p>
@@ -1735,7 +2156,7 @@ public string Src { get; set; }</code></pre>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
-public Union7? SrcObject { get; set; }</code></pre>
+public Union60? SrcObject { get; set; }</code></pre>
   </div>
 
 
@@ -1744,7 +2165,7 @@ public Union7? SrcObject { get; set; }</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Union7.html">Union7</a>?</dt>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Union60.html">Union60</a>?</dt>
     <dd><p>A 'MediaStream', 'MediaSource', 'Blob', or<br>'File' object (though see the compatibility table for what is actually<br>supported).</p>
 </dd>
   </dl>
@@ -1753,8 +2174,17 @@ public Union7? SrcObject { get; set; }</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_SrcObject_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>The object can be a MediaStream, a MediaSource, a<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Blob.html">Blob</a>, or a <a class="xref" href="CSharpToJavaScript.APIs.JS.File.html">File</a> (which inherits from <code>Blob</code>).</p><blockquote class="NOTE"><h5>NOTE</h5><p><strong>Note:</strong> As of March 2020, only Safari has full support for <code>srcObject</code>, i.e. using <code>MediaSource</code>, <code>MediaStream</code>, <code>Blob</code>, and <code>File</code> objects as values. Other browsers support <code>MediaStream</code> objects; until they catch up, consider falling back to creating a URL with <a class="xref" href="CSharpToJavaScript.APIs.JS.URL.html#CSharpToJavaScript_APIs_JS_URL_CreateObjectURL_CSharpToJavaScript_APIs_JS_Union53_">CreateObjectURL(Union53)</a> and assigning it to <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_Src">Src</a> (see below for an example). In addition, as of version 108 Chromium supports attaching a dedicated worker <code>MediaSource</code> object by assigning that object's MediaSourceHandle instance (transferred from the worker) to <code>srcObject</code>.</p></blockquote>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/srcObject"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>The object can be a <a class="xref" href="CSharpToJavaScript.APIs.JS.MediaStream.html">MediaStream</a>, a <a class="xref" href="CSharpToJavaScript.APIs.JS.MediaSource.html">MediaSource</a>, a<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Blob.html">Blob</a>, or a <a class="xref" href="CSharpToJavaScript.APIs.JS.File.html">File</a> (which inherits from <code>Blob</code>).</p>
+<blockquote class="NOTE">
+  <h5>NOTE</h5>
+  <p>
+    <strong>Note:</strong> As of March 2020, only Safari has full support for <code>srcObject</code>, i.e. using <code>MediaSource</code>, <code>MediaStream</code>, <code>Blob</code>, and <code>File</code> objects as values. Other browsers support <code>MediaStream</code> objects; until they catch up, consider falling back to creating a URL with <a class="xref" href="CSharpToJavaScript.APIs.JS.URL.html#CSharpToJavaScript_APIs_JS_URL_CreateObjectURL_CSharpToJavaScript_APIs_JS_Union48_">CreateObjectURL(Union48)</a> and assigning it to <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_Src">Src</a> (see below for an example). In addition, as of version 108 Chromium supports attaching a dedicated worker <code>MediaSource</code> object by assigning that object's <a class="xref" href="CSharpToJavaScript.APIs.JS.MediaSourceHandle.html">MediaSourceHandle</a> instance (transferred from the worker) to <code>srcObject</code>.</p>
+</blockquote>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/srcObject">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -1764,7 +2194,7 @@ public Union7? SrcObject { get; set; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_TextTracks" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.TextTracks">
   TextTracks
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L1003"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9087"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The read-only <strong><code>textTracks</code></strong><br>property on <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a> objects returns a<br><a class="xref" href="CSharpToJavaScript.APIs.JS.TextTrackList.html">TextTrackList</a> object listing all of the <a class="xref" href="CSharpToJavaScript.APIs.JS.TextTrack.html">TextTrack</a><br>objects representing the media element&amp;apos;s text tracks, in the same order as in<br>the list of text tracks.</p>
@@ -1791,9 +2221,15 @@ public TextTrackList TextTracks { get; }</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_TextTracks_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>You can detect when tracks are added to and removed from an<br><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio"><code>&amp;lt;audio&amp;gt;</code></a> or<br><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video"><code>&amp;lt;video&amp;gt;</code></a> element<br>using the <code>addtrack</code> and <code>removetrack</code> events. However, these<br>events aren&amp;apos;t sent directly to the media element itself. Instead, they&amp;apos;re sent to the<br>track list object of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement"><code>HTMLMediaElement</code></a><br>that corresponds to the type of track that was added to the element</p><p>The returned list is <strong>live</strong>; that is, as tracks are added to and removed from<br>the media element, the list&amp;apos;s contents change dynamically. Once you have a reference to<br>the list, you can monitor it for changes to detect when new text tracks are added or<br>existing ones removed.</p><p>See <a href="https://developer.mozilla.org/en-US/docs/Web/API/TextTrackList#events">TextTrackList events</a> to learn<br>more about watching for changes to a media element&amp;apos;s track list.</p>
+  <div class="markdown level1 remarks"><p>You can detect when tracks are added to and removed from an<br><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio"><code>&amp;lt;audio&amp;gt;</code></a> or<br><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video"><code>&amp;lt;video&amp;gt;</code></a> element<br>using the <code>addtrack</code> and <code>removetrack</code> events. However, these<br>events aren&amp;apos;t sent directly to the media element itself. Instead, they&amp;apos;re sent to the<br>track list object of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement"><code>HTMLMediaElement</code></a><br>that corresponds to the type of track that was added to the element</p>
+<p>The returned list is <strong>live</strong>; that is, as tracks are added to and removed from<br>the media element, the list&amp;apos;s contents change dynamically. Once you have a reference to<br>the list, you can monitor it for changes to detect when new text tracks are added or<br>existing ones removed.</p>
+<p>See <a href="https://developer.mozilla.org/en-US/docs/Web/API/TextTrackList#events">TextTrackList events</a> to learn<br>more about watching for changes to a media element&amp;apos;s track list.</p>
 <p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a>: Interface used to define the <code>HTMLMediaElement.textTracks</code> property<br>-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio">audio</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video">video</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.AudioTrack.html">AudioTrack</a>, <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioTrackList.html">AudioTrackList</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.VideoTrack.html">VideoTrack</a>, <a class="xref" href="CSharpToJavaScript.APIs.JS.VideoTrackList.html">VideoTrackList</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/VideoTrackList/addtrack_event"><code>addtrack</code></a>,<br><a href="https://developer.mozilla.org/en-US/docs/Web/API/VideoTrackList/change_event"><code>change</code></a>,<br><a href="https://developer.mozilla.org/en-US/docs/Web/API/VideoTrackList/removetrack_event"><code>removetrack</code></a>: AudioTrackList events<br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/VideoTrackList/addtrack_event"><code>addtrack</code></a>,<br><a href="https://developer.mozilla.org/en-US/docs/Web/API/VideoTrackList/change_event"><code>change</code></a>,<br><a href="https://developer.mozilla.org/en-US/docs/Web/API/VideoTrackList/removetrack_event"><code>removetrack</code></a>: VideoTrackList events<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/textTracks"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/textTracks">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -1803,7 +2239,7 @@ public TextTrackList TextTracks { get; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_VideoTracks" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.VideoTracks">
   VideoTracks
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L1000"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9084"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The read-only <strong><code>videoTracks</code></strong><br>property on <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a> objects returns a<br><a class="xref" href="CSharpToJavaScript.APIs.JS.VideoTrackList.html">VideoTrackList</a> object listing all of the <a class="xref" href="CSharpToJavaScript.APIs.JS.VideoTrack.html">VideoTrack</a><br>objects representing the media element&amp;apos;s video tracks.</p>
@@ -1832,7 +2268,11 @@ public VideoTrackList VideoTracks { get; }</code></pre>
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_VideoTracks_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>The returned list is <strong>live</strong>; that is, as tracks are added to and removed from<br>the media element, the list&amp;apos;s contents change dynamically. Once you have a reference to<br>the list, you can monitor it for changes to detect when new video tracks are added or<br>existing ones removed. See <a href="https://developer.mozilla.org/en-US/docs/Web/API/VideoTrackList#events">VideoTrackList events</a><br>to learn more about watching for changes to a media element&amp;apos;s track list.</p>
 <p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a>: Interface used to define the <code>HTMLMediaElement.videoTracks</code> property<br>-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video">video</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.VideoTrack.html">VideoTrack</a>, <a class="xref" href="CSharpToJavaScript.APIs.JS.VideoTrackList.html">VideoTrackList</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/videoTracks"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/videoTracks">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -1842,7 +2282,7 @@ public VideoTrackList VideoTracks { get; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Volume" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Volume">
   Volume
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L988"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9072"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>HTMLMediaElement.volume</code></strong> property sets the volume at<br>which the media will be played.</p>
@@ -1870,7 +2310,11 @@ public Number Volume { get; set; }</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Volume_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a>: Interface used to define the <code>HTMLMediaElement.volume</code> property<br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_Muted">Muted</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/volume"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/volume">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -1884,7 +2328,7 @@ public Number Volume { get; set; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_AddTextTrack_CSharpToJavaScript_APIs_JS_TextTrackKind_System_String_System_String_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.AddTextTrack(CSharpToJavaScript.APIs.JS.TextTrackKind,System.String,System.String)">
   AddTextTrack(TextTrackKind, string, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L1005"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9089"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1898,17 +2342,17 @@ public TextTrack AddTextTrack(TextTrackKind kind, string label, string language)
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>kind</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.TextTrackKind.html">TextTrackKind</a></dt>
-    <dd>The HTMLMediaElement interface adds to  the properties and methods needed to support basic media-related capabilities that are common to audio and video.</dd>
+    <dd></dd>
     <dt><code>label</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd>The HTMLMediaElement interface adds to  the properties and methods needed to support basic media-related capabilities that are common to audio and video.</dd>
+    <dd></dd>
     <dt><code>language</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd>The HTMLMediaElement interface adds to  the properties and methods needed to support basic media-related capabilities that are common to audio and video.</dd>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.TextTrack.html">TextTrack</a></dt>
-    <dd>The HTMLMediaElement interface adds to  the properties and methods needed to support basic media-related capabilities that are common to audio and video.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -1925,7 +2369,7 @@ public TextTrack AddTextTrack(TextTrackKind kind, string label, string language)
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_CanPlayType_System_String_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.CanPlayType(System.String)">
   CanPlayType(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L924"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9008"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a> method <strong><code>canPlayType()</code></strong> reports how likely it is that the current browser will be able to play media of a given MIME type.</p>
@@ -1940,7 +2384,7 @@ public CanPlayTypeResult CanPlayType(string type)</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd>The HTMLMediaElement interface adds to  the properties and methods needed to support basic media-related capabilities that are common to audio and video.</dd>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -1957,9 +2401,55 @@ public CanPlayTypeResult CanPlayType(string type)</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_CanPlayType_System_String__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><blockquote class="NOTE"><h5>NOTE</h5><p><strong>Note:</strong> This feature is not available in <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API">Web Workers</a>.</p></blockquote>
-<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a>: Interface used to define the <code>HTMLMediaElement.canPlayType()</code> method<br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaCapabilities.html">MediaCapabilities</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Support_issues">Handling media support issues in web content</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/Media/Formats">Media type and format guide</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/Media/Formats/codecs_parameter">Codecs in common media types</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/canPlayType"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a>: Interface used to define the <code>HTMLMediaElement.canPlayType()</code> method<br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaCapabilities.html">MediaCapabilities</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Support_issues">Handling media support issues in web content</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/Media/Formats">Media type and format guide</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/Media/Formats/codecs_parameter">Codecs in common media types</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/canPlayType">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_CaptureStream_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.CaptureStream*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_CaptureStream" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.CaptureStream">
+  CaptureStream()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L14387"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>captureStream()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a> interface returns a 'MediaStream' object which is streaming a real-time capture of the content being rendered in the media element.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public MediaStream CaptureStream()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.MediaStream.html">MediaStream</a></dt>
+    <dd><p>A 'MediaStream' object which can be used as a source for audio and/or<br>video data by other media processing code, or as a source for <a href="https://developer.mozilla.org/en-US/docs/Glossary/WebRTC">WebRTC</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_CaptureStream_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This can be used, for example, as a source for a <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API">WebRTC</a><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCPeerConnection.html">RTCPeerConnection</a>.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaStream_Recording_API/Recording_a_media_element">Recording a media element</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaStream_Recording_API">MediaStream Recording API</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLCanvasElement.html#CSharpToJavaScript_APIs_JS_HTMLCanvasElement_CaptureStream_CSharpToJavaScript_APIs_JS_Number_">CaptureStream(Number)</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaStream.html">MediaStream</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API">WebRTC API</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/captureStream">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -1969,7 +2459,7 @@ public CanPlayTypeResult CanPlayType(string type)</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_FastSeek_CSharpToJavaScript_APIs_JS_Number_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.FastSeek(CSharpToJavaScript.APIs.JS.Number)">
   FastSeek(Number)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L945"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9029"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>HTMLMediaElement.fastSeek()</code></strong> method quickly seeks the<br>media to the new time with precision tradeoff.</p>
@@ -1984,7 +2474,7 @@ public GlobalObject.Undefined FastSeek(Number time)</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>time</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
-    <dd>The HTMLMediaElement interface adds to  the properties and methods needed to support basic media-related capabilities that are common to audio and video.</dd>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -2001,9 +2491,17 @@ public GlobalObject.Undefined FastSeek(Number time)</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_FastSeek_CSharpToJavaScript_APIs_JS_Number__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><blockquote class="NOTE"><h5>NOTE</h5><p><strong>Note:</strong> If you need to seek with precision, you should set <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/currentTime"><code>HTMLMediaElement.currentTime</code></a><br>instead.</p></blockquote>
+  <div class="markdown level1 remarks"><blockquote class="NOTE">
+  <h5>NOTE</h5>
+  <p>
+    <strong>Note:</strong> If you need to seek with precision, you should set <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/currentTime"><code>HTMLMediaElement.currentTime</code></a><br>instead.</p>
+</blockquote>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/currentTime">HTMLMediaElement.currentTime</a><br>for seeking without precision tradeoff<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/fastSeek"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/fastSeek">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -2013,7 +2511,7 @@ public GlobalObject.Undefined FastSeek(Number time)</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_GetStartDate" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.GetStartDate">
   GetStartDate()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L950"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9034"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -2028,7 +2526,7 @@ public object GetStartDate()</code></pre>
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
-    <dd>The HTMLMediaElement interface adds to  the properties and methods needed to support basic media-related capabilities that are common to audio and video.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -2045,7 +2543,7 @@ public object GetStartDate()</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Load" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Load">
   Load()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L921"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9005"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a> method<br><strong><code>load()</code></strong> resets the media element to its initial state and<br>begins the process of selecting a media source and loading the media in preparation<br>for playback to begin at the beginning.</p>
@@ -2072,8 +2570,13 @@ public GlobalObject.Undefined Load()</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Load_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>The amount of media data that is<br>prefetched is determined by the value of the element&amp;apos;s <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video#preload"><code>preload</code></a> attribute.</p><p>This method is generally only useful when you&amp;apos;ve made dynamic changes to the set of<br>sources available for the media element, either by changing the element&amp;apos;s<br><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video#src"><code>src</code></a> attribute or by adding or removing<br><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source">source</a> elements nested within the media element itself.<br><code>load()</code> will reset the element and rescan the available sources, thereby<br>causing the changes to take effect.</p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/load"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>The amount of media data that is<br>prefetched is determined by the value of the element&amp;apos;s <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video#preload"><code>preload</code></a> attribute.</p>
+<p>This method is generally only useful when you&amp;apos;ve made dynamic changes to the set of<br>sources available for the media element, either by changing the element&amp;apos;s<br><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video#src"><code>src</code></a> attribute or by adding or removing<br><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source">source</a> elements nested within the media element itself.<br><code>load()</code> will reset the element and rescan the available sources, thereby<br>causing the changes to take effect.</p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/load">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -2083,7 +2586,7 @@ public GlobalObject.Undefined Load()</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Pause" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Pause">
   Pause()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L982"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9066"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>HTMLMediaElement.pause()</code></strong> method will pause playback<br>of the media, if the media is already in a paused state this method will have no effect.</p>
@@ -2110,7 +2613,11 @@ public GlobalObject.Undefined Pause()</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Pause_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/pause"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/pause">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -2120,7 +2627,7 @@ public GlobalObject.Undefined Pause()</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Play" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.Play">
   Play()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L979"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9063"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a><br><strong><code>play()</code></strong> method attempts to begin playback of the media.<br>It returns a Promise which is resolved when playback has been<br>successfully started.</p>
@@ -2149,7 +2656,105 @@ public Task&lt;GlobalObject.Undefined&gt; Play()</code></pre>
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_Play_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>Failure to begin playback for any reason, such as<br>permission issues, result in the promise being rejected.</p>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/Media">Web media technologies</a><br>-Learning: <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Video_and_audio_content">Video and audio content</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide">Autoplay guide for media and Web Audio APIs</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API">Using the Web Audio API</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/play"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/play">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_SetMediaKeys_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.SetMediaKeys*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_SetMediaKeys_CSharpToJavaScript_APIs_JS_MediaKeys_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.SetMediaKeys(CSharpToJavaScript.APIs.JS.MediaKeys)">
+  SetMediaKeys(MediaKeys?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5736"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>setMediaKeys()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html">HTMLMediaElement</a> interface returns a {{jsxref(&quot;Promise&quot;)}} that resolves<br>to the passed <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_MediaKeys">MediaKeys</a>, which are those used to decrypt media during<br>playback.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public Task&lt;GlobalObject.Undefined&gt; SetMediaKeys(MediaKeys? mediaKeys)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>mediaKeys</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.MediaKeys.html">MediaKeys</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a>&gt;</dt>
+    <dd><p>A Promise that resolves to the passed instance of <code>MediaKeys</code>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_SetMediaKeys_CSharpToJavaScript_APIs_JS_MediaKeys__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/setMediaKeys">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_SetSinkId_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.SetSinkId*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_SetSinkId_System_String_" data-uid="CSharpToJavaScript.APIs.JS.HTMLMediaElement.SetSinkId(System.String)">
+  SetSinkId(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L331"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>HTMLMediaElement.setSinkId()</code></strong> method of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Audio_Output_Devices_API">Audio Output Devices API</a> sets the ID of the audio device to use for output and returns a Promise.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public Task&lt;GlobalObject.Undefined&gt; SetSinkId(string sinkId)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sinkId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a>&gt;</dt>
+    <dd><p>A Promise that resolves to <a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLMediaElement_SetSinkId_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This only works when the application is permitted to use the specified device.<br>For more information see the <a href="https://developer.mozilla.org#security_requirements">security requirements</a> below.</p>
+<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MediaDevices.html#CSharpToJavaScript_APIs_JS_MediaDevices_SelectAudioOutput_CSharpToJavaScript_APIs_JS_AudioOutputOptions_">SelectAudioOutput(AudioOutputOptions)</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_SinkId">SinkId</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/setSinkId">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -2159,7 +2764,7 @@ public Task&lt;GlobalObject.Undefined&gt; Play()</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L887" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L17024" class="edit-link">Edit this page</a>
         </div>
 
 

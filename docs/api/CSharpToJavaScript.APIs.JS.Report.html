@@ -2,11 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class Report
- | CSharpToJavaScript </title>
+      <title>Class Report | CSharpToJavaScript </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class Report
- | CSharpToJavaScript ">
+      <meta name="title" content="Class Report | CSharpToJavaScript ">
       
       <meta name="description" content="The Report interface of the Reporting API represents a single report.">
       <link rel="icon" href="../favicon.ico">
@@ -31,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -91,8 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_Report" data-uid="CSharpToJavaScript.APIs.JS.Report" class="text-break">
-    Class Report
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10741"><i class="bi bi-code-slash"></i></a>
+Class Report  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L17043"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -122,7 +119,7 @@ public class Report</code></pre>
 
 
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
     <div>
@@ -154,7 +151,11 @@ public class Report</code></pre>
   <h2 id="CSharpToJavaScript_APIs_JS_Report_remarks">Remarks</h2>
   <div class="markdown level0 remarks"><p>Reports can be accessed in a number of ways:</p>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Reporting_API">Reporting API</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Report"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Report">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -166,7 +167,7 @@ public class Report</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Report_Body" data-uid="CSharpToJavaScript.APIs.JS.Report.Body">
   Body
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10750"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L17052"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>ReportBody</code></strong> interface of the 'Reporting API' represents the body of a report. Individual report types inherit from this interface, adding specific attributes relevant to the particular report.</p>
@@ -184,14 +185,18 @@ public class Report</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.ReportBody.html">ReportBody</a></dt>
-    <dd>The Report interface of the Reporting API represents a single report.</dd>
+    <dd></dd>
   </dl>
 
 
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_Report_Body_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p><a href="https://developer.mozilla.org/en-US/docs/Web/API/ReportBody"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/ReportBody">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -201,7 +206,7 @@ public class Report</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Report_Type" data-uid="CSharpToJavaScript.APIs.JS.Report.Type">
   Type
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10746"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L17048"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>type</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Report.html">Report</a><br>interface returns the type of report generated, e.g. <code>deprecation</code> or<br><code>intervention</code>.</p>
@@ -228,7 +233,11 @@ public class Report</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_Report_Type_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Reporting_API">Reporting API</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Report/type"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Report/type">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -238,7 +247,7 @@ public class Report</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Report_Url" data-uid="CSharpToJavaScript.APIs.JS.Report.Url">
   Url
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10748"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L17050"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>url</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Report.html">Report</a><br>interface returns the URL of the document that generated the report.</p>
@@ -265,7 +274,11 @@ public class Report</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_Report_Url_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Reporting_API">Reporting API</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Report/url"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Report/url">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -279,7 +292,7 @@ public class Report</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Report_ToJSON" data-uid="CSharpToJavaScript.APIs.JS.Report.ToJSON">
   ToJSON()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10744"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L17046"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -293,7 +306,7 @@ public class Report</code></pre>
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
-    <dd>The Report interface of the Reporting API represents a single report.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -310,7 +323,7 @@ public class Report</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10741" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L17043" class="edit-link">Edit this page</a>
         </div>
 
 

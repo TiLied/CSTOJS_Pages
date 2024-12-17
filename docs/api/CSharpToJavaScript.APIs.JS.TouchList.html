@@ -2,11 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class TouchList
- | CSharpToJavaScript </title>
+      <title>Class TouchList | CSharpToJavaScript </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class TouchList
- | CSharpToJavaScript ">
+      <meta name="title" content="Class TouchList | CSharpToJavaScript ">
       
       <meta name="description" content="The TouchList interface represents a list of contact points on a touch surface. For example, if the user has three fingers on the touch surface (such as a screen or trackpad), the corresponding TouchList object would have one  object for each finger, for a total of three entries.">
       <link rel="icon" href="../favicon.ico">
@@ -31,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -91,8 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_TouchList" data-uid="CSharpToJavaScript.APIs.JS.TouchList" class="text-break">
-    Class TouchList
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L11350"><i class="bi bi-code-slash"></i></a>
+Class TouchList  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L20322"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -122,7 +119,7 @@ public class TouchList</code></pre>
 
 
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
     <div>
@@ -152,9 +149,17 @@ public class TouchList</code></pre>
 
 
   <h2 id="CSharpToJavaScript_APIs_JS_TouchList_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><blockquote class="NOTE"><h5>NOTE</h5><p><strong>Note:</strong> This interface was an <a href="https://stackoverflow.com/questions/74630989/why-use-domstringlist-rather-than-an-array/74641156#74641156">attempt to create an unmodifiable list</a> and only continues to be supported to not break code that&amp;apos;s already using it. Modern APIs use types that wrap around ECMAScript array types instead, so you can treat them like ECMAScript arrays, and at the same time impose additional semantics on their usage (such as making their items read-only).</p></blockquote>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Touch_events">Touch events</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Document.html#CSharpToJavaScript_APIs_JS_Document_CreateTouchList_CSharpToJavaScript_APIs_JS_Touch___">CreateTouchList(params Touch[])</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/TouchList"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level0 remarks"><blockquote class="NOTE">
+  <h5>NOTE</h5>
+  <p>
+    <strong>Note:</strong> This interface was an <a href="https://stackoverflow.com/questions/74630989/why-use-domstringlist-rather-than-an-array/74641156#74641156">attempt to create an unmodifiable list</a> and only continues to be supported to not break code that&amp;apos;s already using it. Modern APIs use types that wrap around ECMAScript array types instead, so you can treat them like ECMAScript arrays, and at the same time impose additional semantics on their usage (such as making their items read-only).</p>
+</blockquote>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Touch_events">Touch events</a><br>-Document.CreateTouchList<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/TouchList">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -166,7 +171,7 @@ public class TouchList</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_TouchList_Length" data-uid="CSharpToJavaScript.APIs.JS.TouchList.Length">
   Length
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L11354"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L20326"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>length</code></strong> read-only property indicates the number of<br>items (touch points) in a given <a class="xref" href="CSharpToJavaScript.APIs.JS.TouchList.html">TouchList</a>.</p>
@@ -192,7 +197,11 @@ public class TouchList</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_TouchList_Length_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p><a href="https://developer.mozilla.org/en-US/docs/Web/API/TouchList/length"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/TouchList/length">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -202,7 +211,7 @@ public class TouchList</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L11350" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L20322" class="edit-link">Edit this page</a>
         </div>
 
 

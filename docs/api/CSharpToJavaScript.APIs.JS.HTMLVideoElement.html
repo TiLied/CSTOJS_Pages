@@ -2,11 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class HTMLVideoElement
- | CSharpToJavaScript </title>
+      <title>Class HTMLVideoElement | CSharpToJavaScript </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class HTMLVideoElement
- | CSharpToJavaScript ">
+      <meta name="title" content="Class HTMLVideoElement | CSharpToJavaScript ">
       
       <meta name="description" content="The list of supported media formats varies from one browser to the other. You should either provide your video in a single format that all the relevant browsers supports, or provide multiple video sources in enough different formats that all the browsers you need to support are covered.">
       <link rel="icon" href="../favicon.ico">
@@ -31,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -91,8 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_HTMLVideoElement" data-uid="CSharpToJavaScript.APIs.JS.HTMLVideoElement" class="text-break">
-    Class HTMLVideoElement
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10646"><i class="bi bi-code-slash"></i></a>
+Class HTMLVideoElement  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L21405"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -106,7 +103,7 @@
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[To(&quot;Default&quot;)]
-public class HTMLVideoElement : HTMLMediaElement, GlobalEventHandlers, ElementContentEditable, HTMLOrSVGElement, ElementCSSInlineStyle</code></pre>
+public class HTMLVideoElement : HTMLMediaElement</code></pre>
   </div>
 
 
@@ -125,20 +122,29 @@ public class HTMLVideoElement : HTMLMediaElement, GlobalEventHandlers, ElementCo
     </dd>
   </dl>
 
-  <dl class="typelist implements">
-    <dt>Implements</dt>
-    <dd>
-      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalEventHandlers.html">GlobalEventHandlers</a></div>
-      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.ElementContentEditable.html">ElementContentEditable</a></div>
-      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLOrSVGElement.html">HTMLOrSVGElement</a></div>
-      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.ElementCSSInlineStyle.html">ElementCSSInlineStyle</a></div>
-    </dd>
-  </dl>
 
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_SinkId">HTMLMediaElement.SinkId</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_SetSinkId_System_String_">HTMLMediaElement.SetSinkId(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_MediaKeys">HTMLMediaElement.MediaKeys</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_Onencrypted">HTMLMediaElement.Onencrypted</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_Onwaitingforkey">HTMLMediaElement.Onwaitingforkey</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_SetMediaKeys_CSharpToJavaScript_APIs_JS_MediaKeys_">HTMLMediaElement.SetMediaKeys(MediaKeys)</a>
+    </div>
     <div>
       <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_Error">HTMLMediaElement.Error</a>
     </div>
@@ -173,7 +179,7 @@ public class HTMLVideoElement : HTMLMediaElement, GlobalEventHandlers, ElementCo
       <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_Preload">HTMLMediaElement.Preload</a>
     </div>
     <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_BufferingThrottled">HTMLMediaElement.BufferingThrottled</a>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_Buffered">HTMLMediaElement.Buffered</a>
     </div>
     <div>
       <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_Load">HTMLMediaElement.Load()</a>
@@ -272,6 +278,33 @@ public class HTMLVideoElement : HTMLMediaElement, GlobalEventHandlers, ElementCo
       <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_AddTextTrack_CSharpToJavaScript_APIs_JS_TextTrackKind_System_String_System_String_">HTMLMediaElement.AddTextTrack(TextTrackKind, string, string)</a>
     </div>
     <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_CaptureStream">HTMLMediaElement.CaptureStream()</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_Remote">HTMLMediaElement.Remote</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_DisableRemotePlayback">HTMLMediaElement.DisableRemotePlayback</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_OffsetParent">HTMLElement.OffsetParent</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_OffsetTop">HTMLElement.OffsetTop</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_OffsetLeft">HTMLElement.OffsetLeft</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_OffsetWidth">HTMLElement.OffsetWidth</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_OffsetHeight">HTMLElement.OffsetHeight</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_EditContext">HTMLElement.EditContext</a>
+    </div>
+    <div>
       <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_Title">HTMLElement.Title</a>
     </div>
     <div>
@@ -305,6 +338,9 @@ public class HTMLVideoElement : HTMLMediaElement, GlobalEventHandlers, ElementCo
       <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_Spellcheck">HTMLElement.Spellcheck</a>
     </div>
     <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_WritingSuggestions">HTMLElement.WritingSuggestions</a>
+    </div>
+    <div>
       <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_Autocapitalize">HTMLElement.Autocapitalize</a>
     </div>
     <div>
@@ -329,15 +365,6 @@ public class HTMLVideoElement : HTMLMediaElement, GlobalEventHandlers, ElementCo
       <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_Popover">HTMLElement.Popover</a>
     </div>
     <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_Style">HTMLElement.Style</a>
-    </div>
-    <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_Pseudo_CSharpToJavaScript_Utils_Unsupported_">Element.Pseudo(Unsupported)</a>
-    </div>
-    <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_Part">Element.Part</a>
-    </div>
-    <div>
       <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_GetSpatialNavigationContainer">Element.GetSpatialNavigationContainer()</a>
     </div>
     <div>
@@ -345,6 +372,72 @@ public class HTMLVideoElement : HTMLMediaElement, GlobalEventHandlers, ElementCo
     </div>
     <div>
       <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_SpatialNavigationSearch_CSharpToJavaScript_APIs_JS_SpatialNavigationDirection_CSharpToJavaScript_APIs_JS_SpatialNavigationSearchOptions_">Element.SpatialNavigationSearch(SpatialNavigationDirection, SpatialNavigationSearchOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_Pseudo_System_String_">Element.Pseudo(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_Part">Element.Part</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ComputedStyleMap">Element.ComputedStyleMap()</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_GetClientRects">Element.GetClientRects()</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_GetBoundingClientRect">Element.GetBoundingClientRect()</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_CheckVisibility_CSharpToJavaScript_APIs_JS_CheckVisibilityOptions_">Element.CheckVisibility(CheckVisibilityOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ScrollIntoView_CSharpToJavaScript_APIs_JS_Union22_">Element.ScrollIntoView(Union22)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_Scroll_CSharpToJavaScript_APIs_JS_ScrollToOptions_">Element.Scroll(ScrollToOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_Scroll_System_Double_System_Double_">Element.Scroll(double, double)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ScrollTo_CSharpToJavaScript_APIs_JS_ScrollToOptions_">Element.ScrollTo(ScrollToOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ScrollTo_System_Double_System_Double_">Element.ScrollTo(double, double)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ScrollBy_CSharpToJavaScript_APIs_JS_ScrollToOptions_">Element.ScrollBy(ScrollToOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ScrollBy_System_Double_System_Double_">Element.ScrollBy(double, double)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ScrollTop">Element.ScrollTop</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ScrollLeft">Element.ScrollLeft</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ScrollWidth">Element.ScrollWidth</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ScrollHeight">Element.ScrollHeight</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ClientTop">Element.ClientTop</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ClientLeft">Element.ClientLeft</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ClientWidth">Element.ClientWidth</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ClientHeight">Element.ClientHeight</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_CurrentCSSZoom">Element.CurrentCSSZoom</a>
     </div>
     <div>
       <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_NamespaceURI">Element.NamespaceURI</a>
@@ -452,13 +545,7 @@ public class HTMLVideoElement : HTMLMediaElement, GlobalEventHandlers, ElementCo
       <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_InsertAdjacentText_System_String_System_String_">Element.InsertAdjacentText(string, string)</a>
     </div>
     <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_InnerHTML">Element.InnerHTML</a>
-    </div>
-    <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_OuterHTML">Element.OuterHTML</a>
-    </div>
-    <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_InsertAdjacentHTML_System_String_System_String_">Element.InsertAdjacentHTML(string, string)</a>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ElementTiming">Element.ElementTiming</a>
     </div>
     <div>
       <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_RequestFullscreen_CSharpToJavaScript_APIs_JS_FullscreenOptions_">Element.RequestFullscreen(FullscreenOptions)</a>
@@ -470,10 +557,31 @@ public class HTMLVideoElement : HTMLMediaElement, GlobalEventHandlers, ElementCo
       <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_Onfullscreenerror">Element.Onfullscreenerror</a>
     </div>
     <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_Uiactions">Element.Uiactions</a>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_SetHTMLUnsafe_System_String_">Element.SetHTMLUnsafe(string)</a>
     </div>
     <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_Uitrigger">Element.Uitrigger</a>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_GetHTML_CSharpToJavaScript_APIs_JS_GetHTMLOptions_">Element.GetHTML(GetHTMLOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_InnerHTML">Element.InnerHTML</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_OuterHTML">Element.OuterHTML</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_InsertAdjacentHTML_System_String_System_String_">Element.InsertAdjacentHTML(string, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_SetPointerCapture_System_Int64_">Element.SetPointerCapture(long)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ReleasePointerCapture_System_Int64_">Element.ReleasePointerCapture(long)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_HasPointerCapture_System_Int64_">Element.HasPointerCapture(long)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_RequestPointerLock">Element.RequestPointerLock()</a>
     </div>
     <div>
       <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_ELEMENT_NODE">Node.ELEMENT_NODE</a>
@@ -617,22 +725,22 @@ public class HTMLVideoElement : HTMLMediaElement, GlobalEventHandlers, ElementCo
       <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_RemoveChild_CSharpToJavaScript_APIs_JS_Node_">Node.RemoveChild(Node)</a>
     </div>
     <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union41_">EventTarget.AddEventListener(string, Action, Union41)</a>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union27_">EventTarget.AddEventListener(string, Action, Union27)</a>
     </div>
     <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_MouseEvent__CSharpToJavaScript_APIs_JS_Union41_">EventTarget.AddEventListener(string, Action&lt;MouseEvent&gt;, Union41)</a>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_MouseEvent__CSharpToJavaScript_APIs_JS_Union27_">EventTarget.AddEventListener(string, Action&lt;MouseEvent&gt;, Union27)</a>
     </div>
     <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Event__CSharpToJavaScript_APIs_JS_Union41_">EventTarget.AddEventListener(string, Action&lt;Event&gt;, Union41)</a>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Event__CSharpToJavaScript_APIs_JS_Union27_">EventTarget.AddEventListener(string, Action&lt;Event&gt;, Union27)</a>
     </div>
     <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_RemoveEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union2_">EventTarget.RemoveEventListener(string, Action, Union2)</a>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_RemoveEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union28_">EventTarget.RemoveEventListener(string, Action, Union28)</a>
     </div>
     <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_CSharpToJavaScript_APIs_JS_EventListener_CSharpToJavaScript_APIs_JS_Union41_">EventTarget.AddEventListener(string, EventListener, Union41)</a>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_CSharpToJavaScript_APIs_JS_EventListener_CSharpToJavaScript_APIs_JS_Union27_">EventTarget.AddEventListener(string, EventListener, Union27)</a>
     </div>
     <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_RemoveEventListener_System_String_CSharpToJavaScript_APIs_JS_EventListener_CSharpToJavaScript_APIs_JS_Union42_">EventTarget.RemoveEventListener(string, EventListener, Union42)</a>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_RemoveEventListener_System_String_CSharpToJavaScript_APIs_JS_EventListener_CSharpToJavaScript_APIs_JS_Union28_">EventTarget.RemoveEventListener(string, EventListener, Union28)</a>
     </div>
     <div>
       <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_DispatchEvent_CSharpToJavaScript_APIs_JS_Event_">EventTarget.DispatchEvent(Event)</a>
@@ -666,7 +774,11 @@ public class HTMLVideoElement : HTMLMediaElement, GlobalEventHandlers, ElementCo
   <h2 id="CSharpToJavaScript_APIs_JS_HTMLVideoElement_remarks">Remarks</h2>
   <div class="markdown level0 remarks"><p></p>
 <p>-HTML element implementing this interface: <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video">video</a>.<br>-<a href="https://developer.mozilla.org/en-US/docs/Web/Media/Formats">Supported media formats</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLVideoElement"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLVideoElement">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -678,7 +790,7 @@ public class HTMLVideoElement : HTMLMediaElement, GlobalEventHandlers, ElementCo
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLVideoElement__ctor" data-uid="CSharpToJavaScript.APIs.JS.HTMLVideoElement.#ctor">
   HTMLVideoElement()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L824"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8901"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -708,10 +820,10 @@ public class HTMLVideoElement : HTMLMediaElement, GlobalEventHandlers, ElementCo
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLVideoElement_DisablePictureInPicture" data-uid="CSharpToJavaScript.APIs.JS.HTMLVideoElement.DisablePictureInPicture">
   DisablePictureInPicture
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10656"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16335"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLVideoElement.html">HTMLVideoElement</a><br><strong><code>disablePictureInPicture</code></strong> property reflects the HTML<br>attribute indicating whether the user agent should suggest the<br>picture-in-picture feature to users, or request it automatically.</p>
+  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLVideoElement.html">HTMLVideoElement</a><strong><code>disablePictureInPicture</code></strong> property reflects the HTML attribute indicating whether the picture-in-picture feature is disabled for the current element.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -727,7 +839,7 @@ public bool DisablePictureInPicture { get; set; }</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p>A boolean value that is <code>true</code> if the user agent should<br>suggest that feature to users.</p>
+    <dd><p>A boolean value that is <code>true</code> if the picture-in-picture feature is disabled for this element. This means that the user agent should not suggest that feature to users, or request it automatically.</p>
 </dd>
   </dl>
 
@@ -735,7 +847,11 @@ public bool DisablePictureInPicture { get; set; }</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLVideoElement_DisablePictureInPicture_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLVideoElement/disablePictureInPicture"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLVideoElement/disablePictureInPicture">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -745,10 +861,11 @@ public bool DisablePictureInPicture { get; set; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLVideoElement_Height" data-uid="CSharpToJavaScript.APIs.JS.HTMLVideoElement.Height">
   Height
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L827"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8906"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The <strong><code>height</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLVideoElement.html">HTMLVideoElement</a> interface returns an integer that reflects the <code>height</code> attribute of the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video">video</a> element, specifying the displayed height of the resource in CSS pixels.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -763,12 +880,21 @@ public ulong Height { get; set; }</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
-    <dd>The list of supported media formats varies from one browser to the other. You should either provide your video in a single format that all the relevant browsers supports, or provide multiple video sources in enough different formats that all the browsers you need to support are covered.</dd>
+    <dd><p>A positive integer or 0.</p>
+</dd>
   </dl>
 
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLVideoElement_Height_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLCanvasElement.html#CSharpToJavaScript_APIs_JS_HTMLCanvasElement_Height">Height</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLEmbedElement.html#CSharpToJavaScript_APIs_JS_HTMLEmbedElement_Height">Height</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLIFrameElement.html#CSharpToJavaScript_APIs_JS_HTMLIFrameElement_Height">Height</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html#CSharpToJavaScript_APIs_JS_HTMLImageElement_Height">Height</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLObjectElement.html#CSharpToJavaScript_APIs_JS_HTMLObjectElement_Height">Height</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLSourceElement.html#CSharpToJavaScript_APIs_JS_HTMLSourceElement_Height">Height</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLVideoElement/height">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -777,7 +903,7 @@ public ulong Height { get; set; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLVideoElement_Onenterpictureinpicture" data-uid="CSharpToJavaScript.APIs.JS.HTMLVideoElement.Onenterpictureinpicture">
   Onenterpictureinpicture
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10651"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16330"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -795,7 +921,7 @@ public EventHandlerNonNull Onenterpictureinpicture { get; set; }</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.EventHandlerNonNull.html">EventHandlerNonNull</a></dt>
-    <dd>The list of supported media formats varies from one browser to the other. You should either provide your video in a single format that all the relevant browsers supports, or provide multiple video sources in enough different formats that all the browsers you need to support are covered.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -809,7 +935,7 @@ public EventHandlerNonNull Onenterpictureinpicture { get; set; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLVideoElement_Onleavepictureinpicture" data-uid="CSharpToJavaScript.APIs.JS.HTMLVideoElement.Onleavepictureinpicture">
   Onleavepictureinpicture
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10653"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16332"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -827,7 +953,7 @@ public EventHandlerNonNull Onleavepictureinpicture { get; set; }</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.EventHandlerNonNull.html">EventHandlerNonNull</a></dt>
-    <dd>The list of supported media formats varies from one browser to the other. You should either provide your video in a single format that all the relevant browsers supports, or provide multiple video sources in enough different formats that all the browsers you need to support are covered.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -841,7 +967,7 @@ public EventHandlerNonNull Onleavepictureinpicture { get; set; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLVideoElement_PlaysInline" data-uid="CSharpToJavaScript.APIs.JS.HTMLVideoElement.PlaysInline">
   PlaysInline
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L837"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8917"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -859,7 +985,7 @@ public bool PlaysInline { get; set; }</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd>The list of supported media formats varies from one browser to the other. You should either provide your video in a single format that all the relevant browsers supports, or provide multiple video sources in enough different formats that all the browsers you need to support are covered.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -873,10 +999,11 @@ public bool PlaysInline { get; set; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLVideoElement_Poster" data-uid="CSharpToJavaScript.APIs.JS.HTMLVideoElement.Poster">
   Poster
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L835"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8915"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The <strong><code>poster</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLVideoElement.html">HTMLVideoElement</a> interface is a string that reflects the URL for an image to be shown while no video data is available. If the property does not represent a valid URL, no poster frame will be shown.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -891,12 +1018,21 @@ public string Poster { get; set; }</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd>The list of supported media formats varies from one browser to the other. You should either provide your video in a single format that all the relevant browsers supports, or provide multiple video sources in enough different formats that all the browsers you need to support are covered.</dd>
+    <dd><p>A string.</p>
+</dd>
   </dl>
 
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLVideoElement_Poster_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>It reflects the <code>poster</code> attribute of the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video">video</a> element.</p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLVideoElement/poster">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -905,7 +1041,7 @@ public string Poster { get; set; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLVideoElement_VideoHeight" data-uid="CSharpToJavaScript.APIs.JS.HTMLVideoElement.VideoHeight">
   VideoHeight
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L833"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8912"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLVideoElement.html">HTMLVideoElement</a> interface's read-only <strong><code>videoHeight</code></strong> property indicates the <a href="https://developer.mozilla.org#about_intrinsic_width_and_height">intrinsic height</a> of the video, expressed in CSS pixels.<br>In simple terms, this is the height of the media in its natural size.</p>
@@ -932,7 +1068,11 @@ public ulong VideoHeight { get; }</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLVideoElement_VideoHeight_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLVideoElement/videoHeight"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLVideoElement/videoHeight">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -942,7 +1082,7 @@ public ulong VideoHeight { get; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLVideoElement_VideoWidth" data-uid="CSharpToJavaScript.APIs.JS.HTMLVideoElement.VideoWidth">
   VideoWidth
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L830"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8909"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLVideoElement.html">HTMLVideoElement</a> interface's read-only <strong><code>videoWidth</code></strong> property indicates the <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLVideoElement/videoHeight#about_intrinsic_width_and_height">intrinsic width</a> of the video, expressed in CSS pixels.<br>In simple terms, this is the width of the media in its natural size.</p>
@@ -970,7 +1110,11 @@ public ulong VideoWidth { get; }</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLVideoElement_VideoWidth_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>See <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLVideoElement/videoHeight#about_intrinsic_width_and_height"><code>HTMLVideoElement.videoHeight</code> &amp;gt; About intrinsic width and height</a> for more details.</p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLVideoElement/videoWidth"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLVideoElement/videoWidth">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -980,10 +1124,11 @@ public ulong VideoWidth { get; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLVideoElement_Width" data-uid="CSharpToJavaScript.APIs.JS.HTMLVideoElement.Width">
   Width
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L825"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8903"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The <strong><code>width</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLVideoElement.html">HTMLVideoElement</a> interface returns an integer that reflects the <code>width</code> attribute of the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video">video</a> element, specifying the displayed width of the resource in CSS pixels.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -998,12 +1143,21 @@ public ulong Width { get; set; }</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
-    <dd>The list of supported media formats varies from one browser to the other. You should either provide your video in a single format that all the relevant browsers supports, or provide multiple video sources in enough different formats that all the browsers you need to support are covered.</dd>
+    <dd><p>A positive integer or 0.</p>
+</dd>
   </dl>
 
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLVideoElement_Width_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLCanvasElement.html#CSharpToJavaScript_APIs_JS_HTMLCanvasElement_Width">Width</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLEmbedElement.html#CSharpToJavaScript_APIs_JS_HTMLEmbedElement_Width">Width</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLIFrameElement.html#CSharpToJavaScript_APIs_JS_HTMLIFrameElement_Width">Width</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html#CSharpToJavaScript_APIs_JS_HTMLImageElement_Width">Width</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLObjectElement.html#CSharpToJavaScript_APIs_JS_HTMLObjectElement_Width">Width</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLSourceElement.html#CSharpToJavaScript_APIs_JS_HTMLSourceElement_Width">Width</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLVideoElement/width">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -1012,11 +1166,101 @@ public ulong Width { get; set; }</code></pre>
 </h2>
 
 
+  <a id="CSharpToJavaScript_APIs_JS_HTMLVideoElement_CancelVideoFrameCallback_" data-uid="CSharpToJavaScript.APIs.JS.HTMLVideoElement.CancelVideoFrameCallback*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLVideoElement_CancelVideoFrameCallback_System_UInt64_" data-uid="CSharpToJavaScript.APIs.JS.HTMLVideoElement.CancelVideoFrameCallback(System.UInt64)">
+  CancelVideoFrameCallback(ulong)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L21411"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>cancelVideoFrameCallback()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLVideoElement.html">HTMLVideoElement</a> interface cancels a previously-registered video frame callback.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public GlobalObject.Undefined CancelVideoFrameCallback(ulong handle)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>handle</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLVideoElement_CancelVideoFrameCallback_System_UInt64__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-The <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video">video</a> element<br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLVideoElement.html#CSharpToJavaScript_APIs_JS_HTMLVideoElement_RequestVideoFrameCallback_CSharpToJavaScript_APIs_JS_VideoFrameRequestCallback_">RequestVideoFrameCallback(VideoFrameRequestCallback)</a><br>-<a href="https://web.dev/articles/requestvideoframecallback-rvfc">Perform efficient per-video-frame operations on video with <code>requestVideoFrameCallback()</code></a> on developer.chrome.com (2023)<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLVideoElement/cancelVideoFrameCallback">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_HTMLVideoElement_GetVideoPlaybackQuality_" data-uid="CSharpToJavaScript.APIs.JS.HTMLVideoElement.GetVideoPlaybackQuality*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLVideoElement_GetVideoPlaybackQuality" data-uid="CSharpToJavaScript.APIs.JS.HTMLVideoElement.GetVideoPlaybackQuality">
+  GetVideoPlaybackQuality()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L14158"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLVideoElement.html">HTMLVideoElement</a></strong> method<br><strong><code>getVideoPlaybackQuality()</code></strong> creates and returns a<br><a class="xref" href="CSharpToJavaScript.APIs.JS.VideoPlaybackQuality.html">VideoPlaybackQuality</a> object containing metrics including how many<br>frames have been lost.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public VideoPlaybackQuality GetVideoPlaybackQuality()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.VideoPlaybackQuality.html">VideoPlaybackQuality</a></dt>
+    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.VideoPlaybackQuality.html">VideoPlaybackQuality</a> object providing information about the video<br>element&amp;apos;s current playback quality.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLVideoElement_GetVideoPlaybackQuality_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The data returned can be used to evaluate the quality of the video stream.</p>
+<p>-The <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video">video</a> element<br>-The <a class="xref" href="CSharpToJavaScript.APIs.JS.VideoPlaybackQuality.html">VideoPlaybackQuality</a> interface.<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLVideoElement/getVideoPlaybackQuality">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
   <a id="CSharpToJavaScript_APIs_JS_HTMLVideoElement_RequestPictureInPicture_" data-uid="CSharpToJavaScript.APIs.JS.HTMLVideoElement.RequestPictureInPicture*"></a>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLVideoElement_RequestPictureInPicture" data-uid="CSharpToJavaScript.APIs.JS.HTMLVideoElement.RequestPictureInPicture">
   RequestPictureInPicture()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10649"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16328"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLVideoElement.html">HTMLVideoElement</a></strong> method<br><strong><code>requestPictureInPicture()</code></strong> issues an asynchronous request<br>to display the video in picture-in-picture mode.</p>
@@ -1043,9 +1287,60 @@ public Task&lt;PictureInPictureWindow&gt; RequestPictureInPicture()</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLVideoElement_RequestPictureInPicture_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>It&amp;apos;s not guaranteed that the video will be put into picture-in-picture. If permission<br>to enter that mode is granted, the returned Promise will resolve and the<br>video will receive a {{domxref(&amp;quot;HTMLVideoElement.enterpictureinpicture_event&amp;quot;,<br>&amp;quot;enterpictureinpicture&amp;quot;)}} event to let it know that it&amp;apos;s now in picture-in-picture.</p>
+  <div class="markdown level1 remarks"><p>It&amp;apos;s not guaranteed that the video will be put into picture-in-picture. If permission<br>to enter that mode is granted, the returned Promise will resolve and the<br>video will receive a HTMLVideoElement.Enterpictureinpicture_event event to let it know that it's now in picture-in-picture.</p>
 <p>-The <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video">video</a> element<br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLVideoElement.html#CSharpToJavaScript_APIs_JS_HTMLVideoElement_DisablePictureInPicture">DisablePictureInPicture</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Document.html#CSharpToJavaScript_APIs_JS_Document_PictureInPictureEnabled">PictureInPictureEnabled</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Document.html#CSharpToJavaScript_APIs_JS_Document_ExitPictureInPicture">ExitPictureInPicture()</a><br>-Document.PictureInPictureElement<br>-<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/:picture-in-picture">:picture-in-picture</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLVideoElement/requestPictureInPicture"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLVideoElement/requestPictureInPicture">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_HTMLVideoElement_RequestVideoFrameCallback_" data-uid="CSharpToJavaScript.APIs.JS.HTMLVideoElement.RequestVideoFrameCallback*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLVideoElement_RequestVideoFrameCallback_CSharpToJavaScript_APIs_JS_VideoFrameRequestCallback_" data-uid="CSharpToJavaScript.APIs.JS.HTMLVideoElement.RequestVideoFrameCallback(CSharpToJavaScript.APIs.JS.VideoFrameRequestCallback)">
+  RequestVideoFrameCallback(VideoFrameRequestCallback)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L21408"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>requestVideoFrameCallback()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLVideoElement.html">HTMLVideoElement</a> interface registers a callback function that runs when a new video frame is sent to the compositor. This enables developers to perform efficient operations on each video frame.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public ulong RequestVideoFrameCallback(VideoFrameRequestCallback callback)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>callback</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.VideoFrameRequestCallback.html">VideoFrameRequestCallback</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd><p>A number representing a unique callback ID.This can be passed to <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLVideoElement.html#CSharpToJavaScript_APIs_JS_HTMLVideoElement_CancelVideoFrameCallback_System_UInt64_">CancelVideoFrameCallback(ulong)</a> to cancel the callback registration.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLVideoElement_RequestVideoFrameCallback_CSharpToJavaScript_APIs_JS_VideoFrameRequestCallback__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-The <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video">video</a> element<br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLVideoElement.html#CSharpToJavaScript_APIs_JS_HTMLVideoElement_CancelVideoFrameCallback_System_UInt64_">CancelVideoFrameCallback(ulong)</a><br>-<a href="https://web.dev/articles/requestvideoframecallback-rvfc">Perform efficient per-video-frame operations on video with <code>requestVideoFrameCallback()</code></a> on developer.chrome.com (2023)<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLVideoElement/requestVideoFrameCallback">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -1055,7 +1350,7 @@ public Task&lt;PictureInPictureWindow&gt; RequestPictureInPicture()</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10646" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L21405" class="edit-link">Edit this page</a>
         </div>
 
 

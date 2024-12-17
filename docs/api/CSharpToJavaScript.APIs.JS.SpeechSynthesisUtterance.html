@@ -1,0 +1,752 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class SpeechSynthesisUtterance | CSharpToJavaScript </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class SpeechSynthesisUtterance | CSharpToJavaScript ">
+      
+      <meta name="description" content="The SpeechSynthesisUtterance interface of the Web Speech API represents a speech request.It contains the content the speech service should read and information about how to read it (e.g. language, pitch and volume.)">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/TiLied/CSharpToJavaScript/new/master/apiSpec/new?filename=CSharpToJavaScript_APIs_JS_SpeechSynthesisUtterance.md&amp;value=---%0Auid%3A%20CSharpToJavaScript.APIs.JS.SpeechSynthesisUtterance%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="CSharpToJavaScript.APIs.JS.SpeechSynthesisUtterance">
+
+
+
+  <h1 id="CSharpToJavaScript_APIs_JS_SpeechSynthesisUtterance" data-uid="CSharpToJavaScript.APIs.JS.SpeechSynthesisUtterance" class="text-break">
+Class SpeechSynthesisUtterance  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L18805"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CSharpToJavaScript.html">CSharpToJavaScript</a>.<a class="xref" href="CSharpToJavaScript.APIs.html">APIs</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.html">JS</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>The <strong><code>SpeechSynthesisUtterance</code></strong> interface of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API">Web Speech API</a> represents a speech request.<br>It contains the content the speech service should read and information about how to read it (e.g. language, pitch and volume.)</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public class SpeechSynthesisUtterance : EventTarget</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html">EventTarget</a></div>
+      <div><span class="xref">SpeechSynthesisUtterance</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union27_">EventTarget.AddEventListener(string, Action, Union27)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_MouseEvent__CSharpToJavaScript_APIs_JS_Union27_">EventTarget.AddEventListener(string, Action&lt;MouseEvent&gt;, Union27)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Event__CSharpToJavaScript_APIs_JS_Union27_">EventTarget.AddEventListener(string, Action&lt;Event&gt;, Union27)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_RemoveEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union28_">EventTarget.RemoveEventListener(string, Action, Union28)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_CSharpToJavaScript_APIs_JS_EventListener_CSharpToJavaScript_APIs_JS_Union27_">EventTarget.AddEventListener(string, EventListener, Union27)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_RemoveEventListener_System_String_CSharpToJavaScript_APIs_JS_EventListener_CSharpToJavaScript_APIs_JS_Union28_">EventTarget.RemoveEventListener(string, EventListener, Union28)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_DispatchEvent_CSharpToJavaScript_APIs_JS_Event_">EventTarget.DispatchEvent(Event)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+  <h2 id="CSharpToJavaScript_APIs_JS_SpeechSynthesisUtterance_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p></p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API">Web Speech API</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesisUtterance">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_SpeechSynthesisUtterance__ctor_" data-uid="CSharpToJavaScript.APIs.JS.SpeechSynthesisUtterance.#ctor*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_SpeechSynthesisUtterance__ctor" data-uid="CSharpToJavaScript.APIs.JS.SpeechSynthesisUtterance.#ctor">
+  SpeechSynthesisUtterance()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L18829"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SpeechSynthesisUtterance()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_SpeechSynthesisUtterance__ctor_" data-uid="CSharpToJavaScript.APIs.JS.SpeechSynthesisUtterance.#ctor*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_SpeechSynthesisUtterance__ctor_System_String_" data-uid="CSharpToJavaScript.APIs.JS.SpeechSynthesisUtterance.#ctor(System.String)">
+  SpeechSynthesisUtterance(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L18809"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <code>SpeechSynthesisUtterance()</code> constructor of the <a class="xref" href="CSharpToJavaScript.APIs.JS.SpeechSynthesisUtterance.html">SpeechSynthesisUtterance</a> interface returns a new <code>SpeechSynthesisUtterance</code> object instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SpeechSynthesisUtterance(string text)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_SpeechSynthesisUtterance__ctor_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API">Web Speech API</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesisUtterance/SpeechSynthesisUtterance">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_SpeechSynthesisUtterance_Lang_" data-uid="CSharpToJavaScript.APIs.JS.SpeechSynthesisUtterance.Lang*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_SpeechSynthesisUtterance_Lang" data-uid="CSharpToJavaScript.APIs.JS.SpeechSynthesisUtterance.Lang">
+  Lang
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L18813"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>lang</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.SpeechSynthesisUtterance.html">SpeechSynthesisUtterance</a> interface gets and sets the language of the utterance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Lang { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A string representing a BCP 47 language tag.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_SpeechSynthesisUtterance_Lang_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>If unset, the app's (i.e. the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html">html</a><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html#lang"><code>lang</code></a> value) lang will be used, or the user-agent default if that is unset too.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API">Web Speech API</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesisUtterance/lang">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_SpeechSynthesisUtterance_Onboundary_" data-uid="CSharpToJavaScript.APIs.JS.SpeechSynthesisUtterance.Onboundary*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_SpeechSynthesisUtterance_Onboundary" data-uid="CSharpToJavaScript.APIs.JS.SpeechSynthesisUtterance.Onboundary">
+  Onboundary
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L18828"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EventHandlerNonNull Onboundary { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.EventHandlerNonNull.html">EventHandlerNonNull</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_SpeechSynthesisUtterance_Onend_" data-uid="CSharpToJavaScript.APIs.JS.SpeechSynthesisUtterance.Onend*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_SpeechSynthesisUtterance_Onend" data-uid="CSharpToJavaScript.APIs.JS.SpeechSynthesisUtterance.Onend">
+  Onend
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L18823"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EventHandlerNonNull Onend { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.EventHandlerNonNull.html">EventHandlerNonNull</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_SpeechSynthesisUtterance_Onerror_" data-uid="CSharpToJavaScript.APIs.JS.SpeechSynthesisUtterance.Onerror*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_SpeechSynthesisUtterance_Onerror" data-uid="CSharpToJavaScript.APIs.JS.SpeechSynthesisUtterance.Onerror">
+  Onerror
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L18824"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EventHandlerNonNull Onerror { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.EventHandlerNonNull.html">EventHandlerNonNull</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_SpeechSynthesisUtterance_Onmark_" data-uid="CSharpToJavaScript.APIs.JS.SpeechSynthesisUtterance.Onmark*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_SpeechSynthesisUtterance_Onmark" data-uid="CSharpToJavaScript.APIs.JS.SpeechSynthesisUtterance.Onmark">
+  Onmark
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L18827"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EventHandlerNonNull Onmark { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.EventHandlerNonNull.html">EventHandlerNonNull</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_SpeechSynthesisUtterance_Onpause_" data-uid="CSharpToJavaScript.APIs.JS.SpeechSynthesisUtterance.Onpause*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_SpeechSynthesisUtterance_Onpause" data-uid="CSharpToJavaScript.APIs.JS.SpeechSynthesisUtterance.Onpause">
+  Onpause
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L18825"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EventHandlerNonNull Onpause { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.EventHandlerNonNull.html">EventHandlerNonNull</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_SpeechSynthesisUtterance_Onresume_" data-uid="CSharpToJavaScript.APIs.JS.SpeechSynthesisUtterance.Onresume*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_SpeechSynthesisUtterance_Onresume" data-uid="CSharpToJavaScript.APIs.JS.SpeechSynthesisUtterance.Onresume">
+  Onresume
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L18826"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EventHandlerNonNull Onresume { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.EventHandlerNonNull.html">EventHandlerNonNull</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_SpeechSynthesisUtterance_Onstart_" data-uid="CSharpToJavaScript.APIs.JS.SpeechSynthesisUtterance.Onstart*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_SpeechSynthesisUtterance_Onstart" data-uid="CSharpToJavaScript.APIs.JS.SpeechSynthesisUtterance.Onstart">
+  Onstart
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L18822"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EventHandlerNonNull Onstart { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.EventHandlerNonNull.html">EventHandlerNonNull</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_SpeechSynthesisUtterance_Pitch_" data-uid="CSharpToJavaScript.APIs.JS.SpeechSynthesisUtterance.Pitch*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_SpeechSynthesisUtterance_Pitch" data-uid="CSharpToJavaScript.APIs.JS.SpeechSynthesisUtterance.Pitch">
+  Pitch
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L18821"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>pitch</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.SpeechSynthesisUtterance.html">SpeechSynthesisUtterance</a> interface gets and sets the pitch at which the utterance will be spoken at.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Number Pitch { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dd><p>A float representing the pitch value.<br>It can range between 0 (lowest) and 2 (highest), with 1 being the default pitch for the current platform or voice. Some speech synthesis engines or voices may constrain the minimum and maximum rates further.<br>If <a href="https://www.w3.org/TR/speech-synthesis/">SSML</a> is used, this value will be overridden by <a href="https://www.w3.org/TR/speech-synthesis/#S3.2.4">prosody tags</a> in the markup.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_SpeechSynthesisUtterance_Pitch_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>If unset, a default value of 1 will be used.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API">Web Speech API</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesisUtterance/pitch">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_SpeechSynthesisUtterance_Rate_" data-uid="CSharpToJavaScript.APIs.JS.SpeechSynthesisUtterance.Rate*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_SpeechSynthesisUtterance_Rate" data-uid="CSharpToJavaScript.APIs.JS.SpeechSynthesisUtterance.Rate">
+  Rate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L18819"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>rate</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.SpeechSynthesisUtterance.html">SpeechSynthesisUtterance</a> interface gets and sets the speed at which the utterance will be spoken at.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Number Rate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dd><p>A float representing the rate value.<br>It can range between 0.1 (lowest) and 10 (highest), with 1 being the default rate for the current platform or voice, which should correspond to a normal speaking rate.<br>Other values act as a percentage relative to this, so for example 2 is twice as fast, 0.5 is half as fast, etc.Some speech synthesis engines or voices may constrain the minimum and maximum rates further.<br>If <a href="https://www.w3.org/TR/speech-synthesis/">SSML</a> is used, this value will be overridden by <a href="https://www.w3.org/TR/speech-synthesis/#S3.2.4">prosody tags</a> in the markup.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_SpeechSynthesisUtterance_Rate_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>If unset, a default value of 1 will be used.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API">Web Speech API</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesisUtterance/rate">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_SpeechSynthesisUtterance_Text_" data-uid="CSharpToJavaScript.APIs.JS.SpeechSynthesisUtterance.Text*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_SpeechSynthesisUtterance_Text" data-uid="CSharpToJavaScript.APIs.JS.SpeechSynthesisUtterance.Text">
+  Text
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L18811"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>text</code></strong> property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.SpeechSynthesisUtterance.html">SpeechSynthesisUtterance</a> interface gets and sets the text that will be synthesized when the utterance is spoken.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Text { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A string representing the text to the synthesized.<br>The maximum length of the text that can be spoken in each utterance is 32,767 characters.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_SpeechSynthesisUtterance_Text_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The text may be provided as plain text, or a well-formed <a href="https://www.w3.org/TR/speech-synthesis/">SSML</a> document.<br>The SSML tags will be stripped away by devices that don&amp;apos;t support SSML.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API">Web Speech API</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesisUtterance/text">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_SpeechSynthesisUtterance_Voice_" data-uid="CSharpToJavaScript.APIs.JS.SpeechSynthesisUtterance.Voice*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_SpeechSynthesisUtterance_Voice" data-uid="CSharpToJavaScript.APIs.JS.SpeechSynthesisUtterance.Voice">
+  Voice
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L18815"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>voice</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.SpeechSynthesisUtterance.html">SpeechSynthesisUtterance</a> interface gets and sets the voice that will be used to speak the utterance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SpeechSynthesisVoice? Voice { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.SpeechSynthesisVoice.html">SpeechSynthesisVoice</a></dt>
+    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.SpeechSynthesisVoice.html">SpeechSynthesisVoice</a> object.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_SpeechSynthesisUtterance_Voice_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This should be set to one of the <a class="xref" href="CSharpToJavaScript.APIs.JS.SpeechSynthesisVoice.html">SpeechSynthesisVoice</a> objects returned by <a class="xref" href="CSharpToJavaScript.APIs.JS.SpeechSynthesis.html#CSharpToJavaScript_APIs_JS_SpeechSynthesis_GetVoices">GetVoices()</a>.<br>If not set by the time the utterance is spoken, the voice used will be the most suitable default voice available for the utterance's <a class="xref" href="CSharpToJavaScript.APIs.JS.SpeechSynthesisUtterance.html#CSharpToJavaScript_APIs_JS_SpeechSynthesisUtterance_Lang">Lang</a> setting.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API">Web Speech API</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesisUtterance/voice">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_SpeechSynthesisUtterance_Volume_" data-uid="CSharpToJavaScript.APIs.JS.SpeechSynthesisUtterance.Volume*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_SpeechSynthesisUtterance_Volume" data-uid="CSharpToJavaScript.APIs.JS.SpeechSynthesisUtterance.Volume">
+  Volume
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L18817"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>volume</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.SpeechSynthesisUtterance.html">SpeechSynthesisUtterance</a> interface gets and sets the volume that the utterance will be spoken at.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Number Volume { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dd><p>A float that represents the volume value, between 0 (lowest) and 1 (highest.)If <a href="https://www.w3.org/TR/speech-synthesis/">SSML</a> is used, this value will be overridden by <a href="https://www.w3.org/TR/speech-synthesis/#S3.2.4">prosody tags</a> in the markup.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_SpeechSynthesisUtterance_Volume_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>If not set, the default value 1 will be used.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API">Web Speech API</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesisUtterance/volume">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L18805" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

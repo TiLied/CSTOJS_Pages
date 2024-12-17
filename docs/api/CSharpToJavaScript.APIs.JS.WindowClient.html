@@ -2,11 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class WindowClient
- | CSharpToJavaScript </title>
+      <title>Class WindowClient | CSharpToJavaScript </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class WindowClient
- | CSharpToJavaScript ">
+      <meta name="title" content="Class WindowClient | CSharpToJavaScript ">
       
       <meta name="description" content="The WindowClient interface of the ServiceWorker API represents the scope of a service worker client that is a document in a browsing context, controlled by an active worker. The service worker client independently selects and uses a service worker for its own loading and sub-resources.">
       <link rel="icon" href="../favicon.ico">
@@ -31,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -91,8 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_WindowClient" data-uid="CSharpToJavaScript.APIs.JS.WindowClient" class="text-break">
-    Class WindowClient
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L11141"><i class="bi bi-code-slash"></i></a>
+Class WindowClient  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L18165"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -123,9 +120,12 @@ public class WindowClient : Client</code></pre>
 
 
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Client.html#CSharpToJavaScript_APIs_JS_Client_LifecycleState">Client.LifecycleState</a>
+    </div>
     <div>
       <a class="xref" href="CSharpToJavaScript.APIs.JS.Client.html#CSharpToJavaScript_APIs_JS_Client_Url">Client.Url</a>
     </div>
@@ -172,8 +172,12 @@ public class WindowClient : Client</code></pre>
 
   <h2 id="CSharpToJavaScript_APIs_JS_WindowClient_remarks">Remarks</h2>
   <div class="markdown level0 remarks"><p></p>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers">Using Service Workers</a><br>-<a href="https://github.com/mdn/dom-examples/tree/main/service-worker/simple-service-worker">Service workers basic code example</a><br>-<a href="https://jakearchibald.github.io/isserviceworkerready/">Is ServiceWorker ready?</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promises</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers">Using web workers</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Channel_Messaging_API">Channel Messaging API</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/WindowClient"> <em>See also on MDN</em> </a></p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers">Using Service Workers</a><br>-<a href="https://github.com/mdn/dom-examples/tree/main/service-worker/simple-service-worker">Service workers basic code example</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers">Using web workers</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Channel_Messaging_API">Channel Messaging API</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/WindowClient">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -185,10 +189,11 @@ public class WindowClient : Client</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_WindowClient_AncestorOrigins" data-uid="CSharpToJavaScript.APIs.JS.WindowClient.AncestorOrigins">
   AncestorOrigins
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L11148"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L18173"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The <strong><code>ancestorOrigins</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.WindowClient.html">WindowClient</a> interface is an array of strings listing the origins of all ancestors of the browsing context represented by this <code>WindowClient</code> in reverse order.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -202,12 +207,21 @@ public class WindowClient : Client</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
-    <dd>The WindowClient interface of the ServiceWorker API represents the scope of a service worker client that is a document in a browsing context, controlled by an active worker. The service worker client independently selects and uses a service worker for its own loading and sub-resources.</dd>
+    <dd><p>An array of strings.</p>
+</dd>
   </dl>
 
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_WindowClient_AncestorOrigins_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The first element in the array is the origin of this window&amp;apos;s parent, and the last element is the origin of the top-level browsing context. If this window is itself a top-level browsing context, then <code>ancestorOrigins</code> is an empty array.</p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/WindowClient/ancestorOrigins">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -216,7 +230,7 @@ public class WindowClient : Client</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_WindowClient_Focused" data-uid="CSharpToJavaScript.APIs.JS.WindowClient.Focused">
   Focused
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L11147"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L18171"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>focused</code></strong> read-only property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.WindowClient.html">WindowClient</a> interface is a boolean value that indicates whether<br>the current client has focus.</p>
@@ -242,7 +256,11 @@ public class WindowClient : Client</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_WindowClient_Focused_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p><a href="https://developer.mozilla.org/en-US/docs/Web/API/WindowClient/focused"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/WindowClient/focused">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -252,7 +270,7 @@ public class WindowClient : Client</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_WindowClient_VisibilityState" data-uid="CSharpToJavaScript.APIs.JS.WindowClient.VisibilityState">
   VisibilityState
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L11145"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L18169"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>visibilityState</code></strong> read-only property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.WindowClient.html">WindowClient</a> interface indicates the visibility of the current client.<br>This value can be one of <code>&amp;quot;hidden&amp;quot;</code>, <code>&amp;quot;visible&amp;quot;</code>, or<br><code>&amp;quot;prerender&amp;quot;</code>.</p>
@@ -260,7 +278,7 @@ public class WindowClient : Client</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Unsupported VisibilityState { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public DocumentVisibilityState VisibilityState { get; }</code></pre>
   </div>
 
 
@@ -269,7 +287,7 @@ public class WindowClient : Client</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.Utils.Unsupported.html">Unsupported</a></dt>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.DocumentVisibilityState.html">DocumentVisibilityState</a></dt>
     <dd><p>A string (See <a class="xref" href="CSharpToJavaScript.APIs.JS.Document.html#CSharpToJavaScript_APIs_JS_Document_VisibilityState">VisibilityState</a> for values).</p>
 </dd>
   </dl>
@@ -278,7 +296,11 @@ public class WindowClient : Client</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_WindowClient_VisibilityState_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p><a href="https://developer.mozilla.org/en-US/docs/Web/API/WindowClient/visibilityState"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/WindowClient/visibilityState">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -292,7 +314,7 @@ public class WindowClient : Client</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_WindowClient_Focus" data-uid="CSharpToJavaScript.APIs.JS.WindowClient.Focus">
   Focus()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L11150"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L18175"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>focus()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.WindowClient.html">WindowClient</a><br>interface gives user input focus to the current client and returns a<br>Promise that resolves to the existing<br><a class="xref" href="CSharpToJavaScript.APIs.JS.WindowClient.html">WindowClient</a>.</p>
@@ -318,7 +340,11 @@ public class WindowClient : Client</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_WindowClient_Focus_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p><a href="https://developer.mozilla.org/en-US/docs/Web/API/WindowClient/focus"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/WindowClient/focus">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -328,7 +354,7 @@ public class WindowClient : Client</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_WindowClient_Navigate_System_String_" data-uid="CSharpToJavaScript.APIs.JS.WindowClient.Navigate(System.String)">
   Navigate(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L11152"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L18177"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>navigate()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.WindowClient.html">WindowClient</a><br>interface loads a specified URL into a controlled client page then returns a<br>{{jsxref(&quot;Promise&quot;)}} that resolves to the existing <a class="xref" href="CSharpToJavaScript.APIs.JS.WindowClient.html">WindowClient</a>.</p>
@@ -342,13 +368,13 @@ public class WindowClient : Client</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>url</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd>The WindowClient interface of the ServiceWorker API represents the scope of a service worker client that is a document in a browsing context, controlled by an active worker. The service worker client independently selects and uses a service worker for its own loading and sub-resources.</dd>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CSharpToJavaScript.APIs.JS.WindowClient.html">WindowClient</a>&gt;</dt>
-    <dd><p>A {{jsxref(&quot;Promise&quot;)}} that resolves to the existing <a class="xref" href="CSharpToJavaScript.APIs.JS.WindowClient.html">WindowClient</a>.</p>
+    <dd><p>A {{jsxref(&quot;Promise&quot;)}} that resolves to the existing <a class="xref" href="CSharpToJavaScript.APIs.JS.WindowClient.html">WindowClient</a> if the URL is from the same origin as the service worker, or {{jsxref(&quot;Operators/null&quot;, &quot;null&quot;)}} otherwise.</p>
 </dd>
   </dl>
 
@@ -359,7 +385,11 @@ public class WindowClient : Client</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_WindowClient_Navigate_System_String__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p><a href="https://developer.mozilla.org/en-US/docs/Web/API/WindowClient/navigate"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/WindowClient/navigate">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -369,7 +399,7 @@ public class WindowClient : Client</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L11141" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L18165" class="edit-link">Edit this page</a>
         </div>
 
 

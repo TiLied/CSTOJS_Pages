@@ -2,11 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class HTMLImageElement
- | CSharpToJavaScript </title>
+      <title>Class HTMLImageElement | CSharpToJavaScript </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class HTMLImageElement
- | CSharpToJavaScript ">
+      <meta name="title" content="Class HTMLImageElement | CSharpToJavaScript ">
       
       <meta name="description" content="The HTMLImageElement interface represents an HTML img element, providing the properties and methods used to manipulate image elements.">
       <link rel="icon" href="../favicon.ico">
@@ -31,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -91,8 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_HTMLImageElement" data-uid="CSharpToJavaScript.APIs.JS.HTMLImageElement" class="text-break">
-    Class HTMLImageElement
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4222"><i class="bi bi-code-slash"></i></a>
+Class HTMLImageElement  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L12573"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -106,7 +103,7 @@
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[To(&quot;Default&quot;)]
-public class HTMLImageElement : HTMLElement, GlobalEventHandlers, ElementContentEditable, HTMLOrSVGElement, ElementCSSInlineStyle</code></pre>
+public class HTMLImageElement : HTMLElement</code></pre>
   </div>
 
 
@@ -124,20 +121,29 @@ public class HTMLImageElement : HTMLElement, GlobalEventHandlers, ElementContent
     </dd>
   </dl>
 
-  <dl class="typelist implements">
-    <dt>Implements</dt>
-    <dd>
-      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalEventHandlers.html">GlobalEventHandlers</a></div>
-      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.ElementContentEditable.html">ElementContentEditable</a></div>
-      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLOrSVGElement.html">HTMLOrSVGElement</a></div>
-      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.ElementCSSInlineStyle.html">ElementCSSInlineStyle</a></div>
-    </dd>
-  </dl>
 
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_OffsetParent">HTMLElement.OffsetParent</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_OffsetTop">HTMLElement.OffsetTop</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_OffsetLeft">HTMLElement.OffsetLeft</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_OffsetWidth">HTMLElement.OffsetWidth</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_OffsetHeight">HTMLElement.OffsetHeight</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_EditContext">HTMLElement.EditContext</a>
+    </div>
     <div>
       <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_Title">HTMLElement.Title</a>
     </div>
@@ -172,6 +178,9 @@ public class HTMLImageElement : HTMLElement, GlobalEventHandlers, ElementContent
       <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_Spellcheck">HTMLElement.Spellcheck</a>
     </div>
     <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_WritingSuggestions">HTMLElement.WritingSuggestions</a>
+    </div>
+    <div>
       <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_Autocapitalize">HTMLElement.Autocapitalize</a>
     </div>
     <div>
@@ -196,15 +205,6 @@ public class HTMLImageElement : HTMLElement, GlobalEventHandlers, ElementContent
       <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_Popover">HTMLElement.Popover</a>
     </div>
     <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_Style">HTMLElement.Style</a>
-    </div>
-    <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_Pseudo_CSharpToJavaScript_Utils_Unsupported_">Element.Pseudo(Unsupported)</a>
-    </div>
-    <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_Part">Element.Part</a>
-    </div>
-    <div>
       <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_GetSpatialNavigationContainer">Element.GetSpatialNavigationContainer()</a>
     </div>
     <div>
@@ -212,6 +212,72 @@ public class HTMLImageElement : HTMLElement, GlobalEventHandlers, ElementContent
     </div>
     <div>
       <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_SpatialNavigationSearch_CSharpToJavaScript_APIs_JS_SpatialNavigationDirection_CSharpToJavaScript_APIs_JS_SpatialNavigationSearchOptions_">Element.SpatialNavigationSearch(SpatialNavigationDirection, SpatialNavigationSearchOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_Pseudo_System_String_">Element.Pseudo(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_Part">Element.Part</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ComputedStyleMap">Element.ComputedStyleMap()</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_GetClientRects">Element.GetClientRects()</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_GetBoundingClientRect">Element.GetBoundingClientRect()</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_CheckVisibility_CSharpToJavaScript_APIs_JS_CheckVisibilityOptions_">Element.CheckVisibility(CheckVisibilityOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ScrollIntoView_CSharpToJavaScript_APIs_JS_Union22_">Element.ScrollIntoView(Union22)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_Scroll_CSharpToJavaScript_APIs_JS_ScrollToOptions_">Element.Scroll(ScrollToOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_Scroll_System_Double_System_Double_">Element.Scroll(double, double)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ScrollTo_CSharpToJavaScript_APIs_JS_ScrollToOptions_">Element.ScrollTo(ScrollToOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ScrollTo_System_Double_System_Double_">Element.ScrollTo(double, double)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ScrollBy_CSharpToJavaScript_APIs_JS_ScrollToOptions_">Element.ScrollBy(ScrollToOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ScrollBy_System_Double_System_Double_">Element.ScrollBy(double, double)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ScrollTop">Element.ScrollTop</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ScrollLeft">Element.ScrollLeft</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ScrollWidth">Element.ScrollWidth</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ScrollHeight">Element.ScrollHeight</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ClientTop">Element.ClientTop</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ClientLeft">Element.ClientLeft</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ClientWidth">Element.ClientWidth</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ClientHeight">Element.ClientHeight</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_CurrentCSSZoom">Element.CurrentCSSZoom</a>
     </div>
     <div>
       <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_NamespaceURI">Element.NamespaceURI</a>
@@ -319,13 +385,7 @@ public class HTMLImageElement : HTMLElement, GlobalEventHandlers, ElementContent
       <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_InsertAdjacentText_System_String_System_String_">Element.InsertAdjacentText(string, string)</a>
     </div>
     <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_InnerHTML">Element.InnerHTML</a>
-    </div>
-    <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_OuterHTML">Element.OuterHTML</a>
-    </div>
-    <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_InsertAdjacentHTML_System_String_System_String_">Element.InsertAdjacentHTML(string, string)</a>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ElementTiming">Element.ElementTiming</a>
     </div>
     <div>
       <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_RequestFullscreen_CSharpToJavaScript_APIs_JS_FullscreenOptions_">Element.RequestFullscreen(FullscreenOptions)</a>
@@ -337,10 +397,31 @@ public class HTMLImageElement : HTMLElement, GlobalEventHandlers, ElementContent
       <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_Onfullscreenerror">Element.Onfullscreenerror</a>
     </div>
     <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_Uiactions">Element.Uiactions</a>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_SetHTMLUnsafe_System_String_">Element.SetHTMLUnsafe(string)</a>
     </div>
     <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_Uitrigger">Element.Uitrigger</a>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_GetHTML_CSharpToJavaScript_APIs_JS_GetHTMLOptions_">Element.GetHTML(GetHTMLOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_InnerHTML">Element.InnerHTML</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_OuterHTML">Element.OuterHTML</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_InsertAdjacentHTML_System_String_System_String_">Element.InsertAdjacentHTML(string, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_SetPointerCapture_System_Int64_">Element.SetPointerCapture(long)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ReleasePointerCapture_System_Int64_">Element.ReleasePointerCapture(long)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_HasPointerCapture_System_Int64_">Element.HasPointerCapture(long)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_RequestPointerLock">Element.RequestPointerLock()</a>
     </div>
     <div>
       <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_ELEMENT_NODE">Node.ELEMENT_NODE</a>
@@ -484,22 +565,22 @@ public class HTMLImageElement : HTMLElement, GlobalEventHandlers, ElementContent
       <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_RemoveChild_CSharpToJavaScript_APIs_JS_Node_">Node.RemoveChild(Node)</a>
     </div>
     <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union41_">EventTarget.AddEventListener(string, Action, Union41)</a>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union27_">EventTarget.AddEventListener(string, Action, Union27)</a>
     </div>
     <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_MouseEvent__CSharpToJavaScript_APIs_JS_Union41_">EventTarget.AddEventListener(string, Action&lt;MouseEvent&gt;, Union41)</a>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_MouseEvent__CSharpToJavaScript_APIs_JS_Union27_">EventTarget.AddEventListener(string, Action&lt;MouseEvent&gt;, Union27)</a>
     </div>
     <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Event__CSharpToJavaScript_APIs_JS_Union41_">EventTarget.AddEventListener(string, Action&lt;Event&gt;, Union41)</a>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Event__CSharpToJavaScript_APIs_JS_Union27_">EventTarget.AddEventListener(string, Action&lt;Event&gt;, Union27)</a>
     </div>
     <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_RemoveEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union2_">EventTarget.RemoveEventListener(string, Action, Union2)</a>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_RemoveEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union28_">EventTarget.RemoveEventListener(string, Action, Union28)</a>
     </div>
     <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_CSharpToJavaScript_APIs_JS_EventListener_CSharpToJavaScript_APIs_JS_Union41_">EventTarget.AddEventListener(string, EventListener, Union41)</a>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_CSharpToJavaScript_APIs_JS_EventListener_CSharpToJavaScript_APIs_JS_Union27_">EventTarget.AddEventListener(string, EventListener, Union27)</a>
     </div>
     <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_RemoveEventListener_System_String_CSharpToJavaScript_APIs_JS_EventListener_CSharpToJavaScript_APIs_JS_Union42_">EventTarget.RemoveEventListener(string, EventListener, Union42)</a>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_RemoveEventListener_System_String_CSharpToJavaScript_APIs_JS_EventListener_CSharpToJavaScript_APIs_JS_Union28_">EventTarget.RemoveEventListener(string, EventListener, Union28)</a>
     </div>
     <div>
       <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_DispatchEvent_CSharpToJavaScript_APIs_JS_Event_">EventTarget.DispatchEvent(Event)</a>
@@ -533,7 +614,11 @@ public class HTMLImageElement : HTMLElement, GlobalEventHandlers, ElementContent
   <h2 id="CSharpToJavaScript_APIs_JS_HTMLImageElement_remarks">Remarks</h2>
   <div class="markdown level0 remarks"><p></p>
 <p>-The HTML element implementing this interface: <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img">img</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -545,7 +630,7 @@ public class HTMLImageElement : HTMLElement, GlobalEventHandlers, ElementContent
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLImageElement__ctor" data-uid="CSharpToJavaScript.APIs.JS.HTMLImageElement.#ctor">
   HTMLImageElement()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L658"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8729"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -575,10 +660,13 @@ public class HTMLImageElement : HTMLElement, GlobalEventHandlers, ElementContent
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLImageElement_Align" data-uid="CSharpToJavaScript.APIs.JS.HTMLImageElement.Align">
   Align
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4230"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L12581"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><div class="IMPORTANT"><h5>IMPORTANT</h5> <strong>Deprecated</strong></div> The <strong>obsolete</strong> <strong><code>align</code></strong><br>property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html">HTMLImageElement</a> interface is a string which indicates<br>how to position the image relative to its container.
+  <div class="markdown level1 summary"><div class="IMPORTANT">
+  <h5>IMPORTANT</h5>
+  <strong>Deprecated</strong>
+</div> The <strong>obsolete</strong><strong><code>align</code></strong><br>property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html">HTMLImageElement</a> interface is a string which indicates<br>how to position the image relative to its container.
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -602,8 +690,13 @@ public string Align { get; set; }</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLImageElement_Align_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>You should instead use the<br>CSS property <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/vertical-align">vertical-align</a>, which does in fact also work on images<br>despite its name. You can also use the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/float">float</a> property to float the image<br>to the left or right margin.</p><p>The <code>align</code> property reflects the HTML <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#align"><code>align</code></a><br>content attribute.</p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/align"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>You should instead use the<br>CSS property <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/vertical-align">vertical-align</a>, which does in fact also work on images<br>despite its name. You can also use the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/float">float</a> property to float the image<br>to the left or right margin.</p>
+<p>The <code>align</code> property reflects the HTML <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#align"><code>align</code></a><br>content attribute.</p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/align">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -613,7 +706,7 @@ public string Align { get; set; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLImageElement_Alt" data-uid="CSharpToJavaScript.APIs.JS.HTMLImageElement.Alt">
   Alt
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L660"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8731"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html">HTMLImageElement</a> property <strong><code>alt</code></strong> provides fallback (alternate) text to display when the image specified by the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img">img</a> element is not loaded.</p>
@@ -640,8 +733,18 @@ public string Alt { get; set; }</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLImageElement_Alt_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>This may be the case because of an error, because the user has disabled the loading of images, or because the image hasn&amp;apos;t finished loading yet.</p><p>Perhaps the most important reason to use the <code>alt</code> property is to support <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility">accessibility</a>, as the <code>alt</code> text may be used by screen readers and other assistive technologies to help differently-abled users make full use of your content.<br>It will be read aloud or sent to the touch device, for example, to support visually impaired users.</p><blockquote><p><strong>Think of it like this:</strong> When choosing <code>alt</code> strings for your images, imagine what you would say when reading the page to someone over the phone without mentioning that there&amp;apos;s an image on the page.</p></blockquote><p>The alternate text is displayed in the space the image would occupy and should be able to take the place of the image <strong>without altering the meaning of the page</strong>.</p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/alt"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>This may be the case because of an error, because the user has disabled the loading of images, or because the image hasn&amp;apos;t finished loading yet.</p>
+<p>Perhaps the most important reason to use the <code>alt</code> property is to support <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility">accessibility</a>, as the <code>alt</code> text may be used by screen readers and other assistive technologies to help people with a disability make full use of your content.<br>It will be read aloud or sent to a braille output device, for example, to support blind or visually impaired users.</p>
+<blockquote>
+  <p>
+    <strong>Think of it like this:</strong> When choosing <code>alt</code> strings for your images, imagine what you would say when reading the page to someone over the phone without mentioning that there&amp;apos;s an image on the page.</p>
+</blockquote>
+<p>The alternate text is displayed in the space the image would occupy and should be able to take the place of the image <strong>without altering the meaning of the page</strong>.</p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/alt">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -651,10 +754,13 @@ public string Alt { get; set; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLImageElement_Border" data-uid="CSharpToJavaScript.APIs.JS.HTMLImageElement.Border">
   Border
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4242"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L12593"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><div class="IMPORTANT"><h5>IMPORTANT</h5> <strong>Deprecated</strong></div> The obsolete <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html">HTMLImageElement</a><br>property <strong><code>border</code></strong> specifies the number of pixels thick the<br>border surrounding the image should be. A value of 0, the default, indicates that no<br>border should be drawn.
+  <div class="markdown level1 summary"><div class="IMPORTANT">
+  <h5>IMPORTANT</h5>
+  <strong>Deprecated</strong>
+</div> The obsolete <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html">HTMLImageElement</a><br>property <strong><code>border</code></strong> specifies the number of pixels thick the<br>border surrounding the image should be. A value of 0, the default, indicates that no<br>border should be drawn.
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -678,8 +784,14 @@ public string Border { get; set; }</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLImageElement_Border_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>You should <strong>not</strong> use this property! Instead, you should use CSS to style the<br>border. The <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border">border</a> property or its longhand properties to not only set<br>the thickness of the border but to potentially apply a wide variety of other styling<br>options to it.</p><p>The width, specifically, is controlled using the writing-mode aware<br><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-block-start-width">border-block-start-width</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-block-end-width">border-block-end-width</a>,<br><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-inline-start-width">border-inline-start-width</a>, and <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-inline-end-width">border-inline-end-width</a><br>properties.</p><p>For compatibility (or perhaps other) reasons, you can use the older properties instead<br>(or in addition): <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-top-width">border-top-width</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-right-width">border-right-width</a>,<br><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-bottom-width">border-bottom-width</a>, and <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-left-width">border-left-width</a>.</p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/border"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>You should <strong>not</strong> use this property! Instead, you should use CSS to style the<br>border. The <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border">border</a> property or its longhand properties to not only set<br>the thickness of the border but to potentially apply a wide variety of other styling<br>options to it.</p>
+<p>The width, specifically, is controlled using the writing-mode aware<br><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-block-start-width">border-block-start-width</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-block-end-width">border-block-end-width</a>,<br><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-inline-start-width">border-inline-start-width</a>, and <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-inline-end-width">border-inline-end-width</a><br>properties.</p>
+<p>For compatibility (or perhaps other) reasons, you can use the older properties instead<br>(or in addition): <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-top-width">border-top-width</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-right-width">border-right-width</a>,<br><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-bottom-width">border-bottom-width</a>, and <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-left-width">border-left-width</a>.</p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/border">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -689,7 +801,7 @@ public string Border { get; set; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLImageElement_Complete" data-uid="CSharpToJavaScript.APIs.JS.HTMLImageElement.Complete">
   Complete
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L693"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8764"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The read-only <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html">HTMLImageElement</a> interface's<br><strong><code>complete</code></strong> attribute is a Boolean value which indicates<br>whether or not the image has completely loaded.</p>
@@ -716,7 +828,11 @@ public bool Complete { get; }</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLImageElement_Complete_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/complete"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/complete">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -726,7 +842,7 @@ public bool Complete { get; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLImageElement_CrossOrigin" data-uid="CSharpToJavaScript.APIs.JS.HTMLImageElement.CrossOrigin">
   CrossOrigin
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L672"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8743"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html">HTMLImageElement</a><br>interface&amp;apos;s <strong><code>crossOrigin</code></strong> attribute is a string which<br>specifies the Cross-Origin Resource Sharing (<a href="https://developer.mozilla.org/en-US/docs/Glossary/CORS">CORS</a>) setting to use when<br>retrieving the image.</p>
@@ -753,7 +869,12 @@ public string? CrossOrigin { get; set; }</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLImageElement_CrossOrigin_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/crossOrigin"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLLinkElement.html#CSharpToJavaScript_APIs_JS_HTMLLinkElement_CrossOrigin">CrossOrigin</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLMediaElement.html#CSharpToJavaScript_APIs_JS_HTMLMediaElement_CrossOrigin">CrossOrigin</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLScriptElement.html#CSharpToJavaScript_APIs_JS_HTMLScriptElement_CrossOrigin">CrossOrigin</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/crossOrigin">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -763,7 +884,7 @@ public string? CrossOrigin { get; set; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLImageElement_CurrentSrc" data-uid="CSharpToJavaScript.APIs.JS.HTMLImageElement.CurrentSrc">
   CurrentSrc
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L696"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8767"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The read-only <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html">HTMLImageElement</a> property<br><strong><code>currentSrc</code></strong> indicates the URL of the image which is<br>currently presented in the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img">img</a> element it represents.</p>
@@ -790,7 +911,11 @@ public string CurrentSrc { get; }</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLImageElement_CurrentSrc_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/currentSrc"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/currentSrc">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -800,10 +925,10 @@ public string CurrentSrc { get; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLImageElement_Decoding" data-uid="CSharpToJavaScript.APIs.JS.HTMLImageElement.Decoding">
   Decoding
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L702"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8773"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>decoding</code></strong> property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html">HTMLImageElement</a> interface represents a hint given to the browser on how<br>it should decode the image.</p>
+  <div class="markdown level1 summary"><p>The <strong><code>decoding</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html">HTMLImageElement</a> interface provides a hint to the browser as to how it should decode the image. More specifically, whether it should wait for the image to be decoded before presenting other content updates or not.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -827,7 +952,12 @@ public string Decoding { get; set; }</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLImageElement_Decoding_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/decoding"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>-The <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html#CSharpToJavaScript_APIs_JS_HTMLImageElement_Decode">Decode()</a> method<br>-The <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img">img</a> element <code>decoding</code> attribute<br>-<a href="https://www.tunetheweb.com/blog/what-does-the-image-decoding-attribute-actually-do/">What does the image decoding attribute actually do?</a> on tunetheweb.com (2023)<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/decoding">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -837,7 +967,7 @@ public string Decoding { get; set; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLImageElement_FetchPriority" data-uid="CSharpToJavaScript.APIs.JS.HTMLImageElement.FetchPriority">
   FetchPriority
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L708"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8779"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>fetchPriority</code></strong> property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html">HTMLImageElement</a> interface represents a hint given to the browser on how<br>it should prioritize the fetch of the image relative to other images.</p>
@@ -864,7 +994,11 @@ public string FetchPriority { get; set; }</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLImageElement_FetchPriority_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/fetchPriority"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/fetchPriority">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -874,7 +1008,7 @@ public string FetchPriority { get; set; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLImageElement_Height" data-uid="CSharpToJavaScript.APIs.JS.HTMLImageElement.Height">
   Height
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L684"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8755"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>height</code></strong> property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html">HTMLImageElement</a> interface indicates the height at which the image is<br>drawn, in <a href="https://developer.mozilla.org/en-US/docs/Glossary/CSS pixels">CSS pixels</a> if the image is being drawn or rendered to any<br>visual medium such as the screen or a printer; otherwise, it&amp;apos;s the natural, pixel<br>density corrected height of the image.</p>
@@ -901,7 +1035,12 @@ public ulong Height { get; set; }</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLImageElement_Height_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/height"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLCanvasElement.html#CSharpToJavaScript_APIs_JS_HTMLCanvasElement_Height">Height</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLEmbedElement.html#CSharpToJavaScript_APIs_JS_HTMLEmbedElement_Height">Height</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLIFrameElement.html#CSharpToJavaScript_APIs_JS_HTMLIFrameElement_Height">Height</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLObjectElement.html#CSharpToJavaScript_APIs_JS_HTMLObjectElement_Height">Height</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLSourceElement.html#CSharpToJavaScript_APIs_JS_HTMLSourceElement_Height">Height</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLVideoElement.html#CSharpToJavaScript_APIs_JS_HTMLVideoElement_Height">Height</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/height">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -911,10 +1050,13 @@ public ulong Height { get; set; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLImageElement_Hspace" data-uid="CSharpToJavaScript.APIs.JS.HTMLImageElement.Hspace">
   Hspace
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4233"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L12584"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><div class="IMPORTANT"><h5>IMPORTANT</h5> <strong>Deprecated</strong></div> The<br><strong>obsolete</strong> <strong><code>hspace</code></strong> property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html">HTMLImageElement</a> interface specifies the number of pixels of empty<br>space to leave empty on the left and right sides of the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img">img</a> element<br>when laying out the page.
+  <div class="markdown level1 summary"><div class="IMPORTANT">
+  <h5>IMPORTANT</h5>
+  <strong>Deprecated</strong>
+</div> The<br><strong>obsolete</strong><strong><code>hspace</code></strong> property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html">HTMLImageElement</a> interface specifies the number of pixels of empty<br>space to leave empty on the left and right sides of the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img">img</a> element<br>when laying out the page.
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -938,8 +1080,12 @@ public ulong Hspace { get; set; }</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLImageElement_Hspace_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>This property reflects the <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML">HTML</a> <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#hspace"><code>hspace</code></a><br>attribute.</p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/hspace"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>This property reflects the <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML">HTML</a><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#hspace"><code>hspace</code></a><br>attribute.</p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/hspace">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -949,7 +1095,7 @@ public ulong Hspace { get; set; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLImageElement_IsMap" data-uid="CSharpToJavaScript.APIs.JS.HTMLImageElement.IsMap">
   IsMap
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L678"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8749"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html">HTMLImageElement</a> property <strong><code>isMap</code></strong> is a<br>Boolean value which indicates that the image is to be used by a server-side image map.<br>This may only be used on images located within an <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a">a</a> element.</p>
@@ -976,8 +1122,16 @@ public bool IsMap { get; set; }</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLImageElement_IsMap_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><blockquote class="NOTE"><h5>NOTE</h5><p><strong>Note:</strong> For accessibility reasons, you should generally avoid using<br>server-side image maps, as they require the use of a mouse. Use a <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Add_a_hit_map_on_top_of_an_image">client-side image map</a> instead.</p></blockquote>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/isMap"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><blockquote class="NOTE">
+  <h5>NOTE</h5>
+  <p>
+    <strong>Note:</strong> For accessibility reasons, you should generally avoid using<br>server-side image maps, as they require the use of a mouse. Use a <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Add_a_hit_map_on_top_of_an_image">client-side image map</a> instead.</p>
+</blockquote>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/isMap">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -987,10 +1141,10 @@ public bool IsMap { get; set; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLImageElement_Loading" data-uid="CSharpToJavaScript.APIs.JS.HTMLImageElement.Loading">
   Loading
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L705"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8776"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html">HTMLImageElement</a><br>property <strong><code>loading</code></strong> is a string whose value provides a hint<br>to the <a href="https://developer.mozilla.org/en-US/docs/Glossary/user agent">user agent</a> on how to handle the loading of the image which<br>is currently outside the window's <a href="https://developer.mozilla.org/en-US/docs/Glossary/visual viewport">visual viewport</a>.</p>
+  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html">HTMLImageElement</a> property <strong><code>loading</code></strong> is a string whose value provides a hint to the <a href="https://developer.mozilla.org/en-US/docs/Glossary/user agent">user agent</a> on how to handle the loading of the image which is currently outside the window's <a href="https://developer.mozilla.org/en-US/docs/Glossary/visual viewport">visual viewport</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1006,7 +1160,7 @@ public string Loading { get; set; }</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>A string providing a hint to the user agent as to how to best<br>schedule the loading of the image to optimize page performance. The possible values are:</p>
+    <dd><p>A string providing a hint to the user agent as to how to best schedule the loading of the image to optimize page performance.<br>The possible values are:</p>
 </dd>
   </dl>
 
@@ -1014,9 +1168,13 @@ public string Loading { get; set; }</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLImageElement_Loading_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>This helps<br>to optimize the loading of the document&amp;apos;s contents by postponing loading the image until<br>it&amp;apos;s expected to be needed, rather than immediately during the initial page load.</p>
+  <div class="markdown level1 remarks"><p>This helps to optimize the loading of the document&amp;apos;s contents by postponing loading the image until it&amp;apos;s expected to be needed, rather than immediately during the initial page load.</p>
 <p>-The <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img">img</a> element<br>-<a href="https://developer.mozilla.org/en-US/docs/Learn/Performance">Web performance</a> in the MDN Learning Area<br>-<a href="https://developer.mozilla.org/en-US/docs/Web/Performance/Lazy_loading">Lazy loading</a> in the MDN web<br>performance guide<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/loading"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/loading">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -1026,10 +1184,13 @@ public string Loading { get; set; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLImageElement_LongDesc" data-uid="CSharpToJavaScript.APIs.JS.HTMLImageElement.LongDesc">
   LongDesc
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4239"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L12590"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><div class="IMPORTANT"><h5>IMPORTANT</h5> <strong>Deprecated</strong></div> The <strong>deprecated</strong> property <strong><code>longDesc</code></strong> on<br>the <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html">HTMLImageElement</a> interface specifies the URL of a text or HTML file<br>which contains a long-form description of the image. This can be used to<br>provide optional added details beyond the short description provided in the<br><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes#title"><code>title</code></a> attribute.
+  <div class="markdown level1 summary"><div class="IMPORTANT">
+  <h5>IMPORTANT</h5>
+  <strong>Deprecated</strong>
+</div> The <strong>deprecated</strong> property <strong><code>longDesc</code></strong> on<br>the <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html">HTMLImageElement</a> interface specifies the URL of a text or HTML file<br>which contains a long-form description of the image. This can be used to<br>provide optional added details beyond the short description provided in the<br><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes#title"><code>title</code></a> attribute.
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1054,7 +1215,11 @@ public string LongDesc { get; set; }</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLImageElement_LongDesc_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-details"><code>aria-details</code></a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/longDesc"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/longDesc">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -1064,7 +1229,7 @@ public string LongDesc { get; set; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLImageElement_Lowsrc" data-uid="CSharpToJavaScript.APIs.JS.HTMLImageElement.Lowsrc">
   Lowsrc
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4227"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L12578"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1082,7 +1247,7 @@ public string Lowsrc { get; set; }</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd>The HTMLImageElement interface represents an HTML img element, providing the properties and methods used to manipulate image elements.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -1096,10 +1261,13 @@ public string Lowsrc { get; set; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLImageElement_Name" data-uid="CSharpToJavaScript.APIs.JS.HTMLImageElement.Name">
   Name
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4225"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L12576"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><div class="IMPORTANT"><h5>IMPORTANT</h5> <strong>Deprecated</strong></div> The <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html">HTMLImageElement</a><br>interface&amp;apos;s <strong>deprecated</strong> <strong><code>name</code></strong> property specifies<br>a name for the element. This has been replaced by the <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_Id">Id</a><br>property available on all elements.
+  <div class="markdown level1 summary"><div class="IMPORTANT">
+  <h5>IMPORTANT</h5>
+  <strong>Deprecated</strong>
+</div> The <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html">HTMLImageElement</a><br>interface&amp;apos;s <strong>deprecated</strong><strong><code>name</code></strong> property specifies<br>a name for the element. This has been replaced by the <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_Id">Id</a><br>property available on all elements.
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1123,7 +1291,11 @@ public string Name { get; set; }</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLImageElement_Name_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/name"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/name">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -1133,7 +1305,7 @@ public string Name { get; set; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLImageElement_NaturalHeight" data-uid="CSharpToJavaScript.APIs.JS.HTMLImageElement.NaturalHeight">
   NaturalHeight
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L690"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8761"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html">HTMLImageElement</a> interface's<br><strong><code>naturalHeight</code></strong> property is a read-only value which<br>returns the intrinsic (natural), density-corrected height of the image in<br><a href="https://developer.mozilla.org/en-US/docs/Glossary/CSS pixel">CSS pixel</a>.</p>
@@ -1152,7 +1324,7 @@ public ulong NaturalHeight { get; }</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
-    <dd><p>An integer value indicating the intrinsic height, in CSS pixels, of the image. This is<br>the height at which the image is naturally drawn when no constraint or specific value is<br>established for the image. This natural height is corrected for the pixel density of the<br>device on which it&amp;apos;s being presented, unlike {{domxref(&amp;quot;HTMLImageElement.height&amp;quot;,<br>&amp;quot;height&amp;quot;)}}.If the intrinsic height is not available—either because the image does not specify an<br>intrinsic height or because the image data is not available in order to obtain this<br>information, <code>naturalHeight</code> returns 0.</p>
+    <dd><p>An integer value indicating the intrinsic height, in CSS pixels, of the image. This is<br>the height at which the image is naturally drawn when no constraint or specific value is<br>established for the image. This natural height is corrected for the pixel density of the<br>device on which it's being presented, unlike <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html#CSharpToJavaScript_APIs_JS_HTMLImageElement_Height">Height</a>.If the intrinsic height is not available—either because the image does not specify an<br>intrinsic height or because the image data is not available in order to obtain this<br>information, <code>naturalHeight</code> returns 0.</p>
 </dd>
   </dl>
 
@@ -1160,8 +1332,17 @@ public ulong NaturalHeight { get; }</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLImageElement_NaturalHeight_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>This is the height the image is if<br>drawn with nothing constraining its height; if you don&amp;apos;t specify a height for the image,<br>or place the image inside a container that either limits or expressly specifies the<br>image height, it will be rendered this tall.</p><blockquote class="NOTE"><h5>NOTE</h5><p><strong>Note:</strong> Most of the time the natural height is the actual height of the image sent by the server.<br>Nevertheless, browsers can modify an image before pushing it to the renderer. For example, Chrome<br><a href="https://crbug.com/1187043#c7">degrades the resolution of images on low-end devices</a>. In such cases, <code>naturalHeight</code> will consider the height of the image modified<br>by such browser interventions as the natural height, and returns this value.</p></blockquote>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/naturalHeight"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>This is the height the image is if<br>drawn with nothing constraining its height; if you don&amp;apos;t specify a height for the image,<br>or place the image inside a container that either limits or expressly specifies the<br>image height, it will be rendered this tall.</p>
+<blockquote class="NOTE">
+  <h5>NOTE</h5>
+  <p>
+    <strong>Note:</strong> Most of the time the natural height is the actual height of the image sent by the server.<br>Nevertheless, browsers can modify an image before pushing it to the renderer. For example, Chrome<br><a href="https://crbug.com/1187043#c7">degrades the resolution of images on low-end devices</a>. In such cases, <code>naturalHeight</code> will consider the height of the image modified<br>by such browser interventions as the natural height, and returns this value.</p>
+</blockquote>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/naturalHeight">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -1171,10 +1352,10 @@ public ulong NaturalHeight { get; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLImageElement_NaturalWidth" data-uid="CSharpToJavaScript.APIs.JS.HTMLImageElement.NaturalWidth">
   NaturalWidth
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L687"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8758"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html">HTMLImageElement</a> interface's read-only<br><strong><code>naturalWidth</code></strong> property returns the intrinsic (natural),<br>density-corrected width of the image in {{Glossary(&amp;quot;CSS pixel&amp;quot;, &amp;quot;CSS<br>pixels&amp;quot;)}}.</p>
+  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html">HTMLImageElement</a> interface's read-only<br><strong><code>naturalWidth</code></strong> property returns the intrinsic (natural),<br>density-corrected width of the image in <a href="https://developer.mozilla.org/en-US/docs/Glossary/CSS pixel">CSS pixel</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1198,8 +1379,18 @@ public ulong NaturalWidth { get; }</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLImageElement_NaturalWidth_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>This is the width the image is if drawn with nothing constraining<br>its width; if you neither specify a width for the image nor place the image inside a<br>container that limits or expressly specifies the image width, this is the number of CSS<br>pixels wide the image will be.</p><p>The corresponding <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html#CSharpToJavaScript_APIs_JS_HTMLImageElement_NaturalHeight">NaturalHeight</a> method<br>returns the natural height of the image.</p><blockquote class="NOTE"><h5>NOTE</h5><p><strong>Note:</strong> Most of the time the natural width is the actual width of the image sent by the server.<br>Nevertheless, browsers can modify an image before pushing it to the renderer. For example, Chrome<br><a href="https://crbug.com/1187043#c7">degrades the resolution of images on low-end devices</a>. In such cases, <code>naturalWidth</code> will consider the width of the image modified<br>by such browser interventions as the natural width, and returns this value.</p></blockquote>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/naturalWidth"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>This is the width the image is if drawn with nothing constraining<br>its width; if you neither specify a width for the image nor place the image inside a<br>container that limits or expressly specifies the image width, this is the number of CSS<br>pixels wide the image will be.</p>
+<p>The corresponding <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html#CSharpToJavaScript_APIs_JS_HTMLImageElement_NaturalHeight">NaturalHeight</a> method<br>returns the natural height of the image.</p>
+<blockquote class="NOTE">
+  <h5>NOTE</h5>
+  <p>
+    <strong>Note:</strong> Most of the time the natural width is the actual width of the image sent by the server.<br>Nevertheless, browsers can modify an image before pushing it to the renderer. For example, Chrome<br><a href="https://crbug.com/1187043#c7">degrades the resolution of images on low-end devices</a>. In such cases, <code>naturalWidth</code> will consider the width of the image modified<br>by such browser interventions as the natural width, and returns this value.</p>
+</blockquote>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/naturalWidth">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -1209,7 +1400,7 @@ public ulong NaturalWidth { get; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLImageElement_ReferrerPolicy" data-uid="CSharpToJavaScript.APIs.JS.HTMLImageElement.ReferrerPolicy">
   ReferrerPolicy
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L699"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8770"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The<br><strong><code>HTMLImageElement.referrerPolicy</code></strong><br>property reflects the HTML <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#referrerpolicy"><code>referrerpolicy</code></a> attribute of the<br><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img">img</a> element defining which referrer is sent when fetching the<br>resource.</p>
@@ -1237,7 +1428,11 @@ public string ReferrerPolicy { get; set; }</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLImageElement_ReferrerPolicy_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLAnchorElement.html#CSharpToJavaScript_APIs_JS_HTMLAnchorElement_ReferrerPolicy">ReferrerPolicy</a>,<br><a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLAreaElement.html#CSharpToJavaScript_APIs_JS_HTMLAreaElement_ReferrerPolicy">ReferrerPolicy</a>, and<br><a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLIFrameElement.html#CSharpToJavaScript_APIs_JS_HTMLIFrameElement_ReferrerPolicy">ReferrerPolicy</a>.<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/referrerPolicy"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/referrerPolicy">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -1247,10 +1442,10 @@ public string ReferrerPolicy { get; set; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLImageElement_Sizes" data-uid="CSharpToJavaScript.APIs.JS.HTMLImageElement.Sizes">
   Sizes
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L669"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8740"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html">HTMLImageElement</a> property<br><strong><code>sizes</code></strong> allows you to specify the layout width of the<br>image for each of a list of media conditions. This provides the ability to<br>automatically select among different images—even images of different orientations or<br>aspect ratios—as the document state changes to match different media<br>conditions.</p>
+  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html">HTMLImageElement</a> property<br><strong><code>sizes</code></strong> allows you to specify the layout width of the<br><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img">image</a> for each of a list of media conditions. This provides the ability to<br>automatically select among different images—even images of different orientations or<br>aspect ratios—as the document state changes to match different media<br>conditions.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1274,9 +1469,13 @@ public string Sizes { get; set; }</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLImageElement_Sizes_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>Each condition is specified using the same conditional format used<br>by <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries">media queries</a>.</p>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries">Media queries</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries">Using media queries</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML">Images in HTML</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images">Responsive images</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/sizes"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>Each condition is specified using the same conditional format used<br>by <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries">media queries</a>.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries">Media queries</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries">Using media queries</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML">Images in HTML</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images">Responsive images</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#using_the_srcset_and_sizes_attributes">Using the <code>srcset</code> and <code>sizes</code> attributes</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/sizes">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -1286,7 +1485,7 @@ public string Sizes { get; set; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLImageElement_Src" data-uid="CSharpToJavaScript.APIs.JS.HTMLImageElement.Src">
   Src
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L663"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8734"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html">HTMLImageElement</a> property<br><strong><code>src</code></strong>, which reflects the HTML <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#src"><code>src</code></a> attribute, specifies the image to display in the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img">img</a><br>element.</p>
@@ -1313,7 +1512,11 @@ public string Src { get; set; }</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLImageElement_Src_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/src"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/src">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -1323,7 +1526,7 @@ public string Src { get; set; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLImageElement_Srcset" data-uid="CSharpToJavaScript.APIs.JS.HTMLImageElement.Srcset">
   Srcset
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L666"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8737"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html">HTMLImageElement</a> property<br><strong><code>srcset</code></strong> is a string which identifies one or more<br><strong>image candidate strings</strong>, separated using commas (<code>,</code>) each<br>specifying image resources to use under given circumstances.</p>
@@ -1342,7 +1545,7 @@ public string Srcset { get; set; }</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>A string containing a comma-separated list of one or more image<br>candidate strings to be used when determining which image resource to present inside the<br><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img">img</a> element represented by the<br><code>HTMLImageElement</code>.Each image candidate string must begin with a valid URL referencing a non-interactive<br>graphic resource. This is followed by whitespace and then a condition descriptor that<br>indicates the circumstances in which the indicated image should be used. Space<br>characters, other than the whitespace separating the URL and the corresponding condition<br>descriptor, are ignored; this includes both leading and trailing space, as well as space<br>before or after each comma.The condition descriptor may take one of two forms:If the condition descriptor is not provided (in other words, the image candidate<br>provides only a URL), the candidate is assigned a default descriptor of &amp;quot;1x&amp;quot;.This string provides versions of an image to be used at the standard pixel density<br>(undescribed, assigned a default of <code>1x</code>) as well as double that pixel density (<code>2x</code>).When an image element&amp;apos;s <code>srcset</code> contains &amp;quot;x&amp;quot; descriptors, browsers also consider<br>the URL in the <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html#CSharpToJavaScript_APIs_JS_HTMLImageElement_Src">Src</a> attribute (if present) as a<br>candidate, and assign it a default descriptor of <code>1x</code>.This string provides versions of a header image to use when the {{Glossary(&amp;quot;user<br>agent&amp;quot;, &amp;quot;user agent&amp;apos;s&amp;quot;)}} renderer needs an image of width 640px, 960px, or 1024px.Note that if any resource in a <code>srcset</code> is described with a &amp;quot;w&amp;quot; descriptor, all<br>resources within that <code>srcset</code> must also be described with &amp;quot;w&amp;quot; descriptors, and<br>the image element's <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html#CSharpToJavaScript_APIs_JS_HTMLImageElement_Src">Src</a> is not considered<br>a candidate.</p>
+    <dd><p>A string containing a comma-separated list of one or more image<br>candidate strings to be used when determining which image resource to present inside the<br><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img">img</a> element represented by the<br><code>HTMLImageElement</code>.Each image candidate string must begin with a valid URL referencing a non-interactive<br>graphic resource. This is followed by whitespace and then a condition descriptor that<br>indicates the circumstances in which the indicated image should be used. Space<br>characters, other than the whitespace separating the URL and the corresponding condition<br>descriptor, are ignored; this includes both leading and trailing space, as well as space<br>before or after each comma.The condition descriptor may take one of two forms:If the condition descriptor is not provided (in other words, the image candidate<br>provides only a URL), the candidate is assigned a default descriptor of &amp;quot;1x&amp;quot;.This string provides versions of an image to be used at the standard pixel density<br>(undescribed, assigned a default of <code>1x</code>) as well as double that pixel density (<code>2x</code>).When an image element&amp;apos;s <code>srcset</code> contains &amp;quot;x&amp;quot; descriptors, browsers also consider<br>the URL in the <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html#CSharpToJavaScript_APIs_JS_HTMLImageElement_Src">Src</a> attribute (if present) as a<br>candidate, and assign it a default descriptor of <code>1x</code>.This string provides versions of a header image to use when the <a href="https://developer.mozilla.org/en-US/docs/Glossary/user agent">user agent</a><br>renderer needs an image of width 640px, 960px, or 1024px.Note that if any resource in a <code>srcset</code> is described with a &amp;quot;w&amp;quot; descriptor, all<br>resources within that <code>srcset</code> must also be described with &amp;quot;w&amp;quot; descriptors, and<br>the image element's <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html#CSharpToJavaScript_APIs_JS_HTMLImageElement_Src">Src</a> is not considered<br>a candidate.</p>
 </dd>
   </dl>
 
@@ -1350,9 +1553,19 @@ public string Srcset { get; set; }</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLImageElement_Srcset_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>Each image<br>candidate string contains an image URL and an optional width or pixel density descriptor<br>that indicates the conditions under which that candidate should be used instead of the<br>image specified by the <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html#CSharpToJavaScript_APIs_JS_HTMLImageElement_Src">Src</a> property.</p><p>The <code>srcset</code> property, along with the {{domxref(&amp;quot;HTMLImageElement.sizes&amp;quot;,<br>&amp;quot;sizes&amp;quot;)}} property, are a crucial component in designing responsive websites, as they<br>can be used together to make pages that use appropriate images for the rendering<br>situation.</p><blockquote class="NOTE"><h5>NOTE</h5><p><strong>Note:</strong> If the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#srcset"><code>srcset</code></a> attribute uses width descriptors, the <code>sizes</code> attribute must also be present, or the <code>srcset</code> itself will be ignored.</p></blockquote>
+  <div class="markdown level1 remarks"><p>Each image<br>candidate string contains an image URL and an optional width or pixel density descriptor<br>that indicates the conditions under which that candidate should be used instead of the<br>image specified by the <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html#CSharpToJavaScript_APIs_JS_HTMLImageElement_Src">Src</a> property.</p>
+<p>The <code>srcset</code> property, along with the <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html#CSharpToJavaScript_APIs_JS_HTMLImageElement_Sizes">Sizes</a><br>property, are a crucial component in designing responsive websites, as they<br>can be used together to make pages that use appropriate images for the rendering<br>situation.</p>
+<blockquote class="NOTE">
+  <h5>NOTE</h5>
+  <p>
+    <strong>Note:</strong> If the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#srcset"><code>srcset</code></a> attribute uses width descriptors, the <code>sizes</code> attribute must also be present, or the <code>srcset</code> itself will be ignored.</p>
+</blockquote>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML">Images in HTML</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images">Responsive images</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Image_types">Image file type and format guide</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/srcset"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/srcset">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -1362,10 +1575,10 @@ public string Srcset { get; set; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLImageElement_UseMap" data-uid="CSharpToJavaScript.APIs.JS.HTMLImageElement.UseMap">
   UseMap
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L675"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8746"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>useMap</code></strong> property on the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html">HTMLImageElement</a> interface reflects the value of the<br><a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML">HTML</a> <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#usemap"><code>usemap</code></a> attribute, which is a string<br>providing the name of the client-side image map to apply to the image.</p>
+  <div class="markdown level1 summary"><p>The <strong><code>useMap</code></strong> property on the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html">HTMLImageElement</a> interface reflects the value of the<br><a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML">HTML</a><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#usemap"><code>usemap</code></a> attribute, which is a string<br>providing the name of the client-side image map to apply to the image.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1389,7 +1602,11 @@ public string UseMap { get; set; }</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLImageElement_UseMap_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/useMap"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/useMap">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -1399,10 +1616,13 @@ public string UseMap { get; set; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLImageElement_Vspace" data-uid="CSharpToJavaScript.APIs.JS.HTMLImageElement.Vspace">
   Vspace
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4236"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L12587"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><div class="IMPORTANT"><h5>IMPORTANT</h5> <strong>Deprecated</strong></div> The <strong>obsolete</strong> <strong><code>vspace</code></strong> property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html">HTMLImageElement</a> interface specifies the number of pixels of empty space<br>to leave empty on the top and bottom of the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img">img</a> element when laying<br>out the page.
+  <div class="markdown level1 summary"><div class="IMPORTANT">
+  <h5>IMPORTANT</h5>
+  <strong>Deprecated</strong>
+</div> The <strong>obsolete</strong><strong><code>vspace</code></strong> property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html">HTMLImageElement</a> interface specifies the number of pixels of empty space<br>to leave empty on the top and bottom of the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img">img</a> element when laying<br>out the page.
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1426,7 +1646,11 @@ public ulong Vspace { get; set; }</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLImageElement_Vspace_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/vspace"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/vspace">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -1436,7 +1660,7 @@ public ulong Vspace { get; set; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLImageElement_Width" data-uid="CSharpToJavaScript.APIs.JS.HTMLImageElement.Width">
   Width
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L681"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8752"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>width</code></strong> property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html">HTMLImageElement</a> interface indicates the width at which an image is<br>drawn in <a href="https://developer.mozilla.org/en-US/docs/Glossary/CSS pixel">CSS pixel</a> if it's being drawn or rendered to<br>any visual medium such as a screen or printer. Otherwise, it&amp;apos;s the natural, pixel<br>density-corrected width of the image.</p>
@@ -1463,7 +1687,96 @@ public ulong Width { get; set; }</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLImageElement_Width_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/width"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLCanvasElement.html#CSharpToJavaScript_APIs_JS_HTMLCanvasElement_Width">Width</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLEmbedElement.html#CSharpToJavaScript_APIs_JS_HTMLEmbedElement_Width">Width</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLIFrameElement.html#CSharpToJavaScript_APIs_JS_HTMLIFrameElement_Width">Width</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLObjectElement.html#CSharpToJavaScript_APIs_JS_HTMLObjectElement_Width">Width</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLSourceElement.html#CSharpToJavaScript_APIs_JS_HTMLSourceElement_Width">Width</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLVideoElement.html#CSharpToJavaScript_APIs_JS_HTMLVideoElement_Width">Width</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/width">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_HTMLImageElement_X_" data-uid="CSharpToJavaScript.APIs.JS.HTMLImageElement.X*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLImageElement_X" data-uid="CSharpToJavaScript.APIs.JS.HTMLImageElement.X">
+  X
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L3627"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The read-only <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html">HTMLImageElement</a> property<br><strong><code>x</code></strong> indicates the x-coordinate of the<br><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img">img</a> element's left border edge relative to the root element's<br>origin.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public long X { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd><p>An integer value indicating the distance in pixels from the left edge of the element&amp;apos;s<br>nearest root element and the left edge of the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img">img</a> element's border<br>box. The nearest root element is the outermost <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html">html</a> element that<br>contains the image. If the image is in an <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe">iframe</a>, its <code>x</code><br>is relative to that frame.In the diagram below, the left border edge is the left edge of the blue padding area.<br>So the value returned by <code>x</code> would be the distance from that point to the<br>left edge of the content area.<a href="https://developer.mozilla.orgboxmodel-3.png">Diagram showing the relationships between the various boxes associated with an element</a><blockquote class="NOTE"><h5>NOTE</h5><strong>Note:</strong> The <code>x</code> property is only valid if the computed<br>value of the image's <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/display">display</a> property is either<br><code>table-column</code> or <code>table-column-group</code>; in other words, either<br>of those are set directly on the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img">img</a> or they're inherited from a<br>containing element or by being located within a column described by either<br><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/col">col</a> or <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/colgroup">colgroup</a>.</blockquote>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLImageElement_X_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The <code>x</code> and <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html#CSharpToJavaScript_APIs_JS_HTMLImageElement_Y">Y</a> properties are only valid<br>for an image if its <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/display">display</a> property has the computed value<br><code>table-column</code> or <code>table-column-group</code>. In other words: it has<br>either of those values set explicitly on it, or it has inherited it from a containing<br>element, or by being located within a column described by either <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/col">col</a><br>or <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/colgroup">colgroup</a>.</p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/x">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_HTMLImageElement_Y_" data-uid="CSharpToJavaScript.APIs.JS.HTMLImageElement.Y*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLImageElement_Y" data-uid="CSharpToJavaScript.APIs.JS.HTMLImageElement.Y">
+  Y
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L3630"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The read-only <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html">HTMLImageElement</a> property<br><strong><code>y</code></strong> indicates the y-coordinate of the<br><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img">img</a> element's top border edge relative to the root element's<br>origin.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public long Y { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
+    <dd><p>An integer value indicating the distance in pixels from the top edge of the element&amp;apos;s<br>nearest root element to the top edge of the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img">img</a> element's border<br>box. The nearest root element is the outermost <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html">html</a> element that<br>contains the image. If the image is in an <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe">iframe</a>, its<br><code>y</code> is relative to that frame.In the diagram below, the top border edge is the top edge of the blue padding area. So<br>the value returned by <code>y</code> would be the distance from that point to the top<br>edge of the content area.<a href="https://developer.mozilla.orgboxmodel-3.png">Diagram showing the relationships between the various boxes associated with an element</a><blockquote class="NOTE"><h5>NOTE</h5><strong>Note:</strong> The <code>y</code> property is only valid if the computed<br>value of the image's <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/display">display</a> property is either<br><code>table-column</code> or <code>table-column-group</code>; in other words,<br>either of those are set directly on the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img">img</a> or they're<br>inherited from a containing element or by being located within a column described<br>by either <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/col">col</a> or <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/colgroup">colgroup</a>.</blockquote>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLImageElement_Y_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html#CSharpToJavaScript_APIs_JS_HTMLImageElement_X">X</a> and <code>y</code> properties are only valid<br>for an image if its <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/display">display</a> property has the computed value<br><code>table-column</code> or <code>table-column-group</code>. In other words: it has<br>either of those values set explicitly on it, or it has inherited it from a containing<br>element, or by being located within a column described by either<br><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/col">col</a> or <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/colgroup">colgroup</a>.</p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/y">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -1477,10 +1790,10 @@ public ulong Width { get; set; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLImageElement_Decode" data-uid="CSharpToJavaScript.APIs.JS.HTMLImageElement.Decode">
   Decode()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L711"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8782"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>decode()</code></strong><br>method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html">HTMLImageElement</a> interface returns a<br>Promise that resolves when the image is decoded and it is safe to append<br>the image to the DOM.</p>
+  <div class="markdown level1 summary"><p>The <strong><code>decode()</code></strong><br>method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html">HTMLImageElement</a> interface returns a<br>Promise that resolves once the image is decoded and it is safe to append<br>it to the DOM.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1493,7 +1806,7 @@ public Task&lt;GlobalObject.Undefined&gt; Decode()</code></pre>
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a>&gt;</dt>
-    <dd><p>A 'Promise' which is resolved once the image data is ready to be used.</p>
+    <dd><p>A 'Promise' that fulfills with <code>undefined</code> once the image data is ready to be used.</p>
 </dd>
   </dl>
 
@@ -1505,7 +1818,12 @@ public Task&lt;GlobalObject.Undefined&gt; Decode()</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLImageElement_Decode_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>This can be used to initiate loading of the image prior<br>to attaching it to an element in the DOM (or adding it to the DOM as a new element), so<br>that the image can be rendered immediately upon being added to the DOM. This, in turn,<br>prevents the rendering of the next frame after adding the image to the DOM from causing<br>a delay while the image loads.</p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/decode"> <em>See also on MDN</em> </a></p>
+<p>-<a href="https://www.tunetheweb.com/blog/what-does-the-image-decoding-attribute-actually-do/">What does the image decoding attribute actually do?</a> on tunetheweb.com (2023)<br>-The <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html#CSharpToJavaScript_APIs_JS_HTMLImageElement_Decoding">Decoding</a> property<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/decode">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -1515,7 +1833,7 @@ public Task&lt;GlobalObject.Undefined&gt; Decode()</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4222" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L12573" class="edit-link">Edit this page</a>
         </div>
 
 

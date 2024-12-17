@@ -2,13 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class WebTransportReceiveStream
- | CSharpToJavaScript </title>
+      <title>Class WebTransportReceiveStream | CSharpToJavaScript </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class WebTransportReceiveStream
- | CSharpToJavaScript ">
+      <meta name="title" content="Class WebTransportReceiveStream | CSharpToJavaScript ">
       
-      <meta name="description" content="The WebTransportReceiveStream interface of the {{domxref(&amp;amp;quot;WebTransport API&amp;amp;quot;, &amp;amp;quot;WebTransport API&amp;amp;quot;, &amp;amp;quot;&amp;amp;quot;, &amp;quot;nocode&amp;quot;)}} is a  that can be used to read from an incoming unidirectional or bidirectional  stream from a server.">
+      <meta name="description" content="The WebTransportReceiveStream interface of the {{domxref(&amp;amp;quot;WebTransport API&amp;amp;quot;, &amp;amp;quot;WebTransport API&amp;amp;quot;, &amp;amp;quot;&amp;amp;quot;, &amp;quot;nocode&amp;quot;)}} is a  that can be used to read from an incoming unidirectional or bidirectional  stream.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -31,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -91,8 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_WebTransportReceiveStream" data-uid="CSharpToJavaScript.APIs.JS.WebTransportReceiveStream" class="text-break">
-    Class WebTransportReceiveStream
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16515"><i class="bi bi-code-slash"></i></a>
+Class WebTransportReceiveStream  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31769"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -100,7 +97,7 @@
   <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>The <code>WebTransportReceiveStream</code> interface of the {{domxref(&amp;quot;WebTransport API&amp;quot;, &amp;quot;WebTransport API&amp;quot;, &amp;quot;&amp;quot;, &quot;nocode&quot;)}} is a <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStream.html">ReadableStream</a> that can be used to read from an incoming unidirectional or bidirectional <a class="xref" href="CSharpToJavaScript.APIs.JS.WebTransport.html">WebTransport</a> stream from a server.</p>
+  <div class="markdown summary"><p>The <code>WebTransportReceiveStream</code> interface of the {{domxref(&amp;quot;WebTransport API&amp;quot;, &amp;quot;WebTransport API&amp;quot;, &amp;quot;&amp;quot;, &quot;nocode&quot;)}} is a <a class="xref" href="CSharpToJavaScript.APIs.JS.ReadableStream.html">ReadableStream</a> that can be used to read from an incoming unidirectional or bidirectional <a class="xref" href="CSharpToJavaScript.APIs.JS.WebTransport.html">WebTransport</a> stream.</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -123,7 +120,7 @@ public class WebTransportReceiveStream : ReadableStream</code></pre>
 
 
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
     <div>
@@ -177,9 +174,17 @@ public class WebTransportReceiveStream : ReadableStream</code></pre>
 
 
   <h2 id="CSharpToJavaScript_APIs_JS_WebTransportReceiveStream_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>The stream is a <a href="https://developer.mozilla.org/en-US/docs/Web/API/Streams_API/Using_readable_byte_streams">readable byte stream</a> of <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array"><code>Uint8Array</code></a>, and can be consumed using either a BYOB reader (<a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStreamBYOBReader"><code>ReadableStreamBYOBReader</code></a>) or the default reader (<a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStreamDefaultReader"><code>ReadableStreamDefaultReader</code></a>).</p><p>Objects of this type are not constructed directly.<br>Instead they are obtained using the <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebTransport/incomingUnidirectionalStreams"><code>WebTransport.incomingUnidirectionalStream</code></a> property.</p><p><code>WebTransportReceiveStream</code> is a <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Transferable_objects">transferable object</a>.</p><p></p><p>AvailableInWorkers</p>
-<p>-<a href="https://web.dev/webtransport/">Using WebTransport</a><br>-{{domxref(&amp;quot;Streams API&amp;quot;, &amp;quot;Streams API&amp;quot;, &amp;quot;&amp;quot;, &amp;quot;nocode&amp;quot;)}}<br>-<a href="https://datatracker.ietf.org/doc/html/draft-ietf-webtrans-http3/">WebTransport over HTTP/3</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/WebTransportReceiveStream"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level0 remarks"><p>The stream is a <a href="https://developer.mozilla.org/en-US/docs/Web/API/Streams_API/Using_readable_byte_streams">readable byte stream</a> of <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array"><code>Uint8Array</code></a>, and can be consumed using either a BYOB reader (<a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStreamBYOBReader"><code>ReadableStreamBYOBReader</code></a>) or the default reader (<a href="https://developer.mozilla.org/en-US/docs/Web/API/ReadableStreamDefaultReader"><code>ReadableStreamDefaultReader</code></a>).</p>
+<p>Objects of this type are not constructed directly.<br>Instead they are obtained using the <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebTransport/incomingUnidirectionalStreams"><code>WebTransport.incomingUnidirectionalStream</code></a> property.</p>
+<p>
+  <code>WebTransportReceiveStream</code> is a <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Transferable_objects">transferable object</a>.</p>
+<p></p>
+<p>-<a href="https://developer.chrome.com/docs/capabilities/web-apis/webtransport">Using WebTransport</a><br>-{{domxref(&amp;quot;Streams API&amp;quot;, &amp;quot;Streams API&amp;quot;, &amp;quot;&amp;quot;, &amp;quot;nocode&amp;quot;)}}<br>-<a href="https://datatracker.ietf.org/doc/html/draft-ietf-webtrans-http3/">WebTransport over HTTP/3</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebTransportReceiveStream">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -191,7 +196,7 @@ public class WebTransportReceiveStream : ReadableStream</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_WebTransportReceiveStream_GetStats" data-uid="CSharpToJavaScript.APIs.JS.WebTransportReceiveStream.GetStats">
   GetStats()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16519"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31773"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>getStats()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.WebTransportReceiveStream.html">WebTransportReceiveStream</a> interface asynchronously returns an object containing statistics for the current stream.</p>
@@ -217,8 +222,12 @@ public class WebTransportReceiveStream : ReadableStream</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_WebTransportReceiveStream_GetStats_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>The statistics include the total number of ordered bytes that have arrived on this stream (ignoring network overhead, up until the first missing byte) and the total number that have been read by the application.<br>It therefore provides a measure of how quickly the application is consuming bytes from the server on this particular stream.</p><p>AvailableInWorkers</p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/WebTransportReceiveStream/getStats"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>The statistics include the total number of ordered bytes that have arrived on this stream (ignoring network overhead, up until the first missing byte) and the total number that have been read by the application.<br>It therefore provides a measure of how quickly the application is consuming bytes from the server on this particular stream.</p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebTransportReceiveStream/getStats">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -228,7 +237,7 @@ public class WebTransportReceiveStream : ReadableStream</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16515" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31769" class="edit-link">Edit this page</a>
         </div>
 
 

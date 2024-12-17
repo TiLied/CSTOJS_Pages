@@ -1,0 +1,569 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class RTCError | CSharpToJavaScript </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class RTCError | CSharpToJavaScript ">
+      
+      <meta name="description" content="The RTCError interface describes an error which has occurred while handling WebRTC operations. It&#39;s based upon the standard  interface that describes general DOM errors.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/TiLied/CSharpToJavaScript/new/master/apiSpec/new?filename=CSharpToJavaScript_APIs_JS_RTCError.md&amp;value=---%0Auid%3A%20CSharpToJavaScript.APIs.JS.RTCError%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="CSharpToJavaScript.APIs.JS.RTCError">
+
+
+
+  <h1 id="CSharpToJavaScript_APIs_JS_RTCError" data-uid="CSharpToJavaScript.APIs.JS.RTCError" class="text-break">
+Class RTCError  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31480"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CSharpToJavaScript.html">CSharpToJavaScript</a>.<a class="xref" href="CSharpToJavaScript.APIs.html">APIs</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.html">JS</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>The <strong><code>RTCError</code></strong> interface describes an error which has occurred while handling <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API">WebRTC</a> operations. It's based upon the standard <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMException.html">DOMException</a> interface that describes general DOM errors.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public class RTCError : DOMException</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.DOMException.html">DOMException</a></div>
+      <div><span class="xref">RTCError</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMException.html#CSharpToJavaScript_APIs_JS_DOMException_Name">DOMException.Name</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMException.html#CSharpToJavaScript_APIs_JS_DOMException_Message">DOMException.Message</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMException.html#CSharpToJavaScript_APIs_JS_DOMException_Code">DOMException.Code</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMException.html#CSharpToJavaScript_APIs_JS_DOMException_INDEX_SIZE_ERR">DOMException.INDEX_SIZE_ERR</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMException.html#CSharpToJavaScript_APIs_JS_DOMException_DOMSTRING_SIZE_ERR">DOMException.DOMSTRING_SIZE_ERR</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMException.html#CSharpToJavaScript_APIs_JS_DOMException_HIERARCHY_REQUEST_ERR">DOMException.HIERARCHY_REQUEST_ERR</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMException.html#CSharpToJavaScript_APIs_JS_DOMException_WRONG_DOCUMENT_ERR">DOMException.WRONG_DOCUMENT_ERR</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMException.html#CSharpToJavaScript_APIs_JS_DOMException_INVALID_CHARACTER_ERR">DOMException.INVALID_CHARACTER_ERR</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMException.html#CSharpToJavaScript_APIs_JS_DOMException_NO_DATA_ALLOWED_ERR">DOMException.NO_DATA_ALLOWED_ERR</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMException.html#CSharpToJavaScript_APIs_JS_DOMException_NO_MODIFICATION_ALLOWED_ERR">DOMException.NO_MODIFICATION_ALLOWED_ERR</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMException.html#CSharpToJavaScript_APIs_JS_DOMException_NOT_FOUND_ERR">DOMException.NOT_FOUND_ERR</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMException.html#CSharpToJavaScript_APIs_JS_DOMException_NOT_SUPPORTED_ERR">DOMException.NOT_SUPPORTED_ERR</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMException.html#CSharpToJavaScript_APIs_JS_DOMException_INUSE_ATTRIBUTE_ERR">DOMException.INUSE_ATTRIBUTE_ERR</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMException.html#CSharpToJavaScript_APIs_JS_DOMException_INVALID_STATE_ERR">DOMException.INVALID_STATE_ERR</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMException.html#CSharpToJavaScript_APIs_JS_DOMException_SYNTAX_ERR">DOMException.SYNTAX_ERR</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMException.html#CSharpToJavaScript_APIs_JS_DOMException_INVALID_MODIFICATION_ERR">DOMException.INVALID_MODIFICATION_ERR</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMException.html#CSharpToJavaScript_APIs_JS_DOMException_NAMESPACE_ERR">DOMException.NAMESPACE_ERR</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMException.html#CSharpToJavaScript_APIs_JS_DOMException_INVALID_ACCESS_ERR">DOMException.INVALID_ACCESS_ERR</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMException.html#CSharpToJavaScript_APIs_JS_DOMException_VALIDATION_ERR">DOMException.VALIDATION_ERR</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMException.html#CSharpToJavaScript_APIs_JS_DOMException_TYPE_MISMATCH_ERR">DOMException.TYPE_MISMATCH_ERR</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMException.html#CSharpToJavaScript_APIs_JS_DOMException_SECURITY_ERR">DOMException.SECURITY_ERR</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMException.html#CSharpToJavaScript_APIs_JS_DOMException_NETWORK_ERR">DOMException.NETWORK_ERR</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMException.html#CSharpToJavaScript_APIs_JS_DOMException_ABORT_ERR">DOMException.ABORT_ERR</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMException.html#CSharpToJavaScript_APIs_JS_DOMException_URL_MISMATCH_ERR">DOMException.URL_MISMATCH_ERR</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMException.html#CSharpToJavaScript_APIs_JS_DOMException_QUOTA_EXCEEDED_ERR">DOMException.QUOTA_EXCEEDED_ERR</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMException.html#CSharpToJavaScript_APIs_JS_DOMException_TIMEOUT_ERR">DOMException.TIMEOUT_ERR</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMException.html#CSharpToJavaScript_APIs_JS_DOMException_INVALID_NODE_TYPE_ERR">DOMException.INVALID_NODE_TYPE_ERR</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMException.html#CSharpToJavaScript_APIs_JS_DOMException_DATA_CLONE_ERR">DOMException.DATA_CLONE_ERR</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+  <h2 id="CSharpToJavaScript_APIs_JS_RTCError_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCError">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_RTCError__ctor_" data-uid="CSharpToJavaScript.APIs.JS.RTCError.#ctor*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCError__ctor" data-uid="CSharpToJavaScript.APIs.JS.RTCError.#ctor">
+  RTCError()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31493"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RTCError()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_RTCError__ctor_" data-uid="CSharpToJavaScript.APIs.JS.RTCError.#ctor*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCError__ctor_CSharpToJavaScript_APIs_JS_RTCErrorInit_System_String_" data-uid="CSharpToJavaScript.APIs.JS.RTCError.#ctor(CSharpToJavaScript.APIs.JS.RTCErrorInit,System.String)">
+  RTCError(RTCErrorInit, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31482"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RTCError(RTCErrorInit init, string message)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>init</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCErrorInit.html">RTCErrorInit</a></dt>
+    <dd></dd>
+    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_RTCError_ErrorDetail_" data-uid="CSharpToJavaScript.APIs.JS.RTCError.ErrorDetail*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCError_ErrorDetail" data-uid="CSharpToJavaScript.APIs.JS.RTCError.ErrorDetail">
+  ErrorDetail
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31484"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCError.html">RTCError</a> interface's read-only<br><strong><code>errorDetail</code></strong> property is a string indicating the <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API">WebRTC</a>-specific error code that occurred.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RTCErrorDetailType ErrorDetail { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCErrorDetailType.html">RTCErrorDetailType</a></dt>
+    <dd><p>A read-only string whose value indicates the type of WebRTC-specific error that<br>occurred on an <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCPeerConnection.html">RTCPeerConnection</a>. The possible values are:</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCError_ErrorDetail_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCError/errorDetail">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_RTCError_HttpRequestStatusCode_" data-uid="CSharpToJavaScript.APIs.JS.RTCError.HttpRequestStatusCode*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCError_HttpRequestStatusCode" data-uid="CSharpToJavaScript.APIs.JS.RTCError.HttpRequestStatusCode">
+  HttpRequestStatusCode
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30019"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? HttpRequestStatusCode { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_RTCError_ReceivedAlert_" data-uid="CSharpToJavaScript.APIs.JS.RTCError.ReceivedAlert*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCError_ReceivedAlert" data-uid="CSharpToJavaScript.APIs.JS.RTCError.ReceivedAlert">
+  ReceivedAlert
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31490"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCError.html">RTCError</a> read-only property<br><strong><code>receivedAlert</code></strong> specifies the fatal <a href="https://developer.mozilla.org/en-US/docs/Glossary/DTLS">DTLS</a><br>error which resulted in an alert being received from the remote peer.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong? ReceivedAlert { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>?</dt>
+    <dd><p>An unsigned long integer value specifying the fatal <a href="https://developer.mozilla.org/en-US/docs/Glossary/DTLS">DTLS</a> error which<br>resulted in an alert being received from the remote peer.<blockquote class="NOTE"><h5>NOTE</h5><strong>Note:</strong> This property is <code>null</code> if the <code>RTCError</code> doesn&amp;apos;t represent a<br>DTLS error (with <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCError.html#CSharpToJavaScript_APIs_JS_RTCError_ErrorDetail">ErrorDetail</a> set to<br><code>dtls-failure</code>).</blockquote>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCError_ReceivedAlert_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCError/receivedAlert">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_RTCError_SctpCauseCode_" data-uid="CSharpToJavaScript.APIs.JS.RTCError.SctpCauseCode*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCError_SctpCauseCode" data-uid="CSharpToJavaScript.APIs.JS.RTCError.SctpCauseCode">
+  SctpCauseCode
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31488"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The read-only <strong><code>sctpCauseCode</code></strong> property in an<br><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCError.html">RTCError</a> object provides the {{Glossary(&quot;SCTP&quot;)}} cause code explaining<br>why the SCTP negotiation failed, if the <code>RTCError</code> represents an SCTP error.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? SctpCauseCode { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd><p>An unsigned long integer value specifying SCTP cause code explaining why the error<br>occurred. This property is <code>null</code> if the error isn&amp;apos;t an SCTP error, with its<br><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCError.html#CSharpToJavaScript_APIs_JS_RTCError_ErrorDetail">ErrorDetail</a> property set to<br><code>sctp-failure</code>.The standard SCTP error cause codes, numbered 1-13, are defined in the SCTP<br>specification: {{RFC(4960, &amp;quot;&amp;quot;, &amp;quot;3.3.10&amp;quot;)}}.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCError_SctpCauseCode_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCError/sctpCauseCode">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_RTCError_SdpLineNumber_" data-uid="CSharpToJavaScript.APIs.JS.RTCError.SdpLineNumber*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCError_SdpLineNumber" data-uid="CSharpToJavaScript.APIs.JS.RTCError.SdpLineNumber">
+  SdpLineNumber
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31486"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCError.html">RTCError</a> interface's read-only property<br><strong><code>sdpLineNumber</code></strong> specifies the line number within the<br><a href="https://developer.mozilla.org/en-US/docs/Glossary/SDP">SDP</a> at which a syntax error occurred while parsing it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long? SdpLineNumber { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</dt>
+    <dd><p>An unsigned integer value indicating the line within the SDP at which the syntax error<br>described by the <code>RTCError</code> object occurred. The lines are numbed starting<br>with line 1.This property is <code>null</code> unless the value of<br><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCError.html#CSharpToJavaScript_APIs_JS_RTCError_ErrorDetail">ErrorDetail</a> is <code>sdp-syntax-error</code>.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCError_SdpLineNumber_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCError/sdpLineNumber">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_RTCError_SentAlert_" data-uid="CSharpToJavaScript.APIs.JS.RTCError.SentAlert*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCError_SentAlert" data-uid="CSharpToJavaScript.APIs.JS.RTCError.SentAlert">
+  SentAlert
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31492"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The read-only <strong><code>sentAlert</code></strong> property in an<br><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCError.html">RTCError</a> object specifies the {{Glossary(&quot;DTLS&quot;)}} alert number occurred<br>while sending data to the remote peer, if the error represents an outbound DTLS error.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong? SentAlert { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>?</dt>
+    <dd><p>An unsigned integer value providing the DTLS alert number corresponding to the DTLS<br>error which was sent to the remote peer, as represented by this <code>RTCError</code><br>object. This property is <code>null</code> if <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCError.html#CSharpToJavaScript_APIs_JS_RTCError_ErrorDetail">ErrorDetail</a><br>isn&amp;apos;t <code>dtls-failure</code>.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCError_SentAlert_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCError/sentAlert">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31480" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

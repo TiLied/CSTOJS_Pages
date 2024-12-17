@@ -2,13 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class PaymentRequest
- | CSharpToJavaScript </title>
+      <title>Class PaymentRequest | CSharpToJavaScript </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class PaymentRequest
- | CSharpToJavaScript ">
+      <meta name="title" content="Class PaymentRequest | CSharpToJavaScript ">
       
-      <meta name="description" content="The Payment Request API&amp;amp;apos;s PaymentRequest interface is the primary access point into the API, and lets web content and apps accept payments from the end user on behalf of the operator of the site or the publisher of the app.">
+      <meta name="description" content="The Payment Request API&amp;amp;apos;sPaymentRequest interface is the primary access point into the API, and lets web content and apps accept payments from the end user on behalf of the operator of the site or the publisher of the app.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -31,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -91,8 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_PaymentRequest" data-uid="CSharpToJavaScript.APIs.JS.PaymentRequest" class="text-break">
-    Class PaymentRequest
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10937"><i class="bi bi-code-slash"></i></a>
+Class PaymentRequest  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L17734"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -100,13 +97,13 @@
   <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>The <a href="https://developer.mozilla.org/en-US/docs/Web/API/Payment_Request_API">Payment Request API&amp;apos;s</a> <strong><code>PaymentRequest</code></strong> interface is the primary access point into the API, and lets web content and apps accept payments from the end user on behalf of the operator of the site or the publisher of the app.</p>
+  <div class="markdown summary"><p>The <a href="https://developer.mozilla.org/en-US/docs/Web/API/Payment_Request_API">Payment Request API&amp;apos;s</a><strong><code>PaymentRequest</code></strong> interface is the primary access point into the API, and lets web content and apps accept payments from the end user on behalf of the operator of the site or the publisher of the app.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
-public class PaymentRequest</code></pre>
+public class PaymentRequest : EventTarget</code></pre>
   </div>
 
 
@@ -116,15 +113,37 @@ public class PaymentRequest</code></pre>
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html">EventTarget</a></div>
       <div><span class="xref">PaymentRequest</span></div>
     </dd>
   </dl>
 
 
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union27_">EventTarget.AddEventListener(string, Action, Union27)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_MouseEvent__CSharpToJavaScript_APIs_JS_Union27_">EventTarget.AddEventListener(string, Action&lt;MouseEvent&gt;, Union27)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Event__CSharpToJavaScript_APIs_JS_Union27_">EventTarget.AddEventListener(string, Action&lt;Event&gt;, Union27)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_RemoveEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union28_">EventTarget.RemoveEventListener(string, Action, Union28)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_CSharpToJavaScript_APIs_JS_EventListener_CSharpToJavaScript_APIs_JS_Union27_">EventTarget.AddEventListener(string, EventListener, Union27)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_RemoveEventListener_System_String_CSharpToJavaScript_APIs_JS_EventListener_CSharpToJavaScript_APIs_JS_Union28_">EventTarget.RemoveEventListener(string, EventListener, Union28)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_DispatchEvent_CSharpToJavaScript_APIs_JS_Event_">EventTarget.DispatchEvent(Event)</a>
+    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -153,19 +172,254 @@ public class PaymentRequest</code></pre>
 
   <h2 id="CSharpToJavaScript_APIs_JS_PaymentRequest_remarks">Remarks</h2>
   <div class="markdown level0 remarks"><p></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/PaymentRequest"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/PaymentRequest">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_PaymentRequest__ctor_" data-uid="CSharpToJavaScript.APIs.JS.PaymentRequest.#ctor*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_PaymentRequest__ctor" data-uid="CSharpToJavaScript.APIs.JS.PaymentRequest.#ctor">
+  PaymentRequest()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L15927"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PaymentRequest()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_PaymentRequest__ctor_" data-uid="CSharpToJavaScript.APIs.JS.PaymentRequest.#ctor*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_PaymentRequest__ctor_System_Collections_Generic_List_CSharpToJavaScript_APIs_JS_PaymentMethodData__CSharpToJavaScript_APIs_JS_PaymentDetailsInit_" data-uid="CSharpToJavaScript.APIs.JS.PaymentRequest.#ctor(System.Collections.Generic.List{CSharpToJavaScript.APIs.JS.PaymentMethodData},CSharpToJavaScript.APIs.JS.PaymentDetailsInit)">
+  PaymentRequest(List&lt;PaymentMethodData&gt;, PaymentDetailsInit)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L15917"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>PaymentRequest()</code></strong> constructor<br>creates a new <a class="xref" href="CSharpToJavaScript.APIs.JS.PaymentRequest.html">PaymentRequest</a> object which will be used to handle the<br>process of generating, validating, and submitting a payment request.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PaymentRequest(List&lt;PaymentMethodData&gt; methodData, PaymentDetailsInit details)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>methodData</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="CSharpToJavaScript.APIs.JS.PaymentMethodData.html">PaymentMethodData</a>&gt;</dt>
+    <dd></dd>
+    <dt><code>details</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.PaymentDetailsInit.html">PaymentDetailsInit</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_PaymentRequest__ctor_System_Collections_Generic_List_CSharpToJavaScript_APIs_JS_PaymentMethodData__CSharpToJavaScript_APIs_JS_PaymentDetailsInit__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/PaymentRequest/PaymentRequest">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_PaymentRequest_Id_" data-uid="CSharpToJavaScript.APIs.JS.PaymentRequest.Id*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_PaymentRequest_Id" data-uid="CSharpToJavaScript.APIs.JS.PaymentRequest.Id">
+  Id
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L15925"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>id</code></strong> read-only attribute of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.PaymentRequest.html">PaymentRequest</a> interface returns a unique identifier for a particular<br><a class="xref" href="CSharpToJavaScript.APIs.JS.PaymentRequest.html">PaymentRequest</a> instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Id { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A string.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_PaymentRequest_Id_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>When constructing an instance of the <a class="xref" href="CSharpToJavaScript.APIs.JS.PaymentRequest.html">PaymentRequest</a>, you are able to<br>supply an custom id. If none is provided, the browser automatically sets the id value to a UUID.</p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/PaymentRequest/id">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_PaymentRequest_Onpaymentmethodchange_" data-uid="CSharpToJavaScript.APIs.JS.PaymentRequest.Onpaymentmethodchange*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_PaymentRequest_Onpaymentmethodchange" data-uid="CSharpToJavaScript.APIs.JS.PaymentRequest.Onpaymentmethodchange">
+  Onpaymentmethodchange
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L15926"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EventHandlerNonNull Onpaymentmethodchange { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.EventHandlerNonNull.html">EventHandlerNonNull</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
 
 
   <h2 class="section" id="methods">Methods
 </h2>
 
 
+  <a id="CSharpToJavaScript_APIs_JS_PaymentRequest_Abort_" data-uid="CSharpToJavaScript.APIs.JS.PaymentRequest.Abort*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_PaymentRequest_Abort" data-uid="CSharpToJavaScript.APIs.JS.PaymentRequest.Abort">
+  Abort()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L15921"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <code>PaymentRequest.abort()</code> method of the 'PaymentRequest'<br>interface causes the user agent to end the payment request and to remove any user<br>interface that might be shown.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;GlobalObject.Undefined&gt; Abort()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a>&gt;</dt>
+    <dd><p>None ('undefined').</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_PaymentRequest_Abort_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-'PaymentRequest.Abort'<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/PaymentRequest/abort">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_PaymentRequest_CanMakePayment_" data-uid="CSharpToJavaScript.APIs.JS.PaymentRequest.CanMakePayment*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_PaymentRequest_CanMakePayment" data-uid="CSharpToJavaScript.APIs.JS.PaymentRequest.CanMakePayment">
+  CanMakePayment()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L15923"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.PaymentRequest.html">PaymentRequest</a> method<br><strong><code>canMakePayment()</code></strong> determines whether or not the request<br>is configured in a way that is compatible with at least one payment method supported<br>by the <a href="https://developer.mozilla.org/en-US/docs/Glossary/user agent">user agent</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;bool&gt; CanMakePayment()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd><p>A Promise to a boolean value that resolves to <code>true</code><br>if the user agent supports any of the payment methods supplied when instantiating the<br>request using the 'PaymentRequest.PaymentRequest'<br>constructor. If the payment can&amp;apos;t be processed, the promise receives a value of<br><code>false</code>.<blockquote class="NOTE"><h5>NOTE</h5><strong>Note:</strong> If you call this too often, the browser may reject the<br>returned promise with a <code>DOMException</code>.</blockquote>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_PaymentRequest_CanMakePayment_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>You can call this before calling<br><a class="xref" href="CSharpToJavaScript.APIs.JS.PaymentRequest.html#CSharpToJavaScript_APIs_JS_PaymentRequest_Show_System_Threading_Tasks_Task_CSharpToJavaScript_APIs_JS_PaymentDetailsUpdate__">Show(Task&lt;PaymentDetailsUpdate&gt;)</a> to provide a streamlined user experience<br>when the user&amp;apos;s browser can&amp;apos;t handle any of the payment methods you accept.</p>
+<p>For instance, you might call <code>canMakePayment()</code> to determine if the browser<br>will let the user pay using Payment Request API, and if it won&amp;apos;t, you could fall back to<br>another payment method, or offer a list of methods that aren&amp;apos;t handled by Payment<br>Request API (or even provide instructions for paying by mail or by phone).</p>
+<p>-'PaymentRequest.Show'<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/PaymentRequest/canMakePayment">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
   <a id="CSharpToJavaScript_APIs_JS_PaymentRequest_IsSecurePaymentConfirmationAvailable_" data-uid="CSharpToJavaScript.APIs.JS.PaymentRequest.IsSecurePaymentConfirmationAvailable*"></a>
 
   <h3 id="CSharpToJavaScript_APIs_JS_PaymentRequest_IsSecurePaymentConfirmationAvailable" data-uid="CSharpToJavaScript.APIs.JS.PaymentRequest.IsSecurePaymentConfirmationAvailable">
   IsSecurePaymentConfirmationAvailable()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10940"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L17736"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -179,7 +433,7 @@ public class PaymentRequest</code></pre>
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
-    <dd>The Payment Request API&amp;apos;s PaymentRequest interface is the primary access point into the API, and lets web content and apps accept payments from the end user on behalf of the operator of the site or the publisher of the app.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -192,11 +446,65 @@ public class PaymentRequest</code></pre>
 
 
 
+  <a id="CSharpToJavaScript_APIs_JS_PaymentRequest_Show_" data-uid="CSharpToJavaScript.APIs.JS.PaymentRequest.Show*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_PaymentRequest_Show_System_Threading_Tasks_Task_CSharpToJavaScript_APIs_JS_PaymentDetailsUpdate__" data-uid="CSharpToJavaScript.APIs.JS.PaymentRequest.Show(System.Threading.Tasks.Task{CSharpToJavaScript.APIs.JS.PaymentDetailsUpdate})">
+  Show(Task&lt;PaymentDetailsUpdate&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L15919"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong>'PaymentRequest'</strong> interface&amp;apos;s<br><strong><code>show()</code></strong> method instructs the user agent to begin the<br>process of showing and handling the user interface for the payment request to the<br>user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;PaymentResponse&gt; Show(Task&lt;PaymentDetailsUpdate&gt; detailsPromise)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>detailsPromise</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CSharpToJavaScript.APIs.JS.PaymentDetailsUpdate.html">PaymentDetailsUpdate</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CSharpToJavaScript.APIs.JS.PaymentResponse.html">PaymentResponse</a>&gt;</dt>
+    <dd><p>A {{jsxref(&quot;Promise&quot;)}} that eventually resolves with a <a class="xref" href="CSharpToJavaScript.APIs.JS.PaymentResponse.html">PaymentResponse</a>.<br>The promise is resolved when the user accepts the payment request (such as by clicking a<br>&amp;quot;Pay&amp;quot; button in the browser&amp;apos;s payment sheet).</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_PaymentRequest_Show_System_Threading_Tasks_Task_CSharpToJavaScript_APIs_JS_PaymentDetailsUpdate___remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Only one payment request can be in the process of being handled at once, across all<br>documents. Once one <code>PaymentRequest</code>&amp;apos;s <code>show()</code> method has been<br>called, any other call to <code>show()</code> will by rejected with an<br><code>AbortError</code> until the returned promise has been concluded, either by being<br>fulfilled with a <a class="xref" href="CSharpToJavaScript.APIs.JS.PaymentResponse.html">PaymentResponse</a> indicating the results of the payment<br>request, or by being rejected with an error.</p>
+<blockquote class="NOTE">
+  <h5>NOTE</h5>
+  <p>
+    <strong>Note:</strong> In reality, despite the fact that the specification says this<br>can&amp;apos;t be done, some browsers, including Firefox, support multiple active payment<br>requests at a time.</p>
+</blockquote>
+<p>If your architecture doesn&amp;apos;t necessarily have all of the data ready to go at the moment<br>it instantiates the payment interface by calling <code>show()</code>, specify the<br><code>detailsPromise</code> parameter, providing a Promise that is<br>fulfilled once the data is ready. If this is provided, <code>show()</code> will not<br>allow the user to interact with the payment interface until the promise is fulfilled, so<br>that data can be updated prior to the user engaging with the payment process.</p>
+<p>Processing the result and, if necessary, calling <a class="xref" href="CSharpToJavaScript.APIs.JS.PaymentResponse.html#CSharpToJavaScript_APIs_JS_PaymentResponse_Retry_CSharpToJavaScript_APIs_JS_PaymentValidationErrors_">Retry(PaymentValidationErrors)</a><br>to retry a failed payment can all be done either asynchronously or synchronously,<br>depending on your needs. For the best user experience, asynchronous solutions are<br>typically the best way to go. Most examples on MDN and elsewhere use<br><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function"><code>async</code></a>/<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await"><code>await</code></a><br>to wait asynchronously while results are validated and so forth.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Payment_Request_API">Payment Request API</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Payment_Request_API/Using_the_Payment_Request_API">Using the Payment Request API</a><br>-'PaymentRequest.Abort'<br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.PaymentResponse.html">PaymentResponse</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.PaymentResponse.html#CSharpToJavaScript_APIs_JS_PaymentResponse_Retry_CSharpToJavaScript_APIs_JS_PaymentValidationErrors_">Retry(PaymentValidationErrors)</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.PaymentResponse.html#CSharpToJavaScript_APIs_JS_PaymentResponse_Complete_CSharpToJavaScript_APIs_JS_PaymentComplete_CSharpToJavaScript_APIs_JS_PaymentCompleteDetails_">Complete(PaymentComplete, PaymentCompleteDetails)</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/PaymentRequest/show">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10937" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L17734" class="edit-link">Edit this page</a>
         </div>
 
 

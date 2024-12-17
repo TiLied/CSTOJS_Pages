@@ -2,13 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class FileReaderSync
- | CSharpToJavaScript </title>
+      <title>Class FileReaderSync | CSharpToJavaScript </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class FileReaderSync
- | CSharpToJavaScript ">
+      <meta name="title" content="Class FileReaderSync | CSharpToJavaScript ">
       
-      <meta name="description" content="The FileReaderSync interface allows to read  or  objects synchronously.">
+      <meta name="description" content="The FileReaderSync interface allows to read  or  objects synchronously. This interface is only available in workers as it enables synchronous I/O that could potentially block.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -31,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -91,8 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_FileReaderSync" data-uid="CSharpToJavaScript.APIs.JS.FileReaderSync" class="text-break">
-    Class FileReaderSync
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7196"><i class="bi bi-code-slash"></i></a>
+Class FileReaderSync  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6864"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -100,7 +97,7 @@
   <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>The <code>FileReaderSync</code> interface allows to read <a class="xref" href="CSharpToJavaScript.APIs.JS.File.html">File</a> or <a class="xref" href="CSharpToJavaScript.APIs.JS.Blob.html">Blob</a> objects synchronously.</p>
+  <div class="markdown summary"><p>The <strong><code>FileReaderSync</code></strong> interface allows to read <a class="xref" href="CSharpToJavaScript.APIs.JS.File.html">File</a> or <a class="xref" href="CSharpToJavaScript.APIs.JS.Blob.html">Blob</a> objects synchronously. This interface is <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Functions_and_classes_available_to_workers">only available</a> in <a href="https://developer.mozilla.org/en-US/docs/Web/API/Worker">workers</a> as it enables synchronous I/O that could potentially block.</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -122,7 +119,7 @@ public class FileReaderSync</code></pre>
 
 
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
     <div>
@@ -152,9 +149,12 @@ public class FileReaderSync</code></pre>
 
 
   <h2 id="CSharpToJavaScript_APIs_JS_FileReaderSync_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>AvailableInWorkers</p><blockquote class="WARNING"><h5>WARNING</h5><p><strong>Warning:</strong> This interface is <strong>only available</strong> in <a href="https://developer.mozilla.org/en-US/docs/Web/API/Worker">workers</a> as it enables synchronous I/O that could potentially block.</p></blockquote>
-<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.FileReader.html">FileReader</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Blob.html">Blob</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.File.html">File</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/FileReaderSync"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level0 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.FileReader.html">FileReader</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Blob.html">Blob</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.File.html">File</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/FileReaderSync">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -166,7 +166,7 @@ public class FileReaderSync</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_FileReaderSync__ctor" data-uid="CSharpToJavaScript.APIs.JS.FileReaderSync.#ctor">
   FileReaderSync()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7200"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6868"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>FileReaderSync()</code></strong> constructor creates a new <a class="xref" href="CSharpToJavaScript.APIs.JS.FileReaderSync.html">FileReaderSync</a>.</p>
@@ -186,7 +186,11 @@ public class FileReaderSync</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_FileReaderSync__ctor_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p><a href="https://developer.mozilla.org/en-US/docs/Web/API/FileReaderSync/FileReaderSync"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/FileReaderSync/FileReaderSync">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -200,10 +204,10 @@ public class FileReaderSync</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_FileReaderSync_ReadAsArrayBuffer_CSharpToJavaScript_APIs_JS_Blob_" data-uid="CSharpToJavaScript.APIs.JS.FileReaderSync.ReadAsArrayBuffer(CSharpToJavaScript.APIs.JS.Blob)">
   ReadAsArrayBuffer(Blob)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7202"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6870"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <code>readAsArrayBuffer()</code> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.FileReaderSync.html">FileReaderSync</a> interface allows to read <a class="xref" href="CSharpToJavaScript.APIs.JS.File.html">File</a> or <a class="xref" href="CSharpToJavaScript.APIs.JS.Blob.html">Blob</a> objects in a synchronous way into an {{jsxref(&quot;ArrayBuffer&quot;)}}. This interface is <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Functions_and_classes_available_to_workers">only available</a> in <a href="https://developer.mozilla.org/en-US/docs/Web/API/Worker">workers</a> as it enables synchronous I/O that could potentially block.</p>
+  <div class="markdown level1 summary"><p>The <strong><code>readAsArrayBuffer()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.FileReaderSync.html">FileReaderSync</a> interface allows to read <a class="xref" href="CSharpToJavaScript.APIs.JS.File.html">File</a> or <a class="xref" href="CSharpToJavaScript.APIs.JS.Blob.html">Blob</a> objects in a synchronous way into an {{jsxref(&quot;ArrayBuffer&quot;)}}. This interface is <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Functions_and_classes_available_to_workers">only available</a> in <a href="https://developer.mozilla.org/en-US/docs/Web/API/Worker">workers</a> as it enables synchronous I/O that could potentially block.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -214,7 +218,7 @@ public class FileReaderSync</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>blob</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Blob.html">Blob</a></dt>
-    <dd>The FileReaderSync interface allows to read  or  objects synchronously.</dd>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -231,8 +235,12 @@ public class FileReaderSync</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_FileReaderSync_ReadAsArrayBuffer_CSharpToJavaScript_APIs_JS_Blob__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/API/File_API">File API</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.File.html">File</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.FileReaderSync.html">FileReaderSync</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.FileReader.html">FileReader</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Blob.html">Blob</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/FileReaderSync/readAsArrayBuffer"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>-{{DOMxRef(&amp;quot;File API&amp;quot;, &amp;quot;&amp;quot;, &amp;quot;&amp;quot;, &amp;quot;nocode&amp;quot;)}}<br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.File.html">File</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.FileReaderSync.html">FileReaderSync</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.FileReader.html">FileReader</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Blob.html">Blob</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/FileReaderSync/readAsArrayBuffer">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -242,10 +250,16 @@ public class FileReaderSync</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_FileReaderSync_ReadAsBinaryString_CSharpToJavaScript_APIs_JS_Blob_" data-uid="CSharpToJavaScript.APIs.JS.FileReaderSync.ReadAsBinaryString(CSharpToJavaScript.APIs.JS.Blob)">
   ReadAsBinaryString(Blob)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7204"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6872"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><div class="IMPORTANT"><h5>IMPORTANT</h5> <strong>Deprecated</strong></div> <blockquote class="NOTE"><h5>NOTE</h5><strong>Note:</strong> This method is deprecated in favor of <a class="xref" href="CSharpToJavaScript.APIs.JS.FileReaderSync.html#CSharpToJavaScript_APIs_JS_FileReaderSync_ReadAsArrayBuffer_CSharpToJavaScript_APIs_JS_Blob_">ReadAsArrayBuffer(Blob)</a>.</blockquote>
+  <div class="markdown level1 summary"><div class="IMPORTANT">
+  <h5>IMPORTANT</h5>
+  <strong>Deprecated</strong>
+</div>
+<blockquote class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Note:</strong> This method is deprecated in favor of <a class="xref" href="CSharpToJavaScript.APIs.JS.FileReaderSync.html#CSharpToJavaScript_APIs_JS_FileReaderSync_ReadAsArrayBuffer_CSharpToJavaScript_APIs_JS_Blob_">ReadAsArrayBuffer(Blob)</a>.</blockquote>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -256,7 +270,7 @@ public class FileReaderSync</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>blob</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Blob.html">Blob</a></dt>
-    <dd>The FileReaderSync interface allows to read  or  objects synchronously.</dd>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -273,9 +287,13 @@ public class FileReaderSync</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_FileReaderSync_ReadAsBinaryString_CSharpToJavaScript_APIs_JS_Blob__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>The <code>readAsBinaryString()</code> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.FileReaderSync.html">FileReaderSync</a> interface allows to read <a class="xref" href="CSharpToJavaScript.APIs.JS.File.html">File</a> or <a class="xref" href="CSharpToJavaScript.APIs.JS.Blob.html">Blob</a> objects in a synchronous way into a string. This interface is <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Functions_and_classes_available_to_workers">only available</a> in <a href="https://developer.mozilla.org/en-US/docs/Web/API/Worker">workers</a> as it enables synchronous I/O that could potentially block.</p>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/API/File_API">File API</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.File.html">File</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.FileReaderSync.html">FileReaderSync</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.FileReader.html">FileReader</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Blob.html">Blob</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/FileReaderSync/readAsBinaryString"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>The <strong><code>readAsBinaryString()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.FileReaderSync.html">FileReaderSync</a> interface allows to read <a class="xref" href="CSharpToJavaScript.APIs.JS.File.html">File</a> or <a class="xref" href="CSharpToJavaScript.APIs.JS.Blob.html">Blob</a> objects in a synchronous way into a string. This interface is <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Functions_and_classes_available_to_workers">only available</a> in <a href="https://developer.mozilla.org/en-US/docs/Web/API/Worker">workers</a> as it enables synchronous I/O that could potentially block.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/File_API">File API</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.File.html">File</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.FileReaderSync.html">FileReaderSync</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.FileReader.html">FileReader</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Blob.html">Blob</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/FileReaderSync/readAsBinaryString">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -285,10 +303,10 @@ public class FileReaderSync</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_FileReaderSync_ReadAsDataURL_CSharpToJavaScript_APIs_JS_Blob_" data-uid="CSharpToJavaScript.APIs.JS.FileReaderSync.ReadAsDataURL(CSharpToJavaScript.APIs.JS.Blob)">
   ReadAsDataURL(Blob)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7208"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6876"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <code>readAsDataURL()</code> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.FileReaderSync.html">FileReaderSync</a> interface allows to read <a class="xref" href="CSharpToJavaScript.APIs.JS.File.html">File</a> or <a class="xref" href="CSharpToJavaScript.APIs.JS.Blob.html">Blob</a> objects in a synchronous way into a string representing a data URL. This interface is <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Functions_and_classes_available_to_workers">only available</a> in <a href="https://developer.mozilla.org/en-US/docs/Web/API/Worker">workers</a> as it enables synchronous I/O that could potentially block.</p>
+  <div class="markdown level1 summary"><p>The <strong><code>readAsDataURL()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.FileReaderSync.html">FileReaderSync</a> interface allows to read <a class="xref" href="CSharpToJavaScript.APIs.JS.File.html">File</a> or <a class="xref" href="CSharpToJavaScript.APIs.JS.Blob.html">Blob</a> objects in a synchronous way into a string representing a data URL. This interface is <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Functions_and_classes_available_to_workers">only available</a> in <a href="https://developer.mozilla.org/en-US/docs/Web/API/Worker">workers</a> as it enables synchronous I/O that could potentially block.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -299,7 +317,7 @@ public class FileReaderSync</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>blob</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Blob.html">Blob</a></dt>
-    <dd>The FileReaderSync interface allows to read  or  objects synchronously.</dd>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -317,7 +335,11 @@ public class FileReaderSync</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_FileReaderSync_ReadAsDataURL_CSharpToJavaScript_APIs_JS_Blob__remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/File_and_Directory_Entries_API">File and Directory Entries API</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.File.html">File</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.FileReaderSync.html">FileReaderSync</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.FileReader.html">FileReader</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Blob.html">Blob</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/FileReaderSync/readAsDataURL"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/FileReaderSync/readAsDataURL">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -327,10 +349,10 @@ public class FileReaderSync</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_FileReaderSync_ReadAsText_CSharpToJavaScript_APIs_JS_Blob_System_String_" data-uid="CSharpToJavaScript.APIs.JS.FileReaderSync.ReadAsText(CSharpToJavaScript.APIs.JS.Blob,System.String)">
   ReadAsText(Blob, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7206"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6874"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <code>readAsText()</code> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.FileReaderSync.html">FileReaderSync</a> interface allows to read <a class="xref" href="CSharpToJavaScript.APIs.JS.File.html">File</a> or <a class="xref" href="CSharpToJavaScript.APIs.JS.Blob.html">Blob</a> objects in a synchronous way into a string. This interface is <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Functions_and_classes_available_to_workers">only available</a> in <a href="https://developer.mozilla.org/en-US/docs/Web/API/Worker">workers</a> as it enables synchronous I/O that could potentially block.</p>
+  <div class="markdown level1 summary"><p>The <strong><code>readAsText()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.FileReaderSync.html">FileReaderSync</a> interface allows to read <a class="xref" href="CSharpToJavaScript.APIs.JS.File.html">File</a> or <a class="xref" href="CSharpToJavaScript.APIs.JS.Blob.html">Blob</a> objects in a synchronous way into a string. This interface is <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Functions_and_classes_available_to_workers">only available</a> in <a href="https://developer.mozilla.org/en-US/docs/Web/API/Worker">workers</a> as it enables synchronous I/O that could potentially block.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -341,9 +363,9 @@ public class FileReaderSync</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>blob</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Blob.html">Blob</a></dt>
-    <dd>The FileReaderSync interface allows to read  or  objects synchronously.</dd>
+    <dd></dd>
     <dt><code>encoding</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd>The FileReaderSync interface allows to read  or  objects synchronously.</dd>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -360,8 +382,12 @@ public class FileReaderSync</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_FileReaderSync_ReadAsText_CSharpToJavaScript_APIs_JS_Blob_System_String__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/API/File_API">File API</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.File.html">File</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.FileReaderSync.html">FileReaderSync</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.FileReader.html">FileReader</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Blob.html">Blob</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/FileReaderSync/readAsText"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/File_API">File API</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.File.html">File</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.FileReaderSync.html">FileReaderSync</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.FileReader.html">FileReader</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Blob.html">Blob</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/FileReaderSync/readAsText">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -371,7 +397,7 @@ public class FileReaderSync</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7196" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6864" class="edit-link">Edit this page</a>
         </div>
 
 

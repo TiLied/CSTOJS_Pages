@@ -2,11 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class TaskAttributionTiming
- | CSharpToJavaScript </title>
+      <title>Class TaskAttributionTiming | CSharpToJavaScript </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class TaskAttributionTiming
- | CSharpToJavaScript ">
+      <meta name="title" content="Class TaskAttributionTiming | CSharpToJavaScript ">
       
       <meta name="description" content="The TaskAttributionTiming interface returns information about the work involved in a long task and its associate frame context. The frame context, also called the container, is the iframe, embed or object that is being implicated, on the whole, for a long task.">
       <link rel="icon" href="../favicon.ico">
@@ -31,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -91,8 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_TaskAttributionTiming" data-uid="CSharpToJavaScript.APIs.JS.TaskAttributionTiming" class="text-break">
-    Class TaskAttributionTiming
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9868"><i class="bi bi-code-slash"></i></a>
+Class TaskAttributionTiming  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13872"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -106,7 +103,7 @@
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
-public class TaskAttributionTiming</code></pre>
+public class TaskAttributionTiming : PerformanceEntry</code></pre>
   </div>
 
 
@@ -116,15 +113,22 @@ public class TaskAttributionTiming</code></pre>
     <dt>Inheritance</dt>
     <dd>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceEntry.html">PerformanceEntry</a></div>
       <div><span class="xref">TaskAttributionTiming</span></div>
     </dd>
   </dl>
 
 
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceEntry.html#CSharpToJavaScript_APIs_JS_PerformanceEntry_Id">PerformanceEntry.Id</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceEntry.html#CSharpToJavaScript_APIs_JS_PerformanceEntry_NavigationId">PerformanceEntry.NavigationId</a>
+    </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
     </div>
@@ -152,9 +156,16 @@ public class TaskAttributionTiming</code></pre>
 
 
   <h2 id="CSharpToJavaScript_APIs_JS_TaskAttributionTiming_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>You usually work with <code>TaskAttributionTiming</code> objects when observing <a href="https://developer.mozilla.org/en-US/docs/Web/API/PerformanceLongTaskTiming">long tasks</a>.</p><p><code>TaskAttributionTiming</code> inherits from PerformanceEntry.</p><p></p>
+  <div class="markdown level0 remarks"><p>You usually work with <code>TaskAttributionTiming</code> objects when observing <a href="https://developer.mozilla.org/en-US/docs/Web/API/PerformanceLongTaskTiming">long tasks</a>.</p>
+<p>
+  <code>TaskAttributionTiming</code> inherits from <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceEntry.html">PerformanceEntry</a>.</p>
+<p></p>
 <p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceLongTaskTiming.html">PerformanceLongTaskTiming</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/TaskAttributionTiming"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/TaskAttributionTiming">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -166,7 +177,7 @@ public class TaskAttributionTiming</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_TaskAttributionTiming_ContainerId" data-uid="CSharpToJavaScript.APIs.JS.TaskAttributionTiming.ContainerId">
   ContainerId
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9876"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13884"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>containerId</code></strong> readonly property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.TaskAttributionTiming.html">TaskAttributionTiming</a> interface returns the container's <code>id</code><br>attribute. A container is the iframe, embed or object etc. that is being implicated, on the whole, for a long task.</p>
@@ -192,7 +203,11 @@ public class TaskAttributionTiming</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_TaskAttributionTiming_ContainerId_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p><a href="https://developer.mozilla.org/en-US/docs/Web/API/TaskAttributionTiming/containerId"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/TaskAttributionTiming/containerId">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -202,7 +217,7 @@ public class TaskAttributionTiming</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_TaskAttributionTiming_ContainerName" data-uid="CSharpToJavaScript.APIs.JS.TaskAttributionTiming.ContainerName">
   ContainerName
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9878"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13886"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>containerName</code></strong> readonly property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.TaskAttributionTiming.html">TaskAttributionTiming</a> interface returns the container's <code>name</code><br>attribute. A container is the iframe, embed or object etc. that is being implicated, on the whole, for a long task.</p>
@@ -228,7 +243,11 @@ public class TaskAttributionTiming</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_TaskAttributionTiming_ContainerName_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p><a href="https://developer.mozilla.org/en-US/docs/Web/API/TaskAttributionTiming/containerName"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/TaskAttributionTiming/containerName">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -238,7 +257,7 @@ public class TaskAttributionTiming</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_TaskAttributionTiming_ContainerSrc" data-uid="CSharpToJavaScript.APIs.JS.TaskAttributionTiming.ContainerSrc">
   ContainerSrc
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9874"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13882"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>containerSrc</code></strong> readonly property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.TaskAttributionTiming.html">TaskAttributionTiming</a> interface returns the container's <code>src</code><br>attribute. A container is the iframe, embed or object etc. that is being implicated, on the whole, for a long task.</p>
@@ -264,7 +283,11 @@ public class TaskAttributionTiming</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_TaskAttributionTiming_ContainerSrc_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p><a href="https://developer.mozilla.org/en-US/docs/Web/API/TaskAttributionTiming/containerSrc"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/TaskAttributionTiming/containerSrc">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -274,7 +297,7 @@ public class TaskAttributionTiming</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_TaskAttributionTiming_ContainerType" data-uid="CSharpToJavaScript.APIs.JS.TaskAttributionTiming.ContainerType">
   ContainerType
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9872"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13880"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>containerType</code></strong> readonly property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.TaskAttributionTiming.html">TaskAttributionTiming</a> interface returns the type of the container, one of <code>iframe</code>, <code>embed</code>, or <code>object</code>.</p>
@@ -300,8 +323,136 @@ public class TaskAttributionTiming</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_TaskAttributionTiming_ContainerType_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p><a href="https://developer.mozilla.org/en-US/docs/Web/API/TaskAttributionTiming/containerType"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/TaskAttributionTiming/containerType">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_TaskAttributionTiming_Duration_" data-uid="CSharpToJavaScript.APIs.JS.TaskAttributionTiming.Duration*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_TaskAttributionTiming_Duration" data-uid="CSharpToJavaScript.APIs.JS.TaskAttributionTiming.Duration">
+  Duration
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13876"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Number Duration { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_TaskAttributionTiming_EntryType_" data-uid="CSharpToJavaScript.APIs.JS.TaskAttributionTiming.EntryType*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_TaskAttributionTiming_EntryType" data-uid="CSharpToJavaScript.APIs.JS.TaskAttributionTiming.EntryType">
+  EntryType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13878"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string EntryType { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_TaskAttributionTiming_Name_" data-uid="CSharpToJavaScript.APIs.JS.TaskAttributionTiming.Name*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_TaskAttributionTiming_Name" data-uid="CSharpToJavaScript.APIs.JS.TaskAttributionTiming.Name">
+  Name
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13877"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Name { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_TaskAttributionTiming_StartTime_" data-uid="CSharpToJavaScript.APIs.JS.TaskAttributionTiming.StartTime*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_TaskAttributionTiming_StartTime" data-uid="CSharpToJavaScript.APIs.JS.TaskAttributionTiming.StartTime">
+  StartTime
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13875"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Number StartTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
 
 
 
@@ -314,7 +465,7 @@ public class TaskAttributionTiming</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_TaskAttributionTiming_ToJSON" data-uid="CSharpToJavaScript.APIs.JS.TaskAttributionTiming.ToJSON">
   ToJSON()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9880"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13888"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>toJSON()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.TaskAttributionTiming.html">TaskAttributionTiming</a> interface is a {{Glossary(&quot;Serialization&quot;,&quot;serializer&quot;)}}; it returns a JSON representation of the <a class="xref" href="CSharpToJavaScript.APIs.JS.TaskAttributionTiming.html">TaskAttributionTiming</a> object.</p>
@@ -341,7 +492,11 @@ public class TaskAttributionTiming</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_TaskAttributionTiming_ToJSON_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-JSON<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/TaskAttributionTiming/toJSON"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/TaskAttributionTiming/toJSON">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -351,7 +506,7 @@ public class TaskAttributionTiming</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9868" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13872" class="edit-link">Edit this page</a>
         </div>
 
 

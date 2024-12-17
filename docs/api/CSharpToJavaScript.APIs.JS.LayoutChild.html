@@ -2,11 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class LayoutChild
- | CSharpToJavaScript </title>
+      <title>Class LayoutChild | CSharpToJavaScript </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class LayoutChild
- | CSharpToJavaScript ">
+      <meta name="title" content="Class LayoutChild | CSharpToJavaScript ">
       
       
       <link rel="icon" href="../favicon.ico">
@@ -31,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -91,8 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_LayoutChild" data-uid="CSharpToJavaScript.APIs.JS.LayoutChild" class="text-break">
-    Class LayoutChild
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5293"><i class="bi bi-code-slash"></i></a>
+Class LayoutChild  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L2163"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -121,7 +118,7 @@ public class LayoutChild</code></pre>
 
 
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
     <div>
@@ -160,14 +157,14 @@ public class LayoutChild</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_LayoutChild_StyleMap" data-uid="CSharpToJavaScript.APIs.JS.LayoutChild.StyleMap">
   StyleMap
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5296"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L2166"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Unsupported StyleMap { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public StylePropertyMapReadOnly StyleMap { get; }</code></pre>
   </div>
 
 
@@ -176,7 +173,7 @@ public class LayoutChild</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.Utils.Unsupported.html">Unsupported</a></dt>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.StylePropertyMapReadOnly.html">StylePropertyMapReadOnly</a></dt>
     <dd></dd>
   </dl>
 
@@ -195,20 +192,20 @@ public class LayoutChild</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_LayoutChild_IntrinsicSizes" data-uid="CSharpToJavaScript.APIs.JS.LayoutChild.IntrinsicSizes">
   IntrinsicSizes()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5297"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L2167"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IntrinsicSizesRequest IntrinsicSizes()</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;IntrinsicSizes&gt; IntrinsicSizes()</code></pre>
   </div>
 
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.IntrinsicSizesRequest.html">IntrinsicSizesRequest</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CSharpToJavaScript.APIs.JS.IntrinsicSizes.html">IntrinsicSizes</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -224,21 +221,21 @@ public class LayoutChild</code></pre>
 
   <a id="CSharpToJavaScript_APIs_JS_LayoutChild_LayoutNextFragment_" data-uid="CSharpToJavaScript.APIs.JS.LayoutChild.LayoutNextFragment*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_LayoutChild_LayoutNextFragment_CSharpToJavaScript_APIs_JS_LayoutConstraints_CSharpToJavaScript_APIs_JS_ChildBreakToken_" data-uid="CSharpToJavaScript.APIs.JS.LayoutChild.LayoutNextFragment(CSharpToJavaScript.APIs.JS.LayoutConstraints,CSharpToJavaScript.APIs.JS.ChildBreakToken)">
-  LayoutNextFragment(LayoutConstraints, ChildBreakToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5298"><i class="bi bi-code-slash"></i></a>
+  <h3 id="CSharpToJavaScript_APIs_JS_LayoutChild_LayoutNextFragment_CSharpToJavaScript_APIs_JS_LayoutConstraintsOptions_CSharpToJavaScript_APIs_JS_ChildBreakToken_" data-uid="CSharpToJavaScript.APIs.JS.LayoutChild.LayoutNextFragment(CSharpToJavaScript.APIs.JS.LayoutConstraintsOptions,CSharpToJavaScript.APIs.JS.ChildBreakToken)">
+  LayoutNextFragment(LayoutConstraintsOptions, ChildBreakToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L2168"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LayoutFragmentRequest LayoutNextFragment(LayoutConstraints constraints, ChildBreakToken breakToken)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;LayoutFragment&gt; LayoutNextFragment(LayoutConstraintsOptions constraints, ChildBreakToken breakToken)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>constraints</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.LayoutConstraints.html">LayoutConstraints</a></dt>
+    <dt><code>constraints</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.LayoutConstraintsOptions.html">LayoutConstraintsOptions</a></dt>
     <dd></dd>
     <dt><code>breakToken</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.ChildBreakToken.html">ChildBreakToken</a></dt>
     <dd></dd>
@@ -246,7 +243,7 @@ public class LayoutChild</code></pre>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.LayoutFragmentRequest.html">LayoutFragmentRequest</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CSharpToJavaScript.APIs.JS.LayoutFragment.html">LayoutFragment</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -264,7 +261,7 @@ public class LayoutChild</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5293" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L2163" class="edit-link">Edit this page</a>
         </div>
 
 

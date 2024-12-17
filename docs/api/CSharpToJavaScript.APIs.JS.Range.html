@@ -2,11 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class Range
- | CSharpToJavaScript </title>
+      <title>Class Range | CSharpToJavaScript </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class Range
- | CSharpToJavaScript ">
+      <meta name="title" content="Class Range | CSharpToJavaScript ">
       
       <meta name="description" content="The Range interface represents a fragment of a document that can contain nodes and parts of text nodes.">
       <link rel="icon" href="../favicon.ico">
@@ -31,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -91,8 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_Range" data-uid="CSharpToJavaScript.APIs.JS.Range" class="text-break">
-    Class Range
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7053"><i class="bi bi-code-slash"></i></a>
+Class Range  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4950"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -123,7 +120,7 @@ public class Range : AbstractRange</code></pre>
 
 
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
     <div>
@@ -168,9 +165,15 @@ public class Range : AbstractRange</code></pre>
 
 
   <h2 id="CSharpToJavaScript_APIs_JS_Range_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>A range can be created by using the <a class="xref" href="CSharpToJavaScript.APIs.JS.Document.html#CSharpToJavaScript_APIs_JS_Document_CreateRange">CreateRange()</a> method. Range objects can also be retrieved by using the Selection/getRangeAt method of the Selection object or the Document/caretRangeFromPoint method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Document.html">Document</a> object.</p><p>There also is the <a class="xref" href="CSharpToJavaScript.APIs.JS.Range.html#CSharpToJavaScript_APIs_JS_Range__ctor">Range()</a> constructor available.</p><p></p>
+  <div class="markdown level0 remarks"><p>A range can be created by using the <a class="xref" href="CSharpToJavaScript.APIs.JS.Document.html#CSharpToJavaScript_APIs_JS_Document_CreateRange">CreateRange()</a> method. Range objects can also be retrieved by using the Selection/getRangeAt method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Selection.html">Selection</a> object or the Document/caretRangeFromPoint method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Document.html">Document</a> object.</p>
+<p>There also is the <a class="xref" href="CSharpToJavaScript.APIs.JS.Range.html#CSharpToJavaScript_APIs_JS_Range__ctor">Range()</a> constructor available.</p>
+<p></p>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model">The DOM interfaces index</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Range"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Range">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -182,7 +185,7 @@ public class Range : AbstractRange</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Range__ctor" data-uid="CSharpToJavaScript.APIs.JS.Range.#ctor">
   Range()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6785"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4953"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>Range()</code></strong> constructor returns a newly created<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Range.html">Range</a> object whose start and end is the global <a class="xref" href="CSharpToJavaScript.APIs.JS.Document.html">Document</a><br>object.</p>
@@ -203,7 +206,11 @@ public class Range : AbstractRange</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_Range__ctor_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model">The DOM interfaces index</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Document.html#CSharpToJavaScript_APIs_JS_Document_CreateRange">CreateRange()</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Range/Range"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Range/Range">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -216,7 +223,7 @@ public class Range : AbstractRange</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Range_END_TO_END" data-uid="CSharpToJavaScript.APIs.JS.Range.END_TO_END">
   END_TO_END
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6808"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4976"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -232,7 +239,7 @@ public class Range : AbstractRange</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
-    <dd>The Range interface represents a fragment of a document that can contain nodes and parts of text nodes.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -246,7 +253,7 @@ public class Range : AbstractRange</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Range_END_TO_START" data-uid="CSharpToJavaScript.APIs.JS.Range.END_TO_START">
   END_TO_START
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6809"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4977"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -262,7 +269,7 @@ public class Range : AbstractRange</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
-    <dd>The Range interface represents a fragment of a document that can contain nodes and parts of text nodes.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -276,7 +283,7 @@ public class Range : AbstractRange</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Range_START_TO_END" data-uid="CSharpToJavaScript.APIs.JS.Range.START_TO_END">
   START_TO_END
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6807"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4975"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -292,7 +299,7 @@ public class Range : AbstractRange</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
-    <dd>The Range interface represents a fragment of a document that can contain nodes and parts of text nodes.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -306,7 +313,7 @@ public class Range : AbstractRange</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Range_START_TO_START" data-uid="CSharpToJavaScript.APIs.JS.Range.START_TO_START">
   START_TO_START
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6806"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4974"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -322,7 +329,7 @@ public class Range : AbstractRange</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
-    <dd>The Range interface represents a fragment of a document that can contain nodes and parts of text nodes.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -341,7 +348,7 @@ public class Range : AbstractRange</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Range_CommonAncestorContainer" data-uid="CSharpToJavaScript.APIs.JS.Range.CommonAncestorContainer">
   CommonAncestorContainer
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6787"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4955"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>Range.commonAncestorContainer</code></strong> read-only property<br>returns the deepest — or furthest down the document tree — <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a> that<br>contains both <a href="https://www.w3.org/TR/DOM-Level-2-Traversal-Range/ranges.html#Level-2-Range-Position-h3">boundary points</a> of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Range.html">Range</a>. This means that if<br>Range.StartContainer and Range.EndContainer both refer to<br>the same node, this node is the <strong>common ancestor container</strong>.</p>
@@ -367,9 +374,14 @@ public class Range : AbstractRange</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_Range_CommonAncestorContainer_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>Since a <code>Range</code> need not be continuous, and may also partially select nodes,<br>this is a convenient way to find a <code>Node</code> which encloses a<br><code>Range</code>.</p><p>This property is read-only. To change the ancestor container of a <code>Node</code>,<br>consider using the various methods available to set the start and end positions of the<br><code>Range</code>, such as <a class="xref" href="CSharpToJavaScript.APIs.JS.Range.html#CSharpToJavaScript_APIs_JS_Range_SetStart_CSharpToJavaScript_APIs_JS_Node_System_UInt64_">SetStart(Node, ulong)</a> and<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Range.html#CSharpToJavaScript_APIs_JS_Range_SetEnd_CSharpToJavaScript_APIs_JS_Node_System_UInt64_">SetEnd(Node, ulong)</a>.</p>
+  <div class="markdown level1 remarks"><p>Since a <code>Range</code> need not be continuous, and may also partially select nodes,<br>this is a convenient way to find a <code>Node</code> which encloses a<br><code>Range</code>.</p>
+<p>This property is read-only. To change the ancestor container of a <code>Node</code>,<br>consider using the various methods available to set the start and end positions of the<br><code>Range</code>, such as <a class="xref" href="CSharpToJavaScript.APIs.JS.Range.html#CSharpToJavaScript_APIs_JS_Range_SetStart_CSharpToJavaScript_APIs_JS_Node_System_UInt64_">SetStart(Node, ulong)</a> and<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Range.html#CSharpToJavaScript_APIs_JS_Range_SetEnd_CSharpToJavaScript_APIs_JS_Node_System_UInt64_">SetEnd(Node, ulong)</a>.</p>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model">The DOM interfaces index</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Range/commonAncestorContainer"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Range/commonAncestorContainer">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -383,10 +395,10 @@ public class Range : AbstractRange</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Range_CloneContents" data-uid="CSharpToJavaScript.APIs.JS.Range.CloneContents">
   CloneContents()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6817"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4985"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>Range.cloneContents()</code></strong> returns a {{<br>domxref(&quot;DocumentFragment&quot;) }} copying the objects of type <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a><br>included in the <a class="xref" href="CSharpToJavaScript.APIs.JS.Range.html">Range</a>.</p>
+  <div class="markdown level1 summary"><p>The <strong><code>Range.cloneContents()</code></strong> returns a <a class="xref" href="CSharpToJavaScript.APIs.JS.DocumentFragment.html">DocumentFragment</a> copying the objects of type <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a><br>included in the <a class="xref" href="CSharpToJavaScript.APIs.JS.Range.html">Range</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -409,9 +421,14 @@ public class Range : AbstractRange</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_Range_CloneContents_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>Event listeners added using <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union41_">AddEventListener(string, Action?, Union41)</a><br>are not copied during cloning. HTML attribute events are duplicated as they are<br>for the <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_CloneNode_System_Boolean_">CloneNode(bool)</a> method. HTML <code>id</code> attributes<br>are also cloned, which can lead to an invalid document through cloning.</p><p>Partially selected nodes include the parent tags necessary to make the document<br>fragment valid.</p>
+  <div class="markdown level1 remarks"><p>Event listeners added using <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union27_">AddEventListener(string, Action?, Union27)</a><br>are not copied during cloning. HTML attribute events are duplicated as they are<br>for the <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_CloneNode_System_Boolean_">CloneNode(bool)</a> method. HTML <code>id</code> attributes<br>are also cloned, which can lead to an invalid document through cloning.</p>
+<p>Partially selected nodes include the parent tags necessary to make the document<br>fragment valid.</p>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model">The DOM interfaces index</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Range/cloneContents"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Range/cloneContents">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -421,7 +438,7 @@ public class Range : AbstractRange</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Range_CloneRange" data-uid="CSharpToJavaScript.APIs.JS.Range.CloneRange">
   CloneRange()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6823"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4991"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>Range.cloneRange()</code></strong> method returns a<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Range.html">Range</a> object with boundary points identical to the cloned<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Range.html">Range</a>.</p>
@@ -449,7 +466,11 @@ public class Range : AbstractRange</code></pre>
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_Range_CloneRange_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>The returned clone is copied by value, not reference, so a change in either<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Range.html">Range</a> does not affect the other.</p>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model">The DOM interfaces index</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Range/cloneRange"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Range/cloneRange">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -459,7 +480,7 @@ public class Range : AbstractRange</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Range_Collapse_System_Boolean_" data-uid="CSharpToJavaScript.APIs.JS.Range.Collapse(System.Boolean)">
   Collapse(bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6801"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4969"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>Range.collapse()</code></strong> method collapses the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Range.html">Range</a> to one of its boundary points.</p>
@@ -473,7 +494,7 @@ public class Range : AbstractRange</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>toStart</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd>The Range interface represents a fragment of a document that can contain nodes and parts of text nodes.</dd>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -492,7 +513,11 @@ public class Range : AbstractRange</code></pre>
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_Range_Collapse_System_Boolean__remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>A collapsed <a class="xref" href="CSharpToJavaScript.APIs.JS.Range.html">Range</a> is empty, containing no content, specifying a<br>single-point in a DOM tree. To determine if a <a class="xref" href="CSharpToJavaScript.APIs.JS.Range.html">Range</a> is already collapsed,<br>see the Range.Collapsed property.</p>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model">The DOM interfaces index</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Range/collapse"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Range/collapse">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -502,7 +527,7 @@ public class Range : AbstractRange</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Range_CompareBoundaryPoints_System_UInt16_CSharpToJavaScript_APIs_JS_Range_" data-uid="CSharpToJavaScript.APIs.JS.Range.CompareBoundaryPoints(System.UInt16,CSharpToJavaScript.APIs.JS.Range)">
   CompareBoundaryPoints(ushort, Range)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6811"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4979"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The<br><strong><code>Range.compareBoundaryPoints()</code></strong> method compares the<br>boundary points of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Range.html">Range</a> with those of another range.</p>
@@ -516,9 +541,9 @@ public class Range : AbstractRange</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>how</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
-    <dd>The Range interface represents a fragment of a document that can contain nodes and parts of text nodes.</dd>
+    <dd></dd>
     <dt><code>sourceRange</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Range.html">Range</a></dt>
-    <dd>The Range interface represents a fragment of a document that can contain nodes and parts of text nodes.</dd>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -536,7 +561,11 @@ public class Range : AbstractRange</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_Range_CompareBoundaryPoints_System_UInt16_CSharpToJavaScript_APIs_JS_Range__remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model">The DOM interfaces index</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Range/compareBoundaryPoints"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Range/compareBoundaryPoints">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -546,7 +575,7 @@ public class Range : AbstractRange</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Range_ComparePoint_CSharpToJavaScript_APIs_JS_Node_System_UInt64_" data-uid="CSharpToJavaScript.APIs.JS.Range.ComparePoint(CSharpToJavaScript.APIs.JS.Node,System.UInt64)">
   ComparePoint(Node, ulong)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6829"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4997"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>Range.comparePoint()</code></strong> method returns <code>-1</code>,<br><code>0</code>, or <code>1</code> depending on whether the <code>referenceNode</code> is<br>before, the same as, or after the <a class="xref" href="CSharpToJavaScript.APIs.JS.Range.html">Range</a>.</p>
@@ -560,9 +589,9 @@ public class Range : AbstractRange</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>node</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a></dt>
-    <dd>The Range interface represents a fragment of a document that can contain nodes and parts of text nodes.</dd>
+    <dd></dd>
     <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
-    <dd>The Range interface represents a fragment of a document that can contain nodes and parts of text nodes.</dd>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -581,7 +610,11 @@ public class Range : AbstractRange</code></pre>
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_Range_ComparePoint_CSharpToJavaScript_APIs_JS_Node_System_UInt64__remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>If the <strong>reference node</strong> is a <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a> of type <a class="xref" href="CSharpToJavaScript.APIs.JS.Text.html">Text</a>,<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Comment.html">Comment</a>, or <a class="xref" href="CSharpToJavaScript.APIs.JS.CDATASection.html">CDATASection</a>, then offset is the number of<br>characters from the start of <strong>reference node</strong>. For other <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a><br>types, offset is the number of child nodes between the start of the <strong>reference</strong><strong><br></strong><strong>node</strong>.</p>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model">The DOM interfaces index</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Range/comparePoint"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Range/comparePoint">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -591,7 +624,7 @@ public class Range : AbstractRange</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Range_CreateContextualFragment_System_String_" data-uid="CSharpToJavaScript.APIs.JS.Range.CreateContextualFragment(System.String)">
   CreateContextualFragment(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7056"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4193"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>Range.createContextualFragment()</code></strong> method returns a<br><a class="xref" href="CSharpToJavaScript.APIs.JS.DocumentFragment.html">DocumentFragment</a> by invoking the HTML fragment parsing algorithm or the<br>XML fragment parsing algorithm with the start of the range (the <strong>parent</strong> of the<br>selected node) as the context node. The HTML fragment parsing algorithm is used if the<br>range belongs to a <code>Document</code> whose HTMLness bit is set. In the HTML case, if<br>the context node would be <code>html</code>, for historical reasons the fragment parsing<br>algorithm is invoked with <code>body</code> as the context instead.</p>
@@ -605,7 +638,7 @@ public class Range : AbstractRange</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>fragment</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd>The Range interface represents a fragment of a document that can contain nodes and parts of text nodes.</dd>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -623,7 +656,11 @@ public class Range : AbstractRange</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_Range_CreateContextualFragment_System_String__remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model">The DOM interfaces index</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Range/createContextualFragment"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Range/createContextualFragment">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -633,7 +670,7 @@ public class Range : AbstractRange</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Range_DeleteContents" data-uid="CSharpToJavaScript.APIs.JS.Range.DeleteContents">
   DeleteContents()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6813"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4981"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>Range.deleteContents()</code></strong> method removes the contents of<br>the <a class="xref" href="CSharpToJavaScript.APIs.JS.Range.html">Range</a> from the <a class="xref" href="CSharpToJavaScript.APIs.JS.Document.html">Document</a>.</p>
@@ -661,7 +698,11 @@ public class Range : AbstractRange</code></pre>
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_Range_DeleteContents_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>Unlike <a class="xref" href="CSharpToJavaScript.APIs.JS.Range.html#CSharpToJavaScript_APIs_JS_Range_ExtractContents">ExtractContents()</a>, this method does not return a<br><a class="xref" href="CSharpToJavaScript.APIs.JS.DocumentFragment.html">DocumentFragment</a> containing the deleted content.</p>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model">The DOM interfaces index</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Range/deleteContents"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Range/deleteContents">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -671,7 +712,7 @@ public class Range : AbstractRange</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Range_Detach" data-uid="CSharpToJavaScript.APIs.JS.Range.Detach">
   Detach()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6825"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4993"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>Range.detach()</code></strong> method does nothing. It used to<br>disable the <a class="xref" href="CSharpToJavaScript.APIs.JS.Range.html">Range</a> object and enable the browser to release associated<br>resources. The method has been kept for compatibility.</p>
@@ -698,7 +739,11 @@ public class Range : AbstractRange</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_Range_Detach_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model">The DOM interfaces index</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Range/detach"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Range/detach">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -708,7 +753,7 @@ public class Range : AbstractRange</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Range_ExtractContents" data-uid="CSharpToJavaScript.APIs.JS.Range.ExtractContents">
   ExtractContents()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6815"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4983"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>Range.extractContents()</code></strong> method moves contents of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Range.html">Range</a> from the document tree into a <a class="xref" href="CSharpToJavaScript.APIs.JS.DocumentFragment.html">DocumentFragment</a>.</p>
@@ -734,9 +779,97 @@ public class Range : AbstractRange</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_Range_ExtractContents_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>Event listeners added using DOM Events are not retained during extraction. HTML<br>attribute events are retained or duplicated as they are for the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_CloneNode_System_Boolean_">CloneNode(bool)</a> method. HTML <code>id</code> attributes are also cloned,<br>which can lead to an invalid document if a partially-selected node is extracted and<br>appended to the document.</p><p>Partially selected nodes are cloned to include the parent tags necessary to make the<br>document fragment valid.</p>
+  <div class="markdown level1 remarks"><p>Event listeners added using DOM Events are not retained during extraction. HTML<br>attribute events are retained or duplicated as they are for the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_CloneNode_System_Boolean_">CloneNode(bool)</a> method. HTML <code>id</code> attributes are also cloned,<br>which can lead to an invalid document if a partially-selected node is extracted and<br>appended to the document.</p>
+<p>Partially selected nodes are cloned to include the parent tags necessary to make the<br>document fragment valid.</p>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model">The DOM interfaces index</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Range/extractContents"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Range/extractContents">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_Range_GetBoundingClientRect_" data-uid="CSharpToJavaScript.APIs.JS.Range.GetBoundingClientRect*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_Range_GetBoundingClientRect" data-uid="CSharpToJavaScript.APIs.JS.Range.GetBoundingClientRect">
+  GetBoundingClientRect()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L3641"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>Range.getBoundingClientRect()</code></strong> method returns a <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMRect.html">DOMRect</a> object that bounds the contents of the range; this is a rectangle<br>enclosing the union of the bounding rectangles for all the elements in the range.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DOMRect GetBoundingClientRect()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.DOMRect.html">DOMRect</a></dt>
+    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMRect.html">DOMRect</a> object that encloses the union of the bounding rectangles for all elements in the range.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Range_GetBoundingClientRect_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This method is useful for determining the viewport coordinates of the cursor or<br>selection inside a text box. See <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_GetBoundingClientRect">GetBoundingClientRect()</a> for<br>details on the returned value.</p>
+<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Range.html#CSharpToJavaScript_APIs_JS_Range_GetClientRects">GetClientRects()</a> - finer-grained result for non-rectangular<br>ranges (e.g., when the selection wraps onto the next line);<br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_GetBoundingClientRect">GetBoundingClientRect()</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Document.html#CSharpToJavaScript_APIs_JS_Document_CaretPositionFromPoint_CSharpToJavaScript_APIs_JS_Number_CSharpToJavaScript_APIs_JS_Number_">CaretPositionFromPoint(Number, Number)</a> - to get the (node, offset) from<br>viewport coordinates.<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Range/getBoundingClientRect">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_Range_GetClientRects_" data-uid="CSharpToJavaScript.APIs.JS.Range.GetClientRects*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_Range_GetClientRects" data-uid="CSharpToJavaScript.APIs.JS.Range.GetClientRects">
+  GetClientRects()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L3639"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>Range.getClientRects()</code></strong> method returns a list of <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMRect.html">DOMRect</a> objects representing the area of the screen occupied by the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Range">range</a>. This is created by aggregating the results of calls to<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_GetClientRects">GetClientRects()</a> for all the elements in the range.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DOMRectList GetClientRects()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.DOMRectList.html">DOMRectList</a></dt>
+    <dd><p>An <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#the_iterable_protocol">iterable</a> sequence of <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMRect.html">DOMRect</a> objects.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Range_GetClientRects_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Range.html">Range</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Range/getClientRects">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -746,7 +879,7 @@ public class Range : AbstractRange</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Range_InsertNode_CSharpToJavaScript_APIs_JS_Node_" data-uid="CSharpToJavaScript.APIs.JS.Range.InsertNode(CSharpToJavaScript.APIs.JS.Node)">
   InsertNode(Node)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6819"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4987"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>Range.insertNode()</code></strong> method inserts a node at the start<br>of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Range.html">Range</a>.</p>
@@ -760,7 +893,7 @@ public class Range : AbstractRange</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>node</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a></dt>
-    <dd>The Range interface represents a fragment of a document that can contain nodes and parts of text nodes.</dd>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -777,9 +910,14 @@ public class Range : AbstractRange</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_Range_InsertNode_CSharpToJavaScript_APIs_JS_Node__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>The new node is inserted at the start boundary point of the <code>Range</code>. If the<br>new node is to be added to a text <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a>, that <code>Node</code> is split<br>at the insertion point, and the insertion occurs between the two text nodes.</p><p>If the new node is a document fragment, the children of the document fragment are<br>inserted instead.</p>
+  <div class="markdown level1 remarks"><p>The new node is inserted at the start boundary point of the <code>Range</code>. If the<br>new node is to be added to a text <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a>, that <code>Node</code> is split<br>at the insertion point, and the insertion occurs between the two text nodes.</p>
+<p>If the new node is a document fragment, the children of the document fragment are<br>inserted instead.</p>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model">The DOM interfaces index</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Range/insertNode"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Range/insertNode">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -789,7 +927,7 @@ public class Range : AbstractRange</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Range_IntersectsNode_CSharpToJavaScript_APIs_JS_Node_" data-uid="CSharpToJavaScript.APIs.JS.Range.IntersectsNode(CSharpToJavaScript.APIs.JS.Node)">
   IntersectsNode(Node)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6831"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4999"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>Range.intersectsNode()</code></strong> method returns a boolean<br>indicating whether the given <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a> intersects the <a class="xref" href="CSharpToJavaScript.APIs.JS.Range.html">Range</a>.</p>
@@ -803,7 +941,7 @@ public class Range : AbstractRange</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>node</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a></dt>
-    <dd>The Range interface represents a fragment of a document that can contain nodes and parts of text nodes.</dd>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -821,7 +959,11 @@ public class Range : AbstractRange</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_Range_IntersectsNode_CSharpToJavaScript_APIs_JS_Node__remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model">The DOM interfaces index</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Range/intersectsNode"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Range/intersectsNode">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -831,7 +973,7 @@ public class Range : AbstractRange</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Range_IsPointInRange_CSharpToJavaScript_APIs_JS_Node_System_UInt64_" data-uid="CSharpToJavaScript.APIs.JS.Range.IsPointInRange(CSharpToJavaScript.APIs.JS.Node,System.UInt64)">
   IsPointInRange(Node, ulong)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6827"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4995"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>Range.isPointInRange()</code></strong> method returns a boolean<br>indicating whether the given point is in the <a class="xref" href="CSharpToJavaScript.APIs.JS.Range.html">Range</a>. It returns<br><code>true</code> if the point (cursor position) at <code>offset</code> within<br><code>ReferenceNode</code> is within this range.</p>
@@ -845,9 +987,9 @@ public class Range : AbstractRange</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>node</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a></dt>
-    <dd>The Range interface represents a fragment of a document that can contain nodes and parts of text nodes.</dd>
+    <dd></dd>
     <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
-    <dd>The Range interface represents a fragment of a document that can contain nodes and parts of text nodes.</dd>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -865,7 +1007,11 @@ public class Range : AbstractRange</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_Range_IsPointInRange_CSharpToJavaScript_APIs_JS_Node_System_UInt64__remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model">The DOM interfaces index</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Range/isPointInRange"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Range/isPointInRange">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -875,7 +1021,7 @@ public class Range : AbstractRange</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Range_SelectNode_CSharpToJavaScript_APIs_JS_Node_" data-uid="CSharpToJavaScript.APIs.JS.Range.SelectNode(CSharpToJavaScript.APIs.JS.Node)">
   SelectNode(Node)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6803"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4971"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>Range.selectNode()</code></strong> method sets the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Range.html">Range</a> to contain the <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a> and its contents. The parent<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a> of the start and end of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Range.html">Range</a> will be the same as<br>the parent of the <strong>referenceNode</strong>.</p>
@@ -889,7 +1035,7 @@ public class Range : AbstractRange</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>node</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a></dt>
-    <dd>The Range interface represents a fragment of a document that can contain nodes and parts of text nodes.</dd>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -907,7 +1053,11 @@ public class Range : AbstractRange</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_Range_SelectNode_CSharpToJavaScript_APIs_JS_Node__remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model">The DOM interfaces index</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Range/selectNode"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Range/selectNode">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -917,7 +1067,7 @@ public class Range : AbstractRange</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Range_SelectNodeContents_CSharpToJavaScript_APIs_JS_Node_" data-uid="CSharpToJavaScript.APIs.JS.Range.SelectNodeContents(CSharpToJavaScript.APIs.JS.Node)">
   SelectNodeContents(Node)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6805"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4973"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>Range.selectNodeContents()</code></strong> method sets the <a class="xref" href="CSharpToJavaScript.APIs.JS.Range.html">Range</a> to contain the contents of a <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a>.</p>
@@ -931,7 +1081,7 @@ public class Range : AbstractRange</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>node</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a></dt>
-    <dd>The Range interface represents a fragment of a document that can contain nodes and parts of text nodes.</dd>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -950,7 +1100,11 @@ public class Range : AbstractRange</code></pre>
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_Range_SelectNodeContents_CSharpToJavaScript_APIs_JS_Node__remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>The parent <code>Node</code> of the start and end of the <code>Range</code> will be the<br>reference node. The <code>startOffset</code> is 0, and the <code>endOffset</code> is the<br>number of child <code>Node</code>s or number of characters contained in the reference<br>node.</p>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model">The DOM interfaces index</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Range/selectNodeContents"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Range/selectNodeContents">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -960,10 +1114,10 @@ public class Range : AbstractRange</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Range_SetEnd_CSharpToJavaScript_APIs_JS_Node_System_UInt64_" data-uid="CSharpToJavaScript.APIs.JS.Range.SetEnd(CSharpToJavaScript.APIs.JS.Node,System.UInt64)">
   SetEnd(Node, ulong)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6791"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4959"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>Range.setEnd()</code></strong> method sets the end position of a {{<br>domxref(&amp;quot;Range&amp;quot;) }} to be located at the given offset into the specified node x.Setting<br>the end point above (higher in the document) than the start point will result in a<br>collapsed range with the start and end points both set to the specified end position.</p>
+  <div class="markdown level1 summary"><p>The <strong><code>Range.setEnd()</code></strong> method sets the end position of a <a class="xref" href="CSharpToJavaScript.APIs.JS.Range.html">Range</a> to be located at the given offset into the specified node x.Setting<br>the end point above (higher in the document) than the start point will result in a<br>collapsed range with the start and end points both set to the specified end position.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -974,9 +1128,9 @@ public class Range : AbstractRange</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>node</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a></dt>
-    <dd>The Range interface represents a fragment of a document that can contain nodes and parts of text nodes.</dd>
+    <dd></dd>
     <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
-    <dd>The Range interface represents a fragment of a document that can contain nodes and parts of text nodes.</dd>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -994,7 +1148,11 @@ public class Range : AbstractRange</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_Range_SetEnd_CSharpToJavaScript_APIs_JS_Node_System_UInt64__remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model">The DOM interfaces index</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Range/setEnd"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Range/setEnd">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -1004,7 +1162,7 @@ public class Range : AbstractRange</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Range_SetEndAfter_CSharpToJavaScript_APIs_JS_Node_" data-uid="CSharpToJavaScript.APIs.JS.Range.SetEndAfter(CSharpToJavaScript.APIs.JS.Node)">
   SetEndAfter(Node)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6799"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4967"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>Range.setEndAfter()</code></strong> method sets the end position of a<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Range.html">Range</a> relative to another <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a>. The parent<br><code>Node</code> of end of the <code>Range</code> will be the same as that for the<br><code>referenceNode</code>.</p>
@@ -1018,7 +1176,7 @@ public class Range : AbstractRange</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>node</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a></dt>
-    <dd>The Range interface represents a fragment of a document that can contain nodes and parts of text nodes.</dd>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -1036,7 +1194,11 @@ public class Range : AbstractRange</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_Range_SetEndAfter_CSharpToJavaScript_APIs_JS_Node__remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model">The DOM interfaces index</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Range/setEndAfter"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Range/setEndAfter">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -1046,7 +1208,7 @@ public class Range : AbstractRange</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Range_SetEndBefore_CSharpToJavaScript_APIs_JS_Node_" data-uid="CSharpToJavaScript.APIs.JS.Range.SetEndBefore(CSharpToJavaScript.APIs.JS.Node)">
   SetEndBefore(Node)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6797"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4965"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>Range.setEndBefore()</code></strong> method sets the end position of<br>a <code>Range</code> relative to another <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a>. The parent<br><code>Node</code> of end of the <code>Range</code> will be the same as that for the<br><code>referenceNode</code>.</p>
@@ -1060,7 +1222,7 @@ public class Range : AbstractRange</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>node</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a></dt>
-    <dd>The Range interface represents a fragment of a document that can contain nodes and parts of text nodes.</dd>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -1078,7 +1240,11 @@ public class Range : AbstractRange</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_Range_SetEndBefore_CSharpToJavaScript_APIs_JS_Node__remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model">The DOM interfaces index</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Range/setEndBefore"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Range/setEndBefore">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -1088,7 +1254,7 @@ public class Range : AbstractRange</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Range_SetStart_CSharpToJavaScript_APIs_JS_Node_System_UInt64_" data-uid="CSharpToJavaScript.APIs.JS.Range.SetStart(CSharpToJavaScript.APIs.JS.Node,System.UInt64)">
   SetStart(Node, ulong)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6789"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4957"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>Range.setStart()</code></strong> method sets the start position of a<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Range.html">Range</a>.</p>
@@ -1102,9 +1268,9 @@ public class Range : AbstractRange</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>node</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a></dt>
-    <dd>The Range interface represents a fragment of a document that can contain nodes and parts of text nodes.</dd>
+    <dd></dd>
     <dt><code>offset</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
-    <dd>The Range interface represents a fragment of a document that can contain nodes and parts of text nodes.</dd>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -1121,9 +1287,14 @@ public class Range : AbstractRange</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_Range_SetStart_CSharpToJavaScript_APIs_JS_Node_System_UInt64__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>If the <code>startNode</code> is a <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a> of type <a class="xref" href="CSharpToJavaScript.APIs.JS.Text.html">Text</a>,<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Comment.html">Comment</a>, or CDataSection, then <code>startOffset</code> is<br>the number of characters from the start of <code>startNode</code>. For other<br><code>Node</code> types, <code>startOffset</code> is the number of child nodes between<br>the start of the <code>startNode</code>.</p><p>Setting the start point below (lower in the document) the end point will result in a<br>collapsed range with the start and end points both set to the specified start position.</p>
+  <div class="markdown level1 remarks"><p>If the <code>startNode</code> is a <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a> of type <a class="xref" href="CSharpToJavaScript.APIs.JS.Text.html">Text</a>,<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Comment.html">Comment</a>, or CDataSection, then <code>startOffset</code> is<br>the number of characters from the start of <code>startNode</code>. For other<br><code>Node</code> types, <code>startOffset</code> is the number of child nodes between<br>the start of the <code>startNode</code>.</p>
+<p>Setting the start point below (lower in the document) the end point will result in a<br>collapsed range with the start and end points both set to the specified start position.</p>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model">The DOM interfaces index</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Range/setStart"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Range/setStart">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -1133,7 +1304,7 @@ public class Range : AbstractRange</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Range_SetStartAfter_CSharpToJavaScript_APIs_JS_Node_" data-uid="CSharpToJavaScript.APIs.JS.Range.SetStartAfter(CSharpToJavaScript.APIs.JS.Node)">
   SetStartAfter(Node)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6795"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4963"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>Range.setStartAfter()</code></strong> method sets the start position<br>of a <a class="xref" href="CSharpToJavaScript.APIs.JS.Range.html">Range</a> relative to a <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a>. The parent<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a> of the start of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Range.html">Range</a> will be the same as that<br>for the <code>referenceNode</code>.</p>
@@ -1147,7 +1318,7 @@ public class Range : AbstractRange</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>node</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a></dt>
-    <dd>The Range interface represents a fragment of a document that can contain nodes and parts of text nodes.</dd>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -1165,7 +1336,11 @@ public class Range : AbstractRange</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_Range_SetStartAfter_CSharpToJavaScript_APIs_JS_Node__remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model">The DOM interfaces index</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Range/setStartAfter"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Range/setStartAfter">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -1175,7 +1350,7 @@ public class Range : AbstractRange</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Range_SetStartBefore_CSharpToJavaScript_APIs_JS_Node_" data-uid="CSharpToJavaScript.APIs.JS.Range.SetStartBefore(CSharpToJavaScript.APIs.JS.Node)">
   SetStartBefore(Node)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6793"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4961"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>Range.setStartBefore()</code></strong> method sets the start position<br>of a <a class="xref" href="CSharpToJavaScript.APIs.JS.Range.html">Range</a> relative to another <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a>. The parent<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a> of the start of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Range.html">Range</a> will be the same as that<br>for the <code>referenceNode</code>.</p>
@@ -1189,7 +1364,7 @@ public class Range : AbstractRange</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>node</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a></dt>
-    <dd>The Range interface represents a fragment of a document that can contain nodes and parts of text nodes.</dd>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -1207,7 +1382,11 @@ public class Range : AbstractRange</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_Range_SetStartBefore_CSharpToJavaScript_APIs_JS_Node__remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model">The DOM interfaces index</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Range/setStartBefore"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Range/setStartBefore">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -1217,7 +1396,7 @@ public class Range : AbstractRange</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Range_SurroundContents_CSharpToJavaScript_APIs_JS_Node_" data-uid="CSharpToJavaScript.APIs.JS.Range.SurroundContents(CSharpToJavaScript.APIs.JS.Node)">
   SurroundContents(Node)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6821"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4989"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>Range.surroundContents()</code></strong> method moves content of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Range.html">Range</a> into a new node, placing the new node at the start of the<br>specified range.</p>
@@ -1231,7 +1410,7 @@ public class Range : AbstractRange</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>newParent</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a></dt>
-    <dd>The Range interface represents a fragment of a document that can contain nodes and parts of text nodes.</dd>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -1248,9 +1427,14 @@ public class Range : AbstractRange</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_Range_SurroundContents_CSharpToJavaScript_APIs_JS_Node__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>This method is nearly equivalent to<br><code>newNode.appendChild(range.extractContents()); range.insertNode(newNode)</code>.<br>After surrounding, the boundary points of the <code>range</code> include<br><code>newNode</code>.</p><p>An exception will be thrown, however, if the <a class="xref" href="CSharpToJavaScript.APIs.JS.Range.html">Range</a> splits a non-{{<br>domxref(&amp;quot;Text&amp;quot;) }} node with only one of its boundary points. That is, unlike the<br>alternative above, if there are partially selected nodes, they will not be cloned and<br>instead the operation will fail.</p>
+  <div class="markdown level1 remarks"><p>This method is nearly equivalent to<br><code>newNode.appendChild(range.extractContents()); range.insertNode(newNode)</code>.<br>After surrounding, the boundary points of the <code>range</code> include<br><code>newNode</code>.</p>
+<p>An exception will be thrown, however, if the <a class="xref" href="CSharpToJavaScript.APIs.JS.Range.html">Range</a> splits a non-<a class="xref" href="CSharpToJavaScript.APIs.JS.Text.html">Text</a><br>node with only one of its boundary points. That is, unlike the<br>alternative above, if there are partially selected nodes, they will not be cloned and<br>instead the operation will fail.</p>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model">The DOM interfaces index</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Range/surroundContents"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Range/surroundContents">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -1260,7 +1444,7 @@ public class Range : AbstractRange</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7053" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4950" class="edit-link">Edit this page</a>
         </div>
 
 

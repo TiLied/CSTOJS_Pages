@@ -2,13 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class HTMLAnchorElement
- | CSharpToJavaScript </title>
+      <title>Class HTMLAnchorElement | CSharpToJavaScript </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class HTMLAnchorElement
- | CSharpToJavaScript ">
+      <meta name="title" content="Class HTMLAnchorElement | CSharpToJavaScript ">
       
-      <meta name="description" content="The HTMLAnchorElement interface represents hyperlink elements and provides special properties and methods (beyond those of the regular  object interface that they inherit from) for manipulating the layout and presentation of such elements. This interface corresponds to &amp;amp;lt;a&amp;amp;gt; element; not to be confused with &amp;amp;lt;link&amp;amp;gt;, which is represented by HTMLLinkElement)">
+      <meta name="description" content="The HTMLAnchorElement interface represents hyperlink elements and provides special properties and methods (beyond those of the regular  object interface that they inherit from) for manipulating the layout and presentation of such elements. This interface corresponds to &amp;amp;lt;a&amp;amp;gt; element; not to be confused with &amp;amp;lt;link&amp;amp;gt;, which is represented by HTMLLinkElement.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -31,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -91,8 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_HTMLAnchorElement" data-uid="CSharpToJavaScript.APIs.JS.HTMLAnchorElement" class="text-break">
-    Class HTMLAnchorElement
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4060"><i class="bi bi-code-slash"></i></a>
+Class HTMLAnchorElement  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16745"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -100,13 +97,13 @@
   <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>The <strong><code>HTMLAnchorElement</code></strong> interface represents hyperlink elements and provides special properties and methods (beyond those of the regular <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html">HTMLElement</a> object interface that they inherit from) for manipulating the layout and presentation of such elements. This interface corresponds to <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a"><code>&amp;lt;a&amp;gt;</code></a> element; not to be confused with <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link"><code>&amp;lt;link&amp;gt;</code></a>, which is represented by <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLLinkElement"><code>HTMLLinkElement</code></a>)</p>
+  <div class="markdown summary"><p>The <strong><code>HTMLAnchorElement</code></strong> interface represents hyperlink elements and provides special properties and methods (beyond those of the regular <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html">HTMLElement</a> object interface that they inherit from) for manipulating the layout and presentation of such elements. This interface corresponds to <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a"><code>&amp;lt;a&amp;gt;</code></a> element; not to be confused with <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link"><code>&amp;lt;link&amp;gt;</code></a>, which is represented by <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLLinkElement"><code>HTMLLinkElement</code></a>.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[To(&quot;Default&quot;)]
-public class HTMLAnchorElement : HTMLElement, GlobalEventHandlers, ElementContentEditable, HTMLOrSVGElement, ElementCSSInlineStyle, HTMLHyperlinkElementUtils</code></pre>
+public class HTMLAnchorElement : HTMLElement, HTMLAttributionSrcElementUtils, HTMLHyperlinkElementUtils</code></pre>
   </div>
 
 
@@ -127,18 +124,33 @@ public class HTMLAnchorElement : HTMLElement, GlobalEventHandlers, ElementConten
   <dl class="typelist implements">
     <dt>Implements</dt>
     <dd>
-      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalEventHandlers.html">GlobalEventHandlers</a></div>
-      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.ElementContentEditable.html">ElementContentEditable</a></div>
-      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLOrSVGElement.html">HTMLOrSVGElement</a></div>
-      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.ElementCSSInlineStyle.html">ElementCSSInlineStyle</a></div>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLAttributionSrcElementUtils.html">HTMLAttributionSrcElementUtils</a></div>
       <div><a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLHyperlinkElementUtils.html">HTMLHyperlinkElementUtils</a></div>
     </dd>
   </dl>
 
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_OffsetParent">HTMLElement.OffsetParent</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_OffsetTop">HTMLElement.OffsetTop</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_OffsetLeft">HTMLElement.OffsetLeft</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_OffsetWidth">HTMLElement.OffsetWidth</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_OffsetHeight">HTMLElement.OffsetHeight</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_EditContext">HTMLElement.EditContext</a>
+    </div>
     <div>
       <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_Title">HTMLElement.Title</a>
     </div>
@@ -173,6 +185,9 @@ public class HTMLAnchorElement : HTMLElement, GlobalEventHandlers, ElementConten
       <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_Spellcheck">HTMLElement.Spellcheck</a>
     </div>
     <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_WritingSuggestions">HTMLElement.WritingSuggestions</a>
+    </div>
+    <div>
       <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_Autocapitalize">HTMLElement.Autocapitalize</a>
     </div>
     <div>
@@ -197,15 +212,6 @@ public class HTMLAnchorElement : HTMLElement, GlobalEventHandlers, ElementConten
       <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_Popover">HTMLElement.Popover</a>
     </div>
     <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLElement.html#CSharpToJavaScript_APIs_JS_HTMLElement_Style">HTMLElement.Style</a>
-    </div>
-    <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_Pseudo_CSharpToJavaScript_Utils_Unsupported_">Element.Pseudo(Unsupported)</a>
-    </div>
-    <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_Part">Element.Part</a>
-    </div>
-    <div>
       <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_GetSpatialNavigationContainer">Element.GetSpatialNavigationContainer()</a>
     </div>
     <div>
@@ -213,6 +219,72 @@ public class HTMLAnchorElement : HTMLElement, GlobalEventHandlers, ElementConten
     </div>
     <div>
       <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_SpatialNavigationSearch_CSharpToJavaScript_APIs_JS_SpatialNavigationDirection_CSharpToJavaScript_APIs_JS_SpatialNavigationSearchOptions_">Element.SpatialNavigationSearch(SpatialNavigationDirection, SpatialNavigationSearchOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_Pseudo_System_String_">Element.Pseudo(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_Part">Element.Part</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ComputedStyleMap">Element.ComputedStyleMap()</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_GetClientRects">Element.GetClientRects()</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_GetBoundingClientRect">Element.GetBoundingClientRect()</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_CheckVisibility_CSharpToJavaScript_APIs_JS_CheckVisibilityOptions_">Element.CheckVisibility(CheckVisibilityOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ScrollIntoView_CSharpToJavaScript_APIs_JS_Union22_">Element.ScrollIntoView(Union22)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_Scroll_CSharpToJavaScript_APIs_JS_ScrollToOptions_">Element.Scroll(ScrollToOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_Scroll_System_Double_System_Double_">Element.Scroll(double, double)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ScrollTo_CSharpToJavaScript_APIs_JS_ScrollToOptions_">Element.ScrollTo(ScrollToOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ScrollTo_System_Double_System_Double_">Element.ScrollTo(double, double)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ScrollBy_CSharpToJavaScript_APIs_JS_ScrollToOptions_">Element.ScrollBy(ScrollToOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ScrollBy_System_Double_System_Double_">Element.ScrollBy(double, double)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ScrollTop">Element.ScrollTop</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ScrollLeft">Element.ScrollLeft</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ScrollWidth">Element.ScrollWidth</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ScrollHeight">Element.ScrollHeight</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ClientTop">Element.ClientTop</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ClientLeft">Element.ClientLeft</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ClientWidth">Element.ClientWidth</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ClientHeight">Element.ClientHeight</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_CurrentCSSZoom">Element.CurrentCSSZoom</a>
     </div>
     <div>
       <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_NamespaceURI">Element.NamespaceURI</a>
@@ -320,13 +392,7 @@ public class HTMLAnchorElement : HTMLElement, GlobalEventHandlers, ElementConten
       <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_InsertAdjacentText_System_String_System_String_">Element.InsertAdjacentText(string, string)</a>
     </div>
     <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_InnerHTML">Element.InnerHTML</a>
-    </div>
-    <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_OuterHTML">Element.OuterHTML</a>
-    </div>
-    <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_InsertAdjacentHTML_System_String_System_String_">Element.InsertAdjacentHTML(string, string)</a>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ElementTiming">Element.ElementTiming</a>
     </div>
     <div>
       <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_RequestFullscreen_CSharpToJavaScript_APIs_JS_FullscreenOptions_">Element.RequestFullscreen(FullscreenOptions)</a>
@@ -338,10 +404,31 @@ public class HTMLAnchorElement : HTMLElement, GlobalEventHandlers, ElementConten
       <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_Onfullscreenerror">Element.Onfullscreenerror</a>
     </div>
     <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_Uiactions">Element.Uiactions</a>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_SetHTMLUnsafe_System_String_">Element.SetHTMLUnsafe(string)</a>
     </div>
     <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_Uitrigger">Element.Uitrigger</a>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_GetHTML_CSharpToJavaScript_APIs_JS_GetHTMLOptions_">Element.GetHTML(GetHTMLOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_InnerHTML">Element.InnerHTML</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_OuterHTML">Element.OuterHTML</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_InsertAdjacentHTML_System_String_System_String_">Element.InsertAdjacentHTML(string, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_SetPointerCapture_System_Int64_">Element.SetPointerCapture(long)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ReleasePointerCapture_System_Int64_">Element.ReleasePointerCapture(long)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_HasPointerCapture_System_Int64_">Element.HasPointerCapture(long)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_RequestPointerLock">Element.RequestPointerLock()</a>
     </div>
     <div>
       <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_ELEMENT_NODE">Node.ELEMENT_NODE</a>
@@ -485,22 +572,22 @@ public class HTMLAnchorElement : HTMLElement, GlobalEventHandlers, ElementConten
       <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_RemoveChild_CSharpToJavaScript_APIs_JS_Node_">Node.RemoveChild(Node)</a>
     </div>
     <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union41_">EventTarget.AddEventListener(string, Action, Union41)</a>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union27_">EventTarget.AddEventListener(string, Action, Union27)</a>
     </div>
     <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_MouseEvent__CSharpToJavaScript_APIs_JS_Union41_">EventTarget.AddEventListener(string, Action&lt;MouseEvent&gt;, Union41)</a>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_MouseEvent__CSharpToJavaScript_APIs_JS_Union27_">EventTarget.AddEventListener(string, Action&lt;MouseEvent&gt;, Union27)</a>
     </div>
     <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Event__CSharpToJavaScript_APIs_JS_Union41_">EventTarget.AddEventListener(string, Action&lt;Event&gt;, Union41)</a>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Event__CSharpToJavaScript_APIs_JS_Union27_">EventTarget.AddEventListener(string, Action&lt;Event&gt;, Union27)</a>
     </div>
     <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_RemoveEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union2_">EventTarget.RemoveEventListener(string, Action, Union2)</a>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_RemoveEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union28_">EventTarget.RemoveEventListener(string, Action, Union28)</a>
     </div>
     <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_CSharpToJavaScript_APIs_JS_EventListener_CSharpToJavaScript_APIs_JS_Union41_">EventTarget.AddEventListener(string, EventListener, Union41)</a>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_CSharpToJavaScript_APIs_JS_EventListener_CSharpToJavaScript_APIs_JS_Union27_">EventTarget.AddEventListener(string, EventListener, Union27)</a>
     </div>
     <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_RemoveEventListener_System_String_CSharpToJavaScript_APIs_JS_EventListener_CSharpToJavaScript_APIs_JS_Union42_">EventTarget.RemoveEventListener(string, EventListener, Union42)</a>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_RemoveEventListener_System_String_CSharpToJavaScript_APIs_JS_EventListener_CSharpToJavaScript_APIs_JS_Union28_">EventTarget.RemoveEventListener(string, EventListener, Union28)</a>
     </div>
     <div>
       <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_DispatchEvent_CSharpToJavaScript_APIs_JS_Event_">EventTarget.DispatchEvent(Event)</a>
@@ -534,7 +621,11 @@ public class HTMLAnchorElement : HTMLElement, GlobalEventHandlers, ElementConten
   <h2 id="CSharpToJavaScript_APIs_JS_HTMLAnchorElement_remarks">Remarks</h2>
   <div class="markdown level0 remarks"><p></p>
 <p>-The HTML element implementing this interface: <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a">a</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLAnchorElement"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLAnchorElement">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -546,7 +637,7 @@ public class HTMLAnchorElement : HTMLElement, GlobalEventHandlers, ElementConten
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLAnchorElement__ctor" data-uid="CSharpToJavaScript.APIs.JS.HTMLAnchorElement.#ctor">
   HTMLAnchorElement()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L539"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8604"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -572,11 +663,43 @@ public class HTMLAnchorElement : HTMLElement, GlobalEventHandlers, ElementConten
 </h2>
 
 
+  <a id="CSharpToJavaScript_APIs_JS_HTMLAnchorElement_AttributionSourceId_" data-uid="CSharpToJavaScript.APIs.JS.HTMLAnchorElement.AttributionSourceId*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLAnchorElement_AttributionSourceId" data-uid="CSharpToJavaScript.APIs.JS.HTMLAnchorElement.AttributionSourceId">
+  AttributionSourceId
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16747"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public ulong AttributionSourceId { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="CSharpToJavaScript_APIs_JS_HTMLAnchorElement_Charset_" data-uid="CSharpToJavaScript.APIs.JS.HTMLAnchorElement.Charset*"></a>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLAnchorElement_Charset" data-uid="CSharpToJavaScript.APIs.JS.HTMLAnchorElement.Charset">
   Charset
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4064"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L12415"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -594,7 +717,7 @@ public string Charset { get; set; }</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd>The HTMLAnchorElement interface represents hyperlink elements and provides special properties and methods (beyond those of the regular  object interface that they inherit from) for manipulating the layout and presentation of such elements. This interface corresponds to &amp;lt;a&amp;gt; element; not to be confused with &amp;lt;link&amp;gt;, which is represented by HTMLLinkElement)</dd>
+    <dd></dd>
   </dl>
 
 
@@ -608,7 +731,7 @@ public string Charset { get; set; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLAnchorElement_Coords" data-uid="CSharpToJavaScript.APIs.JS.HTMLAnchorElement.Coords">
   Coords
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4062"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L12413"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -626,7 +749,7 @@ public string Coords { get; set; }</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd>The HTMLAnchorElement interface represents hyperlink elements and provides special properties and methods (beyond those of the regular  object interface that they inherit from) for manipulating the layout and presentation of such elements. This interface corresponds to &amp;lt;a&amp;gt; element; not to be confused with &amp;lt;link&amp;gt;, which is represented by HTMLLinkElement)</dd>
+    <dd></dd>
   </dl>
 
 
@@ -640,7 +763,7 @@ public string Coords { get; set; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLAnchorElement_Download" data-uid="CSharpToJavaScript.APIs.JS.HTMLAnchorElement.Download">
   Download
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L543"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8609"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>HTMLAnchorElement.download</code></strong> property is a<br>string indicating that the linked resource is intended to be<br>downloaded rather than displayed in the browser. The value, if any, specifies the<br>default file name for use in labeling the resource in a local file system. If the name<br>is not a valid file name in the underlying OS, the browser will adjust it.</p>
@@ -667,8 +790,16 @@ public string Download { get; set; }</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLAnchorElement_Download_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><blockquote class="NOTE"><h5>NOTE</h5><p><strong>Note:</strong> This value might not be used for download. This value cannot<br>be used to determine whether the download will occur.</p></blockquote>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLAnchorElement/download"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><blockquote class="NOTE">
+  <h5>NOTE</h5>
+  <p>
+    <strong>Note:</strong> This value might not be used for download. This value cannot<br>be used to determine whether the download will occur.</p>
+</blockquote>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLAnchorElement/download">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -678,10 +809,11 @@ public string Download { get; set; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLAnchorElement_Hreflang" data-uid="CSharpToJavaScript.APIs.JS.HTMLAnchorElement.Hreflang">
   Hreflang
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L553"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8621"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The <strong><code>hreflang</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLAnchorElement.html">HTMLAnchorElement</a> interface is a string that is the language of the linked resource.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -696,12 +828,24 @@ public string Hreflang { get; set; }</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd>The HTMLAnchorElement interface represents hyperlink elements and provides special properties and methods (beyond those of the regular  object interface that they inherit from) for manipulating the layout and presentation of such elements. This interface corresponds to &amp;lt;a&amp;gt; element; not to be confused with &amp;lt;link&amp;gt;, which is represented by HTMLLinkElement)</dd>
+    <dd><p>A string that contains a language tag, or the empty string (<code>&amp;quot;&amp;quot;</code>) if there is no <code>hreflang</code> element.</p>
+</dd>
   </dl>
 
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLAnchorElement_Hreflang_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>It reflects the <code>hreflang</code> attribute of the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a">a</a> element and is the empty string (<code>&amp;quot;&amp;quot;</code>) if there is no <code>hreflang</code> element.</p>
+<p>Web browsers and search engines may use this information to understand the language of the linked content better, but they are not required to follow it. The value provided for the <code>hreflang</code> attribute adheres to the format defined in {{RFC(5646, "Tags for Identifying Languages (also known as BCP 47)")}}. If not, it is ignored.</p>
+<p>Web browsers do not rely solely on the <code>hreflang</code> attribute after fetching the linked resource. Instead, they use language information directly associated with the resource (e.g., through HTTP headers) to determine its language.</p>
+<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLLinkElement.html#CSharpToJavaScript_APIs_JS_HTMLLinkElement_Hreflang">Hreflang</a> property<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLAnchorElement/hreflang">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -710,7 +854,7 @@ public string Hreflang { get; set; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLAnchorElement_Name" data-uid="CSharpToJavaScript.APIs.JS.HTMLAnchorElement.Name">
   Name
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4066"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L12417"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -728,7 +872,7 @@ public string Name { get; set; }</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd>The HTMLAnchorElement interface represents hyperlink elements and provides special properties and methods (beyond those of the regular  object interface that they inherit from) for manipulating the layout and presentation of such elements. This interface corresponds to &amp;lt;a&amp;gt; element; not to be confused with &amp;lt;link&amp;gt;, which is represented by HTMLLinkElement)</dd>
+    <dd></dd>
   </dl>
 
 
@@ -742,10 +886,11 @@ public string Name { get; set; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLAnchorElement_Ping" data-uid="CSharpToJavaScript.APIs.JS.HTMLAnchorElement.Ping">
   Ping
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L545"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8612"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The <strong><code>ping</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLAnchorElement.html">HTMLAnchorElement</a> interface is a space-separated list of URLs. When the link is followed, the browser will send {{HTTPMethod(&quot;POST&quot;)}} requests with the body PING to the URLs.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -760,12 +905,26 @@ public string Ping { get; set; }</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd>The HTMLAnchorElement interface represents hyperlink elements and provides special properties and methods (beyond those of the regular  object interface that they inherit from) for manipulating the layout and presentation of such elements. This interface corresponds to &amp;lt;a&amp;gt; element; not to be confused with &amp;lt;link&amp;gt;, which is represented by HTMLLinkElement)</dd>
+    <dd></dd>
   </dl>
 
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLAnchorElement_Ping_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>It reflects the <code>ping</code> attribute of the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a">a</a> element.</p>
+<blockquote class="NOTE">
+  <h5>NOTE</h5>
+  <p>
+    <strong>Note:</strong> This property is not effective in Firefox and its usage may be limited due to privacy and security concerns.</p>
+</blockquote>
+<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLAreaElement.html#CSharpToJavaScript_APIs_JS_HTMLAreaElement_Ping">Ping</a> property<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLAnchorElement/ping">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -774,7 +933,7 @@ public string Ping { get; set; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLAnchorElement_ReferrerPolicy" data-uid="CSharpToJavaScript.APIs.JS.HTMLAnchorElement.ReferrerPolicy">
   ReferrerPolicy
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L560"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8630"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The<br><strong><code>HTMLAnchorElement.referrerPolicy</code></strong><br>property reflect the HTML <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#referrerpolicy"><code>referrerpolicy</code></a> attribute of the<br><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a">a</a> element defining which referrer is sent when fetching the resource.</p>
@@ -802,7 +961,11 @@ public string ReferrerPolicy { get; set; }</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLAnchorElement_ReferrerPolicy_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLImageElement.html#CSharpToJavaScript_APIs_JS_HTMLImageElement_ReferrerPolicy">ReferrerPolicy</a>,<br><a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLAreaElement.html#CSharpToJavaScript_APIs_JS_HTMLAreaElement_ReferrerPolicy">ReferrerPolicy</a>, and<br><a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLIFrameElement.html#CSharpToJavaScript_APIs_JS_HTMLIFrameElement_ReferrerPolicy">ReferrerPolicy</a>.<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLAnchorElement/referrerPolicy"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLAnchorElement/referrerPolicy">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -812,7 +975,7 @@ public string ReferrerPolicy { get; set; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLAnchorElement_Rel" data-uid="CSharpToJavaScript.APIs.JS.HTMLAnchorElement.Rel">
   Rel
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L548"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8615"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>HTMLAnchorElement.rel</code></strong> property reflects the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel"><code>rel</code></a> attribute. It is a string containing a space-separated list of link types indicating the relationship between the resource represented by the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a">a</a> element and the current document.</p>
@@ -840,7 +1003,11 @@ public string Rel { get; set; }</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLAnchorElement_Rel_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-The equivalent property on <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area">area</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link">link</a>,<br><a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLAreaElement.html#CSharpToJavaScript_APIs_JS_HTMLAreaElement_Rel">Rel</a> and <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLLinkElement.html#CSharpToJavaScript_APIs_JS_HTMLLinkElement_Rel">Rel</a>.<br>-The very same list but as tokens: <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLAnchorElement.html#CSharpToJavaScript_APIs_JS_HTMLAnchorElement_RelList">RelList</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLAnchorElement/rel"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLAnchorElement/rel">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -850,7 +1017,7 @@ public string Rel { get; set; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLAnchorElement_RelList" data-uid="CSharpToJavaScript.APIs.JS.HTMLAnchorElement.RelList">
   RelList
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L551"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8618"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>HTMLAnchorElement.relList</code></strong> read-only property reflects the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel"><code>rel</code></a> attribute. It is a live <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMTokenList.html">DOMTokenList</a> containing the set of link types indicating the relationship between the resource represented by the {{HTMLElement(&quot;a&quot;)}} element and the current document.</p>
@@ -879,7 +1046,11 @@ public DOMTokenList RelList { get; }</code></pre>
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLAnchorElement_RelList_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>The property itself is read-only, meaning you can&amp;apos;t substitute the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.DOMTokenList.html">DOMTokenList</a> with another one, but its contents can still be changed.</p>
 <p>-The equivalent property on <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area">area</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link">link</a>,<br><a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLAreaElement.html#CSharpToJavaScript_APIs_JS_HTMLAreaElement_RelList">RelList</a> and <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLLinkElement.html#CSharpToJavaScript_APIs_JS_HTMLLinkElement_RelList">RelList</a>.<br>-The very same list but as a space-separated tokens in a string:<br><a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLAnchorElement.html#CSharpToJavaScript_APIs_JS_HTMLAnchorElement_Rel">Rel</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLAnchorElement/relList"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLAnchorElement/relList">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -889,7 +1060,7 @@ public DOMTokenList RelList { get; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLAnchorElement_Rev" data-uid="CSharpToJavaScript.APIs.JS.HTMLAnchorElement.Rev">
   Rev
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4068"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L12419"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -907,7 +1078,7 @@ public string Rev { get; set; }</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd>The HTMLAnchorElement interface represents hyperlink elements and provides special properties and methods (beyond those of the regular  object interface that they inherit from) for manipulating the layout and presentation of such elements. This interface corresponds to &amp;lt;a&amp;gt; element; not to be confused with &amp;lt;link&amp;gt;, which is represented by HTMLLinkElement)</dd>
+    <dd></dd>
   </dl>
 
 
@@ -921,7 +1092,7 @@ public string Rev { get; set; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLAnchorElement_Shape" data-uid="CSharpToJavaScript.APIs.JS.HTMLAnchorElement.Shape">
   Shape
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4070"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L12421"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -939,7 +1110,7 @@ public string Shape { get; set; }</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd>The HTMLAnchorElement interface represents hyperlink elements and provides special properties and methods (beyond those of the regular  object interface that they inherit from) for manipulating the layout and presentation of such elements. This interface corresponds to &amp;lt;a&amp;gt; element; not to be confused with &amp;lt;link&amp;gt;, which is represented by HTMLLinkElement)</dd>
+    <dd></dd>
   </dl>
 
 
@@ -953,10 +1124,11 @@ public string Shape { get; set; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLAnchorElement_Target" data-uid="CSharpToJavaScript.APIs.JS.HTMLAnchorElement.Target">
   Target
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L540"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8606"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The <strong><code>target</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLAnchorElement.html">HTMLAnchorElement</a> interface is a string that indicates where to display the linked resource.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -971,12 +1143,22 @@ public string Target { get; set; }</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd>The HTMLAnchorElement interface represents hyperlink elements and provides special properties and methods (beyond those of the regular  object interface that they inherit from) for manipulating the layout and presentation of such elements. This interface corresponds to &amp;lt;a&amp;gt; element; not to be confused with &amp;lt;link&amp;gt;, which is represented by HTMLLinkElement)</dd>
+    <dd><p>A string representing the target. Its value can be:</p>
+</dd>
   </dl>
 
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLAnchorElement_Target_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>It reflects the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#target"><code>target</code></a> attribute of the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a">a</a> element.</p>
+<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLBaseElement.html#CSharpToJavaScript_APIs_JS_HTMLBaseElement_Target">Target</a> property<br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLFormElement.html#CSharpToJavaScript_APIs_JS_HTMLFormElement_Target">Target</a> property<br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLAreaElement.html#CSharpToJavaScript_APIs_JS_HTMLAreaElement_Target">Target</a> property<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLAnchorElement/target">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -985,10 +1167,11 @@ public string Target { get; set; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLAnchorElement_Text" data-uid="CSharpToJavaScript.APIs.JS.HTMLAnchorElement.Text">
   Text
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L557"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8627"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The <strong><code>text</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLAnchorElement.html">HTMLAnchorElement</a> represents the text inside the the element.<br>This property represents the same information as <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_TextContent">TextContent</a>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -1003,12 +1186,21 @@ public string Text { get; set; }</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd>The HTMLAnchorElement interface represents hyperlink elements and provides special properties and methods (beyond those of the regular  object interface that they inherit from) for manipulating the layout and presentation of such elements. This interface corresponds to &amp;lt;a&amp;gt; element; not to be confused with &amp;lt;link&amp;gt;, which is represented by HTMLLinkElement)</dd>
+    <dd><p>A string.</p>
+</dd>
   </dl>
 
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLAnchorElement_Text_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLScriptElement.html#CSharpToJavaScript_APIs_JS_HTMLScriptElement_Text">Text</a> property<br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLOptionElement.html#CSharpToJavaScript_APIs_JS_HTMLOptionElement_Text">Text</a> property<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLAnchorElement/text">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -1017,10 +1209,11 @@ public string Text { get; set; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLAnchorElement_Type" data-uid="CSharpToJavaScript.APIs.JS.HTMLAnchorElement.Type">
   Type
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L555"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8624"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The <strong><code>type</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLAnchorElement.html">HTMLAnchorElement</a> interface is a string that indicates the MIME type of the linked resource.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -1035,12 +1228,22 @@ public string Type { get; set; }</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd>The HTMLAnchorElement interface represents hyperlink elements and provides special properties and methods (beyond those of the regular  object interface that they inherit from) for manipulating the layout and presentation of such elements. This interface corresponds to &amp;lt;a&amp;gt; element; not to be confused with &amp;lt;link&amp;gt;, which is represented by HTMLLinkElement)</dd>
+    <dd><p>A string.</p>
+</dd>
   </dl>
 
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLAnchorElement_Type_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>It reflects the <code>type</code> attribute of the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a">a</a> element.</p>
+<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLLinkElement.html#CSharpToJavaScript_APIs_JS_HTMLLinkElement_Type">Type</a> property<br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLSourceElement.html#CSharpToJavaScript_APIs_JS_HTMLSourceElement_Type">Type</a> property<br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLEmbedElement.html#CSharpToJavaScript_APIs_JS_HTMLEmbedElement_Type">Type</a> property<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLAnchorElement/type">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -1049,7 +1252,7 @@ public string Type { get; set; }</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4060" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16745" class="edit-link">Edit this page</a>
         </div>
 
 

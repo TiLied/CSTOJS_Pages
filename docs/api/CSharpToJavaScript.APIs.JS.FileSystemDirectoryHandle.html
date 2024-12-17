@@ -2,13 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class FileSystemDirectoryHandle
- | CSharpToJavaScript </title>
+      <title>Class FileSystemDirectoryHandle | CSharpToJavaScript </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class FileSystemDirectoryHandle
- | CSharpToJavaScript ">
+      <meta name="title" content="Class FileSystemDirectoryHandle | CSharpToJavaScript ">
       
-      <meta name="description" content="The FileSystemDirectoryHandle interface of the &#39;File System Access API&#39; provides a handle to a file system directory.">
+      <meta name="description" content="The FileSystemDirectoryHandle interface of the {{domxref(&amp;amp;quot;File System API&amp;amp;quot;, &amp;amp;quot;File System API&amp;amp;quot;, &amp;amp;quot;&amp;amp;quot;, &amp;amp;quot;nocode&amp;amp;quot;)}} provides a handle to a file system directory.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -31,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -91,8 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_FileSystemDirectoryHandle" data-uid="CSharpToJavaScript.APIs.JS.FileSystemDirectoryHandle" class="text-break">
-    Class FileSystemDirectoryHandle
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8318"><i class="bi bi-code-slash"></i></a>
+Class FileSystemDirectoryHandle  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7331"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -100,7 +97,7 @@
   <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>The <strong><code>FileSystemDirectoryHandle</code></strong> interface of the 'File System Access API' provides a handle to a file system directory.</p>
+  <div class="markdown summary"><p>The <strong><code>FileSystemDirectoryHandle</code></strong> interface of the {{domxref(&amp;quot;File System API&amp;quot;, &amp;quot;File System API&amp;quot;, &amp;quot;&amp;quot;, &amp;quot;nocode&amp;quot;)}} provides a handle to a file system directory.</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -123,9 +120,15 @@ public class FileSystemDirectoryHandle : FileSystemHandle</code></pre>
 
 
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.FileSystemHandle.html#CSharpToJavaScript_APIs_JS_FileSystemHandle_QueryPermission_CSharpToJavaScript_APIs_JS_FileSystemHandlePermissionDescriptor_">FileSystemHandle.QueryPermission(FileSystemHandlePermissionDescriptor)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.FileSystemHandle.html#CSharpToJavaScript_APIs_JS_FileSystemHandle_RequestPermission_CSharpToJavaScript_APIs_JS_FileSystemHandlePermissionDescriptor_">FileSystemHandle.RequestPermission(FileSystemHandlePermissionDescriptor)</a>
+    </div>
     <div>
       <a class="xref" href="CSharpToJavaScript.APIs.JS.FileSystemHandle.html#CSharpToJavaScript_APIs_JS_FileSystemHandle_Kind">FileSystemHandle.Kind</a>
     </div>
@@ -162,9 +165,14 @@ public class FileSystemDirectoryHandle : FileSystemHandle</code></pre>
 
 
   <h2 id="CSharpToJavaScript_APIs_JS_FileSystemDirectoryHandle_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>The interface can be accessed via the 'window.ShowDirectoryPicker', 'StorageManager.GetDirectory', 'DataTransferItem.GetAsFileSystemHandle', and 'FileSystemDirectoryHandle.GetDirectoryHandle' methods.</p><p></p>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/File_System_Access_API">File System Access API</a><br>-<a href="https://web.dev/file-system-access/">The File System Access API: simplifying access to local files</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/FileSystemDirectoryHandle"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level0 remarks"><p>The interface can be accessed via the 'window.ShowDirectoryPicker', 'StorageManager.GetDirectory', 'DataTransferItem.GetAsFileSystemHandle', and 'FileSystemDirectoryHandle.GetDirectoryHandle' methods.</p>
+<p></p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/File_System_API">File System API</a><br>-<a href="https://developer.chrome.com/docs/capabilities/web-apis/file-system-access">The File System Access API: simplifying access to local files</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/FileSystemDirectoryHandle">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -176,7 +184,7 @@ public class FileSystemDirectoryHandle : FileSystemHandle</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_FileSystemDirectoryHandle_Item_System_Int32_" data-uid="CSharpToJavaScript.APIs.JS.FileSystemDirectoryHandle.Item(System.Int32)">
   this[int]
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8321"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7334"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -189,7 +197,7 @@ public class FileSystemDirectoryHandle : FileSystemHandle</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>i</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
-    <dd>The FileSystemDirectoryHandle interface of the 'File System Access API' provides a handle to a file system directory.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -198,7 +206,7 @@ public class FileSystemDirectoryHandle : FileSystemHandle</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd>The FileSystemDirectoryHandle interface of the 'File System Access API' provides a handle to a file system directory.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -216,7 +224,7 @@ public class FileSystemDirectoryHandle : FileSystemHandle</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_FileSystemDirectoryHandle_GetDirectoryHandle_System_String_CSharpToJavaScript_APIs_JS_FileSystemGetDirectoryOptions_" data-uid="CSharpToJavaScript.APIs.JS.FileSystemDirectoryHandle.GetDirectoryHandle(System.String,CSharpToJavaScript.APIs.JS.FileSystemGetDirectoryOptions)">
   GetDirectoryHandle(string, FileSystemGetDirectoryOptions)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8325"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7338"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>getDirectoryHandle()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.FileSystemDirectoryHandle.html">FileSystemDirectoryHandle</a> interface returns a<br>'FileSystemDirectoryHandle' for a subdirectory with the specified name<br>within the directory handle on which the method is called.</p>
@@ -230,9 +238,9 @@ public class FileSystemDirectoryHandle : FileSystemHandle</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd>The FileSystemDirectoryHandle interface of the 'File System Access API' provides a handle to a file system directory.</dd>
+    <dd></dd>
     <dt><code>options</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.FileSystemGetDirectoryOptions.html">FileSystemGetDirectoryOptions</a></dt>
-    <dd>The FileSystemDirectoryHandle interface of the 'File System Access API' provides a handle to a file system directory.</dd>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -249,8 +257,12 @@ public class FileSystemDirectoryHandle : FileSystemHandle</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_FileSystemDirectoryHandle_GetDirectoryHandle_System_String_CSharpToJavaScript_APIs_JS_FileSystemGetDirectoryOptions__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/File_System_Access_API">File System Access API</a><br>-<a href="https://web.dev/file-system-access/">The File System Access API: simplifying access to local files</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/FileSystemDirectoryHandle/getDirectoryHandle"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/File_System_API">File System API</a><br>-<a href="https://developer.chrome.com/docs/capabilities/web-apis/file-system-access">The File System Access API: simplifying access to local files</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/FileSystemDirectoryHandle/getDirectoryHandle">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -260,7 +272,7 @@ public class FileSystemDirectoryHandle : FileSystemHandle</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_FileSystemDirectoryHandle_GetFileHandle_System_String_CSharpToJavaScript_APIs_JS_FileSystemGetFileOptions_" data-uid="CSharpToJavaScript.APIs.JS.FileSystemDirectoryHandle.GetFileHandle(System.String,CSharpToJavaScript.APIs.JS.FileSystemGetFileOptions)">
   GetFileHandle(string, FileSystemGetFileOptions)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8323"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7336"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>getFileHandle()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.FileSystemDirectoryHandle.html">FileSystemDirectoryHandle</a> interface returns a<br>'FileSystemFileHandle' for a file with the specified name, within the<br>directory the method is called.</p>
@@ -274,9 +286,9 @@ public class FileSystemDirectoryHandle : FileSystemHandle</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd>The FileSystemDirectoryHandle interface of the 'File System Access API' provides a handle to a file system directory.</dd>
+    <dd></dd>
     <dt><code>options</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.FileSystemGetFileOptions.html">FileSystemGetFileOptions</a></dt>
-    <dd>The FileSystemDirectoryHandle interface of the 'File System Access API' provides a handle to a file system directory.</dd>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -293,8 +305,12 @@ public class FileSystemDirectoryHandle : FileSystemHandle</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_FileSystemDirectoryHandle_GetFileHandle_System_String_CSharpToJavaScript_APIs_JS_FileSystemGetFileOptions__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/File_System_Access_API">File System Access API</a><br>-<a href="https://web.dev/file-system-access/">The File System Access API: simplifying access to local files</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/FileSystemDirectoryHandle/getFileHandle"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/File_System_API">File System API</a><br>-<a href="https://developer.chrome.com/docs/capabilities/web-apis/file-system-access">The File System Access API: simplifying access to local files</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/FileSystemDirectoryHandle/getFileHandle">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -304,7 +320,7 @@ public class FileSystemDirectoryHandle : FileSystemHandle</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_FileSystemDirectoryHandle_RemoveEntry_System_String_CSharpToJavaScript_APIs_JS_FileSystemRemoveOptions_" data-uid="CSharpToJavaScript.APIs.JS.FileSystemDirectoryHandle.RemoveEntry(System.String,CSharpToJavaScript.APIs.JS.FileSystemRemoveOptions)">
   RemoveEntry(string, FileSystemRemoveOptions)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8327"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7340"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>removeEntry()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.FileSystemDirectoryHandle.html">FileSystemDirectoryHandle</a> interface attempts to remove an entry if the<br>directory handle contains a file or directory called the name specified.</p>
@@ -318,9 +334,9 @@ public class FileSystemDirectoryHandle : FileSystemHandle</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd>The FileSystemDirectoryHandle interface of the 'File System Access API' provides a handle to a file system directory.</dd>
+    <dd></dd>
     <dt><code>options</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.FileSystemRemoveOptions.html">FileSystemRemoveOptions</a></dt>
-    <dd>The FileSystemDirectoryHandle interface of the 'File System Access API' provides a handle to a file system directory.</dd>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -337,8 +353,12 @@ public class FileSystemDirectoryHandle : FileSystemHandle</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_FileSystemDirectoryHandle_RemoveEntry_System_String_CSharpToJavaScript_APIs_JS_FileSystemRemoveOptions__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/File_System_Access_API">File System Access API</a><br>-<a href="https://web.dev/file-system-access/">The File System Access API: simplifying access to local files</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/FileSystemDirectoryHandle/removeEntry"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/File_System_API">File System API</a><br>-<a href="https://developer.chrome.com/docs/capabilities/web-apis/file-system-access">The File System Access API: simplifying access to local files</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/FileSystemDirectoryHandle/removeEntry">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -348,7 +368,7 @@ public class FileSystemDirectoryHandle : FileSystemHandle</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_FileSystemDirectoryHandle_Resolve_CSharpToJavaScript_APIs_JS_FileSystemHandle_" data-uid="CSharpToJavaScript.APIs.JS.FileSystemDirectoryHandle.Resolve(CSharpToJavaScript.APIs.JS.FileSystemHandle)">
   Resolve(FileSystemHandle)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8329"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7342"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>resolve()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.FileSystemDirectoryHandle.html">FileSystemDirectoryHandle</a> interface returns an {{jsxref('Array')}} of<br>directory names from the parent handle to the specified child entry, with the name of<br>the child entry as the last array item.</p>
@@ -362,7 +382,7 @@ public class FileSystemDirectoryHandle : FileSystemHandle</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>possibleDescendant</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.FileSystemHandle.html">FileSystemHandle</a></dt>
-    <dd>The FileSystemDirectoryHandle interface of the 'File System Access API' provides a handle to a file system directory.</dd>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -379,8 +399,12 @@ public class FileSystemDirectoryHandle : FileSystemHandle</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_FileSystemDirectoryHandle_Resolve_CSharpToJavaScript_APIs_JS_FileSystemHandle__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/File_System_Access_API">File System Access API</a><br>-<a href="https://web.dev/file-system-access/">The File System Access API: simplifying access to local files</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/FileSystemDirectoryHandle/resolve"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/File_System_API">File System API</a><br>-<a href="https://developer.chrome.com/docs/capabilities/web-apis/file-system-access">The File System Access API: simplifying access to local files</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/FileSystemDirectoryHandle/resolve">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -390,7 +414,7 @@ public class FileSystemDirectoryHandle : FileSystemHandle</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8318" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7331" class="edit-link">Edit this page</a>
         </div>
 
 

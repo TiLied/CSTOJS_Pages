@@ -1,0 +1,611 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class PerformanceElementTiming | CSharpToJavaScript </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class PerformanceElementTiming | CSharpToJavaScript ">
+      
+      <meta name="description" content="The PerformanceElementTiming interface contains render timing information for image and text node elements the developer annotated with an elementtiming attribute for observation.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/TiLied/CSharpToJavaScript/new/master/apiSpec/new?filename=CSharpToJavaScript_APIs_JS_PerformanceElementTiming.md&amp;value=---%0Auid%3A%20CSharpToJavaScript.APIs.JS.PerformanceElementTiming%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="CSharpToJavaScript.APIs.JS.PerformanceElementTiming">
+
+
+
+  <h1 id="CSharpToJavaScript_APIs_JS_PerformanceElementTiming" data-uid="CSharpToJavaScript.APIs.JS.PerformanceElementTiming" class="text-break">
+Class PerformanceElementTiming  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5398"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CSharpToJavaScript.html">CSharpToJavaScript</a>.<a class="xref" href="CSharpToJavaScript.APIs.html">APIs</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.html">JS</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>The <strong><code>PerformanceElementTiming</code></strong> interface contains render timing information for image and text node elements the developer annotated with an <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/elementtiming"><code>elementtiming</code></a> attribute for observation.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public class PerformanceElementTiming : PerformanceEntry</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceEntry.html">PerformanceEntry</a></div>
+      <div><span class="xref">PerformanceElementTiming</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceEntry.html#CSharpToJavaScript_APIs_JS_PerformanceEntry_Name">PerformanceEntry.Name</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceEntry.html#CSharpToJavaScript_APIs_JS_PerformanceEntry_EntryType">PerformanceEntry.EntryType</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceEntry.html#CSharpToJavaScript_APIs_JS_PerformanceEntry_StartTime">PerformanceEntry.StartTime</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceEntry.html#CSharpToJavaScript_APIs_JS_PerformanceEntry_Duration">PerformanceEntry.Duration</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceEntry.html#CSharpToJavaScript_APIs_JS_PerformanceEntry_NavigationId">PerformanceEntry.NavigationId</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+  <h2 id="CSharpToJavaScript_APIs_JS_PerformanceElementTiming_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/elementtiming"><code>elementtiming</code></a> HTML attribute<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/PerformanceElementTiming">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_PerformanceElementTiming_Element_" data-uid="CSharpToJavaScript.APIs.JS.PerformanceElementTiming.Element*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_PerformanceElementTiming_Element" data-uid="CSharpToJavaScript.APIs.JS.PerformanceElementTiming.Element">
+  Element
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5416"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>element</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceElementTiming.html">PerformanceElementTiming</a> interface returns an <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceElementTiming.html#CSharpToJavaScript_APIs_JS_PerformanceElementTiming_Element">Element</a> which is a pointer to the observed element.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Element? Element { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html">Element</a></dt>
+    <dd><p>An <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceElementTiming.html#CSharpToJavaScript_APIs_JS_PerformanceElementTiming_Element">Element</a>, or <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/null"><code>null</code></a> if the element is a <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_shadow_DOM">shadow DOM</a> element.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_PerformanceElementTiming_Element_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/PerformanceElementTiming/element">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_PerformanceElementTiming_Id_" data-uid="CSharpToJavaScript.APIs.JS.PerformanceElementTiming.Id*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_PerformanceElementTiming_Id" data-uid="CSharpToJavaScript.APIs.JS.PerformanceElementTiming.Id">
+  Id
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5414"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>id</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceElementTiming.html">PerformanceElementTiming</a> interface returns the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes#id"><code>id</code></a> of the associated element.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Id { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A string.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_PerformanceElementTiming_Id_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/PerformanceElementTiming/id">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_PerformanceElementTiming_Identifier_" data-uid="CSharpToJavaScript.APIs.JS.PerformanceElementTiming.Identifier*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_PerformanceElementTiming_Identifier" data-uid="CSharpToJavaScript.APIs.JS.PerformanceElementTiming.Identifier">
+  Identifier
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5408"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>identifier</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceElementTiming.html">PerformanceElementTiming</a> interface returns the value of the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/elementtiming"><code>elementtiming</code></a> attribute on the element.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Identifier { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A string.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_PerformanceElementTiming_Identifier_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/PerformanceElementTiming/identifier">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_PerformanceElementTiming_IntersectionRect_" data-uid="CSharpToJavaScript.APIs.JS.PerformanceElementTiming.IntersectionRect*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_PerformanceElementTiming_IntersectionRect" data-uid="CSharpToJavaScript.APIs.JS.PerformanceElementTiming.IntersectionRect">
+  IntersectionRect
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5406"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>intersectionRect</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceElementTiming.html">PerformanceElementTiming</a> interface returns the rectangle of the element within the viewport.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DOMRectReadOnly IntersectionRect { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.DOMRectReadOnly.html">DOMRectReadOnly</a></dt>
+    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMRectReadOnly.html">DOMRectReadOnly</a> which is the rectangle of the element within the viewport.For display images this is the display rectangle of the image within the viewport. For text this is the display rectangle of the node in the viewport. This being the smallest rectangle that contains the union of all text nodes that belong to the element.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_PerformanceElementTiming_IntersectionRect_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/PerformanceElementTiming/intersectionRect">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_PerformanceElementTiming_LoadTime_" data-uid="CSharpToJavaScript.APIs.JS.PerformanceElementTiming.LoadTime*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_PerformanceElementTiming_LoadTime" data-uid="CSharpToJavaScript.APIs.JS.PerformanceElementTiming.LoadTime">
+  LoadTime
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5404"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>loadTime</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceElementTiming.html">PerformanceElementTiming</a> interface always returns <code>0</code> for text. For images it returns the time which is the latest between the time the image resource is loaded and the time it is attached to the element.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Number LoadTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a> with the <code>loadTime</code> of the element. Always <code>0</code> for text.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_PerformanceElementTiming_LoadTime_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/PerformanceElementTiming/loadTime">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_PerformanceElementTiming_NaturalHeight_" data-uid="CSharpToJavaScript.APIs.JS.PerformanceElementTiming.NaturalHeight*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_PerformanceElementTiming_NaturalHeight" data-uid="CSharpToJavaScript.APIs.JS.PerformanceElementTiming.NaturalHeight">
+  NaturalHeight
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5412"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>naturalHeight</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceElementTiming.html">PerformanceElementTiming</a> interface returns the intrinsic height of the image element.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong NaturalHeight { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd><p>An unsigned 32-bit integer (unsigned long) which is the intrinsic height of the image if this is applied to an image, <code>0</code> for text.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_PerformanceElementTiming_NaturalHeight_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/PerformanceElementTiming/naturalHeight">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_PerformanceElementTiming_NaturalWidth_" data-uid="CSharpToJavaScript.APIs.JS.PerformanceElementTiming.NaturalWidth*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_PerformanceElementTiming_NaturalWidth" data-uid="CSharpToJavaScript.APIs.JS.PerformanceElementTiming.NaturalWidth">
+  NaturalWidth
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5410"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>naturalWidth</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceElementTiming.html">PerformanceElementTiming</a> interface returns the intrinsic width of the image element.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong NaturalWidth { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd><p>An unsigned 32-bit integer (unsigned long) which is the intrinsic width of the image if this is applied to an image, <code>0</code> for text.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_PerformanceElementTiming_NaturalWidth_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/PerformanceElementTiming/naturalWidth">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_PerformanceElementTiming_RenderTime_" data-uid="CSharpToJavaScript.APIs.JS.PerformanceElementTiming.RenderTime*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_PerformanceElementTiming_RenderTime" data-uid="CSharpToJavaScript.APIs.JS.PerformanceElementTiming.RenderTime">
+  RenderTime
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5402"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>renderTime</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceElementTiming.html">PerformanceElementTiming</a> interface returns the render time of the associated element.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Number RenderTime { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a> with the render time of the element.For images this will be the <strong>image rendering timestamp</strong>. This is defined as the next paint that occurs after the image becomes fully loaded. If the timing allow check fails (as defined by the <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Timing-Allow-Origin">Timing-allow-origin</a> header) this will return <code>0</code>.For text nodes this will be the <strong>text rendering timestamp</strong>. This is defined as when the element becomes text painted.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_PerformanceElementTiming_RenderTime_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/PerformanceElementTiming/renderTime">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_PerformanceElementTiming_Url_" data-uid="CSharpToJavaScript.APIs.JS.PerformanceElementTiming.Url*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_PerformanceElementTiming_Url" data-uid="CSharpToJavaScript.APIs.JS.PerformanceElementTiming.Url">
+  Url
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5418"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>url</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceElementTiming.html">PerformanceElementTiming</a> interface returns the initial URL of the resource request when the element is an image.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Url { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>A string which is the initial URL of the resources request for images or <code>0</code> for text.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_PerformanceElementTiming_Url_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/PerformanceElementTiming/url">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_PerformanceElementTiming_ToJSON_" data-uid="CSharpToJavaScript.APIs.JS.PerformanceElementTiming.ToJSON*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_PerformanceElementTiming_ToJSON" data-uid="CSharpToJavaScript.APIs.JS.PerformanceElementTiming.ToJSON">
+  ToJSON()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5420"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>toJSON()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceElementTiming.html">PerformanceElementTiming</a> interface is a {{Glossary(&quot;Serialization&quot;,&quot;serializer&quot;)}}; it returns a JSON representation of the <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceElementTiming.html">PerformanceElementTiming</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object ToJSON()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dd><p>A {{jsxref(&quot;JSON&quot;)}} object that is the serialization of the <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceElementTiming.html">PerformanceElementTiming</a> object.The JSON doesn't contain the <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceElementTiming.html#CSharpToJavaScript_APIs_JS_PerformanceElementTiming_Element">Element</a> property because it is of type <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceElementTiming.html#CSharpToJavaScript_APIs_JS_PerformanceElementTiming_Element">Element</a>, which doesn't provide a <code>toJSON()</code> operation. The <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceElementTiming.html#CSharpToJavaScript_APIs_JS_PerformanceElementTiming_Id">Id</a> of the element is provided, though.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_PerformanceElementTiming_ToJSON_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-JSON<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/PerformanceElementTiming/toJSON">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5398" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

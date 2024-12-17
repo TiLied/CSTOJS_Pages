@@ -2,11 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Enum HighlightType
- | CSharpToJavaScript </title>
+      <title>Enum HighlightType | CSharpToJavaScript </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Enum HighlightType
- | CSharpToJavaScript ">
+      <meta name="title" content="Enum HighlightType | CSharpToJavaScript ">
       
       <meta name="description" content="The type property of the  interface is an enumerated {{jsxref(&amp;quot;String&amp;quot;)}} used to specify the meaning of the highlight. This allows assistive technologies, such as screen readers, to include this meaning when exposing the highlight to users.">
       <link rel="icon" href="../favicon.ico">
@@ -31,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -92,8 +90,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_HighlightType" data-uid="CSharpToJavaScript.APIs.JS.HighlightType" class="text-break">
-    Enum HighlightType
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5073"><i class="bi bi-code-slash"></i></a>
+Enum HighlightType  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L2081"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -106,7 +103,8 @@
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public enum HighlightType</code></pre>
+    <pre><code class="lang-csharp hljs">[To(&quot;None&quot;)]
+public enum HighlightType</code></pre>
   </div>
 
 
@@ -120,11 +118,14 @@
   <h2 id="fields">Fields
 </h2>
   <dl class="parameters">
-    <dt id="CSharpToJavaScript_APIs_JS_HighlightType_GrammarError"><code>GrammarError = 2</code></dt>
+    <dt id="CSharpToJavaScript_APIs_JS_HighlightType_GrammarError"><code>[Value(&quot;grammar-error&quot;)]
+GrammarError = 2</code></dt>
     <dd></dd>
-    <dt id="CSharpToJavaScript_APIs_JS_HighlightType_Highlight"><code>Highlight = 0</code></dt>
+    <dt id="CSharpToJavaScript_APIs_JS_HighlightType_Highlight"><code>[Value(&quot;highlight&quot;)]
+Highlight = 0</code></dt>
     <dd></dd>
-    <dt id="CSharpToJavaScript_APIs_JS_HighlightType_SpellingError"><code>SpellingError = 1</code></dt>
+    <dt id="CSharpToJavaScript_APIs_JS_HighlightType_SpellingError"><code>[Value(&quot;spelling-error&quot;)]
+SpellingError = 1</code></dt>
     <dd></dd>
   </dl>
 
@@ -132,13 +133,17 @@
   <h2 id="CSharpToJavaScript_APIs_JS_HighlightType_remarks">Remarks</h2>
   <div class="markdown level0 remarks"><p>By default, a highlight object will have its type set to <code>highlight</code>, but you can change it to <code>spelling-error</code> or <code>grammar-error</code>.</p>
 <p>-{{domxref(&amp;quot;css_custom_highlight_api&amp;quot;, &amp;quot;The CSS Custom Highlight API&amp;quot;, &amp;quot;&amp;quot;, &amp;quot;nocode&amp;quot;)}}<br>-<a href="https://css-tricks.com/css-custom-highlight-api-early-look/">CSS Custom Highlight API: The Future of Highlighting Text Ranges on the Web</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Highlight/type"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Highlight/type">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5073" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L2081" class="edit-link">Edit this page</a>
         </div>
 
 

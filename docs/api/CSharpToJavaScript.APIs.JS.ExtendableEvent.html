@@ -2,11 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class ExtendableEvent
- | CSharpToJavaScript </title>
+      <title>Class ExtendableEvent | CSharpToJavaScript </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class ExtendableEvent
- | CSharpToJavaScript ">
+      <meta name="title" content="Class ExtendableEvent | CSharpToJavaScript ">
       
       <meta name="description" content="The ExtendableEvent interface extends the lifetime of the install and activate events dispatched on the global scope as part of the service worker lifecycle. This ensures that any functional events (like ) are not dispatched until it upgrades database schemas and deletes the outdated cache entries.">
       <link rel="icon" href="../favicon.ico">
@@ -31,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -91,8 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_ExtendableEvent" data-uid="CSharpToJavaScript.APIs.JS.ExtendableEvent" class="text-break">
-    Class ExtendableEvent
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L11194"><i class="bi bi-code-slash"></i></a>
+Class ExtendableEvent  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L18229"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -125,13 +122,23 @@ public class ExtendableEvent : Event</code></pre>
   <dl class="typelist derived">
     <dt>Derived</dt>
     <dd>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.BackgroundFetchEvent.html">BackgroundFetchEvent</a></div>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.CanMakePaymentEvent.html">CanMakePaymentEvent</a></div>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.ContentIndexEvent.html">ContentIndexEvent</a></div>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.ExtendableCookieChangeEvent.html">ExtendableCookieChangeEvent</a></div>
       <div><a class="xref" href="CSharpToJavaScript.APIs.JS.ExtendableMessageEvent.html">ExtendableMessageEvent</a></div>
       <div><a class="xref" href="CSharpToJavaScript.APIs.JS.FetchEvent.html">FetchEvent</a></div>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.InstallEvent.html">InstallEvent</a></div>
       <div><a class="xref" href="CSharpToJavaScript.APIs.JS.NotificationEvent.html">NotificationEvent</a></div>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.PaymentRequestEvent.html">PaymentRequestEvent</a></div>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.PeriodicSyncEvent.html">PeriodicSyncEvent</a></div>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.PushEvent.html">PushEvent</a></div>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.PushSubscriptionChangeEvent.html">PushSubscriptionChangeEvent</a></div>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.SyncEvent.html">SyncEvent</a></div>
     </dd>
   </dl>
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
     <div>
@@ -227,9 +234,20 @@ public class ExtendableEvent : Event</code></pre>
 
 
   <h2 id="CSharpToJavaScript_APIs_JS_ExtendableEvent_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>If <a class="xref" href="CSharpToJavaScript.APIs.JS.ExtendableEvent.html#CSharpToJavaScript_APIs_JS_ExtendableEvent_WaitUntil_System_Threading_Tasks_Task_System_Object__">WaitUntil(Task&lt;dynamic&gt;)</a> is called outside of the <code>ExtendableEvent</code> handler, the browser should throw an <code>InvalidStateError</code>; note also that multiple calls will stack up, and the resulting promises will be added to the list of <a href="https://w3c.github.io/ServiceWorker/#extendableevent-extend-lifetime-promises">extend lifetime promises</a>.</p><blockquote class="NOTE"><h5>NOTE</h5><p><strong>Note:</strong> The behavior described in the above paragraph was fixed in Firefox 43 (see <a href="https://bugzil.la/1180274">Firefox bug 1180274</a>.)</p></blockquote><p>This interface inherits from the <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html">Event</a> interface.</p><p></p><blockquote class="NOTE"><h5>NOTE</h5><p><strong>Note:</strong> This interface is only available when the global scope is a <a class="xref" href="CSharpToJavaScript.APIs.JS.ServiceWorkerGlobalScope.html">ServiceWorkerGlobalScope</a>. It is not available when it is a <a class="xref" href="CSharpToJavaScript.APIs.JS.Window.html">Window</a>, or the scope of another kind of worker.</p></blockquote>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers">Using Service Workers</a><br>-<a href="https://github.com/mdn/dom-examples/tree/main/service-worker/simple-service-worker">Service workers basic code example</a><br>-<a href="https://jakearchibald.github.io/isserviceworkerready/">Is ServiceWorker ready?</a><br>-Promise<br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers">Using web workers</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/ExtendableEvent"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level0 remarks"><p>If <a class="xref" href="CSharpToJavaScript.APIs.JS.ExtendableEvent.html#CSharpToJavaScript_APIs_JS_ExtendableEvent_WaitUntil_System_Threading_Tasks_Task_System_Object__">WaitUntil(Task&lt;dynamic&gt;)</a> is called outside of the <code>ExtendableEvent</code> handler, the browser should throw an <code>InvalidStateError</code>; note also that multiple calls will stack up, and the resulting promises will be added to the list of <a href="https://w3c.github.io/ServiceWorker/#extendableevent-extend-lifetime-promises">extend lifetime promises</a>.</p>
+<p>This interface inherits from the <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html">Event</a> interface.</p>
+<p></p>
+<blockquote class="NOTE">
+  <h5>NOTE</h5>
+  <p>
+    <strong>Note:</strong> This interface is only available when the global scope is a <a class="xref" href="CSharpToJavaScript.APIs.JS.ServiceWorkerGlobalScope.html">ServiceWorkerGlobalScope</a>. It is not available when it is a <a class="xref" href="CSharpToJavaScript.APIs.JS.Window.html">Window</a>, or the scope of another kind of worker.</p>
+</blockquote>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers">Using Service Workers</a><br>-<a href="https://github.com/mdn/dom-examples/tree/main/service-worker/simple-service-worker">Service workers basic code example</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers">Using web workers</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/ExtendableEvent">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -241,7 +259,7 @@ public class ExtendableEvent : Event</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_ExtendableEvent__ctor" data-uid="CSharpToJavaScript.APIs.JS.ExtendableEvent.#ctor">
   ExtendableEvent()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L11201"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L18236"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -267,7 +285,7 @@ public class ExtendableEvent : Event</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_ExtendableEvent__ctor_System_String_CSharpToJavaScript_APIs_JS_ExtendableEventInit_" data-uid="CSharpToJavaScript.APIs.JS.ExtendableEvent.#ctor(System.String,CSharpToJavaScript.APIs.JS.ExtendableEventInit)">
   ExtendableEvent(string, ExtendableEventInit)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L11198"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L18233"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>ExtendableEvent()</code></strong> constructor creates a new <a class="xref" href="CSharpToJavaScript.APIs.JS.ExtendableEvent.html">ExtendableEvent</a> object.</p>
@@ -281,9 +299,9 @@ public class ExtendableEvent : Event</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd>The ExtendableEvent interface extends the lifetime of the install and activate events dispatched on the global scope as part of the service worker lifecycle. This ensures that any functional events (like ) are not dispatched until it upgrades database schemas and deletes the outdated cache entries.</dd>
+    <dd></dd>
     <dt><code>eventInitDict</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.ExtendableEventInit.html">ExtendableEventInit</a></dt>
-    <dd>The ExtendableEvent interface extends the lifetime of the install and activate events dispatched on the global scope as part of the service worker lifecycle. This ensures that any functional events (like ) are not dispatched until it upgrades database schemas and deletes the outdated cache entries.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -294,8 +312,12 @@ public class ExtendableEvent : Event</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_ExtendableEvent__ctor_System_String_CSharpToJavaScript_APIs_JS_ExtendableEventInit__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers">Using Service Workers</a><br>-<a href="https://github.com/mdn/dom-examples/tree/main/service-worker/simple-service-worker">Service workers basic code example</a><br>-<a href="https://jakearchibald.github.io/isserviceworkerready/">Is ServiceWorker ready?</a><br>-Promise<br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers">Using web workers</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/ExtendableEvent/ExtendableEvent"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers">Using Service Workers</a><br>-<a href="https://github.com/mdn/dom-examples/tree/main/service-worker/simple-service-worker">Service workers basic code example</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers">Using web workers</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/ExtendableEvent/ExtendableEvent">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -309,7 +331,7 @@ public class ExtendableEvent : Event</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_ExtendableEvent_WaitUntil_System_Threading_Tasks_Task_System_Object__" data-uid="CSharpToJavaScript.APIs.JS.ExtendableEvent.WaitUntil(System.Threading.Tasks.Task{System.Object})">
   WaitUntil(Task&lt;dynamic&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L11200"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L18235"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>ExtendableEvent.waitUntil()</code></strong><br>method tells the event dispatcher that work is ongoing. It can also be used to detect<br>whether that work was successful. In service workers, <code>waitUntil()</code> tells<br>the browser that work is ongoing until the promise settles, and it shouldn&amp;apos;t terminate<br>the service worker if it wants that work to complete.</p>
@@ -323,7 +345,7 @@ public class ExtendableEvent : Event</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>f</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<span class="xref">dynamic</span>&gt;</dt>
-    <dd>The ExtendableEvent interface extends the lifetime of the install and activate events dispatched on the global scope as part of the service worker lifecycle. This ensures that any functional events (like ) are not dispatched until it upgrades database schemas and deletes the outdated cache entries.</dd>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -340,9 +362,15 @@ public class ExtendableEvent : Event</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_ExtendableEvent_WaitUntil_System_Threading_Tasks_Task_System_Object___remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>The ServiceWorkerGlobalScope/install_event events in <a href="https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerGlobalScope">service workers</a> use<br><code>waitUntil()</code> to hold the service worker in<br>the <a class="xref" href="CSharpToJavaScript.APIs.JS.ServiceWorkerRegistration.html#CSharpToJavaScript_APIs_JS_ServiceWorkerRegistration_Installing">Installing</a> phase until tasks<br>complete. If the promise passed to <code>waitUntil()</code> rejects, the install is<br>considered a failure, and the installing service worker is discarded. This is primarily<br>used to ensure that a service worker is not considered installed until all of the core<br>caches it depends on are successfully populated.</p><p>The ServiceWorkerGlobalScope/activate_event events in <a href="https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerGlobalScope">service workers</a> use<br><code>waitUntil()</code> to buffer functional events such as <code>fetch</code> and<br><code>push</code> until the promise passed to <code>waitUntil()</code> settles. This<br>gives the service worker time to update database schemas and delete outdated<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html">Cache</a>, so other events can rely on a completely upgraded state.</p><p>The <code>waitUntil()</code> method must be initially called within the event callback,<br>but after that it can be called multiple times, until all the promises passed to it<br>settle.</p><blockquote class="NOTE"><h5>NOTE</h5><p><strong>Note:</strong> The behavior described in the above paragraph was fixed in<br>Firefox 43 (see <a href="https://bugzil.la/1180274">Firefox bug 1180274</a>).</p></blockquote>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers">Using Service Workers</a><br>-<a href="https://jakearchibald.github.io/isserviceworkerready/">Is ServiceWorker ready?</a><br>-Promise<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/ExtendableEvent/waitUntil"> <em>See also on MDN</em> </a></p>
+  <div class="markdown level1 remarks"><p>The ServiceWorkerGlobalScope/install_event events in <a href="https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerGlobalScope">service workers</a> use<br><code>waitUntil()</code> to hold the service worker in<br>the <a class="xref" href="CSharpToJavaScript.APIs.JS.ServiceWorkerRegistration.html#CSharpToJavaScript_APIs_JS_ServiceWorkerRegistration_Installing">Installing</a> phase until tasks<br>complete. If the promise passed to <code>waitUntil()</code> rejects, the install is<br>considered a failure, and the installing service worker is discarded. This is primarily<br>used to ensure that a service worker is not considered installed until all of the core<br>caches it depends on are successfully populated.</p>
+<p>The ServiceWorkerGlobalScope/activate_event events in <a href="https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerGlobalScope">service workers</a> use<br><code>waitUntil()</code> to buffer functional events such as <code>fetch</code> and<br><code>push</code> until the promise passed to <code>waitUntil()</code> settles. This<br>gives the service worker time to update database schemas and delete outdated<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html">Cache</a>, so other events can rely on a completely upgraded state.</p>
+<p>The <code>waitUntil()</code> method must be initially called within the event callback,<br>but after that it can be called multiple times, until all the promises passed to it<br>settle.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers">Using Service Workers</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/ExtendableEvent/waitUntil">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -352,7 +380,7 @@ public class ExtendableEvent : Event</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L11194" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L18229" class="edit-link">Edit this page</a>
         </div>
 
 

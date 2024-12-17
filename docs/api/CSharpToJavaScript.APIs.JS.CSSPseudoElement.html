@@ -2,11 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class CSSPseudoElement
- | CSharpToJavaScript </title>
+      <title>Class CSSPseudoElement | CSharpToJavaScript </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class CSSPseudoElement
- | CSharpToJavaScript ">
+      <meta name="title" content="Class CSSPseudoElement | CSharpToJavaScript ">
       
       <meta name="description" content="The CSSPseudoElement interface represents a pseudo-element that may be the target of an event or animated using the &#39;Web Animations API&#39;. Instances of this interface may be obtained by calling &#39;Element.Pseudo&#39;.">
       <link rel="icon" href="../favicon.ico">
@@ -31,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
     <header class="bg-body border-bottom">
@@ -91,8 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_CSSPseudoElement" data-uid="CSharpToJavaScript.APIs.JS.CSSPseudoElement" class="text-break">
-    Class CSSPseudoElement
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5812"><i class="bi bi-code-slash"></i></a>
+Class CSSPseudoElement  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L2564"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -106,7 +103,7 @@
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
-public class CSSPseudoElement : EventTarget</code></pre>
+public class CSSPseudoElement : EventTarget, GeometryUtils</code></pre>
   </div>
 
 
@@ -121,28 +118,34 @@ public class CSSPseudoElement : EventTarget</code></pre>
     </dd>
   </dl>
 
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.GeometryUtils.html">GeometryUtils</a></div>
+    </dd>
+  </dl>
 
 
-  <dl class="typelist derived">
+  <dl class="typelist inheritedMembers">
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union41_">EventTarget.AddEventListener(string, Action, Union41)</a>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union27_">EventTarget.AddEventListener(string, Action, Union27)</a>
     </div>
     <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_MouseEvent__CSharpToJavaScript_APIs_JS_Union41_">EventTarget.AddEventListener(string, Action&lt;MouseEvent&gt;, Union41)</a>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_MouseEvent__CSharpToJavaScript_APIs_JS_Union27_">EventTarget.AddEventListener(string, Action&lt;MouseEvent&gt;, Union27)</a>
     </div>
     <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Event__CSharpToJavaScript_APIs_JS_Union41_">EventTarget.AddEventListener(string, Action&lt;Event&gt;, Union41)</a>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Event__CSharpToJavaScript_APIs_JS_Union27_">EventTarget.AddEventListener(string, Action&lt;Event&gt;, Union27)</a>
     </div>
     <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_RemoveEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union2_">EventTarget.RemoveEventListener(string, Action, Union2)</a>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_RemoveEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union28_">EventTarget.RemoveEventListener(string, Action, Union28)</a>
     </div>
     <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_CSharpToJavaScript_APIs_JS_EventListener_CSharpToJavaScript_APIs_JS_Union41_">EventTarget.AddEventListener(string, EventListener, Union41)</a>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_CSharpToJavaScript_APIs_JS_EventListener_CSharpToJavaScript_APIs_JS_Union27_">EventTarget.AddEventListener(string, EventListener, Union27)</a>
     </div>
     <div>
-      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_RemoveEventListener_System_String_CSharpToJavaScript_APIs_JS_EventListener_CSharpToJavaScript_APIs_JS_Union42_">EventTarget.RemoveEventListener(string, EventListener, Union42)</a>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_RemoveEventListener_System_String_CSharpToJavaScript_APIs_JS_EventListener_CSharpToJavaScript_APIs_JS_Union28_">EventTarget.RemoveEventListener(string, EventListener, Union28)</a>
     </div>
     <div>
       <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_DispatchEvent_CSharpToJavaScript_APIs_JS_Event_">EventTarget.DispatchEvent(Event)</a>
@@ -176,7 +179,11 @@ public class CSSPseudoElement : EventTarget</code></pre>
   <h2 id="CSharpToJavaScript_APIs_JS_CSSPseudoElement_remarks">Remarks</h2>
   <div class="markdown level0 remarks"><p></p>
 <p>-'Element.Pseudo'<br>-'Web Animations API'<br>-'Element.Animate'<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/CSSPseudoElement"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/CSSPseudoElement">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -188,7 +195,7 @@ public class CSSPseudoElement : EventTarget</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_CSSPseudoElement_Element" data-uid="CSharpToJavaScript.APIs.JS.CSSPseudoElement.Element">
   Element
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5818"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L2570"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>element</code></strong> read-only property of the<br>'CSSPseudoElement' interface returns a reference to the originating element<br>of the pseudo-element, in other words its parent element.</p>
@@ -215,7 +222,11 @@ public class CSSPseudoElement : EventTarget</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_CSSPseudoElement_Element_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-'Element.Pseudo'<br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/CSSPseudoElement/element"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/CSSPseudoElement/element">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -225,14 +236,14 @@ public class CSSPseudoElement : EventTarget</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_CSSPseudoElement_Parent" data-uid="CSharpToJavaScript.APIs.JS.CSSPseudoElement.Parent">
   Parent
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5819"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L2571"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Union39 Parent { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Union8 Parent { get; }</code></pre>
   </div>
 
 
@@ -241,8 +252,8 @@ public class CSSPseudoElement : EventTarget</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Union39.html">Union39</a></dt>
-    <dd>The CSSPseudoElement interface represents a pseudo-element that may be the target of an event or animated using the 'Web Animations API'. Instances of this interface may be obtained by calling 'Element.Pseudo'.</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Union8.html">Union8</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -256,15 +267,15 @@ public class CSSPseudoElement : EventTarget</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_CSSPseudoElement_Type" data-uid="CSharpToJavaScript.APIs.JS.CSSPseudoElement.Type">
   Type
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5816"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L2568"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>type</code></strong> read-only property of the<br>'CSSPseudoElement' interface returns the type of the pseudo-element as a<br>string, represented in the form of a <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors#pseudo-elements">CSS selector</a>.</p>
+  <div class="markdown level1 summary"><p>The <strong><code>type</code></strong> read-only property of the<br>'CSSPseudoElement' interface returns the type of the pseudo-element as a<br>string, represented in the form of a <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors#pseudo-elements">CSS selector</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Unsupported Type { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string Type { get; }</code></pre>
   </div>
 
 
@@ -273,7 +284,7 @@ public class CSSPseudoElement : EventTarget</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.Utils.Unsupported.html">Unsupported</a></dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd><p>A string containing one of the following values:</p>
 </dd>
   </dl>
@@ -283,7 +294,11 @@ public class CSSPseudoElement : EventTarget</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_CSSPseudoElement_Type_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-'Element.Pseudo'<br>-<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements#index_of_standard_pseudo-elements">Index of standard pseudo-elements</a><br></p>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/CSSPseudoElement/type"> <em>See also on MDN</em> </a></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/CSSPseudoElement/type">
+    <em>See also on MDN</em>
+  </a>
+</p>
 </div>
 
 
@@ -295,28 +310,28 @@ public class CSSPseudoElement : EventTarget</code></pre>
 
   <a id="CSharpToJavaScript_APIs_JS_CSSPseudoElement_Pseudo_" data-uid="CSharpToJavaScript.APIs.JS.CSSPseudoElement.Pseudo*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_CSSPseudoElement_Pseudo_CSharpToJavaScript_Utils_Unsupported_" data-uid="CSharpToJavaScript.APIs.JS.CSSPseudoElement.Pseudo(CSharpToJavaScript.Utils.Unsupported)">
-  Pseudo(Unsupported)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5820"><i class="bi bi-code-slash"></i></a>
+  <h3 id="CSharpToJavaScript_APIs_JS_CSSPseudoElement_Pseudo_System_String_" data-uid="CSharpToJavaScript.APIs.JS.CSSPseudoElement.Pseudo(System.String)">
+  Pseudo(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L2572"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CSSPseudoElement? Pseudo(Unsupported type)</code></pre>
+    <pre><code class="lang-csharp hljs">public CSSPseudoElement? Pseudo(string type)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>type</code> <a class="xref" href="CSharpToJavaScript.Utils.Unsupported.html">Unsupported</a></dt>
-    <dd>The CSSPseudoElement interface represents a pseudo-element that may be the target of an event or animated using the 'Web Animations API'. Instances of this interface may be obtained by calling 'Element.Pseudo'.</dd>
+    <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.CSSPseudoElement.html">CSSPseudoElement</a></dt>
-    <dd>The CSSPseudoElement interface represents a pseudo-element that may be the target of an event or animated using the 'Web Animations API'. Instances of this interface may be obtained by calling 'Element.Pseudo'.</dd>
+    <dd></dd>
   </dl>
 
 
@@ -333,7 +348,7 @@ public class CSSPseudoElement : EventTarget</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L5812" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L2564" class="edit-link">Edit this page</a>
         </div>
 
 
