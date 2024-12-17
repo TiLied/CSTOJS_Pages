@@ -44,7 +44,7 @@
         ]
       },
 			{
-				"files": "CSTOJS_Pages/BWA/**",
+				"files": "BWA/**",
 				"dest": "./"
 			}
     ],
