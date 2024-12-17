@@ -222,37 +222,6 @@
 </h2>
 
 
-  <a id="CSharpToJavaScript_CSTOJS_Model_" data-uid="CSharpToJavaScript.CSTOJS.Model*"></a>
-
-  <h3 id="CSharpToJavaScript_CSTOJS_Model" data-uid="CSharpToJavaScript.CSTOJS.Model">
-  Model
-  
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SemanticModel Model { get; set; }</code></pre>
-  </div>
-
-
-
-
-
-  <h4 class="section">Property Value</h4>
-  <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.semanticmodel">SemanticModel</a></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
   <a id="CSharpToJavaScript_CSTOJS_Options_" data-uid="CSharpToJavaScript.CSTOJS.Options*"></a>
 
   <h3 id="CSharpToJavaScript_CSTOJS_Options" data-uid="CSharpToJavaScript.CSTOJS.Options">
@@ -329,10 +298,10 @@
 
 
 
-  <a id="CSharpToJavaScript_CSTOJS_GenerateOneFromStringAsync_" data-uid="CSharpToJavaScript.CSTOJS.GenerateOneFromStringAsync*"></a>
+  <a id="CSharpToJavaScript_CSTOJS_GenerateOneFromString_" data-uid="CSharpToJavaScript.CSTOJS.GenerateOneFromString*"></a>
 
-  <h3 id="CSharpToJavaScript_CSTOJS_GenerateOneFromStringAsync_System_String_System_Collections_Generic_List_Microsoft_CodeAnalysis_MetadataReference__" data-uid="CSharpToJavaScript.CSTOJS.GenerateOneFromStringAsync(System.String,System.Collections.Generic.List{Microsoft.CodeAnalysis.MetadataReference})">
-  GenerateOneFromStringAsync(string, List&lt;MetadataReference&gt;?)
+  <h3 id="CSharpToJavaScript_CSTOJS_GenerateOneFromString_System_String_System_Collections_Generic_List_Microsoft_CodeAnalysis_MetadataReference__" data-uid="CSharpToJavaScript.CSTOJS.GenerateOneFromString(System.String,System.Collections.Generic.List{Microsoft.CodeAnalysis.MetadataReference})">
+  GenerateOneFromString(string, List&lt;MetadataReference&gt;?)
   
   </h3>
 
@@ -341,7 +310,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;StringBuilder&gt; GenerateOneFromStringAsync(string csstring, List&lt;MetadataReference&gt;? references = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public StringBuilder GenerateOneFromString(string csstring, List&lt;MetadataReference&gt;? references = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -350,13 +319,13 @@
     <dd><p>CSharp string.</p>
 </dd>
     <dt><code>references</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.metadatareference">MetadataReference</a>&gt;</dt>
-    <dd><p>Needed if you don't have access to files. Like if Blazor WebAssembly, because Assembly.location is empty.</p>
+    <dd><p>Needed if you don't have access to files. Because Assembly.location is null in Blazor WebAssembly.</p>
 </dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.text.stringbuilder">StringBuilder</a>&gt;</dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.text.stringbuilder">StringBuilder</a></dt>
     <dd><p>JS <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.text.stringbuilder">StringBuilder</a></p>
 </dd>
   </dl>

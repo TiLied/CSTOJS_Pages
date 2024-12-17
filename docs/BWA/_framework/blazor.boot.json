@@ -7,8 +7,8 @@
   "linkerEnabled": true,
   "resources": {
     "assembly": {
-      "CSharpToJavaScript.dll": "sha256-Wt1cOiw+fWazidT96cYObISHm5B+M1IKdP5SvJiJqFM=",
-      "CSTOJS_BWA.dll": "sha256-rvyL2RGb1RA2OS\/dXK3UF6YeR6KRVWwJ3bFZBryZAtw=",
+      "CSharpToJavaScript.dll": "sha256-yrd\/MgpAQj+SzmQu4tyz6O7+bQsxQj4fHXNpx+PJzz0=",
+      "CSTOJS_BWA.dll": "sha256-cQGIhBgVJmHfV1Q6Yc4TSb+xiPuurS2HeBLFcGYdLQQ=",
       "Microsoft.AspNetCore.Components.dll": "sha256-nB1NLRqiiSzaFI5tkv8EtOUuz6ChbTRhwNCNDtqAjFQ=",
       "Microsoft.AspNetCore.Components.Forms.dll": "sha256-yxySASdoEQnPIg6UgjQ6wRDp12No9olYuP4CFSJk\/4Q=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-jKDy1j08YyqrgNZAWeXuYRV1po3U9buZ5P7mgQ1XPCA=",
@@ -38,8 +38,8 @@
       "System.ComponentModel.TypeConverter.dll": "sha256-vddZ4mnSyOmxK01r\/88pmLqZ0IbqcZlctuwdFg44M3o=",
       "System.Console.dll": "sha256-C+qQSKZxCE1YmirTdrDqFSeMSJeETd+4sWOFXApz\/mA=",
       "System.Diagnostics.StackTrace.dll": "sha256-XDBhou5hEARLFgd8QYt6pTSXghNOiGa+al342sNTQNU=",
-      "System.Diagnostics.TextWriterTraceListener.dll": "sha256-8SbtUwWoP9cPXxYdXeGlJVLRhGdulBFskxUhoxhx\/6c=",
-      "System.Diagnostics.TraceSource.dll": "sha256-ajNuRwpgJedku+AOr9JVIUUglzXC0Sy6VfL+OKpmNas=",
+      "System.Diagnostics.TextWriterTraceListener.dll": "sha256-QAZDXLxOdj0vJlX7h\/q3RWR\/kwb1WsRLgXBqYSy884o=",
+      "System.Diagnostics.TraceSource.dll": "sha256-iw184T1ufJTkED1lTtAJ6P4\/dB59OTIEFsSx5ExhEzk=",
       "System.Diagnostics.Tracing.dll": "sha256-o60s2JorbUultRqqfpVHjjmFdFbyigxydvNZUbGAghA=",
       "System.dll": "sha256-0FM7lecMRXqYYN0oYnNU8NC1ipKpU+jYHuHkgK73cvo=",
       "System.Globalization.dll": "sha256-TPm3QXgKgYchmnJIrHztXZNjY3vv1qemqYK+qxLX0BA=",
