@@ -1,0 +1,918 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class MediaRecorder
+ | CSharpToJavaScript </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class MediaRecorder
+ | CSharpToJavaScript ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/TiLied/CSharpToJavaScript/new/master/apiSpec/new?filename=CSharpToJavaScript_APIs_JS_MediaRecorder.md&amp;value=---%0Auid%3A%20CSharpToJavaScript.APIs.JS.MediaRecorder%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="CSharpToJavaScript.APIs.JS.MediaRecorder">
+
+
+
+  <h1 id="CSharpToJavaScript_APIs_JS_MediaRecorder" data-uid="CSharpToJavaScript.APIs.JS.MediaRecorder" class="text-break">
+    Class MediaRecorder
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10369"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CSharpToJavaScript.html">CSharpToJavaScript</a>.<a class="xref" href="CSharpToJavaScript.APIs.html">APIs</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.html">JS</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>The <strong><code>MediaRecorder</code></strong> interface of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaStream_Recording_API">MediaStream Recording API</a> provides functionality to easily record media. It is created using the <a class="xref" href="CSharpToJavaScript.APIs.JS.MediaRecorder.html#CSharpToJavaScript_APIs_JS_MediaRecorder__ctor_CSharpToJavaScript_Utils_Unsupported_CSharpToJavaScript_APIs_JS_MediaRecorderOptions_">MediaRecorder(Unsupported, MediaRecorderOptions)</a> constructor.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public class MediaRecorder : EventTarget</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html">EventTarget</a></div>
+      <div><span class="xref">MediaRecorder</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union41_">EventTarget.AddEventListener(string, Action, Union41)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_MouseEvent__CSharpToJavaScript_APIs_JS_Union41_">EventTarget.AddEventListener(string, Action&lt;MouseEvent&gt;, Union41)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Event__CSharpToJavaScript_APIs_JS_Union41_">EventTarget.AddEventListener(string, Action&lt;Event&gt;, Union41)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_RemoveEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union2_">EventTarget.RemoveEventListener(string, Action, Union2)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_CSharpToJavaScript_APIs_JS_EventListener_CSharpToJavaScript_APIs_JS_Union41_">EventTarget.AddEventListener(string, EventListener, Union41)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_RemoveEventListener_System_String_CSharpToJavaScript_APIs_JS_EventListener_CSharpToJavaScript_APIs_JS_Union42_">EventTarget.RemoveEventListener(string, EventListener, Union42)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_DispatchEvent_CSharpToJavaScript_APIs_JS_Event_">EventTarget.DispatchEvent(Event)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+  <h2 id="CSharpToJavaScript_APIs_JS_MediaRecorder_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p></p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaStream_Recording_API/Using_the_MediaStream_Recording_API">Using the MediaStream Recording API</a><br>-<a href="https://mdn.github.io/dom-examples/media/web-dictaphone/">Web Dictaphone</a>: MediaRecorder + getUserMedia + Web Audio API visualization demo, by <a href="https://twitter.com/chrisdavidmills">Chris Mills</a> (<a href="https://github.com/mdn/dom-examples/tree/main/media/web-dictaphone">source on GitHub</a>.)<br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaStream_Recording_API/Recording_a_media_element">Recording a media element</a><br>-<a href="https://simpl.info/mediarecorder/">simpl.info MediaStream Recording demo</a>, by <a href="https://twitter.com/sw12">Sam Dutton</a>.<br>-MediaDevices.GetUserMedia<br>-<a href="https://github.com/chrisjohndigital/OpenLang">OpenLang</a>: HTML video language lab web application using MediaDevices and the MediaStream Recording API for video recording (<a href="https://github.com/chrisjohndigital/OpenLang">source on GitHub</a>)<br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaRecorder"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_MediaRecorder__ctor_" data-uid="CSharpToJavaScript.APIs.JS.MediaRecorder.#ctor*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_MediaRecorder__ctor" data-uid="CSharpToJavaScript.APIs.JS.MediaRecorder.#ctor">
+  MediaRecorder()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10402"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MediaRecorder()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_MediaRecorder__ctor_" data-uid="CSharpToJavaScript.APIs.JS.MediaRecorder.#ctor*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_MediaRecorder__ctor_CSharpToJavaScript_Utils_Unsupported_CSharpToJavaScript_APIs_JS_MediaRecorderOptions_" data-uid="CSharpToJavaScript.APIs.JS.MediaRecorder.#ctor(CSharpToJavaScript.Utils.Unsupported,CSharpToJavaScript.APIs.JS.MediaRecorderOptions)">
+  MediaRecorder(Unsupported, MediaRecorderOptions)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10373"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>MediaRecorder()</code></strong> constructor<br>creates a new <a class="xref" href="CSharpToJavaScript.APIs.JS.MediaRecorder.html">MediaRecorder</a> object that will record a specified<br>MediaStream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MediaRecorder(Unsupported stream, MediaRecorderOptions options)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>stream</code> <a class="xref" href="CSharpToJavaScript.Utils.Unsupported.html">Unsupported</a></dt>
+    <dd></dd>
+    <dt><code>options</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.MediaRecorderOptions.html">MediaRecorderOptions</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_MediaRecorder__ctor_CSharpToJavaScript_Utils_Unsupported_CSharpToJavaScript_APIs_JS_MediaRecorderOptions__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The object can optionally be configured to record<br>using a specific media container (file type), and, further, can specify the exact codec<br>and codec configuration(s) to use by specifying <a href="https://developer.mozilla.org/en-US/docs/Web/Media/Formats/codecs_parameter">the <code>codecs</code> parameter</a>.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaStream_Recording_API/Using_the_MediaStream_Recording_API">Using the MediaStream Recording API</a><br>-<a href="https://mdn.github.io/dom-examples/media/web-dictaphone/">Web Dictaphone</a>: MediaRecorder +<br>getUserMedia + Web Audio API visualization demo, by <a href="https://twitter.com/chrisdavidmills">Chris Mills</a> (<a href="https://github.com/mdn/dom-examples/tree/main/media/web-dictaphone">source on GitHub</a>.)<br>-<a href="https://simpl.info/mediarecorder/">simpl.info MediaStream Recording demo</a>, by <a href="https://twitter.com/sw12">Sam Dutton</a>.<br>-MediaDevices.GetUserMedia<br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaRecorder/MediaRecorder"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_MediaRecorder_AudioBitrateMode_" data-uid="CSharpToJavaScript.APIs.JS.MediaRecorder.AudioBitrateMode*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_MediaRecorder_AudioBitrateMode" data-uid="CSharpToJavaScript.APIs.JS.MediaRecorder.AudioBitrateMode">
+  AudioBitrateMode
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10390"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BitrateMode AudioBitrateMode { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.BitrateMode.html">BitrateMode</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_MediaRecorder_AudioBitsPerSecond_" data-uid="CSharpToJavaScript.APIs.JS.MediaRecorder.AudioBitsPerSecond*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_MediaRecorder_AudioBitsPerSecond" data-uid="CSharpToJavaScript.APIs.JS.MediaRecorder.AudioBitsPerSecond">
+  AudioBitsPerSecond
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10389"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>audioBitsPerSecond</code></strong> read-only<br>property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.MediaRecorder.html">MediaRecorder</a> interface returns the audio encoding bit<br>rate in use.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong AudioBitsPerSecond { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a> (unsigned long).</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_MediaRecorder_AudioBitsPerSecond_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This may differ from the bit rate specified in the constructor (if<br>it was provided).</p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaRecorder/audioBitsPerSecond"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_MediaRecorder_MimeType_" data-uid="CSharpToJavaScript.APIs.JS.MediaRecorder.MimeType*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_MediaRecorder_MimeType" data-uid="CSharpToJavaScript.APIs.JS.MediaRecorder.MimeType">
+  MimeType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10377"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>mimeType</code></strong> read-only<br>property returns the <a href="https://developer.mozilla.org/en-US/docs/Glossary/MIME">MIME</a> media type that was specified when creating<br>the <a class="xref" href="CSharpToJavaScript.APIs.JS.MediaRecorder.html">MediaRecorder</a> object, or, if none was specified, which was chosen<br>by the browser. This is the file format of the file that would result from<br>writing all of the recorded data to disk.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string MimeType { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The MIME media type which describes the format of the recorded media, as a<br>string. This string <strong>may</strong> include the <a href="https://developer.mozilla.org/en-US/docs/Web/Media/Formats/codecs_parameter"><code>codecs</code> parameter,</a> giving details about the codecs and the codec configurations used by<br>the media recorder.The media type strings are standardized by the Internet Assigned Numbers Authority<br>(IANA). For their official list of defined media type strings, see the article <a href="https://www.iana.org/assignments/media-types/media-types.xhtml">Media Types</a><br>on the IANA site. See also <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types">media types</a> to learn more<br>about media types and how they&amp;apos;re used in web content and by web browsers.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_MediaRecorder_MimeType_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Keep in mind that not all codecs are supported by a given container; if you write media<br>using a codec that is not supported by a given media container, the resulting file may<br>not work reliably if at all when you try to play it back. See our <a href="https://developer.mozilla.org/en-US/docs/Web/Media/Formats">media type and format guide</a> for information<br>about container and codec support across browsers.</p><blockquote class="NOTE"><h5>NOTE</h5><p><strong>Note:</strong> The term &amp;quot;MIME type&amp;quot; is officially considered to be<br>historical; these strings are now officially known as <strong>media types</strong>.<br>MDN Web Docs content uses the terms interchangeably.</p></blockquote>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaStream_Recording_API/Using_the_MediaStream_Recording_API">Using the MediaStream Recording API</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/Media/Formats/codecs_parameter">Codecs in common media types</a><br>-<a href="https://mdn.github.io/dom-examples/media/web-dictaphone/">Web Dictaphone</a>: MediaRecorder +<br>getUserMedia + Web Audio API visualization demo, by <a href="https://twitter.com/chrisdavidmills">Chris Mills</a> (<a href="https://github.com/mdn/dom-examples/tree/main/media/web-dictaphone">source on GitHub</a>.)<br>-<a href="https://simpl.info/mediarecorder/">simpl.info MediaStream Recording demo</a>, by <a href="https://twitter.com/sw12">Sam Dutton</a>.<br>-MediaDevices.GetUserMedia<br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaRecorder/mimeType"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_MediaRecorder_Ondataavailable_" data-uid="CSharpToJavaScript.APIs.JS.MediaRecorder.Ondataavailable*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_MediaRecorder_Ondataavailable" data-uid="CSharpToJavaScript.APIs.JS.MediaRecorder.Ondataavailable">
+  Ondataavailable
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10382"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EventHandlerNonNull Ondataavailable { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.EventHandlerNonNull.html">EventHandlerNonNull</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_MediaRecorder_Onerror_" data-uid="CSharpToJavaScript.APIs.JS.MediaRecorder.Onerror*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_MediaRecorder_Onerror" data-uid="CSharpToJavaScript.APIs.JS.MediaRecorder.Onerror">
+  Onerror
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10385"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EventHandlerNonNull Onerror { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.EventHandlerNonNull.html">EventHandlerNonNull</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_MediaRecorder_Onpause_" data-uid="CSharpToJavaScript.APIs.JS.MediaRecorder.Onpause*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_MediaRecorder_Onpause" data-uid="CSharpToJavaScript.APIs.JS.MediaRecorder.Onpause">
+  Onpause
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10383"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EventHandlerNonNull Onpause { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.EventHandlerNonNull.html">EventHandlerNonNull</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_MediaRecorder_Onresume_" data-uid="CSharpToJavaScript.APIs.JS.MediaRecorder.Onresume*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_MediaRecorder_Onresume" data-uid="CSharpToJavaScript.APIs.JS.MediaRecorder.Onresume">
+  Onresume
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10384"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EventHandlerNonNull Onresume { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.EventHandlerNonNull.html">EventHandlerNonNull</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_MediaRecorder_Onstart_" data-uid="CSharpToJavaScript.APIs.JS.MediaRecorder.Onstart*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_MediaRecorder_Onstart" data-uid="CSharpToJavaScript.APIs.JS.MediaRecorder.Onstart">
+  Onstart
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10380"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EventHandlerNonNull Onstart { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.EventHandlerNonNull.html">EventHandlerNonNull</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_MediaRecorder_Onstop_" data-uid="CSharpToJavaScript.APIs.JS.MediaRecorder.Onstop*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_MediaRecorder_Onstop" data-uid="CSharpToJavaScript.APIs.JS.MediaRecorder.Onstop">
+  Onstop
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10381"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EventHandlerNonNull Onstop { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.EventHandlerNonNull.html">EventHandlerNonNull</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_MediaRecorder_State_" data-uid="CSharpToJavaScript.APIs.JS.MediaRecorder.State*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_MediaRecorder_State" data-uid="CSharpToJavaScript.APIs.JS.MediaRecorder.State">
+  State
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10379"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>MediaRecorder.state</code></strong> read-only property returns the<br>current state of the current <code>MediaRecorder</code> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RecordingState State { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.RecordingState.html">RecordingState</a></dt>
+    <dd><p>A string containing one of the following values:</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_MediaRecorder_State_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaStream_Recording_API/Using_the_MediaStream_Recording_API">Using the MediaStream Recording API</a><br>-<a href="https://mdn.github.io/dom-examples/media/web-dictaphone/">Web Dictaphone</a>: MediaRecorder +<br>getUserMedia + Web Audio API visualization demo, by <a href="https://twitter.com/chrisdavidmills">Chris Mills</a> (<a href="https://github.com/mdn/dom-examples/tree/main/media/web-dictaphone">source on GitHub</a>.)<br>-<a href="https://simpl.info/mediarecorder/">simpl.info MediaStream Recording demo</a>, by <a href="https://twitter.com/sw12">Sam Dutton</a>.<br>-Navigator.GetUserMedia<br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaRecorder/state"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_MediaRecorder_Stream_" data-uid="CSharpToJavaScript.APIs.JS.MediaRecorder.Stream*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_MediaRecorder_Stream" data-uid="CSharpToJavaScript.APIs.JS.MediaRecorder.Stream">
+  Stream
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10375"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>MediaRecorder.stream</code></strong> read-only property returns the<br>stream that was passed into the <code>MediaRecorder()</code> constructor when the<br><code>MediaRecorder</code> was created.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Unsupported Stream { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.Utils.Unsupported.html">Unsupported</a></dt>
+    <dd><p>The MediaStream passed into the <code>MediaRecorder()</code> constructor when the<br><code>MediaRecorder</code> was originally created.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_MediaRecorder_Stream_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaStream_Recording_API/Using_the_MediaStream_Recording_API">Using the MediaStream Recording API</a><br>-<a href="https://mdn.github.io/dom-examples/media/web-dictaphone/">Web Dictaphone</a>: MediaRecorder +<br>getUserMedia + Web Audio API visualization demo, by <a href="https://twitter.com/chrisdavidmills">Chris Mills</a> (<a href="https://github.com/mdn/dom-examples/tree/main/media/web-dictaphone">source on GitHub</a>.)<br>-<a href="https://simpl.info/mediarecorder/">simpl.info MediaStream Recording demo</a>, by <a href="https://twitter.com/sw12">Sam Dutton</a>.<br>-Navigator.GetUserMedia<br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaRecorder/stream"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_MediaRecorder_VideoBitsPerSecond_" data-uid="CSharpToJavaScript.APIs.JS.MediaRecorder.VideoBitsPerSecond*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_MediaRecorder_VideoBitsPerSecond" data-uid="CSharpToJavaScript.APIs.JS.MediaRecorder.VideoBitsPerSecond">
+  VideoBitsPerSecond
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10387"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>videoBitsPerSecond</code></strong> read-only<br>property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.MediaRecorder.html">MediaRecorder</a> interface returns the video encoding<br>bit rate in use.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong VideoBitsPerSecond { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a> (unsigned long).</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_MediaRecorder_VideoBitsPerSecond_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This may differ from the bit rate specified in the<br>constructor, if it was provided.</p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaRecorder/videoBitsPerSecond"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_MediaRecorder_IsTypeSupported_" data-uid="CSharpToJavaScript.APIs.JS.MediaRecorder.IsTypeSupported*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_MediaRecorder_IsTypeSupported_System_String_" data-uid="CSharpToJavaScript.APIs.JS.MediaRecorder.IsTypeSupported(System.String)">
+  IsTypeSupported(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10401"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsTypeSupported(string type)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_MediaRecorder_Pause_" data-uid="CSharpToJavaScript.APIs.JS.MediaRecorder.Pause*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_MediaRecorder_Pause" data-uid="CSharpToJavaScript.APIs.JS.MediaRecorder.Pause">
+  Pause()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10396"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>MediaRecorder.pause()</code></strong> method (part<br>of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaStream_Recording_API">MediaStream Recording API</a>) is used<br>to pause recording of media streams.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined Pause()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_MediaRecorder_Pause_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>When a <code>MediaRecorder</code> object&amp;apos;s <code>pause()</code>method is called, the<br>browser queues a task that runs the below steps:</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaStream_Recording_API/Using_the_MediaStream_Recording_API">Using the MediaStream Recording API</a><br>-<a href="https://mdn.github.io/dom-examples/media/web-dictaphone/">Web Dictaphone</a>: MediaRecorder +<br>getUserMedia + Web Audio API visualization demo, by <a href="https://twitter.com/chrisdavidmills">Chris Mills</a> (<a href="https://github.com/mdn/dom-examples/tree/main/media/web-dictaphone">source on GitHub</a>.)<br>-<a href="https://simpl.info/mediarecorder/">simpl.info MediaStream Recording demo</a>, by <a href="https://twitter.com/sw12">Sam Dutton</a>.<br>-Navigator.GetUserMedia<br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaRecorder/pause"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_MediaRecorder_RequestData_" data-uid="CSharpToJavaScript.APIs.JS.MediaRecorder.RequestData*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_MediaRecorder_RequestData" data-uid="CSharpToJavaScript.APIs.JS.MediaRecorder.RequestData">
+  RequestData()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10400"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>MediaRecorder.requestData()</code></strong><br>method (part of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaStream_Recording_API">MediaStream Recording API</a>) is used to raise a MediaRecorder.Dataavailable_event event containing a<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Blob.html">Blob</a> object of the captured media as it was when the method was<br>called. This can then be grabbed and manipulated as you wish.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined RequestData()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_MediaRecorder_RequestData_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>When the <code>requestData()</code> method is invoked, the browser queues a task that<br>runs the following steps:</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaStream_Recording_API/Using_the_MediaStream_Recording_API">Using the MediaStream Recording API</a><br>-<a href="https://mdn.github.io/dom-examples/media/web-dictaphone/">Web Dictaphone</a>: MediaRecorder +<br>getUserMedia + Web Audio API visualization demo, by <a href="https://twitter.com/chrisdavidmills">Chris Mills</a> (<a href="https://github.com/mdn/dom-examples/tree/main/media/web-dictaphone">source on GitHub</a>.)<br>-<a href="https://simpl.info/mediarecorder/">simpl.info MediaStream Recording demo</a>, by <a href="https://twitter.com/sw12">Sam Dutton</a>.<br>-Navigator.GetUserMedia<br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaRecorder/requestData"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_MediaRecorder_Resume_" data-uid="CSharpToJavaScript.APIs.JS.MediaRecorder.Resume*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_MediaRecorder_Resume" data-uid="CSharpToJavaScript.APIs.JS.MediaRecorder.Resume">
+  Resume()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10398"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>MediaRecorder.resume()</code></strong><br>method (part of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaStream_Recording_API">MediaStream Recording API</a>) is used to resume media recording when it has been previously<br>paused.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined Resume()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_MediaRecorder_Resume_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>When the <code>resume()</code> method is invoked, the browser queues a task that runs<br>the following steps:</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaStream_Recording_API/Using_the_MediaStream_Recording_API">Using the MediaStream Recording API</a><br>-<a href="https://mdn.github.io/dom-examples/media/web-dictaphone/">Web Dictaphone</a>: MediaRecorder +<br>getUserMedia + Web Audio API visualization demo, by <a href="https://twitter.com/chrisdavidmills">Chris Mills</a> (<a href="https://github.com/mdn/dom-examples/tree/main/media/web-dictaphone">source on GitHub</a>.)<br>-<a href="https://simpl.info/mediarecorder/">simpl.info MediaStream Recording demo</a>, by <a href="https://twitter.com/sw12">Sam Dutton</a>.<br>-Navigator.GetUserMedia<br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaRecorder/resume"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_MediaRecorder_Start_" data-uid="CSharpToJavaScript.APIs.JS.MediaRecorder.Start*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_MediaRecorder_Start_System_UInt64_" data-uid="CSharpToJavaScript.APIs.JS.MediaRecorder.Start(System.UInt64)">
+  Start(ulong)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10392"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.MediaRecorder.html">MediaRecorder</a> method<br><strong><code>start()</code></strong>, which is part of the MediaStream Recording API,<br>begins recording media into one or more <a class="xref" href="CSharpToJavaScript.APIs.JS.Blob.html">Blob</a> objects.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined Start(ulong timeslice)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>timeslice</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_MediaRecorder_Start_System_UInt64__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>You can<br>record the entire duration of the media into a single <code>Blob</code> (or until you<br>call <a class="xref" href="CSharpToJavaScript.APIs.JS.MediaRecorder.html#CSharpToJavaScript_APIs_JS_MediaRecorder_RequestData">RequestData()</a>), or you can specify the<br>number of milliseconds to record at a time. Then, each time that amount of media has<br>been recorded, an event will be delivered to let you act upon the recorded media, while<br>a new <code>Blob</code> is created to record the next slice of the media.</p><p>Assuming the <code>MediaRecorder</code>'s <a class="xref" href="CSharpToJavaScript.APIs.JS.MediaRecorder.html#CSharpToJavaScript_APIs_JS_MediaRecorder_State">State</a><br>is <code>inactive</code>, <code>start()</code> sets the <code>state</code> to<br><code>recording</code>, then begins capturing media from the input stream. A<br><code>Blob</code> is created and the data is collected in it until the time slice period<br>elapses or the source media ends. Each time a <code>Blob</code> is filled up to that<br>point (the timeslice duration or the end-of-media, if no slice duration was provided), a<br>MediaRecorder.Dataavailable_event event is sent to the <code>MediaRecorder</code> with the<br>recorded data. If the source is still playing, a new <code>Blob</code> is created and<br>recording continues into that, and so forth.</p><p>When the source stream ends, <code>state</code> is set to <code>inactive</code> and<br>data gathering stops. A final MediaRecorder.Dataavailable_event event is sent to the<br><code>MediaRecorder</code>, followed by a MediaRecorder/stop_event event.</p><blockquote class="NOTE"><h5>NOTE</h5><p><strong>Note:</strong> If the browser is unable to start recording or continue<br>recording, it will raise a DOMError event, followed by a<br>MediaRecorder.Dataavailable_event event containing the <code>Blob</code> it<br>has gathered, followed by the MediaRecorder/stop_event event.</p></blockquote>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaStream_Recording_API/Using_the_MediaStream_Recording_API">Using the MediaStream Recording API</a><br>-<a href="https://mdn.github.io/dom-examples/media/web-dictaphone/">Web Dictaphone</a>: MediaRecorder +<br>getUserMedia + Web Audio API visualization demo, by <a href="https://twitter.com/chrisdavidmills">Chris Mills</a> (<a href="https://github.com/mdn/dom-examples/tree/main/media/web-dictaphone">source on GitHub</a>.)<br>-<a href="https://simpl.info/mediarecorder/">simpl.info MediaStream Recording demo</a>, by <a href="https://twitter.com/sw12">Sam Dutton</a>.<br>-MediaDevices.GetUserMedia<br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaRecorder/start"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_MediaRecorder_Stop_" data-uid="CSharpToJavaScript.APIs.JS.MediaRecorder.Stop*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_MediaRecorder_Stop" data-uid="CSharpToJavaScript.APIs.JS.MediaRecorder.Stop">
+  Stop()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10394"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>MediaRecorder.stop()</code></strong> method<br>(part of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaStream_Recording_API">MediaStream Recording API</a>) is<br>used to stop media capture.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined Stop()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_MediaRecorder_Stop_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>When the <code>stop()</code> method is invoked, the UA queues a task that runs the<br>following steps:</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaStream_Recording_API/Using_the_MediaStream_Recording_API">Using the MediaStream Recording API</a><br>-<a href="https://mdn.github.io/dom-examples/media/web-dictaphone/">Web Dictaphone</a>: MediaRecorder +<br>getUserMedia + Web Audio API visualization demo, by <a href="https://twitter.com/chrisdavidmills">Chris Mills</a> (<a href="https://github.com/mdn/dom-examples/tree/main/media/web-dictaphone">source on GitHub</a>.)<br>-<a href="https://simpl.info/mediarecorder/">simpl.info MediaStream Recording demo</a>, by <a href="https://twitter.com/sw12">Sam Dutton</a>.<br>-Navigator.GetUserMedia<br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaRecorder/stop"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10369" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,953 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class PannerNode
+ | CSharpToJavaScript </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class PannerNode
+ | CSharpToJavaScript ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/TiLied/CSharpToJavaScript/new/master/apiSpec/new?filename=CSharpToJavaScript_APIs_JS_PannerNode.md&amp;value=---%0Auid%3A%20CSharpToJavaScript.APIs.JS.PannerNode%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="CSharpToJavaScript.APIs.JS.PannerNode">
+
+
+
+  <h1 id="CSharpToJavaScript_APIs_JS_PannerNode" data-uid="CSharpToJavaScript.APIs.JS.PannerNode" class="text-break">
+    Class PannerNode
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L12694"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CSharpToJavaScript.html">CSharpToJavaScript</a>.<a class="xref" href="CSharpToJavaScript.APIs.html">APIs</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.html">JS</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>The <code>PannerNode</code> interface defines an audio-processing object that represents the location, direction, and behavior of an audio source signal in a simulated physical space. This <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioNode.html">AudioNode</a> uses right-hand Cartesian coordinates to describe the source's <strong>position</strong> as a vector and its <strong>orientation</strong> as a 3D directional cone.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public class PannerNode : AudioNode</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html">EventTarget</a></div>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.AudioNode.html">AudioNode</a></div>
+      <div><span class="xref">PannerNode</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioNode.html#CSharpToJavaScript_APIs_JS_AudioNode_Connect_CSharpToJavaScript_APIs_JS_AudioNode_System_UInt64_System_UInt64_">AudioNode.Connect(AudioNode, ulong, ulong)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioNode.html#CSharpToJavaScript_APIs_JS_AudioNode_Connect_CSharpToJavaScript_APIs_JS_AudioParam_System_UInt64_">AudioNode.Connect(AudioParam, ulong)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioNode.html#CSharpToJavaScript_APIs_JS_AudioNode_Disconnect">AudioNode.Disconnect()</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioNode.html#CSharpToJavaScript_APIs_JS_AudioNode_Disconnect_System_UInt64_">AudioNode.Disconnect(ulong)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioNode.html#CSharpToJavaScript_APIs_JS_AudioNode_Disconnect_CSharpToJavaScript_APIs_JS_AudioNode_">AudioNode.Disconnect(AudioNode)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioNode.html#CSharpToJavaScript_APIs_JS_AudioNode_Disconnect_CSharpToJavaScript_APIs_JS_AudioNode_System_UInt64_">AudioNode.Disconnect(AudioNode, ulong)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioNode.html#CSharpToJavaScript_APIs_JS_AudioNode_Disconnect_CSharpToJavaScript_APIs_JS_AudioNode_System_UInt64_System_UInt64_">AudioNode.Disconnect(AudioNode, ulong, ulong)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioNode.html#CSharpToJavaScript_APIs_JS_AudioNode_Disconnect_CSharpToJavaScript_APIs_JS_AudioParam_">AudioNode.Disconnect(AudioParam)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioNode.html#CSharpToJavaScript_APIs_JS_AudioNode_Disconnect_CSharpToJavaScript_APIs_JS_AudioParam_System_UInt64_">AudioNode.Disconnect(AudioParam, ulong)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioNode.html#CSharpToJavaScript_APIs_JS_AudioNode_Context">AudioNode.Context</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioNode.html#CSharpToJavaScript_APIs_JS_AudioNode_NumberOfInputs">AudioNode.NumberOfInputs</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioNode.html#CSharpToJavaScript_APIs_JS_AudioNode_NumberOfOutputs">AudioNode.NumberOfOutputs</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioNode.html#CSharpToJavaScript_APIs_JS_AudioNode_ChannelCount">AudioNode.ChannelCount</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioNode.html#CSharpToJavaScript_APIs_JS_AudioNode_ChannelCountMode">AudioNode.ChannelCountMode</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioNode.html#CSharpToJavaScript_APIs_JS_AudioNode_ChannelInterpretation">AudioNode.ChannelInterpretation</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union41_">EventTarget.AddEventListener(string, Action, Union41)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_MouseEvent__CSharpToJavaScript_APIs_JS_Union41_">EventTarget.AddEventListener(string, Action&lt;MouseEvent&gt;, Union41)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Event__CSharpToJavaScript_APIs_JS_Union41_">EventTarget.AddEventListener(string, Action&lt;Event&gt;, Union41)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_RemoveEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union2_">EventTarget.RemoveEventListener(string, Action, Union2)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_CSharpToJavaScript_APIs_JS_EventListener_CSharpToJavaScript_APIs_JS_Union41_">EventTarget.AddEventListener(string, EventListener, Union41)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_RemoveEventListener_System_String_CSharpToJavaScript_APIs_JS_EventListener_CSharpToJavaScript_APIs_JS_Union42_">EventTarget.RemoveEventListener(string, EventListener, Union42)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_DispatchEvent_CSharpToJavaScript_APIs_JS_Event_">EventTarget.DispatchEvent(Event)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+  <h2 id="CSharpToJavaScript_APIs_JS_PannerNode_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>A <code>PannerNode</code> always has exactly one input and one output: the input can be <strong>mono</strong> or <strong>stereo</strong> but the output is always <strong>stereo</strong> (2 channels); you can&amp;apos;t have panning effects without at least two audio channels!</p><p><a href="https://developer.mozilla.orgwebaudiopannernode.png">The PannerNode defines a spatial position and direction for a given signal.</a></p><p></p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API">Using the Web Audio API</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/PannerNode"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_PannerNode__ctor_" data-uid="CSharpToJavaScript.APIs.JS.PannerNode.#ctor*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_PannerNode__ctor" data-uid="CSharpToJavaScript.APIs.JS.PannerNode.#ctor">
+  PannerNode()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L12731"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PannerNode()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_PannerNode__ctor_" data-uid="CSharpToJavaScript.APIs.JS.PannerNode.#ctor*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_PannerNode__ctor_CSharpToJavaScript_APIs_JS_BaseAudioContext_CSharpToJavaScript_APIs_JS_PannerOptions_" data-uid="CSharpToJavaScript.APIs.JS.PannerNode.#ctor(CSharpToJavaScript.APIs.JS.BaseAudioContext,CSharpToJavaScript.APIs.JS.PannerOptions)">
+  PannerNode(BaseAudioContext, PannerOptions)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L12698"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>PannerNode()</code></strong> constructor of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API">Web Audio API</a> creates a new <a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html">PannerNode</a> object instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PannerNode(BaseAudioContext context, PannerOptions options)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>context</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.BaseAudioContext.html">BaseAudioContext</a></dt>
+    <dd></dd>
+    <dt><code>options</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.PannerOptions.html">PannerOptions</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_PannerNode__ctor_CSharpToJavaScript_APIs_JS_BaseAudioContext_CSharpToJavaScript_APIs_JS_PannerOptions__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p><a href="https://developer.mozilla.org/en-US/docs/Web/API/PannerNode/PannerNode"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_PannerNode_ConeInnerAngle_" data-uid="CSharpToJavaScript.APIs.JS.PannerNode.ConeInnerAngle*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_PannerNode_ConeInnerAngle" data-uid="CSharpToJavaScript.APIs.JS.PannerNode.ConeInnerAngle">
+  ConeInnerAngle
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L12722"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <code>coneInnerAngle</code> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html">PannerNode</a> interface is a double value describing the angle, in degrees, of a cone inside of which there will be no volume reduction.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Number ConeInnerAngle { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dd><p>A double.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_PannerNode_ConeInnerAngle_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The <code>coneInnerAngle</code> property&amp;apos;s default value is <code>360</code>, suitable for a non-directional source.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API">Using the Web Audio API</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Web_audio_spatialization_basics">Web Audio spatialization basics</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/PannerNode/coneInnerAngle"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_PannerNode_ConeOuterAngle_" data-uid="CSharpToJavaScript.APIs.JS.PannerNode.ConeOuterAngle*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_PannerNode_ConeOuterAngle" data-uid="CSharpToJavaScript.APIs.JS.PannerNode.ConeOuterAngle">
+  ConeOuterAngle
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L12724"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <code>coneOuterAngle</code> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html">PannerNode</a> interface is a double value describing the angle, in degrees, of a cone outside of which the volume will be reduced by a constant value, defined by the <a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_ConeOuterGain">ConeOuterGain</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Number ConeOuterAngle { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dd><p>A double.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_PannerNode_ConeOuterAngle_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The <code>coneOuterAngle</code> property&amp;apos;s default value is <code>0</code>.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API">Using the Web Audio API</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Web_audio_spatialization_basics">Web Audio spatialization basics</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/PannerNode/coneOuterAngle"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_PannerNode_ConeOuterGain_" data-uid="CSharpToJavaScript.APIs.JS.PannerNode.ConeOuterGain*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_PannerNode_ConeOuterGain" data-uid="CSharpToJavaScript.APIs.JS.PannerNode.ConeOuterGain">
+  ConeOuterGain
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L12726"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <code>coneOuterGain</code> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html">PannerNode</a> interface is a double value, describing the amount of volume reduction outside the cone, defined by the <a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_ConeOuterAngle">ConeOuterAngle</a> attribute.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Number ConeOuterGain { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dd><p>A double. The default is <code>0</code>, and its value can be in the range 0–1.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_PannerNode_ConeOuterGain_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The <code>coneOuterGain</code> property&amp;apos;s default value is <code>0</code>, meaning that no sound can be heard outside the cone.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API">Using the Web Audio API</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Web_audio_spatialization_basics">Web Audio spatialization basics</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/PannerNode/coneOuterGain"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_PannerNode_DistanceModel_" data-uid="CSharpToJavaScript.APIs.JS.PannerNode.DistanceModel*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_PannerNode_DistanceModel" data-uid="CSharpToJavaScript.APIs.JS.PannerNode.DistanceModel">
+  DistanceModel
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L12714"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <code>distanceModel</code> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html">PannerNode</a> interface is an enumerated value determining which algorithm to use to reduce the volume of the audio source as it moves away from the listener.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DistanceModelType DistanceModel { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.DistanceModelType.html">DistanceModelType</a></dt>
+    <dd><p>An enum — see <a href="https://webaudio.github.io/web-audio-api/#idl-def-DistanceModelType"><code>DistanceModelType</code></a>.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_PannerNode_DistanceModel_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The possible values are:</p><p><code>inverse</code> is the default value of <code>distanceModel</code>.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API">Using the Web Audio API</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Web_audio_spatialization_basics">Web Audio spatialization basics</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/PannerNode/distanceModel"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_PannerNode_MaxDistance_" data-uid="CSharpToJavaScript.APIs.JS.PannerNode.MaxDistance*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_PannerNode_MaxDistance" data-uid="CSharpToJavaScript.APIs.JS.PannerNode.MaxDistance">
+  MaxDistance
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L12718"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <code>maxDistance</code> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html">PannerNode</a> interface is a double value representing the maximum distance between the audio source and the listener, after which the volume is not reduced any further. This value is used only by the <code>linear</code> distance model.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Number MaxDistance { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dd><p>A double. The default is <code>10000</code>, and non-positive values are not allowed.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_PannerNode_MaxDistance_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The <code>maxDistance</code> property&amp;apos;s default value is <code>10000</code>.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API">Using the Web Audio API</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/PannerNode/maxDistance"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_PannerNode_OrientationX_" data-uid="CSharpToJavaScript.APIs.JS.PannerNode.OrientationX*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_PannerNode_OrientationX" data-uid="CSharpToJavaScript.APIs.JS.PannerNode.OrientationX">
+  OrientationX
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L12708"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>orientationX</code></strong> property of the {{<br>domxref(&amp;quot;PannerNode&amp;quot;) }} interface indicates the X (horizontal) component of the<br>direction in which the audio source is facing, in a 3D Cartesian coordinate space.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AudioParam OrientationX { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a></dt>
+    <dd><p>An <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a> whose <code>value</code> is the X component of the<br>direction in which the audio source is facing, in 3D Cartesian coordinate space.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_PannerNode_OrientationX_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The complete vector is defined by the position of the audio source, given as<br>(<a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_PositionX">PositionX</a>, {{domxref("PannerNode.positionY",<br>"positionY")}}, <a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_PositionZ">PositionZ</a>), and the orientation<br>of the audio source (that is, the direction in which it&amp;apos;s facing), given as<br>(<a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_OrientationX">OrientationX</a>,<br><a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_OrientationY">OrientationY</a>,<br><a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_OrientationZ">OrientationZ</a>).</p><p>Depending on the directionality of the sound (as specified using the attributes<br><a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_ConeInnerAngle">ConeInnerAngle</a>,<br><a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_ConeOuterAngle">ConeOuterAngle</a>, and<br><a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_ConeOuterGain">ConeOuterGain</a>), the orientation of the<br>sound may alter the perceived volume of the sound as it&amp;apos;s being played. If the sound<br>is pointing toward the listener, it will be louder than if the sound is pointed away<br>from the listener.</p><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a> contained by this property is read only; however, you<br>can still change the value of the parameter by assigning a new value to its<br><a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html#CSharpToJavaScript_APIs_JS_AudioParam_Value">Value</a> property.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API">Using the Web Audio API</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Web_audio_spatialization_basics">Web Audio spatialization basics</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html">PannerNode</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/PannerNode/orientationX"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_PannerNode_OrientationY_" data-uid="CSharpToJavaScript.APIs.JS.PannerNode.OrientationY*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_PannerNode_OrientationY" data-uid="CSharpToJavaScript.APIs.JS.PannerNode.OrientationY">
+  OrientationY
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L12710"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>orientationY</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html">PannerNode</a> interface<br>indicates the Y (vertical) component of the direction the audio source is facing, in 3D Cartesian coordinate space.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AudioParam OrientationY { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a></dt>
+    <dd><p>An <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a> whose <code>value</code> is the Y component of the<br>direction the audio source is facing, in 3D Cartesian coordinate space.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_PannerNode_OrientationY_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The complete vector is defined by the position of the audio source, given as<br>(<a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_PositionX">PositionX</a>, {{domxref("PannerNode.positionY",<br>"positionY")}}, <a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_PositionZ">PositionZ</a>), and the orientation<br>of the audio source (that is, the direction in which it&amp;apos;s facing), given as<br>(<a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_OrientationX">OrientationX</a>,<br><a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_OrientationY">OrientationY</a>,<br><a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_OrientationZ">OrientationZ</a>).</p><p>Depending on the directionality of the sound (as specified using the attributes<br><a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_ConeInnerAngle">ConeInnerAngle</a>,<br><a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_ConeOuterAngle">ConeOuterAngle</a>, and<br><a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_ConeOuterGain">ConeOuterGain</a>), the orientation of the<br>sound may alter the perceived volume of the sound as it&amp;apos;s being played. If the sound<br>is pointing toward the listener, it will be louder than if the sound is pointed away<br>from the listener.</p><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a> contained by this property is read only; however, you<br>can still change the value of the parameter by assigning a new value to its<br><a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html#CSharpToJavaScript_APIs_JS_AudioParam_Value">Value</a> property.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API">Using the Web Audio API</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Web_audio_spatialization_basics">Web Audio spatialization basics</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html">PannerNode</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/PannerNode/orientationY"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_PannerNode_OrientationZ_" data-uid="CSharpToJavaScript.APIs.JS.PannerNode.OrientationZ*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_PannerNode_OrientationZ" data-uid="CSharpToJavaScript.APIs.JS.PannerNode.OrientationZ">
+  OrientationZ
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L12712"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>orientationZ</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html">PannerNode</a> interface<br>indicates the Z (depth) component of the direction the audio source is facing, in 3D Cartesian coordinate space.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AudioParam OrientationZ { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a></dt>
+    <dd><p>An <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a> whose <code>value</code> is the Z component of the<br>direction the audio source is facing, in 3D Cartesian coordinate space.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_PannerNode_OrientationZ_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The complete vector is defined by the position of the audio source, given as<br>(<a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_PositionX">PositionX</a>, {{domxref("PannerNode.positionY",<br>"positionY")}}, <a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_PositionZ">PositionZ</a>), and the orientation<br>of the audio source (that is, the direction in which it&amp;apos;s facing), given as<br>(<a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_OrientationX">OrientationX</a>,<br><a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_OrientationY">OrientationY</a>,<br><a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_OrientationZ">OrientationZ</a>).</p><p>Depending on the directionality of the sound (as specified using the attributes<br><a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_ConeInnerAngle">ConeInnerAngle</a>,<br><a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_ConeOuterAngle">ConeOuterAngle</a>, and<br><a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_ConeOuterGain">ConeOuterGain</a>), the orientation of the<br>sound may alter the perceived volume of the sound as it&amp;apos;s being played. If the sound<br>is pointing toward the listener, it will be louder than if the sound is pointed away<br>from the listener.</p><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a> contained by this property is read only; however, you<br>can still change the value of the parameter by assigning a new value to its<br><a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html#CSharpToJavaScript_APIs_JS_AudioParam_Value">Value</a> property.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API">Using the Web Audio API</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Web_audio_spatialization_basics">Web Audio spatialization basics</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html">PannerNode</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/PannerNode/orientationZ"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_PannerNode_PanningModel_" data-uid="CSharpToJavaScript.APIs.JS.PannerNode.PanningModel*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_PannerNode_PanningModel" data-uid="CSharpToJavaScript.APIs.JS.PannerNode.PanningModel">
+  PanningModel
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L12700"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <code>panningModel</code> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html">PannerNode</a> interface is an enumerated value determining which spatialization algorithm to use to position the audio in 3D space.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PanningModelType PanningModel { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.PanningModelType.html">PanningModelType</a></dt>
+    <dd><p>An enum — see <a href="https://webaudio.github.io/web-audio-api/#idl-def-PanningModelType"><code>PanningModelType</code></a>.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_PannerNode_PanningModel_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The possible values are:</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API">Using the Web Audio API</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/PannerNode/panningModel"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_PannerNode_PositionX_" data-uid="CSharpToJavaScript.APIs.JS.PannerNode.PositionX*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_PannerNode_PositionX" data-uid="CSharpToJavaScript.APIs.JS.PannerNode.PositionX">
+  PositionX
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L12702"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>positionX</code></strong> property of the {{ domxref(&amp;quot;PannerNode&amp;quot;)<br>}} interface specifies the X coordinate of the audio source&amp;apos;s position in 3D Cartesian<br>coordinates, corresponding to the <strong>horizontal</strong> axis (left-right).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AudioParam PositionX { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a></dt>
+    <dd><p>An <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a> whose <code>value</code> is the X coordinate of the audio<br>source&amp;apos;s position, in 3D Cartesian coordinates. The default value is 0.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_PannerNode_PositionX_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The complete vector is defined by the position of the audio source, given as<br>(<a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_PositionX">PositionX</a>, {{domxref("PannerNode.positionY",<br>"positionY")}}, <a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_PositionZ">PositionZ</a>), and the orientation<br>of the audio source (that is, the direction in which it&amp;apos;s facing), given as<br>(<a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_OrientationX">OrientationX</a>,<br><a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_OrientationY">OrientationY</a>,<br><a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_OrientationZ">OrientationZ</a>).</p><p>Depending on the directionality of the sound (as specified using the attributes<br><a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_ConeInnerAngle">ConeInnerAngle</a>,<br><a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_ConeOuterAngle">ConeOuterAngle</a>, and<br><a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_ConeOuterGain">ConeOuterGain</a>), the orientation of the<br>sound may alter the perceived volume of the sound as it&amp;apos;s being played. If the sound<br>is pointing toward the listener, it will be louder than if the sound is pointed away<br>from the listener.</p><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a> contained by this property is read only; however, you<br>can still change the value of the parameter by assigning a new value to its<br><a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html#CSharpToJavaScript_APIs_JS_AudioParam_Value">Value</a> property.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API">Using the Web Audio API</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Web_audio_spatialization_basics">Web Audio spatialization basics</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html">PannerNode</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/PannerNode/positionX"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_PannerNode_PositionY_" data-uid="CSharpToJavaScript.APIs.JS.PannerNode.PositionY*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_PannerNode_PositionY" data-uid="CSharpToJavaScript.APIs.JS.PannerNode.PositionY">
+  PositionY
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L12704"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>positionY</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html">PannerNode</a> interface specifies the Y coordinate of the audio source's position in 3D Cartesian<br>coordinates, corresponding to the <strong>vertical</strong> axis (top-bottom). The complete<br>vector is defined by the position of the audio source, given as<br>(<a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_PositionX">PositionX</a>, <a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_PositionY">PositionY</a>, <a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_PositionZ">PositionZ</a>), and the orientation<br>of the audio source (that is, the direction in which it&amp;apos;s facing), given as<br>(<a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_OrientationX">OrientationX</a>,<br><a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_OrientationY">OrientationY</a>,<br><a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_OrientationZ">OrientationZ</a>).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AudioParam PositionY { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a></dt>
+    <dd><p>An <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a> whose <code>value</code> is the Y coordinate of the audio<br>source&amp;apos;s position, in 3D Cartesian coordinates.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_PannerNode_PositionY_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Depending on the directionality of the sound (as specified using the attributes<br><a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_ConeInnerAngle">ConeInnerAngle</a>,<br><a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_ConeOuterAngle">ConeOuterAngle</a>, and<br><a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_ConeOuterGain">ConeOuterGain</a>), the orientation of the<br>sound may alter the perceived volume of the sound as it&amp;apos;s being played. If the sound<br>is pointing toward the listener, it will be louder than if the sound is pointed away<br>from the listener.</p><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a> contained by this property is read only; however, you<br>can still change the value of the parameter by assigning a new value to its<br><a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html#CSharpToJavaScript_APIs_JS_AudioParam_Value">Value</a> property.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API">Using the Web Audio API</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Web_audio_spatialization_basics">Web Audio spatialization basics</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html">PannerNode</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/PannerNode/positionY"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_PannerNode_PositionZ_" data-uid="CSharpToJavaScript.APIs.JS.PannerNode.PositionZ*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_PannerNode_PositionZ" data-uid="CSharpToJavaScript.APIs.JS.PannerNode.PositionZ">
+  PositionZ
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L12706"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>positionZ</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html">PannerNode</a> interface specifies the Z coordinate of the audio source's position in 3D Cartesian<br>coordinates, corresponding to the <strong>depth</strong> axis (behind-in front of the<br>listener). The complete vector is defined by the position of the audio source, given<br>as (<a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_PositionX">PositionX</a>,<br><a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_PositionY">PositionY</a>, {{domxref(&quot;PannerNode.positionZ&quot;,<br>&amp;quot;positionZ&amp;quot;)}}), and the orientation of the audio source (that is, the direction in<br>which it's facing), given as (<a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_OrientationX">OrientationX</a>,<br><a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_OrientationY">OrientationY</a>,<br><a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_OrientationZ">OrientationZ</a>).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AudioParam PositionZ { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a></dt>
+    <dd><p>An <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a> whose <code>value</code> is the Z coordinate of the audio<br>source&amp;apos;s position, in 3D Cartesian coordinates.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_PannerNode_PositionZ_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Depending on the directionality of the sound (as specified using the attributes<br><a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_ConeInnerAngle">ConeInnerAngle</a>,<br><a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_ConeOuterAngle">ConeOuterAngle</a>, and<br><a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_ConeOuterGain">ConeOuterGain</a>), the orientation of the<br>sound may alter the perceived volume of the sound as it&amp;apos;s being played. If the sound<br>is pointing toward the listener, it will be louder than if the sound is pointed away<br>from the listener.</p><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a> contained by this property is read only; however, you<br>can still change the value of the parameter by assigning a new value to its<br><a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html#CSharpToJavaScript_APIs_JS_AudioParam_Value">Value</a> property.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API">Using the Web Audio API</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Web_audio_spatialization_basics">Web Audio spatialization basics</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html">PannerNode</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/PannerNode/positionZ"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_PannerNode_RefDistance_" data-uid="CSharpToJavaScript.APIs.JS.PannerNode.RefDistance*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_PannerNode_RefDistance" data-uid="CSharpToJavaScript.APIs.JS.PannerNode.RefDistance">
+  RefDistance
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L12716"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <code>refDistance</code> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html">PannerNode</a> interface is a double value representing the reference distance for reducing volume as the audio source moves further from the listener – i.e. the distance at which the volume reduction starts taking effect. This value is used by all distance models.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Number RefDistance { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dd><p>A non-negative number. If the value is set to less than 0, a RangeError is thrown.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_PannerNode_RefDistance_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The <code>refDistance</code> property&amp;apos;s default value is <code>1</code>.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API">Using the Web Audio API</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Web_audio_spatialization_basics">Web Audio spatialization basics</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/PannerNode/refDistance"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_PannerNode_RolloffFactor_" data-uid="CSharpToJavaScript.APIs.JS.PannerNode.RolloffFactor*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_PannerNode_RolloffFactor" data-uid="CSharpToJavaScript.APIs.JS.PannerNode.RolloffFactor">
+  RolloffFactor
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L12720"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <code>rolloffFactor</code> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html">PannerNode</a> interface is a double value describing how quickly the volume is reduced as the source moves away from the listener. This value is used by all distance models. The <code>rolloffFactor</code> property&amp;apos;s default value is <code>1</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Number RolloffFactor { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dd><p>A number whose range depends on the <a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_DistanceModel">DistanceModel</a> of the panner as follows (negative values are not allowed):</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_PannerNode_RolloffFactor_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API">Using the Web Audio API</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Web_audio_spatialization_basics">Web Audio spatialization basics</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/PannerNode/rolloffFactor"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_PannerNode_SetOrientation_" data-uid="CSharpToJavaScript.APIs.JS.PannerNode.SetOrientation*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_PannerNode_SetOrientation_CSharpToJavaScript_APIs_JS_Number_CSharpToJavaScript_APIs_JS_Number_CSharpToJavaScript_APIs_JS_Number_" data-uid="CSharpToJavaScript.APIs.JS.PannerNode.SetOrientation(CSharpToJavaScript.APIs.JS.Number,CSharpToJavaScript.APIs.JS.Number,CSharpToJavaScript.APIs.JS.Number)">
+  SetOrientation(Number, Number, Number)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L12730"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><div class="IMPORTANT"><h5>IMPORTANT</h5> <strong>Deprecated</strong></div> <blockquote class="NOTE"><h5>NOTE</h5><strong>Note:</strong> The suggested replacement for this deprecated method is to instead set the <a href="https://developer.mozilla.org/en-US/docs/Web/API/PannerNode/orientationX"><code>orientationX</code></a>, <a href="https://developer.mozilla.org/en-US/docs/Web/API/PannerNode/orientationY"><code>orientationY</code></a>, and <a href="https://developer.mozilla.org/en-US/docs/Web/API/PannerNode/orientationZ"><code>orientationZ</code></a> attributes directly.</blockquote>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined SetOrientation(Number x, Number y, Number z)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dd></dd>
+    <dt><code>z</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_PannerNode_SetOrientation_CSharpToJavaScript_APIs_JS_Number_CSharpToJavaScript_APIs_JS_Number_CSharpToJavaScript_APIs_JS_Number__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The <code>setOrientation()</code> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html">PannerNode</a> Interface defines the direction the audio source is playing in.</p><p>This can have a big effect if the sound is very directional — controlled by the three cone-related attributes <a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_ConeInnerAngle">ConeInnerAngle</a>, <a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_ConeOuterAngle">ConeOuterAngle</a>, and <a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_ConeOuterGain">ConeOuterGain</a>. In such a case, a sound pointing away from the listener can be very quiet or even silent.</p><p>The three parameters <code>x</code>, <code>y</code> and <code>z</code> are unitless and describe a direction vector in 3D space using the right-hand Cartesian coordinate system. The default value of the direction vector is <code>(1, 0, 0)</code>.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API">Using the Web Audio API</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/PannerNode/setOrientation"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_PannerNode_SetPosition_" data-uid="CSharpToJavaScript.APIs.JS.PannerNode.SetPosition*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_PannerNode_SetPosition_CSharpToJavaScript_APIs_JS_Number_CSharpToJavaScript_APIs_JS_Number_CSharpToJavaScript_APIs_JS_Number_" data-uid="CSharpToJavaScript.APIs.JS.PannerNode.SetPosition(CSharpToJavaScript.APIs.JS.Number,CSharpToJavaScript.APIs.JS.Number,CSharpToJavaScript.APIs.JS.Number)">
+  SetPosition(Number, Number, Number)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L12728"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><div class="IMPORTANT"><h5>IMPORTANT</h5> <strong>Deprecated</strong></div> <blockquote class="NOTE"><h5>NOTE</h5><strong>Note:</strong> The suggested replacement for this deprecated method is to instead set the <a href="https://developer.mozilla.org/en-US/docs/Web/API/PannerNode/positionX"><code>positionX</code></a>, <a href="https://developer.mozilla.org/en-US/docs/Web/API/PannerNode/positionY"><code>positionY</code></a>, and <a href="https://developer.mozilla.org/en-US/docs/Web/API/PannerNode/positionZ"><code>positionZ</code></a> attributes directly.</blockquote>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined SetPosition(Number x, Number y, Number z)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dd></dd>
+    <dt><code>z</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_PannerNode_SetPosition_CSharpToJavaScript_APIs_JS_Number_CSharpToJavaScript_APIs_JS_Number_CSharpToJavaScript_APIs_JS_Number__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The <code>setPosition()</code> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html">PannerNode</a> Interface defines the position of the audio source relative to the listener (represented by an <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioListener.html">AudioListener</a> object stored in the <a class="xref" href="CSharpToJavaScript.APIs.JS.BaseAudioContext.html#CSharpToJavaScript_APIs_JS_BaseAudioContext_Listener">Listener</a> attribute.) The three parameters <code>x</code>, <code>y</code> and <code>z</code> are unitless and describe the source&amp;apos;s position in 3D space using the right-hand Cartesian coordinate system.</p><p>The <code>setPosition()</code> method&amp;apos;s default value of the position is <code>(0, 0, 0)</code>.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API">Using the Web Audio API</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/PannerNode/setPosition"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L12694" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

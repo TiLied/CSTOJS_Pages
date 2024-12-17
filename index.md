@@ -1,12 +1,4 @@
 # **CSharpToJavaScript** documentation.
-[Github](https://github.com/TiLied/CSharpToJavaScript)
+[Github](https://github.com/TiLied/CSharpToJavaScript) | [Nuget package](https://www.nuget.org/packages/CSharpToJavaScript/) | [Try it online!](https://tilied.github.io/CSTOJS_Pages/BWA/) | [CLI](https://github.com/TiLied/CSTOJS_CLI) | [VS Code Extension](https://marketplace.visualstudio.com/items?itemName=tilied.cstojs-vscode-ext) | [VS Extension](https://marketplace.visualstudio.com/items?itemName=tilied.cstojs-vs-ext)
 
-[Nuget](https://www.nuget.org/packages/CSharpToJavaScript/)
-
-[CLI](https://github.com/TiLied/CSTOJS_CLI)
-
-[Visual Studio Extension](https://marketplace.visualstudio.com/items?itemName=tilied.cstojs-vs-ext)
-
-[Visual Studio Code Extension](https://marketplace.visualstudio.com/items?itemName=tilied.cstojs-vscode-ext)
-
-Visit articles for more examples. [Try it online!](/CSTOJS_Pages/BWA/)
+Visit articles for more examples.

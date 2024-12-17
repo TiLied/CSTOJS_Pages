@@ -1,0 +1,469 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class IDBRequest
+ | CSharpToJavaScript </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class IDBRequest
+ | CSharpToJavaScript ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/TiLied/CSharpToJavaScript/new/master/apiSpec/new?filename=CSharpToJavaScript_APIs_JS_IDBRequest.md&amp;value=---%0Auid%3A%20CSharpToJavaScript.APIs.JS.IDBRequest%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="CSharpToJavaScript.APIs.JS.IDBRequest">
+
+
+
+  <h1 id="CSharpToJavaScript_APIs_JS_IDBRequest" data-uid="CSharpToJavaScript.APIs.JS.IDBRequest" class="text-break">
+    Class IDBRequest
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9409"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CSharpToJavaScript.html">CSharpToJavaScript</a>.<a class="xref" href="CSharpToJavaScript.APIs.html">APIs</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.html">JS</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>The <strong><code>IDBRequest</code></strong> interface of the IndexedDB API provides access to results of asynchronous requests to databases and database objects using event handler attributes. Each reading and writing operation on a database is done using a request.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public class IDBRequest : EventTarget</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html">EventTarget</a></div>
+      <div><span class="xref">IDBRequest</span></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBOpenDBRequest.html">IDBOpenDBRequest</a></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union41_">EventTarget.AddEventListener(string, Action, Union41)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_MouseEvent__CSharpToJavaScript_APIs_JS_Union41_">EventTarget.AddEventListener(string, Action&lt;MouseEvent&gt;, Union41)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Event__CSharpToJavaScript_APIs_JS_Union41_">EventTarget.AddEventListener(string, Action&lt;Event&gt;, Union41)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_RemoveEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union2_">EventTarget.RemoveEventListener(string, Action, Union2)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_CSharpToJavaScript_APIs_JS_EventListener_CSharpToJavaScript_APIs_JS_Union41_">EventTarget.AddEventListener(string, EventListener, Union41)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_RemoveEventListener_System_String_CSharpToJavaScript_APIs_JS_EventListener_CSharpToJavaScript_APIs_JS_Union42_">EventTarget.RemoveEventListener(string, EventListener, Union42)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_DispatchEvent_CSharpToJavaScript_APIs_JS_Event_">EventTarget.DispatchEvent(Event)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+  <h2 id="CSharpToJavaScript_APIs_JS_IDBRequest_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>The request object does not initially contain any information about the result of the operation, but once information becomes available, an event is fired on the request, and the information becomes available through the properties of the <code>IDBRequest</code> instance.</p><p>All asynchronous operations immediately return an <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBRequest.html">IDBRequest</a> instance. Each request has a <code>readyState</code> that is set to the <code>&amp;apos;pending&amp;apos;</code> state; this changes to <code>&amp;apos;done&amp;apos;</code> when the request is completed or fails. When the state is set to <code>done</code>, every request returns a <code>result</code> and an <code>error</code>, and an event is fired on the request. When the state is still <code>pending</code>, any attempt to access the <code>result</code> or <code>error</code> raises an <code>InvalidStateError</code> exception.</p><p>In plain words, all asynchronous methods return a request object. If the request has been completed successfully, the result is made available through the <code>result</code> property and an event indicating success is fired at the request (IDBRequest.Success_event). If an error occurs while performing the operation, the exception is made available through the <code>error</code> property and an error event is fired (IDBRequest.Error_event).</p><p>The interface <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBOpenDBRequest.html">IDBOpenDBRequest</a> is derived from <code>IDBRequest</code>.</p><p>AvailableInWorkers</p><p></p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB">Using IndexedDB</a><br>-Starting transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBDatabase.html">IDBDatabase</a><br>-Using transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a><br>-Setting a range of keys: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a><br>-Retrieving and making changes to your data: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a><br>-Using cursors: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a><br>-Reference example: <a href="https://github.com/mdn/dom-examples/tree/main/to-do-notifications">To-do Notifications</a> (<a href="https://mdn.github.io/dom-examples/to-do-notifications/">View the example live</a>).<br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBRequest"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_IDBRequest_Error_" data-uid="CSharpToJavaScript.APIs.JS.IDBRequest.Error*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_IDBRequest_Error" data-uid="CSharpToJavaScript.APIs.JS.IDBRequest.Error">
+  Error
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9415"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>error</code></strong> read-only property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBRequest.html">IDBRequest</a> interface returns the error in the event of an unsuccessful<br>request.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DOMException? Error { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.DOMException.html">DOMException</a></dt>
+    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMException.html">DOMException</a> or <code>null</code> if there is no error. The following error names are returned<br>in the exception object:In addition to the error codes sent to the <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBRequest.html">IDBRequest</a> object,<br>asynchronous operations can also raise exceptions. The list describes problems that<br>could occur when the request is being executed, but you might also encounter other<br>problems when the request is being made. For example, if the result is accessed<br>while the request is not completed, the <code>InvalidStateError</code> exception is thrown.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_IDBRequest_Error_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>AvailableInWorkers</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB">Using IndexedDB</a><br>-Starting transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBDatabase.html">IDBDatabase</a><br>-Using transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a><br>-Setting a range of keys: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a><br>-Retrieving and making changes to your data: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a><br>-Using cursors: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a><br>-Reference example: <a href="https://github.com/mdn/dom-examples/tree/main/to-do-notifications">To-do Notifications</a> (<a href="https://mdn.github.io/dom-examples/to-do-notifications/">View the example live</a>).<br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBRequest/error"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_IDBRequest_Onerror_" data-uid="CSharpToJavaScript.APIs.JS.IDBRequest.Onerror*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_IDBRequest_Onerror" data-uid="CSharpToJavaScript.APIs.JS.IDBRequest.Onerror">
+  Onerror
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9423"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EventHandlerNonNull Onerror { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.EventHandlerNonNull.html">EventHandlerNonNull</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_IDBRequest_Onsuccess_" data-uid="CSharpToJavaScript.APIs.JS.IDBRequest.Onsuccess*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_IDBRequest_Onsuccess" data-uid="CSharpToJavaScript.APIs.JS.IDBRequest.Onsuccess">
+  Onsuccess
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9422"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EventHandlerNonNull Onsuccess { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.EventHandlerNonNull.html">EventHandlerNonNull</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_IDBRequest_ReadyState_" data-uid="CSharpToJavaScript.APIs.JS.IDBRequest.ReadyState*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_IDBRequest_ReadyState" data-uid="CSharpToJavaScript.APIs.JS.IDBRequest.ReadyState">
+  ReadyState
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9421"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>readyState</code></strong> read-only property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBRequest.html">IDBRequest</a> interface returns the state of the request.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IDBRequestReadyState ReadyState { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBRequestReadyState.html">IDBRequestReadyState</a></dt>
+    <dd><p>One of the following strings:</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_IDBRequest_ReadyState_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Every request starts in the <code>pending</code> state. The state changes to<br><code>done</code> when the request completes successfully or when an error<br>occurs.</p><p>AvailableInWorkers</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB">Using IndexedDB</a><br>-Starting transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBDatabase.html">IDBDatabase</a><br>-Using transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a><br>-Setting a range of keys: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a><br>-Retrieving and making changes to your data: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a><br>-Using cursors: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a><br>-Reference example: <a href="https://github.com/mdn/dom-examples/tree/main/to-do-notifications">To-do Notifications</a> (<a href="https://mdn.github.io/dom-examples/to-do-notifications/">View the example live</a>).<br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBRequest/readyState"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_IDBRequest_Result_" data-uid="CSharpToJavaScript.APIs.JS.IDBRequest.Result*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_IDBRequest_Result" data-uid="CSharpToJavaScript.APIs.JS.IDBRequest.Result">
+  Result
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9413"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>result</code></strong> read-only property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBRequest.html">IDBRequest</a> interface returns the result of the request. If the request<br>is not completed, the result is not available and an <code>InvalidStateError</code> exception is<br>thrown.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public dynamic Result { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><span class="xref">dynamic</span></dt>
+    <dd><p>any</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_IDBRequest_Result_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>AvailableInWorkers</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB">Using IndexedDB</a><br>-Starting transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBDatabase.html">IDBDatabase</a><br>-Using transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a><br>-Setting a range of keys: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a><br>-Retrieving and making changes to your data: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a><br>-Using cursors: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a><br>-Reference example: <a href="https://github.com/mdn/dom-examples/tree/main/to-do-notifications">To-do Notifications</a> (<a href="https://mdn.github.io/dom-examples/to-do-notifications/">View the example live</a>).<br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBRequest/result"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_IDBRequest_Source_" data-uid="CSharpToJavaScript.APIs.JS.IDBRequest.Source*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_IDBRequest_Source" data-uid="CSharpToJavaScript.APIs.JS.IDBRequest.Source">
+  Source
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9417"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>source</code></strong> read-only property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBRequest.html">IDBRequest</a> interface returns the source of the request, such as an<br>Index or an object store. If no source exists (such as when calling<br><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBFactory.html#CSharpToJavaScript_APIs_JS_IDBFactory_Open_System_String_System_UInt64_">Open(string, ulong)</a>), it returns null.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Union73? Source { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Union73.html">Union73</a>?</dt>
+    <dd><p>An object representing the source of the request, such as an <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBIndex.html">IDBIndex</a>,<br><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a> or <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_IDBRequest_Source_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>AvailableInWorkers</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB">Using IndexedDB</a><br>-Starting transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBDatabase.html">IDBDatabase</a><br>-Using transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a><br>-Setting a range of keys: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a><br>-Retrieving and making changes to your data: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a><br>-Using cursors: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a><br>-Reference example: <a href="https://github.com/mdn/dom-examples/tree/main/to-do-notifications">To-do Notifications</a> (<a href="https://mdn.github.io/dom-examples/to-do-notifications/">View the example live</a>).<br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBRequest/source"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_IDBRequest_Transaction_" data-uid="CSharpToJavaScript.APIs.JS.IDBRequest.Transaction*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_IDBRequest_Transaction" data-uid="CSharpToJavaScript.APIs.JS.IDBRequest.Transaction">
+  Transaction
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9419"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>transaction</code></strong> read-only property of the IDBRequest<br>interface returns the transaction for the request, that is, the transaction the<br>request is being made inside.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IDBTransaction? Transaction { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a></dt>
+    <dd><p>An <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a>.</p>
+</dd>
+  </dl>
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_IDBRequest_Transaction_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This property can be <code>null</code> for requests not made within transactions,<br>such as for requests returned from <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBFactory.html#CSharpToJavaScript_APIs_JS_IDBFactory_Open_System_String_System_UInt64_">Open(string, ulong)</a> — in this case<br>you&amp;apos;re just connecting to a database, so there is no transaction to return. If a<br>version upgrade is needed when opening a database then during the<br>IDBOpenDBRequest.Upgradeneeded_event event handler the<br><strong><code>transaction</code></strong> property will be an<br><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a> with <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html#CSharpToJavaScript_APIs_JS_IDBTransaction_Mode">Mode</a> equal<br>to <code>&amp;quot;versionchange&amp;quot;</code>, and can be used to access existing object stores and<br>indexes, or abort the upgrade. Following the upgrade, the<br><strong><code>transaction</code></strong> property will again be <code>null</code>.</p><p>AvailableInWorkers</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB">Using IndexedDB</a><br>-Starting transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBDatabase.html">IDBDatabase</a><br>-Using transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a><br>-Setting a range of keys: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a><br>-Retrieving and making changes to your data: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a><br>-Using cursors: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a><br>-Reference example: <a href="https://github.com/mdn/dom-examples/tree/main/to-do-notifications">To-do Notifications</a> (<a href="https://mdn.github.io/dom-examples/to-do-notifications/">View the example live</a>).<br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBRequest/transaction"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L9409" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

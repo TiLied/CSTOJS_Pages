@@ -1,0 +1,1565 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class DOMMatrix
+ | CSharpToJavaScript </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class DOMMatrix
+ | CSharpToJavaScript ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/TiLied/CSharpToJavaScript/new/master/apiSpec/new?filename=CSharpToJavaScript_APIs_JS_DOMMatrix.md&amp;value=---%0Auid%3A%20CSharpToJavaScript.APIs.JS.DOMMatrix%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix">
+
+
+
+  <h1 id="CSharpToJavaScript_APIs_JS_DOMMatrix" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix" class="text-break">
+    Class DOMMatrix
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7844"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CSharpToJavaScript.html">CSharpToJavaScript</a>.<a class="xref" href="CSharpToJavaScript.APIs.html">APIs</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.html">JS</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>The <strong><code>DOMMatrix</code></strong> interface represents 4×4 matrices, suitable for 2D and 3D operations including rotation and translation. It is a mutable version of the <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMMatrixReadOnly.html">DOMMatrixReadOnly</a> interface.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public class DOMMatrix : DOMMatrixReadOnly</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.DOMMatrixReadOnly.html">DOMMatrixReadOnly</a></div>
+      <div><span class="xref">DOMMatrix</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMMatrixReadOnly.html#CSharpToJavaScript_APIs_JS_DOMMatrixReadOnly_Is2D">DOMMatrixReadOnly.Is2D</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMMatrixReadOnly.html#CSharpToJavaScript_APIs_JS_DOMMatrixReadOnly_IsIdentity">DOMMatrixReadOnly.IsIdentity</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMMatrixReadOnly.html#CSharpToJavaScript_APIs_JS_DOMMatrixReadOnly_Translate_System_Double_System_Double_System_Double_">DOMMatrixReadOnly.Translate(double, double, double)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMMatrixReadOnly.html#CSharpToJavaScript_APIs_JS_DOMMatrixReadOnly_Scale_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_">DOMMatrixReadOnly.Scale(double, double, double, double, double, double)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMMatrixReadOnly.html#CSharpToJavaScript_APIs_JS_DOMMatrixReadOnly_ScaleNonUniform_System_Double_System_Double_">DOMMatrixReadOnly.ScaleNonUniform(double, double)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMMatrixReadOnly.html#CSharpToJavaScript_APIs_JS_DOMMatrixReadOnly_Scale3d_System_Double_System_Double_System_Double_System_Double_">DOMMatrixReadOnly.Scale3d(double, double, double, double)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMMatrixReadOnly.html#CSharpToJavaScript_APIs_JS_DOMMatrixReadOnly_Rotate_System_Double_System_Double_System_Double_">DOMMatrixReadOnly.Rotate(double, double, double)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMMatrixReadOnly.html#CSharpToJavaScript_APIs_JS_DOMMatrixReadOnly_RotateFromVector_System_Double_System_Double_">DOMMatrixReadOnly.RotateFromVector(double, double)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMMatrixReadOnly.html#CSharpToJavaScript_APIs_JS_DOMMatrixReadOnly_RotateAxisAngle_System_Double_System_Double_System_Double_System_Double_">DOMMatrixReadOnly.RotateAxisAngle(double, double, double, double)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMMatrixReadOnly.html#CSharpToJavaScript_APIs_JS_DOMMatrixReadOnly_SkewX_System_Double_">DOMMatrixReadOnly.SkewX(double)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMMatrixReadOnly.html#CSharpToJavaScript_APIs_JS_DOMMatrixReadOnly_SkewY_System_Double_">DOMMatrixReadOnly.SkewY(double)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMMatrixReadOnly.html#CSharpToJavaScript_APIs_JS_DOMMatrixReadOnly_Multiply_CSharpToJavaScript_APIs_JS_DOMMatrixInit_">DOMMatrixReadOnly.Multiply(DOMMatrixInit)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMMatrixReadOnly.html#CSharpToJavaScript_APIs_JS_DOMMatrixReadOnly_FlipX">DOMMatrixReadOnly.FlipX()</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMMatrixReadOnly.html#CSharpToJavaScript_APIs_JS_DOMMatrixReadOnly_FlipY">DOMMatrixReadOnly.FlipY()</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMMatrixReadOnly.html#CSharpToJavaScript_APIs_JS_DOMMatrixReadOnly_Inverse">DOMMatrixReadOnly.Inverse()</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMMatrixReadOnly.html#CSharpToJavaScript_APIs_JS_DOMMatrixReadOnly_TransformPoint_CSharpToJavaScript_APIs_JS_DOMPointInit_">DOMMatrixReadOnly.TransformPoint(DOMPointInit)</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMMatrixReadOnly.html#CSharpToJavaScript_APIs_JS_DOMMatrixReadOnly_ToFloat32Array">DOMMatrixReadOnly.ToFloat32Array()</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMMatrixReadOnly.html#CSharpToJavaScript_APIs_JS_DOMMatrixReadOnly_ToFloat64Array">DOMMatrixReadOnly.ToFloat64Array()</a>
+    </div>
+    <div>
+      <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMMatrixReadOnly.html#CSharpToJavaScript_APIs_JS_DOMMatrixReadOnly_ToJSON">DOMMatrixReadOnly.ToJSON()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+  <h2 id="CSharpToJavaScript_APIs_JS_DOMMatrix_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p><strong><code>WebKitCSSMatrix</code></strong> and <strong><code>SVGMatrix</code></strong> are aliases to <strong><code>DOMMatrix</code></strong>.</p><p>This interface should be available inside <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API">web workers</a>, though some implementations don&amp;apos;t allow it yet.</p><p></p>
+<p>-Its non-modifiable counterpart, <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMMatrixReadOnly.html">DOMMatrixReadOnly</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrix"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_DOMMatrix__ctor_" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.#ctor*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_DOMMatrix__ctor" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.#ctor">
+  DOMMatrix()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7886"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DOMMatrix()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_DOMMatrix__ctor_" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.#ctor*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_DOMMatrix__ctor_CSharpToJavaScript_APIs_JS_Union55_" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.#ctor(CSharpToJavaScript.APIs.JS.Union55)">
+  DOMMatrix(Union55)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7848"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>DOMMatrix</code></strong> constructor creates a new<br><a class="xref" href="CSharpToJavaScript.APIs.JS.DOMMatrix.html">DOMMatrix</a> object which represents 4x4 matrices, suitable for 2D and 3D<br>operations.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DOMMatrix(Union55 init)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>init</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union55.html">Union55</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_DOMMatrix__ctor_CSharpToJavaScript_APIs_JS_Union55__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p><a href="https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrix/DOMMatrix"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_DOMMatrix_A_" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.A*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_DOMMatrix_A" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.A">
+  A
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7852"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double A { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_DOMMatrix_B_" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.B*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_DOMMatrix_B" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.B">
+  B
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7853"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double B { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_DOMMatrix_C_" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.C*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_DOMMatrix_C" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.C">
+  C
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7854"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double C { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_DOMMatrix_D_" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.D*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_DOMMatrix_D" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.D">
+  D
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7855"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double D { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_DOMMatrix_E_" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.E*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_DOMMatrix_E" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.E">
+  E
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7856"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double E { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_DOMMatrix_F_" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.F*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_DOMMatrix_F" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.F">
+  F
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7857"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double F { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_DOMMatrix_M11_" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.M11*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_DOMMatrix_M11" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.M11">
+  M11
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7858"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double M11 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_DOMMatrix_M12_" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.M12*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_DOMMatrix_M12" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.M12">
+  M12
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7859"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double M12 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_DOMMatrix_M13_" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.M13*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_DOMMatrix_M13" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.M13">
+  M13
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7860"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double M13 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_DOMMatrix_M14_" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.M14*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_DOMMatrix_M14" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.M14">
+  M14
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7861"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double M14 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_DOMMatrix_M21_" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.M21*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_DOMMatrix_M21" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.M21">
+  M21
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7862"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double M21 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_DOMMatrix_M22_" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.M22*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_DOMMatrix_M22" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.M22">
+  M22
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7863"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double M22 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_DOMMatrix_M23_" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.M23*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_DOMMatrix_M23" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.M23">
+  M23
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7864"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double M23 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_DOMMatrix_M24_" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.M24*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_DOMMatrix_M24" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.M24">
+  M24
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7865"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double M24 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_DOMMatrix_M31_" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.M31*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_DOMMatrix_M31" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.M31">
+  M31
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7866"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double M31 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_DOMMatrix_M32_" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.M32*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_DOMMatrix_M32" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.M32">
+  M32
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7867"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double M32 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_DOMMatrix_M33_" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.M33*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_DOMMatrix_M33" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.M33">
+  M33
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7868"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double M33 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_DOMMatrix_M34_" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.M34*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_DOMMatrix_M34" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.M34">
+  M34
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7869"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double M34 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_DOMMatrix_M41_" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.M41*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_DOMMatrix_M41" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.M41">
+  M41
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7870"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double M41 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_DOMMatrix_M42_" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.M42*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_DOMMatrix_M42" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.M42">
+  M42
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7871"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double M42 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_DOMMatrix_M43_" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.M43*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_DOMMatrix_M43" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.M43">
+  M43
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7872"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double M43 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_DOMMatrix_M44_" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.M44*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_DOMMatrix_M44" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.M44">
+  M44
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7873"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double M44 { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_DOMMatrix_FromFloat32Array_" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.FromFloat32Array*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_DOMMatrix_FromFloat32Array_System_Single_" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.FromFloat32Array(System.Single)">
+  FromFloat32Array(float)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7850"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DOMMatrix FromFloat32Array(float array32)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>array32</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.DOMMatrix.html">DOMMatrix</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_DOMMatrix_FromFloat64Array_" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.FromFloat64Array*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_DOMMatrix_FromFloat64Array_System_Double_" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.FromFloat64Array(System.Double)">
+  FromFloat64Array(double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7851"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DOMMatrix FromFloat64Array(double array64)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>array64</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.DOMMatrix.html">DOMMatrix</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_DOMMatrix_FromMatrix_" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.FromMatrix*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_DOMMatrix_FromMatrix_CSharpToJavaScript_APIs_JS_DOMMatrixInit_" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.FromMatrix(CSharpToJavaScript.APIs.JS.DOMMatrixInit)">
+  FromMatrix(DOMMatrixInit)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7849"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DOMMatrix FromMatrix(DOMMatrixInit other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMMatrixInit.html">DOMMatrixInit</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.DOMMatrix.html">DOMMatrix</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_DOMMatrix_InvertSelf_" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.InvertSelf*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_DOMMatrix_InvertSelf" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.InvertSelf">
+  InvertSelf()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7884"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DOMMatrix InvertSelf()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.DOMMatrix.html">DOMMatrix</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_DOMMatrix_MultiplySelf_" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.MultiplySelf*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_DOMMatrix_MultiplySelf_CSharpToJavaScript_APIs_JS_DOMMatrixInit_" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.MultiplySelf(CSharpToJavaScript.APIs.JS.DOMMatrixInit)">
+  MultiplySelf(DOMMatrixInit)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7874"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DOMMatrix MultiplySelf(DOMMatrixInit other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMMatrixInit.html">DOMMatrixInit</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.DOMMatrix.html">DOMMatrix</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_DOMMatrix_PreMultiplySelf_" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.PreMultiplySelf*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_DOMMatrix_PreMultiplySelf_CSharpToJavaScript_APIs_JS_DOMMatrixInit_" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.PreMultiplySelf(CSharpToJavaScript.APIs.JS.DOMMatrixInit)">
+  PreMultiplySelf(DOMMatrixInit)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7875"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DOMMatrix PreMultiplySelf(DOMMatrixInit other)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>other</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMMatrixInit.html">DOMMatrixInit</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.DOMMatrix.html">DOMMatrix</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_DOMMatrix_RotateAxisAngleSelf_" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.RotateAxisAngleSelf*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_DOMMatrix_RotateAxisAngleSelf_System_Double_System_Double_System_Double_System_Double_" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.RotateAxisAngleSelf(System.Double,System.Double,System.Double,System.Double)">
+  RotateAxisAngleSelf(double, double, double, double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7881"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DOMMatrix RotateAxisAngleSelf(double x, double y, double z, double angle)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>z</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>angle</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.DOMMatrix.html">DOMMatrix</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_DOMMatrix_RotateFromVectorSelf_" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.RotateFromVectorSelf*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_DOMMatrix_RotateFromVectorSelf_System_Double_System_Double_" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.RotateFromVectorSelf(System.Double,System.Double)">
+  RotateFromVectorSelf(double, double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7880"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DOMMatrix RotateFromVectorSelf(double x, double y)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.DOMMatrix.html">DOMMatrix</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_DOMMatrix_RotateSelf_" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.RotateSelf*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_DOMMatrix_RotateSelf_System_Double_System_Double_System_Double_" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.RotateSelf(System.Double,System.Double,System.Double)">
+  RotateSelf(double, double, double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7879"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DOMMatrix RotateSelf(double rotX, double rotY, double rotZ)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rotX</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>rotY</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>rotZ</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.DOMMatrix.html">DOMMatrix</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_DOMMatrix_Scale3dSelf_" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.Scale3dSelf*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_DOMMatrix_Scale3dSelf_System_Double_System_Double_System_Double_System_Double_" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.Scale3dSelf(System.Double,System.Double,System.Double,System.Double)">
+  Scale3dSelf(double, double, double, double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7878"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DOMMatrix Scale3dSelf(double scale, double originX, double originY, double originZ)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>scale</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>originX</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>originY</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>originZ</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.DOMMatrix.html">DOMMatrix</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_DOMMatrix_ScaleSelf_" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.ScaleSelf*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_DOMMatrix_ScaleSelf_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.ScaleSelf(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)">
+  ScaleSelf(double, double, double, double, double, double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7877"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DOMMatrix ScaleSelf(double scaleX, double scaleY, double scaleZ, double originX, double originY, double originZ)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>scaleX</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>scaleY</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>scaleZ</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>originX</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>originY</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>originZ</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.DOMMatrix.html">DOMMatrix</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_DOMMatrix_SetMatrixValue_" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.SetMatrixValue*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_DOMMatrix_SetMatrixValue_System_String_" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.SetMatrixValue(System.String)">
+  SetMatrixValue(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7885"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DOMMatrix SetMatrixValue(string transformList)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>transformList</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.DOMMatrix.html">DOMMatrix</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_DOMMatrix_SkewXSelf_" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.SkewXSelf*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_DOMMatrix_SkewXSelf_System_Double_" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.SkewXSelf(System.Double)">
+  SkewXSelf(double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7882"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DOMMatrix SkewXSelf(double sx)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sx</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.DOMMatrix.html">DOMMatrix</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_DOMMatrix_SkewYSelf_" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.SkewYSelf*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_DOMMatrix_SkewYSelf_System_Double_" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.SkewYSelf(System.Double)">
+  SkewYSelf(double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7883"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DOMMatrix SkewYSelf(double sy)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>sy</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.DOMMatrix.html">DOMMatrix</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_DOMMatrix_TranslateSelf_" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.TranslateSelf*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_DOMMatrix_TranslateSelf_System_Double_System_Double_System_Double_" data-uid="CSharpToJavaScript.APIs.JS.DOMMatrix.TranslateSelf(System.Double,System.Double,System.Double)">
+  TranslateSelf(double, double, double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7876"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DOMMatrix TranslateSelf(double tx, double ty, double tz)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>tx</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>ty</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+    <dt><code>tz</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.DOMMatrix.html">DOMMatrix</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7844" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

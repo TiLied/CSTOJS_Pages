@@ -1,0 +1,532 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class GPURenderPassEncoder
+ | CSharpToJavaScript </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class GPURenderPassEncoder
+ | CSharpToJavaScript ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/TiLied/CSharpToJavaScript/new/master/apiSpec/new?filename=CSharpToJavaScript_APIs_JS_GPURenderPassEncoder.md&amp;value=---%0Auid%3A%20CSharpToJavaScript.APIs.JS.GPURenderPassEncoder%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+  </head>
+
+  <script type="module" src="./../public/docfx.min.js"></script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="CSharpToJavaScript.APIs.JS.GPURenderPassEncoder">
+
+
+
+  <h1 id="CSharpToJavaScript_APIs_JS_GPURenderPassEncoder" data-uid="CSharpToJavaScript.APIs.JS.GPURenderPassEncoder" class="text-break">
+    Class GPURenderPassEncoder
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L15010"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CSharpToJavaScript.html">CSharpToJavaScript</a>.<a class="xref" href="CSharpToJavaScript.APIs.html">APIs</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.html">JS</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>The <strong><code>GPURenderPassEncoder</code></strong> interface of the {{domxref(&amp;quot;WebGPU API&amp;quot;, &amp;quot;WebGPU API&amp;quot;, &amp;quot;&amp;quot;, &quot;nocode&quot;)}} encodes commands related to controlling the vertex and fragment shader stages, as issued by a <a class="xref" href="CSharpToJavaScript.APIs.JS.GPURenderPipeline.html">GPURenderPipeline</a>. It forms part of the overall encoding activity of a <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUCommandEncoder.html">GPUCommandEncoder</a>.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public class GPURenderPassEncoder</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">GPURenderPassEncoder</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+  <h2 id="CSharpToJavaScript_APIs_JS_GPURenderPassEncoder_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>A render pipeline renders graphics to <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUTexture.html">GPUTexture</a> attachments, typically intended for display in a {{htmlelement("canvas")}} element, but it could also render to textures used for other purposes that never appear onscreen. It has two main stages:</p><p>A <code>GPURenderPassEncoder</code> object instance is created via the <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUCommandEncoder.html#CSharpToJavaScript_APIs_JS_GPUCommandEncoder_BeginRenderPass_CSharpToJavaScript_APIs_JS_GPURenderPassDescriptor_">BeginRenderPass(GPURenderPassDescriptor)</a> property.</p><p></p>
+<p>-The <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API">WebGPU API</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/GPURenderPassEncoder"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_GPURenderPassEncoder_BeginOcclusionQuery_" data-uid="CSharpToJavaScript.APIs.JS.GPURenderPassEncoder.BeginOcclusionQuery*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_GPURenderPassEncoder_BeginOcclusionQuery_System_UInt64_" data-uid="CSharpToJavaScript.APIs.JS.GPURenderPassEncoder.BeginOcclusionQuery(System.UInt64)">
+  BeginOcclusionQuery(ulong)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L15022"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>beginOcclusionQuery()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.GPURenderPassEncoder.html">GPURenderPassEncoder</a> interface begins an occlusion query at the specified index of the relevant <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUQuerySet.html">GPUQuerySet</a> (provided as the value of the <code>occlusionQuerySet</code> descriptor property when invoking <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUCommandEncoder.html#CSharpToJavaScript_APIs_JS_GPUCommandEncoder_BeginRenderPass_CSharpToJavaScript_APIs_JS_GPURenderPassDescriptor_">BeginRenderPass(GPURenderPassDescriptor)</a> to run the render pass).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined BeginOcclusionQuery(ulong queryIndex)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>queryIndex</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_GPURenderPassEncoder_BeginOcclusionQuery_System_UInt64__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-The <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API">WebGPU API</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/GPURenderPassEncoder/beginOcclusionQuery"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_GPURenderPassEncoder_End_" data-uid="CSharpToJavaScript.APIs.JS.GPURenderPassEncoder.End*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_GPURenderPassEncoder_End" data-uid="CSharpToJavaScript.APIs.JS.GPURenderPassEncoder.End">
+  End()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L15028"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>end()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.GPURenderPassEncoder.html">GPURenderPassEncoder</a> interface completes recording of the current render pass command sequence.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined End()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_GPURenderPassEncoder_End_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-The <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API">WebGPU API</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/GPURenderPassEncoder/end"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_GPURenderPassEncoder_EndOcclusionQuery_" data-uid="CSharpToJavaScript.APIs.JS.GPURenderPassEncoder.EndOcclusionQuery*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_GPURenderPassEncoder_EndOcclusionQuery" data-uid="CSharpToJavaScript.APIs.JS.GPURenderPassEncoder.EndOcclusionQuery">
+  EndOcclusionQuery()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L15024"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>endOcclusionQuery()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.GPURenderPassEncoder.html">GPURenderPassEncoder</a> interface ends an active occlusion query previously started with <a class="xref" href="CSharpToJavaScript.APIs.JS.GPURenderPassEncoder.html#CSharpToJavaScript_APIs_JS_GPURenderPassEncoder_BeginOcclusionQuery_System_UInt64_">BeginOcclusionQuery(ulong)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined EndOcclusionQuery()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_GPURenderPassEncoder_EndOcclusionQuery_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-The <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API">WebGPU API</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/GPURenderPassEncoder/endOcclusionQuery"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_GPURenderPassEncoder_ExecuteBundles_" data-uid="CSharpToJavaScript.APIs.JS.GPURenderPassEncoder.ExecuteBundles*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_GPURenderPassEncoder_ExecuteBundles_System_Collections_Generic_List_CSharpToJavaScript_APIs_JS_GPURenderBundle__" data-uid="CSharpToJavaScript.APIs.JS.GPURenderPassEncoder.ExecuteBundles(System.Collections.Generic.List{CSharpToJavaScript.APIs.JS.GPURenderBundle})">
+  ExecuteBundles(List&lt;GPURenderBundle&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L15026"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>executeBundles()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.GPURenderPassEncoder.html">GPURenderPassEncoder</a> interface executes commands previously recorded into the referenced <a class="xref" href="CSharpToJavaScript.APIs.JS.GPURenderBundle.html">GPURenderBundle</a>s, as part of this render pass.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined ExecuteBundles(List&lt;GPURenderBundle&gt; bundles)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>bundles</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="CSharpToJavaScript.APIs.JS.GPURenderBundle.html">GPURenderBundle</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_GPURenderPassEncoder_ExecuteBundles_System_Collections_Generic_List_CSharpToJavaScript_APIs_JS_GPURenderBundle___remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><blockquote class="NOTE"><h5>NOTE</h5><p><strong>Note:</strong> After calling <code>executeBundles()</code> the currently set vertex buffers, index buffers, bind groups, and pipeline are all cleared, even if no bundles are actually executed.</p></blockquote>
+<p>-The <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API">WebGPU API</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/GPURenderPassEncoder/executeBundles"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_GPURenderPassEncoder_SetBlendConstant_" data-uid="CSharpToJavaScript.APIs.JS.GPURenderPassEncoder.SetBlendConstant*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_GPURenderPassEncoder_SetBlendConstant_CSharpToJavaScript_APIs_JS_Union102_" data-uid="CSharpToJavaScript.APIs.JS.GPURenderPassEncoder.SetBlendConstant(CSharpToJavaScript.APIs.JS.Union102)">
+  SetBlendConstant(Union102)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L15018"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>setBlendConstant()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.GPURenderPassEncoder.html">GPURenderPassEncoder</a> interface sets the constant blend color and alpha values used with <code>&amp;quot;constant&amp;quot;</code> and <code>&amp;quot;one-minus-constant&amp;quot;</code> blend factors (as set in the descriptor of the <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUDevice.html#CSharpToJavaScript_APIs_JS_GPUDevice_CreateRenderPipeline_CSharpToJavaScript_APIs_JS_GPURenderPipelineDescriptor_">CreateRenderPipeline(GPURenderPipelineDescriptor)</a> method, in the <code>blend</code> property).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined SetBlendConstant(Union102 color)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>color</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union102.html">Union102</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_GPURenderPassEncoder_SetBlendConstant_CSharpToJavaScript_APIs_JS_Union102__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-The <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API">WebGPU API</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/GPURenderPassEncoder/setBlendConstant"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_GPURenderPassEncoder_SetScissorRect_" data-uid="CSharpToJavaScript.APIs.JS.GPURenderPassEncoder.SetScissorRect*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_GPURenderPassEncoder_SetScissorRect_System_UInt64_System_UInt64_System_UInt64_System_UInt64_" data-uid="CSharpToJavaScript.APIs.JS.GPURenderPassEncoder.SetScissorRect(System.UInt64,System.UInt64,System.UInt64,System.UInt64)">
+  SetScissorRect(ulong, ulong, ulong, ulong)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L15016"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>setScissorRect()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.GPURenderPassEncoder.html">GPURenderPassEncoder</a> interface sets the scissor rectangle used during the rasterization stage. After transformation into viewport coordinates any fragments that fall outside the scissor rectangle will be discarded.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined SetScissorRect(ulong x, ulong y, ulong width, ulong height)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+    <dt><code>width</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+    <dt><code>height</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_GPURenderPassEncoder_SetScissorRect_System_UInt64_System_UInt64_System_UInt64_System_UInt64__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-The <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API">WebGPU API</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/GPURenderPassEncoder/setScissorRect"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_GPURenderPassEncoder_SetStencilReference_" data-uid="CSharpToJavaScript.APIs.JS.GPURenderPassEncoder.SetStencilReference*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_GPURenderPassEncoder_SetStencilReference_System_UInt64_" data-uid="CSharpToJavaScript.APIs.JS.GPURenderPassEncoder.SetStencilReference(System.UInt64)">
+  SetStencilReference(ulong)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L15020"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>setStencilReference()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.GPURenderPassEncoder.html">GPURenderPassEncoder</a> interface sets the stencil reference value using during stencil tests with the <code>&amp;quot;replace&amp;quot;</code> stencil operation (as set in the descriptor of the <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUDevice.html#CSharpToJavaScript_APIs_JS_GPUDevice_CreateRenderPipeline_CSharpToJavaScript_APIs_JS_GPURenderPipelineDescriptor_">CreateRenderPipeline(GPURenderPipelineDescriptor)</a> method, in the properties defining the various stencil operations).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined SetStencilReference(ulong reference)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>reference</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_GPURenderPassEncoder_SetStencilReference_System_UInt64__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-The <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API">WebGPU API</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/GPURenderPassEncoder/setStencilReference"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_GPURenderPassEncoder_SetViewport_" data-uid="CSharpToJavaScript.APIs.JS.GPURenderPassEncoder.SetViewport*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_GPURenderPassEncoder_SetViewport_CSharpToJavaScript_APIs_JS_Number_CSharpToJavaScript_APIs_JS_Number_CSharpToJavaScript_APIs_JS_Number_CSharpToJavaScript_APIs_JS_Number_CSharpToJavaScript_APIs_JS_Number_CSharpToJavaScript_APIs_JS_Number_" data-uid="CSharpToJavaScript.APIs.JS.GPURenderPassEncoder.SetViewport(CSharpToJavaScript.APIs.JS.Number,CSharpToJavaScript.APIs.JS.Number,CSharpToJavaScript.APIs.JS.Number,CSharpToJavaScript.APIs.JS.Number,CSharpToJavaScript.APIs.JS.Number,CSharpToJavaScript.APIs.JS.Number)">
+  SetViewport(Number, Number, Number, Number, Number, Number)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L15014"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>The <strong><code>setViewport()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.GPURenderPassEncoder.html">GPURenderPassEncoder</a> interface sets the viewport used during the rasterization stage to linearly map from normalized device coordinates to viewport coordinates.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined SetViewport(Number x, Number y, Number width, Number height, Number minDepth, Number maxDepth)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>x</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dd></dd>
+    <dt><code>y</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dd></dd>
+    <dt><code>width</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dd></dd>
+    <dt><code>height</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dd></dd>
+    <dt><code>minDepth</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dd></dd>
+    <dt><code>maxDepth</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_GPURenderPassEncoder_SetViewport_CSharpToJavaScript_APIs_JS_Number_CSharpToJavaScript_APIs_JS_Number_CSharpToJavaScript_APIs_JS_Number_CSharpToJavaScript_APIs_JS_Number_CSharpToJavaScript_APIs_JS_Number_CSharpToJavaScript_APIs_JS_Number__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-The <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API">WebGPU API</a><br></p>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/GPURenderPassEncoder/setViewport"> <em>See also on MDN</em> </a></p>
+</div>
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L15010" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

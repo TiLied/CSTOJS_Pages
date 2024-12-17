@@ -17,7 +17,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      
+      <meta name="docfx:docurl" content="https://github.com/TiLied/CSharpToJavaScript/new/master/apiSpec/new?filename=CSharpToJavaScript_CSTOJS.md&amp;value=---%0Auid%3A%20CSharpToJavaScript.CSTOJS%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -29,13 +29,10 @@
       <meta name="loc:themeAuto" content="Auto">
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
   </head>
 
-  <script type="module">
-    import options from './../public/main.js'
-    import { init } from './../public/docfx.min.js'
-    init(options)
-  </script>
+  <script type="module" src="./../public/docfx.min.js"></script>
 
   <script>
     const theme = localStorage.getItem('theme') || 'auto'
@@ -94,7 +91,7 @@
 
   <h1 id="CSharpToJavaScript_CSTOJS" data-uid="CSharpToJavaScript.CSTOJS" class="text-break">
     Class CSTOJS
-  
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/CSTOJS.cs/#L20"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -162,7 +159,7 @@
 
   <h3 id="CSharpToJavaScript_CSTOJS__ctor" data-uid="CSharpToJavaScript.CSTOJS.#ctor">
   CSTOJS()
-  
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/CSTOJS.cs/#L35"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>New instance of <a class="xref" href="CSharpToJavaScript.CSTOJS.html">CSTOJS</a> with default options, see <a class="xref" href="CSharpToJavaScript.CSTOJSOptions.html">CSTOJSOptions</a>.</p>
@@ -189,7 +186,7 @@
 
   <h3 id="CSharpToJavaScript_CSTOJS__ctor_CSharpToJavaScript_CSTOJSOptions_" data-uid="CSharpToJavaScript.CSTOJS.#ctor(CSharpToJavaScript.CSTOJSOptions)">
   CSTOJS(CSTOJSOptions)
-  
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/CSTOJS.cs/#L46"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>New instance of <a class="xref" href="CSharpToJavaScript.CSTOJS.html">CSTOJS</a></p>
@@ -226,7 +223,7 @@
 
   <h3 id="CSharpToJavaScript_CSTOJS_Options" data-uid="CSharpToJavaScript.CSTOJS.Options">
   Options
-  
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/CSTOJS.cs/#L22"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -257,11 +254,50 @@
 </h2>
 
 
+  <a id="CSharpToJavaScript_CSTOJS_GenerateOne_" data-uid="CSharpToJavaScript.CSTOJS.GenerateOne*"></a>
+
+  <h3 id="CSharpToJavaScript_CSTOJS_GenerateOne_System_String_" data-uid="CSharpToJavaScript.CSTOJS.GenerateOne(System.String)">
+  GenerateOne(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/CSTOJS.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Method for generating js StringBuilder/StringBuilders.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;StringBuilder&gt; GenerateOne(string path)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>path</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Full path to cs file or to the folder with cs files.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.text.stringbuilder">StringBuilder</a>&gt;</dt>
+    <dd><p>List of StringBuilder</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="CSharpToJavaScript_CSTOJS_GenerateOneAsync_" data-uid="CSharpToJavaScript.CSTOJS.GenerateOneAsync*"></a>
 
   <h3 id="CSharpToJavaScript_CSTOJS_GenerateOneAsync_System_String_System_String_" data-uid="CSharpToJavaScript.CSTOJS.GenerateOneAsync(System.String,System.String)">
   GenerateOneAsync(string, string?)
-  
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/CSTOJS.cs/#L64"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Method for generating js file/files.</p>
@@ -285,7 +321,8 @@
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
-    <dd></dd>
+    <dd><p>empty Task</p>
+</dd>
   </dl>
 
 
@@ -302,7 +339,7 @@
 
   <h3 id="CSharpToJavaScript_CSTOJS_GenerateOneFromString_System_String_System_Collections_Generic_List_Microsoft_CodeAnalysis_MetadataReference__" data-uid="CSharpToJavaScript.CSTOJS.GenerateOneFromString(System.String,System.Collections.Generic.List{Microsoft.CodeAnalysis.MetadataReference})">
   GenerateOneFromString(string, List&lt;MetadataReference&gt;?)
-  
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/CSTOJS.cs/#L164"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Method for generating from string.</p>
@@ -345,11 +382,61 @@
 
 
 
+  <a id="CSharpToJavaScript_CSTOJS_GenerateOneFromStringAsync_" data-uid="CSharpToJavaScript.CSTOJS.GenerateOneFromStringAsync*"></a>
+
+  <h3 id="CSharpToJavaScript_CSTOJS_GenerateOneFromStringAsync_System_String_System_String_System_Collections_Generic_List_Microsoft_CodeAnalysis_MetadataReference__" data-uid="CSharpToJavaScript.CSTOJS.GenerateOneFromStringAsync(System.String,System.String,System.Collections.Generic.List{Microsoft.CodeAnalysis.MetadataReference})">
+  GenerateOneFromStringAsync(string, string?, List&lt;MetadataReference&gt;?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/CSTOJS.cs/#L192"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Method for generating from string. Writes a file.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task GenerateOneFromStringAsync(string csstring, string? filename = &quot;main.js&quot;, List&lt;MetadataReference&gt;? references = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>csstring</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>CSharp string.</p>
+</dd>
+    <dt><code>filename</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Filename of a js file.</p>
+</dd>
+    <dt><code>references</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.codeanalysis.metadatareference">MetadataReference</a>&gt;</dt>
+    <dd><p>Needed if you don't have access to files. Because Assembly.location is null in Blazor WebAssembly.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+    <dd><p>empty Task</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
   <a id="CSharpToJavaScript_CSTOJS_Log_" data-uid="CSharpToJavaScript.CSTOJS.Log*"></a>
 
   <h3 id="CSharpToJavaScript_CSTOJS_Log_System_String_System_String_System_String_System_Int32_" data-uid="CSharpToJavaScript.CSTOJS.Log(System.String,System.String,System.String,System.Int32)">
   Log(string, string?, string?, int)
-  
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/CSTOJS.cs/#L485"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -386,9 +473,10 @@
 </article>
 
         <div class="contribution d-print-none">
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/CSTOJS.cs/#L20" class="edit-link">Edit this page</a>
         </div>
 
-        
+
       </div>
 
       <div class="affix">
@@ -398,7 +486,7 @@
 
     <div class="container-xxl search-results" id="search-results"></div>
 
-    <footer class="border-top">
+    <footer class="border-top text-secondary">
       <div class="container-xxl">
         <div class="flex-fill">
           <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
