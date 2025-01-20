@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class NavigatorUAData | CSharpToJavaScript ">
       
-      <meta name="description" content="The NavigatorUAData interface of the &#39;User-Agent Client Hints API&#39; returns information about the browser and operating system of a user.">
+      <meta name="description" content="NOTE   Experimental  The NavigatorUAData interface of the {{domxref(&amp;amp;quot;User-Agent Client Hints API&amp;amp;quot;, &amp;amp;quot;&amp;amp;quot;, &amp;amp;quot;&amp;amp;quot;, &amp;amp;quot;nocode&amp;amp;quot;)}} returns information about the browser and operating system of a user.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -77,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -89,7 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_NavigatorUAData" data-uid="CSharpToJavaScript.APIs.JS.NavigatorUAData" class="text-break">
-Class NavigatorUAData  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L20870"><i class="bi bi-code-slash"></i></a>
+Class NavigatorUAData  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L19142"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,7 +97,10 @@ Class NavigatorUAData  <a class="header-action link-secondary" title="View sourc
   <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>The <strong><code>NavigatorUAData</code></strong> interface of the 'User-Agent Client Hints API' returns information about the browser and operating system of a user.</p>
+  <div class="markdown summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>NavigatorUAData</code></strong> interface of the {{domxref(&amp;quot;User-Agent Client Hints API&amp;quot;, &amp;quot;&amp;quot;, &amp;quot;&amp;quot;, &amp;quot;nocode&amp;quot;)}} returns information about the browser and operating system of a user.
 </div>
   <div class="markdown conceptual"></div>
 
@@ -149,11 +152,10 @@ public class NavigatorUAData</code></pre>
 
 
   <h2 id="CSharpToJavaScript_APIs_JS_NavigatorUAData_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>An instance of this object is returned by calling Navigator.UserAgentData. Therefore, this interface has no constructor.</p>
+  <div class="markdown level0 remarks"><p>An instance of this object is returned by calling Navigator.UserAgentData or WorkerNavigator.UserAgentData. Therefore, this interface has no constructor.</p>
 <blockquote class="NOTE">
   <h5>NOTE</h5>
-  <p>
-    <strong>Note:</strong> The terms <strong>high entropy</strong> and <strong>low entropy</strong> refer to the amount of information these values reveal about the browser. The values returned as properties are deemed low entropy, and unlikely to identify a user. The values returned by <a class="xref" href="CSharpToJavaScript.APIs.JS.NavigatorUAData.html#CSharpToJavaScript_APIs_JS_NavigatorUAData_GetHighEntropyValues_System_Collections_Generic_List_System_String__">GetHighEntropyValues(List&lt;string&gt;)</a> could potentially reveal more information. These values are therefore retrieved via a {{jsxref("Promise")}}, allowing time for the browser to request user permission, or make other checks.</p>
+  <p>The terms <strong>high entropy</strong> and <strong>low entropy</strong> refer to the amount of information these values reveal about the browser. The values returned as properties are deemed low entropy, and unlikely to identify a user. The values returned by <a class="xref" href="CSharpToJavaScript.APIs.JS.NavigatorUAData.html#CSharpToJavaScript_APIs_JS_NavigatorUAData_GetHighEntropyValues_System_Collections_Generic_List_System_String__">GetHighEntropyValues(List&lt;string&gt;)</a> could potentially reveal more information. These values are therefore retrieved via a {{jsxref("Promise")}}, allowing time for the browser to request user permission, or make other checks.</p>
 </blockquote>
 <p>-<a href="https://developer.chrome.com/docs/privacy-security/user-agent-client-hints">Improving user privacy and developer experience with User-Agent Client Hints</a><br></p>
 <p>
@@ -172,10 +174,13 @@ public class NavigatorUAData</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_NavigatorUAData_Brands" data-uid="CSharpToJavaScript.APIs.JS.NavigatorUAData.Brands">
   Brands
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L20874"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L19146"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>brands</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.NavigatorUAData.html">NavigatorUAData</a> interface returns an array of brand information.</p>
+  <div class="markdown level1 summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>brands</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.NavigatorUAData.html">NavigatorUAData</a> interface returns an array of brand information.
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -213,10 +218,13 @@ public class NavigatorUAData</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_NavigatorUAData_Mobile" data-uid="CSharpToJavaScript.APIs.JS.NavigatorUAData.Mobile">
   Mobile
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L20876"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L19148"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>mobile</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.NavigatorUAData.html">NavigatorUAData</a> interface returns a value indicating whether the device is a mobile device.</p>
+  <div class="markdown level1 summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>mobile</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.NavigatorUAData.html">NavigatorUAData</a> interface returns a value indicating whether the device is a mobile device.
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -254,10 +262,13 @@ public class NavigatorUAData</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_NavigatorUAData_Platform" data-uid="CSharpToJavaScript.APIs.JS.NavigatorUAData.Platform">
   Platform
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L20878"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L19150"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>platform</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.NavigatorUAData.html">NavigatorUAData</a> interface returns the platform brand information.</p>
+  <div class="markdown level1 summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>platform</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.NavigatorUAData.html">NavigatorUAData</a> interface returns the platform brand information.
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -299,10 +310,13 @@ public class NavigatorUAData</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_NavigatorUAData_GetHighEntropyValues_System_Collections_Generic_List_System_String__" data-uid="CSharpToJavaScript.APIs.JS.NavigatorUAData.GetHighEntropyValues(System.Collections.Generic.List{System.String})">
   GetHighEntropyValues(List&lt;string&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L20880"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L19152"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>getHighEntropyValues()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.NavigatorUAData.html">NavigatorUAData</a> interface is a {{jsxref(&quot;Promise&quot;)}} that resolves with a dictionary object containing the <strong>high entropy</strong> values the user-agent returns.</p>
+  <div class="markdown level1 summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>getHighEntropyValues()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.NavigatorUAData.html">NavigatorUAData</a> interface is a {{jsxref("Promise")}} that resolves with a dictionary object containing the <strong>high entropy</strong> values the user-agent returns.
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -332,10 +346,9 @@ public class NavigatorUAData</code></pre>
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_NavigatorUAData_GetHighEntropyValues_System_Collections_Generic_List_System_String___remarks">Remarks</h4>
   <div class="markdown level1 remarks"><blockquote class="NOTE">
   <h5>NOTE</h5>
-  <p>
-    <strong>Note:</strong> The terms <strong>high entropy</strong> and <strong>low entropy</strong> refer to the amount of information these values reveal about the browser.<br>The values returned as properties are deemed low entropy, and unlikely to identify a user.<br>The values returned by <a class="xref" href="CSharpToJavaScript.APIs.JS.NavigatorUAData.html#CSharpToJavaScript_APIs_JS_NavigatorUAData_GetHighEntropyValues_System_Collections_Generic_List_System_String__">GetHighEntropyValues(List&lt;string&gt;)</a> could potentially reveal more information.<br>These values are therefore retrieved via a Promise, allowing time for the browser to request user permission, or make other checks.</p>
+  <p>The terms <strong>high entropy</strong> and <strong>low entropy</strong> refer to the amount of information these values reveal about the browser.<br>The values returned as properties are deemed low entropy, and unlikely to identify a user.<br>The values returned by <code>getHighEntropyValues()</code> could potentially reveal more information.<br>These values are therefore retrieved via a Promise, allowing time for the browser to request user permission, or make other checks.</p>
 </blockquote>
-<p>-These values are also available as via HTTP request headers:-<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Client_hints#low_entropy_hints">Low-entropy client hints</a>) are sent automatically:-<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA">Sec-CH-UA</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Mobile">Sec-CH-UA-Mobile</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform">Sec-CH-UA-Platform</a><br><br>-Servers can request to receive high-entropy client hints on subsequent requests, using the <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-CH">Accept-CH</a> header:-<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Arch">Sec-CH-UA-Arch</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Bitness">Sec-CH-UA-Bitness</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Full-Version">Sec-CH-UA-Full-Version</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Model">Sec-CH-UA-Model</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform-Version">Sec-CH-UA-Platform-Version</a><br><br><br></p>
+<p>-These values are also available as via HTTP request headers:-<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Client_hints#low_entropy_hints">Low-entropy client hints</a> are sent automatically:-<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA">Sec-CH-UA</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Mobile">Sec-CH-UA-Mobile</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform">Sec-CH-UA-Platform</a><br><br>-Servers can request to receive high-entropy client hints on subsequent requests, using the <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-CH">Accept-CH</a> header:-<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Arch">Sec-CH-UA-Arch</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Bitness">Sec-CH-UA-Bitness</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Full-Version">Sec-CH-UA-Full-Version</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Model">Sec-CH-UA-Model</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform-Version">Sec-CH-UA-Platform-Version</a><br><br><br></p>
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/NavigatorUAData/getHighEntropyValues">
     <em>See also on MDN</em>
@@ -350,10 +363,13 @@ public class NavigatorUAData</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_NavigatorUAData_ToJSON" data-uid="CSharpToJavaScript.APIs.JS.NavigatorUAData.ToJSON">
   ToJSON()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L20882"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L19154"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>toJSON()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.NavigatorUAData.html">NavigatorUAData</a> interface is a <strong>serializer</strong> that returns a JSON representation of the <strong>low entropy</strong> properties of the <code>NavigatorUAData</code> object.</p>
+  <div class="markdown level1 summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>toJSON()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.NavigatorUAData.html">NavigatorUAData</a> interface is a <strong>serializer</strong> that returns a JSON representation of the <strong>low entropy</strong> properties of the <code>NavigatorUAData</code> object.
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -378,8 +394,7 @@ public class NavigatorUAData</code></pre>
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_NavigatorUAData_ToJSON_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><blockquote class="NOTE">
   <h5>NOTE</h5>
-  <p>
-    <strong>Note:</strong> The terms <strong>high entropy</strong> and <strong>low entropy</strong> refer to the amount of information these values reveal about the browser. The low entropy values returned by this method are those which do not reveal information able to identify a user. High entropy values can only be returned by the <a class="xref" href="CSharpToJavaScript.APIs.JS.NavigatorUAData.html#CSharpToJavaScript_APIs_JS_NavigatorUAData_GetHighEntropyValues_System_Collections_Generic_List_System_String__">GetHighEntropyValues(List&lt;string&gt;)</a> method.</p>
+  <p>The terms <strong>high entropy</strong> and <strong>low entropy</strong> refer to the amount of information these values reveal about the browser. The low entropy values returned by this method are those which do not reveal information able to identify a user. High entropy values can only be returned by the <a class="xref" href="CSharpToJavaScript.APIs.JS.NavigatorUAData.html#CSharpToJavaScript_APIs_JS_NavigatorUAData_GetHighEntropyValues_System_Collections_Generic_List_System_String__">GetHighEntropyValues(List&lt;string&gt;)</a> method.</p>
 </blockquote>
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/NavigatorUAData/toJSON">
@@ -395,7 +410,7 @@ public class NavigatorUAData</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L20870" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L19142" class="edit-link">Edit this page</a>
         </div>
 
 

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -77,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -89,7 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_EventTarget" data-uid="CSharpToJavaScript.APIs.JS.EventTarget" class="text-break">
-Class EventTarget  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4283"><i class="bi bi-code-slash"></i></a>
+Class EventTarget  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L14099"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -181,6 +181,7 @@ public class EventTarget</code></pre>
       <div><a class="xref" href="CSharpToJavaScript.APIs.JS.PermissionStatus.html">PermissionStatus</a></div>
       <div><a class="xref" href="CSharpToJavaScript.APIs.JS.PictureInPictureWindow.html">PictureInPictureWindow</a></div>
       <div><a class="xref" href="CSharpToJavaScript.APIs.JS.PortalHost.html">PortalHost</a></div>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.PreferenceObject.html">PreferenceObject</a></div>
       <div><a class="xref" href="CSharpToJavaScript.APIs.JS.PresentationAvailability.html">PresentationAvailability</a></div>
       <div><a class="xref" href="CSharpToJavaScript.APIs.JS.PresentationConnection.html">PresentationConnection</a></div>
       <div><a class="xref" href="CSharpToJavaScript.APIs.JS.PresentationConnectionList.html">PresentationConnectionList</a></div>
@@ -267,7 +268,7 @@ public class EventTarget</code></pre>
   <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html">Element</a>, and its children, as well as <a class="xref" href="CSharpToJavaScript.APIs.JS.Document.html">Document</a> and <a class="xref" href="CSharpToJavaScript.APIs.JS.Window.html">Window</a>, are the most common event targets,<br>but other objects can be event targets, too.<br>For example <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBRequest.html">IDBRequest</a>, <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioNode.html">AudioNode</a>, and <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioContext.html">AudioContext</a> are also event targets.</p>
 <p>Many event targets (including elements, documents, and windows) also support setting <a href="https://developer.mozilla.org/en-US/docs/Web/Events/Event_handlers">event handlers</a> via <code>onevent</code> properties and attributes.</p>
 <p></p>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/Events">Event reference</a> – the events available in the platform.<br>-<a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events">Introduction to events</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html">Event</a> interface<br></p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/Events">Event reference</a> – the events available in the platform.<br>-<a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Events">Introduction to events</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html">Event</a> interface<br></p>
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/EventTarget">
     <em>See also on MDN</em>
@@ -284,7 +285,7 @@ public class EventTarget</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_EventTarget__ctor" data-uid="CSharpToJavaScript.APIs.JS.EventTarget.#ctor">
   EventTarget()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4287"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L4255"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>EventTarget()</code></strong> constructor creates a new <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html">EventTarget</a> object instance.</p>
@@ -306,8 +307,7 @@ public class EventTarget</code></pre>
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_EventTarget__ctor_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><blockquote class="NOTE">
   <h5>NOTE</h5>
-  <p>
-    <strong>Note:</strong> It is fairly rare to explicitly call this constructor. Most of the time, this constructor is used inside the constructor of an object extending the <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html">EventTarget</a> interface, using the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super"><code>super</code></a> keyword.</p>
+  <p>It is fairly rare to explicitly call this constructor. Most of the time, this constructor is used inside the constructor of an object extending the <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html">EventTarget</a> interface, using the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super"><code>super</code></a> keyword.</p>
 </blockquote>
 <p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html">EventTarget</a><br></p>
 <p>
@@ -326,9 +326,9 @@ public class EventTarget</code></pre>
 
   <a id="CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_" data-uid="CSharpToJavaScript.APIs.JS.EventTarget.AddEventListener*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_CSharpToJavaScript_APIs_JS_EventListener_CSharpToJavaScript_APIs_JS_Union27_" data-uid="CSharpToJavaScript.APIs.JS.EventTarget.AddEventListener(System.String,CSharpToJavaScript.APIs.JS.EventListener,CSharpToJavaScript.APIs.JS.Union27)">
-  AddEventListener(string, EventListener?, Union27)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4289"><i class="bi bi-code-slash"></i></a>
+  <h3 id="CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_CSharpToJavaScript_APIs_JS_EventListener_CSharpToJavaScript_APIs_JS_Union26_" data-uid="CSharpToJavaScript.APIs.JS.EventTarget.AddEventListener(System.String,CSharpToJavaScript.APIs.JS.EventListener,CSharpToJavaScript.APIs.JS.Union26)">
+  AddEventListener(string, EventListener?, Union26)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L4257"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>addEventListener()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html">EventTarget</a> interface<br>sets up a function that will be called whenever the specified event is delivered to the target.</p>
@@ -336,7 +336,7 @@ public class EventTarget</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined AddEventListener(string type, EventListener? callback, Union27 options)</code></pre>
+    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined AddEventListener(string type, EventListener? callback, Union26 options = default)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -345,7 +345,7 @@ public class EventTarget</code></pre>
     <dd></dd>
     <dt><code>callback</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.EventListener.html">EventListener</a></dt>
     <dd></dd>
-    <dt><code>options</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union27.html">Union27</a></dt>
+    <dt><code>options</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union26.html">Union26</a></dt>
     <dd></dd>
   </dl>
 
@@ -362,23 +362,21 @@ public class EventTarget</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_CSharpToJavaScript_APIs_JS_EventListener_CSharpToJavaScript_APIs_JS_Union27__remarks">Remarks</h4>
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_CSharpToJavaScript_APIs_JS_EventListener_CSharpToJavaScript_APIs_JS_Union26__remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>Common targets are <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html">Element</a>, or its children, <a class="xref" href="CSharpToJavaScript.APIs.JS.Document.html">Document</a>, and <a class="xref" href="CSharpToJavaScript.APIs.JS.Window.html">Window</a>,<br>but the target may be any object that supports events (such as <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBRequest.html">IDBRequest</a>).</p>
 <blockquote class="NOTE">
   <h5>NOTE</h5>
-  <p>
-    <strong>Note:</strong> The <code>addEventListener()</code> method is the <strong>recommended</strong> way to register an event listener. The benefits are as follows:</p>
+  <p>The <code>addEventListener()</code> method is the <strong>recommended</strong> way to register an event listener. The benefits are as follows:</p>
 </blockquote>
 <p>The method <code>addEventListener()</code> works by adding a function, or an object that implements a <code>handleEvent()</code> function, to the list of event listeners for the specified event type<br>on the <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html">EventTarget</a> on which it's called. If the function or object is already in the list of event listeners for this target, the function or object is not added a second time.</p>
 <blockquote class="NOTE">
   <h5>NOTE</h5>
-  <p>
-    <strong>Note:</strong> If a particular anonymous function is in the list of event listeners registered for a certain target, and then later in the code, an identical anonymous function is given in an <code>addEventListener</code> call, the second function will <strong>also</strong> be added to the list of event listeners for that target.</p>
+  <p>If a particular anonymous function is in the list of event listeners registered for a certain target, and then later in the code, an identical anonymous function is given in an <code>addEventListener</code> call, the second function will <strong>also</strong> be added to the list of event listeners for that target.</p>
   <p>Indeed, anonymous functions are not identical even if defined using<br>the <strong>same</strong> unchanging source-code called repeatedly, <strong>even if in a loop</strong>.</p>
   <p>Repeatedly defining the same unnamed function in such cases can be<br>problematic. (See <a href="https://developer.mozilla.org#memory_issues">Memory issues</a>, below.)</p>
 </blockquote>
 <p>If an event listener is added to an <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html">EventTarget</a> from inside another listener —<br>that is, during the processing of the event —<br>that event will not trigger the new listener.<br>However, the new listener may be triggered during a later stage of event flow,<br>such as during the bubbling phase.</p>
-<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_RemoveEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union28_">RemoveEventListener(string, Action?, Union28)</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/Events/Creating_and_triggering_events">Creating and triggering custom events</a><br>-<a href="https://www.quirksmode.org/js/this.html">More details on the use of <code>this</code> in event handlers</a><br></p>
+<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_RemoveEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union27_">RemoveEventListener(string, Action?, Union27)</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/Events/Creating_and_triggering_events">Creating and triggering custom events</a><br>-<a href="https://www.quirksmode.org/js/this.html">More details on the use of <code>this</code> in event handlers</a><br></p>
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener">
     <em>See also on MDN</em>
@@ -391,8 +389,8 @@ public class EventTarget</code></pre>
 
   <a id="CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_" data-uid="CSharpToJavaScript.APIs.JS.EventTarget.AddEventListener*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union27_" data-uid="CSharpToJavaScript.APIs.JS.EventTarget.AddEventListener(System.String,System.Action,CSharpToJavaScript.APIs.JS.Union27)">
-  AddEventListener(string, Action?, Union27)
+  <h3 id="CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union26_" data-uid="CSharpToJavaScript.APIs.JS.EventTarget.AddEventListener(System.String,System.Action,CSharpToJavaScript.APIs.JS.Union26)">
+  AddEventListener(string, Action?, Union26)
   <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/EventTarget.cs/#L12"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -400,7 +398,7 @@ public class EventTarget</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined AddEventListener(string type, Action? callback, Union27 options)</code></pre>
+    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined AddEventListener(string type, Action? callback, Union26 options)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -409,7 +407,7 @@ public class EventTarget</code></pre>
     <dd></dd>
     <dt><code>callback</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
     <dd></dd>
-    <dt><code>options</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union27.html">Union27</a></dt>
+    <dt><code>options</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union26.html">Union26</a></dt>
     <dd></dd>
   </dl>
 
@@ -431,8 +429,8 @@ public class EventTarget</code></pre>
 
   <a id="CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_" data-uid="CSharpToJavaScript.APIs.JS.EventTarget.AddEventListener*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Event__CSharpToJavaScript_APIs_JS_Union27_" data-uid="CSharpToJavaScript.APIs.JS.EventTarget.AddEventListener(System.String,System.Action{CSharpToJavaScript.APIs.JS.Event},CSharpToJavaScript.APIs.JS.Union27)">
-  AddEventListener(string, Action&lt;Event&gt;?, Union27)
+  <h3 id="CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Event__CSharpToJavaScript_APIs_JS_Union26_" data-uid="CSharpToJavaScript.APIs.JS.EventTarget.AddEventListener(System.String,System.Action{CSharpToJavaScript.APIs.JS.Event},CSharpToJavaScript.APIs.JS.Union26)">
+  AddEventListener(string, Action&lt;Event&gt;?, Union26)
   <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/EventTarget.cs/#L14"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -440,7 +438,7 @@ public class EventTarget</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined AddEventListener(string type, Action&lt;Event&gt;? callback, Union27 options)</code></pre>
+    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined AddEventListener(string type, Action&lt;Event&gt;? callback, Union26 options)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -449,7 +447,7 @@ public class EventTarget</code></pre>
     <dd></dd>
     <dt><code>callback</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html">Event</a>&gt;</dt>
     <dd></dd>
-    <dt><code>options</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union27.html">Union27</a></dt>
+    <dt><code>options</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union26.html">Union26</a></dt>
     <dd></dd>
   </dl>
 
@@ -471,8 +469,8 @@ public class EventTarget</code></pre>
 
   <a id="CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_" data-uid="CSharpToJavaScript.APIs.JS.EventTarget.AddEventListener*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_MouseEvent__CSharpToJavaScript_APIs_JS_Union27_" data-uid="CSharpToJavaScript.APIs.JS.EventTarget.AddEventListener(System.String,System.Action{CSharpToJavaScript.APIs.JS.MouseEvent},CSharpToJavaScript.APIs.JS.Union27)">
-  AddEventListener(string, Action&lt;MouseEvent&gt;?, Union27)
+  <h3 id="CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_MouseEvent__CSharpToJavaScript_APIs_JS_Union26_" data-uid="CSharpToJavaScript.APIs.JS.EventTarget.AddEventListener(System.String,System.Action{CSharpToJavaScript.APIs.JS.MouseEvent},CSharpToJavaScript.APIs.JS.Union26)">
+  AddEventListener(string, Action&lt;MouseEvent&gt;?, Union26)
   <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/EventTarget.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -480,7 +478,7 @@ public class EventTarget</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined AddEventListener(string type, Action&lt;MouseEvent&gt;? callback, Union27 options)</code></pre>
+    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined AddEventListener(string type, Action&lt;MouseEvent&gt;? callback, Union26 options)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -489,7 +487,7 @@ public class EventTarget</code></pre>
     <dd></dd>
     <dt><code>callback</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="CSharpToJavaScript.APIs.JS.MouseEvent.html">MouseEvent</a>&gt;</dt>
     <dd></dd>
-    <dt><code>options</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union27.html">Union27</a></dt>
+    <dt><code>options</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union26.html">Union26</a></dt>
     <dd></dd>
   </dl>
 
@@ -513,7 +511,7 @@ public class EventTarget</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_EventTarget_DispatchEvent_CSharpToJavaScript_APIs_JS_Event_" data-uid="CSharpToJavaScript.APIs.JS.EventTarget.DispatchEvent(CSharpToJavaScript.APIs.JS.Event)">
   DispatchEvent(Event)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4293"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L4261"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>dispatchEvent()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html">EventTarget</a> sends an <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html">Event</a> to the object, (synchronously) invoking the affected<br>event listeners in the appropriate order. The normal event processing<br>rules (including the capturing and optional bubbling phase) also apply to events<br>dispatched manually with <code>dispatchEvent()</code>.</p>
@@ -547,8 +545,7 @@ public class EventTarget</code></pre>
   <div class="markdown level1 remarks"><p>Calling <code>dispatchEvent()</code> is the last step to <strong>firing an event</strong>. The event<br>should have already been created and initialized using an Event/Event constructor.</p>
 <blockquote class="NOTE">
   <h5>NOTE</h5>
-  <p>
-    <strong>Note:</strong> When calling this method, the <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_Target">Target</a> property is initialized to the current <code>EventTarget</code>.</p>
+  <p>When calling this method, the <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html#CSharpToJavaScript_APIs_JS_Event_Target">Target</a> property is initialized to the current <code>EventTarget</code>.</p>
 </blockquote>
 <p>Unlike &amp;quot;native&amp;quot; events, which are fired by the browser and invoke event handlers<br>asynchronously via the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Event_loop">event loop</a>,<br><code>dispatchEvent()</code> invokes event handlers <strong>synchronously</strong>. All applicable event<br>handlers are called and return before <code>dispatchEvent()</code> returns.</p>
 <p>-The <a href="https://developer.mozilla.org/en-US/docs/Web/API/Event">Event object reference</a><br></p>
@@ -564,17 +561,17 @@ public class EventTarget</code></pre>
 
   <a id="CSharpToJavaScript_APIs_JS_EventTarget_RemoveEventListener_" data-uid="CSharpToJavaScript.APIs.JS.EventTarget.RemoveEventListener*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_EventTarget_RemoveEventListener_System_String_CSharpToJavaScript_APIs_JS_EventListener_CSharpToJavaScript_APIs_JS_Union28_" data-uid="CSharpToJavaScript.APIs.JS.EventTarget.RemoveEventListener(System.String,CSharpToJavaScript.APIs.JS.EventListener,CSharpToJavaScript.APIs.JS.Union28)">
-  RemoveEventListener(string, EventListener?, Union28)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4291"><i class="bi bi-code-slash"></i></a>
+  <h3 id="CSharpToJavaScript_APIs_JS_EventTarget_RemoveEventListener_System_String_CSharpToJavaScript_APIs_JS_EventListener_CSharpToJavaScript_APIs_JS_Union27_" data-uid="CSharpToJavaScript.APIs.JS.EventTarget.RemoveEventListener(System.String,CSharpToJavaScript.APIs.JS.EventListener,CSharpToJavaScript.APIs.JS.Union27)">
+  RemoveEventListener(string, EventListener?, Union27)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L4259"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>removeEventListener()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html">EventTarget</a> interface<br>removes an event listener previously registered with <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union27_">AddEventListener(string, Action?, Union27)</a> from the target.<br>The event listener to be removed is identified using a combination of the event type,<br>the event listener function itself, and various optional options that may affect the matching process;<br>see <a href="https://developer.mozilla.org#matching_event_listeners_for_removal">Matching event listeners for removal</a>.</p>
+  <div class="markdown level1 summary"><p>The <strong><code>removeEventListener()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html">EventTarget</a> interface<br>removes an event listener previously registered with <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union26_">AddEventListener(string, Action?, Union26)</a> from the target.<br>The event listener to be removed is identified using a combination of the event type,<br>the event listener function itself, and various optional options that may affect the matching process;<br>see <a href="https://developer.mozilla.org#matching_event_listeners_for_removal">Matching event listeners for removal</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined RemoveEventListener(string type, EventListener? callback, Union28 options)</code></pre>
+    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined RemoveEventListener(string type, EventListener? callback, Union27 options = default)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -583,7 +580,7 @@ public class EventTarget</code></pre>
     <dd></dd>
     <dt><code>callback</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.EventListener.html">EventListener</a></dt>
     <dd></dd>
-    <dt><code>options</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union28.html">Union28</a></dt>
+    <dt><code>options</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union27.html">Union27</a></dt>
     <dd></dd>
   </dl>
 
@@ -600,16 +597,15 @@ public class EventTarget</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_EventTarget_RemoveEventListener_System_String_CSharpToJavaScript_APIs_JS_EventListener_CSharpToJavaScript_APIs_JS_Union28__remarks">Remarks</h4>
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_EventTarget_RemoveEventListener_System_String_CSharpToJavaScript_APIs_JS_EventListener_CSharpToJavaScript_APIs_JS_Union27__remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>Calling <code>removeEventListener()</code> with arguments that do not identify any<br>currently registered <a href="https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener#the_event_listener_callback">event listener</a> on the <code>EventTarget</code> has no<br>effect.</p>
 <p>If an <a href="https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener#the_event_listener_callback">event listener</a> is removed from an <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html">EventTarget</a> while another listener of the target is processing an event, it will not be triggered by the event. However, it can be reattached.</p>
 <blockquote class="WARNING">
   <h5>WARNING</h5>
-  <p>
-    <strong>Warning:</strong> If a listener is registered twice, one with the <strong>capture</strong> flag set and one without, you must remove each one separately. Removal of a capturing listener does not affect a non-capturing version of the same listener, and vice versa.</p>
+  <p>If a listener is registered twice, one with the <strong>capture</strong> flag set and one without, you must remove each one separately. Removal of a capturing listener does not affect a non-capturing version of the same listener, and vice versa.</p>
 </blockquote>
 <p>Event listeners can also be removed by passing an <a class="xref" href="CSharpToJavaScript.APIs.JS.AbortSignal.html">AbortSignal</a> to an EventTarget/addEventListener and then later calling AbortController/abort on the controller owning the signal.</p>
-<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union27_">AddEventListener(string, Action?, Union27)</a><br></p>
+<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_AddEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union26_">AddEventListener(string, Action?, Union26)</a><br></p>
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/removeEventListener">
     <em>See also on MDN</em>
@@ -622,8 +618,8 @@ public class EventTarget</code></pre>
 
   <a id="CSharpToJavaScript_APIs_JS_EventTarget_RemoveEventListener_" data-uid="CSharpToJavaScript.APIs.JS.EventTarget.RemoveEventListener*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_EventTarget_RemoveEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union28_" data-uid="CSharpToJavaScript.APIs.JS.EventTarget.RemoveEventListener(System.String,System.Action,CSharpToJavaScript.APIs.JS.Union28)">
-  RemoveEventListener(string, Action?, Union28)
+  <h3 id="CSharpToJavaScript_APIs_JS_EventTarget_RemoveEventListener_System_String_System_Action_CSharpToJavaScript_APIs_JS_Union27_" data-uid="CSharpToJavaScript.APIs.JS.EventTarget.RemoveEventListener(System.String,System.Action,CSharpToJavaScript.APIs.JS.Union27)">
+  RemoveEventListener(string, Action?, Union27)
   <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/EventTarget.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -631,7 +627,7 @@ public class EventTarget</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined RemoveEventListener(string type, Action? callback, Union28 options)</code></pre>
+    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined RemoveEventListener(string type, Action? callback, Union27 options)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -640,13 +636,51 @@ public class EventTarget</code></pre>
     <dd></dd>
     <dt><code>callback</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
     <dd></dd>
-    <dt><code>options</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union28.html">Union28</a></dt>
+    <dt><code>options</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union27.html">Union27</a></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_EventTarget_When_" data-uid="CSharpToJavaScript.APIs.JS.EventTarget.When*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_EventTarget_When_System_String_CSharpToJavaScript_APIs_JS_ObservableEventListenerOptions_" data-uid="CSharpToJavaScript.APIs.JS.EventTarget.When(System.String,CSharpToJavaScript.APIs.JS.ObservableEventListenerOptions)">
+  When(string, ObservableEventListenerOptions)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L14101"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Observable When(string type, ObservableEventListenerOptions options = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>options</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.ObservableEventListenerOptions.html">ObservableEventListenerOptions</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Observable.html">Observable</a></dt>
     <dd></dd>
   </dl>
 
@@ -664,7 +698,7 @@ public class EventTarget</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4283" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L14099" class="edit-link">Edit this page</a>
         </div>
 
 

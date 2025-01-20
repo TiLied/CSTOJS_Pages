@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class Presentation | CSharpToJavaScript ">
       
-      <meta name="description" content="The Presentation can be defined as two possible user agents in the context: Controlling user agent and Receiving user agent.">
+      <meta name="description" content="NOTE   Experimental  The Presentation can be defined as two possible user agents in the context: Controlling user agent and Receiving user agent.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -77,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -89,7 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_Presentation" data-uid="CSharpToJavaScript.APIs.JS.Presentation" class="text-break">
-Class Presentation  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16607"><i class="bi bi-code-slash"></i></a>
+Class Presentation  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L15189"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,7 +97,10 @@ Class Presentation  <a class="header-action link-secondary" title="View source" 
   <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>The <strong><code>Presentation</code></strong> can be defined as two possible user agents in the context: <strong>Controlling user agent</strong> and <strong>Receiving user agent</strong>.</p>
+  <div class="markdown summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>Presentation</code></strong> can be defined as two possible user agents in the context: <strong>Controlling user agent</strong> and <strong>Receiving user agent</strong>.
 </div>
   <div class="markdown conceptual"></div>
 
@@ -166,10 +169,13 @@ public class Presentation</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Presentation_DefaultRequest" data-uid="CSharpToJavaScript.APIs.JS.Presentation.DefaultRequest">
   DefaultRequest
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16603"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L15185"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>In a <a href="https://www.w3.org/TR/presentation-api/#dfn-controlling-user-agent">controlling user agent</a>, the <strong><code>defaultRequest</code></strong> attribute <strong>MUST</strong> return the <a href="https://www.w3.org/TR/presentation-api/#dfn-default-presentation-request">default presentation request</a> if any, otherwise <code>null</code>. In a <a href="https://www.w3.org/TR/presentation-api/#dfn-receiving-browsing-context">receiving browsing context</a>, it <strong>MUST</strong> return <code>null</code>.</p>
+  <div class="markdown level1 summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> In a <a href="https://www.w3.org/TR/presentation-api/#dfn-controlling-user-agent">controlling user agent</a>, the <strong><code>defaultRequest</code></strong> attribute <strong>MUST</strong> return the <a href="https://www.w3.org/TR/presentation-api/#dfn-default-presentation-request">default presentation request</a> if any, otherwise <code>null</code>. In a <a href="https://www.w3.org/TR/presentation-api/#dfn-receiving-browsing-context">receiving browsing context</a>, it <strong>MUST</strong> return <code>null</code>.
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -195,13 +201,11 @@ public class Presentation</code></pre>
 <p>The <a href="https://www.w3.org/TR/presentation-api/#dfn-controlling-user-agent">controlling user agent</a><strong>SHOULD</strong> initiate presentation using the <a href="https://www.w3.org/TR/presentation-api/#dfn-default-presentation-request">default presentation request</a>, only when the user has expressed an intention to do so via a user gesture. For example, by clicking a button in the browser.</p>
 <blockquote class="NOTE">
   <h5>NOTE</h5>
-  <p>
-    <strong>Note:</strong> Some <a href="https://www.w3.org/TR/presentation-api/#dfn-controlling-user-agent">controlling user agents</a> may allow the user to initiate a default <a href="https://www.w3.org/TR/presentation-api/#dfn-presentation-connection">presentation connection</a> and select a <a href="https://www.w3.org/TR/presentation-api/#dfn-presentation-display">presentation display</a> with the same user gesture. For example, the browser chrome could allow the user to pick a display from a menu, or allow the user to tap on an <a href="https://nfc-forum.org/">Near Field Communications (NFC)</a> enabled display. In this case, when the <a href="https://www.w3.org/TR/presentation-api/#dfn-controlling-user-agent">controlling user agent</a> asks for permission while <a href="https://www.w3.org/TR/presentation-api/#dfn-start-a-presentation">starting a presentation</a>, the browser could offer that display as the default choice, or consider the gesture as granting permission for the display and bypass display selection entirely.</p>
+  <p>Some <a href="https://www.w3.org/TR/presentation-api/#dfn-controlling-user-agent">controlling user agents</a> may allow the user to initiate a default <a href="https://www.w3.org/TR/presentation-api/#dfn-presentation-connection">presentation connection</a> and select a <a href="https://www.w3.org/TR/presentation-api/#dfn-presentation-display">presentation display</a> with the same user gesture. For example, the browser chrome could allow the user to pick a display from a menu, or allow the user to tap on an <a href="https://nfc-forum.org/">Near Field Communications (NFC)</a> enabled display. In this case, when the <a href="https://www.w3.org/TR/presentation-api/#dfn-controlling-user-agent">controlling user agent</a> asks for permission while <a href="https://www.w3.org/TR/presentation-api/#dfn-start-a-presentation">starting a presentation</a>, the browser could offer that display as the default choice, or consider the gesture as granting permission for the display and bypass display selection entirely.</p>
 </blockquote>
 <blockquote class="NOTE">
   <h5>NOTE</h5>
-  <p>
-    <strong>Note:</strong> If a <a href="https://www.w3.org/TR/presentation-api/#dfn-controlling-user-agent">controlling user agent</a> does not support initiation of a <a href="https://www.w3.org/TR/presentation-api/#dfn-presentation-connection">presentation connection</a> from the browser chrome, setting <code>defaultRequest</code> will have no effect.</p>
+  <p>If a <a href="https://www.w3.org/TR/presentation-api/#dfn-controlling-user-agent">controlling user agent</a> does not support initiation of a <a href="https://www.w3.org/TR/presentation-api/#dfn-presentation-connection">presentation connection</a> from the browser chrome, setting <code>defaultRequest</code> will have no effect.</p>
 </blockquote>
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/Presentation/defaultRequest">
@@ -217,10 +221,13 @@ public class Presentation</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Presentation_Receiver" data-uid="CSharpToJavaScript.APIs.JS.Presentation.Receiver">
   Receiver
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16610"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L15192"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>PresentationReceiver</code></strong> interface of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Presentation_API">Presentation API</a> provides a means for a receiving browsing context to access controlling browsing contexts and communicate with them.</p>
+  <div class="markdown level1 summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>PresentationReceiver</code></strong> interface of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Presentation_API">Presentation API</a> provides a means for a receiving browsing context to access controlling browsing contexts and communicate with them.
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -256,7 +263,7 @@ public class Presentation</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16607" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L15189" class="edit-link">Edit this page</a>
         </div>
 
 

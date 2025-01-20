@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class DataTransfer | CSharpToJavaScript ">
       
-      <meta name="description" content="The DataTransfer object is used to hold the data that is being dragged during a drag and drop operation. It may hold one or more data items, each of one or more data types. For more information about drag and drop, see HTML Drag and Drop API.">
+      <meta name="description" content="The DataTransfer object is used to hold any data transferred between contexts, such as a drag and drop operation, or clipboard read/write. It may hold one or more data items, each of one or more data types.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -77,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -89,7 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_DataTransfer" data-uid="CSharpToJavaScript.APIs.JS.DataTransfer" class="text-break">
-Class DataTransfer  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10941"><i class="bi bi-code-slash"></i></a>
+Class DataTransfer  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L10205"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,7 +97,7 @@ Class DataTransfer  <a class="header-action link-secondary" title="View source" 
   <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>The <strong><code>DataTransfer</code></strong> object is used to hold the data that is being dragged during a drag and drop operation. It may hold one or more data items, each of one or more data types. For more information about drag and drop, see <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API">HTML Drag and Drop API</a>.</p>
+  <div class="markdown summary"><p>The <strong><code>DataTransfer</code></strong> object is used to hold any data transferred between contexts, such as a drag and drop operation, or clipboard read/write. It may hold one or more data items, each of one or more data types.</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -149,7 +149,8 @@ public class DataTransfer</code></pre>
 
 
   <h2 id="CSharpToJavaScript_APIs_JS_DataTransfer_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>This object is available from the <a class="xref" href="CSharpToJavaScript.APIs.JS.DragEvent.html#CSharpToJavaScript_APIs_JS_DragEvent_DataTransfer">DataTransfer</a> property of all <a class="xref" href="CSharpToJavaScript.APIs.JS.DragEvent.html">DragEvent</a>.</p>
+  <div class="markdown level0 remarks"><p>
+  <code>DataTransfer</code> was primarily designed for the <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API">HTML Drag and Drop API</a>, as the <a class="xref" href="CSharpToJavaScript.APIs.JS.DragEvent.html#CSharpToJavaScript_APIs_JS_DragEvent_DataTransfer">DataTransfer</a> property, and is still specified in the HTML drag-and-drop section, but it is now also used by other APIs, such as <a class="xref" href="CSharpToJavaScript.APIs.JS.ClipboardEvent.html#CSharpToJavaScript_APIs_JS_ClipboardEvent_ClipboardData">ClipboardData</a> and <a class="xref" href="CSharpToJavaScript.APIs.JS.InputEvent.html#CSharpToJavaScript_APIs_JS_InputEvent_DataTransfer">DataTransfer</a>. However, other APIs only use certain parts of its interface, ignoring properties such as <code>dropEffect</code>. Documentation of <code>DataTransfer</code> will primarily discuss its usage in drag-and-drop operations, and you should refer to the other APIs&amp;apos; documentation for usage of <code>DataTransfer</code> in those contexts.</p>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API">Drag and drop</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API/Drag_operations">Drag Operations</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API/Recommended_drag_types">Recommended Drag Types</a><br>-<a href="https://codepen.io/tech_query/pen/MqGgap">DataTransfer test - Paste or Drag</a><br></p>
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/DataTransfer">
@@ -167,7 +168,7 @@ public class DataTransfer</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_DataTransfer__ctor" data-uid="CSharpToJavaScript.APIs.JS.DataTransfer.#ctor">
   DataTransfer()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10945"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L10209"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>DataTransfer</code></strong> constructor creates a new<br><a class="xref" href="CSharpToJavaScript.APIs.JS.DataTransfer.html">DataTransfer</a> object instance.</p>
@@ -205,7 +206,7 @@ public class DataTransfer</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_DataTransfer_DropEffect" data-uid="CSharpToJavaScript.APIs.JS.DataTransfer.DropEffect">
   DropEffect
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10947"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L10211"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>DataTransfer.dropEffect</code></strong> property controls the<br>feedback (typically visual) the user is given during a drag and drop operation. It will<br>affect which cursor is displayed while dragging. For example, when the user hovers over<br>a target drop element, the browser&amp;apos;s cursor may indicate which type of operation will<br>occur.</p>
@@ -249,7 +250,7 @@ public class DataTransfer</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_DataTransfer_EffectAllowed" data-uid="CSharpToJavaScript.APIs.JS.DataTransfer.EffectAllowed">
   EffectAllowed
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10949"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L10213"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>DataTransfer.effectAllowed</code></strong> property specifies the<br>effect that is allowed for a drag operation. The <strong>copy</strong> operation is used to<br>indicate that the data being dragged will be copied from its present location to the<br>drop location. The <strong>move</strong> operation is used to indicate that the data being<br>dragged will be moved, and the <strong>link</strong> operation is used to indicate that some<br>form of relationship or connection will be created between the source and drop<br>locations.</p>
@@ -292,10 +293,10 @@ public class DataTransfer</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_DataTransfer_Files" data-uid="CSharpToJavaScript.APIs.JS.DataTransfer.Files">
   Files
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10963"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L10227"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>files</code></strong> read-only property of <a href="https://developer.mozilla.org/en-US/docs/Web/API/DataTransfer"><code>DataTransfer</code></a> objects is a <a class="xref" href="CSharpToJavaScript.APIs.JS.FileList.html">FileList</a> in the drag operation. If the operation includes no files, the list is empty.</p>
+  <div class="markdown level1 summary"><p>The <strong><code>files</code></strong> read-only property of <a href="https://developer.mozilla.org/en-US/docs/Web/API/DataTransfer"><code>DataTransfer</code></a> objects is a <a href="https://developer.mozilla.org/en-US/docs/Web/API/FileList">list of the files</a> in the drag operation. If the operation includes no files, the list is empty.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -321,8 +322,7 @@ public class DataTransfer</code></pre>
   <div class="markdown level1 remarks"><p>This feature can be used to drag files from a user&amp;apos;s desktop to the browser.</p>
 <blockquote class="NOTE">
   <h5>NOTE</h5>
-  <p>
-    <strong>Note:</strong> The <code>files</code> property of <a href="https://developer.mozilla.org/en-US/docs/Web/API/DataTransfer"><code>DataTransfer</code></a> objects can only be accessed from within the <code>drop</code> event. For all other events, the <code>files</code> property will be empty — because its underlying data store will be in a <a href="https://html.spec.whatwg.org/multipage/dnd.html#the-drag-data-store">protected mode</a>.</p>
+  <p>The <code>files</code> property of <a href="https://developer.mozilla.org/en-US/docs/Web/API/DataTransfer"><code>DataTransfer</code></a> objects can only be accessed from within the <code>drop</code> event. For all other events, the <code>files</code> property will be empty — because its underlying data store will be in a <a href="https://html.spec.whatwg.org/multipage/dnd.html#the-drag-data-store">protected mode</a>.</p>
 </blockquote>
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/DataTransfer/files">
@@ -338,10 +338,10 @@ public class DataTransfer</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_DataTransfer_Items" data-uid="CSharpToJavaScript.APIs.JS.DataTransfer.Items">
   Items
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10951"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L10215"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The read-only <a class="xref" href="CSharpToJavaScript.APIs.JS.DataTransfer.html">DataTransfer</a> property <code>items</code> property is a<br><a class="xref" href="CSharpToJavaScript.APIs.JS.DataTransferItemList.html">DataTransferItemList</a> of the {{domxref(&quot;DataTransferItem&quot;,&quot;data transfer items&quot;, &amp;quot;&amp;quot;, &amp;quot;nocode&amp;quot;)}} in a drag operation. The list includes one item for each item in the operation and if the operation had no items, the list is empty.</p>
+  <div class="markdown level1 summary"><p>The read-only <code>items</code> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.DataTransfer.html">DataTransfer</a> interface is a<br><a class="xref" href="CSharpToJavaScript.APIs.JS.DataTransferItemList.html">DataTransferItemList</a> of the {{domxref(&quot;DataTransferItem&quot;,&quot;data transfer items&quot;, &amp;quot;&amp;quot;, &amp;quot;nocode&amp;quot;)}} in a drag operation. The list includes one item for each item in the operation and if the operation had no items, the list is empty.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -379,10 +379,10 @@ public class DataTransfer</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_DataTransfer_Types" data-uid="CSharpToJavaScript.APIs.JS.DataTransfer.Types">
   Types
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10955"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L10219"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>DataTransfer.types</code></strong> read-only property returns the available types<br>that exist in the <a class="xref" href="CSharpToJavaScript.APIs.JS.DataTransfer.html#CSharpToJavaScript_APIs_JS_DataTransfer_Items">Items</a>.</p>
+  <div class="markdown level1 summary"><p>The <strong><code>DataTransfer.types</code></strong> read-only property returns the available types that exist in the <a class="xref" href="CSharpToJavaScript.APIs.JS.DataTransfer.html#CSharpToJavaScript_APIs_JS_DataTransfer_Items">Items</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -397,7 +397,7 @@ public class DataTransfer</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
-    <dd><p>An array of the data formats used in the drag operation. Each format is a string<br>which is generally a MIME type such as <code>text/plain</code> or <code>text/html</code>. If the drag<br>operation included no data, this list will be empty. If any files are included in<br>the drag operation, then one of the types will be the string <code>Files</code>.</p>
+    <dd><p>An array of the data formats. Each format is a string<br>which is generally a MIME type such as <code>text/plain</code> or <code>text/html</code>. If the drag<br>operation included no data, this list will be empty. If any files are included in<br>the drag operation, then one of the types will be the string <code>Files</code>.</p>
 </dd>
   </dl>
 
@@ -424,15 +424,15 @@ public class DataTransfer</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_DataTransfer_ClearData_System_String_" data-uid="CSharpToJavaScript.APIs.JS.DataTransfer.ClearData(System.String)">
   ClearData(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10961"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L10225"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>DataTransfer.clearData()</code></strong> method removes the drag<br>operation's <a class="xref" href="CSharpToJavaScript.APIs.JS.DataTransfer.html">DataTransfer</a> for the given type. If data for the<br>given type does not exist, this method does nothing.</p>
+  <div class="markdown level1 summary"><p>The <strong><code>DataTransfer.clearData()</code></strong> method removes the drag<br>operation&amp;apos;s <a href="https://developer.mozilla.org/en-US/docs/Web/API/DataTransfer">drag data</a> for the given type. If data for the<br>given type does not exist, this method does nothing.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined ClearData(string format)</code></pre>
+    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined ClearData(string format = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -459,8 +459,7 @@ public class DataTransfer</code></pre>
 <p>This method does <strong>not</strong> remove files from the drag operation, so it&amp;apos;s possible<br>for there still to be an entry with the type <code>&amp;quot;Files&amp;quot;</code> left in the object&amp;apos;s<br><a class="xref" href="CSharpToJavaScript.APIs.JS.DataTransfer.html#CSharpToJavaScript_APIs_JS_DataTransfer_Types">Types</a> list if there are any files included in the drag.</p>
 <blockquote class="NOTE">
   <h5>NOTE</h5>
-  <p>
-    <strong>Note:</strong> This method can only be used in the handler for the HTMLElement/dragstart_event event,<br>because that&amp;apos;s the only time the drag operation&amp;apos;s data store is writable.</p>
+  <p>This method can only be used in the handler for the HTMLElement/dragstart_event event,<br>because that&amp;apos;s the only time the drag operation&amp;apos;s data store is writable.</p>
 </blockquote>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API">Drag and drop</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API/Drag_operations">Drag Operations</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API/Recommended_drag_types">Recommended Drag Types</a><br>-<a href="https://codepen.io/tech_query/pen/MqGgap">DataTransfer test - Paste or Drag</a><br></p>
 <p>
@@ -477,7 +476,7 @@ public class DataTransfer</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_DataTransfer_GetData_System_String_" data-uid="CSharpToJavaScript.APIs.JS.DataTransfer.GetData(System.String)">
   GetData(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10957"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L10221"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>DataTransfer.getData()</code></strong><br>method retrieves drag data (as a string) for the specified type.<br>If the drag operation does not include data, this method returns an empty<br>string.</p>
@@ -524,10 +523,10 @@ public class DataTransfer</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_DataTransfer_SetData_System_String_System_String_" data-uid="CSharpToJavaScript.APIs.JS.DataTransfer.SetData(System.String,System.String)">
   SetData(string, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10959"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L10223"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>DataTransfer.setData()</code></strong> method sets the drag<br>operation's <a class="xref" href="CSharpToJavaScript.APIs.JS.DataTransfer.html">DataTransfer</a> to the specified data and type. If<br>data for the given type does not exist, it is added at the end of the drag data store,<br>such that the last item in the <a class="xref" href="CSharpToJavaScript.APIs.JS.DataTransfer.html#CSharpToJavaScript_APIs_JS_DataTransfer_Types">Types</a> list will be<br>the new type. If data for the given type already exists, the existing data is replaced<br>in the same position. That is, the order of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.DataTransfer.html#CSharpToJavaScript_APIs_JS_DataTransfer_Types">Types</a> list is not changed when replacing data of the<br>same type.</p>
+  <div class="markdown level1 summary"><p>The <strong><code>DataTransfer.setData()</code></strong> method sets the drag<br>operation&amp;apos;s <a href="https://developer.mozilla.org/en-US/docs/Web/API/DataTransfer">drag data</a> to the specified data and type. If<br>data for the given type does not exist, it is added at the end of the drag data store,<br>such that the last item in the <a class="xref" href="CSharpToJavaScript.APIs.JS.DataTransfer.html#CSharpToJavaScript_APIs_JS_DataTransfer_Types">Types</a> list will be<br>the new type. If data for the given type already exists, the existing data is replaced<br>in the same position. That is, the order of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.DataTransfer.html#CSharpToJavaScript_APIs_JS_DataTransfer_Types">Types</a> list is not changed when replacing data of the<br>same type.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -573,7 +572,7 @@ public class DataTransfer</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_DataTransfer_SetDragImage_CSharpToJavaScript_APIs_JS_Element_System_Int64_System_Int64_" data-uid="CSharpToJavaScript.APIs.JS.DataTransfer.SetDragImage(CSharpToJavaScript.APIs.JS.Element,System.Int64,System.Int64)">
   SetDragImage(Element, long, long)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10953"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L10217"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>When a drag occurs, a translucent image is generated from the drag target (the element<br>the HTMLElement/dragstart_event event is fired at), and follows the mouse pointer during the<br>drag. This image is created automatically, so you do not need to create it yourself.<br>However, if a custom image is desired, the<br><strong><code>DataTransfer.setDragImage()</code></strong> method can be used to set the<br>custom image to be used. The image will typically be an <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img">img</a> element<br>but it can also be a <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas">canvas</a> or any other visible element.</p>
@@ -625,7 +624,7 @@ public class DataTransfer</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L10941" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L10205" class="edit-link">Edit this page</a>
         </div>
 
 

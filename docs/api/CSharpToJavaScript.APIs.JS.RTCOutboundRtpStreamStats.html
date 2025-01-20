@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -77,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -89,7 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_RTCOutboundRtpStreamStats" data-uid="CSharpToJavaScript.APIs.JS.RTCOutboundRtpStreamStats" class="text-break">
-Class RTCOutboundRtpStreamStats  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30254"><i class="bi bi-code-slash"></i></a>
+Class RTCOutboundRtpStreamStats  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26165"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -196,7 +196,7 @@ public class RTCOutboundRtpStreamStats : RTCSentRtpStreamStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCOutboundRtpStreamStats_Active" data-uid="CSharpToJavaScript.APIs.JS.RTCOutboundRtpStreamStats.Active">
   Active
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30292"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26201"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -226,7 +226,7 @@ public class RTCOutboundRtpStreamStats : RTCSentRtpStreamStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCOutboundRtpStreamStats_EncoderImplementation" data-uid="CSharpToJavaScript.APIs.JS.RTCOutboundRtpStreamStats.EncoderImplementation">
   EncoderImplementation
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30290"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26199"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -256,11 +256,10 @@ public class RTCOutboundRtpStreamStats : RTCSentRtpStreamStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCOutboundRtpStreamStats_FirCount" data-uid="CSharpToJavaScript.APIs.JS.RTCOutboundRtpStreamStats.FirCount">
   FirCount
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30287"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26197"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>firCount</code></strong> property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCOutboundRtpStreamStats.html">RTCOutboundRtpStreamStats</a> dictionary indicates the number of<br><strong>Full Intra Request</strong> (<strong>FIR</strong>) that the remote<br><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpReceiver.html">RTCRtpReceiver</a> has sent to this <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpSender.html">RTCRtpSender</a>.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -273,23 +272,13 @@ public class RTCOutboundRtpStreamStats : RTCSentRtpStreamStats</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
-    <dd><p>An integer value indicating how many FIR packets have been received by the sender<br>during the current connection. This statistic is available only for video tracks.The receiver sends a FIR packet to the sender any time it falls behind or loses packets<br>and cannot decode the incoming stream any longer because of the lost data. This tells<br>the sender to send a full frame instead of a delta frame, so that the receiver can catch<br>up.The higher <code>firCount</code> is, the more often frames were dropped, which may be<br>an indication that the media&amp;apos;s bit rate is too high for the available bandwidth, or that<br>the receiving device is overburdened and is therefore unable to process the incoming<br>data.</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCOutboundRtpStreamStats_FirCount_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>A FIR packet is sent when the receiver finds that it has fallen behind and needs to skip<br>frames in order to catch up; the sender should respond by sending a full frame instead<br>of a delta frame.</p>
-<p>Available only on video media.</p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCOutboundRtpStreamStats/firCount">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -297,7 +286,7 @@ public class RTCOutboundRtpStreamStats : RTCSentRtpStreamStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCOutboundRtpStreamStats_FrameHeight" data-uid="CSharpToJavaScript.APIs.JS.RTCOutboundRtpStreamStats.FrameHeight">
   FrameHeight
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30269"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26180"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -327,7 +316,7 @@ public class RTCOutboundRtpStreamStats : RTCSentRtpStreamStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCOutboundRtpStreamStats_FrameWidth" data-uid="CSharpToJavaScript.APIs.JS.RTCOutboundRtpStreamStats.FrameWidth">
   FrameWidth
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30268"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26179"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -357,7 +346,7 @@ public class RTCOutboundRtpStreamStats : RTCSentRtpStreamStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCOutboundRtpStreamStats_FramesEncoded" data-uid="CSharpToJavaScript.APIs.JS.RTCOutboundRtpStreamStats.FramesEncoded">
   FramesEncoded
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30274"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26185"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>framesEncoded</code></strong> property of<br>the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCOutboundRtpStreamStats.html">RTCOutboundRtpStreamStats</a> dictionary indicates the total number of<br>frames that have been encoded by this <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpSender.html">RTCRtpSender</a> for this media<br>source.</p>
@@ -374,7 +363,7 @@ public class RTCOutboundRtpStreamStats : RTCSentRtpStreamStats</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
-    <dd><p>An integer value indicating the total number of video frames that this sender has<br>encoded so far for this stream.<blockquote class="NOTE"><h5>NOTE</h5><strong>Note:</strong> This property is only valid for video streams.</blockquote>
+    <dd><p>An integer value indicating the total number of video frames that this sender has<br>encoded so far for this stream.<blockquote class="NOTE"><h5>NOTE</h5>This property is only valid for video streams.</blockquote>
 </dd>
   </dl>
 
@@ -396,7 +385,7 @@ public class RTCOutboundRtpStreamStats : RTCSentRtpStreamStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCOutboundRtpStreamStats_FramesPerSecond" data-uid="CSharpToJavaScript.APIs.JS.RTCOutboundRtpStreamStats.FramesPerSecond">
   FramesPerSecond
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30270"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26181"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -426,7 +415,7 @@ public class RTCOutboundRtpStreamStats : RTCSentRtpStreamStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCOutboundRtpStreamStats_FramesSent" data-uid="CSharpToJavaScript.APIs.JS.RTCOutboundRtpStreamStats.FramesSent">
   FramesSent
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30271"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26182"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -456,7 +445,7 @@ public class RTCOutboundRtpStreamStats : RTCSentRtpStreamStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCOutboundRtpStreamStats_HeaderBytesSent" data-uid="CSharpToJavaScript.APIs.JS.RTCOutboundRtpStreamStats.HeaderBytesSent">
   HeaderBytesSent
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30262"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26173"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -486,7 +475,7 @@ public class RTCOutboundRtpStreamStats : RTCSentRtpStreamStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCOutboundRtpStreamStats_HugeFramesSent" data-uid="CSharpToJavaScript.APIs.JS.RTCOutboundRtpStreamStats.HugeFramesSent">
   HugeFramesSent
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30272"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26183"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -516,7 +505,7 @@ public class RTCOutboundRtpStreamStats : RTCSentRtpStreamStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCOutboundRtpStreamStats_KeyFramesEncoded" data-uid="CSharpToJavaScript.APIs.JS.RTCOutboundRtpStreamStats.KeyFramesEncoded">
   KeyFramesEncoded
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30275"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26186"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -546,7 +535,7 @@ public class RTCOutboundRtpStreamStats : RTCSentRtpStreamStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCOutboundRtpStreamStats_MediaSourceId" data-uid="CSharpToJavaScript.APIs.JS.RTCOutboundRtpStreamStats.MediaSourceId">
   MediaSourceId
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30258"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26169"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -576,7 +565,7 @@ public class RTCOutboundRtpStreamStats : RTCSentRtpStreamStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCOutboundRtpStreamStats_Mid" data-uid="CSharpToJavaScript.APIs.JS.RTCOutboundRtpStreamStats.Mid">
   Mid
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30257"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26168"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -606,7 +595,7 @@ public class RTCOutboundRtpStreamStats : RTCSentRtpStreamStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCOutboundRtpStreamStats_NackCount" data-uid="CSharpToJavaScript.APIs.JS.RTCOutboundRtpStreamStats.NackCount">
   NackCount
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30285"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26196"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>nackCount</code></strong> property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCOutboundRtpStreamStats.html">RTCOutboundRtpStreamStats</a> dictionary is a numeric value indicating the<br>number of times the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpSender.html">RTCRtpSender</a> described by this object received a<br><strong>NACK</strong> packet from the remote receiver.</p>
@@ -646,11 +635,10 @@ public class RTCOutboundRtpStreamStats : RTCSentRtpStreamStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCOutboundRtpStreamStats_PliCount" data-uid="CSharpToJavaScript.APIs.JS.RTCOutboundRtpStreamStats.PliCount">
   PliCount
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30289"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26198"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>pliCount</code></strong> property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCOutboundRtpStreamStats.html">RTCOutboundRtpStreamStats</a> dictionary states the number of times the<br>remote peer's <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpReceiver.html">RTCRtpReceiver</a> sent a <strong>Picture Loss</strong><strong><br></strong><strong>Indication</strong> (<strong>PLI</strong>) packet to the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpSender.html">RTCRtpSender</a><br>for which this object provides statistics.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -663,23 +651,13 @@ public class RTCOutboundRtpStreamStats : RTCSentRtpStreamStats</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
-    <dd><p>An integer value indicating the number of times a PLI packet was sent to this sender by<br>the remote peer's <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpReceiver.html">RTCRtpReceiver</a>. These are sent by the receiver's<br>decoder to notify the sender&amp;apos;s encoder that an undefined amount of coded video data,<br>which may span frame boundaries, has been lost.<blockquote class="NOTE"><h5>NOTE</h5><strong>Note:</strong> This property is only used for video streams.</blockquote>
-</dd>
+    <dd></dd>
   </dl>
 
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCOutboundRtpStreamStats_PliCount_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>A PLI packet indicates that some<br>amount of encoded video data has been lost for one or more frames.</p>
-<p>-{{RFC(4585, &amp;quot;&amp;quot;, &amp;quot;6.3.1&amp;quot;)}}: Definition of &amp;quot;PLI messages&amp;quot; in the document <strong>Extended</strong><strong><br></strong><strong>RTP Profile for Real-time Transport Control Protocol (RTCP)-Based Feedback</strong><strong><br></strong><strong>(RTP/AVPF)</strong>.<br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCOutboundRtpStreamStats/pliCount">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -687,7 +665,7 @@ public class RTCOutboundRtpStreamStats : RTCSentRtpStreamStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCOutboundRtpStreamStats_PowerEfficientEncoder" data-uid="CSharpToJavaScript.APIs.JS.RTCOutboundRtpStreamStats.PowerEfficientEncoder">
   PowerEfficientEncoder
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30291"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26200"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -717,7 +695,7 @@ public class RTCOutboundRtpStreamStats : RTCSentRtpStreamStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCOutboundRtpStreamStats_QpSum" data-uid="CSharpToJavaScript.APIs.JS.RTCOutboundRtpStreamStats.QpSum">
   QpSum
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30277"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26188"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>qpSum</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCOutboundRtpStreamStats.html">RTCOutboundRtpStreamStats</a> dictionary is a value generated by adding the <strong>Quantization Parameter</strong> (<strong>QP</strong>) values for every frame this sender has produced to date on the video track corresponding to this <code>RTCOutboundRtpStreamStats</code> object.</p>
@@ -734,7 +712,7 @@ public class RTCOutboundRtpStreamStats : RTCSentRtpStreamStats</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
-    <dd><p>An unsigned 64-bit integer value which indicates the sum of the quantization parameter (QP) value for every frame sent so far on the track described by the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCOutboundRtpStreamStats.html">RTCOutboundRtpStreamStats</a> object.<br>Since the value of QP is typically larger to indicate higher compression factors, the larger this sum is, the more heavily compressed the stream generally has been.<blockquote class="NOTE"><h5>NOTE</h5><strong>Note:</strong> This value is only available for video media.</blockquote>
+    <dd><p>An unsigned 64-bit integer value which indicates the sum of the quantization parameter (QP) value for every frame sent so far on the track described by the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCOutboundRtpStreamStats.html">RTCOutboundRtpStreamStats</a> object.<br>Since the value of QP is typically larger to indicate higher compression factors, the larger this sum is, the more heavily compressed the stream generally has been.<blockquote class="NOTE"><h5>NOTE</h5>This value is only available for video media.</blockquote>
 </dd>
   </dl>
 
@@ -757,7 +735,7 @@ public class RTCOutboundRtpStreamStats : RTCSentRtpStreamStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCOutboundRtpStreamStats_QualityLimitationDurations" data-uid="CSharpToJavaScript.APIs.JS.RTCOutboundRtpStreamStats.QualityLimitationDurations">
   QualityLimitationDurations
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30282"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26193"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -787,10 +765,13 @@ public class RTCOutboundRtpStreamStats : RTCSentRtpStreamStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCOutboundRtpStreamStats_QualityLimitationReason" data-uid="CSharpToJavaScript.APIs.JS.RTCOutboundRtpStreamStats.QualityLimitationReason">
   QualityLimitationReason
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30281"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26192"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>qualityLimitationReason</code></strong><br>property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCOutboundRtpStreamStats.html">RTCOutboundRtpStreamStats</a> dictionary is a string<br>indicating the reason why the media quality in the stream is currently being reduced<br>by the codec during encoding, or <code>none</code> if no quality reduction is being<br>performed.</p>
+  <div class="markdown level1 summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>qualityLimitationReason</code></strong><br>property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCOutboundRtpStreamStats.html">RTCOutboundRtpStreamStats</a> dictionary is a string<br>indicating the reason why the media quality in the stream is currently being reduced<br>by the codec during encoding, or <code>none</code> if no quality reduction is being<br>performed.
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -828,7 +809,7 @@ public class RTCOutboundRtpStreamStats : RTCSentRtpStreamStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCOutboundRtpStreamStats_QualityLimitationResolutionChanges" data-uid="CSharpToJavaScript.APIs.JS.RTCOutboundRtpStreamStats.QualityLimitationResolutionChanges">
   QualityLimitationResolutionChanges
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30283"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26194"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -858,7 +839,7 @@ public class RTCOutboundRtpStreamStats : RTCSentRtpStreamStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCOutboundRtpStreamStats_RemoteId" data-uid="CSharpToJavaScript.APIs.JS.RTCOutboundRtpStreamStats.RemoteId">
   RemoteId
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30260"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26171"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>remoteId</code></strong> property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCOutboundRtpStreamStats.html">RTCOutboundRtpStreamStats</a> dictionary specifies the<br>RTCOutboundRtpStreamStats.Id of the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRemoteInboundRtpStreamStats.html">RTCRemoteInboundRtpStreamStats</a><br>object representing the remote peer's <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpReceiver.html">RTCRtpReceiver</a> which is sending<br>the media to the local peer for this SSRC.</p>
@@ -897,7 +878,7 @@ public class RTCOutboundRtpStreamStats : RTCSentRtpStreamStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCOutboundRtpStreamStats_RetransmittedBytesSent" data-uid="CSharpToJavaScript.APIs.JS.RTCOutboundRtpStreamStats.RetransmittedBytesSent">
   RetransmittedBytesSent
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30264"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26175"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -927,7 +908,7 @@ public class RTCOutboundRtpStreamStats : RTCSentRtpStreamStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCOutboundRtpStreamStats_RetransmittedPacketsSent" data-uid="CSharpToJavaScript.APIs.JS.RTCOutboundRtpStreamStats.RetransmittedPacketsSent">
   RetransmittedPacketsSent
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30263"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26174"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -957,7 +938,7 @@ public class RTCOutboundRtpStreamStats : RTCSentRtpStreamStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCOutboundRtpStreamStats_Rid" data-uid="CSharpToJavaScript.APIs.JS.RTCOutboundRtpStreamStats.Rid">
   Rid
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30261"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26172"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -987,7 +968,7 @@ public class RTCOutboundRtpStreamStats : RTCSentRtpStreamStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCOutboundRtpStreamStats_RtxSsrc" data-uid="CSharpToJavaScript.APIs.JS.RTCOutboundRtpStreamStats.RtxSsrc">
   RtxSsrc
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30265"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26176"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1017,7 +998,7 @@ public class RTCOutboundRtpStreamStats : RTCSentRtpStreamStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCOutboundRtpStreamStats_ScalabilityMode" data-uid="CSharpToJavaScript.APIs.JS.RTCOutboundRtpStreamStats.ScalabilityMode">
   ScalabilityMode
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30293"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26202"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1047,7 +1028,7 @@ public class RTCOutboundRtpStreamStats : RTCSentRtpStreamStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCOutboundRtpStreamStats_TargetBitrate" data-uid="CSharpToJavaScript.APIs.JS.RTCOutboundRtpStreamStats.TargetBitrate">
   TargetBitrate
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30266"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26177"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1077,7 +1058,7 @@ public class RTCOutboundRtpStreamStats : RTCSentRtpStreamStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCOutboundRtpStreamStats_TotalEncodeTime" data-uid="CSharpToJavaScript.APIs.JS.RTCOutboundRtpStreamStats.TotalEncodeTime">
   TotalEncodeTime
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30278"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26189"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1107,7 +1088,7 @@ public class RTCOutboundRtpStreamStats : RTCSentRtpStreamStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCOutboundRtpStreamStats_TotalEncodedBytesTarget" data-uid="CSharpToJavaScript.APIs.JS.RTCOutboundRtpStreamStats.TotalEncodedBytesTarget">
   TotalEncodedBytesTarget
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30267"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26178"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1137,7 +1118,7 @@ public class RTCOutboundRtpStreamStats : RTCSentRtpStreamStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCOutboundRtpStreamStats_TotalPacketSendDelay" data-uid="CSharpToJavaScript.APIs.JS.RTCOutboundRtpStreamStats.TotalPacketSendDelay">
   TotalPacketSendDelay
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30279"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26190"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -1168,7 +1149,7 @@ public class RTCOutboundRtpStreamStats : RTCSentRtpStreamStats</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30254" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26165" class="edit-link">Edit this page</a>
         </div>
 
 

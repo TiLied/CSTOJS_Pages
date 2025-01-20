@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -77,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -89,7 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_RTCRtpTransceiver" data-uid="CSharpToJavaScript.APIs.JS.RTCRtpTransceiver" class="text-break">
-Class RTCRtpTransceiver  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31124"><i class="bi bi-code-slash"></i></a>
+Class RTCRtpTransceiver  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26831"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -151,7 +151,7 @@ public class RTCRtpTransceiver</code></pre>
   <h2 id="CSharpToJavaScript_APIs_JS_RTCRtpTransceiver_remarks">Remarks</h2>
   <div class="markdown level0 remarks"><p>Each {{Glossary("SDP")}} media section describes one bidirectional SRTP ("Secure Real Time Protocol") stream (excepting the media section for <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCDataChannel.html">RTCDataChannel</a>, if present).<br>This pairing of send and receive SRTP streams is significant for some applications, so <code>RTCRtpTransceiver</code> is used to represent this pairing, along with other important state from the media section.<br>Each non-disabled SRTP media section is always represented by exactly one transceiver.</p>
 <p>A transceiver is uniquely identified using its <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpTransceiver.html#CSharpToJavaScript_APIs_JS_RTCRtpTransceiver_Mid">Mid</a> property, which is the same as the media ID (<code>mid</code>) of its corresponding m-line. An <code>RTCRtpTransceiver</code> is <strong>associated</strong> with an m-line if its <code>mid</code> is non-null; otherwise it&amp;apos;s considered disassociated.</p>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API">WebRTC API</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API/Intro_to_RTP">Introduction to the Real-time Transport Protocol (RTP)</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.RTCPeerConnection.html#CSharpToJavaScript_APIs_JS_RTCPeerConnection_AddTrack_CSharpToJavaScript_APIs_JS_MediaStreamTrack_CSharpToJavaScript_APIs_JS_MediaStream___">AddTrack(MediaStreamTrack, params MediaStream[])</a> and <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCPeerConnection.html#CSharpToJavaScript_APIs_JS_RTCPeerConnection_AddTransceiver_CSharpToJavaScript_APIs_JS_Union206_CSharpToJavaScript_APIs_JS_RTCRtpTransceiverInit_">AddTransceiver(Union206, RTCRtpTransceiverInit)</a> both create transceivers<br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpReceiver.html">RTCRtpReceiver</a> and <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpSender.html">RTCRtpSender</a><br></p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API">WebRTC API</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API/Intro_to_RTP">Introduction to the Real-time Transport Protocol (RTP)</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.RTCPeerConnection.html#CSharpToJavaScript_APIs_JS_RTCPeerConnection_AddTrack_CSharpToJavaScript_APIs_JS_MediaStreamTrack_CSharpToJavaScript_APIs_JS_MediaStream___">AddTrack(MediaStreamTrack, params MediaStream[])</a> and <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCPeerConnection.html#CSharpToJavaScript_APIs_JS_RTCPeerConnection_AddTransceiver_CSharpToJavaScript_APIs_JS_Union231_CSharpToJavaScript_APIs_JS_RTCRtpTransceiverInit_">AddTransceiver(Union231, RTCRtpTransceiverInit)</a> both create transceivers<br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpReceiver.html">RTCRtpReceiver</a> and <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpSender.html">RTCRtpSender</a><br></p>
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCRtpTransceiver">
     <em>See also on MDN</em>
@@ -168,7 +168,7 @@ public class RTCRtpTransceiver</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCRtpTransceiver_CurrentDirection" data-uid="CSharpToJavaScript.APIs.JS.RTCRtpTransceiver.CurrentDirection">
   CurrentDirection
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31136"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26843"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The read-only <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpTransceiver.html">RTCRtpTransceiver</a> property <strong><code>currentDirection</code></strong> is a string which indicates the current negotiated directionality of the transceiver.</p>
@@ -211,7 +211,7 @@ public class RTCRtpTransceiver</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCRtpTransceiver_Direction" data-uid="CSharpToJavaScript.APIs.JS.RTCRtpTransceiver.Direction">
   Direction
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31134"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26841"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpTransceiver.html">RTCRtpTransceiver</a> property <strong><code>direction</code></strong> is a string that indicates the transceiver&amp;apos;s <strong>preferred</strong> directionality.</p>
@@ -253,7 +253,7 @@ public class RTCRtpTransceiver</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCRtpTransceiver_Mid" data-uid="CSharpToJavaScript.APIs.JS.RTCRtpTransceiver.Mid">
   Mid
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31128"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26835"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The read-only <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpTransceiver.html">RTCRtpTransceiver</a> interface's<br><strong><code>mid</code></strong> property specifies the negotiated media ID<br>(<code>mid</code>) which the local and remote peers have agreed upon to uniquely<br>identify the stream&amp;apos;s pairing of sender and receiver.</p>
@@ -294,7 +294,7 @@ public class RTCRtpTransceiver</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCRtpTransceiver_Receiver" data-uid="CSharpToJavaScript.APIs.JS.RTCRtpTransceiver.Receiver">
   Receiver
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31132"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26839"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The read-only <strong><code>receiver</code></strong> property<br>of WebRTC's <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpTransceiver.html">RTCRtpTransceiver</a> interface indicates the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpReceiver.html">RTCRtpReceiver</a> responsible for receiving and decoding incoming media<br>data for the transceiver&amp;apos;s stream.</p>
@@ -335,7 +335,7 @@ public class RTCRtpTransceiver</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCRtpTransceiver_Sender" data-uid="CSharpToJavaScript.APIs.JS.RTCRtpTransceiver.Sender">
   Sender
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31130"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26837"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The read-only <strong><code>sender</code></strong> property<br>of WebRTC's <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpTransceiver.html">RTCRtpTransceiver</a> interface indicates the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpSender.html">RTCRtpSender</a> responsible for encoding and sending outgoing media data<br>for the transceiver&amp;apos;s stream.</p>
@@ -380,10 +380,10 @@ public class RTCRtpTransceiver</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCRtpTransceiver_SetCodecPreferences_System_Collections_Generic_List_CSharpToJavaScript_APIs_JS_RTCRtpCodec__" data-uid="CSharpToJavaScript.APIs.JS.RTCRtpTransceiver.SetCodecPreferences(System.Collections.Generic.List{CSharpToJavaScript.APIs.JS.RTCRtpCodec})">
   SetCodecPreferences(List&lt;RTCRtpCodec&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31140"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26847"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpTransceiver.html">RTCRtpTransceiver</a> method <strong><code>setCodecPreferences()</code></strong> configures the transceiver&amp;apos;s preferred list of codecs.</p>
+  <div class="markdown level1 summary"><p>The <strong><code>setCodecPreferences()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpTransceiver.html">RTCRtpTransceiver</a> interface is used to set the codecs that the transceiver allows for decoding <strong>received</strong> data, in order of decreasing preference.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -411,10 +411,13 @@ public class RTCRtpTransceiver</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCRtpTransceiver_SetCodecPreferences_System_Collections_Generic_List_CSharpToJavaScript_APIs_JS_RTCRtpCodec___remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>The specified set of codecs will be used for all future connections that include this transceiver until this method is called again.</p>
-<p>When preparing to open an <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCPeerConnection.html">RTCPeerConnection</a>, you can change the codec parameters from the {{Glossary("user agent", "user agent's")}} default configuration by calling <code>setCodecParameters()</code><strong>before</strong> calling either <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCPeerConnection.html#CSharpToJavaScript_APIs_JS_RTCPeerConnection_CreateOffer_CSharpToJavaScript_APIs_JS_RTCOfferOptions_">CreateOffer(RTCOfferOptions)</a> or <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCPeerConnection.html#CSharpToJavaScript_APIs_JS_RTCPeerConnection_CreateAnswer_CSharpToJavaScript_APIs_JS_RTCAnswerOptions_">CreateAnswer(RTCAnswerOptions)</a>.</p>
+  <div class="markdown level1 remarks"><p>The preferences set using this method influence what codecs are negotiated with the remote peer for encoding the data that it sends, including those used for retransmission, redundancy, and forward error correction.<br>Codecs that are not included in the preferences list will not be part of the negotiation.<br>Note that the preferences used by this transceiver for <strong>sending</strong> content depend on the preferences of the remote peer.</p>
+<p>The recommended way to set codec preferences is to first get the array of codecs that are actually supported for decoding received data, then reorder them your in decreasing preference order.<br>This ensures that the array is ordered as required, does not contain any unsupported codecs, and also that it also contains codecs that are needed for retransmission, redundancy, and forward error correction.</p>
+<p>The specified set of codecs will be used for all future connections that include this transceiver until this method is called again.</p>
+<p>When preparing to open an <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCPeerConnection.html">RTCPeerConnection</a> the codecs should be set using <code>setCodecParameters()</code><strong>before</strong> calling either <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCPeerConnection.html#CSharpToJavaScript_APIs_JS_RTCPeerConnection_CreateOffer_CSharpToJavaScript_APIs_JS_RTCOfferOptions_">CreateOffer(RTCOfferOptions)</a> or <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCPeerConnection.html#CSharpToJavaScript_APIs_JS_RTCPeerConnection_CreateAnswer_CSharpToJavaScript_APIs_JS_RTCAnswerOptions_">CreateAnswer(RTCAnswerOptions)</a>, as these initiate the negotiation (and will use codec parameters from the {{Glossary("user agent", "user agent's")}} default configuration by default).</p>
+<p>The codecs can be changed when you have an ongoing communication, but you need to first call <code>setCodecParameters()</code> and then kick off a new negotiation.<br>A WebRTC application will already have code for this in the <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCPeerConnection/negotiationneeded_event"><code>negotiationneeded</code> event handler</a>.<br>Note however that at time of writing the event is not automatically fired when you call <code>setCodecParameters()</code>, so you will have to call <code>onnegotiationneeded</code> yourself.</p>
 <p>A guide to codecs supported by WebRTC—and each codec&amp;apos;s positive and negative characteristics—can be found in <a href="https://developer.mozilla.org/en-US/docs/Web/Media/Formats/WebRTC_codecs">Codecs used by WebRTC</a>.</p>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API">WebRTC API</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/Media/Formats/WebRTC_codecs">Codecs used by WebRTC</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API/Intro_to_RTP">Introduction to the Real-time Transport Protocol (RTP)</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/Media">Web media technologies</a><br></p>
+<p>-<a href="https://blog.mozilla.org/webrtc/cross-browser-support-for-choosing-webrtc-codecs/">setCodecPreferences is now in all browsers!</a> on blog.mozilla.org (2024)<br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API">WebRTC API</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/Media/Formats/WebRTC_codecs">Codecs used by WebRTC</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API/Intro_to_RTP">Introduction to the Real-time Transport Protocol (RTP)</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/Media">Web media technologies</a><br></p>
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCRtpTransceiver/setCodecPreferences">
     <em>See also on MDN</em>
@@ -429,7 +432,7 @@ public class RTCRtpTransceiver</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCRtpTransceiver_Stop" data-uid="CSharpToJavaScript.APIs.JS.RTCRtpTransceiver.Stop">
   Stop()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31138"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26845"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>stop()</code></strong> method in the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpTransceiver.html">RTCRtpTransceiver</a> interface permanently stops the transceiver by stopping both the associated <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpSender.html">RTCRtpSender</a> and<br><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpReceiver.html">RTCRtpReceiver</a>.</p>
@@ -470,7 +473,7 @@ public class RTCRtpTransceiver</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31124" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26831" class="edit-link">Edit this page</a>
         </div>
 
 

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class PerformanceLongAnimationFrameTiming | CSharpToJavaScript ">
       
-      
+      <meta name="description" content="NOTE   Experimental  The PerformanceLongAnimationFrameTiming interface is specified in the Long Animation Frames API and provides metrics on long animation frames (LoAFs) that occupy rendering and block other tasks from being executed.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -77,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -89,7 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_PerformanceLongAnimationFrameTiming" data-uid="CSharpToJavaScript.APIs.JS.PerformanceLongAnimationFrameTiming" class="text-break">
-Class PerformanceLongAnimationFrameTiming  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13790"><i class="bi bi-code-slash"></i></a>
+Class PerformanceLongAnimationFrameTiming  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L12646"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,12 +97,16 @@ Class PerformanceLongAnimationFrameTiming  <a class="header-action link-secondar
   <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>PerformanceLongAnimationFrameTiming</code></strong> interface is specified in the Long Animation Frames API and provides metrics on long animation frames (LoAFs) that occupy rendering and block other tasks from being executed.
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
-public class PerformanceLongAnimationFrameTiming : PerformanceEntry</code></pre>
+public class PerformanceLongAnimationFrameTiming : PerformanceEntry, PaintTimingMixin</code></pre>
   </div>
 
 
@@ -117,6 +121,12 @@ public class PerformanceLongAnimationFrameTiming : PerformanceEntry</code></pre>
     </dd>
   </dl>
 
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="CSharpToJavaScript.APIs.JS.PaintTimingMixin.html">PaintTimingMixin</a></div>
+    </dd>
+  </dl>
 
 
   <dl class="typelist inheritedMembers">
@@ -154,6 +164,14 @@ public class PerformanceLongAnimationFrameTiming : PerformanceEntry</code></pre>
 
 
 
+  <h2 id="CSharpToJavaScript_APIs_JS_PerformanceLongAnimationFrameTiming_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Performance_API/Long_animation_frame_timing">Long animation frame timing</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceScriptTiming.html">PerformanceScriptTiming</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/PerformanceLongAnimationFrameTiming">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
   <h2 class="section" id="properties">Properties
@@ -164,10 +182,14 @@ public class PerformanceLongAnimationFrameTiming : PerformanceEntry</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_PerformanceLongAnimationFrameTiming_BlockingDuration" data-uid="CSharpToJavaScript.APIs.JS.PerformanceLongAnimationFrameTiming.BlockingDuration">
   BlockingDuration
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13799"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L12658"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>blockingDuration</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceLongAnimationFrameTiming.html">PerformanceLongAnimationFrameTiming</a> interface returns a <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a> indicating the total time in milliseconds for which the main thread was blocked from responding to high priority tasks, such as user input.
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -181,12 +203,21 @@ public class PerformanceLongAnimationFrameTiming : PerformanceEntry</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
-    <dd></dd>
+    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a>.</p>
+</dd>
   </dl>
 
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_PerformanceLongAnimationFrameTiming_BlockingDuration_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Performance_API/Long_animation_frame_timing">Long animation frame timing</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceScriptTiming.html">PerformanceScriptTiming</a><br>-<a href="https://web.dev/articles/optimize-long-tasks">Optimize long tasks</a> on web.dev (2024)<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/PerformanceLongAnimationFrameTiming/blockingDuration">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -195,7 +226,7 @@ public class PerformanceLongAnimationFrameTiming : PerformanceEntry</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_PerformanceLongAnimationFrameTiming_Duration" data-uid="CSharpToJavaScript.APIs.JS.PerformanceLongAnimationFrameTiming.Duration">
   Duration
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13794"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L12650"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -226,7 +257,7 @@ public class PerformanceLongAnimationFrameTiming : PerformanceEntry</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_PerformanceLongAnimationFrameTiming_EntryType" data-uid="CSharpToJavaScript.APIs.JS.PerformanceLongAnimationFrameTiming.EntryType">
   EntryType
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13796"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L12652"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -257,10 +288,14 @@ public class PerformanceLongAnimationFrameTiming : PerformanceEntry</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_PerformanceLongAnimationFrameTiming_FirstUIEventTimestamp" data-uid="CSharpToJavaScript.APIs.JS.PerformanceLongAnimationFrameTiming.FirstUIEventTimestamp">
   FirstUIEventTimestamp
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13800"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L12660"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>firstUIEventTimestamp</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceLongAnimationFrameTiming.html">PerformanceLongAnimationFrameTiming</a> interface returns a <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a> indicating the time of the first UI event — such as a mouse or keyboard event — to be queued during the current animation frame.
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -274,12 +309,21 @@ public class PerformanceLongAnimationFrameTiming : PerformanceEntry</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
-    <dd></dd>
+    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a>.</p>
+</dd>
   </dl>
 
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_PerformanceLongAnimationFrameTiming_FirstUIEventTimestamp_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Performance_API/Long_animation_frame_timing">Long animation frame timing</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceScriptTiming.html">PerformanceScriptTiming</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/PerformanceLongAnimationFrameTiming/firstUIEventTimestamp">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -288,7 +332,7 @@ public class PerformanceLongAnimationFrameTiming : PerformanceEntry</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_PerformanceLongAnimationFrameTiming_Name" data-uid="CSharpToJavaScript.APIs.JS.PerformanceLongAnimationFrameTiming.Name">
   Name
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13795"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L12651"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -319,10 +363,14 @@ public class PerformanceLongAnimationFrameTiming : PerformanceEntry</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_PerformanceLongAnimationFrameTiming_RenderStart" data-uid="CSharpToJavaScript.APIs.JS.PerformanceLongAnimationFrameTiming.RenderStart">
   RenderStart
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13797"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L12654"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>renderStart</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceLongAnimationFrameTiming.html">PerformanceLongAnimationFrameTiming</a> interface returns a <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a> indicating the start time of the rendering cycle, which includes Window.RequestAnimationFrame callbacks, style and layout calculation, <a class="xref" href="CSharpToJavaScript.APIs.JS.ResizeObserver.html">ResizeObserver</a> callbacks, and <a class="xref" href="CSharpToJavaScript.APIs.JS.IntersectionObserver.html">IntersectionObserver</a> callbacks.
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -336,12 +384,21 @@ public class PerformanceLongAnimationFrameTiming : PerformanceEntry</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
-    <dd></dd>
+    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a>.</p>
+</dd>
   </dl>
 
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_PerformanceLongAnimationFrameTiming_RenderStart_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Performance_API/Long_animation_frame_timing">Long animation frame timing</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceScriptTiming.html">PerformanceScriptTiming</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/PerformanceLongAnimationFrameTiming/renderStart">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -350,10 +407,14 @@ public class PerformanceLongAnimationFrameTiming : PerformanceEntry</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_PerformanceLongAnimationFrameTiming_Scripts" data-uid="CSharpToJavaScript.APIs.JS.PerformanceLongAnimationFrameTiming.Scripts">
   Scripts
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13801"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L12662"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>scripts</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceLongAnimationFrameTiming.html">PerformanceLongAnimationFrameTiming</a> interface returns an array of <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceScriptTiming.html">PerformanceScriptTiming</a> objects.
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -367,12 +428,22 @@ public class PerformanceLongAnimationFrameTiming : PerformanceEntry</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceScriptTiming.html">PerformanceScriptTiming</a>[]</dt>
-    <dd></dd>
+    <dd><p>An array of <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceScriptTiming.html">PerformanceScriptTiming</a> objects.</p>
+</dd>
   </dl>
 
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_PerformanceLongAnimationFrameTiming_Scripts_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Script attribution is provided only for scripts running in the main thread of a page, including same-origin <code>&amp;lt;iframe&amp;gt;</code>s. However, cross-origin <code>&amp;lt;iframe&amp;gt;</code>s, <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API">web workers</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API">service workers</a>, and <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions">extension</a> code will not have script attribution in long animation frames, even if they impact the duration of one.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Performance_API/Long_animation_frame_timing">Long animation frame timing</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceScriptTiming.html">PerformanceScriptTiming</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/PerformanceLongAnimationFrameTiming/scripts">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -381,7 +452,7 @@ public class PerformanceLongAnimationFrameTiming : PerformanceEntry</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_PerformanceLongAnimationFrameTiming_StartTime" data-uid="CSharpToJavaScript.APIs.JS.PerformanceLongAnimationFrameTiming.StartTime">
   StartTime
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13793"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L12649"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -412,10 +483,14 @@ public class PerformanceLongAnimationFrameTiming : PerformanceEntry</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_PerformanceLongAnimationFrameTiming_StyleAndLayoutStart" data-uid="CSharpToJavaScript.APIs.JS.PerformanceLongAnimationFrameTiming.StyleAndLayoutStart">
   StyleAndLayoutStart
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13798"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L12656"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>styleAndLayoutStart</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceLongAnimationFrameTiming.html">PerformanceLongAnimationFrameTiming</a> interface returns a <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a> indicating the beginning of the time period spent in style and layout calculations for the current animation frame.
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -429,12 +504,21 @@ public class PerformanceLongAnimationFrameTiming : PerformanceEntry</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
-    <dd></dd>
+    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a>.</p>
+</dd>
   </dl>
 
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_PerformanceLongAnimationFrameTiming_StyleAndLayoutStart_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Performance_API/Long_animation_frame_timing">Long animation frame timing</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceScriptTiming.html">PerformanceScriptTiming</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/PerformanceLongAnimationFrameTiming/styleAndLayoutStart">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -447,21 +531,26 @@ public class PerformanceLongAnimationFrameTiming : PerformanceEntry</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_PerformanceLongAnimationFrameTiming_ToJSON" data-uid="CSharpToJavaScript.APIs.JS.PerformanceLongAnimationFrameTiming.ToJSON">
   ToJSON()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13802"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L12664"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>toJSON()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceLongAnimationFrameTiming.html">PerformanceLongAnimationFrameTiming</a> interface is a {{Glossary("Serialization","serializer")}}; it returns a JSON representation of the <code>PerformanceLongAnimationFrameTiming</code> object.
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public object ToJSON()</code></pre>
+    <pre><code class="lang-csharp hljs">public Object ToJSON()</code></pre>
   </div>
 
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
-    <dd></dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Object.html">Object</a></dt>
+    <dd><p>A {{jsxref(&quot;JSON&quot;)}} object that is the serialization of the <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceLongAnimationFrameTiming.html">PerformanceLongAnimationFrameTiming</a> object.</p>
+</dd>
   </dl>
 
 
@@ -470,6 +559,14 @@ public class PerformanceLongAnimationFrameTiming : PerformanceEntry</code></pre>
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_PerformanceLongAnimationFrameTiming_ToJSON_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Performance_API/Long_animation_frame_timing">Long animation frame timing</a><br>-JSON<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/PerformanceLongAnimationFrameTiming/toJSON">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -478,7 +575,7 @@ public class PerformanceLongAnimationFrameTiming : PerformanceEntry</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L13790" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L12646" class="edit-link">Edit this page</a>
         </div>
 
 

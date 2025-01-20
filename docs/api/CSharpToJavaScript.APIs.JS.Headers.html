@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -77,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -89,7 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_Headers" data-uid="CSharpToJavaScript.APIs.JS.Headers" class="text-break">
-Class Headers  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6320"><i class="bi bi-code-slash"></i></a>
+Class Headers  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L5949"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -149,15 +149,10 @@ public class Headers</code></pre>
 
 
   <h2 id="CSharpToJavaScript_APIs_JS_Headers_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>A <code>Headers</code> object has an associated header list, which is initially empty and consists of zero or more name and value pairs. You can add to this using methods like <a class="xref" href="CSharpToJavaScript.APIs.JS.Headers.html#CSharpToJavaScript_APIs_JS_Headers_Append_System_String_System_String_">Append(string, string)</a> (see <a href="https://developer.mozilla.org#examples">Examples</a>.) In all methods of this interface, header names are matched by case-insensitive byte sequence.</p>
-<p>For security reasons, some headers can only be controlled by the user agent. These headers include the <a href="https://developer.mozilla.org/en-US/docs/Glossary/Forbidden_header_name">Forbidden_header_name</a> and <a href="https://developer.mozilla.org/en-US/docs/Glossary/Forbidden_response_header_name">Forbidden_response_header_name</a>.</p>
-<p>A Headers object also has an associated guard, which takes a value of <code>immutable</code>, <code>request</code>, <code>request-no-cors</code>, <code>response</code>, or <code>none</code>. This affects whether the <a class="xref" href="CSharpToJavaScript.APIs.JS.Headers.html#CSharpToJavaScript_APIs_JS_Headers_Set_System_String_System_String_">Set(string, string)</a>, <a class="xref" href="CSharpToJavaScript.APIs.JS.Headers.html#CSharpToJavaScript_APIs_JS_Headers_Delete_System_String_">Delete(string)</a>, and <a class="xref" href="CSharpToJavaScript.APIs.JS.Headers.html#CSharpToJavaScript_APIs_JS_Headers_Append_System_String_System_String_">Append(string, string)</a> methods will mutate the header. For more information see {{Glossary("Guard")}}.</p>
-<p>You can retrieve a <code>Headers</code> object via the <a class="xref" href="CSharpToJavaScript.APIs.JS.Request.html#CSharpToJavaScript_APIs_JS_Request_Headers">Headers</a> and <a class="xref" href="CSharpToJavaScript.APIs.JS.Response.html#CSharpToJavaScript_APIs_JS_Response_Headers">Headers</a> properties, and create a new <code>Headers</code> object using the <a class="xref" href="CSharpToJavaScript.APIs.JS.Headers.html#CSharpToJavaScript_APIs_JS_Headers__ctor_CSharpToJavaScript_APIs_JS_Union41_">Headers(Union41)</a> constructor.</p>
-<p>An object implementing <code>Headers</code> can directly be used in a {{jsxref("Statements/for...of", "for...of")}} structure, instead of 'Headers.Entries': <code>for (const p of myHeaders)</code> is equivalent to <code>for (const p of myHeaders.entries())</code>.</p>
+  <div class="markdown level0 remarks"><p>You can retrieve a <code>Headers</code> object via the <a class="xref" href="CSharpToJavaScript.APIs.JS.Request.html#CSharpToJavaScript_APIs_JS_Request_Headers">Headers</a> and <a class="xref" href="CSharpToJavaScript.APIs.JS.Response.html#CSharpToJavaScript_APIs_JS_Response_Headers">Headers</a> properties, and create a new <code>Headers</code> object using the <a class="xref" href="CSharpToJavaScript.APIs.JS.Headers.html#CSharpToJavaScript_APIs_JS_Headers__ctor_CSharpToJavaScript_APIs_JS_Union39_">Headers(Union39)</a> constructor.</p>
 <blockquote class="NOTE">
   <h5>NOTE</h5>
-  <p>
-    <strong>Note:</strong> you can find out more about the available headers by reading our <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers">HTTP headers</a> reference.</p>
+  <p>You can find out more about the available headers by reading our <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers">HTTP headers</a> reference.</p>
 </blockquote>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API">ServiceWorker API</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS">HTTP access control (CORS)</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP">HTTP</a><br></p>
 <p>
@@ -176,7 +171,7 @@ public class Headers</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Headers__ctor" data-uid="CSharpToJavaScript.APIs.JS.Headers.#ctor">
   Headers()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6338"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L5967"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -200,9 +195,9 @@ public class Headers</code></pre>
 
   <a id="CSharpToJavaScript_APIs_JS_Headers__ctor_" data-uid="CSharpToJavaScript.APIs.JS.Headers.#ctor*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_Headers__ctor_CSharpToJavaScript_APIs_JS_Union41_" data-uid="CSharpToJavaScript.APIs.JS.Headers.#ctor(CSharpToJavaScript.APIs.JS.Union41)">
-  Headers(Union41)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6324"><i class="bi bi-code-slash"></i></a>
+  <h3 id="CSharpToJavaScript_APIs_JS_Headers__ctor_CSharpToJavaScript_APIs_JS_Union39_" data-uid="CSharpToJavaScript.APIs.JS.Headers.#ctor(CSharpToJavaScript.APIs.JS.Union39)">
+  Headers(Union39)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L5953"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>Headers()</code></strong> constructor creates a new<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Headers.html">Headers</a> object.</p>
@@ -210,12 +205,12 @@ public class Headers</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Headers(Union41 init)</code></pre>
+    <pre><code class="lang-csharp hljs">public Headers(Union39 init = default)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>init</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union41.html">Union41</a></dt>
+    <dt><code>init</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union39.html">Union39</a></dt>
     <dd></dd>
   </dl>
 
@@ -226,7 +221,7 @@ public class Headers</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Headers__ctor_CSharpToJavaScript_APIs_JS_Union41__remarks">Remarks</h4>
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Headers__ctor_CSharpToJavaScript_APIs_JS_Union39__remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API">ServiceWorker API</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS">HTTP access control (CORS)</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP">HTTP</a><br></p>
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/Headers/Headers">
@@ -246,7 +241,7 @@ public class Headers</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Headers_Item_System_Int32_" data-uid="CSharpToJavaScript.APIs.JS.Headers.Item(System.Int32)">
   this[int]
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6337"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L5966"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -286,7 +281,7 @@ public class Headers</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Headers_Append_System_String_System_String_" data-uid="CSharpToJavaScript.APIs.JS.Headers.Append(System.String,System.String)">
   Append(string, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6326"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L5955"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>append()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Headers.html">Headers</a><br>interface appends a new value onto an existing header inside a <code>Headers</code><br>object, or adds the header if it does not already exist.</p>
@@ -336,7 +331,7 @@ public class Headers</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Headers_Delete_System_String_" data-uid="CSharpToJavaScript.APIs.JS.Headers.Delete(System.String)">
   Delete(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6328"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L5957"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>delete()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Headers.html">Headers</a><br>interface deletes a header from the current <code>Headers</code> object.</p>
@@ -367,8 +362,7 @@ public class Headers</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_Headers_Delete_System_String__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>This method throws a TypeError for the following reasons:</p>
-<p>For security reasons, some headers can only be controlled by the user agent. These<br>headers include the <a href="https://developer.mozilla.org/en-US/docs/Glossary/Forbidden_header_name">Forbidden_header_name</a><br>and <a href="https://developer.mozilla.org/en-US/docs/Glossary/Forbidden_response_header_name">Forbidden_response_header_name</a>.</p>
+  <div class="markdown level1 remarks"><p>For security reasons, some headers can only be controlled by the user agent. These<br>headers include the <a href="https://developer.mozilla.org/en-US/docs/Glossary/Forbidden_header_name">Forbidden_header_name</a><br>and <a href="https://developer.mozilla.org/en-US/docs/Glossary/Forbidden_response_header_name">Forbidden_response_header_name</a>.</p>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API">ServiceWorker API</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS">HTTP access control (CORS)</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP">HTTP</a><br></p>
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/Headers/delete">
@@ -384,7 +378,7 @@ public class Headers</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Headers_Get_System_String_" data-uid="CSharpToJavaScript.APIs.JS.Headers.Get(System.String)">
   Get(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6330"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L5959"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>get()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Headers.html">Headers</a> interface<br>returns a byte string of all the values of a header within a <code>Headers</code> object<br>with a given name. If the requested header doesn&amp;apos;t exist in the <code>Headers</code><br>object, it returns <code>null</code>.</p>
@@ -431,7 +425,7 @@ public class Headers</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Headers_GetSetCookie" data-uid="CSharpToJavaScript.APIs.JS.Headers.GetSetCookie">
   GetSetCookie()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6332"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L5961"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>getSetCookie()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Headers.html">Headers</a> interface returns an array containing the values of all {{httpheader(&quot;Set-Cookie&quot;)}} headers associated with a response. This allows <a class="xref" href="CSharpToJavaScript.APIs.JS.Headers.html">Headers</a> objects to handle having multiple <code>Set-Cookie</code> headers, which wasn&amp;apos;t possible prior to its implementation.</p>
@@ -473,7 +467,7 @@ public class Headers</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Headers_Has_System_String_" data-uid="CSharpToJavaScript.APIs.JS.Headers.Has(System.String)">
   Has(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6334"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L5963"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>has()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Headers.html">Headers</a> interface<br>returns a boolean stating whether a <code>Headers</code> object contains a certain<br>header.</p>
@@ -520,7 +514,7 @@ public class Headers</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Headers_Set_System_String_System_String_" data-uid="CSharpToJavaScript.APIs.JS.Headers.Set(System.String,System.String)">
   Set(string, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6336"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L5965"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>set()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Headers.html">Headers</a> interface<br>sets a new value for an existing header inside a <code>Headers</code> object, or adds<br>the header if it does not already exist.</p>
@@ -570,7 +564,7 @@ public class Headers</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6320" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L5949" class="edit-link">Edit this page</a>
         </div>
 
 

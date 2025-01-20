@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class Fence | CSharpToJavaScript ">
       
-      <meta name="description" content="The Fence interface of the {{domxref(&amp;amp;quot;Fenced Frame API&amp;amp;quot;, &amp;amp;quot;Fenced Frame API&amp;amp;quot;, &amp;amp;quot;&amp;amp;quot;, &amp;quot;nocode&amp;quot;)}} contains several functions relevant to fencedframe functionality.">
+      <meta name="description" content="NOTE   Experimental  The Fence interface of the {{domxref(&amp;amp;quot;Fenced Frame API&amp;amp;quot;, &amp;amp;quot;Fenced Frame API&amp;amp;quot;, &amp;amp;quot;&amp;amp;quot;, &quot;nocode&quot;)}} contains several functions relevant to fencedframe functionality.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -77,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -89,7 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_Fence" data-uid="CSharpToJavaScript.APIs.JS.Fence" class="text-break">
-Class Fence  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6299"><i class="bi bi-code-slash"></i></a>
+Class Fence  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L5927"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,7 +97,10 @@ Class Fence  <a class="header-action link-secondary" title="View source" href="h
   <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>The <strong><code>Fence</code></strong> interface of the {{domxref(&amp;quot;Fenced Frame API&amp;quot;, &amp;quot;Fenced Frame API&amp;quot;, &amp;quot;&amp;quot;, &quot;nocode&quot;)}} contains several functions relevant to <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fencedframe">fencedframe</a> functionality.</p>
+  <div class="markdown summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>Fence</code></strong> interface of the {{domxref(&amp;quot;Fenced Frame API&amp;quot;, &amp;quot;Fenced Frame API&amp;quot;, &amp;quot;&amp;quot;, "nocode")}} contains several functions relevant to <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fencedframe">fencedframe</a> functionality.
 </div>
   <div class="markdown conceptual"></div>
 
@@ -153,11 +156,10 @@ public class Fence</code></pre>
   <code>Fence</code> objects are accessed through the <a class="xref" href="CSharpToJavaScript.APIs.JS.Window.html#CSharpToJavaScript_APIs_JS_Window_Fence">Fence</a> property, but they are only available to documents embedded inside {{htmlelement("fencedframe")}}s (loaded via <a class="xref" href="CSharpToJavaScript.APIs.JS.FencedFrameConfig.html">FencedFrameConfig</a>s) or {{htmlelement("iframe")}}s (loaded via opaque URNs).</p>
 <blockquote class="NOTE">
   <h5>NOTE</h5>
-  <p>
-    <strong>Note:</strong> See <a href="https://developer.mozilla.org/en-US/docs/Web/API/Fenced_frame_API#how_do_fencedframes_work">How do <code>&amp;lt;fencedframe&amp;gt;</code>s work?</a> for some description around <code>FencedFrameConfig</code>s and opaque URNs.</p>
+  <p>See <a href="https://developer.mozilla.org/en-US/docs/Web/API/Fenced_frame_API#how_do_fencedframes_work">How do <code>&amp;lt;fencedframe&amp;gt;</code>s work?</a> for some description around <code>FencedFrameConfig</code>s and opaque URNs.</p>
 </blockquote>
 <p></p>
-<p>-<a href="https://developer.chrome.com/docs/privacy-sandbox/fenced-frame/">Fenced frames</a> on developer.chrome.com<br>-<a href="https://developer.chrome.com/docs/privacy-sandbox/">The Privacy Sandbox</a> on developer.chrome.com<br></p>
+<p>-<a href="https://developers.google.com/privacy-sandbox/private-advertising/fenced-frame">Fenced frames</a> on developers.google.com<br>-<a href="https://developers.google.com/privacy-sandbox">The Privacy Sandbox</a> on developers.google.com<br></p>
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/Fence">
     <em>See also on MDN</em>
@@ -170,14 +172,48 @@ public class Fence</code></pre>
 </h2>
 
 
+  <a id="CSharpToJavaScript_APIs_JS_Fence_DisableUntrustedNetwork_" data-uid="CSharpToJavaScript.APIs.JS.Fence.DisableUntrustedNetwork*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_Fence_DisableUntrustedNetwork" data-uid="CSharpToJavaScript.APIs.JS.Fence.DisableUntrustedNetwork">
+  DisableUntrustedNetwork()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L5936"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;GlobalObject.Undefined&gt; DisableUntrustedNetwork()</code></pre>
+  </div>
+
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
   <a id="CSharpToJavaScript_APIs_JS_Fence_GetNestedConfigs_" data-uid="CSharpToJavaScript.APIs.JS.Fence.GetNestedConfigs*"></a>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Fence_GetNestedConfigs" data-uid="CSharpToJavaScript.APIs.JS.Fence.GetNestedConfigs">
   GetNestedConfigs()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6307"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L5935"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>getNestedConfigs()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Fence.html">Fence</a> interface returns the <a class="xref" href="CSharpToJavaScript.APIs.JS.FencedFrameConfig.html">FencedFrameConfig</a>s loaded into <code>&amp;lt;fencedframe&amp;gt;</code>s embedded inside the current <code>&amp;lt;fencedframe&amp;gt;</code>.</p>
+  <div class="markdown level1 summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>getNestedConfigs()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Fence.html">Fence</a> interface returns the <a class="xref" href="CSharpToJavaScript.APIs.JS.FencedFrameConfig.html">FencedFrameConfig</a>s loaded into <code>&amp;lt;fencedframe&amp;gt;</code>s embedded inside the current <code>&amp;lt;fencedframe&amp;gt;</code>.
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -200,7 +236,7 @@ public class Fence</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_Fence_GetNestedConfigs_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a href="https://developer.chrome.com/docs/privacy-sandbox/fenced-frame/">Fenced frames</a> on developer.chrome.com<br>-<a href="https://developer.chrome.com/docs/privacy-sandbox/">The Privacy Sandbox</a> on developer.chrome.com<br></p>
+  <div class="markdown level1 remarks"><p>-<a href="https://developers.google.com/privacy-sandbox/private-advertising/fenced-frame">Fenced frames</a> on developers.google.com<br>-<a href="https://developers.google.com/privacy-sandbox">The Privacy Sandbox</a> on developers.google.com<br></p>
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/Fence/getNestedConfigs">
     <em>See also on MDN</em>
@@ -211,24 +247,63 @@ public class Fence</code></pre>
 
 
 
-  <a id="CSharpToJavaScript_APIs_JS_Fence_ReportEvent_" data-uid="CSharpToJavaScript.APIs.JS.Fence.ReportEvent*"></a>
+  <a id="CSharpToJavaScript_APIs_JS_Fence_NotifyEvent_" data-uid="CSharpToJavaScript.APIs.JS.Fence.NotifyEvent*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_Fence_ReportEvent_CSharpToJavaScript_APIs_JS_Union40_" data-uid="CSharpToJavaScript.APIs.JS.Fence.ReportEvent(CSharpToJavaScript.APIs.JS.Union40)">
-  ReportEvent(Union40)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6303"><i class="bi bi-code-slash"></i></a>
+  <h3 id="CSharpToJavaScript_APIs_JS_Fence_NotifyEvent_CSharpToJavaScript_APIs_JS_Event_" data-uid="CSharpToJavaScript.APIs.JS.Fence.NotifyEvent(CSharpToJavaScript.APIs.JS.Event)">
+  NotifyEvent(Event)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L5937"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>reportEvent()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Fence.html">Fence</a> interface triggers the submission of report data via a <a href="https://developer.mozilla.org/en-US/docs/Web/API/Beacon_API">beacon</a> to one or more specific URLs registered via the <a class="xref" href="CSharpToJavaScript.APIs.JS.InterestGroupReportingScriptRunnerGlobalScope.html#CSharpToJavaScript_APIs_JS_InterestGroupReportingScriptRunnerGlobalScope_RegisterAdBeacon_System_Collections_Generic_Dictionary_System_String_System_String__">RegisterAdBeacon(Dictionary&lt;string, string&gt;)</a> method of the <a href="https://developers.google.com/privacy-sandbox/relevance/protected-audience">Protected Audience API</a>, for the purpose of collecting ad auction results.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined ReportEvent(Union40 event_)</code></pre>
+    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined NotifyEvent(Event event_)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>event_</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union40.html">Union40</a></dt>
+    <dt><code>event_</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Event.html">Event</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_Fence_ReportEvent_" data-uid="CSharpToJavaScript.APIs.JS.Fence.ReportEvent*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_Fence_ReportEvent_CSharpToJavaScript_APIs_JS_Union38_" data-uid="CSharpToJavaScript.APIs.JS.Fence.ReportEvent(CSharpToJavaScript.APIs.JS.Union38)">
+  ReportEvent(Union38)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L5931"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>reportEvent()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Fence.html">Fence</a> interface triggers the submission of report data via a <a href="https://developer.mozilla.org/en-US/docs/Web/API/Beacon_API">beacon</a> to one or more specific URLs registered via the <a class="xref" href="CSharpToJavaScript.APIs.JS.InterestGroupReportingScriptRunnerGlobalScope.html#CSharpToJavaScript_APIs_JS_InterestGroupReportingScriptRunnerGlobalScope_RegisterAdBeacon_System_Collections_Generic_Dictionary_System_String_System_String__">RegisterAdBeacon(Dictionary&lt;string, string&gt;)</a> method of the <a href="https://developers.google.com/privacy-sandbox/private-advertising/protected-audience">Protected Audience API</a>, for the purpose of collecting ad auction results.
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined ReportEvent(Union38 event_ = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>event_</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union38.html">Union38</a></dt>
     <dd></dd>
   </dl>
 
@@ -245,14 +320,14 @@ public class Fence</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Fence_ReportEvent_CSharpToJavaScript_APIs_JS_Union40__remarks">Remarks</h4>
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Fence_ReportEvent_CSharpToJavaScript_APIs_JS_Union38__remarks">Remarks</h4>
   <div class="markdown level1 remarks"><blockquote class="NOTE">
   <h5>NOTE</h5>
   <p>
     <strong>Note:</strong>
     <a class="xref" href="CSharpToJavaScript.APIs.JS.Fence.html#CSharpToJavaScript_APIs_JS_Fence_SetReportEventDataForAutomaticBeacons_CSharpToJavaScript_APIs_JS_FenceEvent_">SetReportEventDataForAutomaticBeacons(FenceEvent)</a> provides similar report data submission, except in that case the submission is triggered via a navigation rather than by an explicit method call.</p>
 </blockquote>
-<p>-<a href="https://developer.chrome.com/docs/privacy-sandbox/fenced-frame/">Fenced frames</a> on developer.chrome.com<br>-<a href="https://developer.chrome.com/docs/privacy-sandbox/">The Privacy Sandbox</a> on developer.chrome.com<br></p>
+<p>-<a href="https://developers.google.com/privacy-sandbox/private-advertising/fenced-frame">Fenced frames</a> on developers.google.com<br>-<a href="https://developers.google.com/privacy-sandbox">The Privacy Sandbox</a> on developers.google.com<br></p>
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/Fence/reportEvent">
     <em>See also on MDN</em>
@@ -267,15 +342,18 @@ public class Fence</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Fence_SetReportEventDataForAutomaticBeacons_CSharpToJavaScript_APIs_JS_FenceEvent_" data-uid="CSharpToJavaScript.APIs.JS.Fence.SetReportEventDataForAutomaticBeacons(CSharpToJavaScript.APIs.JS.FenceEvent)">
   SetReportEventDataForAutomaticBeacons(FenceEvent)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6305"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L5933"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>setReportEventDataForAutomaticBeacons()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Fence.html">Fence</a> interface specifies event data that will be sent when a navigation occurs inside a {{htmlelement(&quot;fencedframe&quot;)}}. This data will be sent via an automatic <a href="https://developer.mozilla.org/en-US/docs/Web/API/Beacon_API">beacon</a> to one or more specific URLs registered via the <a class="xref" href="CSharpToJavaScript.APIs.JS.InterestGroupReportingScriptRunnerGlobalScope.html#CSharpToJavaScript_APIs_JS_InterestGroupReportingScriptRunnerGlobalScope_RegisterAdBeacon_System_Collections_Generic_Dictionary_System_String_System_String__">RegisterAdBeacon(Dictionary&lt;string, string&gt;)</a> method of the <a href="https://developer.chrome.com/docs/privacy-sandbox/fledge/">Protected Audience API</a>, for the purpose of collecting reporting data for ad auction results.</p>
+  <div class="markdown level1 summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>setReportEventDataForAutomaticBeacons()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Fence.html">Fence</a> interface specifies event data that will be sent when a navigation occurs inside a {{htmlelement("fencedframe")}}. This data will be sent via an automatic <a href="https://developer.mozilla.org/en-US/docs/Web/API/Beacon_API">beacon</a> to one or more specific URLs registered via the <a class="xref" href="CSharpToJavaScript.APIs.JS.InterestGroupReportingScriptRunnerGlobalScope.html#CSharpToJavaScript_APIs_JS_InterestGroupReportingScriptRunnerGlobalScope_RegisterAdBeacon_System_Collections_Generic_Dictionary_System_String_System_String__">RegisterAdBeacon(Dictionary&lt;string, string&gt;)</a> method of the <a href="https://developers.google.com/privacy-sandbox/private-advertising/protected-audience">Protected Audience API</a>, for the purpose of collecting reporting data for ad auction results.
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined SetReportEventDataForAutomaticBeacons(FenceEvent event_)</code></pre>
+    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined SetReportEventDataForAutomaticBeacons(FenceEvent event_ = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -302,9 +380,9 @@ public class Fence</code></pre>
   <h5>NOTE</h5>
   <p>
     <strong>Note:</strong>
-    <a class="xref" href="CSharpToJavaScript.APIs.JS.Fence.html#CSharpToJavaScript_APIs_JS_Fence_ReportEvent_CSharpToJavaScript_APIs_JS_Union40_">ReportEvent(Union40)</a> provides similar report data submission, except in that case the submission is triggered via an explicit method call rather than a navigation.</p>
+    <a class="xref" href="CSharpToJavaScript.APIs.JS.Fence.html#CSharpToJavaScript_APIs_JS_Fence_ReportEvent_CSharpToJavaScript_APIs_JS_Union38_">ReportEvent(Union38)</a> provides similar report data submission, except in that case the submission is triggered via an explicit method call rather than a navigation.</p>
 </blockquote>
-<p>-<a href="https://developer.chrome.com/docs/privacy-sandbox/fenced-frame/">Fenced frames</a> on developer.chrome.com<br>-<a href="https://developer.chrome.com/docs/privacy-sandbox/">The Privacy Sandbox</a> on developer.chrome.com<br></p>
+<p>-<a href="https://developers.google.com/privacy-sandbox/private-advertising/fenced-frame">Fenced frames</a> on developers.google.com<br>-<a href="https://developers.google.com/privacy-sandbox">The Privacy Sandbox</a> on developers.google.com<br></p>
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/Fence/setReportEventDataForAutomaticBeacons">
     <em>See also on MDN</em>
@@ -319,7 +397,7 @@ public class Fence</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6299" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L5927" class="edit-link">Edit this page</a>
         </div>
 
 

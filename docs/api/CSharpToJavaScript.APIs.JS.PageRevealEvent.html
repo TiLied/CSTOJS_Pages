@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class PageRevealEvent | CSharpToJavaScript ">
       
-      
+      <meta name="description" content="The PageRevealEvent event object is made available inside handler functions for the Window.Pagereveal_event event.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -77,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -89,7 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_PageRevealEvent" data-uid="CSharpToJavaScript.APIs.JS.PageRevealEvent" class="text-break">
-Class PageRevealEvent  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L11519"><i class="bi bi-code-slash"></i></a>
+Class PageRevealEvent  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L10727"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,7 +97,8 @@ Class PageRevealEvent  <a class="header-action link-secondary" title="View sourc
   <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p>The <strong><code>PageRevealEvent</code></strong> event object is made available inside handler functions for the Window.Pagereveal_event event.</p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
@@ -214,6 +215,16 @@ public class PageRevealEvent : Event</code></pre>
 
 
 
+  <h2 id="CSharpToJavaScript_APIs_JS_PageRevealEvent_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>During a cross-document navigation, it allows you to manipulate a related <a href="https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API">view transition</a> (providing access to the relevant <a class="xref" href="CSharpToJavaScript.APIs.JS.PageRevealEvent.html#CSharpToJavaScript_APIs_JS_PageRevealEvent_ViewTransition">ViewTransition</a> object) from the document being navigated <strong>to</strong>, if a view transition was triggered by the navigation.</p>
+<p>Outside view transitions, this event is also useful for cases such as triggering a startup animation, or reporting a page view. It's equivalent to the first Window.RequestAnimationFrame run after a cross-document navigation, if you were to trigger <code>requestAnimationFrame()</code> in the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head">head</a> of the document. For example, if you ran the following <code>reveal()</code> function in the <code>&amp;lt;head&amp;gt;</code>:</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API">View Transition API</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/PageRevealEvent">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
   <h2 class="section" id="constructors">Constructors
@@ -224,7 +235,7 @@ public class PageRevealEvent : Event</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_PageRevealEvent__ctor" data-uid="CSharpToJavaScript.APIs.JS.PageRevealEvent.#ctor">
   PageRevealEvent()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L11524"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L10734"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -250,14 +261,15 @@ public class PageRevealEvent : Event</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_PageRevealEvent__ctor_System_String_CSharpToJavaScript_APIs_JS_PageRevealEventInit_" data-uid="CSharpToJavaScript.APIs.JS.PageRevealEvent.#ctor(System.String,CSharpToJavaScript.APIs.JS.PageRevealEventInit)">
   PageRevealEvent(string, PageRevealEventInit)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L11522"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L10731"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The <strong><code>PageRevealEvent()</code></strong> constructor creates a new<br><a class="xref" href="CSharpToJavaScript.APIs.JS.PageRevealEvent.html">PageRevealEvent</a> object instance.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PageRevealEvent(string type, PageRevealEventInit eventInitDict)</code></pre>
+    <pre><code class="lang-csharp hljs">public PageRevealEvent(string type, PageRevealEventInit eventInitDict = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -275,6 +287,14 @@ public class PageRevealEvent : Event</code></pre>
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_PageRevealEvent__ctor_System_String_CSharpToJavaScript_APIs_JS_PageRevealEventInit__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API">View Transition API</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/PageRevealEvent/PageRevealEvent">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -287,10 +307,11 @@ public class PageRevealEvent : Event</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_PageRevealEvent_ViewTransition" data-uid="CSharpToJavaScript.APIs.JS.PageRevealEvent.ViewTransition">
   ViewTransition
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L11523"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L10733"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The <strong><code>viewTransition</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.PageRevealEvent.html">PageRevealEvent</a> interface contains a <a class="xref" href="CSharpToJavaScript.APIs.JS.PageRevealEvent.html#CSharpToJavaScript_APIs_JS_PageRevealEvent_ViewTransition">ViewTransition</a> object representing the active view transition for the cross-document navigation.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -304,12 +325,21 @@ public class PageRevealEvent : Event</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.ViewTransition.html">ViewTransition</a></dt>
-    <dd></dd>
+    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.PageRevealEvent.html#CSharpToJavaScript_APIs_JS_PageRevealEvent_ViewTransition">ViewTransition</a> object, or <code>null</code> if no view transition is active when the event is fired.</p>
+</dd>
   </dl>
 
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_PageRevealEvent_ViewTransition_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Navigation_API">Navigation API</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API">View Transition API</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/PageRevealEvent/viewTransition">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -318,7 +348,7 @@ public class PageRevealEvent : Event</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L11519" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L10727" class="edit-link">Edit this page</a>
         </div>
 
 

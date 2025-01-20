@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -77,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -89,7 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_Permissions" data-uid="CSharpToJavaScript.APIs.JS.Permissions" class="text-break">
-Class Permissions  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16283"><i class="bi bi-code-slash"></i></a>
+Class Permissions  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L14897"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,7 +97,7 @@ Class Permissions  <a class="header-action link-secondary" title="View source" h
   <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>The Permissions interface of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Permissions_API">Permissions API</a> provides the core Permission API functionality, such as methods for querying and revoking permissions</p>
+  <div class="markdown summary"><p>The <strong><code>Permissions</code></strong> interface of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Permissions_API">Permissions API</a> provides the core Permission API functionality, such as methods for querying and revoking permissions</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -163,22 +163,22 @@ public class Permissions</code></pre>
 
   <a id="CSharpToJavaScript_APIs_JS_Permissions_Query_" data-uid="CSharpToJavaScript.APIs.JS.Permissions.Query*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_Permissions_Query_System_Object_" data-uid="CSharpToJavaScript.APIs.JS.Permissions.Query(System.Object)">
-  Query(object)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16286"><i class="bi bi-code-slash"></i></a>
+  <h3 id="CSharpToJavaScript_APIs_JS_Permissions_Query_CSharpToJavaScript_APIs_JS_Object_" data-uid="CSharpToJavaScript.APIs.JS.Permissions.Query(CSharpToJavaScript.APIs.JS.Object)">
+  Query(Object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L14900"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>Permissions.query()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Permissions.html">Permissions</a> interface returns the state of a user permission on the global scope.</p>
+  <div class="markdown level1 summary"><p>The <strong><code>query()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Permissions.html">Permissions</a> interface returns the state of a user permission on the global scope.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;PermissionStatus&gt; Query(object permissionDesc)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;PermissionStatus&gt; Query(Object permissionDesc)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>permissionDesc</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dt><code>permissionDesc</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Object.html">Object</a></dt>
     <dd></dd>
   </dl>
 
@@ -195,8 +195,10 @@ public class Permissions</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Permissions_Query_System_Object__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Permissions_Query_CSharpToJavaScript_APIs_JS_Object__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The user permission names are defined in the respective specifications for each feature.<br>The permissions supported by different browser versions are listed in the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Permissions#browser_compatibility">compatibility data of the <code>Permissions</code> interface</a> (see also the relevant source code for <a href="https://searchfox.org/mozilla-central/source/dom/webidl/Permissions.webidl#10">Firefox values</a>, <a href="https://chromium.googlesource.com/chromium/src/+/refs/heads/main/third_party/blink/renderer/modules/permissions/permission_descriptor.idl">Chromium values</a>, and <a href="https://github.com/WebKit/WebKit/blob/main/Source/WebCore/Modules/permissions/PermissionName.idl">WebKit values</a>).</p>
+<p>The APIs that are gated by each permission are listed in <a href="https://developer.mozilla.org/en-US/docs/Web/API/Permissions_API#permission-aware_apis">Permission-aware APIs</a> in the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Permissions_API">Permissions API</a> overview topic.</p>
+<p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/Permissions/query">
     <em>See also on MDN</em>
   </a>
@@ -208,21 +210,21 @@ public class Permissions</code></pre>
 
   <a id="CSharpToJavaScript_APIs_JS_Permissions_Request_" data-uid="CSharpToJavaScript.APIs.JS.Permissions.Request*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_Permissions_Request_System_Object_" data-uid="CSharpToJavaScript.APIs.JS.Permissions.Request(System.Object)">
-  Request(object)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16258"><i class="bi bi-code-slash"></i></a>
+  <h3 id="CSharpToJavaScript_APIs_JS_Permissions_Request_CSharpToJavaScript_APIs_JS_Object_" data-uid="CSharpToJavaScript.APIs.JS.Permissions.Request(CSharpToJavaScript.APIs.JS.Object)">
+  Request(Object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L14872"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;PermissionStatus&gt; Request(object permissionDesc)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;PermissionStatus&gt; Request(Object permissionDesc)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>permissionDesc</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dt><code>permissionDesc</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Object.html">Object</a></dt>
     <dd></dd>
   </dl>
 
@@ -244,32 +246,32 @@ public class Permissions</code></pre>
 
   <a id="CSharpToJavaScript_APIs_JS_Permissions_Revoke_" data-uid="CSharpToJavaScript.APIs.JS.Permissions.Revoke*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_Permissions_Revoke_System_Object_" data-uid="CSharpToJavaScript.APIs.JS.Permissions.Revoke(System.Object)">
-  Revoke(object)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16265"><i class="bi bi-code-slash"></i></a>
+  <h3 id="CSharpToJavaScript_APIs_JS_Permissions_Revoke_CSharpToJavaScript_APIs_JS_Object_" data-uid="CSharpToJavaScript.APIs.JS.Permissions.Revoke(CSharpToJavaScript.APIs.JS.Object)">
+  Revoke(Object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L14879"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><div class="IMPORTANT">
   <h5>IMPORTANT</h5>
   <strong>Deprecated</strong>
-</div> The <strong><code>Permissions.revoke()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Permissions.html">Permissions</a> interface reverts a currently set permission back to its<br>default state, which is usually <code>prompt</code>.<br>This method is called on the global <a class="xref" href="CSharpToJavaScript.APIs.JS.Permissions.html">Permissions</a> object<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Navigator.html#CSharpToJavaScript_APIs_JS_Navigator_Permissions">Permissions</a>.
+</div> The <strong><code>revoke()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Permissions.html">Permissions</a> interface reverts a currently set permission back to its default state, which is usually <code>prompt</code>.<br>This method is called on the global <a class="xref" href="CSharpToJavaScript.APIs.JS.Permissions.html">Permissions</a> object <a class="xref" href="CSharpToJavaScript.APIs.JS.Navigator.html#CSharpToJavaScript_APIs_JS_Navigator_Permissions">Permissions</a>.
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;PermissionStatus&gt; Revoke(object permissionDesc)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;PermissionStatus&gt; Revoke(Object permissionDesc)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>permissionDesc</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dt><code>permissionDesc</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Object.html">Object</a></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CSharpToJavaScript.APIs.JS.PermissionStatus.html">PermissionStatus</a>&gt;</dt>
-    <dd><p>A Promise that calls its fulfillment handler with a<br><a class="xref" href="CSharpToJavaScript.APIs.JS.PermissionStatus.html">PermissionStatus</a> object indicating the result of the request.</p>
+    <dd><p>A {{jsxref(&quot;Promise&quot;)}} that calls its fulfillment handler with a <a class="xref" href="CSharpToJavaScript.APIs.JS.PermissionStatus.html">PermissionStatus</a> object indicating the result of the request.</p>
 </dd>
   </dl>
 
@@ -279,8 +281,9 @@ public class Permissions</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Permissions_Revoke_System_Object__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Permissions_Revoke_CSharpToJavaScript_APIs_JS_Object__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>This method is removed from the main permissions API specification because its use case is unclear.<br>Permissions are managed by the browser and the current permission model does not involve the site developer being able to imperatively request or revoke permissions. Browsers have shipped this API behind preferences but it&amp;apos;s unlikely to reach the standards track.<br>For more context, see the <a href="https://github.com/w3c/permissions/issues/46">original discussion to remove <code>permissions.revoke()</code></a>.</p>
+<p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/Permissions/revoke">
     <em>See also on MDN</em>
   </a>
@@ -294,7 +297,7 @@ public class Permissions</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16283" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L14897" class="edit-link">Edit this page</a>
         </div>
 
 

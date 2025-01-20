@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class NavigatorLogin | CSharpToJavaScript ">
       
-      <meta name="description" content="The NavigatorLogin interface of the Federated Credential Management (FedCM) API defines login functionality for federated identity providers (IdPs). Specifically, it enables a federated identity provider (IdP) to set its login status when a user signs into or out of the IdP.">
+      <meta name="description" content="NOTE   Experimental  The NavigatorLogin interface of the Federated Credential Management (FedCM) API defines login functionality for federated identity providers (IdPs). Specifically, it enables a federated identity provider (IdP) to set its login status when a user signs into or out of the IdP.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -77,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -89,7 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_NavigatorLogin" data-uid="CSharpToJavaScript.APIs.JS.NavigatorLogin" class="text-break">
-Class NavigatorLogin  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6062"><i class="bi bi-code-slash"></i></a>
+Class NavigatorLogin  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L12631"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,7 +97,10 @@ Class NavigatorLogin  <a class="header-action link-secondary" title="View source
   <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>The <strong><code>NavigatorLogin</code></strong> interface of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/FedCM_API">Federated Credential Management (FedCM) API</a> defines login functionality for federated identity providers (IdPs). Specifically, it enables a federated identity provider (IdP) to set its login status when a user signs into or out of the IdP.</p>
+  <div class="markdown summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>NavigatorLogin</code></strong> interface of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/FedCM_API">Federated Credential Management (FedCM) API</a> defines login functionality for federated identity providers (IdPs). Specifically, it enables a federated identity provider (IdP) to set its login status when a user signs into or out of the IdP.
 </div>
   <div class="markdown conceptual"></div>
 
@@ -170,10 +173,13 @@ public class NavigatorLogin</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_NavigatorLogin_SetStatus_CSharpToJavaScript_APIs_JS_LoginStatus_" data-uid="CSharpToJavaScript.APIs.JS.NavigatorLogin.SetStatus(CSharpToJavaScript.APIs.JS.LoginStatus)">
   SetStatus(LoginStatus)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6066"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L12635"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>setStatus()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.NavigatorLogin.html">NavigatorLogin</a> interface sets the login status of a federated identity provider (IdP), when called from the IdP's origin. By this, we mean &quot;whether any users are logged into the IdP on the current browser or not&quot;. This should be called by the IdP site following a user login or logout.</p>
+  <div class="markdown level1 summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>setStatus()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.NavigatorLogin.html">NavigatorLogin</a> interface sets the login status of a federated identity provider (IdP), when called from the IdP's origin. By this, we mean "whether any users are logged into the IdP on the current browser or not". This should be called by the IdP site following a user login or logout.
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -201,7 +207,7 @@ public class NavigatorLogin</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_NavigatorLogin_SetStatus_CSharpToJavaScript_APIs_JS_LoginStatus__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>The browser stores this state for each IdP; the <a href="https://developer.mozilla.org/en-US/docs/Web/API/FedCM_API">FedCM API</a> API then uses it to reduce the number of requests it makes to the IdP (because it does not need to waste time requesting accounts when there are no users logged in to the IdP). It also mitigates <a href="https://github.com/fedidcg/FedCM/issues/447">potential timing attacks</a>.</p>
+  <div class="markdown level1 remarks"><p>The browser stores this state for each IdP; the <a href="https://developer.mozilla.org/en-US/docs/Web/API/FedCM_API">FedCM API</a> API then uses it to reduce the number of requests it makes to the IdP (because it does not need to waste time requesting accounts when there are no users logged in to the IdP). It also mitigates <a href="https://github.com/w3c-fedid/FedCM/issues/447">potential timing attacks</a>.</p>
 <p>See <a href="https://developer.mozilla.org/en-US/docs/Web/API/FedCM_API/IDP_integration#update_login_status_using_the_login_status_api">Update login status using the Login Status API</a> for more information about FedCM login status.</p>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/FedCM_API">Federated Credential Management (FedCM) API</a><br></p>
 <p>
@@ -218,7 +224,7 @@ public class NavigatorLogin</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L6062" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L12631" class="edit-link">Edit this page</a>
         </div>
 
 

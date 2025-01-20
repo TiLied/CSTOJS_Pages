@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class Worklet | CSharpToJavaScript ">
       
-      <meta name="description" content="The Worklet interface is a lightweight version of  and gives developers access to low-level parts of the rendering pipeline.">
+      <meta name="description" content="The Worklet interface is a lightweight version of Web Workers and gives developers access to low-level parts of the rendering pipeline.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -77,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -89,7 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_Worklet" data-uid="CSharpToJavaScript.APIs.JS.Worklet" class="text-break">
-Class Worklet  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L12264"><i class="bi bi-code-slash"></i></a>
+Class Worklet  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L11207"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,7 +97,7 @@ Class Worklet  <a class="header-action link-secondary" title="View source" href=
   <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>The <strong><code>Worklet</code></strong> interface is a lightweight version of <a class="xref" href="CSharpToJavaScript.APIs.JS.Worker.html">Worker</a> and gives developers access to low-level parts of the rendering pipeline.</p>
+  <div class="markdown summary"><p>The <strong><code>Worklet</code></strong> interface is a lightweight version of <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API">Web Workers</a> and gives developers access to low-level parts of the rendering pipeline.</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -158,7 +158,7 @@ public class Worklet</code></pre>
   <h2 id="CSharpToJavaScript_APIs_JS_Worklet_remarks">Remarks</h2>
   <div class="markdown level0 remarks"><p>With Worklets, you can run JavaScript and <a href="https://developer.mozilla.org/en-US/docs/WebAssembly">WebAssembly</a> code to do graphics rendering or audio processing where high performance is required.</p>
 <p>Worklets allow static import of <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules">ECMAScript modules</a>, if supported, using <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import"><code>import</code></a>.<br>Dynamic import is disallowed by the specification — calling <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/import"><code>import()</code></a> will throw.</p>
-<p>-<a href="https://developer.chrome.com/blog/houdini/">Houdini: Demystifying CSS</a> on Google Developers (2016)<br>-<a href="https://www.youtube.com/watch?v=g1L4O1smMC0&amp;t=1m33s">AudioWorklet :: What, Why, and How</a> on YouTube (2017)<br>-<a href="https://developer.chrome.com/blog/audio-worklet/">Enter AudioWorklet</a> on Google Developers (2017)<br>-<a href="https://www.youtube.com/watch?v=ZPkMMShYxKU&amp;t=0m19s">Animation Worklet - HTTP203 Advent</a> on YouTube (2017)<br></p>
+<p>-<a href="https://developer.chrome.com/docs/css-ui/houdini">Houdini: Demystifying CSS</a> on Google Developers (2016)<br>-<a href="https://www.youtube.com/watch?v=g1L4O1smMC0&amp;t=1m33s">AudioWorklet :: What, Why, and How</a> on YouTube (2017)<br>-<a href="https://developer.chrome.com/blog/audio-worklet/">Enter AudioWorklet</a> on Google Developers (2017)<br>-<a href="https://www.youtube.com/watch?v=ZPkMMShYxKU&amp;t=0m19s">Animation Worklet - HTTP203 Advent</a> on YouTube (2017)<br></p>
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/Worklet">
     <em>See also on MDN</em>
@@ -175,7 +175,7 @@ public class Worklet</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Worklet_AddModule_System_String_CSharpToJavaScript_APIs_JS_WorkletOptions_" data-uid="CSharpToJavaScript.APIs.JS.Worklet.AddModule(System.String,CSharpToJavaScript.APIs.JS.WorkletOptions)">
   AddModule(string, WorkletOptions)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L12268"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L11211"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>addModule()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Worklet.html">Worklet</a> interface loads the module in the given JavaScript file and<br>adds it to the current <code>Worklet</code>.</p>
@@ -183,7 +183,7 @@ public class Worklet</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;GlobalObject.Undefined&gt; AddModule(string moduleURL, WorkletOptions options)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;GlobalObject.Undefined&gt; AddModule(string moduleURL, WorkletOptions options = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -222,7 +222,7 @@ public class Worklet</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L12264" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L11207" class="edit-link">Edit this page</a>
         </div>
 
 

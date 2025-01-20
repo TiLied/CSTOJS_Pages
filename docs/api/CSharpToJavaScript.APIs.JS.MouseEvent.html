@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -77,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -89,7 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_MouseEvent" data-uid="CSharpToJavaScript.APIs.JS.MouseEvent" class="text-break">
-Class MouseEvent  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L21112"><i class="bi bi-code-slash"></i></a>
+Class MouseEvent  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L19376"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -261,7 +261,7 @@ public class MouseEvent : UIEvent</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_MouseEvent__ctor" data-uid="CSharpToJavaScript.APIs.JS.MouseEvent.#ctor">
   MouseEvent()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L20961"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L19225"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -287,7 +287,7 @@ public class MouseEvent : UIEvent</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_MouseEvent__ctor_System_String_CSharpToJavaScript_APIs_JS_MouseEventInit_" data-uid="CSharpToJavaScript.APIs.JS.MouseEvent.#ctor(System.String,CSharpToJavaScript.APIs.JS.MouseEventInit)">
   MouseEvent(string, MouseEventInit)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L20932"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L19196"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>MouseEvent()</code></strong> constructor creates a new <a class="xref" href="CSharpToJavaScript.APIs.JS.MouseEvent.html">MouseEvent</a> object.</p>
@@ -295,7 +295,7 @@ public class MouseEvent : UIEvent</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MouseEvent(string type, MouseEventInit eventInitDict)</code></pre>
+    <pre><code class="lang-csharp hljs">public MouseEvent(string type, MouseEventInit eventInitDict = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -333,7 +333,7 @@ public class MouseEvent : UIEvent</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_MouseEvent_AltKey" data-uid="CSharpToJavaScript.APIs.JS.MouseEvent.AltKey">
   AltKey
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L20950"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L19214"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>MouseEvent.altKey</code></strong> read-only property is a boolean value that indicates whether the &amp;lt;kbd&amp;gt;alt&amp;lt;/kbd&amp;gt; key was pressed or not when a given mouse event occurs.</p>
@@ -362,8 +362,7 @@ public class MouseEvent : UIEvent</code></pre>
   <div class="markdown level1 remarks"><p>Be aware that the browser can&amp;apos;t always detect the &amp;lt;kbd&amp;gt;alt&amp;lt;/kbd&amp;gt; key on some operating systems.<br>On some Linux variants, for example, a left mouse click combined with the &amp;lt;kbd&amp;gt;alt&amp;lt;/kbd&amp;gt; key is used to move or resize windows.</p>
 <blockquote class="NOTE">
   <h5>NOTE</h5>
-  <p>
-    <strong>Note:</strong> On Macintosh keyboards, this key is also known as the &amp;lt;kbd&amp;gt;option&amp;lt;/kbd&amp;gt; key.</p>
+  <p>On Macintosh keyboards, this key is also known as the &amp;lt;kbd&amp;gt;option&amp;lt;/kbd&amp;gt; key.</p>
 </blockquote>
 <p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MouseEvent.html">MouseEvent</a><br></p>
 <p>
@@ -380,7 +379,7 @@ public class MouseEvent : UIEvent</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_MouseEvent_Button" data-uid="CSharpToJavaScript.APIs.JS.MouseEvent.Button">
   Button
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L20954"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L19218"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>MouseEvent.button</code></strong> read-only property indicates which button was pressed on the mouse to trigger the event.</p>
@@ -410,8 +409,7 @@ public class MouseEvent : UIEvent</code></pre>
 <p>Users may change the configuration of buttons on their pointing device so that if an event&amp;apos;s button property is zero, it may not have been caused by the button that is physically left–most on the pointing device; however, it should behave as if the left button was clicked in the standard button layout.</p>
 <blockquote class="NOTE">
   <h5>NOTE</h5>
-  <p>
-    <strong>Note:</strong> Do not confuse this property with the <a class="xref" href="CSharpToJavaScript.APIs.JS.MouseEvent.html#CSharpToJavaScript_APIs_JS_MouseEvent_Buttons">Buttons</a> property, which indicates which buttons are pressed for all mouse events types.</p>
+  <p>Do not confuse this property with the <a class="xref" href="CSharpToJavaScript.APIs.JS.MouseEvent.html#CSharpToJavaScript_APIs_JS_MouseEvent_Buttons">Buttons</a> property, which indicates which buttons are pressed for all mouse events types.</p>
 </blockquote>
 <p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MouseEvent.html">MouseEvent</a><br></p>
 <p>
@@ -428,7 +426,7 @@ public class MouseEvent : UIEvent</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_MouseEvent_Buttons" data-uid="CSharpToJavaScript.APIs.JS.MouseEvent.Buttons">
   Buttons
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L20956"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L19220"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>MouseEvent.buttons</code></strong> read-only property indicates which buttons are pressed on the mouse (or other input device) when a mouse event is triggered.</p>
@@ -457,8 +455,7 @@ public class MouseEvent : UIEvent</code></pre>
   <div class="markdown level1 remarks"><p>Each button that can be pressed is represented by a given number (see below).<br>If more than one button is pressed, the button values are added together to produce a new number.<br>For example, if the secondary (<code>2</code>) and auxiliary (<code>4</code>) buttons are pressed simultaneously, the value is <code>6</code> (i.e., <code>2 + 4</code>).</p>
 <blockquote class="NOTE">
   <h5>NOTE</h5>
-  <p>
-    <strong>Note:</strong> Do not confuse this property with the <a class="xref" href="CSharpToJavaScript.APIs.JS.MouseEvent.html#CSharpToJavaScript_APIs_JS_MouseEvent_Button">Button</a> property.<br>The <a class="xref" href="CSharpToJavaScript.APIs.JS.MouseEvent.html#CSharpToJavaScript_APIs_JS_MouseEvent_Buttons">Buttons</a> property indicates the state of buttons pressed during any kind of mouse event,<br>while the <a class="xref" href="CSharpToJavaScript.APIs.JS.MouseEvent.html#CSharpToJavaScript_APIs_JS_MouseEvent_Button">Button</a> property only guarantees the correct value for mouse events caused by pressing or releasing one or multiple buttons.</p>
+  <p>Do not confuse this property with the <a class="xref" href="CSharpToJavaScript.APIs.JS.MouseEvent.html#CSharpToJavaScript_APIs_JS_MouseEvent_Button">Button</a> property.<br>The <code>MouseEvent.buttons</code> property indicates the state of buttons pressed during any kind of mouse event,<br>while the <a class="xref" href="CSharpToJavaScript.APIs.JS.MouseEvent.html#CSharpToJavaScript_APIs_JS_MouseEvent_Button">Button</a> property only guarantees the correct value for mouse events caused by pressing or releasing one or multiple buttons.</p>
 </blockquote>
 <p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MouseEvent.html">MouseEvent</a><br></p>
 <p>
@@ -475,7 +472,7 @@ public class MouseEvent : UIEvent</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_MouseEvent_ClientX" data-uid="CSharpToJavaScript.APIs.JS.MouseEvent.ClientX">
   ClientX
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L20938"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L19202"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>clientX</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.MouseEvent.html">MouseEvent</a> interface provides the horizontal coordinate within the application's {{glossary(&quot;viewport&quot;)}} at which the event occurred (as opposed to the coordinate within the page).</p>
@@ -493,7 +490,7 @@ public class MouseEvent : UIEvent</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
-    <dd><p>A <code>double</code> floating point value.</p>
+    <dd><p>A <code>double</code> floating point value in pixels.</p>
 </dd>
   </dl>
 
@@ -517,7 +514,7 @@ public class MouseEvent : UIEvent</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_MouseEvent_ClientY" data-uid="CSharpToJavaScript.APIs.JS.MouseEvent.ClientY">
   ClientY
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L20940"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L19204"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>clientY</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.MouseEvent.html">MouseEvent</a> interface provides the vertical coordinate within the application's {{glossary(&quot;viewport&quot;)}} at which the event occurred (as opposed to the coordinate within the page).</p>
@@ -535,7 +532,7 @@ public class MouseEvent : UIEvent</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
-    <dd><p>A <code>double</code> floating point value.</p>
+    <dd><p>A <code>double</code> floating point value in pixels.</p>
 </dd>
   </dl>
 
@@ -559,7 +556,7 @@ public class MouseEvent : UIEvent</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_MouseEvent_CtrlKey" data-uid="CSharpToJavaScript.APIs.JS.MouseEvent.CtrlKey">
   CtrlKey
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L20946"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L19210"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>MouseEvent.ctrlKey</code></strong> read-only property is a boolean value that indicates whether the &amp;lt;kbd&amp;gt;ctrl&amp;lt;/kbd&amp;gt; key was pressed or not when a given mouse event occurs.</p>
@@ -601,10 +598,13 @@ public class MouseEvent : UIEvent</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_MouseEvent_LayerX" data-uid="CSharpToJavaScript.APIs.JS.MouseEvent.LayerX">
   LayerX
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L20942"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L19206"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>MouseEvent.layerX</code></strong> read-only property returns the<br>horizontal coordinate of the event relative to the current layer.</p>
+  <div class="markdown level1 summary"><div class="CAUTION">
+  <h5>CAUTION</h5>
+  <strong>Non-standard</strong>
+</div> The <strong><code>MouseEvent.layerX</code></strong> read-only property returns the<br>horizontal coordinate of the event relative to the current layer.
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -642,10 +642,13 @@ public class MouseEvent : UIEvent</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_MouseEvent_LayerY" data-uid="CSharpToJavaScript.APIs.JS.MouseEvent.LayerY">
   LayerY
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L20944"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L19208"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>MouseEvent.layerY</code></strong> read-only property returns the<br>vertical coordinate of the event relative to the current layer.</p>
+  <div class="markdown level1 summary"><div class="CAUTION">
+  <h5>CAUTION</h5>
+  <strong>Non-standard</strong>
+</div> The <strong><code>MouseEvent.layerY</code></strong> read-only property returns the<br>vertical coordinate of the event relative to the current layer.
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -683,7 +686,7 @@ public class MouseEvent : UIEvent</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_MouseEvent_MetaKey" data-uid="CSharpToJavaScript.APIs.JS.MouseEvent.MetaKey">
   MetaKey
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L20952"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L19216"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>MouseEvent.metaKey</code></strong> read-only property is a boolean value that indicates whether the &amp;lt;kbd&amp;gt;meta&amp;lt;/kbd&amp;gt; key was pressed or not when a given mouse event occurs.</p>
@@ -712,8 +715,7 @@ public class MouseEvent : UIEvent</code></pre>
   <div class="markdown level1 remarks"><p>Be aware that many operating systems bind special functionality to the &amp;lt;kbd&amp;gt;meta&amp;lt;/kbd&amp;gt; key, so this property may be <code>false</code> even when the key is actually pressed.<br>On Windows, for example, this key may open the Start menu.</p>
 <blockquote class="NOTE">
   <h5>NOTE</h5>
-  <p>
-    <strong>Note:</strong> On Macintosh keyboards, this key is the &amp;lt;kbd&amp;gt;command&amp;lt;/kbd&amp;gt; key (&amp;lt;kbd&amp;gt;⌘&amp;lt;/kbd&amp;gt;).<br>On Windows keyboards, this key is the Windows key (&amp;lt;kbd&amp;gt;⊞&amp;lt;/kbd&amp;gt;).</p>
+  <p>On Macintosh keyboards, this key is the &amp;lt;kbd&amp;gt;command&amp;lt;/kbd&amp;gt; key (&amp;lt;kbd&amp;gt;⌘&amp;lt;/kbd&amp;gt;).<br>On Windows keyboards, this key is the Windows key (&amp;lt;kbd&amp;gt;⊞&amp;lt;/kbd&amp;gt;).</p>
 </blockquote>
 <p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MouseEvent.html">MouseEvent</a><br></p>
 <p>
@@ -730,7 +732,7 @@ public class MouseEvent : UIEvent</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_MouseEvent_MovementX" data-uid="CSharpToJavaScript.APIs.JS.MouseEvent.MovementX">
   MovementX
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16495"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L15082"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>movementX</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.MouseEvent.html">MouseEvent</a> interface provides the difference in the X coordinate of the mouse pointer between the given event and the previous Element/mousemove_event event.<br>In other words, the value of the property is computed like this: <code>currentEvent.movementX = currentEvent.screenX - previousEvent.screenX</code>.</p>
@@ -758,8 +760,7 @@ public class MouseEvent : UIEvent</code></pre>
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_MouseEvent_MovementX_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><blockquote class="WARNING">
   <h5>WARNING</h5>
-  <p>
-    <strong>Warning:</strong> Browsers <a href="https://github.com/w3c/pointerlock/issues/42">use different units for <code>movementX</code> and <a class="xref" href="CSharpToJavaScript.APIs.JS.MouseEvent.html#CSharpToJavaScript_APIs_JS_MouseEvent_ScreenX">ScreenX</a> than what the specification defines. Depending on the browser and operating system, the <code>movementX</code> units may be a physical pixel, a logical pixel, or a CSS pixel. You may want to avoid the movement properties, and instead calculate the delta between the current client values (<a class="xref" href="CSharpToJavaScript.APIs.JS.MouseEvent.html#CSharpToJavaScript_APIs_JS_MouseEvent_ScreenX">ScreenX</a>, <a class="xref" href="CSharpToJavaScript.APIs.JS.MouseEvent.html#CSharpToJavaScript_APIs_JS_MouseEvent_ScreenY">ScreenY</a>) and the previous client values.</p>
+  <p>Browsers <a href="https://github.com/w3c/pointerlock/issues/42">use different units for <code>movementX</code> and <a class="xref" href="CSharpToJavaScript.APIs.JS.MouseEvent.html#CSharpToJavaScript_APIs_JS_MouseEvent_ScreenX">ScreenX</a> than what the specification defines. Depending on the browser and operating system, the <code>movementX</code> units may be a physical pixel, a logical pixel, or a CSS pixel. You may want to avoid the movement properties, and instead calculate the delta between the current client values (<a class="xref" href="CSharpToJavaScript.APIs.JS.MouseEvent.html#CSharpToJavaScript_APIs_JS_MouseEvent_ScreenX">ScreenX</a>, <a class="xref" href="CSharpToJavaScript.APIs.JS.MouseEvent.html#CSharpToJavaScript_APIs_JS_MouseEvent_ScreenY">ScreenY</a>) and the previous client values.</p>
 </blockquote>
 <p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MouseEvent.html#CSharpToJavaScript_APIs_JS_MouseEvent_MovementY">MovementY</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MouseEvent.html">MouseEvent</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Pointer_Lock_API">Pointer Lock</a><br></p>
 <p>
@@ -776,7 +777,7 @@ public class MouseEvent : UIEvent</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_MouseEvent_MovementY" data-uid="CSharpToJavaScript.APIs.JS.MouseEvent.MovementY">
   MovementY
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16497"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L15084"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>movementY</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.MouseEvent.html">MouseEvent</a> interface provides the difference in the Y coordinate of the mouse pointer between the given event and the previous Element/mousemove_event event.<br>In other words, the value of the property is computed like this: <code>currentEvent.movementY = currentEvent.screenY - previousEvent.screenY</code>.</p>
@@ -804,8 +805,7 @@ public class MouseEvent : UIEvent</code></pre>
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_MouseEvent_MovementY_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><blockquote class="WARNING">
   <h5>WARNING</h5>
-  <p>
-    <strong>Warning:</strong> Browsers <a href="https://github.com/w3c/pointerlock/issues/42">use different units for <code>movementY</code> and <a class="xref" href="CSharpToJavaScript.APIs.JS.MouseEvent.html#CSharpToJavaScript_APIs_JS_MouseEvent_ScreenY">ScreenY</a> than what the specification defines. Depending on the browser and operating system, the <code>movementY</code> units may be a physical pixel, a logical pixel, or a CSS pixel. You may want to avoid the movement properties, and instead calculate the delta between the current client values (<a class="xref" href="CSharpToJavaScript.APIs.JS.MouseEvent.html#CSharpToJavaScript_APIs_JS_MouseEvent_ScreenX">ScreenX</a>, <a class="xref" href="CSharpToJavaScript.APIs.JS.MouseEvent.html#CSharpToJavaScript_APIs_JS_MouseEvent_ScreenY">ScreenY</a>) and the previous client values.</p>
+  <p>Browsers <a href="https://github.com/w3c/pointerlock/issues/42">use different units for <code>movementY</code> and <a class="xref" href="CSharpToJavaScript.APIs.JS.MouseEvent.html#CSharpToJavaScript_APIs_JS_MouseEvent_ScreenY">ScreenY</a> than what the specification defines. Depending on the browser and operating system, the <code>movementY</code> units may be a physical pixel, a logical pixel, or a CSS pixel. You may want to avoid the movement properties, and instead calculate the delta between the current client values (<a class="xref" href="CSharpToJavaScript.APIs.JS.MouseEvent.html#CSharpToJavaScript_APIs_JS_MouseEvent_ScreenX">ScreenX</a>, <a class="xref" href="CSharpToJavaScript.APIs.JS.MouseEvent.html#CSharpToJavaScript_APIs_JS_MouseEvent_ScreenY">ScreenY</a>) and the previous client values.</p>
 </blockquote>
 <p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MouseEvent.html#CSharpToJavaScript_APIs_JS_MouseEvent_MovementX">MovementX</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MouseEvent.html">MouseEvent</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Pointer_Lock_API">Pointer Lock</a><br></p>
 <p>
@@ -822,7 +822,7 @@ public class MouseEvent : UIEvent</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_MouseEvent_OffsetX" data-uid="CSharpToJavaScript.APIs.JS.MouseEvent.OffsetX">
   OffsetX
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L3657"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L3646"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>offsetX</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.MouseEvent.html">MouseEvent</a> interface provides the offset in the X coordinate of the mouse pointer between that event and the padding edge of the target node.</p>
@@ -840,7 +840,7 @@ public class MouseEvent : UIEvent</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
-    <dd><p>A <code>double</code> floating point value.Early versions of the spec defined this as an integer.</p>
+    <dd><p>A <code>double</code> floating point value in pixels.Early versions of the spec defined this as an integer.</p>
 </dd>
   </dl>
 
@@ -863,7 +863,7 @@ public class MouseEvent : UIEvent</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_MouseEvent_OffsetY" data-uid="CSharpToJavaScript.APIs.JS.MouseEvent.OffsetY">
   OffsetY
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L3659"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L3648"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>offsetY</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.MouseEvent.html">MouseEvent</a> interface provides the offset in the Y coordinate of the mouse pointer between that event and the padding edge of the target node.</p>
@@ -881,7 +881,7 @@ public class MouseEvent : UIEvent</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
-    <dd><p>A <code>double</code> floating point value.Early versions of the spec defined this as an integer.</p>
+    <dd><p>A <code>double</code> floating point value in pixels.Early versions of the spec defined this as an integer.</p>
 </dd>
   </dl>
 
@@ -904,7 +904,7 @@ public class MouseEvent : UIEvent</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_MouseEvent_PageX" data-uid="CSharpToJavaScript.APIs.JS.MouseEvent.PageX">
   PageX
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L3649"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L3638"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>pageX</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.MouseEvent.html">MouseEvent</a> interface returns the X (horizontal) coordinate (in pixels) at which the mouse was clicked, relative to the left edge of the entire document.<br>This includes any portion of the document not currently visible.</p>
@@ -922,7 +922,7 @@ public class MouseEvent : UIEvent</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
-    <dd><p>A floating-point number of pixels from the left edge of the <strong>document</strong> at which the mouse was clicked, regardless of any scrolling or viewport positioning that may be in effect.This property was originally specified in the Touch Events specification as a long integer, but was redefined in the CSSOM View Module to be a double-precision<br>floating-point number to allow for subpixel precision.<br>Even though numeric types both are represented by <code>Number</code> in JavaScript, they may be handled differently internally in the browser&amp;apos;s code, resulting in potential behavior differences.See <a href="https://developer.mozilla.org#browser_compatibility">Browser compatibility</a> to learn which browsers have been updated to use the revised data type.</p>
+    <dd><p>A <code>double</code> floating-point number of pixels from the left edge of the <strong>document</strong> at which the mouse was clicked, regardless of any scrolling or viewport positioning that may be in effect.This property was originally specified in the Touch Events specification as a long integer, but was redefined in the CSSOM View Module to be a double-precision<br>floating-point number to allow for subpixel precision.<br>Even though numeric types both are represented by <code>Number</code> in JavaScript, they may be handled differently internally in the browser&amp;apos;s code, resulting in potential behavior differences.See <a href="https://developer.mozilla.org#browser_compatibility">Browser compatibility</a> to learn which browsers have been updated to use the revised data type.</p>
 </dd>
   </dl>
 
@@ -948,10 +948,10 @@ public class MouseEvent : UIEvent</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_MouseEvent_PageY" data-uid="CSharpToJavaScript.APIs.JS.MouseEvent.PageY">
   PageY
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L3651"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L3640"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>pageY</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.MouseEvent.html">MouseEvent</a> interface returns the Y (vertical) coordinate in pixels of the event relative to the whole document.<br>This property takes into account any vertical scrolling of the page.</p>
+  <div class="markdown level1 summary"><p>The <strong><code>pageY</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.MouseEvent.html">MouseEvent</a> interface returns the Y (vertical) coordinate (in pixels) at which the mouse was clicked, relative to the top edge of the entire document.<br>This includes any portion of the document not currently visible.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -966,7 +966,7 @@ public class MouseEvent : UIEvent</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
-    <dd><p>A <code>double</code> floating point value.</p>
+    <dd><p>A <code>double</code> floating point value in pixels.</p>
 </dd>
   </dl>
 
@@ -974,7 +974,8 @@ public class MouseEvent : UIEvent</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_MouseEvent_PageY_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MouseEvent.html#CSharpToJavaScript_APIs_JS_MouseEvent_PageX">PageX</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSSOM_view/Coordinate_systems">Coordinate systems</a><br></p>
+  <div class="markdown level1 remarks"><p>See <a class="xref" href="CSharpToJavaScript.APIs.JS.MouseEvent.html#CSharpToJavaScript_APIs_JS_MouseEvent_PageX">PageX</a> for more information.</p>
+<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MouseEvent.html#CSharpToJavaScript_APIs_JS_MouseEvent_PageX">PageX</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSSOM_view/Coordinate_systems">Coordinate systems</a><br></p>
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent/pageY">
     <em>See also on MDN</em>
@@ -989,7 +990,7 @@ public class MouseEvent : UIEvent</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_MouseEvent_RelatedTarget" data-uid="CSharpToJavaScript.APIs.JS.MouseEvent.RelatedTarget">
   RelatedTarget
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L20958"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L19222"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>MouseEvent.relatedTarget</code></strong> read-only property is the secondary target for the mouse event, if there is one.</p>
@@ -1019,7 +1020,7 @@ public class MouseEvent : UIEvent</code></pre>
 <p>For events with no secondary target, <code>relatedTarget</code> returns<br><code>null</code>.</p>
 <p>
   <a class="xref" href="CSharpToJavaScript.APIs.JS.FocusEvent.html#CSharpToJavaScript_APIs_JS_FocusEvent_RelatedTarget">RelatedTarget</a> is a similar property for focus events.</p>
-<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MouseEvent.html">MouseEvent</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Event/Comparison_of_Event_Targets">Comparison of Event Targets</a><br></p>
+<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MouseEvent.html">MouseEvent</a><br></p>
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent/relatedTarget">
     <em>See also on MDN</em>
@@ -1034,7 +1035,7 @@ public class MouseEvent : UIEvent</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_MouseEvent_ScreenX" data-uid="CSharpToJavaScript.APIs.JS.MouseEvent.ScreenX">
   ScreenX
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L20934"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L19198"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>screenX</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.MouseEvent.html">MouseEvent</a> interface provides the horizontal coordinate (offset) of the mouse pointer in <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSSOM_view/Coordinate_systems#screen">screen coordinates</a>.</p>
@@ -1052,7 +1053,7 @@ public class MouseEvent : UIEvent</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
-    <dd><p>A <code>double</code> floating point value.Early versions of the spec defined this as an integer referring to the number of pixels.</p>
+    <dd><p>A <code>double</code> floating point value in pixels.Early versions of the spec defined this as an integer referring to the number of pixels.</p>
 </dd>
   </dl>
 
@@ -1062,8 +1063,7 @@ public class MouseEvent : UIEvent</code></pre>
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_MouseEvent_ScreenX_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><blockquote class="NOTE">
   <h5>NOTE</h5>
-  <p>
-    <strong>Note:</strong> In a multiscreen environment, screens aligned horizontally will be treated as a single device, and so the range of the <code>screenX</code> value will increase to the combined width of the screens.</p>
+  <p>In a multiscreen environment, screens aligned horizontally will be treated as a single device, and so the range of the <code>screenX</code> value will increase to the combined width of the screens.</p>
 </blockquote>
 <p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MouseEvent.html">MouseEvent</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MouseEvent.html#CSharpToJavaScript_APIs_JS_MouseEvent_ScreenY">ScreenY</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.MouseEvent.html#CSharpToJavaScript_APIs_JS_MouseEvent_ClientX">ClientX</a> / <a class="xref" href="CSharpToJavaScript.APIs.JS.MouseEvent.html#CSharpToJavaScript_APIs_JS_MouseEvent_ClientY">ClientY</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSSOM_view/Coordinate_systems">Coordinate systems</a><br></p>
 <p>
@@ -1080,7 +1080,7 @@ public class MouseEvent : UIEvent</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_MouseEvent_ScreenY" data-uid="CSharpToJavaScript.APIs.JS.MouseEvent.ScreenY">
   ScreenY
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L20936"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L19200"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>screenY</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.MouseEvent.html">MouseEvent</a> interface provides the vertical coordinate (offset) of the mouse pointer in <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSSOM_view/Coordinate_systems#screen">screen coordinates</a>.</p>
@@ -1098,7 +1098,7 @@ public class MouseEvent : UIEvent</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
-    <dd><p>A <code>double</code> floating point value.Early versions of the spec defined this as an integer referring to the number of pixels.</p>
+    <dd><p>A <code>double</code> floating point value in pixels.Early versions of the spec defined this as an integer referring to the number of pixels.</p>
 </dd>
   </dl>
 
@@ -1121,7 +1121,7 @@ public class MouseEvent : UIEvent</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_MouseEvent_ShiftKey" data-uid="CSharpToJavaScript.APIs.JS.MouseEvent.ShiftKey">
   ShiftKey
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L20948"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L19212"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>MouseEvent.shiftKey</code></strong> read-only property is a boolean value that indicates whether the &amp;lt;kbd&amp;gt;shift&amp;lt;/kbd&amp;gt; key was pressed or not when a given mouse event occurs.</p>
@@ -1162,7 +1162,7 @@ public class MouseEvent : UIEvent</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_MouseEvent_X" data-uid="CSharpToJavaScript.APIs.JS.MouseEvent.X">
   X
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L3653"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L3642"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>MouseEvent.x</code></strong> property is an alias for the <a class="xref" href="CSharpToJavaScript.APIs.JS.MouseEvent.html#CSharpToJavaScript_APIs_JS_MouseEvent_ClientX">ClientX</a> property.</p>
@@ -1201,7 +1201,7 @@ public class MouseEvent : UIEvent</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_MouseEvent_Y" data-uid="CSharpToJavaScript.APIs.JS.MouseEvent.Y">
   Y
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L3655"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L3644"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>MouseEvent.y</code></strong> property is an alias for the <a class="xref" href="CSharpToJavaScript.APIs.JS.MouseEvent.html#CSharpToJavaScript_APIs_JS_MouseEvent_ClientY">ClientY</a> property.</p>
@@ -1244,7 +1244,7 @@ public class MouseEvent : UIEvent</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_MouseEvent_GetModifierState_System_String_" data-uid="CSharpToJavaScript.APIs.JS.MouseEvent.GetModifierState(System.String)">
   GetModifierState(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L20960"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L19224"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>MouseEvent.getModifierState()</code></strong> method returns the current state of the specified modifier key: <code>true</code> if the modifier is active (i.e., the modifier key is pressed or locked), otherwise, <code>false</code>.</p>
@@ -1291,7 +1291,7 @@ public class MouseEvent : UIEvent</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_MouseEvent_InitMouseEvent_System_String_System_Boolean_System_Boolean_CSharpToJavaScript_APIs_JS_Window_System_Int64_System_Int64_System_Int64_System_Int64_System_Int64_System_Boolean_System_Boolean_System_Boolean_System_Boolean_CSharpToJavaScript_APIs_JS_Number_CSharpToJavaScript_APIs_JS_EventTarget_" data-uid="CSharpToJavaScript.APIs.JS.MouseEvent.InitMouseEvent(System.String,System.Boolean,System.Boolean,CSharpToJavaScript.APIs.JS.Window,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Boolean,System.Boolean,System.Boolean,System.Boolean,CSharpToJavaScript.APIs.JS.Number,CSharpToJavaScript.APIs.JS.EventTarget)">
   InitMouseEvent(string, bool, bool, Window?, long, long, long, long, long, bool, bool, bool, bool, Number, EventTarget?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L21115"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L19379"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><div class="IMPORTANT">
@@ -1302,7 +1302,7 @@ public class MouseEvent : UIEvent</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined InitMouseEvent(string typeArg, bool bubblesArg, bool cancelableArg, Window? viewArg, long detailArg, long screenXArg, long screenYArg, long clientXArg, long clientYArg, bool ctrlKeyArg, bool altKeyArg, bool shiftKeyArg, bool metaKeyArg, Number buttonArg, EventTarget? relatedTargetArg)</code></pre>
+    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined InitMouseEvent(string typeArg, bool bubblesArg = false, bool cancelableArg = false, Window? viewArg = null, long detailArg = 0, long screenXArg = 0, long screenYArg = 0, long clientXArg = 0, long clientYArg = 0, bool ctrlKeyArg = false, bool altKeyArg = false, bool shiftKeyArg = false, bool metaKeyArg = false, Number buttonArg = null, EventTarget? relatedTargetArg = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -1355,8 +1355,7 @@ public class MouseEvent : UIEvent</code></pre>
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_MouseEvent_InitMouseEvent_System_String_System_Boolean_System_Boolean_CSharpToJavaScript_APIs_JS_Window_System_Int64_System_Int64_System_Int64_System_Int64_System_Int64_System_Boolean_System_Boolean_System_Boolean_System_Boolean_CSharpToJavaScript_APIs_JS_Number_CSharpToJavaScript_APIs_JS_EventTarget__remarks">Remarks</h4>
   <div class="markdown level1 remarks"><blockquote class="WARNING">
   <h5>WARNING</h5>
-  <p>
-    <strong>Warning:</strong> Do not use this method anymore as it is deprecated.</p>
+  <p>Do not use this method anymore as it is deprecated.</p>
   <p>Instead use specific event constructors, like <a class="xref" href="CSharpToJavaScript.APIs.JS.MouseEvent.html#CSharpToJavaScript_APIs_JS_MouseEvent__ctor_System_String_CSharpToJavaScript_APIs_JS_MouseEventInit_">MouseEvent(string, MouseEventInit)</a>.<br>The page on <a href="https://developer.mozilla.org/en-US/docs/Web/Events/Creating_and_triggering_events">Creating and triggering events</a> gives more information about the way to use these.</p>
 </blockquote>
 <p>Events initialized in this way must have been created with the <a class="xref" href="CSharpToJavaScript.APIs.JS.Document.html#CSharpToJavaScript_APIs_JS_Document_CreateEvent_System_String_">CreateEvent(string)</a> method.<br>This method must be called to set the event<br>before it is dispatched, using <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_DispatchEvent_CSharpToJavaScript_APIs_JS_Event_">DispatchEvent(Event)</a>.</p>
@@ -1375,7 +1374,7 @@ public class MouseEvent : UIEvent</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L21112" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L19376" class="edit-link">Edit this page</a>
         </div>
 
 

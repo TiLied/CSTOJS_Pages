@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -77,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -89,7 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_AuthenticatorAttestationResponse" data-uid="CSharpToJavaScript.APIs.JS.AuthenticatorAttestationResponse" class="text-break">
-Class AuthenticatorAttestationResponse  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L23941"><i class="bi bi-code-slash"></i></a>
+Class AuthenticatorAttestationResponse  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L21798"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -158,8 +158,7 @@ public class AuthenticatorAttestationResponse : AuthenticatorResponse</code></pr
 <p></p>
 <blockquote class="NOTE">
   <h5>NOTE</h5>
-  <p>
-    <strong>Note:</strong> This interface is restricted to top-level contexts. Use of its features from within an <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe">iframe</a> element will not have any effect.</p>
+  <p>This interface is restricted to top-level contexts. Use of its features from within an <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe">iframe</a> element will not have any effect.</p>
 </blockquote>
 <p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.AuthenticatorAssertionResponse.html">AuthenticatorAssertionResponse</a>: the interface for the type of response given when retrieving an existing credential<br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.AuthenticatorResponse.html">AuthenticatorResponse</a>: the parent interface<br></p>
 <p>
@@ -178,7 +177,7 @@ public class AuthenticatorAttestationResponse : AuthenticatorResponse</code></pr
 
   <h3 id="CSharpToJavaScript_APIs_JS_AuthenticatorAttestationResponse_AttestationObject" data-uid="CSharpToJavaScript.APIs.JS.AuthenticatorAttestationResponse.AttestationObject">
   AttestationObject
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L23945"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L21802"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>attestationObject</code></strong> property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.AuthenticatorAttestationResponse.html">AuthenticatorAttestationResponse</a> interface returns an<br>ArrayBuffer containing the new public key, as well as signature over the<br>entire <code>attestationObject</code> with a private key that is stored in the<br>authenticator when it is manufactured.</p>
@@ -204,7 +203,7 @@ public class AuthenticatorAttestationResponse : AuthenticatorResponse</code></pr
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_AuthenticatorAttestationResponse_AttestationObject_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>As part of the <a class="xref" href="CSharpToJavaScript.APIs.JS.CredentialsContainer.html#CSharpToJavaScript_APIs_JS_CredentialsContainer_Create_CSharpToJavaScript_APIs_JS_CredentialCreationOptions_">Create(CredentialCreationOptions)</a> call, an authenticator will<br>create a new keypair as well as an <code>attestationObject</code> for that keypair. The public key<br>that corresponds to the private key that has created the attestation signature is well<br>known; however, there are various well known attestation public key chains for different<br>ecosystems (for example, Android or TPM attestations).</p>
+  <div class="markdown level1 remarks"><p>As part of the <a class="xref" href="CSharpToJavaScript.APIs.JS.CredentialsContainer.html#CSharpToJavaScript_APIs_JS_CredentialsContainer_Create_CSharpToJavaScript_APIs_JS_CredentialCreationOptions_">Create(CredentialCreationOptions)</a> call, an authenticator will<br>create a new key pair as well as an <code>attestationObject</code> for that key pair. The public key<br>that corresponds to the private key that has created the attestation signature is well<br>known; however, there are various well known attestation public key chains for different<br>ecosystems (for example, Android or TPM attestations).</p>
 <p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.CredentialsContainer.html#CSharpToJavaScript_APIs_JS_CredentialsContainer_Create_CSharpToJavaScript_APIs_JS_CredentialCreationOptions_">Create(CredentialCreationOptions)</a>: the method used to create a statement with<br>a cryptographic <code>challenge</code> which signature by the authenticator is contained in <code>attStmt</code>,<br>with the specified <code>attestation</code> transport option.<br></p>
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/AuthenticatorAttestationResponse/attestationObject">
@@ -224,7 +223,7 @@ public class AuthenticatorAttestationResponse : AuthenticatorResponse</code></pr
 
   <h3 id="CSharpToJavaScript_APIs_JS_AuthenticatorAttestationResponse_GetAuthenticatorData" data-uid="CSharpToJavaScript.APIs.JS.AuthenticatorAttestationResponse.GetAuthenticatorData">
   GetAuthenticatorData()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L23949"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L21806"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>getAuthenticatorData()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.AuthenticatorAttestationResponse.html">AuthenticatorAttestationResponse</a> interface returns an {{jsxref(&quot;ArrayBuffer&quot;)}} containing the authenticator data contained within the <a class="xref" href="CSharpToJavaScript.APIs.JS.AuthenticatorAttestationResponse.html#CSharpToJavaScript_APIs_JS_AuthenticatorAttestationResponse_AttestationObject">AttestationObject</a> property.</p>
@@ -265,7 +264,7 @@ public class AuthenticatorAttestationResponse : AuthenticatorResponse</code></pr
 
   <h3 id="CSharpToJavaScript_APIs_JS_AuthenticatorAttestationResponse_GetPublicKey" data-uid="CSharpToJavaScript.APIs.JS.AuthenticatorAttestationResponse.GetPublicKey">
   GetPublicKey()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L23951"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L21808"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>getPublicKey()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.AuthenticatorAttestationResponse.html">AuthenticatorAttestationResponse</a> interface returns an {{jsxref(&quot;ArrayBuffer&quot;)}} containing the DER <code>SubjectPublicKeyInfo</code> of the new credential (see <a href="https://www.rfc-editor.org/rfc/rfc5280#section-4.1.2.7">Subject Public Key Info</a>), or <code>null</code> if this is not available.</p>
@@ -306,7 +305,7 @@ public class AuthenticatorAttestationResponse : AuthenticatorResponse</code></pr
 
   <h3 id="CSharpToJavaScript_APIs_JS_AuthenticatorAttestationResponse_GetPublicKeyAlgorithm" data-uid="CSharpToJavaScript.APIs.JS.AuthenticatorAttestationResponse.GetPublicKeyAlgorithm">
   GetPublicKeyAlgorithm()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L23953"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L21810"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>getPublicKeyAlgorithm()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.AuthenticatorAttestationResponse.html">AuthenticatorAttestationResponse</a> interface returns a number that is equal to a <a href="https://www.iana.org/assignments/cose/cose.xhtml#algorithms">COSE Algorithm Identifier</a>, representing the cryptographic algorithm used for the new credential.</p>
@@ -347,7 +346,7 @@ public class AuthenticatorAttestationResponse : AuthenticatorResponse</code></pr
 
   <h3 id="CSharpToJavaScript_APIs_JS_AuthenticatorAttestationResponse_GetTransports" data-uid="CSharpToJavaScript.APIs.JS.AuthenticatorAttestationResponse.GetTransports">
   GetTransports()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L23947"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L21804"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>getTransports()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.AuthenticatorAttestationResponse.html">AuthenticatorAttestationResponse</a> interface returns an array of strings describing the different transports which may be used by the authenticator.</p>
@@ -388,7 +387,7 @@ public class AuthenticatorAttestationResponse : AuthenticatorResponse</code></pr
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L23941" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L21798" class="edit-link">Edit this page</a>
         </div>
 
 

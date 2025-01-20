@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -77,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -89,7 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_WorkerNavigator" data-uid="CSharpToJavaScript.APIs.JS.WorkerNavigator" class="text-break">
-Class WorkerNavigator  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31867"><i class="bi bi-code-slash"></i></a>
+Class WorkerNavigator  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L27425"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -166,10 +166,14 @@ public class WorkerNavigator</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_WorkerNavigator_Hid" data-uid="CSharpToJavaScript.APIs.JS.WorkerNavigator.Hid">
   Hid
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L28630"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L24433"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>WorkerNavigator.hid</code></strong><br>read-only property returns an <a class="xref" href="CSharpToJavaScript.APIs.JS.HID.html">HID</a> object providing methods for accessing HID device connections and events that fire when the user agent connects to or disconnects from a device.
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -183,12 +187,22 @@ public class WorkerNavigator</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.HID.html">HID</a></dt>
-    <dd></dd>
+    <dd><p>An <a class="xref" href="CSharpToJavaScript.APIs.JS.HID.html">HID</a> object.</p>
+</dd>
   </dl>
 
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_WorkerNavigator_Hid_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Where a defined <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Permissions_Policy">Permissions Policy</a> blocks WebHID usage, the <code>WorkerNavigator.hid</code> property will not be available.</p>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/WebHID_API">WebHID API</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/WorkerNavigator/hid">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -197,10 +211,10 @@ public class WorkerNavigator</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_WorkerNavigator_MediaCapabilities" data-uid="CSharpToJavaScript.APIs.JS.WorkerNavigator.MediaCapabilities">
   MediaCapabilities
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L14141"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L12913"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The read-only <strong><code>WorkerNavigator.mediaCapabilities</code></strong> property<br>returns a <a class="xref" href="CSharpToJavaScript.APIs.JS.WorkerNavigator.html#CSharpToJavaScript_APIs_JS_WorkerNavigator_MediaCapabilities">MediaCapabilities</a> object that can expose information about the<br>decoding and encoding capabilities for a given format and output capabilities as defined<br>by the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Media_Capabilities_API">Media Capabilities API</a>.</p>
+  <div class="markdown level1 summary"><p>The read-only <strong><code>mediaCapabilities</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.WorkerNavigator.html">WorkerNavigator</a> interface references a <a class="xref" href="CSharpToJavaScript.APIs.JS.WorkerNavigator.html#CSharpToJavaScript_APIs_JS_WorkerNavigator_MediaCapabilities">MediaCapabilities</a> object that can expose information about the decoding and encoding capabilities for a given format and output capabilities (as defined by the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Media_Capabilities_API">Media Capabilities API</a>).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -238,10 +252,10 @@ public class WorkerNavigator</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_WorkerNavigator_Permissions" data-uid="CSharpToJavaScript.APIs.JS.WorkerNavigator.Permissions">
   Permissions
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16279"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L14893"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>WorkerNavigator.permissions</code></strong> read-only property<br>returns a <a class="xref" href="CSharpToJavaScript.APIs.JS.WorkerNavigator.html#CSharpToJavaScript_APIs_JS_WorkerNavigator_Permissions">Permissions</a> object that can be used to query and update<br>permission status of APIs covered by the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Permissions_API">Permissions API</a>.</p>
+  <div class="markdown level1 summary"><p>The <strong><code>permissions</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.WorkerNavigator.html">WorkerNavigator</a> interface<br>returns a <a class="xref" href="CSharpToJavaScript.APIs.JS.WorkerNavigator.html#CSharpToJavaScript_APIs_JS_WorkerNavigator_Permissions">Permissions</a> object that can be used to query and update<br>permission status of APIs covered by the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Permissions_API">Permissions API</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -279,10 +293,13 @@ public class WorkerNavigator</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_WorkerNavigator_Serial" data-uid="CSharpToJavaScript.APIs.JS.WorkerNavigator.Serial">
   Serial
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L17866"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L16275"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>serial</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.WorkerNavigator.html">WorkerNavigator</a> interface returns a <a class="xref" href="CSharpToJavaScript.APIs.JS.WorkerNavigator.html#CSharpToJavaScript_APIs_JS_WorkerNavigator_Serial">Serial</a> object which represents the entry point into the Web Serial API.</p>
+  <div class="markdown level1 summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>serial</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.WorkerNavigator.html">WorkerNavigator</a> interface returns a <a class="xref" href="CSharpToJavaScript.APIs.JS.WorkerNavigator.html#CSharpToJavaScript_APIs_JS_WorkerNavigator_Serial">Serial</a> object which represents the entry point into the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Serial_API">Web Serial API</a>.
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -321,7 +338,7 @@ public class WorkerNavigator</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_WorkerNavigator_ServiceWorker" data-uid="CSharpToJavaScript.APIs.JS.WorkerNavigator.ServiceWorker">
   ServiceWorker
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L18076"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L16437"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>serviceWorker</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.WorkerNavigator.html">WorkerNavigator</a> interface returns the <a class="xref" href="CSharpToJavaScript.APIs.JS.ServiceWorkerContainer.html">ServiceWorkerContainer</a> object for the <a href="https://html.spec.whatwg.org/multipage/browsers.html#concept-document-window">associated document</a>, which provides access to registration, removal, upgrade, and communication with the <a class="xref" href="CSharpToJavaScript.APIs.JS.WorkerNavigator.html#CSharpToJavaScript_APIs_JS_WorkerNavigator_ServiceWorker">ServiceWorker</a>.</p>
@@ -363,7 +380,7 @@ public class WorkerNavigator</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_WorkerNavigator_Usb" data-uid="CSharpToJavaScript.APIs.JS.WorkerNavigator.Usb">
   Usb
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31870"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L27428"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>usb</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.WorkerNavigator.html">WorkerNavigator</a> interface returns a <a class="xref" href="CSharpToJavaScript.APIs.JS.USB.html">USB</a> object for the current document, providing access to <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebUSB_API">WebUSB API</a> functionality.</p>
@@ -404,7 +421,7 @@ public class WorkerNavigator</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L31867" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L27425" class="edit-link">Edit this page</a>
         </div>
 
 

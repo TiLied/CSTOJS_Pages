@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -77,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -89,7 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_FileSystemSyncAccessHandle" data-uid="CSharpToJavaScript.APIs.JS.FileSystemSyncAccessHandle" class="text-break">
-Class FileSystemSyncAccessHandle  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7385"><i class="bi bi-code-slash"></i></a>
+Class FileSystemSyncAccessHandle  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L6829"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -154,8 +154,7 @@ public class FileSystemSyncAccessHandle</code></pre>
 <p>The interface is accessed through the 'FileSystemFileHandle.CreateSyncAccessHandle' method.</p>
 <blockquote class="NOTE">
   <h5>NOTE</h5>
-  <p>
-    <strong>Note:</strong> In earlier versions of the spec, <a class="xref" href="CSharpToJavaScript.APIs.JS.FileSystemSyncAccessHandle.html#CSharpToJavaScript_APIs_JS_FileSystemSyncAccessHandle_Close">Close()</a>, <a class="xref" href="CSharpToJavaScript.APIs.JS.FileSystemSyncAccessHandle.html#CSharpToJavaScript_APIs_JS_FileSystemSyncAccessHandle_Flush">Flush()</a>, <a class="xref" href="CSharpToJavaScript.APIs.JS.FileSystemSyncAccessHandle.html#CSharpToJavaScript_APIs_JS_FileSystemSyncAccessHandle_GetSize">GetSize()</a>, and <a class="xref" href="CSharpToJavaScript.APIs.JS.FileSystemSyncAccessHandle.html#CSharpToJavaScript_APIs_JS_FileSystemSyncAccessHandle_Truncate_System_UInt64_">Truncate(ulong)</a> were wrongly specified as asynchronous methods, and older versions of some browsers implement them in this way. However, all current browsers that support these methods implement them as synchronous methods.</p>
+  <p>In earlier versions of the spec, <a class="xref" href="CSharpToJavaScript.APIs.JS.FileSystemSyncAccessHandle.html#CSharpToJavaScript_APIs_JS_FileSystemSyncAccessHandle_Close">Close()</a>, <a class="xref" href="CSharpToJavaScript.APIs.JS.FileSystemSyncAccessHandle.html#CSharpToJavaScript_APIs_JS_FileSystemSyncAccessHandle_Flush">Flush()</a>, <a class="xref" href="CSharpToJavaScript.APIs.JS.FileSystemSyncAccessHandle.html#CSharpToJavaScript_APIs_JS_FileSystemSyncAccessHandle_GetSize">GetSize()</a>, and <a class="xref" href="CSharpToJavaScript.APIs.JS.FileSystemSyncAccessHandle.html#CSharpToJavaScript_APIs_JS_FileSystemSyncAccessHandle_Truncate_System_UInt64_">Truncate(ulong)</a> were wrongly specified as asynchronous methods, and older versions of some browsers implement them in this way. However, all current browsers that support these methods implement them as synchronous methods.</p>
 </blockquote>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/File_System_API">File System API</a><br>-<a href="https://developer.chrome.com/docs/capabilities/web-apis/file-system-access">The File System Access API: simplifying access to local files</a><br></p>
 <p>
@@ -174,7 +173,7 @@ public class FileSystemSyncAccessHandle</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_FileSystemSyncAccessHandle_Close" data-uid="CSharpToJavaScript.APIs.JS.FileSystemSyncAccessHandle.Close">
   Close()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7399"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L6843"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>close()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.FileSystemSyncAccessHandle.html">FileSystemSyncAccessHandle</a> interface closes an open synchronous file handle, disabling any further operations on it and releasing the exclusive lock previously put on the file associated with the file handle.</p>
@@ -202,8 +201,7 @@ public class FileSystemSyncAccessHandle</code></pre>
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_FileSystemSyncAccessHandle_Close_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><blockquote class="NOTE">
   <h5>NOTE</h5>
-  <p>
-    <strong>Note:</strong> In earlier versions of the spec, <code>close()</code>, <a class="xref" href="CSharpToJavaScript.APIs.JS.FileSystemSyncAccessHandle.html#CSharpToJavaScript_APIs_JS_FileSystemSyncAccessHandle_Flush">Flush()</a>, <a class="xref" href="CSharpToJavaScript.APIs.JS.FileSystemSyncAccessHandle.html#CSharpToJavaScript_APIs_JS_FileSystemSyncAccessHandle_GetSize">GetSize()</a>, and <a class="xref" href="CSharpToJavaScript.APIs.JS.FileSystemSyncAccessHandle.html#CSharpToJavaScript_APIs_JS_FileSystemSyncAccessHandle_Truncate_System_UInt64_">Truncate(ulong)</a> were wrongly specified as asynchronous methods, and older versions of some browsers implement them in this way. However, all current browsers that support these methods implement them as synchronous methods.</p>
+  <p>In earlier versions of the spec, <code>close()</code>, <a class="xref" href="CSharpToJavaScript.APIs.JS.FileSystemSyncAccessHandle.html#CSharpToJavaScript_APIs_JS_FileSystemSyncAccessHandle_Flush">Flush()</a>, <a class="xref" href="CSharpToJavaScript.APIs.JS.FileSystemSyncAccessHandle.html#CSharpToJavaScript_APIs_JS_FileSystemSyncAccessHandle_GetSize">GetSize()</a>, and <a class="xref" href="CSharpToJavaScript.APIs.JS.FileSystemSyncAccessHandle.html#CSharpToJavaScript_APIs_JS_FileSystemSyncAccessHandle_Truncate_System_UInt64_">Truncate(ulong)</a> were wrongly specified as asynchronous methods, and older versions of some browsers implement them in this way. However, all current browsers that support these methods implement them as synchronous methods.</p>
 </blockquote>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/File_System_API">File System API</a><br>-<a href="https://developer.chrome.com/docs/capabilities/web-apis/file-system-access">The File System Access API: simplifying access to local files</a><br></p>
 <p>
@@ -220,7 +218,7 @@ public class FileSystemSyncAccessHandle</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_FileSystemSyncAccessHandle_Flush" data-uid="CSharpToJavaScript.APIs.JS.FileSystemSyncAccessHandle.Flush">
   Flush()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7397"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L6841"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>flush()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.FileSystemSyncAccessHandle.html">FileSystemSyncAccessHandle</a> interface persists any changes made to the file associated with the handle via the 'FileSystemSyncAccessHandle.Write' method to disk.</p>
@@ -249,8 +247,7 @@ public class FileSystemSyncAccessHandle</code></pre>
   <div class="markdown level1 remarks"><p>Bear in mind that you only need to call this method if you need the changes committed to disk at a specific time, otherwise you can leave the underlying operating system to handle this when it sees fit, which should be OK in most cases.</p>
 <blockquote class="NOTE">
   <h5>NOTE</h5>
-  <p>
-    <strong>Note:</strong> In earlier versions of the spec, <a class="xref" href="CSharpToJavaScript.APIs.JS.FileSystemSyncAccessHandle.html#CSharpToJavaScript_APIs_JS_FileSystemSyncAccessHandle_Close">Close()</a>, <code>flush()</code>, <a class="xref" href="CSharpToJavaScript.APIs.JS.FileSystemSyncAccessHandle.html#CSharpToJavaScript_APIs_JS_FileSystemSyncAccessHandle_GetSize">GetSize()</a>, and <a class="xref" href="CSharpToJavaScript.APIs.JS.FileSystemSyncAccessHandle.html#CSharpToJavaScript_APIs_JS_FileSystemSyncAccessHandle_Truncate_System_UInt64_">Truncate(ulong)</a> were wrongly specified as asynchronous methods, and older versions of some browsers implement them in this way. However, all current browsers that support these methods implement them as synchronous methods.</p>
+  <p>In earlier versions of the spec, <a class="xref" href="CSharpToJavaScript.APIs.JS.FileSystemSyncAccessHandle.html#CSharpToJavaScript_APIs_JS_FileSystemSyncAccessHandle_Close">Close()</a>, <code>flush()</code>, <a class="xref" href="CSharpToJavaScript.APIs.JS.FileSystemSyncAccessHandle.html#CSharpToJavaScript_APIs_JS_FileSystemSyncAccessHandle_GetSize">GetSize()</a>, and <a class="xref" href="CSharpToJavaScript.APIs.JS.FileSystemSyncAccessHandle.html#CSharpToJavaScript_APIs_JS_FileSystemSyncAccessHandle_Truncate_System_UInt64_">Truncate(ulong)</a> were wrongly specified as asynchronous methods, and older versions of some browsers implement them in this way. However, all current browsers that support these methods implement them as synchronous methods.</p>
 </blockquote>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/File_System_API">File System API</a><br>-<a href="https://developer.chrome.com/docs/capabilities/web-apis/file-system-access">The File System Access API: simplifying access to local files</a><br></p>
 <p>
@@ -267,7 +264,7 @@ public class FileSystemSyncAccessHandle</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_FileSystemSyncAccessHandle_GetSize" data-uid="CSharpToJavaScript.APIs.JS.FileSystemSyncAccessHandle.GetSize">
   GetSize()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7395"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L6839"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>getSize()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.FileSystemSyncAccessHandle.html">FileSystemSyncAccessHandle</a> interface returns the size of the file associated with the handle in bytes.</p>
@@ -295,8 +292,7 @@ public class FileSystemSyncAccessHandle</code></pre>
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_FileSystemSyncAccessHandle_GetSize_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><blockquote class="NOTE">
   <h5>NOTE</h5>
-  <p>
-    <strong>Note:</strong> In earlier versions of the spec, <a class="xref" href="CSharpToJavaScript.APIs.JS.FileSystemSyncAccessHandle.html#CSharpToJavaScript_APIs_JS_FileSystemSyncAccessHandle_Close">Close()</a>, <a class="xref" href="CSharpToJavaScript.APIs.JS.FileSystemSyncAccessHandle.html#CSharpToJavaScript_APIs_JS_FileSystemSyncAccessHandle_Flush">Flush()</a>, <code>getSize()</code>, and <a class="xref" href="CSharpToJavaScript.APIs.JS.FileSystemSyncAccessHandle.html#CSharpToJavaScript_APIs_JS_FileSystemSyncAccessHandle_Truncate_System_UInt64_">Truncate(ulong)</a> were wrongly specified as asynchronous methods, and older versions of some browsers implement them in this way. However, all current browsers that support these methods implement them as synchronous methods.</p>
+  <p>In earlier versions of the spec, <a class="xref" href="CSharpToJavaScript.APIs.JS.FileSystemSyncAccessHandle.html#CSharpToJavaScript_APIs_JS_FileSystemSyncAccessHandle_Close">Close()</a>, <a class="xref" href="CSharpToJavaScript.APIs.JS.FileSystemSyncAccessHandle.html#CSharpToJavaScript_APIs_JS_FileSystemSyncAccessHandle_Flush">Flush()</a>, <code>getSize()</code>, and <a class="xref" href="CSharpToJavaScript.APIs.JS.FileSystemSyncAccessHandle.html#CSharpToJavaScript_APIs_JS_FileSystemSyncAccessHandle_Truncate_System_UInt64_">Truncate(ulong)</a> were wrongly specified as asynchronous methods, and older versions of some browsers implement them in this way. However, all current browsers that support these methods implement them as synchronous methods.</p>
 </blockquote>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/File_System_API">File System API</a><br>-<a href="https://developer.chrome.com/docs/capabilities/web-apis/file-system-access">The File System Access API: simplifying access to local files</a><br></p>
 <p>
@@ -311,9 +307,9 @@ public class FileSystemSyncAccessHandle</code></pre>
 
   <a id="CSharpToJavaScript_APIs_JS_FileSystemSyncAccessHandle_Read_" data-uid="CSharpToJavaScript.APIs.JS.FileSystemSyncAccessHandle.Read*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_FileSystemSyncAccessHandle_Read_CSharpToJavaScript_APIs_JS_Union201_CSharpToJavaScript_APIs_JS_FileSystemReadWriteOptions_" data-uid="CSharpToJavaScript.APIs.JS.FileSystemSyncAccessHandle.Read(CSharpToJavaScript.APIs.JS.Union201,CSharpToJavaScript.APIs.JS.FileSystemReadWriteOptions)">
-  Read(Union201, FileSystemReadWriteOptions)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7389"><i class="bi bi-code-slash"></i></a>
+  <h3 id="CSharpToJavaScript_APIs_JS_FileSystemSyncAccessHandle_Read_CSharpToJavaScript_APIs_JS_Union225_CSharpToJavaScript_APIs_JS_FileSystemReadWriteOptions_" data-uid="CSharpToJavaScript.APIs.JS.FileSystemSyncAccessHandle.Read(CSharpToJavaScript.APIs.JS.Union225,CSharpToJavaScript.APIs.JS.FileSystemReadWriteOptions)">
+  Read(Union225, FileSystemReadWriteOptions)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L6833"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>read()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.FileSystemSyncAccessHandle.html">FileSystemSyncAccessHandle</a> interface reads the content of the file associated with the handle into a specified buffer, optionally at a given offset.</p>
@@ -321,12 +317,12 @@ public class FileSystemSyncAccessHandle</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ulong Read(Union201 buffer, FileSystemReadWriteOptions options)</code></pre>
+    <pre><code class="lang-csharp hljs">public ulong Read(Union225 buffer, FileSystemReadWriteOptions options = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>buffer</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union201.html">Union201</a></dt>
+    <dt><code>buffer</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union225.html">Union225</a></dt>
     <dd></dd>
     <dt><code>options</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.FileSystemReadWriteOptions.html">FileSystemReadWriteOptions</a></dt>
     <dd></dd>
@@ -345,7 +341,7 @@ public class FileSystemSyncAccessHandle</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_FileSystemSyncAccessHandle_Read_CSharpToJavaScript_APIs_JS_Union201_CSharpToJavaScript_APIs_JS_FileSystemReadWriteOptions__remarks">Remarks</h4>
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_FileSystemSyncAccessHandle_Read_CSharpToJavaScript_APIs_JS_Union225_CSharpToJavaScript_APIs_JS_FileSystemReadWriteOptions__remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/File_System_API">File System API</a><br>-<a href="https://developer.chrome.com/docs/capabilities/web-apis/file-system-access">The File System Access API: simplifying access to local files</a><br></p>
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/FileSystemSyncAccessHandle/read">
@@ -361,7 +357,7 @@ public class FileSystemSyncAccessHandle</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_FileSystemSyncAccessHandle_Truncate_System_UInt64_" data-uid="CSharpToJavaScript.APIs.JS.FileSystemSyncAccessHandle.Truncate(System.UInt64)">
   Truncate(ulong)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7393"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L6837"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>truncate()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.FileSystemSyncAccessHandle.html">FileSystemSyncAccessHandle</a> interface resizes the file associated with the handle to a specified number of bytes.</p>
@@ -394,8 +390,7 @@ public class FileSystemSyncAccessHandle</code></pre>
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_FileSystemSyncAccessHandle_Truncate_System_UInt64__remarks">Remarks</h4>
   <div class="markdown level1 remarks"><blockquote class="NOTE">
   <h5>NOTE</h5>
-  <p>
-    <strong>Note:</strong> In earlier versions of the spec, <a class="xref" href="CSharpToJavaScript.APIs.JS.FileSystemSyncAccessHandle.html#CSharpToJavaScript_APIs_JS_FileSystemSyncAccessHandle_Close">Close()</a>, <a class="xref" href="CSharpToJavaScript.APIs.JS.FileSystemSyncAccessHandle.html#CSharpToJavaScript_APIs_JS_FileSystemSyncAccessHandle_Flush">Flush()</a>, <a class="xref" href="CSharpToJavaScript.APIs.JS.FileSystemSyncAccessHandle.html#CSharpToJavaScript_APIs_JS_FileSystemSyncAccessHandle_GetSize">GetSize()</a>, and <code>truncate()</code> were wrongly specified as asynchronous methods, and older versions of some browsers implement them in this way. However, all current browsers that support these methods implement them as synchronous methods.</p>
+  <p>In earlier versions of the spec, <a class="xref" href="CSharpToJavaScript.APIs.JS.FileSystemSyncAccessHandle.html#CSharpToJavaScript_APIs_JS_FileSystemSyncAccessHandle_Close">Close()</a>, <a class="xref" href="CSharpToJavaScript.APIs.JS.FileSystemSyncAccessHandle.html#CSharpToJavaScript_APIs_JS_FileSystemSyncAccessHandle_Flush">Flush()</a>, <a class="xref" href="CSharpToJavaScript.APIs.JS.FileSystemSyncAccessHandle.html#CSharpToJavaScript_APIs_JS_FileSystemSyncAccessHandle_GetSize">GetSize()</a>, and <code>truncate()</code> were wrongly specified as asynchronous methods, and older versions of some browsers implement them in this way. However, all current browsers that support these methods implement them as synchronous methods.</p>
 </blockquote>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/File_System_API">File System API</a><br>-<a href="https://developer.chrome.com/docs/capabilities/web-apis/file-system-access">The File System Access API: simplifying access to local files</a><br></p>
 <p>
@@ -410,9 +405,9 @@ public class FileSystemSyncAccessHandle</code></pre>
 
   <a id="CSharpToJavaScript_APIs_JS_FileSystemSyncAccessHandle_Write_" data-uid="CSharpToJavaScript.APIs.JS.FileSystemSyncAccessHandle.Write*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_FileSystemSyncAccessHandle_Write_CSharpToJavaScript_APIs_JS_Union201_CSharpToJavaScript_APIs_JS_FileSystemReadWriteOptions_" data-uid="CSharpToJavaScript.APIs.JS.FileSystemSyncAccessHandle.Write(CSharpToJavaScript.APIs.JS.Union201,CSharpToJavaScript.APIs.JS.FileSystemReadWriteOptions)">
-  Write(Union201, FileSystemReadWriteOptions)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7391"><i class="bi bi-code-slash"></i></a>
+  <h3 id="CSharpToJavaScript_APIs_JS_FileSystemSyncAccessHandle_Write_CSharpToJavaScript_APIs_JS_Union225_CSharpToJavaScript_APIs_JS_FileSystemReadWriteOptions_" data-uid="CSharpToJavaScript.APIs.JS.FileSystemSyncAccessHandle.Write(CSharpToJavaScript.APIs.JS.Union225,CSharpToJavaScript.APIs.JS.FileSystemReadWriteOptions)">
+  Write(Union225, FileSystemReadWriteOptions)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L6835"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>write()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.FileSystemSyncAccessHandle.html">FileSystemSyncAccessHandle</a> interface writes the content of a specified buffer to the file associated with the handle, optionally at a given offset.</p>
@@ -420,12 +415,12 @@ public class FileSystemSyncAccessHandle</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ulong Write(Union201 buffer, FileSystemReadWriteOptions options)</code></pre>
+    <pre><code class="lang-csharp hljs">public ulong Write(Union225 buffer, FileSystemReadWriteOptions options = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>buffer</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union201.html">Union201</a></dt>
+    <dt><code>buffer</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union225.html">Union225</a></dt>
     <dd></dd>
     <dt><code>options</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.FileSystemReadWriteOptions.html">FileSystemReadWriteOptions</a></dt>
     <dd></dd>
@@ -444,7 +439,7 @@ public class FileSystemSyncAccessHandle</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_FileSystemSyncAccessHandle_Write_CSharpToJavaScript_APIs_JS_Union201_CSharpToJavaScript_APIs_JS_FileSystemReadWriteOptions__remarks">Remarks</h4>
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_FileSystemSyncAccessHandle_Write_CSharpToJavaScript_APIs_JS_Union225_CSharpToJavaScript_APIs_JS_FileSystemReadWriteOptions__remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>Files within the <a href="https://developer.mozilla.org/en-US/docs/Web/API/File_System_API/Origin_private_file_system">origin private file system</a> are not visible to end-users, therefore are not subject to the same security checks as methods running on files within the user-visible file system. As a result, writes performed using <code>FileSystemSyncAccessHandle.write()</code> are much more performant. This makes them suitable for significant, large-scale file updates such as <a href="https://www.sqlite.org/wasm">SQLite</a> database modifications.</p>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/File_System_API">File System API</a><br>-<a href="https://developer.chrome.com/docs/capabilities/web-apis/file-system-access">The File System Access API: simplifying access to local files</a><br></p>
 <p>
@@ -461,7 +456,7 @@ public class FileSystemSyncAccessHandle</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7385" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L6829" class="edit-link">Edit this page</a>
         </div>
 
 

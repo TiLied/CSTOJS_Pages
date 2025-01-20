@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class DOMStringList | CSharpToJavaScript ">
       
-      <meta name="description" content="The DOMStringList interface is a legacy type returned by some APIs and represents a non-modifiable list of strings (DOMString). Modern APIs use Array objects (in WebIDL: sequence&amp;amp;lt;DOMString&amp;amp;gt;) instead.">
+      <meta name="description" content="The DOMStringList interface is a legacy type returned by some APIs and represents a non-modifiable list of strings (DOMString).">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -77,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -89,7 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_DOMStringList" data-uid="CSharpToJavaScript.APIs.JS.DOMStringList" class="text-break">
-Class DOMStringList  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8178"><i class="bi bi-code-slash"></i></a>
+Class DOMStringList  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L7677"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,7 +97,7 @@ Class DOMStringList  <a class="header-action link-secondary" title="View source"
   <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>The <strong><code>DOMStringList</code></strong> interface is a legacy type returned by some APIs and represents a non-modifiable list of strings (<code>DOMString</code>). Modern APIs use Array objects (in WebIDL: <code>sequence&amp;lt;DOMString&amp;gt;</code>) instead.</p>
+  <div class="markdown summary"><p>The <strong><code>DOMStringList</code></strong> interface is a legacy type returned by some APIs and represents a non-modifiable list of strings (<code>DOMString</code>).</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -149,7 +149,9 @@ public class DOMStringList</code></pre>
 
 
   <h2 id="CSharpToJavaScript_APIs_JS_DOMStringList_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>This interface is used in <a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API">IndexedDB</a> and in the <a class="xref" href="CSharpToJavaScript.APIs.JS.Location.html">Location</a> API:</p>
+  <div class="markdown level0 remarks"><p>This interface was an <a href="https://stackoverflow.com/questions/74630989/why-use-domstringlist-rather-than-an-array/74641156#74641156">attempt to create an unmodifiable list</a> and only continues to be supported to not break code that&amp;apos;s already using it. Modern APIs represent list structures using types based on JavaScript <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">arrays</a>, thus making many array methods available, and at the same time imposing additional semantics on their usage (such as making their items read-only).</p>
+<p>These historical reasons do not mean that you as a developer should avoid <code>DOMStringList</code>. You don&amp;apos;t create <code>DOMStringList</code> objects yourself, but you get them from APIs such as <code>Location.ancestorOrigins</code>, and these APIs are not deprecated. However, be careful of the semantic differences from a real array.</p>
+<p>This interface is used in <a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API">IndexedDB</a> and in the <a class="xref" href="CSharpToJavaScript.APIs.JS.Location.html">Location</a> API:</p>
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/DOMStringList">
     <em>See also on MDN</em>
@@ -166,7 +168,7 @@ public class DOMStringList</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_DOMStringList_Length" data-uid="CSharpToJavaScript.APIs.JS.DOMStringList.Length">
   Length
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8182"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L7681"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The read-only <strong><code>length</code></strong> property indicates the number of strings in the <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMStringList.html">DOMStringList</a>.</p>
@@ -210,7 +212,7 @@ public class DOMStringList</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_DOMStringList_Contains_System_String_" data-uid="CSharpToJavaScript.APIs.JS.DOMStringList.Contains(System.String)">
   Contains(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8185"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L7684"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>contains()</code></strong> method returns a boolean indicating whether the given string is in the list.</p>
@@ -255,7 +257,7 @@ public class DOMStringList</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8178" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L7677" class="edit-link">Edit this page</a>
         </div>
 
 

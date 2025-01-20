@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -77,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -89,7 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_HTMLOptionsCollection" data-uid="CSharpToJavaScript.APIs.JS.HTMLOptionsCollection" class="text-break">
-Class HTMLOptionsCollection  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8163"><i class="bi bi-code-slash"></i></a>
+Class HTMLOptionsCollection  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L7658"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -151,7 +151,7 @@ public class HTMLOptionsCollection : HTMLCollection</code></pre>
 
   <h2 id="CSharpToJavaScript_APIs_JS_HTMLOptionsCollection_remarks">Remarks</h2>
   <div class="markdown level0 remarks"><p></p>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLCollection">HTMLCollection</a><br></p>
+<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLOptionElement.html">HTMLOptionElement</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLCollection.html">HTMLCollection</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLOptGroupElement.html">HTMLOptGroupElement</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLSelectElement.html">HTMLSelectElement</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Indexed_collections">Indexed collections guide</a><br></p>
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLOptionsCollection">
     <em>See also on MDN</em>
@@ -168,10 +168,11 @@ public class HTMLOptionsCollection : HTMLCollection</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLOptionsCollection_Length" data-uid="CSharpToJavaScript.APIs.JS.HTMLOptionsCollection.Length">
   Length
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8166"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L7662"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The <strong><code>length</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLOptionsCollection.html">HTMLOptionsCollection</a> interface returns the number of {{htmlelement(&quot;option&quot;)}} elements in the collection. The property can get or set the size of the collection.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -186,12 +187,22 @@ public ulong Length { get; set; }</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
-    <dd></dd>
+    <dd><p>An integer value representing the number of items in this <code>HTMLOptionsCollection</code>.</p>
+</dd>
   </dl>
 
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLOptionsCollection_Length_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>When setting <code>length</code> to a value smaller than the current, the options collection gets truncated; otherwise, new blank <code>&amp;lt;option&amp;gt;</code> elements are appended to the end of the <code>&amp;lt;select&amp;gt;</code>.</p>
+<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLOptionsCollection.html#CSharpToJavaScript_APIs_JS_HTMLOptionsCollection_Add_CSharpToJavaScript_APIs_JS_Union54_System_Nullable_CSharpToJavaScript_APIs_JS_Union55__">Add(Union54, Union55?)</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLOptionsCollection.html#CSharpToJavaScript_APIs_JS_HTMLOptionsCollection_Remove_System_Int64_">Remove(long)</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLOptionsCollection.html#CSharpToJavaScript_APIs_JS_HTMLOptionsCollection_SelectedIndex">SelectedIndex</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLSelectElement.html">HTMLSelectElement</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLOptGroupElement.html">HTMLOptGroupElement</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLCollection.html#CSharpToJavaScript_APIs_JS_HTMLCollection_Length">Length</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLOptionsCollection/length">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -200,10 +211,11 @@ public ulong Length { get; set; }</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLOptionsCollection_SelectedIndex" data-uid="CSharpToJavaScript.APIs.JS.HTMLOptionsCollection.SelectedIndex">
   SelectedIndex
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8173"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L7672"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The <strong><code>selectedIndex</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLOptionsCollection.html">HTMLOptionsCollection</a> interface is the numeric index of the first selected {{HTMLElement(&quot;option&quot;)}} element, if any, or <code>−1</code> if no <code>&amp;lt;option&amp;gt;</code> is selected. Setting this property selects the option at that index and deselects all other options in this collection, while setting it to <code>-1</code> deselects any currently selected elements. It is exactly equivalent to the <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLSelectElement.html#CSharpToJavaScript_APIs_JS_HTMLSelectElement_SelectedIndex">SelectedIndex</a> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLSelectElement.html">HTMLSelectElement</a> that owns this collection.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -218,12 +230,21 @@ public long SelectedIndex { get; set; }</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
-    <dd></dd>
+    <dd><p>A number.</p>
+</dd>
   </dl>
 
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLOptionsCollection_SelectedIndex_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLOptionsCollection.html#CSharpToJavaScript_APIs_JS_HTMLOptionsCollection_Length">Length</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLOptionsCollection.html#CSharpToJavaScript_APIs_JS_HTMLOptionsCollection_Add_CSharpToJavaScript_APIs_JS_Union54_System_Nullable_CSharpToJavaScript_APIs_JS_Union55__">Add(Union54, Union55?)</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLOptionsCollection.html#CSharpToJavaScript_APIs_JS_HTMLOptionsCollection_Remove_System_Int64_">Remove(long)</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLOptionsCollection.html">HTMLOptionsCollection</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLOptionElement.html">HTMLOptionElement</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLOptGroupElement.html">HTMLOptGroupElement</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLSelectElement.html">HTMLSelectElement</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLOptionsCollection/selectedIndex">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -234,31 +255,33 @@ public long SelectedIndex { get; set; }</code></pre>
 
   <a id="CSharpToJavaScript_APIs_JS_HTMLOptionsCollection_Add_" data-uid="CSharpToJavaScript.APIs.JS.HTMLOptionsCollection.Add*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_HTMLOptionsCollection_Add_CSharpToJavaScript_APIs_JS_Union56_System_Nullable_CSharpToJavaScript_APIs_JS_Union57__" data-uid="CSharpToJavaScript.APIs.JS.HTMLOptionsCollection.Add(CSharpToJavaScript.APIs.JS.Union56,System.Nullable{CSharpToJavaScript.APIs.JS.Union57})">
-  Add(Union56, Union57?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8169"><i class="bi bi-code-slash"></i></a>
+  <h3 id="CSharpToJavaScript_APIs_JS_HTMLOptionsCollection_Add_CSharpToJavaScript_APIs_JS_Union54_System_Nullable_CSharpToJavaScript_APIs_JS_Union55__" data-uid="CSharpToJavaScript.APIs.JS.HTMLOptionsCollection.Add(CSharpToJavaScript.APIs.JS.Union54,System.Nullable{CSharpToJavaScript.APIs.JS.Union55})">
+  Add(Union54, Union55?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L7666"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The <strong><code>add()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLOptionsCollection.html">HTMLOptionsCollection</a> interface adds an <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLOptionElement.html">HTMLOptionElement</a> or <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLOptGroupElement.html">HTMLOptGroupElement</a> to this <code>HTMLOptionsCollection</code>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
-public GlobalObject.Undefined Add(Union56 element, Union57? before)</code></pre>
+public GlobalObject.Undefined Add(Union54 element, Union55? before = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>element</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union56.html">Union56</a></dt>
+    <dt><code>element</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union54.html">Union54</a></dt>
     <dd></dd>
-    <dt><code>before</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union57.html">Union57</a>?</dt>
+    <dt><code>before</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union55.html">Union55</a>?</dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
-    <dd></dd>
+    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
+</dd>
   </dl>
 
 
@@ -267,6 +290,14 @@ public GlobalObject.Undefined Add(Union56 element, Union57? before)</code></pre>
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLOptionsCollection_Add_CSharpToJavaScript_APIs_JS_Union54_System_Nullable_CSharpToJavaScript_APIs_JS_Union55___remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select">select</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLOptionsCollection.html#CSharpToJavaScript_APIs_JS_HTMLOptionsCollection_Remove_System_Int64_">Remove(long)</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLOptionsCollection.html#CSharpToJavaScript_APIs_JS_HTMLOptionsCollection_Length">Length</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLOptionsCollection.html#CSharpToJavaScript_APIs_JS_HTMLOptionsCollection_SelectedIndex">SelectedIndex</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLOptionsCollection/add">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -275,10 +306,11 @@ public GlobalObject.Undefined Add(Union56 element, Union57? before)</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_HTMLOptionsCollection_Remove_System_Int64_" data-uid="CSharpToJavaScript.APIs.JS.HTMLOptionsCollection.Remove(System.Int64)">
   Remove(long)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8171"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L7669"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The <strong><code>remove()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLOptionsCollection.html">HTMLOptionsCollection</a> interface removes the {{HTMLelement(&quot;option&quot;)}} element specified by the index from this collection.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -295,7 +327,8 @@ public GlobalObject.Undefined Remove(long index)</code></pre>
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
-    <dd></dd>
+    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
+</dd>
   </dl>
 
 
@@ -304,6 +337,14 @@ public GlobalObject.Undefined Remove(long index)</code></pre>
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_HTMLOptionsCollection_Remove_System_Int64__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLOptionsCollection.html#CSharpToJavaScript_APIs_JS_HTMLOptionsCollection_Add_CSharpToJavaScript_APIs_JS_Union54_System_Nullable_CSharpToJavaScript_APIs_JS_Union55__">Add(Union54, Union55?)</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLOptionsCollection.html#CSharpToJavaScript_APIs_JS_HTMLOptionsCollection_Length">Length</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLOptionsCollection.html#CSharpToJavaScript_APIs_JS_HTMLOptionsCollection_SelectedIndex">SelectedIndex</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLOptionsCollection.html">HTMLOptionsCollection</a><br>-Element.Remove<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLOptionsCollection/remove">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -312,7 +353,7 @@ public GlobalObject.Undefined Remove(long index)</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L8163" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L7658" class="edit-link">Edit this page</a>
         </div>
 
 

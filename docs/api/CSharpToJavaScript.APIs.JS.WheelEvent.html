@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -77,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -89,7 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_WheelEvent" data-uid="CSharpToJavaScript.APIs.JS.WheelEvent" class="text-break">
-Class WheelEvent  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L20995"><i class="bi bi-code-slash"></i></a>
+Class WheelEvent  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L19259"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -304,14 +304,9 @@ public class WheelEvent : MouseEvent</code></pre>
   <h2 id="CSharpToJavaScript_APIs_JS_WheelEvent_remarks">Remarks</h2>
   <div class="markdown level0 remarks"><blockquote class="NOTE">
   <h5>NOTE</h5>
-  <p>
-    <strong>Note:</strong> This is the standard wheel event interface to use. Old versions of browsers implemented the non-standard and non-cross-browser-compatible <code>MouseWheelEvent</code> and MouseScrollEvent interfaces. Use this interface and avoid the non-standard ones.</p>
+  <p>This is the standard wheel event interface to use. Old versions of browsers implemented the non-standard and non-cross-browser-compatible <code>MouseWheelEvent</code> and MouseScrollEvent interfaces. Use this interface and avoid the non-standard ones.</p>
 </blockquote>
-<blockquote class="NOTE">
-  <h5>NOTE</h5>
-  <p>
-    <strong>Note:</strong> Do not confuse the Element/wheel_event event with the Element/scroll_event event. The default action of a <code>wheel</code> event is implementation-defined. Thus, a <code>wheel</code> event doesn&amp;apos;t necessarily dispatch a <code>scroll</code> event. Even when it does, that doesn&amp;apos;t mean that the <code>delta*</code> values in the <code>wheel</code> event necessarily reflect the content&amp;apos;s scrolling direction. Therefore, do not rely on <code>delta*</code> properties to get the content's scrolling direction. Instead, detect value changes to <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ScrollLeft">ScrollLeft</a> and <a class="xref" href="CSharpToJavaScript.APIs.JS.Element.html#CSharpToJavaScript_APIs_JS_Element_ScrollTop">ScrollTop</a> of the target in the <code>scroll</code> event.</p>
-</blockquote>
+<p>Don&amp;apos;t confuse the <code>wheel</code> event with the Element/scroll_event event:</p>
 <p></p>
 <p>-Element/wheel_event event<br>-Interfaces replaced by this one:-Gecko's legacy mouse wheel event object: MouseScrollEvent<br><br></p>
 <p>
@@ -330,7 +325,7 @@ public class WheelEvent : MouseEvent</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_WheelEvent__ctor" data-uid="CSharpToJavaScript.APIs.JS.WheelEvent.#ctor">
   WheelEvent()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L21011"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L19275"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -356,7 +351,7 @@ public class WheelEvent : MouseEvent</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_WheelEvent__ctor_System_String_CSharpToJavaScript_APIs_JS_WheelEventInit_" data-uid="CSharpToJavaScript.APIs.JS.WheelEvent.#ctor(System.String,CSharpToJavaScript.APIs.JS.WheelEventInit)">
   WheelEvent(string, WheelEventInit)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L20999"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L19263"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>WheelEvent()</code></strong> constructor returns a new <a class="xref" href="CSharpToJavaScript.APIs.JS.WheelEvent.html">WheelEvent</a> object.</p>
@@ -364,7 +359,7 @@ public class WheelEvent : MouseEvent</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public WheelEvent(string type, WheelEventInit eventInitDict)</code></pre>
+    <pre><code class="lang-csharp hljs">public WheelEvent(string type, WheelEventInit eventInitDict = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -385,8 +380,7 @@ public class WheelEvent : MouseEvent</code></pre>
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_WheelEvent__ctor_System_String_CSharpToJavaScript_APIs_JS_WheelEventInit__remarks">Remarks</h4>
   <div class="markdown level1 remarks"><blockquote class="NOTE">
   <h5>NOTE</h5>
-  <p>
-    <strong>Note:</strong> If you construct a synthetic event using this constructor, that event will not be <strong>trusted</strong>, for security reasons.<br>Only browser-generated <code>WheelEvent</code> objects are trusted and only trusted events trigger default actions.</p>
+  <p>If you construct a synthetic event using this constructor, that event will not be <strong>trusted</strong>, for security reasons.<br>Only browser-generated <code>WheelEvent</code> objects are trusted and only trusted events trigger default actions.</p>
 </blockquote>
 <p>-The <a class="xref" href="CSharpToJavaScript.APIs.JS.WheelEvent.html">WheelEvent</a> interface it belongs to.<br></p>
 <p>
@@ -406,7 +400,7 @@ public class WheelEvent : MouseEvent</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_WheelEvent_DOM_DELTA_LINE" data-uid="CSharpToJavaScript.APIs.JS.WheelEvent.DOM_DELTA_LINE">
   DOM_DELTA_LINE
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L21001"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L19265"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -436,7 +430,7 @@ public class WheelEvent : MouseEvent</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_WheelEvent_DOM_DELTA_PAGE" data-uid="CSharpToJavaScript.APIs.JS.WheelEvent.DOM_DELTA_PAGE">
   DOM_DELTA_PAGE
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L21002"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L19266"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -466,7 +460,7 @@ public class WheelEvent : MouseEvent</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_WheelEvent_DOM_DELTA_PIXEL" data-uid="CSharpToJavaScript.APIs.JS.WheelEvent.DOM_DELTA_PIXEL">
   DOM_DELTA_PIXEL
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L21000"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L19264"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -501,7 +495,7 @@ public class WheelEvent : MouseEvent</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_WheelEvent_DeltaMode" data-uid="CSharpToJavaScript.APIs.JS.WheelEvent.DeltaMode">
   DeltaMode
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L21010"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L19274"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>WheelEvent.deltaMode</code></strong> read-only property returns an<br><code>unsigned long</code> representing the unit of the delta values scroll amount.<br>Permitted values are:</p>
@@ -600,7 +594,7 @@ public class WheelEvent : MouseEvent</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_WheelEvent_DeltaX" data-uid="CSharpToJavaScript.APIs.JS.WheelEvent.DeltaX">
   DeltaX
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L21004"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L19268"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>WheelEvent.deltaX</code></strong> read-only property is a<br><code>double</code> representing the horizontal scroll amount in the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.WheelEvent.html#CSharpToJavaScript_APIs_JS_WheelEvent_DeltaMode">DeltaMode</a> unit.</p>
@@ -641,7 +635,7 @@ public class WheelEvent : MouseEvent</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_WheelEvent_DeltaY" data-uid="CSharpToJavaScript.APIs.JS.WheelEvent.DeltaY">
   DeltaY
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L21006"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L19270"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>WheelEvent.deltaY</code></strong> read-only property is a<br><code>double</code> representing the vertical scroll amount in the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.WheelEvent.html#CSharpToJavaScript_APIs_JS_WheelEvent_DeltaMode">DeltaMode</a> unit.</p>
@@ -682,7 +676,7 @@ public class WheelEvent : MouseEvent</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_WheelEvent_DeltaZ" data-uid="CSharpToJavaScript.APIs.JS.WheelEvent.DeltaZ">
   DeltaZ
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L21008"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L19272"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>WheelEvent.deltaZ</code></strong> read-only property is a<br><code>double</code> representing the scroll amount along the z-axis, in the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.WheelEvent.html#CSharpToJavaScript_APIs_JS_WheelEvent_DeltaMode">DeltaMode</a> unit.</p>
@@ -723,7 +717,7 @@ public class WheelEvent : MouseEvent</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L20995" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L19259" class="edit-link">Edit this page</a>
         </div>
 
 

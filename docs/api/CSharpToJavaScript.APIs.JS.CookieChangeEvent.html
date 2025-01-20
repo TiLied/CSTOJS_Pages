@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class CookieChangeEvent | CSharpToJavaScript ">
       
-      <meta name="description" content="The CookieChangeEvent interface of the {{domxref(&amp;amp;quot;Cookie Store API&amp;amp;quot;, &amp;amp;quot;&amp;amp;quot;, &amp;amp;quot;&amp;amp;quot;, &amp;quot;nocode&amp;quot;)}} is the event type of the CookieStore/change_event event fired at a  when any cookie changes occur. A cookie change consists of a cookie and a type (either &amp;quot;changed&amp;quot; or &amp;quot;deleted&amp;quot;).">
+      <meta name="description" content="The CookieChangeEvent interface of the {{domxref(&amp;amp;quot;Cookie Store API&amp;amp;quot;, &amp;amp;quot;&amp;amp;quot;, &amp;amp;quot;&amp;amp;quot;, &amp;quot;nocode&amp;quot;)}} is the event type of the CookieStore/change_event event fired at a  when any cookies are created or deleted.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -77,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -89,7 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_CookieChangeEvent" data-uid="CSharpToJavaScript.APIs.JS.CookieChangeEvent" class="text-break">
-Class CookieChangeEvent  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L1174"><i class="bi bi-code-slash"></i></a>
+Class CookieChangeEvent  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L995"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,7 +97,7 @@ Class CookieChangeEvent  <a class="header-action link-secondary" title="View sou
   <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>The <strong><code>CookieChangeEvent</code></strong> interface of the {{domxref(&amp;quot;Cookie Store API&amp;quot;, &amp;quot;&amp;quot;, &amp;quot;&amp;quot;, &quot;nocode&quot;)}} is the event type of the CookieStore/change_event event fired at a <a class="xref" href="CSharpToJavaScript.APIs.JS.CookieStore.html">CookieStore</a> when any cookie changes occur. A cookie change consists of a cookie and a type (either &quot;changed&quot; or &quot;deleted&quot;).</p>
+  <div class="markdown summary"><p>The <strong><code>CookieChangeEvent</code></strong> interface of the {{domxref(&amp;quot;Cookie Store API&amp;quot;, &amp;quot;&amp;quot;, &amp;quot;&amp;quot;, &quot;nocode&quot;)}} is the event type of the CookieStore/change_event event fired at a <a class="xref" href="CSharpToJavaScript.APIs.JS.CookieStore.html">CookieStore</a> when any cookies are created or deleted.</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -216,11 +216,9 @@ public class CookieChangeEvent : Event</code></pre>
 
 
   <h2 id="CSharpToJavaScript_APIs_JS_CookieChangeEvent_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>Cookie changes that will cause the <code>CookieChangeEvent</code> to be dispatched are:</p>
-<blockquote class="NOTE">
+  <div class="markdown level0 remarks"><blockquote class="NOTE">
   <h5>NOTE</h5>
-  <p>
-    <strong>Note:</strong> A cookie that is replaced due to the insertion of another cookie with the same name, domain, and path, is ignored and does not trigger a change event.</p>
+  <p>A cookie that is replaced due to the insertion of another cookie with the same name, domain, and path, is ignored and does not trigger a change event.</p>
 </blockquote>
 <p></p>
 <p>
@@ -239,7 +237,7 @@ public class CookieChangeEvent : Event</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_CookieChangeEvent__ctor" data-uid="CSharpToJavaScript.APIs.JS.CookieChangeEvent.#ctor">
   CookieChangeEvent()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L1183"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L1004"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -265,7 +263,7 @@ public class CookieChangeEvent : Event</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_CookieChangeEvent__ctor_System_String_CSharpToJavaScript_APIs_JS_CookieChangeEventInit_" data-uid="CSharpToJavaScript.APIs.JS.CookieChangeEvent.#ctor(System.String,CSharpToJavaScript.APIs.JS.CookieChangeEventInit)">
   CookieChangeEvent(string, CookieChangeEventInit)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L1178"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L999"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>CookieChangeEvent()</code></strong> constructor creates a new <a class="xref" href="CSharpToJavaScript.APIs.JS.CookieChangeEvent.html">CookieChangeEvent</a> object<br>which is the event type of the CookieStore/change_event event fired at a <a class="xref" href="CSharpToJavaScript.APIs.JS.CookieStore.html">CookieStore</a> when any cookie changes occur.<br>This constructor is called by the browser when a change event occurs.</p>
@@ -273,7 +271,7 @@ public class CookieChangeEvent : Event</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CookieChangeEvent(string type, CookieChangeEventInit eventInitDict)</code></pre>
+    <pre><code class="lang-csharp hljs">public CookieChangeEvent(string type, CookieChangeEventInit eventInitDict = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -294,8 +292,7 @@ public class CookieChangeEvent : Event</code></pre>
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_CookieChangeEvent__ctor_System_String_CSharpToJavaScript_APIs_JS_CookieChangeEventInit__remarks">Remarks</h4>
   <div class="markdown level1 remarks"><blockquote class="NOTE">
   <h5>NOTE</h5>
-  <p>
-    <strong>Note:</strong> This event constructor is generally not needed for production websites. It&amp;apos;s primary use is for tests that require an instance of this event.</p>
+  <p>This event constructor is generally not needed for production websites. It&amp;apos;s primary use is for tests that require an instance of this event.</p>
 </blockquote>
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/CookieChangeEvent/CookieChangeEvent">
@@ -315,7 +312,7 @@ public class CookieChangeEvent : Event</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_CookieChangeEvent_Changed" data-uid="CSharpToJavaScript.APIs.JS.CookieChangeEvent.Changed">
   Changed
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L1180"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L1001"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>changed</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.CookieChangeEvent.html">CookieChangeEvent</a> interface returns an array of the cookies that have been changed.</p>
@@ -341,7 +338,8 @@ public class CookieChangeEvent : Event</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_CookieChangeEvent_Changed_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>
+  <div class="markdown level1 remarks"><p>Note that this will exclude cookies which were created with an expiry date in the past, as these cookies are immediately deleted.</p>
+<p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/CookieChangeEvent/changed">
     <em>See also on MDN</em>
   </a>
@@ -355,7 +353,7 @@ public class CookieChangeEvent : Event</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_CookieChangeEvent_Deleted" data-uid="CSharpToJavaScript.APIs.JS.CookieChangeEvent.Deleted">
   Deleted
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L1182"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L1003"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>deleted</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.CookieChangeEvent.html">CookieChangeEvent</a> interface returns an array of the cookies that have been deleted by the given <code>CookieChangeEvent</code> instance.</p>
@@ -381,7 +379,8 @@ public class CookieChangeEvent : Event</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_CookieChangeEvent_Deleted_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>
+  <div class="markdown level1 remarks"><p>Note that this will include cookies which were created with an expiry date in the past, as these cookies are immediately deleted.</p>
+<p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/CookieChangeEvent/deleted">
     <em>See also on MDN</em>
   </a>
@@ -395,7 +394,7 @@ public class CookieChangeEvent : Event</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L1174" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L995" class="edit-link">Edit this page</a>
         </div>
 
 

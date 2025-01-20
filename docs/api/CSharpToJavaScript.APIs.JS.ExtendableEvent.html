@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -77,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -89,7 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_ExtendableEvent" data-uid="CSharpToJavaScript.APIs.JS.ExtendableEvent" class="text-break">
-Class ExtendableEvent  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L18229"><i class="bi bi-code-slash"></i></a>
+Class ExtendableEvent  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L16563"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -239,8 +239,7 @@ public class ExtendableEvent : Event</code></pre>
 <p></p>
 <blockquote class="NOTE">
   <h5>NOTE</h5>
-  <p>
-    <strong>Note:</strong> This interface is only available when the global scope is a <a class="xref" href="CSharpToJavaScript.APIs.JS.ServiceWorkerGlobalScope.html">ServiceWorkerGlobalScope</a>. It is not available when it is a <a class="xref" href="CSharpToJavaScript.APIs.JS.Window.html">Window</a>, or the scope of another kind of worker.</p>
+  <p>This interface is only available when the global scope is a <a class="xref" href="CSharpToJavaScript.APIs.JS.ServiceWorkerGlobalScope.html">ServiceWorkerGlobalScope</a>. It is not available when it is a <a class="xref" href="CSharpToJavaScript.APIs.JS.Window.html">Window</a>, or the scope of another kind of worker.</p>
 </blockquote>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers">Using Service Workers</a><br>-<a href="https://github.com/mdn/dom-examples/tree/main/service-worker/simple-service-worker">Service workers basic code example</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers">Using web workers</a><br></p>
 <p>
@@ -259,7 +258,7 @@ public class ExtendableEvent : Event</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_ExtendableEvent__ctor" data-uid="CSharpToJavaScript.APIs.JS.ExtendableEvent.#ctor">
   ExtendableEvent()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L18236"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L16570"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -285,7 +284,7 @@ public class ExtendableEvent : Event</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_ExtendableEvent__ctor_System_String_CSharpToJavaScript_APIs_JS_ExtendableEventInit_" data-uid="CSharpToJavaScript.APIs.JS.ExtendableEvent.#ctor(System.String,CSharpToJavaScript.APIs.JS.ExtendableEventInit)">
   ExtendableEvent(string, ExtendableEventInit)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L18233"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L16567"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>ExtendableEvent()</code></strong> constructor creates a new <a class="xref" href="CSharpToJavaScript.APIs.JS.ExtendableEvent.html">ExtendableEvent</a> object.</p>
@@ -293,7 +292,7 @@ public class ExtendableEvent : Event</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ExtendableEvent(string type, ExtendableEventInit eventInitDict)</code></pre>
+    <pre><code class="lang-csharp hljs">public ExtendableEvent(string type, ExtendableEventInit eventInitDict = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -331,7 +330,7 @@ public class ExtendableEvent : Event</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_ExtendableEvent_WaitUntil_System_Threading_Tasks_Task_System_Object__" data-uid="CSharpToJavaScript.APIs.JS.ExtendableEvent.WaitUntil(System.Threading.Tasks.Task{System.Object})">
   WaitUntil(Task&lt;dynamic&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L18235"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L16569"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>ExtendableEvent.waitUntil()</code></strong><br>method tells the event dispatcher that work is ongoing. It can also be used to detect<br>whether that work was successful. In service workers, <code>waitUntil()</code> tells<br>the browser that work is ongoing until the promise settles, and it shouldn&amp;apos;t terminate<br>the service worker if it wants that work to complete.</p>
@@ -380,7 +379,7 @@ public class ExtendableEvent : Event</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L18229" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L16563" class="edit-link">Edit this page</a>
         </div>
 
 

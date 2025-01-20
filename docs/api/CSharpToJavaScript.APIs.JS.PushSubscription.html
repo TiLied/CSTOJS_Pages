@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class PushSubscription | CSharpToJavaScript ">
       
-      <meta name="description" content="The PushSubscription interface of the Push API provides a subscription&amp;amp;apos;s URL endpoint and allows unsubscribing from a push service.">
+      <meta name="description" content="The PushSubscription interface of the Push API provides a subscription&amp;amp;apos;s URL endpoint along with the public key and secrets that should be used for encrypting push messages to this subscription.This information must be passed to the application server, using any desired application-specific method.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -77,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -89,7 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_PushSubscription" data-uid="CSharpToJavaScript.APIs.JS.PushSubscription" class="text-break">
-Class PushSubscription  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16834"><i class="bi bi-code-slash"></i></a>
+Class PushSubscription  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L15402"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,7 +97,7 @@ Class PushSubscription  <a class="header-action link-secondary" title="View sour
   <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>The <code>PushSubscription</code> interface of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Push_API">Push API</a> provides a subscription&amp;apos;s URL endpoint and allows unsubscribing from a push service.</p>
+  <div class="markdown summary"><p>The <code>PushSubscription</code> interface of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Push_API">Push API</a> provides a subscription&amp;apos;s URL endpoint along with the public key and secrets that should be used for encrypting push messages to this subscription.<br>This information must be passed to the application server, using any desired application-specific method.</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -149,7 +149,7 @@ public class PushSubscription</code></pre>
 
 
   <h2 id="CSharpToJavaScript_APIs_JS_PushSubscription_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>An instance of this interface can be serialized.</p>
+  <div class="markdown level0 remarks"><p>The interface also provides information about when the subscription will expire, and a method to unsubscribe from the subscription.</p>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Push_API">Push API</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API">Service Worker API</a><br></p>
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/PushSubscription">
@@ -167,7 +167,7 @@ public class PushSubscription</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_PushSubscription_Endpoint" data-uid="CSharpToJavaScript.APIs.JS.PushSubscription.Endpoint">
   Endpoint
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16838"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L15406"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>endpoint</code></strong> read-only property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.PushSubscription.html">PushSubscription</a> interface returns a string containing<br>the endpoint associated with the push subscription.</p>
@@ -208,7 +208,7 @@ public class PushSubscription</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_PushSubscription_ExpirationTime" data-uid="CSharpToJavaScript.APIs.JS.PushSubscription.ExpirationTime">
   ExpirationTime
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16840"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L15408"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>expirationTime</code></strong> read-only property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.PushSubscription.html">PushSubscription</a> interface returns a <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a><br>of the subscription expiration time associated with the push subscription, if there is<br>one, or <code>null</code> otherwise.</p>
@@ -248,7 +248,7 @@ public class PushSubscription</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_PushSubscription_Options" data-uid="CSharpToJavaScript.APIs.JS.PushSubscription.Options">
   Options
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16842"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L15410"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>PushSubscriptionOptions</code></strong> interface of the 'Push API' represents the options associated with a push subscription.</p>
@@ -292,7 +292,7 @@ public class PushSubscription</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_PushSubscription_GetKey_CSharpToJavaScript_APIs_JS_PushEncryptionKeyName_" data-uid="CSharpToJavaScript.APIs.JS.PushSubscription.GetKey(CSharpToJavaScript.APIs.JS.PushEncryptionKeyName)">
   GetKey(PushEncryptionKeyName)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16844"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L15412"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <code>getKey()</code> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.PushSubscription.html">PushSubscription</a> interface<br>returns an ArrayBuffer representing a client public key, which can then<br>be sent to a server and used in encrypting push message data.</p>
@@ -337,7 +337,7 @@ public class PushSubscription</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_PushSubscription_ToJSON" data-uid="CSharpToJavaScript.APIs.JS.PushSubscription.ToJSON">
   ToJSON()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16848"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L15416"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <code>toJSON()</code> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.PushSubscription.html">PushSubscription</a> interface is a<br>standard serializer: it returns a JSON representation of the subscription properties,<br>providing a useful shortcut.</p>
@@ -377,7 +377,7 @@ public class PushSubscription</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_PushSubscription_Unsubscribe" data-uid="CSharpToJavaScript.APIs.JS.PushSubscription.Unsubscribe">
   Unsubscribe()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16846"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L15414"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <code>unsubscribe()</code> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.PushSubscription.html">PushSubscription</a> interface<br>returns a Promise that resolves to a boolean value when the<br>current subscription is successfully unsubscribed.</p>
@@ -418,7 +418,7 @@ public class PushSubscription</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16834" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L15402" class="edit-link">Edit this page</a>
         </div>
 
 

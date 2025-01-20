@@ -1,7 +1,7 @@
 {
   "sitemap": {
     "baseUrl": "https://tilied.github.io/CSTOJS_Pages/",
-    "changefreq": "weekly"
+    "changefreq": "monthly"
   },
   "source_base_path": "",
   "xrefmap": "xrefmap.yml",
@@ -40,16 +40,6 @@
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/CSTOJS_BWA.dll.gz"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "BWA/wwwroot/_framework/CSTOJS_BWA.pdb.gz",
-      "output": {
-        "resource": {
-          "relative_path": "BWA/_framework/CSTOJS_BWA.pdb.gz"
         }
       },
       "version": ""
@@ -1130,6 +1120,36 @@
       "output": {
         "resource": {
           "relative_path": "BWA/_framework/System.IO.Compression.dll.gz"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "BWA/wwwroot/_framework/System.IO.FileSystem.Watcher.dll",
+      "output": {
+        "resource": {
+          "relative_path": "BWA/_framework/System.IO.FileSystem.Watcher.dll"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "BWA/wwwroot/_framework/System.IO.FileSystem.Watcher.dll.br",
+      "output": {
+        "resource": {
+          "relative_path": "BWA/_framework/System.IO.FileSystem.Watcher.dll.br"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "BWA/wwwroot/_framework/System.IO.FileSystem.Watcher.dll.gz",
+      "output": {
+        "resource": {
+          "relative_path": "BWA/_framework/System.IO.FileSystem.Watcher.dll.gz"
         }
       },
       "version": ""
@@ -2366,30 +2386,30 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/wwwroot/_framework/dotnet.native.8.0.4.fs6uiry1le.js",
+      "source_relative_path": "BWA/wwwroot/_framework/dotnet.native.js",
       "output": {
         "resource": {
-          "relative_path": "BWA/_framework/dotnet.native.8.0.4.fs6uiry1le.js"
+          "relative_path": "BWA/_framework/dotnet.native.js"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/wwwroot/_framework/dotnet.native.8.0.4.fs6uiry1le.js.br",
+      "source_relative_path": "BWA/wwwroot/_framework/dotnet.native.js.br",
       "output": {
         "resource": {
-          "relative_path": "BWA/_framework/dotnet.native.8.0.4.fs6uiry1le.js.br"
+          "relative_path": "BWA/_framework/dotnet.native.js.br"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/wwwroot/_framework/dotnet.native.8.0.4.fs6uiry1le.js.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/dotnet.native.js.gz",
       "output": {
         "resource": {
-          "relative_path": "BWA/_framework/dotnet.native.8.0.4.fs6uiry1le.js.gz"
+          "relative_path": "BWA/_framework/dotnet.native.js.gz"
         }
       },
       "version": ""
@@ -2426,30 +2446,30 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/wwwroot/_framework/dotnet.runtime.8.0.4.2s8z8znzmw.js",
+      "source_relative_path": "BWA/wwwroot/_framework/dotnet.runtime.js",
       "output": {
         "resource": {
-          "relative_path": "BWA/_framework/dotnet.runtime.8.0.4.2s8z8znzmw.js"
+          "relative_path": "BWA/_framework/dotnet.runtime.js"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/wwwroot/_framework/dotnet.runtime.8.0.4.2s8z8znzmw.js.br",
+      "source_relative_path": "BWA/wwwroot/_framework/dotnet.runtime.js.br",
       "output": {
         "resource": {
-          "relative_path": "BWA/_framework/dotnet.runtime.8.0.4.2s8z8znzmw.js.br"
+          "relative_path": "BWA/_framework/dotnet.runtime.js.br"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/wwwroot/_framework/dotnet.runtime.8.0.4.2s8z8znzmw.js.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/dotnet.runtime.js.gz",
       "output": {
         "resource": {
-          "relative_path": "BWA/_framework/dotnet.runtime.8.0.4.2s8z8znzmw.js.gz"
+          "relative_path": "BWA/_framework/dotnet.runtime.js.gz"
         }
       },
       "version": ""
@@ -3386,6 +3406,36 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.AdAuctionData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.AdAuctionData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.AdAuctionDataBuyerConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.AdAuctionDataBuyerConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.AdAuctionDataConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.AdAuctionDataConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CSharpToJavaScript.APIs.JS.AdRender.yml",
       "output": {
         ".html": {
@@ -3486,6 +3536,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.AggregateError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.AggregateError.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.AggregateErrorPrototype.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.AggregateErrorPrototype.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CSharpToJavaScript.APIs.JS.Algorithm.yml",
       "output": {
         ".html": {
@@ -3500,6 +3570,16 @@
       "output": {
         ".html": {
           "relative_path": "api/CSharpToJavaScript.APIs.JS.AlignSetting.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.AllAcceptedCredentialsOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.AllAcceptedCredentialsOptions.html"
         }
       },
       "version": ""
@@ -3810,6 +3890,46 @@
       "output": {
         ".html": {
           "relative_path": "api/CSharpToJavaScript.APIs.JS.AuctionAdInterestGroupKey.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.AuctionAdInterestGroupSize.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.AuctionAdInterestGroupSize.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.AuctionRealTimeReportingConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.AuctionRealTimeReportingConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.AuctionReportBuyerDebugModeConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.AuctionReportBuyerDebugModeConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.AuctionReportBuyersConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.AuctionReportBuyersConfig.html"
         }
       },
       "version": ""
@@ -4866,6 +4986,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.BigInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.BigInt.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.BigIntPrototype.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.BigIntPrototype.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CSharpToJavaScript.APIs.JS.BinaryType.yml",
       "output": {
         ".html": {
@@ -5516,6 +5656,36 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.CSSFunctionDeclarations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.CSSFunctionDeclarations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.CSSFunctionDescriptors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.CSSFunctionDescriptors.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.CSSFunctionRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.CSSFunctionRule.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CSharpToJavaScript.APIs.JS.CSSGroupingRule.yml",
       "output": {
         ".html": {
@@ -5780,6 +5950,16 @@
       "output": {
         ".html": {
           "relative_path": "api/CSharpToJavaScript.APIs.JS.CSSNestRule.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.CSSNestedDeclarations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.CSSNestedDeclarations.html"
         }
       },
       "version": ""
@@ -6720,6 +6900,26 @@
       "output": {
         ".html": {
           "relative_path": "api/CSharpToJavaScript.APIs.JS.CaretPosition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.CaretPositionFromPointOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.CaretPositionFromPointOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.CatchCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.CatchCallback.html"
         }
       },
       "version": ""
@@ -7716,6 +7916,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.CurrentUserDetailsOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.CurrentUserDetailsOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CSharpToJavaScript.APIs.JS.CursorCaptureConstraint.yml",
       "output": {
         ".html": {
@@ -8096,6 +8306,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.DelegatedInkTrailPresenter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.DelegatedInkTrailPresenter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CSharpToJavaScript.APIs.JS.DeprecationReportBody.yml",
       "output": {
         ".html": {
@@ -8130,6 +8350,26 @@
       "output": {
         ".html": {
           "relative_path": "api/CSharpToJavaScript.APIs.JS.DetectedText.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.DeviceChangeEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.DeviceChangeEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.DeviceChangeEventInit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.DeviceChangeEventInit.html"
         }
       },
       "version": ""
@@ -8240,6 +8480,16 @@
       "output": {
         ".html": {
           "relative_path": "api/CSharpToJavaScript.APIs.JS.DigitalCredential.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.DigitalCredentialRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.DigitalCredentialRequest.html"
         }
       },
       "version": ""
@@ -8936,6 +9186,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.Error.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.Error.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CSharpToJavaScript.APIs.JS.ErrorCallback.yml",
       "output": {
         ".html": {
@@ -8960,6 +9220,26 @@
       "output": {
         ".html": {
           "relative_path": "api/CSharpToJavaScript.APIs.JS.ErrorEventInit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.ErrorPrototype.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.ErrorPrototype.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.EvalError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.EvalError.html"
         }
       },
       "version": ""
@@ -10236,6 +10516,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.GPUCanvasToneMapping.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.GPUCanvasToneMapping.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.GPUCanvasToneMappingMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.GPUCanvasToneMappingMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CSharpToJavaScript.APIs.JS.GPUColorDict.yml",
       "output": {
         ".html": {
@@ -10400,6 +10700,26 @@
       "output": {
         ".html": {
           "relative_path": "api/CSharpToJavaScript.APIs.JS.GPUComputePipelineDescriptor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.GPUCopyExternalImageDestInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.GPUCopyExternalImageDestInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.GPUCopyExternalImageSourceInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.GPUCopyExternalImageSourceInfo.html"
         }
       },
       "version": ""
@@ -11186,6 +11506,36 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.GPUTexelCopyBufferInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.GPUTexelCopyBufferInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.GPUTexelCopyBufferLayout.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.GPUTexelCopyBufferLayout.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.GPUTexelCopyTextureInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.GPUTexelCopyTextureInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CSharpToJavaScript.APIs.JS.GPUTexture.yml",
       "output": {
         ".html": {
@@ -11666,6 +12016,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.GetComposedRangesOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.GetComposedRangesOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CSharpToJavaScript.APIs.JS.GetHTMLOptions.yml",
       "output": {
         ".html": {
@@ -11780,6 +12140,16 @@
       "output": {
         ".html": {
           "relative_path": "api/CSharpToJavaScript.APIs.JS.GlobalObject.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.GlobalPrivacyControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.GlobalPrivacyControl.html"
         }
       },
       "version": ""
@@ -12816,6 +13186,136 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.HandwritingDrawing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.HandwritingDrawing.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.HandwritingDrawingSegment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.HandwritingDrawingSegment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.HandwritingHints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.HandwritingHints.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.HandwritingHintsQueryResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.HandwritingHintsQueryResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.HandwritingInputType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.HandwritingInputType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.HandwritingModelConstraint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.HandwritingModelConstraint.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.HandwritingPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.HandwritingPoint.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.HandwritingPrediction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.HandwritingPrediction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.HandwritingRecognitionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.HandwritingRecognitionType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.HandwritingRecognizer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.HandwritingRecognizer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.HandwritingRecognizerQueryResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.HandwritingRecognizerQueryResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.HandwritingSegment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.HandwritingSegment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.HandwritingStroke.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.HandwritingStroke.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CSharpToJavaScript.APIs.JS.HardwareAcceleration.yml",
       "output": {
         ".html": {
@@ -13196,6 +13696,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.IdentityAssertionResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.IdentityAssertionResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CSharpToJavaScript.APIs.JS.IdentityCredential.yml",
       "output": {
         ".html": {
@@ -13230,6 +13740,16 @@
       "output": {
         ".html": {
           "relative_path": "api/CSharpToJavaScript.APIs.JS.IdentityCredentialRequestOptionsContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.IdentityCredentialRequestOptionsMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.IdentityCredentialRequestOptionsMode.html"
         }
       },
       "version": ""
@@ -13350,6 +13870,16 @@
       "output": {
         ".html": {
           "relative_path": "api/CSharpToJavaScript.APIs.JS.IdentityRequestProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.IdentityResolveOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.IdentityResolveOptions.html"
         }
       },
       "version": ""
@@ -14586,6 +15116,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.MLBatchNormalizationSupportLimits.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.MLBatchNormalizationSupportLimits.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.MLBinarySupportLimits.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.MLBinarySupportLimits.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CSharpToJavaScript.APIs.JS.MLBufferResourceView.yml",
       "output": {
         ".html": {
@@ -14626,10 +15176,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.MLConcatSupportLimits.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.MLConcatSupportLimits.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CSharpToJavaScript.APIs.JS.MLContext.yml",
       "output": {
         ".html": {
           "relative_path": "api/CSharpToJavaScript.APIs.JS.MLContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.MLContextLostInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.MLContextLostInfo.html"
         }
       },
       "version": ""
@@ -14660,6 +15230,16 @@
       "output": {
         ".html": {
           "relative_path": "api/CSharpToJavaScript.APIs.JS.MLConv2dOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.MLConv2dSupportLimits.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.MLConv2dSupportLimits.html"
         }
       },
       "version": ""
@@ -14716,10 +15296,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.MLGatherSupportLimits.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.MLGatherSupportLimits.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CSharpToJavaScript.APIs.JS.MLGemmOptions.yml",
       "output": {
         ".html": {
           "relative_path": "api/CSharpToJavaScript.APIs.JS.MLGemmOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.MLGemmSupportLimits.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.MLGemmSupportLimits.html"
         }
       },
       "version": ""
@@ -14756,10 +15356,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.MLGruCellSupportLimits.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.MLGruCellSupportLimits.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CSharpToJavaScript.APIs.JS.MLGruOptions.yml",
       "output": {
         ".html": {
           "relative_path": "api/CSharpToJavaScript.APIs.JS.MLGruOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.MLGruSupportLimits.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.MLGruSupportLimits.html"
         }
       },
       "version": ""
@@ -14846,10 +15466,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.MLLogicalNotSupportLimits.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.MLLogicalNotSupportLimits.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CSharpToJavaScript.APIs.JS.MLLstmCellOptions.yml",
       "output": {
         ".html": {
           "relative_path": "api/CSharpToJavaScript.APIs.JS.MLLstmCellOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.MLLstmCellSupportLimits.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.MLLstmCellSupportLimits.html"
         }
       },
       "version": ""
@@ -14866,10 +15506,40 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.MLLstmSupportLimits.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.MLLstmSupportLimits.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CSharpToJavaScript.APIs.JS.MLLstmWeightLayout.yml",
       "output": {
         ".html": {
           "relative_path": "api/CSharpToJavaScript.APIs.JS.MLLstmWeightLayout.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.MLNormalizationSupportLimits.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.MLNormalizationSupportLimits.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.MLOpSupportLimits.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.MLOpSupportLimits.html"
         }
       },
       "version": ""
@@ -14916,6 +15586,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.MLOperatorOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.MLOperatorOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CSharpToJavaScript.APIs.JS.MLPadOptions.yml",
       "output": {
         ".html": {
@@ -14950,6 +15630,26 @@
       "output": {
         ".html": {
           "relative_path": "api/CSharpToJavaScript.APIs.JS.MLPowerPreference.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.MLPreluSupportLimits.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.MLPreluSupportLimits.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.MLRecurrentNetworkActivation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.MLRecurrentNetworkActivation.html"
         }
       },
       "version": ""
@@ -14996,6 +15696,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.MLSingleInputSupportLimits.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.MLSingleInputSupportLimits.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CSharpToJavaScript.APIs.JS.MLSoftplusOptions.yml",
       "output": {
         ".html": {
@@ -15016,10 +15726,50 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.MLSplitSupportLimits.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.MLSplitSupportLimits.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CSharpToJavaScript.APIs.JS.MLSqueezeOptions.yml",
       "output": {
         ".html": {
           "relative_path": "api/CSharpToJavaScript.APIs.JS.MLSqueezeOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.MLSupportLimits.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.MLSupportLimits.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.MLTensor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.MLTensor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.MLTensorDescriptor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.MLTensorDescriptor.html"
         }
       },
       "version": ""
@@ -15040,6 +15790,16 @@
       "output": {
         ".html": {
           "relative_path": "api/CSharpToJavaScript.APIs.JS.MLTriangularOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.MLWhereSupportLimits.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.MLWhereSupportLimits.html"
         }
       },
       "version": ""
@@ -15100,6 +15860,16 @@
       "output": {
         ".html": {
           "relative_path": "api/CSharpToJavaScript.APIs.JS.ManagedSourceBuffer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.Mapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.Mapper.html"
         }
       },
       "version": ""
@@ -15920,6 +16690,16 @@
       "output": {
         ".html": {
           "relative_path": "api/CSharpToJavaScript.APIs.JS.MessageEventInit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.MessageEventTarget.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.MessageEventTarget.html"
         }
       },
       "version": ""
@@ -17096,6 +17876,56 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.Observable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.Observable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.ObservableEventListenerOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.ObservableEventListenerOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.ObservableInspector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.ObservableInspector.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.ObservableInspectorAbortHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.ObservableInspectorAbortHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.ObservableSubscriptionCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.ObservableSubscriptionCallback.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CSharpToJavaScript.APIs.JS.OfflineAudioCompletionEvent.yml",
       "output": {
         ".html": {
@@ -17366,6 +18196,46 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.PADebugModeOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.PADebugModeOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.PAExtendedHistogramContribution.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.PAExtendedHistogramContribution.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.PAHistogramContribution.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.PAHistogramContribution.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.PASignalValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.PASignalValue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CSharpToJavaScript.APIs.JS.PageRevealEvent.yml",
       "output": {
         ".html": {
@@ -17456,6 +18326,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.PaintTimingMixin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.PaintTimingMixin.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CSharpToJavaScript.APIs.JS.PaintWorkletGlobalScope.yml",
       "output": {
         ".html": {
@@ -17540,6 +18420,16 @@
       "output": {
         ".html": {
           "relative_path": "api/CSharpToJavaScript.APIs.JS.Path2D.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.PayerErrors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.PayerErrors.html"
         }
       },
       "version": ""
@@ -18286,6 +19176,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.PointerLockOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.PointerLockOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CSharpToJavaScript.APIs.JS.PopStateEvent.yml",
       "output": {
         ".html": {
@@ -18400,6 +19300,36 @@
       "output": {
         ".html": {
           "relative_path": "api/CSharpToJavaScript.APIs.JS.PredefinedColorSpace.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.Predicate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.Predicate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.PreferenceManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.PreferenceManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.PreferenceObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.PreferenceObject.html"
         }
       },
       "version": ""
@@ -18616,6 +19546,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.PrivateAggregation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.PrivateAggregation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CSharpToJavaScript.APIs.JS.PrivateNetworkAccessPermissionDescriptor.yml",
       "output": {
         ".html": {
@@ -18776,6 +19716,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.ProtectedAudiencePrivateAggregationConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.ProtectedAudiencePrivateAggregationConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CSharpToJavaScript.APIs.JS.ProximityReadingValues.yml",
       "output": {
         ".html": {
@@ -18850,6 +19800,16 @@
       "output": {
         ".html": {
           "relative_path": "api/CSharpToJavaScript.APIs.JS.PublicKeyCredentialEntity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.PublicKeyCredentialHint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.PublicKeyCredentialHint.html"
         }
       },
       "version": ""
@@ -20366,6 +21326,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.RangeError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.RangeError.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CSharpToJavaScript.APIs.JS.ReadOptions.yml",
       "output": {
         ".html": {
@@ -20526,6 +21496,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.RealTimeContribution.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.RealTimeContribution.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.RealTimeReporting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.RealTimeReporting.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CSharpToJavaScript.APIs.JS.RecordingState.yml",
       "output": {
         ".html": {
@@ -20540,6 +21530,26 @@
       "output": {
         ".html": {
           "relative_path": "api/CSharpToJavaScript.APIs.JS.RedEyeReduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.Reducer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.Reducer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.ReferenceError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.ReferenceError.html"
         }
       },
       "version": ""
@@ -22246,6 +23256,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.SameSiteCookiesType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.SameSiteCookiesType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CSharpToJavaScript.APIs.JS.Sanitizer.yml",
       "output": {
         ".html": {
@@ -22290,6 +23310,16 @@
       "output": {
         ".html": {
           "relative_path": "api/CSharpToJavaScript.APIs.JS.SanitizerElementNamespaceWithAttributes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.SanitizerPresets.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.SanitizerPresets.html"
         }
       },
       "version": ""
@@ -22846,6 +23876,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.SetHTMLUnsafeOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.SetHTMLUnsafeOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CSharpToJavaScript.APIs.JS.ShadowAnimation.yml",
       "output": {
         ".html": {
@@ -22906,10 +23946,80 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.SharedStorageAppendMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.SharedStorageAppendMethod.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.SharedStorageClearMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.SharedStorageClearMethod.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.SharedStorageDeleteMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.SharedStorageDeleteMethod.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.SharedStorageModifierMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.SharedStorageModifierMethod.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.SharedStorageModifierMethodOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.SharedStorageModifierMethodOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.SharedStoragePrivateAggregationConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.SharedStoragePrivateAggregationConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CSharpToJavaScript.APIs.JS.SharedStorageRunOperationMethodOptions.yml",
       "output": {
         ".html": {
           "relative_path": "api/CSharpToJavaScript.APIs.JS.SharedStorageRunOperationMethodOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.SharedStorageSetMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.SharedStorageSetMethod.html"
         }
       },
       "version": ""
@@ -22956,6 +24066,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.SharedStorageWorkletNavigator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.SharedStorageWorkletNavigator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.SharedStorageWorkletOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.SharedStorageWorkletOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CSharpToJavaScript.APIs.JS.SharedWorker.yml",
       "output": {
         ".html": {
@@ -22970,6 +24100,26 @@
       "output": {
         ".html": {
           "relative_path": "api/CSharpToJavaScript.APIs.JS.SharedWorkerGlobalScope.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.SharedWorkerOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.SharedWorkerOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.ShowPopoverOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.ShowPopoverOptions.html"
         }
       },
       "version": ""
@@ -23326,6 +24476,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.StorageAccessHandle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.StorageAccessHandle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.StorageAccessTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.StorageAccessTypes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CSharpToJavaScript.APIs.JS.StorageBucket.yml",
       "output": {
         ".html": {
@@ -23380,6 +24550,16 @@
       "output": {
         ".html": {
           "relative_path": "api/CSharpToJavaScript.APIs.JS.StorageEventInit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.StorageInterestGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.StorageInterestGroup.html"
         }
       },
       "version": ""
@@ -23476,6 +24656,46 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.SubscribeCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.SubscribeCallback.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.SubscribeOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.SubscribeOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.Subscriber.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.Subscriber.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.SubscriptionObserver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.SubscriptionObserver.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CSharpToJavaScript.APIs.JS.SubtleCrypto.yml",
       "output": {
         ".html": {
@@ -23530,6 +24750,16 @@
       "output": {
         ".html": {
           "relative_path": "api/CSharpToJavaScript.APIs.JS.SyncManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.SyntaxError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.SyntaxError.html"
         }
       },
       "version": ""
@@ -23966,6 +25196,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.TogglePopoverOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.TogglePopoverOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CSharpToJavaScript.APIs.JS.TokenBinding.yml",
       "output": {
         ".html": {
@@ -24256,6 +25496,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.TypeError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.TypeError.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CSharpToJavaScript.APIs.JS.UADataValues.yml",
       "output": {
         ".html": {
@@ -24320,6 +25570,16 @@
       "output": {
         ".html": {
           "relative_path": "api/CSharpToJavaScript.APIs.JS.ULongRange.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.URIError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.URIError.html"
         }
       },
       "version": ""
@@ -26066,6 +27326,76 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.Union213.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.Union213.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.Union214.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.Union214.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.Union215.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.Union215.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.Union216.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.Union216.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.Union217.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.Union217.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.Union218.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.Union218.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.Union219.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.Union219.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CSharpToJavaScript.APIs.JS.Union22.yml",
       "output": {
         ".html": {
@@ -26076,10 +27406,190 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.Union220.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.Union220.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.Union221.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.Union221.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.Union222.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.Union222.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.Union223.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.Union223.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.Union224.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.Union224.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.Union225.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.Union225.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.Union226.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.Union226.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.Union227.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.Union227.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.Union228.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.Union228.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.Union229.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.Union229.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CSharpToJavaScript.APIs.JS.Union23.yml",
       "output": {
         ".html": {
           "relative_path": "api/CSharpToJavaScript.APIs.JS.Union23.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.Union230.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.Union230.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.Union231.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.Union231.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.Union232.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.Union232.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.Union233.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.Union233.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.Union234.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.Union234.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.Union235.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.Union235.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.Union236.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.Union236.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.Union237.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.Union237.html"
         }
       },
       "version": ""
@@ -26916,6 +28426,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.UnknownCredentialOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.UnknownCredentialOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CSharpToJavaScript.APIs.JS.UpdateCallback.yml",
       "output": {
         ".html": {
@@ -27446,6 +28966,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.ViewTransitionUpdateCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.ViewTransitionUpdateCallback.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.Viewport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.Viewport.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CSharpToJavaScript.APIs.JS.ViewportMediaStreamConstraints.yml",
       "output": {
         ".html": {
@@ -27470,6 +29010,16 @@
       "output": {
         ".html": {
           "relative_path": "api/CSharpToJavaScript.APIs.JS.VisibilityStateEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.APIs.JS.Visitor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.APIs.JS.Visitor.html"
         }
       },
       "version": ""
@@ -29746,6 +31296,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/CSharpToJavaScript.Utils.EnumValueAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CSharpToJavaScript.Utils.EnumValueAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/CSharpToJavaScript.Utils.ToAttribute.yml",
       "output": {
         ".html": {
@@ -29829,10 +31389,10 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "articles/exampleOptAddSBIn.md",
+      "source_relative_path": "articles/exampleOptAddSBAt.md",
       "output": {
         ".html": {
-          "relative_path": "articles/exampleOptAddSBIn.html"
+          "relative_path": "articles/exampleOptAddSBAt.html"
         }
       },
       "version": ""

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -77,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -89,7 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_Gamepad" data-uid="CSharpToJavaScript.APIs.JS.Gamepad" class="text-break">
-Class Gamepad  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7519"><i class="bi bi-code-slash"></i></a>
+Class Gamepad  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L6935"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -150,6 +150,10 @@ public class Gamepad</code></pre>
 
   <h2 id="CSharpToJavaScript_APIs_JS_Gamepad_remarks">Remarks</h2>
   <div class="markdown level0 remarks"><p>A Gamepad object can be returned in one of two ways: via the <code>gamepad</code> property of the Window.Gamepadconnected_event and Window.Gamepaddisconnected_event events, or by grabbing any position in the array returned by the <a class="xref" href="CSharpToJavaScript.APIs.JS.Navigator.html#CSharpToJavaScript_APIs_JS_Navigator_GetGamepads">GetGamepads()</a> method.</p>
+<blockquote class="NOTE">
+  <h5>NOTE</h5>
+  <p>The support of gamepad features varies across different combinations of platforms and controllers. Even if the controller supports a certain feature (for example, haptic feedback), the platform may not support it for that controller.</p>
+</blockquote>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Gamepad_API/Using_the_Gamepad_API">Using the Gamepad API</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Gamepad_API">Gamepad API</a><br></p>
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/Gamepad">
@@ -167,7 +171,7 @@ public class Gamepad</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Gamepad_Axes" data-uid="CSharpToJavaScript.APIs.JS.Gamepad.Axes">
   Axes
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7532"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L6948"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>Gamepad.axes</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Gamepad.html">Gamepad</a><br>interface returns an array representing the controls with axes present on the device<br>(e.g. analog thumb sticks).</p>
@@ -211,10 +215,10 @@ public class Gamepad</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Gamepad_Buttons" data-uid="CSharpToJavaScript.APIs.JS.Gamepad.Buttons">
   Buttons
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7534"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L6950"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>Gamepad.buttons</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Gamepad.html">Gamepad</a> interface returns an array of <a class="xref" href="CSharpToJavaScript.APIs.JS.GamepadButton.html">GamepadButton</a> objects representing the<br>buttons present on the device.</p>
+  <div class="markdown level1 summary"><p>The <strong><code>buttons</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Gamepad.html">Gamepad</a> interface returns an array of <a class="xref" href="CSharpToJavaScript.APIs.JS.GamepadButton.html">GamepadButton</a> objects representing the buttons present on the device.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -237,7 +241,8 @@ public class Gamepad</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_Gamepad_Buttons_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>Each entry in the array is 0 if the button is not pressed, and non-zero (typically 1.0)<br>if the button is pressed. Each <a class="xref" href="CSharpToJavaScript.APIs.JS.GamepadButton.html">GamepadButton</a> object has two properties:<br><code>pressed</code> and <code>value</code>:</p>
+  <div class="markdown level1 remarks"><p>Each entry in the array is <code>0</code> if the button is not pressed, and non-zero (typically <code>1.0</code>) if the button is pressed.</p>
+<p>Each <a class="xref" href="CSharpToJavaScript.APIs.JS.GamepadButton.html">GamepadButton</a> object has two properties:</p>
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/Gamepad_API/Using_the_Gamepad_API">Using the Gamepad API</a>
 </p>
@@ -255,7 +260,7 @@ public class Gamepad</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Gamepad_Connected" data-uid="CSharpToJavaScript.APIs.JS.Gamepad.Connected">
   Connected
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7526"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L6942"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>Gamepad.connected</code></strong> property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Gamepad.html">Gamepad</a> interface returns a boolean indicating whether the gamepad is<br>still connected to the system.</p>
@@ -299,10 +304,13 @@ public class Gamepad</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Gamepad_Hand" data-uid="CSharpToJavaScript.APIs.JS.Gamepad.Hand">
   Hand
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7502"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L6918"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>hand</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Gamepad.html">Gamepad</a> interface returns an enum defining what hand the controller is being held in, or is most likely to be held in.</p>
+  <div class="markdown level1 summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>hand</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Gamepad.html">Gamepad</a> interface returns an enum defining what hand the controller is being held in, or is most likely to be held in.
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -340,10 +348,13 @@ public class Gamepad</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Gamepad_HapticActuators" data-uid="CSharpToJavaScript.APIs.JS.Gamepad.HapticActuators">
   HapticActuators
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7504"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L6920"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>hapticActuators</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Gamepad.html">Gamepad</a> interface returns an array containing <a class="xref" href="CSharpToJavaScript.APIs.JS.GamepadHapticActuator.html">GamepadHapticActuator</a> objects, each of which represents haptic feedback hardware available on the controller.</p>
+  <div class="markdown level1 summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>hapticActuators</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Gamepad.html">Gamepad</a> interface returns an array containing <a class="xref" href="CSharpToJavaScript.APIs.JS.GamepadHapticActuator.html">GamepadHapticActuator</a> objects, each of which represents haptic feedback hardware available on the controller.
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -381,7 +392,7 @@ public class Gamepad</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Gamepad_Id" data-uid="CSharpToJavaScript.APIs.JS.Gamepad.Id">
   Id
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7522"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L6938"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>Gamepad.id</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Gamepad.html">Gamepad</a><br>interface returns a string containing some information about the controller.</p>
@@ -427,7 +438,7 @@ public class Gamepad</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Gamepad_Index" data-uid="CSharpToJavaScript.APIs.JS.Gamepad.Index">
   Index
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7524"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L6940"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>Gamepad.index</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Gamepad.html">Gamepad</a><br>interface returns an integer that is auto-incremented to be unique for each device<br>currently connected to the system.</p>
@@ -471,7 +482,7 @@ public class Gamepad</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Gamepad_Mapping" data-uid="CSharpToJavaScript.APIs.JS.Gamepad.Mapping">
   Mapping
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7530"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L6946"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>Gamepad.mapping</code></strong> property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Gamepad.html">Gamepad</a> interface returns a string indicating whether the browser has<br>remapped the controls on the device to a known layout.</p>
@@ -514,10 +525,13 @@ public class Gamepad</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Gamepad_Pose" data-uid="CSharpToJavaScript.APIs.JS.Gamepad.Pose">
   Pose
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7506"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L6922"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>GamepadPose</code></strong> interface of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Gamepad_API">Gamepad API</a> represents the pose of a <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebVR_API">WebVR</a> controller at a given timestamp (which includes orientation, position, velocity, and acceleration information).</p>
+  <div class="markdown level1 summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>GamepadPose</code></strong> interface of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Gamepad_API">Gamepad API</a> represents the pose of a <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebVR_API">WebVR</a> controller at a given timestamp (which includes orientation, position, velocity, and acceleration information).
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -555,7 +569,7 @@ public class Gamepad</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Gamepad_Timestamp" data-uid="CSharpToJavaScript.APIs.JS.Gamepad.Timestamp">
   Timestamp
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7528"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L6944"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>Gamepad.timestamp</code></strong> property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Gamepad.html">Gamepad</a> interface returns a <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a><br>representing the last time the data for this gamepad was updated.</p>
@@ -584,8 +598,7 @@ public class Gamepad</code></pre>
   <div class="markdown level1 remarks"><p>The idea behind this is to allow developers to determine if the <code>axes</code> and<br><code>button</code> data have been updated from the hardware. The value must be<br>relative to the <code>navigationStart</code> attribute of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceTiming.html">PerformanceTiming</a> interface. Values are monotonically<br>increasing, meaning that they can be compared to determine the ordering of updates, as<br>newer values will always be greater than or equal to older values.</p>
 <blockquote class="NOTE">
   <h5>NOTE</h5>
-  <p>
-    <strong>Note:</strong> This property is not currently supported anywhere.</p>
+  <p>This property is not currently supported anywhere.</p>
 </blockquote>
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/Gamepad_API/Using_the_Gamepad_API">Using the Gamepad API</a>
@@ -604,7 +617,7 @@ public class Gamepad</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Gamepad_TouchEvents" data-uid="CSharpToJavaScript.APIs.JS.Gamepad.TouchEvents">
   TouchEvents
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7507"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L6923"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -635,7 +648,7 @@ public class Gamepad</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Gamepad_VibrationActuator" data-uid="CSharpToJavaScript.APIs.JS.Gamepad.VibrationActuator">
   VibrationActuator
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7536"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L6952"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>vibrationActuator</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Gamepad.html">Gamepad</a> interface returns a <a class="xref" href="CSharpToJavaScript.APIs.JS.GamepadHapticActuator.html">GamepadHapticActuator</a> object, which represents haptic feedback hardware available on the controller.</p>
@@ -661,7 +674,11 @@ public class Gamepad</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_Gamepad_VibrationActuator_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Gamepad_API">Gamepad API</a><br></p>
+  <div class="markdown level1 remarks"><blockquote class="NOTE">
+  <h5>NOTE</h5>
+  <p>Support for this property may vary across different combinations of platforms and controllers. Even if the controller supports haptic feedback, the platform may not support it.</p>
+</blockquote>
+<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Gamepad_API">Gamepad API</a><br></p>
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/Gamepad/vibrationActuator">
     <em>See also on MDN</em>
@@ -676,7 +693,7 @@ public class Gamepad</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7519" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L6935" class="edit-link">Edit this page</a>
         </div>
 
 

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class DeprecationReportBody | CSharpToJavaScript ">
       
-      <meta name="description" content="The DeprecationReportBody interface of the Reporting API represents the body of a deprecation report.">
+      <meta name="description" content="NOTE   Experimental  The DeprecationReportBody interface of the Reporting API represents the body of a deprecation report.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -77,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -89,7 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_DeprecationReportBody" data-uid="CSharpToJavaScript.APIs.JS.DeprecationReportBody" class="text-break">
-Class DeprecationReportBody  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L3996"><i class="bi bi-code-slash"></i></a>
+Class DeprecationReportBody  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L4003"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,7 +97,10 @@ Class DeprecationReportBody  <a class="header-action link-secondary" title="View
   <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>The <code>DeprecationReportBody</code> interface of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Reporting_API">Reporting API</a> represents the body of a deprecation report.</p>
+  <div class="markdown summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <code>DeprecationReportBody</code> interface of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Reporting_API">Reporting API</a> represents the body of a deprecation report.
 </div>
   <div class="markdown conceptual"></div>
 
@@ -169,15 +172,18 @@ public class DeprecationReportBody : ReportBody</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_DeprecationReportBody_AnticipatedRemoval" data-uid="CSharpToJavaScript.APIs.JS.DeprecationReportBody.AnticipatedRemoval">
   AnticipatedRemoval
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4004"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L4011"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>anticipatedRemoval</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.DeprecationReportBody.html">DeprecationReportBody</a> interface returns the date that the browser version which removes the feature will ship. This value can be used to prioritize warnings. If this property returns <code>null</code> because the date is unknown, then the deprecation should be considered low priority.</p>
+  <div class="markdown level1 summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>anticipatedRemoval</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.DeprecationReportBody.html">DeprecationReportBody</a> interface returns the date that the browser version which removes the feature will ship. This value can be used to prioritize warnings. If this property returns <code>null</code> because the date is unknown, then the deprecation should be considered low priority.
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public object? AnticipatedRemoval { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Object? AnticipatedRemoval { get; }</code></pre>
   </div>
 
 
@@ -186,7 +192,7 @@ public class DeprecationReportBody : ReportBody</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Object.html">Object</a></dt>
     <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.Date.html">Date</a> object, or <code>null</code> if the date is not known.</p>
 </dd>
   </dl>
@@ -209,10 +215,13 @@ public class DeprecationReportBody : ReportBody</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_DeprecationReportBody_ColumnNumber" data-uid="CSharpToJavaScript.APIs.JS.DeprecationReportBody.ColumnNumber">
   ColumnNumber
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4012"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L4019"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>columnNumber</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.DeprecationReportBody.html">DeprecationReportBody</a> interface returns the line in the source file in which the deprecated feature was used.</p>
+  <div class="markdown level1 summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>columnNumber</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.DeprecationReportBody.html">DeprecationReportBody</a> interface returns the line in the source file in which the deprecated feature was used.
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -237,8 +246,7 @@ public class DeprecationReportBody : ReportBody</code></pre>
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_DeprecationReportBody_ColumnNumber_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><blockquote class="NOTE">
   <h5>NOTE</h5>
-  <p>
-    <strong>Note:</strong> This property is most useful alongside <a class="xref" href="CSharpToJavaScript.APIs.JS.DeprecationReportBody.html#CSharpToJavaScript_APIs_JS_DeprecationReportBody_SourceFile">SourceFile</a> and <a class="xref" href="CSharpToJavaScript.APIs.JS.DeprecationReportBody.html#CSharpToJavaScript_APIs_JS_DeprecationReportBody_LineNumber">LineNumber</a> as it enables the location of the column in that file and line where the error occurred.</p>
+  <p>This property is most useful alongside <a class="xref" href="CSharpToJavaScript.APIs.JS.DeprecationReportBody.html#CSharpToJavaScript_APIs_JS_DeprecationReportBody_SourceFile">SourceFile</a> and <a class="xref" href="CSharpToJavaScript.APIs.JS.DeprecationReportBody.html#CSharpToJavaScript_APIs_JS_DeprecationReportBody_LineNumber">LineNumber</a> as it enables the location of the column in that file and line where the error occurred.</p>
 </blockquote>
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/DeprecationReportBody/columnNumber">
@@ -254,10 +262,13 @@ public class DeprecationReportBody : ReportBody</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_DeprecationReportBody_Id" data-uid="CSharpToJavaScript.APIs.JS.DeprecationReportBody.Id">
   Id
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4002"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L4009"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>id</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.DeprecationReportBody.html">DeprecationReportBody</a> interface returns a string representing the feature or API that is deprecated. This can be used to group or count related reports.</p>
+  <div class="markdown level1 summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>id</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.DeprecationReportBody.html">DeprecationReportBody</a> interface returns a string representing the feature or API that is deprecated. This can be used to group or count related reports.
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -294,10 +305,13 @@ public class DeprecationReportBody : ReportBody</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_DeprecationReportBody_LineNumber" data-uid="CSharpToJavaScript.APIs.JS.DeprecationReportBody.LineNumber">
   LineNumber
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4010"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L4017"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>lineNumber</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.DeprecationReportBody.html">DeprecationReportBody</a> interface returns the line in the source file in which the deprecated feature was used.</p>
+  <div class="markdown level1 summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>lineNumber</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.DeprecationReportBody.html">DeprecationReportBody</a> interface returns the line in the source file in which the deprecated feature was used.
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -322,8 +336,7 @@ public class DeprecationReportBody : ReportBody</code></pre>
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_DeprecationReportBody_LineNumber_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><blockquote class="NOTE">
   <h5>NOTE</h5>
-  <p>
-    <strong>Note:</strong> This property is most useful alongside <a class="xref" href="CSharpToJavaScript.APIs.JS.DeprecationReportBody.html#CSharpToJavaScript_APIs_JS_DeprecationReportBody_SourceFile">SourceFile</a> as it enables the location of the line in that file where the error occurred.</p>
+  <p>This property is most useful alongside <a class="xref" href="CSharpToJavaScript.APIs.JS.DeprecationReportBody.html#CSharpToJavaScript_APIs_JS_DeprecationReportBody_SourceFile">SourceFile</a> as it enables the location of the line in that file where the error occurred.</p>
 </blockquote>
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/DeprecationReportBody/lineNumber">
@@ -339,10 +352,13 @@ public class DeprecationReportBody : ReportBody</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_DeprecationReportBody_Message" data-uid="CSharpToJavaScript.APIs.JS.DeprecationReportBody.Message">
   Message
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4006"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L4013"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>message</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.DeprecationReportBody.html">DeprecationReportBody</a> interface returns a human-readable description of the deprecation. This typically matches the message a browser will display in its DevTools console regarding a deprecated feature.</p>
+  <div class="markdown level1 summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>message</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.DeprecationReportBody.html">DeprecationReportBody</a> interface returns a human-readable description of the deprecation. This typically matches the message a browser will display in its DevTools console regarding a deprecated feature.
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -379,10 +395,13 @@ public class DeprecationReportBody : ReportBody</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_DeprecationReportBody_SourceFile" data-uid="CSharpToJavaScript.APIs.JS.DeprecationReportBody.SourceFile">
   SourceFile
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4008"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L4015"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>sourceFile</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.DeprecationReportBody.html">DeprecationReportBody</a> interface returns the path to the source file where the deprecated feature was used.</p>
+  <div class="markdown level1 summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>sourceFile</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.DeprecationReportBody.html">DeprecationReportBody</a> interface returns the path to the source file where the deprecated feature was used.
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -407,8 +426,7 @@ public class DeprecationReportBody : ReportBody</code></pre>
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_DeprecationReportBody_SourceFile_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><blockquote class="NOTE">
   <h5>NOTE</h5>
-  <p>
-    <strong>Note:</strong> This property can be used with <a class="xref" href="CSharpToJavaScript.APIs.JS.DeprecationReportBody.html#CSharpToJavaScript_APIs_JS_DeprecationReportBody_LineNumber">LineNumber</a> and <a class="xref" href="CSharpToJavaScript.APIs.JS.DeprecationReportBody.html#CSharpToJavaScript_APIs_JS_DeprecationReportBody_ColumnNumber">ColumnNumber</a> to locate the column and line in the file where the error occurred.</p>
+  <p>This property can be used with <a class="xref" href="CSharpToJavaScript.APIs.JS.DeprecationReportBody.html#CSharpToJavaScript_APIs_JS_DeprecationReportBody_LineNumber">LineNumber</a> and <a class="xref" href="CSharpToJavaScript.APIs.JS.DeprecationReportBody.html#CSharpToJavaScript_APIs_JS_DeprecationReportBody_ColumnNumber">ColumnNumber</a> to locate the column and line in the file where the error occurred.</p>
 </blockquote>
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/DeprecationReportBody/sourceFile">
@@ -428,21 +446,24 @@ public class DeprecationReportBody : ReportBody</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_DeprecationReportBody_ToJSON" data-uid="CSharpToJavaScript.APIs.JS.DeprecationReportBody.ToJSON">
   ToJSON()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L4000"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L4007"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>toJSON()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.DeprecationReportBody.html">DeprecationReportBody</a> interface is a <strong>serializer</strong>, and returns a JSON representation of the <code>InterventionReportBody</code> object.</p>
+  <div class="markdown level1 summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>toJSON()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.DeprecationReportBody.html">DeprecationReportBody</a> interface is a <strong>serializer</strong>, and returns a JSON representation of the <code>InterventionReportBody</code> object.
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public object ToJSON()</code></pre>
+    <pre><code class="lang-csharp hljs">public Object ToJSON()</code></pre>
   </div>
 
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Object.html">Object</a></dt>
     <dd><p>A JSON object that is the serialization of the <a class="xref" href="CSharpToJavaScript.APIs.JS.DeprecationReportBody.html">DeprecationReportBody</a> object.</p>
 </dd>
   </dl>
@@ -468,7 +489,7 @@ public class DeprecationReportBody : ReportBody</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L3996" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L4003" class="edit-link">Edit this page</a>
         </div>
 
 

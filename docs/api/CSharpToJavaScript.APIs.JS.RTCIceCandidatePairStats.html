@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -77,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -89,7 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_RTCIceCandidatePairStats" data-uid="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats" class="text-break">
-Class RTCIceCandidatePairStats  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30453"><i class="bi bi-code-slash"></i></a>
+Class RTCIceCandidatePairStats  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26349"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -175,10 +175,10 @@ public class RTCIceCandidatePairStats : RTCStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCIceCandidatePairStats_AvailableIncomingBitrate" data-uid="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.AvailableIncomingBitrate">
   AvailableIncomingBitrate
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30483"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26381"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html">RTCIceCandidatePairStats</a> property<br><strong><code>availableIncomingBitrate</code></strong> returns a value indicative of<br>the available inbound capacity of the network connection represented by the candidate<br>pair. The higher the value, the more bandwidth you can assume is available for<br>incoming data.</p>
+  <div class="markdown level1 summary"><p>The <strong><code>availableIncomingBitrate</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html">RTCIceCandidatePairStats</a> dictionary indicates the available inbound capacity of the network connection represented by the candidate pair.<br>The higher the value, the more bandwidth you can assume is available for incoming data.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -192,7 +192,7 @@ public class RTCIceCandidatePairStats : RTCStats</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
-    <dd><p>A floating-point value which approximates the amount of available bandwidth for<br>incoming data on the network connection described by the<br><code>RTCIceCandidatePair</code>. The value is reported in bits per second and is<br>computed over a 1-second interval.The value returned is calculated by adding up the available bit rate for every<br><a href="https://developer.mozilla.org/en-US/docs/Glossary/RTP">RTP</a> stream using the connection described by this candidate pair. The<br>returned value doesn&amp;apos;t take into account overhead introduced by underlying protocols,<br>including IP, UDP, or TCP.<blockquote class="NOTE"><h5>NOTE</h5><strong>Note:</strong> The returned value is computed using a method similar—but not<br>identical—to the Transport Independent Application Specific Maximum (TIAS) described<br>in {{RFC(3890, &amp;quot;&amp;quot;, &amp;quot;6.2&amp;quot;)}}.</blockquote>
+    <dd><p>A number which approximates the amount of available bandwidth for incoming data on the network connection described by the <code>RTCIceCandidatePair</code>.<br>The value is reported in bits per second and is computed over a 1-second interval.The value returned is calculated by adding up the available bit rate for every <a href="https://developer.mozilla.org/en-US/docs/Glossary/RTP">RTP</a> stream using the connection described by this candidate pair.<br>The returned value doesn&amp;apos;t take into account overhead introduced by underlying protocols, including IP, UDP, or TCP.<blockquote class="NOTE"><h5>NOTE</h5>The returned value is computed using a method similar—but not identical—to the Transport Independent Application Specific Maximum (TIAS) described in {{RFC(3890, &amp;quot;&amp;quot;, &amp;quot;6.2&amp;quot;)}}.</blockquote>
 </dd>
   </dl>
 
@@ -201,7 +201,7 @@ public class RTCIceCandidatePairStats : RTCStats</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCIceCandidatePairStats_AvailableIncomingBitrate_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>You can get the outgoing available bitrate from<br>RTCIceCandidatePairStats.AvailableoutgoingBitrate.</p>
+  <div class="markdown level1 remarks"><p>You can get the outgoing available bitrate from <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html#CSharpToJavaScript_APIs_JS_RTCIceCandidatePairStats_AvailableOutgoingBitrate">AvailableOutgoingBitrate</a>.</p>
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCIceCandidatePairStats/availableIncomingBitrate">
     <em>See also on MDN</em>
@@ -215,10 +215,10 @@ public class RTCIceCandidatePairStats : RTCStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCIceCandidatePairStats_AvailableOutgoingBitrate" data-uid="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.AvailableOutgoingBitrate">
   AvailableOutgoingBitrate
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30481"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26379"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html">RTCIceCandidatePairStats</a> property<br><strong><code>availableOutgoingBitrate</code></strong> returns a value indicative of<br>the available outbound capacity of the network connection represented by the candidate<br>pair. The higher the value, the more bandwidth you can assume is available for<br>outgoing data.</p>
+  <div class="markdown level1 summary"><p>The <strong><code>availableOutgoingBitrate</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html">RTCIceCandidatePairStats</a> dictionary indicates the available outbound capacity of the network connection represented by the candidate pair.<br>The higher the value, the more bandwidth you can assume is available for outgoing data.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -232,7 +232,7 @@ public class RTCIceCandidatePairStats : RTCStats</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
-    <dd><p>A floating-point value which approximates the amount of available bandwidth for<br>outgoing data on the network connection described by the<br><code>RTCIceCandidatePair</code>. The value is reported in bits per second and is<br>computed over a 1-second interval.The returned value is <code>undefined</code> in each of the following situations:The value returned is calculated by adding up the available bit rate for every<br><a href="https://developer.mozilla.org/en-US/docs/Glossary/RTP">RTP</a> stream using the connection described by this candidate pair. The<br>returned value doesn&amp;apos;t take into account overhead introduced by underlying protocols,<br>including IP, UDP, or TCP.<blockquote class="NOTE"><h5>NOTE</h5><strong>Note:</strong> The returned value is computed using a method similar—but not<br>identical—to the Transport Independent Application Specific Maximum (TIAS) described<br>in {{RFC(3890, &amp;quot;&amp;quot;, &amp;quot;6.2&amp;quot;)}}.</blockquote>
+    <dd><p>A number which approximates the amount of available bandwidth for outgoing data on the network connection described by the<br><code>RTCIceCandidatePair</code>.<br>The value is reported in bits per second and is computed over a 1-second interval.The returned value is <code>undefined</code> in each of the following situations:The value returned is calculated by adding up the available bit rate for every <a href="https://developer.mozilla.org/en-US/docs/Glossary/RTP">RTP</a> stream using the connection described by this candidate pair.<br>The returned value doesn&amp;apos;t take into account overhead introduced by underlying protocols, including IP, UDP, or TCP.<blockquote class="NOTE"><h5>NOTE</h5>The returned value is computed using a method similar—but not identical—to the Transport Independent Application Specific Maximum (TIAS) described in {{RFC(3890, &amp;quot;&amp;quot;, &amp;quot;6.2&amp;quot;)}}.</blockquote>
 </dd>
   </dl>
 
@@ -241,7 +241,7 @@ public class RTCIceCandidatePairStats : RTCStats</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCIceCandidatePairStats_AvailableOutgoingBitrate_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>You can get the incoming available bitrate from<br><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html#CSharpToJavaScript_APIs_JS_RTCIceCandidatePairStats_AvailableIncomingBitrate">AvailableIncomingBitrate</a>.</p>
+  <div class="markdown level1 remarks"><p>You can get the incoming available bitrate from <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html#CSharpToJavaScript_APIs_JS_RTCIceCandidatePairStats_AvailableIncomingBitrate">AvailableIncomingBitrate</a>.</p>
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCIceCandidatePairStats/availableOutgoingBitrate">
     <em>See also on MDN</em>
@@ -255,10 +255,14 @@ public class RTCIceCandidatePairStats : RTCStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCIceCandidatePairStats_BytesDiscardedOnSend" data-uid="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.BytesDiscardedOnSend">
   BytesDiscardedOnSend
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30494"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26395"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>bytesDiscardedOnSend</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html">RTCIceCandidatePairStats</a> dictionary indicates the total number of bytes discarded due to socket errors.
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -271,13 +275,22 @@ public class RTCIceCandidatePairStats : RTCStats</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
-    <dd></dd>
+    <dd><p>An integer value indicating the total number of bytes discarded due to socket errors.<br>This is calculated as defined in {{rfc(&amp;quot;3550&amp;quot;,&amp;quot;&amp;quot;, &amp;quot;6.4.1&amp;quot;)}}.</p>
+</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCIceCandidatePairStats_BytesDiscardedOnSend_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The errors might be caused, for example, by attempting to pass packets to the socket when it is full.</p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCIceCandidatePairStats/bytesDiscardedOnSend">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -285,10 +298,10 @@ public class RTCIceCandidatePairStats : RTCStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCIceCandidatePairStats_BytesReceived" data-uid="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.BytesReceived">
   BytesReceived
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30471"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26369"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html">RTCIceCandidatePairStats</a> property<br><strong><code>bytesReceived</code></strong> indicates the total number of payload<br>bytes—that is, bytes which aren&amp;apos;t overhead such as headers or padding—that have been<br>received to date on the connection described by the candidate pair.</p>
+  <div class="markdown level1 summary"><p>The <strong><code>bytesReceived</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html">RTCIceCandidatePairStats</a> dictionary indicates the total number of received payload bytes that have been received so far on the connection described by the candidate pair.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -302,7 +315,7 @@ public class RTCIceCandidatePairStats : RTCStats</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
-    <dd><p>An integer value indicating the total number of bytes received so far on the connection<br>described by this candidate pair. Only data bytes are counted; overhead such as padding,<br>headers, and the like are not included in this count.</p>
+    <dd><p>An integer indicating the total number of bytes received so far on the connection described by this candidate pair.Only data bytes are counted; overhead such as padding, headers, and the like are not included in this count.</p>
 </dd>
   </dl>
 
@@ -311,7 +324,7 @@ public class RTCIceCandidatePairStats : RTCStats</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCIceCandidatePairStats_BytesReceived_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html#CSharpToJavaScript_APIs_JS_RTCIceCandidatePairStats_BytesSent">BytesSent</a> property reports the<br>number of bytes sent so far on the described connection.</p>
+  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html#CSharpToJavaScript_APIs_JS_RTCIceCandidatePairStats_BytesSent">BytesSent</a><br></p>
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCIceCandidatePairStats/bytesReceived">
     <em>See also on MDN</em>
@@ -325,10 +338,10 @@ public class RTCIceCandidatePairStats : RTCStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCIceCandidatePairStats_BytesSent" data-uid="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.BytesSent">
   BytesSent
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30469"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26367"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html">RTCIceCandidatePairStats</a> property<br><strong><code>bytesSent</code></strong> indicates the total number of payload<br>bytes—that is, bytes which aren&amp;apos;t overhead such as headers or padding—that have been<br>sent so far on the connection described by the candidate pair.</p>
+  <div class="markdown level1 summary"><p>The <strong><code>bytesSent</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html">RTCIceCandidatePairStats</a> dictionary indicates the total number of payload bytes that have been sent so far on the connection described by the candidate pair.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -342,7 +355,7 @@ public class RTCIceCandidatePairStats : RTCStats</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
-    <dd><p>An integer value indicating the total number of bytes sent so far on the connection<br>described by this candidate pair. Only data bytes are counted; overhead such as padding,<br>headers, and the like are not included in this count.</p>
+    <dd><p>An integer value indicating the total number of bytes sent so far on the connection described by this candidate pair.Only data bytes are counted; overhead such as padding, headers, and the like are not included in this count.</p>
 </dd>
   </dl>
 
@@ -351,7 +364,7 @@ public class RTCIceCandidatePairStats : RTCStats</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCIceCandidatePairStats_BytesSent_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html#CSharpToJavaScript_APIs_JS_RTCIceCandidatePairStats_BytesReceived">BytesReceived</a> property<br>reports the number of bytes received so far on the described connection.</p>
+  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html#CSharpToJavaScript_APIs_JS_RTCIceCandidatePairStats_BytesReceived">BytesReceived</a><br></p>
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCIceCandidatePairStats/bytesSent">
     <em>See also on MDN</em>
@@ -365,10 +378,14 @@ public class RTCIceCandidatePairStats : RTCStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCIceCandidatePairStats_ConsentRequestsSent" data-uid="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.ConsentRequestsSent">
   ConsentRequestsSent
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30492"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26391"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>consentRequestsSent</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html">RTCIceCandidatePairStats</a> dictionary indicates the total number of consent requests sent on this candidate pair.
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -381,13 +398,22 @@ public class RTCIceCandidatePairStats : RTCStats</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
-    <dd></dd>
+    <dd><p>An integer value indicating the total number consent requests sent to the peers in the candidate pair.</p>
+</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCIceCandidatePairStats_ConsentRequestsSent_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>If either or both of the peers in the pair access the internet via <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API/Protocols#nat">Network Address Translation</a> (NAT), the other peer will need to regularly send a <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API/Protocols#stun">Session Traversal Utilities for NAT (STUN)</a> request to the NAT firewall to ask for consent to allow traffic to flow.<br>This property counts the number of requests.<br>{{rfc("7675")}} has more information about NAT and consent.</p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCIceCandidatePairStats/consentRequestsSent">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -395,10 +421,10 @@ public class RTCIceCandidatePairStats : RTCStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCIceCandidatePairStats_CurrentRoundTripTime" data-uid="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.CurrentRoundTripTime">
   CurrentRoundTripTime
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30479"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26377"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html">RTCIceCandidatePairStats</a> property<br><strong><code>currentRoundTripTime</code></strong> is a floating-point value<br>indicating the number of seconds it takes for data to be sent by this peer to the<br>remote peer and back over the connection described by this pair of <a href="https://developer.mozilla.org/en-US/docs/Glossary/ICE">ICE</a><br>candidates.</p>
+  <div class="markdown level1 summary"><p>The <strong><code>currentRoundTripTime</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html">RTCIceCandidatePairStats</a> dictionary indicates the number of seconds it takes for data to be sent by this peer to the remote peer and back over the connection described by this pair of {{Glossary(&quot;ICE&quot;)}} candidates.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -412,7 +438,7 @@ public class RTCIceCandidatePairStats : RTCStats</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
-    <dd><p>A floating-point value indicating the round-trip time, in seconds for the connection<br>described by the pair of candidates for which this <code>RTCIceCandidatePairStats</code><br>object offers statistics.This value is computed by observing the time that elapsed between the most recent<br><a href="https://developer.mozilla.org/en-US/docs/Glossary/STUN">STUN</a> request being sent to the remote peer and the response to that<br>request arriving. This information may come from ongoing STUN connectivity checks as<br>well as from consent requests made when the connection was initially being opened.</p>
+    <dd><p>A number indicating the round-trip time, in seconds, for the connection described by the pair of candidates for which this <code>RTCIceCandidatePairStats</code> object offers statistics.This value is computed by observing the time that elapsed between the most recent <a href="https://developer.mozilla.org/en-US/docs/Glossary/STUN">STUN</a> request being sent to the remote peer and the response to that request arriving.<br>This information may come from ongoing STUN connectivity checks as well as from consent requests made when the connection was initially being opened.</p>
 </dd>
   </dl>
 
@@ -434,10 +460,10 @@ public class RTCIceCandidatePairStats : RTCStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCIceCandidatePairStats_LastPacketReceivedTimestamp" data-uid="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.LastPacketReceivedTimestamp">
   LastPacketReceivedTimestamp
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30475"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26373"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html">RTCIceCandidatePairStats</a> property<br><strong><code>lastPacketReceivedTimestamp</code></strong> indicates the time at which<br>the connection described by the candidate pair last received a packet.<br><a href="https://developer.mozilla.org/en-US/docs/Glossary/STUN">STUN</a> packets are not included.</p>
+  <div class="markdown level1 summary"><p>The <strong><code>lastPacketReceivedTimestamp</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html">RTCIceCandidatePairStats</a> dictionary indicates the time at which the connection described by the candidate pair last received a packet.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -451,7 +477,7 @@ public class RTCIceCandidatePairStats : RTCStats</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
-    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a> object indicating the timestamp at which the<br>connection described by pair of candidates last received a packet, STUN packets<br>excluded.</p>
+    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a> object indicating the timestamp at which the connection described by pair of candidates last received a packet, STUN packets excluded.</p>
 </dd>
   </dl>
 
@@ -461,6 +487,8 @@ public class RTCIceCandidatePairStats : RTCStats</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCIceCandidatePairStats_LastPacketReceivedTimestamp_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Glossary/STUN">STUN</a> packets are not included.</p>
+<p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCIceCandidatePairStats/lastPacketReceivedTimestamp">
     <em>See also on MDN</em>
   </a>
@@ -473,10 +501,10 @@ public class RTCIceCandidatePairStats : RTCStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCIceCandidatePairStats_LastPacketSentTimestamp" data-uid="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.LastPacketSentTimestamp">
   LastPacketSentTimestamp
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30473"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26371"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html">RTCIceCandidatePairStats</a> property<br><strong><code>lastPacketSentTimestamp</code></strong> indicates the time at which the<br>connection described by the candidate pair last sent a packet, not including<br><a href="https://developer.mozilla.org/en-US/docs/Glossary/STUN">STUN</a> packets.</p>
+  <div class="markdown level1 summary"><p>The <strong><code>lastPacketSentTimestamp</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html">RTCIceCandidatePairStats</a> dictionary indicates the time at which the connection described by the candidate pair last sent a packet, not including {{Glossary(&quot;STUN&quot;)}} packets.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -490,7 +518,7 @@ public class RTCIceCandidatePairStats : RTCStats</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
-    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a> object indicating the timestamp at which the<br>connection described by pair of candidates last sent a packet, STUN packets excluded.</p>
+    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a> object indicating the timestamp at which the connection described by pair of candidates last sent a packet, STUN packets excluded.</p>
 </dd>
   </dl>
 
@@ -512,10 +540,10 @@ public class RTCIceCandidatePairStats : RTCStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCIceCandidatePairStats_LocalCandidateId" data-uid="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.LocalCandidateId">
   LocalCandidateId
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30459"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26355"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html">RTCIceCandidatePairStats</a> property<br><strong><code>localCandidateId</code></strong> is a string that uniquely identifies<br>the local <a href="https://developer.mozilla.org/en-US/docs/Glossary/ICE">ICE</a> candidate which was analyzed to generate the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidateStats.html">RTCIceCandidateStats</a> used to compute the statistics for this pair of<br>candidates.</p>
+  <div class="markdown level1 summary"><p>The <strong><code>localCandidateId</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html">RTCIceCandidatePairStats</a> dictionary is a string that uniquely identifies the local {{Glossary(&quot;ICE&quot;)}} candidate which was analyzed to generate the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidateStats.html">RTCIceCandidateStats</a> used to compute the statistics for this pair of candidates.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -529,7 +557,7 @@ public class RTCIceCandidatePairStats : RTCStats</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>A string giving a unique identifier for the local<br><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidate.html">RTCIceCandidate</a> for the connection described by this<br><code>RTCIceCandidatePairStats</code> object.This candidate is the source of one of the two <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidateStats.html">RTCIceCandidateStats</a><br>objects that were used to compute the contents of this<br><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html">RTCIceCandidatePairStats</a> object.</p>
+    <dd><p>A string giving a unique identifier for the local <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidate.html">RTCIceCandidate</a> for the connection described by this <code>RTCIceCandidatePairStats</code> object.This candidate is the source of one of the two <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidateStats.html">RTCIceCandidateStats</a> objects that were used to compute the contents of this <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html">RTCIceCandidatePairStats</a> object.</p>
 </dd>
   </dl>
 
@@ -551,10 +579,10 @@ public class RTCIceCandidatePairStats : RTCStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCIceCandidatePairStats_Nominated" data-uid="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.Nominated">
   Nominated
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30465"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26361"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html">RTCIceCandidatePairStats</a> property<br><strong><code>nominated</code></strong> specifies whether or not the candidate pair<br>described by the underlying <code>RTCIceCandidatePair</code> has been nominated to be<br>used as the configuration for the WebRTC connection.</p>
+  <div class="markdown level1 summary"><p>The <strong><code>nominated</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html">RTCIceCandidatePairStats</a> dictionary specifies whether or not the candidate pair described by the underlying <code>RTCIceCandidatePair</code> has been nominated to be used as the configuration for the WebRTC connection.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -568,7 +596,7 @@ public class RTCIceCandidatePairStats : RTCStats</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p>A Boolean value which is set to <code>true</code> by the ICE layer if the controlling<br>user agent has indicated that the candidate pair should be used to configure the WebRTC<br>connection between the two peers.<blockquote class="NOTE"><h5>NOTE</h5><strong>Note:</strong> If more than one candidate pair are nominated at the same<br>time, the one whose priority is higher will be selected for use.</blockquote>Once a candidate pair has been nominated and the two peers have each reconfigured<br>themselves to use the specified configuration, the ICE negotiation process can<br>potentially end (or it can continue, to allow the connection to adapt to changing<br>conditions).
+    <dd><p>A Boolean value which is set to <code>true</code> by the ICE layer if the controlling user agent has indicated that the candidate pair should be used to configure the WebRTC connection between the two peers.<blockquote class="NOTE"><h5>NOTE</h5>If more than one candidate pair are nominated at the same time, the one whose priority is higher will be selected for use.</blockquote>Once a candidate pair has been nominated and the two peers have each reconfigured themselves to use the specified configuration, the ICE negotiation process can potentially end (or it can continue, to allow the connection to adapt to changing conditions).
 </dd>
   </dl>
 
@@ -590,10 +618,14 @@ public class RTCIceCandidatePairStats : RTCStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCIceCandidatePairStats_PacketsDiscardedOnSend" data-uid="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.PacketsDiscardedOnSend">
   PacketsDiscardedOnSend
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30493"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26393"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>packetsDiscardedOnSend</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html">RTCIceCandidatePairStats</a> dictionary indicates the total number of packets discarded due to socket errors
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -606,13 +638,23 @@ public class RTCIceCandidatePairStats : RTCStats</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
-    <dd></dd>
+    <dd><p>An integer value indicating the total number of packets discarded due to socket errors.</p>
+</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCIceCandidatePairStats_PacketsDiscardedOnSend_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>The errors might be caused, for example, by attempting to pass packets to the socket when it is full.</p>
+<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html#CSharpToJavaScript_APIs_JS_RTCIceCandidatePairStats_BytesDiscardedOnSend">BytesDiscardedOnSend</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCIceCandidatePairStats/packetsDiscardedOnSend">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -620,10 +662,14 @@ public class RTCIceCandidatePairStats : RTCStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCIceCandidatePairStats_PacketsReceived" data-uid="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.PacketsReceived">
   PacketsReceived
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30467"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26365"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>packetsReceived</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html">RTCIceCandidatePairStats</a> dictionary indicates the total number of packets received on the candidate pair.
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -636,13 +682,22 @@ public class RTCIceCandidatePairStats : RTCStats</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
-    <dd></dd>
+    <dd><p>An integer value indicating the total number of packets received on the pair.</p>
+</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCIceCandidatePairStats_PacketsReceived_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html#CSharpToJavaScript_APIs_JS_RTCIceCandidatePairStats_BytesReceived">BytesReceived</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCIceCandidatePairStats/packetsReceived">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -650,10 +705,14 @@ public class RTCIceCandidatePairStats : RTCStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCIceCandidatePairStats_PacketsSent" data-uid="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.PacketsSent">
   PacketsSent
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30466"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26363"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>packetsSent</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html">RTCIceCandidatePairStats</a> dictionary indicates the total number of packets sent on the candidate pair.
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -666,13 +725,22 @@ public class RTCIceCandidatePairStats : RTCStats</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
-    <dd></dd>
+    <dd><p>An integer value indicating the total number of packets sent on the pair.</p>
+</dd>
   </dl>
 
 
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCIceCandidatePairStats_PacketsSent_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html#CSharpToJavaScript_APIs_JS_RTCIceCandidatePairStats_BytesSent">BytesSent</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCIceCandidatePairStats/packetsSent">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -680,10 +748,10 @@ public class RTCIceCandidatePairStats : RTCStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCIceCandidatePairStats_RemoteCandidateId" data-uid="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.RemoteCandidateId">
   RemoteCandidateId
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30461"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26357"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html">RTCIceCandidatePairStats</a> property<br><strong><code>remoteCandidateId</code></strong> is a string that uniquely identifies<br>the remote <a href="https://developer.mozilla.org/en-US/docs/Glossary/ICE">ICE</a> candidate which was analyzed to generate the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidateStats.html">RTCIceCandidateStats</a> used to compute the statistics for this pair of<br>candidates.</p>
+  <div class="markdown level1 summary"><p>The <strong><code>remoteCandidateId</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html">RTCIceCandidatePairStats</a> dictionary uniquely identifies the remote {{Glossary(&quot;ICE&quot;)}} candidate which was analyzed to generate the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidateStats.html">RTCIceCandidateStats</a> used to compute the statistics for this pair of candidates.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -697,7 +765,7 @@ public class RTCIceCandidatePairStats : RTCStats</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>A string uniquely identifies the remote <a href="https://developer.mozilla.org/en-US/docs/Glossary/ICE">ICE</a><br>candidate—that is, the candidate describing a configuration for the remote peer—which is<br>represented by the remote end of these statistics.</p>
+    <dd><p>A string uniquely identifying the remote <a href="https://developer.mozilla.org/en-US/docs/Glossary/ICE">ICE</a> candidate—that is, the candidate describing a configuration for the remote peer—which is represented by the remote end of these statistics.</p>
 </dd>
   </dl>
 
@@ -719,10 +787,10 @@ public class RTCIceCandidatePairStats : RTCStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCIceCandidatePairStats_RequestsReceived" data-uid="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.RequestsReceived">
   RequestsReceived
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30485"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26383"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html">RTCIceCandidatePairStats</a> dictionary's<br><strong><code>requestsReceived</code></strong> property indicates the total number of<br><a href="https://developer.mozilla.org/en-US/docs/Glossary/STUN">STUN</a> connectivity check requests that have been received so far on the<br>connection described by this pairing of candidates.</p>
+  <div class="markdown level1 summary"><p>The <strong><code>requestsReceived</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html">RTCIceCandidatePairStats</a> dictionary indicates the total number of {{Glossary(&quot;STUN&quot;)}} connectivity check requests that have been received so far on the connection described by this pairing of candidates.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -736,7 +804,7 @@ public class RTCIceCandidatePairStats : RTCStats</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
-    <dd><p>An integer value which specifies the number of STUN connectivity and/or consent<br>requests that have been received to date on the connection described by this pair of<br><a href="https://developer.mozilla.org/en-US/docs/Glossary/ICE">ICE</a> candidates.Because there&amp;apos;s no way to tell the difference between requests made to check<br>connectivity and requests made to check consent, the returned figure includes both.<blockquote class="NOTE"><h5>NOTE</h5><strong>Note:</strong> The reported number of requests includes retransmissions. If a<br>request had to be repeated due to network issues, it will be counted multiple times<br>here. This differs from <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html#CSharpToJavaScript_APIs_JS_RTCIceCandidatePairStats_RequestsSent">RequestsSent</a>, which <strong>does not</strong> include retransmisions.</blockquote>
+    <dd><p>An integer value which specifies the number of STUN connectivity and/or consent requests that have been received to date on the connection described by this pair of <a href="https://developer.mozilla.org/en-US/docs/Glossary/ICE">ICE</a> candidates.Because there&amp;apos;s no way to tell the difference between requests made to check connectivity and requests made to check consent, the returned figure includes both.<blockquote class="NOTE"><h5>NOTE</h5>The reported number of requests includes retransmissions.<br>If a request had to be repeated due to network issues, it will be counted multiple times here.<br>This differs from <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html#CSharpToJavaScript_APIs_JS_RTCIceCandidatePairStats_RequestsSent">RequestsSent</a>, which <strong>does not</strong> include retransmissions.</blockquote>
 </dd>
   </dl>
 
@@ -758,10 +826,10 @@ public class RTCIceCandidatePairStats : RTCStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCIceCandidatePairStats_RequestsSent" data-uid="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.RequestsSent">
   RequestsSent
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30487"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26385"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html">RTCIceCandidatePairStats</a> dictionary's<br><strong><code>requestsSent</code></strong> property indicates the total number of<br><a href="https://developer.mozilla.org/en-US/docs/Glossary/STUN">STUN</a> connectivity check requests that have been sent so far on the<br>connection described by this pair of candidates.</p>
+  <div class="markdown level1 summary"><p>The <strong><code>requestsSent</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html">RTCIceCandidatePairStats</a> dictionary indicates the total number of {{Glossary(&quot;STUN&quot;)}} connectivity check requests that have been sent so far on the connection described by this pair of candidates.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -775,7 +843,7 @@ public class RTCIceCandidatePairStats : RTCStats</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
-    <dd><p>An integer value which specifies the number of STUN connectivity requests that have<br>been sent to date on the connection described by this pair of <a href="https://developer.mozilla.org/en-US/docs/Glossary/ICE">ICE</a><br>candidates.<blockquote class="NOTE"><h5>NOTE</h5><strong>Note:</strong> The reported number of requests <strong>does not</strong> include<br>retransmissions. If a request had to be repeated due to network issues, it will be<br>counted multiple times here. This differs from<br><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html#CSharpToJavaScript_APIs_JS_RTCIceCandidatePairStats_RequestsReceived">RequestsReceived</a>, which<br><strong>does</strong> include retransmissions.</blockquote>
+    <dd><p>An integer value which specifies the number of STUN connectivity requests that have been sent to date on the connection described by this pair of <a href="https://developer.mozilla.org/en-US/docs/Glossary/ICE">ICE</a> candidates.<blockquote class="NOTE"><h5>NOTE</h5>The reported number of requests <strong>does not</strong> include retransmissions.<br>If a request had to be repeated due to network issues, it will be counted multiple times here.<br>This differs from <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html#CSharpToJavaScript_APIs_JS_RTCIceCandidatePairStats_RequestsReceived">RequestsReceived</a>, which <strong>does</strong> include retransmissions.</blockquote>
 </dd>
   </dl>
 
@@ -797,10 +865,10 @@ public class RTCIceCandidatePairStats : RTCStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCIceCandidatePairStats_ResponsesReceived" data-uid="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.ResponsesReceived">
   ResponsesReceived
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30489"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26387"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>responsesReceived</code></strong> property<br>in the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html">RTCIceCandidatePairStats</a> dictionary indicates the total number<br>of <a href="https://developer.mozilla.org/en-US/docs/Glossary/STUN">STUN</a> connectivity check responses that have been received on the<br>connection described by this pair of candidates.</p>
+  <div class="markdown level1 summary"><p>The <strong><code>responsesReceived</code></strong> property in the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html">RTCIceCandidatePairStats</a> dictionary indicates the total number of {{Glossary(&quot;STUN&quot;)}} connectivity check responses that have been received on the connection described by this pair of candidates.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -814,7 +882,7 @@ public class RTCIceCandidatePairStats : RTCStats</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
-    <dd><p>An integer value which specifies the number of STUN connectivity request responses that<br>have been received on the connection described by this pair of candidates so far.</p>
+    <dd><p>An integer value which specifies the number of STUN connectivity request responses that have been received on the connection described by this pair of candidates so far.</p>
 </dd>
   </dl>
 
@@ -836,10 +904,10 @@ public class RTCIceCandidatePairStats : RTCStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCIceCandidatePairStats_ResponsesSent" data-uid="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.ResponsesSent">
   ResponsesSent
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30491"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26389"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html">RTCIceCandidatePairStats</a> dictionary's<br><strong><code>responsesSent</code></strong> property indicates the total number of<br><a href="https://developer.mozilla.org/en-US/docs/Glossary/STUN">STUN</a> connectivity check responses that have been sent so far on the<br>connection described by this pair of candidates.</p>
+  <div class="markdown level1 summary"><p>The <strong><code>responsesSent</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html">RTCIceCandidatePairStats</a> dictionary indicates the total number of {{Glossary(&quot;STUN&quot;)}} connectivity check responses that have been sent so far on the connection described by this pair of candidates.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -853,7 +921,7 @@ public class RTCIceCandidatePairStats : RTCStats</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
-    <dd><p>An integer value indicating the number of times a response has been sent to a<br><a href="https://developer.mozilla.org/en-US/docs/Glossary/STUN">STUN</a> connectivity check request.<blockquote class="NOTE"><h5>NOTE</h5><strong>Note:</strong> Since it isn&amp;apos;t possible to tell the difference between<br>connectivity check requests and consent requests, this value includes both.</blockquote>
+    <dd><p>An integer value indicating the number of times a response has been sent to a <a href="https://developer.mozilla.org/en-US/docs/Glossary/STUN">STUN</a> connectivity check request.<blockquote class="NOTE"><h5>NOTE</h5>Since it isn&amp;apos;t possible to tell the difference between connectivity check requests and consent requests, this value includes both.</blockquote>
 </dd>
   </dl>
 
@@ -875,10 +943,10 @@ public class RTCIceCandidatePairStats : RTCStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCIceCandidatePairStats_State" data-uid="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.State">
   State
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30463"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26359"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>state</code></strong> property is a string that indicates the state of the checklist of which the candidate pair is a member.</p>
+  <div class="markdown level1 summary"><p>The <strong><code>state</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html">RTCIceCandidatePairStats</a> dictionary indicates the state of the <a href="https://developer.mozilla.org#ice_check_lists">checklist</a> of which the candidate pair is a member.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -914,10 +982,10 @@ public class RTCIceCandidatePairStats : RTCStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCIceCandidatePairStats_TotalRoundTripTime" data-uid="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.TotalRoundTripTime">
   TotalRoundTripTime
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30477"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26375"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html">RTCIceCandidatePairStats</a> dictionary's<br><strong><code>totalRoundTripTime</code></strong> property is the total time that has<br>elapsed between sending <a href="https://developer.mozilla.org/en-US/docs/Glossary/STUN">STUN</a> requests and receiving the responses, for<br>all such requests that have been made so far on the pair of candidates described by<br>this <code>RTCIceCandidatePairStats</code> object. This value includes both<br>connectivity check and consent check requests.</p>
+  <div class="markdown level1 summary"><p>The <strong><code>totalRoundTripTime</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html">RTCIceCandidatePairStats</a> dictionary indicates the total time that has elapsed between sending {{Glossary(&quot;STUN&quot;)}} requests and receiving the responses, for all such requests that have been made so far on the pair of candidates described by this <code>RTCIceCandidatePairStats</code> object.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -931,7 +999,7 @@ public class RTCIceCandidatePairStats : RTCStats</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
-    <dd><p>This floating-point value indicates the total number of seconds which have elapsed<br>between sending out STUN connectivity and consent check requests and receiving their<br>responses, for all such requests made so far on the connection described by this<br>candidate pair.You can calculate the average round-trip time (RTT) by dividing this value by the value<br>of the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html#CSharpToJavaScript_APIs_JS_RTCIceCandidatePairStats_ResponsesReceived">ResponsesReceived</a><br>property:</p>
+    <dd><p>This real number indicates the total number of seconds which have elapsed between sending out STUN connectivity and consent check requests and receiving their responses, for all such requests made so far on the connection described by this candidate pair.You can calculate the average round-trip time (RTT) by dividing this value by the value of the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html#CSharpToJavaScript_APIs_JS_RTCIceCandidatePairStats_ResponsesReceived">ResponsesReceived</a> property:</p>
 </dd>
   </dl>
 
@@ -940,7 +1008,8 @@ public class RTCIceCandidatePairStats : RTCStats</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCIceCandidatePairStats_TotalRoundTripTime_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>
+  <div class="markdown level1 remarks"><p>This value includes both connectivity check and consent check requests.</p>
+<p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCIceCandidatePairStats/totalRoundTripTime">
     <em>See also on MDN</em>
   </a>
@@ -953,10 +1022,10 @@ public class RTCIceCandidatePairStats : RTCStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCIceCandidatePairStats_TransportId" data-uid="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.TransportId">
   TransportId
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30457"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26353"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>transportId</code></strong> property<br>uniquely identifies the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceTransport.html">RTCIceTransport</a> that was inspected to obtain<br>the transport-related statistics contained in the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html">RTCIceCandidatePairStats</a> object.</p>
+  <div class="markdown level1 summary"><p>The <strong><code>transportId</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html">RTCIceCandidatePairStats</a> dictionary uniquely identifies the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceTransport.html">RTCIceTransport</a> object that was inspected to obtain the transport-related statistics contained in the stats object.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -970,7 +1039,7 @@ public class RTCIceCandidatePairStats : RTCStats</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>A string which uniquely identifies the <code>RTCIceTransport</code><br>object from which the transport-related data was obtained for the statistics contained<br>in this <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html">RTCIceCandidatePairStats</a> object.The transport-related statistics come from the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCTransportStats.html">RTCTransportStats</a><br>dictionary&amp;apos;s properties.</p>
+    <dd><p>A string which uniquely identifies the <code>RTCIceTransport</code> object from which the transport-related data was obtained for the statistics contained in this <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidatePairStats.html">RTCIceCandidatePairStats</a> object.The transport-related statistics come from the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCTransportStats.html">RTCTransportStats</a> dictionary.</p>
 </dd>
   </dl>
 
@@ -993,7 +1062,7 @@ public class RTCIceCandidatePairStats : RTCStats</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30453" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26349" class="edit-link">Edit this page</a>
         </div>
 
 

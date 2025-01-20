@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -77,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -89,7 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_PushManager" data-uid="CSharpToJavaScript.APIs.JS.PushManager" class="text-break">
-Class PushManager  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16803"><i class="bi bi-code-slash"></i></a>
+Class PushManager  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L15371"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -167,10 +167,10 @@ public class PushManager</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_PushManager_SupportedContentEncodings" data-uid="CSharpToJavaScript.APIs.JS.PushManager.SupportedContentEncodings">
   SupportedContentEncodings
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16807"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L15375"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>supportedContentEncodings</code></strong> read-only static property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.PushManager.html">PushManager</a> interface returns an array of supported content codings that<br>can be used to encrypt the payload of a push message.</p>
+  <div class="markdown level1 summary"><p>The <strong><code>supportedContentEncodings</code></strong> read-only static property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.PushManager.html">PushManager</a> interface returns an array of supported content codings that can be used to encrypt the payload of a push message.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -185,7 +185,7 @@ public class PushManager</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>[]</dt>
-    <dd><p>An array of strings.</p>
+    <dd><p>An array of strings.<br>This usually contains just one value: <code>&amp;quot;aes128gcm&amp;quot;</code>.</p>
 </dd>
   </dl>
 
@@ -193,7 +193,10 @@ public class PushManager</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_PushManager_SupportedContentEncodings_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>
+  <div class="markdown level1 remarks"><p>User agents must support the <code>aes128gcm</code> content coding defined in {{rfc("8291")}}, and may also support content codings defined from previous versions of the specification.<br>The returned array is frozen, and may not be modified by the recipient.</p>
+<p>The application server requires this coding in order to encrypt push messages for sending to the push server.<br>The coding used for encryption is also included by the app server in the <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Encoding">Content-Encoding</a> HTTP header field of each push message.</p>
+<p>The specification does not define how the client code should send the application server the supported codings, or the information in the <a class="xref" href="CSharpToJavaScript.APIs.JS.PushSubscription.html">PushSubscription</a> that it also needs in order to encrypt and send a push message.<br>One approach is shown in the examples section below.</p>
+<p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/PushManager/supportedContentEncodings">
     <em>See also on MDN</em>
   </a>
@@ -211,7 +214,7 @@ public class PushManager</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_PushManager_GetSubscription" data-uid="CSharpToJavaScript.APIs.JS.PushManager.GetSubscription">
   GetSubscription()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16811"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L15379"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>PushManager.getSubscription()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.PushManager.html">PushManager</a> interface retrieves an existing push subscription.</p>
@@ -252,7 +255,7 @@ public class PushManager</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_PushManager_PermissionState_CSharpToJavaScript_APIs_JS_PushSubscriptionOptionsInit_" data-uid="CSharpToJavaScript.APIs.JS.PushManager.PermissionState(CSharpToJavaScript.APIs.JS.PushSubscriptionOptionsInit)">
   PermissionState(PushSubscriptionOptionsInit)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16813"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L15381"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>permissionState()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.PushManager.html">PushManager</a> interface returns a {{jsxref(&quot;Promise&quot;)}} that resolves to a<br>string indicating the permission state of the push manager. Possible<br>values are <code>&amp;apos;prompt&amp;apos;</code>, <code>&amp;apos;denied&amp;apos;</code>, or <code>&amp;apos;granted&amp;apos;</code>.</p>
@@ -260,7 +263,7 @@ public class PushManager</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;PermissionState&gt; PermissionState(PushSubscriptionOptionsInit options)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;PermissionState&gt; PermissionState(PushSubscriptionOptionsInit options = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -285,8 +288,7 @@ public class PushManager</code></pre>
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_PushManager_PermissionState_CSharpToJavaScript_APIs_JS_PushSubscriptionOptionsInit__remarks">Remarks</h4>
   <div class="markdown level1 remarks"><blockquote class="NOTE">
   <h5>NOTE</h5>
-  <p>
-    <strong>Note:</strong> As of Firefox 44, the permissions for <a href="https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API">Notifications</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/API/Push_API">Push</a> have been merged. If permission is<br>granted for notifications, push will also be enabled.</p>
+  <p>As of Firefox 44, the permissions for <a href="https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API">Notifications</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/API/Push_API">Push</a> have been merged. If permission is<br>granted for notifications, push will also be enabled.</p>
 </blockquote>
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/PushManager/permissionState">
@@ -302,7 +304,7 @@ public class PushManager</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_PushManager_Subscribe_CSharpToJavaScript_APIs_JS_PushSubscriptionOptionsInit_" data-uid="CSharpToJavaScript.APIs.JS.PushManager.Subscribe(CSharpToJavaScript.APIs.JS.PushSubscriptionOptionsInit)">
   Subscribe(PushSubscriptionOptionsInit)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16809"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L15377"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>subscribe()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.PushManager.html">PushManager</a><br>interface subscribes to a push service.</p>
@@ -310,7 +312,7 @@ public class PushManager</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;PushSubscription&gt; Subscribe(PushSubscriptionOptionsInit options)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;PushSubscription&gt; Subscribe(PushSubscriptionOptionsInit options = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -348,7 +350,7 @@ public class PushManager</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L16803" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L15371" class="edit-link">Edit this page</a>
         </div>
 
 

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -77,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -89,7 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_GamepadHapticActuator" data-uid="CSharpToJavaScript.APIs.JS.GamepadHapticActuator" class="text-break">
-Class GamepadHapticActuator  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7563"><i class="bi bi-code-slash"></i></a>
+Class GamepadHapticActuator  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L6968"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -167,10 +167,14 @@ public class GamepadHapticActuator</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_GamepadHapticActuator_Effects" data-uid="CSharpToJavaScript.APIs.JS.GamepadHapticActuator.Effects">
   Effects
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7565"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L6971"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>effects</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.GamepadHapticActuator.html">GamepadHapticActuator</a> interface returns an array of enumerated values representing the different haptic effects that the actuator supports.
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -184,12 +188,21 @@ public class GamepadHapticActuator</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GamepadHapticEffectType.html">GamepadHapticEffectType</a>[]</dt>
-    <dd></dd>
+    <dd><p>An array representing the supported haptic effects. Possible included values are:<blockquote class="NOTE"><h5>NOTE</h5>If an effect is not listed that is known to be supported by the hardware, it may be that the browser does not support playing effects of that type.</blockquote>
+</dd>
   </dl>
 
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_GamepadHapticActuator_Effects_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Gamepad_API">Gamepad API</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/GamepadHapticActuator/effects">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -202,15 +215,15 @@ public class GamepadHapticActuator</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_GamepadHapticActuator_PlayEffect_CSharpToJavaScript_APIs_JS_GamepadHapticEffectType_CSharpToJavaScript_APIs_JS_GamepadEffectParameters_" data-uid="CSharpToJavaScript.APIs.JS.GamepadHapticActuator.PlayEffect(CSharpToJavaScript.APIs.JS.GamepadHapticEffectType,CSharpToJavaScript.APIs.JS.GamepadEffectParameters)">
   PlayEffect(GamepadHapticEffectType, GamepadEffectParameters)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7567"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L6973"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>playEffect()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.GamepadHapticActuator.html">GamepadHapticActuator</a> interface makes the hardware play a specific vibration pattern.</p>
+  <div class="markdown level1 summary"><p>The <strong><code>playEffect()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.GamepadHapticActuator.html">GamepadHapticActuator</a> interface causes the hardware to play a specific vibration effect.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;GamepadHapticsResult&gt; PlayEffect(GamepadHapticEffectType type, GamepadEffectParameters params_)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;GamepadHapticsResult&gt; PlayEffect(GamepadHapticEffectType type, GamepadEffectParameters params_ = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -224,7 +237,7 @@ public class GamepadHapticActuator</code></pre>
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CSharpToJavaScript.APIs.JS.GamepadHapticsResult.html">GamepadHapticsResult</a>&gt;</dt>
-    <dd><p>A promise that resolves with <code>true</code> when the playEffect successfully completes.</p>
+    <dd><p>A promise that resolves with <code>&amp;quot;complete&amp;quot;</code> when the effect successfully completes, or <code>&amp;quot;preempted&amp;quot;</code> if the current effect is stopped or replaced by another effect.The promise may reject with the following exception types:</p>
 </dd>
   </dl>
 
@@ -250,7 +263,7 @@ public class GamepadHapticActuator</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_GamepadHapticActuator_Pulse_CSharpToJavaScript_APIs_JS_Number_CSharpToJavaScript_APIs_JS_Number_" data-uid="CSharpToJavaScript.APIs.JS.GamepadHapticActuator.Pulse(CSharpToJavaScript.APIs.JS.Number,CSharpToJavaScript.APIs.JS.Number)">
   Pulse(Number, Number)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7515"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L6931"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>pulse()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.GamepadHapticActuator.html">GamepadHapticActuator</a> interface makes the hardware pulse at a certain intensity for a specified duration.</p>
@@ -298,10 +311,11 @@ public class GamepadHapticActuator</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_GamepadHapticActuator_Reset" data-uid="CSharpToJavaScript.APIs.JS.GamepadHapticActuator.Reset">
   Reset()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7568"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L6975"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The <strong><code>reset()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.GamepadHapticActuator.html">GamepadHapticActuator</a> interface stops the hardware from playing an active vibration effect.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -312,7 +326,8 @@ public class GamepadHapticActuator</code></pre>
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CSharpToJavaScript.APIs.JS.GamepadHapticsResult.html">GamepadHapticsResult</a>&gt;</dt>
-    <dd></dd>
+    <dd><p>A promise that resolves with <code>&amp;quot;complete&amp;quot;</code> if the effect is successfully reset, or <code>&amp;quot;preempted&amp;quot;</code> if the effect was stopped or replaced by another effect.The promise may reject with the following exception types:</p>
+</dd>
   </dl>
 
 
@@ -321,6 +336,14 @@ public class GamepadHapticActuator</code></pre>
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_GamepadHapticActuator_Reset_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Gamepad_API">Gamepad API</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/GamepadHapticActuator/reset">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -329,7 +352,7 @@ public class GamepadHapticActuator</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L7563" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L6968" class="edit-link">Edit this page</a>
         </div>
 
 

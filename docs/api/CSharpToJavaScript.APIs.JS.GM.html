@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class GM | CSharpToJavaScript ">
       
-      
+      <meta name="description" content="Greasemonkey API">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -77,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -89,7 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_GM" data-uid="CSharpToJavaScript.APIs.JS.GM" class="text-break">
-Class GM  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/GM.cs/#L10"><i class="bi bi-code-slash"></i></a>
+Class GM  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/GM.cs/#L11"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,7 +97,8 @@ Class GM  <a class="header-action link-secondary" title="View source" href="http
   <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><p><a href="https://wiki.greasespot.net/Greasemonkey_Manual:API">Greasemonkey API</a></p>
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
@@ -157,7 +158,7 @@ public class GM</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_GM__ctor" data-uid="CSharpToJavaScript.APIs.JS.GM.#ctor">
   GM()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/GM.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/GM.cs/#L17"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -187,10 +188,12 @@ public class GM</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_GM_DeleteValue_System_String_" data-uid="CSharpToJavaScript.APIs.JS.GM.DeleteValue(System.String)">
   DeleteValue(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/GM.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/GM.cs/#L27"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>This method deletes an existing name / value pair from storage.
+See GM.setValue for details regarding the storage of these values.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -201,7 +204,8 @@ public static void DeleteValue(string name)</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>Property name to delete. See GM.setValue for details on what names are valid.</p>
+</dd>
   </dl>
 
 
@@ -211,6 +215,61 @@ public static void DeleteValue(string name)</code></pre>
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_GM_DeleteValue_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://wiki.greasespot.net/GM.deleteValue">
+    <em> See also on Greasemonkey Wiki</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_GM_GetResourceUrl_" data-uid="CSharpToJavaScript.APIs.JS.GM.GetResourceUrl*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_GM_GetResourceUrl_System_String_" data-uid="CSharpToJavaScript.APIs.JS.GM.GetResourceUrl(System.String)">
+  GetResourceUrl(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/GM.cs/#L80"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Given a defined @resource, this method returns it as a URL.
+Compatibility: Greasemonkey 4.0+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public static Task&lt;string&gt; GetResourceUrl(string resourceName)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>resourceName</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>String The name provided when the @resource was defined, follow that link for valid naming restrictions.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd><p>A Promise, rejected on failure and resolved with a String URL on success. Treat the result as opaque string. It will work where you need a URL (for a link or style for CSS, for and img tag, or similar).</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_GM_GetResourceUrl_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://wiki.greasespot.net/GM.getResourceUrl">
+    <em> See also on Greasemonkey Wiki</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -219,10 +278,11 @@ public static void DeleteValue(string name)</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_GM_GetValue_System_String_" data-uid="CSharpToJavaScript.APIs.JS.GM.GetValue(System.String)">
   GetValue(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/GM.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/GM.cs/#L40"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>This method retrieves a value that was set with GM.setValue. See GM.setValue for details on the storage of these values.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -233,7 +293,8 @@ public static Task&lt;dynamic&gt; GetValue(string name)</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>String The property name to get. See GM.setValue for details.</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
@@ -248,6 +309,13 @@ public static Task&lt;dynamic&gt; GetValue(string name)</code></pre>
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_GM_GetValue_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://wiki.greasespot.net/GM.getValue">
+    <em> See also on Greasemonkey Wiki</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -256,10 +324,11 @@ public static Task&lt;dynamic&gt; GetValue(string name)</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_GM_ListValues" data-uid="CSharpToJavaScript.APIs.JS.GM.ListValues">
   ListValues()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/GM.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/GM.cs/#L66"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>This method retrieves an array of preference names that this script has stored. See GM.setValue for details on the storage of these values.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -280,6 +349,63 @@ public static Task&lt;List&lt;dynamic&gt;&gt; ListValues()</code></pre>
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_GM_ListValues_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://wiki.greasespot.net/GM.listValues">
+    <em> See also on Greasemonkey Wiki</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_GM_Notification_" data-uid="CSharpToJavaScript.APIs.JS.GM.Notification*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_GM_Notification_System_String_System_String_System_String_System_Action_" data-uid="CSharpToJavaScript.APIs.JS.GM.Notification(System.String,System.String,System.String,System.Action)">
+  Notification(string, string, string, Action?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/GM.cs/#L95"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>This method displays a notification to the user, using the underlying browser and operating system's notification mechanism.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public static void Notification(string text, string title = &quot;&quot;, string image = &quot;&quot;, Action? onclick = null)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>String The main notification text.</p>
+</dd>
+    <dt><code>title</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>String Optional. The title of the notification. If not provided, the title will be &quot;Greasemonkey&quot;.</p>
+</dd>
+    <dt><code>image</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>String Optional. The URL for an image to display in the dialog. If not provided, the Greasemonkey logo will be used.</p>
+</dd>
+    <dt><code>onclick</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd><p>Function Optional. Callback, triggered when the notification window is clicked.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_GM_Notification_System_String_System_String_System_String_System_Action__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://wiki.greasespot.net/GM.notification">
+    <em> See also on Greasemonkey Wiki</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -288,10 +414,11 @@ public static Task&lt;List&lt;dynamic&gt;&gt; ListValues()</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_GM_OpenInTab_System_String_System_Boolean_" data-uid="CSharpToJavaScript.APIs.JS.GM.OpenInTab(System.String,System.Boolean)">
   OpenInTab(string, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/GM.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/GM.cs/#L108"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>This method opens the specified URL in a new tab.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -302,9 +429,11 @@ public static void OpenInTab(string url, bool open_in_background = false)</code>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>url</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>String The URL to navigate the new tab to.</p>
+</dd>
     <dt><code>open_in_background</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
+    <dd><p>Boolean Optional: force tab to/to not open in a background tab. Default (unspecified) behavior honors Firefox configuration.</p>
+</dd>
   </dl>
 
 
@@ -314,6 +443,102 @@ public static void OpenInTab(string url, bool open_in_background = false)</code>
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_GM_OpenInTab_System_String_System_Boolean__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://wiki.greasespot.net/GM.openInTab">
+    <em> See also on Greasemonkey Wiki</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_GM_RegisterMenuCommand_" data-uid="CSharpToJavaScript.APIs.JS.GM.RegisterMenuCommand*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_GM_RegisterMenuCommand_System_String_System_Action_System_String_" data-uid="CSharpToJavaScript.APIs.JS.GM.RegisterMenuCommand(System.String,System.Action,System.String)">
+  RegisterMenuCommand(string, Action, string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/GM.cs/#L123"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>This method allows user scripts to add an item to the User Script Commands menu.
+Compatibility: Greasemonkey 4.11+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public static void RegisterMenuCommand(string caption, Action commandFunc, string accessKey)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>caption</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>String The caption to display on the menu item.</p>
+</dd>
+    <dt><code>commandFunc</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+    <dd><p>Function The function to call when this menu item is selected by the user.</p>
+</dd>
+    <dt><code>accessKey</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>String A single character that can be used to select command when the menu is open. It should be a letter in the caption.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_GM_RegisterMenuCommand_System_String_System_Action_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://wiki.greasespot.net/GM.registerMenuCommand">
+    <em> See also on Greasemonkey Wiki</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_GM_SetClipboard_" data-uid="CSharpToJavaScript.APIs.JS.GM.SetClipboard*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_GM_SetClipboard_System_String_" data-uid="CSharpToJavaScript.APIs.JS.GM.SetClipboard(System.String)">
+  SetClipboard(string)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/GM.cs/#L135"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Sets the current contents of the operating system's clipboard.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public static void SetClipboard(string text)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>String Any text.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_GM_SetClipboard_System_String__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://wiki.greasespot.net/GM.setClipboard">
+    <em> See also on Greasemonkey Wiki</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -322,10 +547,12 @@ public static void OpenInTab(string url, bool open_in_background = false)</code>
 
   <h3 id="CSharpToJavaScript_APIs_JS_GM_SetValue_System_String_System_Object_" data-uid="CSharpToJavaScript.APIs.JS.GM.SetValue(System.String,System.Object)">
   SetValue(string, dynamic)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/GM.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/GM.cs/#L54"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>This method allows user script authors to persist simple values across page loads and across origins.
+Strings, booleans, and integers are currently the only allowed data types.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -336,8 +563,50 @@ public static void SetValue(string name, dynamic value)</code></pre>
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>name</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>String The unique (within this script) name for this value. Should be restricted to valid Javascript identifier characters.</p>
+</dd>
     <dt><code>value</code> <span class="xref">dynamic</span></dt>
+    <dd><p>String, Integer or Boolean Any valid value of these types. Any other type may cause undefined behavior, including crashes.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_GM_SetValue_System_String_System_Object__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://wiki.greasespot.net/GM.setValue">
+    <em> See also on Greasemonkey Wiki</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_GM_XmlHttpRequest_" data-uid="CSharpToJavaScript.APIs.JS.GM.XmlHttpRequest*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_GM_XmlHttpRequest_System_Object_" data-uid="CSharpToJavaScript.APIs.JS.GM.XmlHttpRequest(System.Object)">
+  XmlHttpRequest(object)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/GM.cs/#L149"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>This method performs a similar function to the standard XMLHttpRequest object, but allows these requests to cross the same origin policy boundaries.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+public static void XmlHttpRequest(object details)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>details</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
     <dd></dd>
   </dl>
 
@@ -348,6 +617,13 @@ public static void SetValue(string name, dynamic value)</code></pre>
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_GM_XmlHttpRequest_System_Object__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://wiki.greasespot.net/GM.xmlHttpRequest">
+    <em> See also on Greasemonkey Wiki</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -356,7 +632,7 @@ public static void SetValue(string name, dynamic value)</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/GM.cs/#L10" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/GM.cs/#L11" class="edit-link">Edit this page</a>
         </div>
 
 

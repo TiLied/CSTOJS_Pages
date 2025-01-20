@@ -10,5 +10,5 @@
     href: exampleOptCustomCSNamesToJS.md
   - name: Example of option "CustomCSTypesToJS"
     href: exampleOptCustomCSTypesToJS.md
-  - name: Example of options "AddSBIn*"
-    href: exampleOptAddSBIn.md
+  - name: Example of options "AddSBAt*"
+    href: exampleOptAddSBAt.md

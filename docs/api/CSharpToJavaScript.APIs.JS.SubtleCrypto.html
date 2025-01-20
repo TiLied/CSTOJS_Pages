@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class SubtleCrypto | CSharpToJavaScript ">
       
-      <meta name="description" content="The SubtleCrypto interface of the Web Crypto API provides a number of low-level cryptographic functions. Access to the features of SubtleCrypto is obtained through the  property of the  object you get from the Crypto_property property.">
+      <meta name="description" content="The SubtleCrypto interface of the Web Crypto API provides a number of low-level cryptographic functions.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -77,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -89,7 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_SubtleCrypto" data-uid="CSharpToJavaScript.APIs.JS.SubtleCrypto" class="text-break">
-Class SubtleCrypto  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L25337"><i class="bi bi-code-slash"></i></a>
+Class SubtleCrypto  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L22720"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,7 +97,7 @@ Class SubtleCrypto  <a class="header-action link-secondary" title="View source" 
   <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>The <strong><code>SubtleCrypto</code></strong> interface of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API">Web Crypto API</a> provides a number of low-level cryptographic functions. Access to the features of <code>SubtleCrypto</code> is obtained through the <a class="xref" href="CSharpToJavaScript.APIs.JS.Crypto.html#CSharpToJavaScript_APIs_JS_Crypto_Subtle">Subtle</a> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Crypto.html">Crypto</a> object you get from the Crypto_property property.</p>
+  <div class="markdown summary"><p>The <strong><code>SubtleCrypto</code></strong> interface of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API">Web Crypto API</a> provides a number of low-level cryptographic functions.</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -149,10 +149,11 @@ public class SubtleCrypto</code></pre>
 
 
   <h2 id="CSharpToJavaScript_APIs_JS_SubtleCrypto_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><blockquote class="WARNING">
+  <div class="markdown level0 remarks"><p>The interface name includes the term &amp;quot;subtle&amp;quot; to indicate that many of its algorithms have subtle usage requirements, and hence that it must be used carefully in order to provide suitable security guarantees.</p>
+<p>An instance of <code>SubtleCrypto</code> is available as the <a class="xref" href="CSharpToJavaScript.APIs.JS.Crypto.html#CSharpToJavaScript_APIs_JS_Crypto_Subtle">Subtle</a> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Crypto.html">Crypto</a> interface, which in turn is available in windows through the Window.Crypto property and in workers through the WorkerGlobalScope.Crypto property.</p>
+<blockquote class="WARNING">
   <h5>WARNING</h5>
-  <p>
-    <strong>Warning:</strong> This API provides a number of low-level cryptographic primitives. It&amp;apos;s very easy to misuse them, and the pitfalls involved can be very subtle.</p>
+  <p>This API provides a number of low-level cryptographic primitives. It&amp;apos;s very easy to misuse them, and the pitfalls involved can be very subtle.</p>
   <p>Even assuming you use the basic cryptographic functions correctly, secure key management and overall security system design are extremely hard to get right, and are generally the domain of specialist security experts.</p>
   <p>Errors in security system design and implementation can make the security of the system completely ineffective.</p>
   <p>Please learn and experiment, but don&amp;apos;t guarantee or imply the security of your work before an individual knowledgeable in this subject matter thoroughly reviews it. The <a href="https://www.crypto101.io/">Crypto 101 Course</a> can be a great place to start learning about the design and implementation of secure systems.</p>
@@ -172,9 +173,9 @@ public class SubtleCrypto</code></pre>
 
   <a id="CSharpToJavaScript_APIs_JS_SubtleCrypto_Decrypt_" data-uid="CSharpToJavaScript.APIs.JS.SubtleCrypto.Decrypt*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_SubtleCrypto_Decrypt_CSharpToJavaScript_APIs_JS_Union163_CSharpToJavaScript_APIs_JS_CryptoKey_CSharpToJavaScript_APIs_JS_Union200_" data-uid="CSharpToJavaScript.APIs.JS.SubtleCrypto.Decrypt(CSharpToJavaScript.APIs.JS.Union163,CSharpToJavaScript.APIs.JS.CryptoKey,CSharpToJavaScript.APIs.JS.Union200)">
-  Decrypt(Union163, CryptoKey, Union200)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L25343"><i class="bi bi-code-slash"></i></a>
+  <h3 id="CSharpToJavaScript_APIs_JS_SubtleCrypto_Decrypt_CSharpToJavaScript_APIs_JS_Union187_CSharpToJavaScript_APIs_JS_CryptoKey_CSharpToJavaScript_APIs_JS_Union224_" data-uid="CSharpToJavaScript.APIs.JS.SubtleCrypto.Decrypt(CSharpToJavaScript.APIs.JS.Union187,CSharpToJavaScript.APIs.JS.CryptoKey,CSharpToJavaScript.APIs.JS.Union224)">
+  Decrypt(Union187, CryptoKey, Union224)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L22726"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>decrypt()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.SubtleCrypto.html">SubtleCrypto</a> interface decrypts some encrypted data.<br>It takes as arguments a <a href="https://developer.mozilla.org/en-US/docs/Glossary/key">key</a> to decrypt with, some optional extra parameters, and the data to decrypt (also known as &quot;ciphertext&quot;).<br>It returns a Promise which will be fulfilled with the decrypted data (also known as &quot;plaintext&quot;).</p>
@@ -182,22 +183,22 @@ public class SubtleCrypto</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;dynamic&gt; Decrypt(Union163 algorithm, CryptoKey key, Union200 data)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;byte[]&gt; Decrypt(Union187 algorithm, CryptoKey key, Union224 data)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>algorithm</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union163.html">Union163</a></dt>
+    <dt><code>algorithm</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union187.html">Union187</a></dt>
     <dd></dd>
     <dt><code>key</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.CryptoKey.html">CryptoKey</a></dt>
     <dd></dd>
-    <dt><code>data</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union200.html">Union200</a></dt>
+    <dt><code>data</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union224.html">Union224</a></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<span class="xref">dynamic</span>&gt;</dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]&gt;</dt>
     <dd><p>A Promise that fulfills with an ArrayBuffer containing the plaintext.</p>
 </dd>
   </dl>
@@ -208,8 +209,8 @@ public class SubtleCrypto</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_SubtleCrypto_Decrypt_CSharpToJavaScript_APIs_JS_Union163_CSharpToJavaScript_APIs_JS_CryptoKey_CSharpToJavaScript_APIs_JS_Union200__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.SubtleCrypto.html#CSharpToJavaScript_APIs_JS_SubtleCrypto_Encrypt_CSharpToJavaScript_APIs_JS_Union163_CSharpToJavaScript_APIs_JS_CryptoKey_CSharpToJavaScript_APIs_JS_Union200_">Encrypt(Union163, CryptoKey, Union200)</a>.<br>-<a href="https://datatracker.ietf.org/doc/html/rfc3447">RFC 3447</a> specifies RSAOAEP.<br>-<a href="https://csrc.nist.gov/publications/detail/sp/800-38a/final">NIST SP800-38A</a> specifies CTR mode.<br>-<a href="https://csrc.nist.gov/publications/detail/sp/800-38a/final">NIST SP800-38A</a> specifies CBC mode.<br>-<a href="https://csrc.nist.gov/publications/detail/sp/800-38d/final">NIST SP800-38D</a> specifies GCM mode.<br>-<a href="https://csrc.nist.gov/csrc/media/publications/fips/198/1/final/documents/fips-198-1_final.pdf">FIPS 198-1</a> specifies HMAC.<br></p>
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_SubtleCrypto_Decrypt_CSharpToJavaScript_APIs_JS_Union187_CSharpToJavaScript_APIs_JS_CryptoKey_CSharpToJavaScript_APIs_JS_Union224__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.SubtleCrypto.html#CSharpToJavaScript_APIs_JS_SubtleCrypto_Encrypt_CSharpToJavaScript_APIs_JS_Union187_CSharpToJavaScript_APIs_JS_CryptoKey_CSharpToJavaScript_APIs_JS_Union224_">Encrypt(Union187, CryptoKey, Union224)</a>.<br>-<a href="https://datatracker.ietf.org/doc/html/rfc3447">RFC 3447</a> specifies RSAOAEP.<br>-<a href="https://csrc.nist.gov/pubs/sp/800/38/a/final">NIST SP800-38A</a> specifies CTR mode.<br>-<a href="https://csrc.nist.gov/pubs/sp/800/38/a/final">NIST SP800-38A</a> specifies CBC mode.<br>-<a href="https://csrc.nist.gov/pubs/sp/800/38/d/final">NIST SP800-38D</a> specifies GCM mode.<br>-<a href="https://csrc.nist.gov/files/pubs/fips/198-1/final/docs/fips-198-1_final.pdf">FIPS 198-1</a> specifies HMAC.<br></p>
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto/decrypt">
     <em>See also on MDN</em>
@@ -222,9 +223,9 @@ public class SubtleCrypto</code></pre>
 
   <a id="CSharpToJavaScript_APIs_JS_SubtleCrypto_DeriveBits_" data-uid="CSharpToJavaScript.APIs.JS.SubtleCrypto.DeriveBits*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_SubtleCrypto_DeriveBits_CSharpToJavaScript_APIs_JS_Union163_CSharpToJavaScript_APIs_JS_CryptoKey_System_UInt64_" data-uid="CSharpToJavaScript.APIs.JS.SubtleCrypto.DeriveBits(CSharpToJavaScript.APIs.JS.Union163,CSharpToJavaScript.APIs.JS.CryptoKey,System.UInt64)">
-  DeriveBits(Union163, CryptoKey, ulong)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L25355"><i class="bi bi-code-slash"></i></a>
+  <h3 id="CSharpToJavaScript_APIs_JS_SubtleCrypto_DeriveBits_CSharpToJavaScript_APIs_JS_Union187_CSharpToJavaScript_APIs_JS_CryptoKey_System_Nullable_System_UInt64__" data-uid="CSharpToJavaScript.APIs.JS.SubtleCrypto.DeriveBits(CSharpToJavaScript.APIs.JS.Union187,CSharpToJavaScript.APIs.JS.CryptoKey,System.Nullable{System.UInt64})">
+  DeriveBits(Union187, CryptoKey, ulong?)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L22738"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>deriveBits()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.SubtleCrypto.html">SubtleCrypto</a> interface can be used to derive an array of bits from a base<br>key.</p>
@@ -232,16 +233,16 @@ public class SubtleCrypto</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;byte[]&gt; DeriveBits(Union163 algorithm, CryptoKey baseKey, ulong length)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;byte[]&gt; DeriveBits(Union187 algorithm, CryptoKey baseKey, ulong? length = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>algorithm</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union163.html">Union163</a></dt>
+    <dt><code>algorithm</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union187.html">Union187</a></dt>
     <dd></dd>
     <dt><code>baseKey</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.CryptoKey.html">CryptoKey</a></dt>
     <dd></dd>
-    <dt><code>length</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
+    <dt><code>length</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a>?</dt>
     <dd></dd>
   </dl>
 
@@ -258,11 +259,11 @@ public class SubtleCrypto</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_SubtleCrypto_DeriveBits_CSharpToJavaScript_APIs_JS_Union163_CSharpToJavaScript_APIs_JS_CryptoKey_System_UInt64__remarks">Remarks</h4>
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_SubtleCrypto_DeriveBits_CSharpToJavaScript_APIs_JS_Union187_CSharpToJavaScript_APIs_JS_CryptoKey_System_Nullable_System_UInt64___remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>It takes as its arguments the base key, the derivation algorithm to use, and the length<br>of the bits to derive. It returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise"><code>Promise</code></a><br>which will be fulfilled with an<br><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer"><code>ArrayBuffer</code></a><br>containing the derived bits.</p>
 <p>This method is very similar to<br><a href="https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto/deriveKey"><code>SubtleCrypto.deriveKey()</code></a>,<br>except that <code>deriveKey()</code> returns a<br><a href="https://developer.mozilla.org/en-US/docs/Web/API/CryptoKey"><code>CryptoKey</code></a> object rather than an<br><code>ArrayBuffer</code>. Essentially <code>deriveKey()</code> is composed of<br><code>deriveBits()</code> followed by<br><a href="https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto/importKey"><code>importKey()</code></a>.</p>
-<p>This function supports the same derivation algorithms as <code>deriveKey()</code>:<br>ECDH, HKDF, and PBKDF2. See <a href="https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto/deriveKey#supported_algorithms">Supported algorithms</a><br>for some more detail on these algorithms.</p>
-<p>-<a href="https://datatracker.ietf.org/doc/html/rfc5869">HKDF specification</a>.<br>-<a href="https://csrc.nist.gov/publications/detail/sp/800-132/final">NIST guidelines for password-based key derivation</a>.<br>-<a href="https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html">Password storage cheat sheet</a>.<br>-<a href="https://security.stackexchange.com/questions/3959/recommended-of-iterations-when-using-pbkdf2-sha256/3993#3993">Advice on choosing an iteration count for PBKDF2</a>.<br></p>
+<p>This function supports the same derivation algorithms as <code>deriveKey()</code>: ECDH, HKDF, PBKDF2, and X25519.<br>See <a href="https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto/deriveKey#supported_algorithms">Supported algorithms</a> for some more detail on these algorithms.</p>
+<p>-<a href="https://datatracker.ietf.org/doc/html/rfc5869">HKDF specification</a>.<br>-<a href="https://csrc.nist.gov/pubs/sp/800/132/final">NIST guidelines for password-based key derivation</a>.<br>-<a href="https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html">Password storage cheat sheet</a>.<br>-<a href="https://security.stackexchange.com/questions/3959/recommended-of-iterations-when-using-pbkdf2-sha256/3993#3993">Advice on choosing an iteration count for PBKDF2</a>.<br></p>
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto/deriveBits">
     <em>See also on MDN</em>
@@ -275,26 +276,26 @@ public class SubtleCrypto</code></pre>
 
   <a id="CSharpToJavaScript_APIs_JS_SubtleCrypto_DeriveKey_" data-uid="CSharpToJavaScript.APIs.JS.SubtleCrypto.DeriveKey*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_SubtleCrypto_DeriveKey_CSharpToJavaScript_APIs_JS_Union163_CSharpToJavaScript_APIs_JS_CryptoKey_CSharpToJavaScript_APIs_JS_Union163_System_Boolean_System_Collections_Generic_List_CSharpToJavaScript_APIs_JS_KeyUsage__" data-uid="CSharpToJavaScript.APIs.JS.SubtleCrypto.DeriveKey(CSharpToJavaScript.APIs.JS.Union163,CSharpToJavaScript.APIs.JS.CryptoKey,CSharpToJavaScript.APIs.JS.Union163,System.Boolean,System.Collections.Generic.List{CSharpToJavaScript.APIs.JS.KeyUsage})">
-  DeriveKey(Union163, CryptoKey, Union163, bool, List&lt;KeyUsage&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L25353"><i class="bi bi-code-slash"></i></a>
+  <h3 id="CSharpToJavaScript_APIs_JS_SubtleCrypto_DeriveKey_CSharpToJavaScript_APIs_JS_Union187_CSharpToJavaScript_APIs_JS_CryptoKey_CSharpToJavaScript_APIs_JS_Union187_System_Boolean_System_Collections_Generic_List_CSharpToJavaScript_APIs_JS_KeyUsage__" data-uid="CSharpToJavaScript.APIs.JS.SubtleCrypto.DeriveKey(CSharpToJavaScript.APIs.JS.Union187,CSharpToJavaScript.APIs.JS.CryptoKey,CSharpToJavaScript.APIs.JS.Union187,System.Boolean,System.Collections.Generic.List{CSharpToJavaScript.APIs.JS.KeyUsage})">
+  DeriveKey(Union187, CryptoKey, Union187, bool, List&lt;KeyUsage&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L22736"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>deriveKey()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.SubtleCrypto.html">SubtleCrypto</a><br>interface can be used to derive a secret key from a master key.</p>
+  <div class="markdown level1 summary"><p>The <strong><code>deriveKey()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.SubtleCrypto.html">SubtleCrypto</a> interface can be used to derive a secret key from a master key.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;dynamic&gt; DeriveKey(Union163 algorithm, CryptoKey baseKey, Union163 derivedKeyType, bool extractable, List&lt;KeyUsage&gt; keyUsages)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;CryptoKey&gt; DeriveKey(Union187 algorithm, CryptoKey baseKey, Union187 derivedKeyType, bool extractable, List&lt;KeyUsage&gt; keyUsages)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>algorithm</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union163.html">Union163</a></dt>
+    <dt><code>algorithm</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union187.html">Union187</a></dt>
     <dd></dd>
     <dt><code>baseKey</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.CryptoKey.html">CryptoKey</a></dt>
     <dd></dd>
-    <dt><code>derivedKeyType</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union163.html">Union163</a></dt>
+    <dt><code>derivedKeyType</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union187.html">Union187</a></dt>
     <dd></dd>
     <dt><code>extractable</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
     <dd></dd>
@@ -304,7 +305,7 @@ public class SubtleCrypto</code></pre>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<span class="xref">dynamic</span>&gt;</dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CSharpToJavaScript.APIs.JS.CryptoKey.html">CryptoKey</a>&gt;</dt>
     <dd><p>A {{jsxref(&quot;Promise&quot;)}} that fulfills with a <a class="xref" href="CSharpToJavaScript.APIs.JS.CryptoKey.html">CryptoKey</a>.</p>
 </dd>
   </dl>
@@ -315,10 +316,10 @@ public class SubtleCrypto</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_SubtleCrypto_DeriveKey_CSharpToJavaScript_APIs_JS_Union163_CSharpToJavaScript_APIs_JS_CryptoKey_CSharpToJavaScript_APIs_JS_Union163_System_Boolean_System_Collections_Generic_List_CSharpToJavaScript_APIs_JS_KeyUsage___remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>It takes as arguments some initial key material, the derivation algorithm to use, and<br>the desired properties for the key to derive. It returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise"><code>Promise</code></a><br>which will be fulfilled with a <a class="xref" href="CSharpToJavaScript.APIs.JS.CryptoKey.html">CryptoKey</a> object representing the new key.</p>
-<p>It&amp;apos;s worth noting that the three key derivation algorithms you can use have quite<br>different characteristics and are appropriate in quite different situations. See <a href="https://developer.mozilla.org#supported_algorithms">Supported algorithms</a> for some more detail on this.</p>
-<p>-<a href="https://datatracker.ietf.org/doc/html/rfc5869">HKDF specification</a>.<br>-<a href="https://csrc.nist.gov/publications/detail/sp/800-132/final">NIST guidelines for password-based key derivation</a>.<br>-<a href="https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html">Password storage cheat sheet</a>.<br>-<a href="https://security.stackexchange.com/questions/3959/recommended-of-iterations-when-using-pbkdf2-sha256/3993#3993">Advice on choosing an iteration count for PBKDF2</a>.<br></p>
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_SubtleCrypto_DeriveKey_CSharpToJavaScript_APIs_JS_Union187_CSharpToJavaScript_APIs_JS_CryptoKey_CSharpToJavaScript_APIs_JS_Union187_System_Boolean_System_Collections_Generic_List_CSharpToJavaScript_APIs_JS_KeyUsage___remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>It takes as arguments some initial key material, the derivation algorithm to use, and the desired properties for the key to derive.<br>It returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise"><code>Promise</code></a> which will be fulfilled with a <a class="xref" href="CSharpToJavaScript.APIs.JS.CryptoKey.html">CryptoKey</a> object representing the new key.</p>
+<p>It&amp;apos;s worth noting that the supported key derivation algorithms have quite different characteristics and are appropriate in quite different situations.<br>See <a href="https://developer.mozilla.org#supported_algorithms">Supported algorithms</a> for some more detail on this.</p>
+<p>-<a href="https://datatracker.ietf.org/doc/html/rfc5869">HKDF specification</a>.<br>-<a href="https://csrc.nist.gov/pubs/sp/800/132/final">NIST guidelines for password-based key derivation</a>.<br>-<a href="https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html">Password storage cheat sheet</a>.<br>-<a href="https://security.stackexchange.com/questions/3959/recommended-of-iterations-when-using-pbkdf2-sha256/3993#3993">Advice on choosing an iteration count for PBKDF2</a>.<br></p>
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto/deriveKey">
     <em>See also on MDN</em>
@@ -331,9 +332,9 @@ public class SubtleCrypto</code></pre>
 
   <a id="CSharpToJavaScript_APIs_JS_SubtleCrypto_Digest_" data-uid="CSharpToJavaScript.APIs.JS.SubtleCrypto.Digest*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_SubtleCrypto_Digest_CSharpToJavaScript_APIs_JS_Union163_CSharpToJavaScript_APIs_JS_Union200_" data-uid="CSharpToJavaScript.APIs.JS.SubtleCrypto.Digest(CSharpToJavaScript.APIs.JS.Union163,CSharpToJavaScript.APIs.JS.Union200)">
-  Digest(Union163, Union200)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L25349"><i class="bi bi-code-slash"></i></a>
+  <h3 id="CSharpToJavaScript_APIs_JS_SubtleCrypto_Digest_CSharpToJavaScript_APIs_JS_Union187_CSharpToJavaScript_APIs_JS_Union224_" data-uid="CSharpToJavaScript.APIs.JS.SubtleCrypto.Digest(CSharpToJavaScript.APIs.JS.Union187,CSharpToJavaScript.APIs.JS.Union224)">
+  Digest(Union187, Union224)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L22732"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>digest()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.SubtleCrypto.html">SubtleCrypto</a><br>interface generates a <a href="https://developer.mozilla.org/en-US/docs/Glossary/digest">digest</a> of the given data. A digest is a short<br>fixed-length value derived from some variable-length input. Cryptographic digests should<br>exhibit collision-resistance, meaning that it&amp;apos;s hard to come up with two different<br>inputs that have the same digest value.</p>
@@ -341,20 +342,20 @@ public class SubtleCrypto</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;dynamic&gt; Digest(Union163 algorithm, Union200 data)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;byte[]&gt; Digest(Union187 algorithm, Union224 data)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>algorithm</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union163.html">Union163</a></dt>
+    <dt><code>algorithm</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union187.html">Union187</a></dt>
     <dd></dd>
-    <dt><code>data</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union200.html">Union200</a></dt>
+    <dt><code>data</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union224.html">Union224</a></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<span class="xref">dynamic</span>&gt;</dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]&gt;</dt>
     <dd><p>A Promise that fulfills with an ArrayBuffer containing the digest.</p>
 </dd>
   </dl>
@@ -365,7 +366,7 @@ public class SubtleCrypto</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_SubtleCrypto_Digest_CSharpToJavaScript_APIs_JS_Union163_CSharpToJavaScript_APIs_JS_Union200__remarks">Remarks</h4>
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_SubtleCrypto_Digest_CSharpToJavaScript_APIs_JS_Union187_CSharpToJavaScript_APIs_JS_Union224__remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>It takes as its arguments an identifier for the digest algorithm to use and the data to<br>digest. It returns a Promise which will be fulfilled with the digest.</p>
 <p>Note that this API does not support streaming input: you must read the entire input into memory before passing it into the digest function.</p>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API/Non-cryptographic_uses_of_subtle_crypto">Non-cryptographic uses of SubtleCrypto</a><br>-<a href="https://www.chromium.org/Home/chromium-security/prefer-secure-origins-for-powerful-new-features/">Chromium secure origins specification</a><br>-<a href="https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.180-4.pdf">FIPS 180-4</a> specifies the SHA family of digest algorithms.<br></p>
@@ -381,9 +382,9 @@ public class SubtleCrypto</code></pre>
 
   <a id="CSharpToJavaScript_APIs_JS_SubtleCrypto_Encrypt_" data-uid="CSharpToJavaScript.APIs.JS.SubtleCrypto.Encrypt*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_SubtleCrypto_Encrypt_CSharpToJavaScript_APIs_JS_Union163_CSharpToJavaScript_APIs_JS_CryptoKey_CSharpToJavaScript_APIs_JS_Union200_" data-uid="CSharpToJavaScript.APIs.JS.SubtleCrypto.Encrypt(CSharpToJavaScript.APIs.JS.Union163,CSharpToJavaScript.APIs.JS.CryptoKey,CSharpToJavaScript.APIs.JS.Union200)">
-  Encrypt(Union163, CryptoKey, Union200)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L25341"><i class="bi bi-code-slash"></i></a>
+  <h3 id="CSharpToJavaScript_APIs_JS_SubtleCrypto_Encrypt_CSharpToJavaScript_APIs_JS_Union187_CSharpToJavaScript_APIs_JS_CryptoKey_CSharpToJavaScript_APIs_JS_Union224_" data-uid="CSharpToJavaScript.APIs.JS.SubtleCrypto.Encrypt(CSharpToJavaScript.APIs.JS.Union187,CSharpToJavaScript.APIs.JS.CryptoKey,CSharpToJavaScript.APIs.JS.Union224)">
+  Encrypt(Union187, CryptoKey, Union224)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L22724"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>encrypt()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.SubtleCrypto.html">SubtleCrypto</a> interface encrypts data.</p>
@@ -391,22 +392,22 @@ public class SubtleCrypto</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;dynamic&gt; Encrypt(Union163 algorithm, CryptoKey key, Union200 data)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;byte[]&gt; Encrypt(Union187 algorithm, CryptoKey key, Union224 data)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>algorithm</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union163.html">Union163</a></dt>
+    <dt><code>algorithm</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union187.html">Union187</a></dt>
     <dd></dd>
     <dt><code>key</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.CryptoKey.html">CryptoKey</a></dt>
     <dd></dd>
-    <dt><code>data</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union200.html">Union200</a></dt>
+    <dt><code>data</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union224.html">Union224</a></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<span class="xref">dynamic</span>&gt;</dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]&gt;</dt>
     <dd><p>A Promise that fulfills with an ArrayBuffer containing the &quot;ciphertext&quot;.</p>
 </dd>
   </dl>
@@ -417,9 +418,9 @@ public class SubtleCrypto</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_SubtleCrypto_Encrypt_CSharpToJavaScript_APIs_JS_Union163_CSharpToJavaScript_APIs_JS_CryptoKey_CSharpToJavaScript_APIs_JS_Union200__remarks">Remarks</h4>
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_SubtleCrypto_Encrypt_CSharpToJavaScript_APIs_JS_Union187_CSharpToJavaScript_APIs_JS_CryptoKey_CSharpToJavaScript_APIs_JS_Union224__remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>It takes as its arguments a <a href="https://developer.mozilla.org/en-US/docs/Glossary/key">key</a> to encrypt with, some algorithm-specific parameters, and the data to encrypt (also known as "plaintext").<br>It returns a Promise which will be fulfilled with the encrypted data (also known as "ciphertext").</p>
-<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.SubtleCrypto.html#CSharpToJavaScript_APIs_JS_SubtleCrypto_Decrypt_CSharpToJavaScript_APIs_JS_Union163_CSharpToJavaScript_APIs_JS_CryptoKey_CSharpToJavaScript_APIs_JS_Union200_">Decrypt(Union163, CryptoKey, Union200)</a>.<br>-<a href="https://datatracker.ietf.org/doc/html/rfc3447">RFC 3447</a> specifies RSAOAEP.<br>-<a href="https://csrc.nist.gov/publications/detail/sp/800-38a/final">NIST SP800-38A</a> specifies CTR mode.<br>-<a href="https://csrc.nist.gov/publications/detail/sp/800-38a/final">NIST SP800-38A</a> specifies CBC mode.<br>-<a href="https://csrc.nist.gov/publications/detail/sp/800-38d/final">NIST SP800-38D</a> specifies GCM mode.<br></p>
+<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.SubtleCrypto.html#CSharpToJavaScript_APIs_JS_SubtleCrypto_Decrypt_CSharpToJavaScript_APIs_JS_Union187_CSharpToJavaScript_APIs_JS_CryptoKey_CSharpToJavaScript_APIs_JS_Union224_">Decrypt(Union187, CryptoKey, Union224)</a>.<br>-<a href="https://datatracker.ietf.org/doc/html/rfc3447">RFC 3447</a> specifies RSAOAEP.<br>-<a href="https://csrc.nist.gov/pubs/sp/800/38/a/final">NIST SP800-38A</a> specifies CTR mode.<br>-<a href="https://csrc.nist.gov/pubs/sp/800/38/a/final">NIST SP800-38A</a> specifies CBC mode.<br>-<a href="https://csrc.nist.gov/pubs/sp/800/38/d/final">NIST SP800-38D</a> specifies GCM mode.<br></p>
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto/encrypt">
     <em>See also on MDN</em>
@@ -434,7 +435,7 @@ public class SubtleCrypto</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_SubtleCrypto_ExportKey_CSharpToJavaScript_APIs_JS_KeyFormat_CSharpToJavaScript_APIs_JS_CryptoKey_" data-uid="CSharpToJavaScript.APIs.JS.SubtleCrypto.ExportKey(CSharpToJavaScript.APIs.JS.KeyFormat,CSharpToJavaScript.APIs.JS.CryptoKey)">
   ExportKey(KeyFormat, CryptoKey)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L25359"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L22742"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>exportKey()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.SubtleCrypto.html">SubtleCrypto</a><br>interface exports a key: that is, it takes as input a <a class="xref" href="CSharpToJavaScript.APIs.JS.CryptoKey.html">CryptoKey</a> object<br>and gives you the key in an external, portable format.</p>
@@ -442,7 +443,7 @@ public class SubtleCrypto</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;dynamic&gt; ExportKey(KeyFormat format, CryptoKey key)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;byte[]&gt; ExportKey(KeyFormat format, CryptoKey key)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -455,7 +456,7 @@ public class SubtleCrypto</code></pre>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<span class="xref">dynamic</span>&gt;</dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]&gt;</dt>
     <dd><p>A <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise"><code>Promise</code></a>.</p>
 </dd>
   </dl>
@@ -483,22 +484,22 @@ public class SubtleCrypto</code></pre>
 
   <a id="CSharpToJavaScript_APIs_JS_SubtleCrypto_GenerateKey_" data-uid="CSharpToJavaScript.APIs.JS.SubtleCrypto.GenerateKey*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_SubtleCrypto_GenerateKey_CSharpToJavaScript_APIs_JS_Union163_System_Boolean_System_Collections_Generic_List_CSharpToJavaScript_APIs_JS_KeyUsage__" data-uid="CSharpToJavaScript.APIs.JS.SubtleCrypto.GenerateKey(CSharpToJavaScript.APIs.JS.Union163,System.Boolean,System.Collections.Generic.List{CSharpToJavaScript.APIs.JS.KeyUsage})">
-  GenerateKey(Union163, bool, List&lt;KeyUsage&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L25351"><i class="bi bi-code-slash"></i></a>
+  <h3 id="CSharpToJavaScript_APIs_JS_SubtleCrypto_GenerateKey_CSharpToJavaScript_APIs_JS_Union187_System_Boolean_System_Collections_Generic_List_CSharpToJavaScript_APIs_JS_KeyUsage__" data-uid="CSharpToJavaScript.APIs.JS.SubtleCrypto.GenerateKey(CSharpToJavaScript.APIs.JS.Union187,System.Boolean,System.Collections.Generic.List{CSharpToJavaScript.APIs.JS.KeyUsage})">
+  GenerateKey(Union187, bool, List&lt;KeyUsage&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L22734"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Use the <strong><code>generateKey()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.SubtleCrypto.html">SubtleCrypto</a> interface to generate a new key (for symmetric algorithms)<br>or key pair (for public-key algorithms).</p>
+  <div class="markdown level1 summary"><p>The <strong><code>generateKey()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.SubtleCrypto.html">SubtleCrypto</a> interface is used to generate a new key (for symmetric algorithms) or key pair (for public-key algorithms).</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;dynamic&gt; GenerateKey(Union163 algorithm, bool extractable, List&lt;KeyUsage&gt; keyUsages)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;CryptoKey&gt; GenerateKey(Union187 algorithm, bool extractable, List&lt;KeyUsage&gt; keyUsages)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>algorithm</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union163.html">Union163</a></dt>
+    <dt><code>algorithm</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union187.html">Union187</a></dt>
     <dd></dd>
     <dt><code>extractable</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
     <dd></dd>
@@ -508,8 +509,8 @@ public class SubtleCrypto</code></pre>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<span class="xref">dynamic</span>&gt;</dt>
-    <dd><p>A Promise that fulfills with a<br><a class="xref" href="CSharpToJavaScript.APIs.JS.CryptoKey.html">CryptoKey</a> (for symmetric algorithms) or a <a class="xref" href="CSharpToJavaScript.APIs.JS.CryptoKeyPair.html">CryptoKeyPair</a><br>(for public-key algorithms).</p>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CSharpToJavaScript.APIs.JS.CryptoKey.html">CryptoKey</a>&gt;</dt>
+    <dd><p>A {{jsxref(&quot;Promise&quot;)}} that fulfills with a <a class="xref" href="CSharpToJavaScript.APIs.JS.CryptoKey.html">CryptoKey</a> (for symmetric algorithms) or a <a class="xref" href="CSharpToJavaScript.APIs.JS.CryptoKeyPair.html">CryptoKeyPair</a> (for public-key algorithms).</p>
 </dd>
   </dl>
 
@@ -519,8 +520,8 @@ public class SubtleCrypto</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_SubtleCrypto_GenerateKey_CSharpToJavaScript_APIs_JS_Union163_System_Boolean_System_Collections_Generic_List_CSharpToJavaScript_APIs_JS_KeyUsage___remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a href="https://www.keylength.com/">Cryptographic key length recommendations</a>.<br>-<a href="https://csrc.nist.gov/publications/detail/sp/800-131a/rev-2/final">NIST Transitioning the Use of Cryptographic Algorithms and Key Lengths</a>.<br></p>
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_SubtleCrypto_GenerateKey_CSharpToJavaScript_APIs_JS_Union187_System_Boolean_System_Collections_Generic_List_CSharpToJavaScript_APIs_JS_KeyUsage___remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a href="https://www.keylength.com/">Cryptographic key length recommendations</a>.<br>-<a href="https://csrc.nist.gov/pubs/sp/800/131/a/r2/final">NIST Transitioning the Use of Cryptographic Algorithms and Key Lengths</a>.<br></p>
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto/generateKey">
     <em>See also on MDN</em>
@@ -533,9 +534,9 @@ public class SubtleCrypto</code></pre>
 
   <a id="CSharpToJavaScript_APIs_JS_SubtleCrypto_ImportKey_" data-uid="CSharpToJavaScript.APIs.JS.SubtleCrypto.ImportKey*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_SubtleCrypto_ImportKey_CSharpToJavaScript_APIs_JS_KeyFormat_CSharpToJavaScript_APIs_JS_Union164_CSharpToJavaScript_APIs_JS_Union163_System_Boolean_System_Collections_Generic_List_CSharpToJavaScript_APIs_JS_KeyUsage__" data-uid="CSharpToJavaScript.APIs.JS.SubtleCrypto.ImportKey(CSharpToJavaScript.APIs.JS.KeyFormat,CSharpToJavaScript.APIs.JS.Union164,CSharpToJavaScript.APIs.JS.Union163,System.Boolean,System.Collections.Generic.List{CSharpToJavaScript.APIs.JS.KeyUsage})">
-  ImportKey(KeyFormat, Union164, Union163, bool, List&lt;KeyUsage&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L25357"><i class="bi bi-code-slash"></i></a>
+  <h3 id="CSharpToJavaScript_APIs_JS_SubtleCrypto_ImportKey_CSharpToJavaScript_APIs_JS_KeyFormat_CSharpToJavaScript_APIs_JS_Union188_CSharpToJavaScript_APIs_JS_Union187_System_Boolean_System_Collections_Generic_List_CSharpToJavaScript_APIs_JS_KeyUsage__" data-uid="CSharpToJavaScript.APIs.JS.SubtleCrypto.ImportKey(CSharpToJavaScript.APIs.JS.KeyFormat,CSharpToJavaScript.APIs.JS.Union188,CSharpToJavaScript.APIs.JS.Union187,System.Boolean,System.Collections.Generic.List{CSharpToJavaScript.APIs.JS.KeyUsage})">
+  ImportKey(KeyFormat, Union188, Union187, bool, List&lt;KeyUsage&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L22740"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>importKey()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.SubtleCrypto.html">SubtleCrypto</a><br>interface imports a key: that is, it takes as input a key in an external, portable<br>format and gives you a <a class="xref" href="CSharpToJavaScript.APIs.JS.CryptoKey.html">CryptoKey</a> object that you can use in the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API">Web Crypto API</a>.</p>
@@ -543,16 +544,16 @@ public class SubtleCrypto</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;CryptoKey&gt; ImportKey(KeyFormat format, Union164 keyData, Union163 algorithm, bool extractable, List&lt;KeyUsage&gt; keyUsages)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;CryptoKey&gt; ImportKey(KeyFormat format, Union188 keyData, Union187 algorithm, bool extractable, List&lt;KeyUsage&gt; keyUsages)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>format</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.KeyFormat.html">KeyFormat</a></dt>
     <dd></dd>
-    <dt><code>keyData</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union164.html">Union164</a></dt>
+    <dt><code>keyData</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union188.html">Union188</a></dt>
     <dd></dd>
-    <dt><code>algorithm</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union163.html">Union163</a></dt>
+    <dt><code>algorithm</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union187.html">Union187</a></dt>
     <dd></dd>
     <dt><code>extractable</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
     <dd></dd>
@@ -573,7 +574,7 @@ public class SubtleCrypto</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_SubtleCrypto_ImportKey_CSharpToJavaScript_APIs_JS_KeyFormat_CSharpToJavaScript_APIs_JS_Union164_CSharpToJavaScript_APIs_JS_Union163_System_Boolean_System_Collections_Generic_List_CSharpToJavaScript_APIs_JS_KeyUsage___remarks">Remarks</h4>
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_SubtleCrypto_ImportKey_CSharpToJavaScript_APIs_JS_KeyFormat_CSharpToJavaScript_APIs_JS_Union188_CSharpToJavaScript_APIs_JS_Union187_System_Boolean_System_Collections_Generic_List_CSharpToJavaScript_APIs_JS_KeyUsage___remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>The function accepts several import formats: see <a href="https://developer.mozilla.org#supported_formats">Supported formats</a> for details.</p>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto/exportKey"><code>SubtleCrypto.exportKey()</code></a><br>-<a href="https://datatracker.ietf.org/doc/html/rfc5208">PKCS #8 format</a>.<br>-<a href="https://datatracker.ietf.org/doc/html/rfc5280#section-4.1">SubjectPublicKeyInfo format</a>.<br>-<a href="https://datatracker.ietf.org/doc/html/rfc7517">JSON Web Key format</a>.<br></p>
 <p>
@@ -588,33 +589,33 @@ public class SubtleCrypto</code></pre>
 
   <a id="CSharpToJavaScript_APIs_JS_SubtleCrypto_Sign_" data-uid="CSharpToJavaScript.APIs.JS.SubtleCrypto.Sign*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_SubtleCrypto_Sign_CSharpToJavaScript_APIs_JS_Union163_CSharpToJavaScript_APIs_JS_CryptoKey_CSharpToJavaScript_APIs_JS_Union200_" data-uid="CSharpToJavaScript.APIs.JS.SubtleCrypto.Sign(CSharpToJavaScript.APIs.JS.Union163,CSharpToJavaScript.APIs.JS.CryptoKey,CSharpToJavaScript.APIs.JS.Union200)">
-  Sign(Union163, CryptoKey, Union200)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L25345"><i class="bi bi-code-slash"></i></a>
+  <h3 id="CSharpToJavaScript_APIs_JS_SubtleCrypto_Sign_CSharpToJavaScript_APIs_JS_Union187_CSharpToJavaScript_APIs_JS_CryptoKey_CSharpToJavaScript_APIs_JS_Union224_" data-uid="CSharpToJavaScript.APIs.JS.SubtleCrypto.Sign(CSharpToJavaScript.APIs.JS.Union187,CSharpToJavaScript.APIs.JS.CryptoKey,CSharpToJavaScript.APIs.JS.Union224)">
+  Sign(Union187, CryptoKey, Union224)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L22728"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>sign()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.SubtleCrypto.html">SubtleCrypto</a><br>interface generates a digital <a href="https://developer.mozilla.org/en-US/docs/Glossary/signature">signature</a>.</p>
+  <div class="markdown level1 summary"><p>The <strong><code>sign()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.SubtleCrypto.html">SubtleCrypto</a> interface generates a digital {{glossary(&quot;signature&quot;)}}.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;dynamic&gt; Sign(Union163 algorithm, CryptoKey key, Union200 data)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;byte[]&gt; Sign(Union187 algorithm, CryptoKey key, Union224 data)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>algorithm</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union163.html">Union163</a></dt>
+    <dt><code>algorithm</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union187.html">Union187</a></dt>
     <dd></dd>
     <dt><code>key</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.CryptoKey.html">CryptoKey</a></dt>
     <dd></dd>
-    <dt><code>data</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union200.html">Union200</a></dt>
+    <dt><code>data</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union224.html">Union224</a></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<span class="xref">dynamic</span>&gt;</dt>
-    <dd><p>A Promise that fulfills with an<br>ArrayBuffer containing the signature.</p>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]&gt;</dt>
+    <dd><p>A Promise that fulfills with an ArrayBuffer containing the signature.</p>
 </dd>
   </dl>
 
@@ -624,10 +625,10 @@ public class SubtleCrypto</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_SubtleCrypto_Sign_CSharpToJavaScript_APIs_JS_Union163_CSharpToJavaScript_APIs_JS_CryptoKey_CSharpToJavaScript_APIs_JS_Union200__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>It takes as its arguments a <a href="https://developer.mozilla.org/en-US/docs/Glossary/key">key</a> to sign with, some algorithm-specific<br>parameters, and the data to sign. It returns a Promise which will be<br>fulfilled with the signature.</p>
-<p>You can use the corresponding <a class="xref" href="CSharpToJavaScript.APIs.JS.SubtleCrypto.html#CSharpToJavaScript_APIs_JS_SubtleCrypto_Verify_CSharpToJavaScript_APIs_JS_Union163_CSharpToJavaScript_APIs_JS_CryptoKey_CSharpToJavaScript_APIs_JS_Union200_CSharpToJavaScript_APIs_JS_Union200_">Verify(Union163, CryptoKey, Union200, Union200)</a> method to verify the<br>signature.</p>
-<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.SubtleCrypto.html#CSharpToJavaScript_APIs_JS_SubtleCrypto_Verify_CSharpToJavaScript_APIs_JS_Union163_CSharpToJavaScript_APIs_JS_CryptoKey_CSharpToJavaScript_APIs_JS_Union200_CSharpToJavaScript_APIs_JS_Union200_">Verify(Union163, CryptoKey, Union200, Union200)</a>.<br>-<a href="https://datatracker.ietf.org/doc/html/rfc3447">RFC 3447</a> specifies RSASSA-PKCS1-v1_5.<br>-<a href="https://datatracker.ietf.org/doc/html/rfc3447">RFC 3447</a> specifies RSA-PSS.<br>-<a href="https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-4.pdf">FIPS-186</a> specifies ECDSA.<br>-<a href="https://csrc.nist.gov/csrc/media/publications/fips/198/1/final/documents/fips-198-1_final.pdf">FIPS 198-1</a> specifies HMAC.<br></p>
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_SubtleCrypto_Sign_CSharpToJavaScript_APIs_JS_Union187_CSharpToJavaScript_APIs_JS_CryptoKey_CSharpToJavaScript_APIs_JS_Union224__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>It takes as its arguments a {{glossary("key")}} to sign with, some algorithm-specific parameters, and the data to sign. It returns a Promise which will be fulfilled with the signature.</p>
+<p>You can use the corresponding <a class="xref" href="CSharpToJavaScript.APIs.JS.SubtleCrypto.html#CSharpToJavaScript_APIs_JS_SubtleCrypto_Verify_CSharpToJavaScript_APIs_JS_Union187_CSharpToJavaScript_APIs_JS_CryptoKey_CSharpToJavaScript_APIs_JS_Union224_CSharpToJavaScript_APIs_JS_Union224_">Verify(Union187, CryptoKey, Union224, Union224)</a> method to verify the signature.</p>
+<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.SubtleCrypto.html#CSharpToJavaScript_APIs_JS_SubtleCrypto_Verify_CSharpToJavaScript_APIs_JS_Union187_CSharpToJavaScript_APIs_JS_CryptoKey_CSharpToJavaScript_APIs_JS_Union224_CSharpToJavaScript_APIs_JS_Union224_">Verify(Union187, CryptoKey, Union224, Union224)</a>.<br>-<a href="https://datatracker.ietf.org/doc/html/rfc3447">RFC 3447</a> specifies RSASSA-PKCS1-v1_5.<br>-<a href="https://datatracker.ietf.org/doc/html/rfc3447">RFC 3447</a> specifies RSA-PSS.<br>-<a href="https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-4.pdf">FIPS-186</a> specifies ECDSA.<br>-<a href="https://csrc.nist.gov/files/pubs/fips/198-1/final/docs/fips-198-1_final.pdf">FIPS 198-1</a> specifies HMAC.<br></p>
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto/sign">
     <em>See also on MDN</em>
@@ -640,9 +641,9 @@ public class SubtleCrypto</code></pre>
 
   <a id="CSharpToJavaScript_APIs_JS_SubtleCrypto_UnwrapKey_" data-uid="CSharpToJavaScript.APIs.JS.SubtleCrypto.UnwrapKey*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_SubtleCrypto_UnwrapKey_CSharpToJavaScript_APIs_JS_KeyFormat_CSharpToJavaScript_APIs_JS_Union200_CSharpToJavaScript_APIs_JS_CryptoKey_CSharpToJavaScript_APIs_JS_Union163_CSharpToJavaScript_APIs_JS_Union163_System_Boolean_System_Collections_Generic_List_CSharpToJavaScript_APIs_JS_KeyUsage__" data-uid="CSharpToJavaScript.APIs.JS.SubtleCrypto.UnwrapKey(CSharpToJavaScript.APIs.JS.KeyFormat,CSharpToJavaScript.APIs.JS.Union200,CSharpToJavaScript.APIs.JS.CryptoKey,CSharpToJavaScript.APIs.JS.Union163,CSharpToJavaScript.APIs.JS.Union163,System.Boolean,System.Collections.Generic.List{CSharpToJavaScript.APIs.JS.KeyUsage})">
-  UnwrapKey(KeyFormat, Union200, CryptoKey, Union163, Union163, bool, List&lt;KeyUsage&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L25363"><i class="bi bi-code-slash"></i></a>
+  <h3 id="CSharpToJavaScript_APIs_JS_SubtleCrypto_UnwrapKey_CSharpToJavaScript_APIs_JS_KeyFormat_CSharpToJavaScript_APIs_JS_Union224_CSharpToJavaScript_APIs_JS_CryptoKey_CSharpToJavaScript_APIs_JS_Union187_CSharpToJavaScript_APIs_JS_Union187_System_Boolean_System_Collections_Generic_List_CSharpToJavaScript_APIs_JS_KeyUsage__" data-uid="CSharpToJavaScript.APIs.JS.SubtleCrypto.UnwrapKey(CSharpToJavaScript.APIs.JS.KeyFormat,CSharpToJavaScript.APIs.JS.Union224,CSharpToJavaScript.APIs.JS.CryptoKey,CSharpToJavaScript.APIs.JS.Union187,CSharpToJavaScript.APIs.JS.Union187,System.Boolean,System.Collections.Generic.List{CSharpToJavaScript.APIs.JS.KeyUsage})">
+  UnwrapKey(KeyFormat, Union224, CryptoKey, Union187, Union187, bool, List&lt;KeyUsage&gt;)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L22746"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>unwrapKey()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.SubtleCrypto.html">SubtleCrypto</a> interface &quot;unwraps&quot; a key.<br>This means that it takes as its input a key that has been exported and then encrypted (also called &amp;quot;wrapped&amp;quot;).<br>It decrypts the key and then imports it, returning a <a class="xref" href="CSharpToJavaScript.APIs.JS.CryptoKey.html">CryptoKey</a> object that can be used in the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API">Web Crypto API</a>.</p>
@@ -650,20 +651,20 @@ public class SubtleCrypto</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;CryptoKey&gt; UnwrapKey(KeyFormat format, Union200 wrappedKey, CryptoKey unwrappingKey, Union163 unwrapAlgorithm, Union163 unwrappedKeyAlgorithm, bool extractable, List&lt;KeyUsage&gt; keyUsages)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;CryptoKey&gt; UnwrapKey(KeyFormat format, Union224 wrappedKey, CryptoKey unwrappingKey, Union187 unwrapAlgorithm, Union187 unwrappedKeyAlgorithm, bool extractable, List&lt;KeyUsage&gt; keyUsages)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>format</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.KeyFormat.html">KeyFormat</a></dt>
     <dd></dd>
-    <dt><code>wrappedKey</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union200.html">Union200</a></dt>
+    <dt><code>wrappedKey</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union224.html">Union224</a></dt>
     <dd></dd>
     <dt><code>unwrappingKey</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.CryptoKey.html">CryptoKey</a></dt>
     <dd></dd>
-    <dt><code>unwrapAlgorithm</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union163.html">Union163</a></dt>
+    <dt><code>unwrapAlgorithm</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union187.html">Union187</a></dt>
     <dd></dd>
-    <dt><code>unwrappedKeyAlgorithm</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union163.html">Union163</a></dt>
+    <dt><code>unwrappedKeyAlgorithm</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union187.html">Union187</a></dt>
     <dd></dd>
     <dt><code>extractable</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
     <dd></dd>
@@ -684,10 +685,10 @@ public class SubtleCrypto</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_SubtleCrypto_UnwrapKey_CSharpToJavaScript_APIs_JS_KeyFormat_CSharpToJavaScript_APIs_JS_Union200_CSharpToJavaScript_APIs_JS_CryptoKey_CSharpToJavaScript_APIs_JS_Union163_CSharpToJavaScript_APIs_JS_Union163_System_Boolean_System_Collections_Generic_List_CSharpToJavaScript_APIs_JS_KeyUsage___remarks">Remarks</h4>
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_SubtleCrypto_UnwrapKey_CSharpToJavaScript_APIs_JS_KeyFormat_CSharpToJavaScript_APIs_JS_Union224_CSharpToJavaScript_APIs_JS_CryptoKey_CSharpToJavaScript_APIs_JS_Union187_CSharpToJavaScript_APIs_JS_Union187_System_Boolean_System_Collections_Generic_List_CSharpToJavaScript_APIs_JS_KeyUsage___remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>As with <a href="https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto/importKey"><code>SubtleCrypto.importKey()</code></a>, you specify the key&amp;apos;s <a href="https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto/importKey#supported_formats">import format</a> and other attributes of the key to import details such as whether it is extractable, and which operations it can be used for.</p>
 <p>But because <code>unwrapKey()</code> also decrypts the key to be imported, you also need to pass in the key that must be used to decrypt it.<br>This is sometimes called the &amp;quot;unwrapping key&amp;quot;.</p>
-<p>The inverse of <code>unwrapKey()</code> is <a class="xref" href="CSharpToJavaScript.APIs.JS.SubtleCrypto.html#CSharpToJavaScript_APIs_JS_SubtleCrypto_WrapKey_CSharpToJavaScript_APIs_JS_KeyFormat_CSharpToJavaScript_APIs_JS_CryptoKey_CSharpToJavaScript_APIs_JS_CryptoKey_CSharpToJavaScript_APIs_JS_Union163_">WrapKey(KeyFormat, CryptoKey, CryptoKey, Union163)</a>: while <code>unwrapKey</code> is composed of decrypt + import, <code>wrapKey</code> is composed of encrypt + export.</p>
+<p>The inverse of <code>unwrapKey()</code> is <a class="xref" href="CSharpToJavaScript.APIs.JS.SubtleCrypto.html#CSharpToJavaScript_APIs_JS_SubtleCrypto_WrapKey_CSharpToJavaScript_APIs_JS_KeyFormat_CSharpToJavaScript_APIs_JS_CryptoKey_CSharpToJavaScript_APIs_JS_CryptoKey_CSharpToJavaScript_APIs_JS_Union187_">WrapKey(KeyFormat, CryptoKey, CryptoKey, Union187)</a>: while <code>unwrapKey</code> is composed of decrypt + import, <code>wrapKey</code> is composed of encrypt + export.</p>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto/importKey"><code>SubtleCrypto.importKey()</code></a><br>-<a href="https://datatracker.ietf.org/doc/html/rfc5208">PKCS #8 format</a>.<br>-<a href="https://datatracker.ietf.org/doc/html/rfc5280#section-4.1">SubjectPublicKeyInfo format</a>.<br>-<a href="https://datatracker.ietf.org/doc/html/rfc7517">JSON Web Key format</a>.<br>-<a href="https://datatracker.ietf.org/doc/html/rfc3394">AES-KW specification</a>.<br></p>
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto/unwrapKey">
@@ -701,9 +702,9 @@ public class SubtleCrypto</code></pre>
 
   <a id="CSharpToJavaScript_APIs_JS_SubtleCrypto_Verify_" data-uid="CSharpToJavaScript.APIs.JS.SubtleCrypto.Verify*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_SubtleCrypto_Verify_CSharpToJavaScript_APIs_JS_Union163_CSharpToJavaScript_APIs_JS_CryptoKey_CSharpToJavaScript_APIs_JS_Union200_CSharpToJavaScript_APIs_JS_Union200_" data-uid="CSharpToJavaScript.APIs.JS.SubtleCrypto.Verify(CSharpToJavaScript.APIs.JS.Union163,CSharpToJavaScript.APIs.JS.CryptoKey,CSharpToJavaScript.APIs.JS.Union200,CSharpToJavaScript.APIs.JS.Union200)">
-  Verify(Union163, CryptoKey, Union200, Union200)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L25347"><i class="bi bi-code-slash"></i></a>
+  <h3 id="CSharpToJavaScript_APIs_JS_SubtleCrypto_Verify_CSharpToJavaScript_APIs_JS_Union187_CSharpToJavaScript_APIs_JS_CryptoKey_CSharpToJavaScript_APIs_JS_Union224_CSharpToJavaScript_APIs_JS_Union224_" data-uid="CSharpToJavaScript.APIs.JS.SubtleCrypto.Verify(CSharpToJavaScript.APIs.JS.Union187,CSharpToJavaScript.APIs.JS.CryptoKey,CSharpToJavaScript.APIs.JS.Union224,CSharpToJavaScript.APIs.JS.Union224)">
+  Verify(Union187, CryptoKey, Union224, Union224)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L22730"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>verify()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.SubtleCrypto.html">SubtleCrypto</a><br>interface verifies a digital <a href="https://developer.mozilla.org/en-US/docs/Glossary/signature">signature</a>.</p>
@@ -711,24 +712,24 @@ public class SubtleCrypto</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;dynamic&gt; Verify(Union163 algorithm, CryptoKey key, Union200 signature, Union200 data)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;bool&gt; Verify(Union187 algorithm, CryptoKey key, Union224 signature, Union224 data)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>algorithm</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union163.html">Union163</a></dt>
+    <dt><code>algorithm</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union187.html">Union187</a></dt>
     <dd></dd>
     <dt><code>key</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.CryptoKey.html">CryptoKey</a></dt>
     <dd></dd>
-    <dt><code>signature</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union200.html">Union200</a></dt>
+    <dt><code>signature</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union224.html">Union224</a></dt>
     <dd></dd>
-    <dt><code>data</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union200.html">Union200</a></dt>
+    <dt><code>data</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union224.html">Union224</a></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<span class="xref">dynamic</span>&gt;</dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
     <dd><p>A Promise that fulfills with a<br>boolean value: <code>true</code> if the signature is valid, <code>false</code><br>otherwise.</p>
 </dd>
   </dl>
@@ -739,9 +740,9 @@ public class SubtleCrypto</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_SubtleCrypto_Verify_CSharpToJavaScript_APIs_JS_Union163_CSharpToJavaScript_APIs_JS_CryptoKey_CSharpToJavaScript_APIs_JS_Union200_CSharpToJavaScript_APIs_JS_Union200__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>It takes as its arguments a <a href="https://developer.mozilla.org/en-US/docs/Glossary/key">key</a> to verify the signature with, some<br>algorithm-specific parameters, the signature, and the original signed data. It returns a<br>Promise which will be fulfilled with a boolean value<br>indicating whether the signature is valid.</p>
-<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.SubtleCrypto.html#CSharpToJavaScript_APIs_JS_SubtleCrypto_Sign_CSharpToJavaScript_APIs_JS_Union163_CSharpToJavaScript_APIs_JS_CryptoKey_CSharpToJavaScript_APIs_JS_Union200_">Sign(Union163, CryptoKey, Union200)</a>.<br>-<a href="https://datatracker.ietf.org/doc/html/rfc3447">RFC 3447</a> specifies RSASSA-PKCS1-v1_5.<br>-<a href="https://datatracker.ietf.org/doc/html/rfc3447">RFC 3447</a> specifies RSA-PSS.<br>-<a href="https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-4.pdf">FIPS-186</a> specifies ECDSA.<br>-<a href="https://csrc.nist.gov/csrc/media/publications/fips/198/1/final/documents/fips-198-1_final.pdf">FIPS 198-1</a> specifies HMAC.<br></p>
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_SubtleCrypto_Verify_CSharpToJavaScript_APIs_JS_Union187_CSharpToJavaScript_APIs_JS_CryptoKey_CSharpToJavaScript_APIs_JS_Union224_CSharpToJavaScript_APIs_JS_Union224__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>It takes as its arguments a <a href="https://developer.mozilla.org/en-US/docs/Glossary/key">key</a> to verify the signature with, some algorithm-specific parameters, the signature, and the original signed data.<br>It returns a Promise which will be fulfilled with a boolean value indicating whether the signature is valid.</p>
+<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.SubtleCrypto.html#CSharpToJavaScript_APIs_JS_SubtleCrypto_Sign_CSharpToJavaScript_APIs_JS_Union187_CSharpToJavaScript_APIs_JS_CryptoKey_CSharpToJavaScript_APIs_JS_Union224_">Sign(Union187, CryptoKey, Union224)</a>.<br>-<a href="https://datatracker.ietf.org/doc/html/rfc3447">RFC 3447</a> specifies RSASSA-PKCS1-v1_5.<br>-<a href="https://datatracker.ietf.org/doc/html/rfc3447">RFC 3447</a> specifies RSA-PSS.<br>-<a href="https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-4.pdf">FIPS-186</a> specifies ECDSA.<br>-<a href="https://csrc.nist.gov/files/pubs/fips/198-1/final/docs/fips-198-1_final.pdf">FIPS 198-1</a> specifies HMAC.<br></p>
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto/verify">
     <em>See also on MDN</em>
@@ -754,9 +755,9 @@ public class SubtleCrypto</code></pre>
 
   <a id="CSharpToJavaScript_APIs_JS_SubtleCrypto_WrapKey_" data-uid="CSharpToJavaScript.APIs.JS.SubtleCrypto.WrapKey*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_SubtleCrypto_WrapKey_CSharpToJavaScript_APIs_JS_KeyFormat_CSharpToJavaScript_APIs_JS_CryptoKey_CSharpToJavaScript_APIs_JS_CryptoKey_CSharpToJavaScript_APIs_JS_Union163_" data-uid="CSharpToJavaScript.APIs.JS.SubtleCrypto.WrapKey(CSharpToJavaScript.APIs.JS.KeyFormat,CSharpToJavaScript.APIs.JS.CryptoKey,CSharpToJavaScript.APIs.JS.CryptoKey,CSharpToJavaScript.APIs.JS.Union163)">
-  WrapKey(KeyFormat, CryptoKey, CryptoKey, Union163)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L25361"><i class="bi bi-code-slash"></i></a>
+  <h3 id="CSharpToJavaScript_APIs_JS_SubtleCrypto_WrapKey_CSharpToJavaScript_APIs_JS_KeyFormat_CSharpToJavaScript_APIs_JS_CryptoKey_CSharpToJavaScript_APIs_JS_CryptoKey_CSharpToJavaScript_APIs_JS_Union187_" data-uid="CSharpToJavaScript.APIs.JS.SubtleCrypto.WrapKey(CSharpToJavaScript.APIs.JS.KeyFormat,CSharpToJavaScript.APIs.JS.CryptoKey,CSharpToJavaScript.APIs.JS.CryptoKey,CSharpToJavaScript.APIs.JS.Union187)">
+  WrapKey(KeyFormat, CryptoKey, CryptoKey, Union187)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L22744"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>wrapKey()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.SubtleCrypto.html">SubtleCrypto</a> interface &quot;wraps&quot; a key.<br>This means that it exports the key in an external, portable format, then encrypts the exported key.<br>Wrapping a key helps protect it in untrusted environments, such as inside an otherwise unprotected data store or in transmission over an unprotected network.</p>
@@ -764,7 +765,7 @@ public class SubtleCrypto</code></pre>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;dynamic&gt; WrapKey(KeyFormat format, CryptoKey key, CryptoKey wrappingKey, Union163 wrapAlgorithm)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;byte[]&gt; WrapKey(KeyFormat format, CryptoKey key, CryptoKey wrappingKey, Union187 wrapAlgorithm)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -775,13 +776,13 @@ public class SubtleCrypto</code></pre>
     <dd></dd>
     <dt><code>wrappingKey</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.CryptoKey.html">CryptoKey</a></dt>
     <dd></dd>
-    <dt><code>wrapAlgorithm</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union163.html">Union163</a></dt>
+    <dt><code>wrapAlgorithm</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union187.html">Union187</a></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<span class="xref">dynamic</span>&gt;</dt>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]&gt;</dt>
     <dd><p>A <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise"><code>Promise</code></a> that fulfills with<br>an <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer"><code>ArrayBuffer</code></a><br>containing the encrypted exported key.</p>
 </dd>
   </dl>
@@ -792,10 +793,10 @@ public class SubtleCrypto</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_SubtleCrypto_WrapKey_CSharpToJavaScript_APIs_JS_KeyFormat_CSharpToJavaScript_APIs_JS_CryptoKey_CSharpToJavaScript_APIs_JS_CryptoKey_CSharpToJavaScript_APIs_JS_Union163__remarks">Remarks</h4>
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_SubtleCrypto_WrapKey_CSharpToJavaScript_APIs_JS_KeyFormat_CSharpToJavaScript_APIs_JS_CryptoKey_CSharpToJavaScript_APIs_JS_CryptoKey_CSharpToJavaScript_APIs_JS_Union187__remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>As with <a class="xref" href="CSharpToJavaScript.APIs.JS.SubtleCrypto.html#CSharpToJavaScript_APIs_JS_SubtleCrypto_ExportKey_CSharpToJavaScript_APIs_JS_KeyFormat_CSharpToJavaScript_APIs_JS_CryptoKey_">ExportKey(KeyFormat, CryptoKey)</a>, you specify an <a href="https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto/importKey#supported_formats">export format</a> for the key.<br>To export a key, it must have <a class="xref" href="CSharpToJavaScript.APIs.JS.CryptoKey.html#CSharpToJavaScript_APIs_JS_CryptoKey_Extractable">Extractable</a> set to <code>true</code>.</p>
 <p>But because <code>wrapKey()</code> also encrypts the key to be exported, you also need to pass in the key that must be used to encrypt it.<br>This is sometimes called the &amp;quot;wrapping key&amp;quot;.</p>
-<p>The inverse of <code>wrapKey()</code> is <a class="xref" href="CSharpToJavaScript.APIs.JS.SubtleCrypto.html#CSharpToJavaScript_APIs_JS_SubtleCrypto_UnwrapKey_CSharpToJavaScript_APIs_JS_KeyFormat_CSharpToJavaScript_APIs_JS_Union200_CSharpToJavaScript_APIs_JS_CryptoKey_CSharpToJavaScript_APIs_JS_Union163_CSharpToJavaScript_APIs_JS_Union163_System_Boolean_System_Collections_Generic_List_CSharpToJavaScript_APIs_JS_KeyUsage__">UnwrapKey(KeyFormat, Union200, CryptoKey, Union163, Union163, bool, List&lt;KeyUsage&gt;)</a>: while <code>wrapKey</code> is composed of export + encrypt, <code>unwrapKey</code> is composed of import + decrypt.</p>
+<p>The inverse of <code>wrapKey()</code> is <a class="xref" href="CSharpToJavaScript.APIs.JS.SubtleCrypto.html#CSharpToJavaScript_APIs_JS_SubtleCrypto_UnwrapKey_CSharpToJavaScript_APIs_JS_KeyFormat_CSharpToJavaScript_APIs_JS_Union224_CSharpToJavaScript_APIs_JS_CryptoKey_CSharpToJavaScript_APIs_JS_Union187_CSharpToJavaScript_APIs_JS_Union187_System_Boolean_System_Collections_Generic_List_CSharpToJavaScript_APIs_JS_KeyUsage__">UnwrapKey(KeyFormat, Union224, CryptoKey, Union187, Union187, bool, List&lt;KeyUsage&gt;)</a>: while <code>wrapKey</code> is composed of export + encrypt, <code>unwrapKey</code> is composed of import + decrypt.</p>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto/exportKey"><code>SubtleCrypto.exportKey()</code></a><br>-<a href="https://datatracker.ietf.org/doc/html/rfc5208">PKCS #8 format</a>.<br>-<a href="https://datatracker.ietf.org/doc/html/rfc5280#section-4.1">SubjectPublicKeyInfo format</a>.<br>-<a href="https://datatracker.ietf.org/doc/html/rfc7517">JSON Web Key format</a>.<br>-<a href="https://datatracker.ietf.org/doc/html/rfc3394">AES-KW specification</a>.<br></p>
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto/wrapKey">
@@ -811,7 +812,7 @@ public class SubtleCrypto</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L25337" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L22720" class="edit-link">Edit this page</a>
         </div>
 
 

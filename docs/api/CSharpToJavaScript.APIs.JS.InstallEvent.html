@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class InstallEvent | CSharpToJavaScript ">
       
-      <meta name="description" content="IMPORTANT   Deprecated     NOTE   Note: Instead of using the deprecated ServiceWorkerGlobalScope.oninstall handler to catch events of this type, handle the (non-deprecated) ServiceWorkerGlobalScope/install_event event using a listener added with EventTarget/addEventListener.">
+      <meta name="description" content="The parameter passed into an ServiceWorkerGlobalScope.Install_event event handler function, the InstallEvent interface represents an install action that is dispatched on the  of a . As a child of , it ensures that functional events such as  are not dispatched during installation.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -77,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -89,7 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_InstallEvent" data-uid="CSharpToJavaScript.APIs.JS.InstallEvent" class="text-break">
-Class InstallEvent  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L18245"><i class="bi bi-code-slash"></i></a>
+Class InstallEvent  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L16579"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,13 +97,7 @@ Class InstallEvent  <a class="header-action link-secondary" title="View source" 
   <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><div class="IMPORTANT">
-  <h5>IMPORTANT</h5>
-  <strong>Deprecated</strong>
-</div>
-<blockquote class="NOTE">
-  <h5>NOTE</h5>
-  <strong>Note:</strong> Instead of using the deprecated <code>ServiceWorkerGlobalScope.oninstall</code> handler to catch events of this type, handle the (non-deprecated) ServiceWorkerGlobalScope/install_event event using a listener added with EventTarget/addEventListener.</blockquote>
+  <div class="markdown summary"><p>The parameter passed into an ServiceWorkerGlobalScope.Install_event event handler function, the <code>InstallEvent</code> interface represents an install action that is dispatched on the <a class="xref" href="CSharpToJavaScript.APIs.JS.ServiceWorkerGlobalScope.html">ServiceWorkerGlobalScope</a> of a <a class="xref" href="CSharpToJavaScript.APIs.JS.ServiceWorker.html">ServiceWorker</a>. As a child of <a class="xref" href="CSharpToJavaScript.APIs.JS.ExtendableEvent.html">ExtendableEvent</a>, it ensures that functional events such as <a class="xref" href="CSharpToJavaScript.APIs.JS.FetchEvent.html">FetchEvent</a> are not dispatched during installation.</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -226,8 +220,7 @@ public class InstallEvent : ExtendableEvent</code></pre>
 
 
   <h2 id="CSharpToJavaScript_APIs_JS_InstallEvent_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>The parameter passed into the ServiceWorkerGlobalScope.Install_event handler, the <code>InstallEvent</code> interface represents an install action that is dispatched on the <a class="xref" href="CSharpToJavaScript.APIs.JS.ServiceWorkerGlobalScope.html">ServiceWorkerGlobalScope</a> of a <a class="xref" href="CSharpToJavaScript.APIs.JS.ServiceWorker.html">ServiceWorker</a>. As a child of <a class="xref" href="CSharpToJavaScript.APIs.JS.ExtendableEvent.html">ExtendableEvent</a>, it ensures that functional events such as <a class="xref" href="CSharpToJavaScript.APIs.JS.FetchEvent.html">FetchEvent</a> are not dispatched during installation.</p>
-<p>This interface inherits from the <a class="xref" href="CSharpToJavaScript.APIs.JS.ExtendableEvent.html">ExtendableEvent</a> interface.</p>
+  <div class="markdown level0 remarks"><p>This interface inherits from the <a class="xref" href="CSharpToJavaScript.APIs.JS.ExtendableEvent.html">ExtendableEvent</a> interface.</p>
 <p></p>
 <p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerGlobalScope/install_event"><code>install</code> event</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.NotificationEvent.html">NotificationEvent</a><br>-Promise<br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API">Fetch API</a><br></p>
 <p>
@@ -238,34 +231,114 @@ public class InstallEvent : ExtendableEvent</code></pre>
 </div>
 
 
-  <h2 class="section" id="methods">Methods
+  <h2 class="section" id="constructors">Constructors
 </h2>
 
 
-  <a id="CSharpToJavaScript_APIs_JS_InstallEvent_AddRoutes_" data-uid="CSharpToJavaScript.APIs.JS.InstallEvent.AddRoutes*"></a>
+  <a id="CSharpToJavaScript_APIs_JS_InstallEvent__ctor_" data-uid="CSharpToJavaScript.APIs.JS.InstallEvent.#ctor*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_InstallEvent_AddRoutes_CSharpToJavaScript_APIs_JS_Union119_" data-uid="CSharpToJavaScript.APIs.JS.InstallEvent.AddRoutes(CSharpToJavaScript.APIs.JS.Union119)">
-  AddRoutes(Union119)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L18248"><i class="bi bi-code-slash"></i></a>
+  <h3 id="CSharpToJavaScript_APIs_JS_InstallEvent__ctor" data-uid="CSharpToJavaScript.APIs.JS.InstallEvent.#ctor">
+  InstallEvent()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L16586"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;GlobalObject.Undefined&gt; AddRoutes(Union119 rules)</code></pre>
+    <pre><code class="lang-csharp hljs">public InstallEvent()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="CSharpToJavaScript_APIs_JS_InstallEvent__ctor_" data-uid="CSharpToJavaScript.APIs.JS.InstallEvent.#ctor*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_InstallEvent__ctor_System_String_CSharpToJavaScript_APIs_JS_ExtendableEventInit_" data-uid="CSharpToJavaScript.APIs.JS.InstallEvent.#ctor(System.String,CSharpToJavaScript.APIs.JS.ExtendableEventInit)">
+  InstallEvent(string, ExtendableEventInit)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L16583"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>InstallEvent()</code></strong> constructor creates a new <a class="xref" href="CSharpToJavaScript.APIs.JS.InstallEvent.html">InstallEvent</a> object.
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public InstallEvent(string type, ExtendableEventInit eventInitDict = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>rules</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union119.html">Union119</a></dt>
+    <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd></dd>
+    <dt><code>eventInitDict</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.ExtendableEventInit.html">ExtendableEventInit</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_InstallEvent__ctor_System_String_CSharpToJavaScript_APIs_JS_ExtendableEventInit__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-Promise<br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API">Fetch API</a><br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/InstallEvent/InstallEvent">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_InstallEvent_AddRoutes_" data-uid="CSharpToJavaScript.APIs.JS.InstallEvent.AddRoutes*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_InstallEvent_AddRoutes_CSharpToJavaScript_APIs_JS_Union138_" data-uid="CSharpToJavaScript.APIs.JS.InstallEvent.AddRoutes(CSharpToJavaScript.APIs.JS.Union138)">
+  AddRoutes(Union138)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L16585"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>addRoutes()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.InstallEvent.html">InstallEvent</a> interface specifies one or more static routes, which define rules for fetching specified resources that will be used even before service worker startup. This allows you to, for example, bypass a service worker in cases where you always want to fetch a resource from the network or a browser <a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html">Cache</a>, and avoids the performance overhead of unnecessary service worker cycles.
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;GlobalObject.Undefined&gt; AddRoutes(Union138 rules)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>rules</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Union138.html">Union138</a></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a>&gt;</dt>
-    <dd></dd>
+    <dd><p>A Promise that fulfills with <code>undefined</code>.</p>
+</dd>
   </dl>
 
 
@@ -274,6 +347,14 @@ public class InstallEvent : ExtendableEvent</code></pre>
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_InstallEvent_AddRoutes_CSharpToJavaScript_APIs_JS_Union138__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.InstallEvent.html">InstallEvent</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerGlobalScope/install_event"><code>install</code> event</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API">Service Worker API</a><br>-<a href="https://developer.chrome.com/blog/service-worker-static-routing">Use the Service Worker Static Routing API to bypass the service worker for specific paths</a> on <code>developer.chrome.com</code> (2024)<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/InstallEvent/addRoutes">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -282,7 +363,7 @@ public class InstallEvent : ExtendableEvent</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L18245" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L16579" class="edit-link">Edit this page</a>
         </div>
 
 

@@ -65,9 +65,9 @@
       "ExtractSearchIndex"],
     "keepFileLink": false,
     "disableGitFeatures": false,
-    "sitemap": {
-      "baseUrl": "https://tilied.github.io/CSTOJS_Pages",
-      "changefreq": "weekly"
-    }
+		"sitemap": {
+			"baseUrl": "https://tilied.github.io/CSTOJS_Pages",
+			"changefreq": "monthly"
+		}
   }
 }

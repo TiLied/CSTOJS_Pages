@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class SnapEvent | CSharpToJavaScript ">
       
-      
+      <meta name="description" content="NOTE   Experimental  The SnapEvent interface defines the event object for the Element/scrollsnapchanging_event and Element/scrollsnapchange_event events. Respectively, these fire on on a scroll container when the browser determines that a new scroll snap target is pending (will be selected when the current scroll gesture ends), and when a new snap target is selected.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -77,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -89,7 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_SnapEvent" data-uid="CSharpToJavaScript.APIs.JS.SnapEvent" class="text-break">
-Class SnapEvent  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L2620"><i class="bi bi-code-slash"></i></a>
+Class SnapEvent  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L2523"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,7 +97,11 @@ Class SnapEvent  <a class="header-action link-secondary" title="View source" hre
   <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>SnapEvent</code></strong> interface defines the event object for the Element/scrollsnapchanging_event and Element/scrollsnapchange_event events. Respectively, these fire on on a <a href="https://developer.mozilla.org/en-US/docs/Glossary/Scroll_container">scroll container</a> when the browser determines that a new scroll snap target is pending (will be selected when the current scroll gesture ends), and when a new snap target is selected.
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
@@ -214,6 +218,16 @@ public class SnapEvent : Event</code></pre>
 
 
 
+  <h2 id="CSharpToJavaScript_APIs_JS_SnapEvent_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>These events can be used to run code in response to new elements being snapped to; <code>SnapEvent</code> exposes references to the element snapped to in the inline and/or block direction. The property values available on <code>SnapEvent</code> correspond directly to the value of the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-type">scroll-snap-type</a> CSS property set on the scroll container:</p>
+<p></p>
+<p>-Element/scrollsnapchanging_event event<br>-Element/scrollsnapchange_event event<br>-<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_scroll_snap">CSS scroll snap module</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_scroll_snap/Using_scroll_snap_events">Using scroll snap events</a><br>-<a href="https://developer.chrome.com/blog/scroll-snap-events">Scroll Snap Events</a> on developer.chrome.com (2024)<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/SnapEvent">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
   <h2 class="section" id="constructors">Constructors
@@ -224,7 +238,7 @@ public class SnapEvent : Event</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_SnapEvent__ctor" data-uid="CSharpToJavaScript.APIs.JS.SnapEvent.#ctor">
   SnapEvent()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L2626"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L2532"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -250,14 +264,18 @@ public class SnapEvent : Event</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_SnapEvent__ctor_System_String_CSharpToJavaScript_APIs_JS_SnapEventInit_" data-uid="CSharpToJavaScript.APIs.JS.SnapEvent.#ctor(System.String,CSharpToJavaScript.APIs.JS.SnapEventInit)">
   SnapEvent(string, SnapEventInit)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L2623"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L2527"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>SnapEvent()</code></strong> constructor creates a new<br><a class="xref" href="CSharpToJavaScript.APIs.JS.SnapEvent.html">SnapEvent</a> object instance.
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SnapEvent(string type, SnapEventInit eventInitDict)</code></pre>
+    <pre><code class="lang-csharp hljs">public SnapEvent(string type, SnapEventInit eventInitDict = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -275,6 +293,14 @@ public class SnapEvent : Event</code></pre>
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_SnapEvent__ctor_System_String_CSharpToJavaScript_APIs_JS_SnapEventInit__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-Element/scrollsnapchanging_event event<br>-Element/scrollsnapchange_event event<br>-<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_scroll_snap">CSS scroll snap module</a><br>-<a href="https://developer.chrome.com/blog/scroll-snap-events">Scroll Snap Events</a> on developer.chrome.com (2024)<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/SnapEvent/SnapEvent">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -287,10 +313,14 @@ public class SnapEvent : Event</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_SnapEvent_SnapTargetBlock" data-uid="CSharpToJavaScript.APIs.JS.SnapEvent.SnapTargetBlock">
   SnapTargetBlock
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L2624"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L2529"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>snapTargetBlock</code></strong> read-only property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.SnapEvent.html">SnapEvent</a> interface returns a reference to the element snapped to in the block direction when the event fired.
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -304,12 +334,23 @@ public class SnapEvent : Event</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a></dt>
-    <dd></dd>
+    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a> representing the snapped element, or <code>null</code> if scroll snapping only occurs in the inline direction so no element is snapped to in the block direction.If the snapped element was a pseudo-element, the returned <code>Node</code> will be the owning element of that pseudo-element.</p>
+</dd>
   </dl>
 
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_SnapEvent_SnapTargetBlock_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Specifically:</p>
+<p>The property values available on <code>SnapEvent</code> correspond directly to the value of the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-type">scroll-snap-type</a> CSS property set on the scroll container. <code>snapTargetBlock</code> only returns an element reference if the snap axis is specified as <code>block</code> (or a physical axis value that equates to <code>block</code> in the current writing mode) or <code>both</code>.</p>
+<p>-Element/scrollsnapchanging_event event<br>-Element/scrollsnapchange_event event<br>-<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_scroll_snap">CSS scroll snap module</a><br>-<a href="https://developer.chrome.com/blog/scroll-snap-events">Scroll Snap Events</a> on developer.chrome.com (2024)<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/SnapEvent/snapTargetBlock">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -318,10 +359,14 @@ public class SnapEvent : Event</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_SnapEvent_SnapTargetInline" data-uid="CSharpToJavaScript.APIs.JS.SnapEvent.SnapTargetInline">
   SnapTargetInline
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L2625"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L2531"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>snapTargetInline</code></strong> read-only property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.SnapEvent.html">SnapEvent</a> interface returns a reference to the element snapped to in the inline direction when the event fired.
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -335,12 +380,23 @@ public class SnapEvent : Event</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a></dt>
-    <dd></dd>
+    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a> representing the snapped element, or <code>null</code> if scroll snapping only occurs in the block direction so no element is snapped to in the inline direction.If the snapped element was a pseudo-element, the returned <code>Node</code> will be the owning element of that pseudo-element.</p>
+</dd>
   </dl>
 
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_SnapEvent_SnapTargetInline_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Specifically:</p>
+<p>The property values available on <code>SnapEvent</code> correspond directly to the value of the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-type">scroll-snap-type</a> CSS property set on the scroll container. <code>snapTargetInline</code> only returns an element reference if the snap axis is specified as <code>inline</code> (or a physical axis value that equates to <code>inline</code> in the current writing mode) or <code>both</code>.</p>
+<p>-Element/scrollsnapchanging_event event<br>-Element/scrollsnapchange_event event<br>-<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_scroll_snap">CSS scroll snap module</a><br>-<a href="https://developer.chrome.com/blog/scroll-snap-events">Scroll Snap Events</a> on developer.chrome.com (2024)<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/SnapEvent/snapTargetInline">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -349,7 +405,7 @@ public class SnapEvent : Event</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L2620" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L2523" class="edit-link">Edit this page</a>
         </div>
 
 

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class BackgroundFetchManager | CSharpToJavaScript ">
       
-      <meta name="description" content="The BackgroundFetchManager interface of the &#39;Background Fetch API&#39; is a map where the keys are background fetch IDs and the values are  objects.">
+      <meta name="description" content="NOTE   Experimental  The BackgroundFetchManager interface of the &#39;Background Fetch API&#39; is a map where the keys are background fetch IDs and the values are  objects.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -77,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -89,7 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_BackgroundFetchManager" data-uid="CSharpToJavaScript.APIs.JS.BackgroundFetchManager" class="text-break">
-Class BackgroundFetchManager  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L442"><i class="bi bi-code-slash"></i></a>
+Class BackgroundFetchManager  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L377"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,7 +97,10 @@ Class BackgroundFetchManager  <a class="header-action link-secondary" title="Vie
   <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>The <strong><code>BackgroundFetchManager</code></strong> interface of the 'Background Fetch API' is a map where the keys are background fetch IDs and the values are <a class="xref" href="CSharpToJavaScript.APIs.JS.BackgroundFetchRegistration.html">BackgroundFetchRegistration</a> objects.</p>
+  <div class="markdown summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>BackgroundFetchManager</code></strong> interface of the 'Background Fetch API' is a map where the keys are background fetch IDs and the values are <a class="xref" href="CSharpToJavaScript.APIs.JS.BackgroundFetchRegistration.html">BackgroundFetchRegistration</a> objects.
 </div>
   <div class="markdown conceptual"></div>
 
@@ -165,15 +168,18 @@ public class BackgroundFetchManager</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_BackgroundFetchManager_Fetch_System_String_CSharpToJavaScript_APIs_JS_Union0_CSharpToJavaScript_APIs_JS_BackgroundFetchOptions_" data-uid="CSharpToJavaScript.APIs.JS.BackgroundFetchManager.Fetch(System.String,CSharpToJavaScript.APIs.JS.Union0,CSharpToJavaScript.APIs.JS.BackgroundFetchOptions)">
   Fetch(string, Union0, BackgroundFetchOptions)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L446"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L381"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>fetch()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.BackgroundFetchManager.html">BackgroundFetchManager</a> interface initiates a background fetch operation, given one or more URLs or <a class="xref" href="CSharpToJavaScript.APIs.JS.Request.html">Request</a> objects.</p>
+  <div class="markdown level1 summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>fetch()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.BackgroundFetchManager.html">BackgroundFetchManager</a> interface initiates a background fetch operation, given one or more URLs or <a class="xref" href="CSharpToJavaScript.APIs.JS.Request.html">Request</a> objects.
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;BackgroundFetchRegistration&gt; Fetch(string id, Union0 requests, BackgroundFetchOptions options)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;BackgroundFetchRegistration&gt; Fetch(string id, Union0 requests, BackgroundFetchOptions options = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -214,10 +220,13 @@ public class BackgroundFetchManager</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_BackgroundFetchManager_Get_System_String_" data-uid="CSharpToJavaScript.APIs.JS.BackgroundFetchManager.Get(System.String)">
   Get(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L448"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L383"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>get()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.BackgroundFetchManager.html">BackgroundFetchManager</a> interface returns a {{jsxref(&quot;Promise&quot;)}} that resolves with the <a class="xref" href="CSharpToJavaScript.APIs.JS.BackgroundFetchRegistration.html">BackgroundFetchRegistration</a> associated with the provided <code>id</code> or <a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a> if the <code>id</code> is not found.</p>
+  <div class="markdown level1 summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>get()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.BackgroundFetchManager.html">BackgroundFetchManager</a> interface returns a {{jsxref("Promise")}} that resolves with the <a class="xref" href="CSharpToJavaScript.APIs.JS.BackgroundFetchRegistration.html">BackgroundFetchRegistration</a> associated with the provided <code>id</code> or <a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a> if the <code>id</code> is not found.
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -259,10 +268,13 @@ public class BackgroundFetchManager</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_BackgroundFetchManager_GetIds" data-uid="CSharpToJavaScript.APIs.JS.BackgroundFetchManager.GetIds">
   GetIds()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L450"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L385"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>getIds()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.BackgroundFetchManager.html">BackgroundFetchManager</a> interface returns the IDs of all registered background fetches.</p>
+  <div class="markdown level1 summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>getIds()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.BackgroundFetchManager.html">BackgroundFetchManager</a> interface returns the IDs of all registered background fetches.
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -299,7 +311,7 @@ public class BackgroundFetchManager</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L442" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L377" class="edit-link">Edit this page</a>
         </div>
 
 

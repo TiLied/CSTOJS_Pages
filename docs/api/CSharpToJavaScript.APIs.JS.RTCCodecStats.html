@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -77,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -89,7 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_RTCCodecStats" data-uid="CSharpToJavaScript.APIs.JS.RTCCodecStats" class="text-break">
-Class RTCCodecStats  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30142"><i class="bi bi-code-slash"></i></a>
+Class RTCCodecStats  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26046"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -162,7 +162,7 @@ public class RTCCodecStats : RTCStats</code></pre>
   <div class="markdown level0 remarks"><p>These statistics can be obtained by iterating the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCStatsReport.html">RTCStatsReport</a> object returned by <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCPeerConnection.html#CSharpToJavaScript_APIs_JS_RTCPeerConnection_GetStats_CSharpToJavaScript_APIs_JS_MediaStreamTrack_">GetStats(MediaStreamTrack?)</a> until you find an entry with the <a href="https://developer.mozilla.org#type"><code>type</code></a> of <code>codec</code>.</p>
 <p>The codec statistics can be correlated with the inbound or outbound stream statistics (both local and remote) by matching their <code>codecId</code> property to the codec&amp;apos;s <code>id</code>.<br>For example, if <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCInboundRtpStreamStats#codecid"><code>RTCInboundRtpStreamStats.codecId</code></a> matches an <a href="https://developer.mozilla.org#id"><code>RTCCodecStats.id</code></a> in the same report, then we know that the codec is being used on this peer connection&amp;apos;s inbound stream.<br>If no stream <code>codecId</code> references a codec statistic, then that codec statistic object is deleted — if the codec is used again, the statistics object will be recreated with the same <code>id</code>.</p>
 <p>Codec objects may be referenced by multiple RTP streams in media sections using the same transport.<br>In fact, user agents are expected to consolidate information into a single &amp;quot;codec&amp;quot; entry per payload type per transport (unless <a href="https://developer.mozilla.org#sdpfmtpline">sdpFmtpLine</a> is different when sending or receiving, in which case, different codecs will be needed for encoding and decoding).<br>Note that other transports will use their own distinct <code>RTCCodecStats</code> objects.</p>
-<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.RTCStatsReport.html">RTCStatsReport</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpCodecParameters.html">RTCRtpCodecParameters</a><br></p>
+<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.RTCStatsReport.html">RTCStatsReport</a><br>-<code>codecs</code> option in parameter passed to <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpTransceiver.html#CSharpToJavaScript_APIs_JS_RTCRtpTransceiver_SetCodecPreferences_System_Collections_Generic_List_CSharpToJavaScript_APIs_JS_RTCRtpCodec__">SetCodecPreferences(List&lt;RTCRtpCodec&gt;)</a> and <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpSender.html#CSharpToJavaScript_APIs_JS_RTCRtpSender_SetParameters_CSharpToJavaScript_APIs_JS_RTCRtpSendParameters_CSharpToJavaScript_APIs_JS_RTCSetParameterOptions_">SetParameters(RTCRtpSendParameters, RTCSetParameterOptions)</a>.<br>-<code>codecs</code> property in object returned by <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpSender.html#CSharpToJavaScript_APIs_JS_RTCRtpSender_GetParameters">GetParameters()</a> and <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCRtpReceiver.html#CSharpToJavaScript_APIs_JS_RTCRtpReceiver_GetParameters">GetParameters()</a>.<br></p>
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCCodecStats">
     <em>See also on MDN</em>
@@ -178,7 +178,7 @@ public class RTCCodecStats : RTCStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCCodecStats_Channels" data-uid="CSharpToJavaScript.APIs.JS.RTCCodecStats.Channels">
   Channels
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30154"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26058"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>channels</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCCodecStats.html">RTCCodecStats</a> dictionary is a positive number containing the number of channels supported by the codec.</p>
@@ -205,7 +205,7 @@ public class RTCCodecStats : RTCStats</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCCodecStats_Channels_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>For audio codecs, a value of 1 specifies monaural sound while 2 indicates stereo.</p>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCRtpCodecParameters#channels"><code>RTCRtpCodecParameters.channels</code></a><br></p>
+<p>-<code>codecs.channels</code> option in parameter passed to <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCRtpTransceiver/setCodecPreferences#channels"><code>RTCRtpTransceiver.setCodecPreferences()</code></a> and <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCRtpSender/setParameters#channels"><code>RTCRtpSender.setParameters()</code></a>.<br>-<code>codecs.channels</code> in object returned by <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCRtpSender/getParameters#channels"><code>RTCRtpSender.getParameters()</code></a> and <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCRtpReceiver/getParameters#channels"><code>RTCRtpReceiver.getParameters()</code></a>.<br></p>
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCCodecStats/channels">
     <em>See also on MDN</em>
@@ -219,7 +219,7 @@ public class RTCCodecStats : RTCStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCCodecStats_ClockRate" data-uid="CSharpToJavaScript.APIs.JS.RTCCodecStats.ClockRate">
   ClockRate
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30152"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26056"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>clockRate</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCCodecStats.html">RTCCodecStats</a> dictionary is a positive number containing the media sampling rate in hertz (Hz).</p>
@@ -245,7 +245,7 @@ public class RTCCodecStats : RTCStats</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCCodecStats_ClockRate_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCRtpCodecParameters#clockrate"><code>RTCRtpCodecParameters.clockRate</code></a><br></p>
+  <div class="markdown level1 remarks"><p>-<code>codecs.clockRate</code> option in parameter passed to <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCRtpTransceiver/setCodecPreferences#clockrate"><code>RTCRtpTransceiver.setCodecPreferences()</code></a> and <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCRtpSender/setParameters#clockrate"><code>RTCRtpSender.setParameters()</code></a>.<br>-<code>codecs.clockRate</code> in object returned by <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCRtpSender/getParameters#clockrate"><code>RTCRtpSender.getParameters()</code></a> and <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCRtpReceiver/getParameters#clockrate"><code>RTCRtpReceiver.getParameters()</code></a>.<br></p>
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCCodecStats/clockRate">
     <em>See also on MDN</em>
@@ -259,7 +259,7 @@ public class RTCCodecStats : RTCStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCCodecStats_MimeType" data-uid="CSharpToJavaScript.APIs.JS.RTCCodecStats.MimeType">
   MimeType
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30150"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26054"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>mimeType</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCCodecStats.html">RTCCodecStats</a> dictionary is a string containing the codec's {{glossary(&quot;MIME type&quot;)}} and subtype.</p>
@@ -286,7 +286,7 @@ public class RTCCodecStats : RTCStats</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCCodecStats_MimeType_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>This is of the form <code>&amp;quot;type/subtype&amp;quot;</code>, such as &amp;quot;video/VP8&amp;quot; or &amp;quot;audio/opus&amp;quot;, as defined in the <a href="https://www.iana.org/assignments/rtp-parameters/rtp-parameters.xhtml#rtp-parameters-2">IANA registry of valid MIME types</a>.</p>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCRtpCodecParameters#mimetype"><code>RTCRtpCodecParameters.mimeType</code></a><br></p>
+<p>-<code>codecs.mimeType</code> option in parameter passed to <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCRtpTransceiver/setCodecPreferences#mimetype"><code>RTCRtpTransceiver.setCodecPreferences()</code></a> and <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCRtpSender/setParameters#mimetype"><code>RTCRtpSender.setParameters()</code></a>.<br>-<code>codecs.mimeType</code> in object returned by <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCRtpSender/getParameters#mimetype"><code>RTCRtpSender.getParameters()</code></a> and <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCRtpReceiver/getParameters#mimetype"><code>RTCRtpReceiver.getParameters()</code></a>.<br></p>
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCCodecStats/mimeType">
     <em>See also on MDN</em>
@@ -300,7 +300,7 @@ public class RTCCodecStats : RTCStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCCodecStats_PayloadType" data-uid="CSharpToJavaScript.APIs.JS.RTCCodecStats.PayloadType">
   PayloadType
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30146"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26050"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>payloadType</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCCodecStats.html">RTCCodecStats</a> dictionary is a positive integer in the range from 0 to 127 that describes the format of the {{glossary(&quot;RTP&quot;)}} payload used in RTP encoding or decoding.</p>
@@ -326,7 +326,7 @@ public class RTCCodecStats : RTCStats</code></pre>
 
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCCodecStats_PayloadType_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCRtpCodecParameters#payloadtype"><code>RTCRtpCodecParameters.payloadType</code></a><br>-<code>payloadType</code> returned by <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCEncodedAudioFrame/getMetadata#payloadtype"><code>RTCEncodedAudioFrame.getMetadata()</code></a><br>-<code>payloadType</code> returned by <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCEncodedVideoFrame/getMetadata#payloadtype"><code>RTCEncodedVideoFrame.getMetadata()</code></a><br></p>
+  <div class="markdown level1 remarks"><p>-<code>payloadType</code> returned by <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCEncodedAudioFrame/getMetadata#payloadtype"><code>RTCEncodedAudioFrame.getMetadata()</code></a><br>-<code>payloadType</code> returned by <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCEncodedVideoFrame/getMetadata#payloadtype"><code>RTCEncodedVideoFrame.getMetadata()</code></a><br>-<code>codecs.payloadType</code> option in parameter passed to <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCRtpSender/setParameters#payloadtype"><code>RTCRtpSender.setParameters()</code></a>.<br>-<code>codecs.payloadType</code> in object returned by <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCRtpSender/getParameters#payloadtype"><code>RTCRtpSender.getParameters()</code></a> and <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCRtpReceiver/getParameters#payloadtype"><code>RTCRtpReceiver.getParameters()</code></a>.<br></p>
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCCodecStats/payloadType">
     <em>See also on MDN</em>
@@ -340,7 +340,7 @@ public class RTCCodecStats : RTCStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCCodecStats_SdpFmtpLine" data-uid="CSharpToJavaScript.APIs.JS.RTCCodecStats.SdpFmtpLine">
   SdpFmtpLine
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30156"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26060"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>sdpFmtpLine</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCCodecStats.html">RTCCodecStats</a> dictionary is a string containing the format-specific parameters of the codec.</p>
@@ -367,7 +367,7 @@ public class RTCCodecStats : RTCStats</code></pre>
 
   <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCCodecStats_SdpFmtpLine_remarks">Remarks</h4>
   <div class="markdown level1 remarks"><p>These are the values in the <code>&amp;quot;a=fmtp&amp;quot;</code> line in the codec's <a href="https://developer.mozilla.org/en-US/docs/Glossary/SDP">SDP</a> (if present) after the payload type number (see <a href="https://datatracker.ietf.org/doc/html/draft-ietf-rtcweb-jsep-24#section-5.8">section 5.8 of the IETF specification for JSEP</a>).</p>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCRtpCodecParameters#sdpfmtpline"><code>RTCRtpCodecParameters.sdpFmtpLine</code></a><br></p>
+<p>-<code>codecs.sdpFmtpLine</code> option in parameter passed to <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCRtpTransceiver/setCodecPreferences#sdpfmtpline"><code>RTCRtpTransceiver.setCodecPreferences()</code></a> and <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCRtpSender/setParameters#sdpfmtpline"><code>RTCRtpSender.setParameters()</code></a>.<br>-<code>codecs.sdpFmtpLine</code> in object returned by <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCRtpSender/getParameters#sdpfmtpline"><code>RTCRtpSender.getParameters()</code></a> and <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCRtpReceiver/getParameters#sdpfmtpline"><code>RTCRtpReceiver.getParameters()</code></a>.<br></p>
 <p>
   <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCCodecStats/sdpFmtpLine">
     <em>See also on MDN</em>
@@ -381,7 +381,7 @@ public class RTCCodecStats : RTCStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCCodecStats_TransportId" data-uid="CSharpToJavaScript.APIs.JS.RTCCodecStats.TransportId">
   TransportId
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30148"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26052"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The <strong><code>transportId</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCCodecStats.html">RTCCodecStats</a> dictionary is a string that contains the unique identifier of the corresponding transport on which this codec is being used.</p>
@@ -422,7 +422,7 @@ public class RTCCodecStats : RTCStats</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L30142" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26046" class="edit-link">Edit this page</a>
         </div>
 
 

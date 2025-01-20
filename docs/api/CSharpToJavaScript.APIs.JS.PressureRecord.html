@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class PressureRecord | CSharpToJavaScript ">
       
-      
+      <meta name="description" content="NOTE   Experimental  The PressureRecord interface is part of the Compute Pressure API and describes the pressure trend of a source at a specific moment of transition.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -77,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -89,7 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_PressureRecord" data-uid="CSharpToJavaScript.APIs.JS.PressureRecord" class="text-break">
-Class PressureRecord  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L875"><i class="bi bi-code-slash"></i></a>
+Class PressureRecord  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L733"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,7 +97,11 @@ Class PressureRecord  <a class="header-action link-secondary" title="View source
   <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"></div>
+  <div class="markdown summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>PressureRecord</code></strong> interface is part of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Compute_Pressure_API">Compute Pressure API</a> and describes the pressure trend of a source at a specific moment of transition.
+</div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
@@ -147,6 +151,13 @@ public class PressureRecord</code></pre>
 
 
 
+  <h2 id="CSharpToJavaScript_APIs_JS_PressureRecord_remarks">Remarks</h2>
+  <div class="markdown level0 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/PressureRecord">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
   <h2 class="section" id="properties">Properties
@@ -157,10 +168,14 @@ public class PressureRecord</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_PressureRecord_Source" data-uid="CSharpToJavaScript.APIs.JS.PressureRecord.Source">
   Source
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L878"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L737"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The read-only <strong><code>source</code></strong> property is a string indicating the origin source from which the record is coming.
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -174,12 +189,20 @@ public class PressureRecord</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.PressureSource.html">PressureSource</a></dt>
-    <dd></dd>
+    <dd><p>A string indicating the origin source from which the record is coming. The current version of the Compute Pressure API specification supports two main source types:Use the static <a class="xref" href="CSharpToJavaScript.APIs.JS.PressureObserver.html#CSharpToJavaScript_APIs_JS_PressureObserver_KnownSources">KnownSources</a> hint to see which source types are supported by your browser. Note that availability can also vary by your operating system and your hardware. Call <a class="xref" href="CSharpToJavaScript.APIs.JS.PressureObserver.html#CSharpToJavaScript_APIs_JS_PressureObserver_Observe_CSharpToJavaScript_APIs_JS_PressureSource_CSharpToJavaScript_APIs_JS_PressureObserverOptions_">Observe(PressureSource, PressureObserverOptions)</a> and check for a <code>NotSupportedError</code> to see if pressure observation is possible.</p>
+</dd>
   </dl>
 
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_PressureRecord_Source_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/PressureRecord/source">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -188,10 +211,14 @@ public class PressureRecord</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_PressureRecord_State" data-uid="CSharpToJavaScript.APIs.JS.PressureRecord.State">
   State
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L879"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L739"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The read-only <strong><code>state</code></strong> property is a string indicating the pressure state recorded.
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -205,12 +232,20 @@ public class PressureRecord</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.PressureState.html">PressureState</a></dt>
-    <dd></dd>
+    <dd><p>A string indicating the pressure state recorded. The Compute Pressure API uses human-readable pressure states with the following semantics (see also the <a href="https://w3c.github.io/compute-pressure/#pressure-states">specification</a>):</p>
+</dd>
   </dl>
 
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_PressureRecord_State_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/PressureRecord/state">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -219,10 +254,14 @@ public class PressureRecord</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_PressureRecord_Time" data-uid="CSharpToJavaScript.APIs.JS.PressureRecord.Time">
   Time
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L880"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L741"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The read-only <strong><code>time</code></strong> property returns the {{domxref(&amp;quot;DOMHighResTimeStamp&amp;quot;,&amp;quot;timestamp&amp;quot;, &amp;quot;&amp;quot;, "no-code")}} recorded for a <a class="xref" href="CSharpToJavaScript.APIs.JS.PressureRecord.html">PressureRecord</a>. It corresponds to the time the data was obtained from the system relative to the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Performance/timeOrigin">time origin of the global object</a> in which the <a class="xref" href="CSharpToJavaScript.APIs.JS.PressureObserver.html">PressureObserver</a> generated the notification.
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -236,12 +275,20 @@ public class PressureRecord</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
-    <dd></dd>
+    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a> representing the timestamp when the <a class="xref" href="CSharpToJavaScript.APIs.JS.PressureRecord.html">PressureRecord</a> was created.</p>
+</dd>
   </dl>
 
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_PressureRecord_Time_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/PressureRecord/time">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -254,21 +301,26 @@ public class PressureRecord</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_PressureRecord_ToJSON" data-uid="CSharpToJavaScript.APIs.JS.PressureRecord.ToJSON">
   ToJSON()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L881"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L743"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>toJSON()</code></strong> method is a {{Glossary("Serialization","serializer")}}; it returns a JSON representation of the <a class="xref" href="CSharpToJavaScript.APIs.JS.PressureRecord.html">PressureRecord</a> object.
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public object ToJSON()</code></pre>
+    <pre><code class="lang-csharp hljs">public Object ToJSON()</code></pre>
   </div>
 
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></dt>
-    <dd></dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Object.html">Object</a></dt>
+    <dd><p>A {{jsxref(&quot;JSON&quot;)}} object that is the serialization of the <a class="xref" href="CSharpToJavaScript.APIs.JS.PressureRecord.html">PressureRecord</a> object.</p>
+</dd>
   </dl>
 
 
@@ -277,6 +329,14 @@ public class PressureRecord</code></pre>
 
 
 
+  <h4 class="section" id="CSharpToJavaScript_APIs_JS_PressureRecord_ToJSON_remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>-JSON<br></p>
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/API/PressureRecord/toJSON">
+    <em>See also on MDN</em>
+  </a>
+</p>
+</div>
 
 
 
@@ -285,7 +345,7 @@ public class PressureRecord</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L875" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L733" class="edit-link">Edit this page</a>
         </div>
 
 

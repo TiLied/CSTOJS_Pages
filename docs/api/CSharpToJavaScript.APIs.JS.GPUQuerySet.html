@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class GPUQuerySet | CSharpToJavaScript ">
       
-      <meta name="description" content="The GPUQuerySet interface of the {{domxref(&amp;amp;quot;WebGPU API&amp;amp;quot;, &amp;amp;quot;WebGPU API&amp;amp;quot;, &amp;amp;quot;&amp;amp;quot;, &amp;amp;quot;nocode&amp;amp;quot;)}} is used to record the results of queries on passes, such as occlusion or timestamp queries.">
+      <meta name="description" content="NOTE   Experimental  The GPUQuerySet interface of the {{domxref(&amp;amp;quot;WebGPU API&amp;amp;quot;, &amp;amp;quot;WebGPU API&amp;amp;quot;, &amp;amp;quot;&amp;amp;quot;, &amp;amp;quot;nocode&amp;amp;quot;)}} is used to record the results of queries on passes, such as occlusion or timestamp queries.">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -54,7 +54,7 @@
             <div id="navbar">
               <form class="search" role="search" id="search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
               </form>
             </div>
           </div>
@@ -77,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -89,7 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_GPUQuerySet" data-uid="CSharpToJavaScript.APIs.JS.GPUQuerySet" class="text-break">
-Class GPUQuerySet  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L28405"><i class="bi bi-code-slash"></i></a>
+Class GPUQuerySet  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L24236"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,7 +97,10 @@ Class GPUQuerySet  <a class="header-action link-secondary" title="View source" h
   <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>The <strong><code>GPUQuerySet</code></strong> interface of the {{domxref(&amp;quot;WebGPU API&amp;quot;, &amp;quot;WebGPU API&amp;quot;, &amp;quot;&amp;quot;, &amp;quot;nocode&amp;quot;)}} is used to record the results of queries on passes, such as occlusion or timestamp queries.</p>
+  <div class="markdown summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>GPUQuerySet</code></strong> interface of the {{domxref(&amp;quot;WebGPU API&amp;quot;, &amp;quot;WebGPU API&amp;quot;, &amp;quot;&amp;quot;, &amp;quot;nocode&amp;quot;)}} is used to record the results of queries on passes, such as occlusion or timestamp queries.
 </div>
   <div class="markdown conceptual"></div>
 
@@ -151,8 +154,7 @@ public class GPUQuerySet</code></pre>
   <h2 id="CSharpToJavaScript_APIs_JS_GPUQuerySet_remarks">Remarks</h2>
   <div class="markdown level0 remarks"><blockquote class="NOTE">
   <h5>NOTE</h5>
-  <p>
-    <strong>Note:</strong> To use timestamp queries, the <code>timestamp-query</code> {{domxref(&amp;quot;GPUSupportedFeatures&amp;quot;, &amp;quot;feature&amp;quot;, &amp;quot;&amp;quot;, "nocode")}} must be enabled in the <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUDevice.html">GPUDevice</a>.</p>
+  <p>The <code>timestamp-query</code><a href="https://developer.mozilla.org/en-US/docs/Web/API/GPUSupportedFeatures">feature</a> needs to be enabled to use timestamp queries.</p>
 </blockquote>
 <p>A <code>GPUQuerySet</code> object instance is created using the <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUDevice.html#CSharpToJavaScript_APIs_JS_GPUDevice_CreateQuerySet_CSharpToJavaScript_APIs_JS_GPUQuerySetDescriptor_">CreateQuerySet(GPUQuerySetDescriptor)</a> method.</p>
 <p></p>
@@ -173,10 +175,13 @@ public class GPUQuerySet</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_GPUQuerySet_Count" data-uid="CSharpToJavaScript.APIs.JS.GPUQuerySet.Count">
   Count
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L28413"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L24244"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>count</code></strong> read-only property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.GPUQuerySet.html">GPUQuerySet</a> interface is a number specifying the number of queries managed by the <code>GPUQuerySet</code>.</p>
+  <div class="markdown level1 summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>count</code></strong> read-only property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.GPUQuerySet.html">GPUQuerySet</a> interface is a number specifying the number of queries managed by the <code>GPUQuerySet</code>.
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -214,10 +219,13 @@ public class GPUQuerySet</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_GPUQuerySet_Type" data-uid="CSharpToJavaScript.APIs.JS.GPUQuerySet.Type">
   Type
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L28411"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L24242"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>type</code></strong> read-only property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.GPUQuerySet.html">GPUQuerySet</a> interface is an enumerated value specifying the type of queries managed by the <code>GPUQuerySet</code>.</p>
+  <div class="markdown level1 summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>type</code></strong> read-only property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.GPUQuerySet.html">GPUQuerySet</a> interface is an enumerated value specifying the type of queries managed by the <code>GPUQuerySet</code>.
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -232,7 +240,7 @@ public class GPUQuerySet</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GPUQueryType.html">GPUQueryType</a></dt>
-    <dd><p>An enumerated value. Possible values are:</p>
+    <dd><p>An enumerated value. Possible values are:<blockquote class="NOTE"><h5>NOTE</h5>The <code>timestamp-query</code><a href="https://developer.mozilla.org/en-US/docs/Web/API/GPUSupportedFeatures">feature</a> needs to be enabled to use timestamp queries.</blockquote>
 </dd>
   </dl>
 
@@ -259,10 +267,13 @@ public class GPUQuerySet</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_GPUQuerySet_Destroy" data-uid="CSharpToJavaScript.APIs.JS.GPUQuerySet.Destroy">
   Destroy()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L28409"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L24240"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>destroy()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.GPUQuerySet.html">GPUQuerySet</a> interface destroys the <code>GPUQuerySet</code>.</p>
+  <div class="markdown level1 summary"><div class="NOTE">
+  <h5>NOTE</h5>
+  <strong>Experimental</strong>
+</div> The <strong><code>destroy()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.GPUQuerySet.html">GPUQuerySet</a> interface destroys the <code>GPUQuerySet</code>.
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -300,7 +311,7 @@ public class GPUQuerySet</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS.generated.cs/#L28405" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L24236" class="edit-link">Edit this page</a>
         </div>
 
 
