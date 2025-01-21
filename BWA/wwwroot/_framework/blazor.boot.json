@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "CSTOJS_BWA",
   "resources": {
-    "hash": "sha256-M6iyZNpfuKtX2brGJchRTMWzotILyFGstNsARCrnvqE=",
+    "hash": "sha256-TIRs+Jk79WggX0qHqU6n99LP8M5+452EqRfQCp1IgQk=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-B6DNRvFeCUi3jbx9uKpuj+hV9cN0KG4RdZj1FgBZwj8="
     },
@@ -18,8 +18,8 @@
     },
     "coreAssembly": {},
     "assembly": {
-      "CSharpToJavaScript.dll": "sha256-GOSVVu3AKbtXJbJju8fgsB5Yht5oyfXMJyqbfqDPvqs=",
-      "CSTOJS_BWA.dll": "sha256-lAeMFY6PjpfHuniGNwh8uT08oiJWeUVjeVS1As5c2M4=",
+      "CSharpToJavaScript.dll": "sha256-6yktdIpnXAMwjtTe3dZuNDJ9GeaVPYyCs8f+EPBZlw8=",
+      "CSTOJS_BWA.dll": "sha256-Jj2CVppfXokgVVJoCvixLF8nhcA7C43RVwaijGxNW+c=",
       "Microsoft.AspNetCore.Components.dll": "sha256-5WVIVhFPdtS5oVi/yiNrcrWx5Vhpsw7V9JpLWHEGvoo=",
       "Microsoft.AspNetCore.Components.Forms.dll": "sha256-v2FNcacy3iRKlIgiJckXZYNGr2C24eM9bG/C0GfCsvM=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-cc6Il9VV2gnUcwFen0KKc7lVZ/Wj/T8b5Uzh5lSqOWo=",
