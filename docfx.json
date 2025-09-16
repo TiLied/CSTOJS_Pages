@@ -3,10 +3,7 @@
     {
       "src": [
         {
-          "files": [
-            "CSharpToJavaScript.csproj",
-            "Utils/Docs/*/*.generated.xml"
-          ],
+          "files": ["/bin/Release/net10.0/CSharpToJavaScript.dll"],
           "src": "../CSharpToJavaScript/CSharpToJavaScript/"
         }
       ],
@@ -45,7 +42,7 @@
       },
 			{
 				"files": "**",
-        "src": "BWA/wwwroot/",
+                "src": "BWA/wwwroot/",
 				"dest": "./BWA"
 			}
     ],
@@ -61,8 +58,7 @@
       "modern",
       "my-template"
     ],
-    "postProcessors": [
-      "ExtractSearchIndex"],
+    "postProcessors": ["ExtractSearchIndex"],
     "keepFileLink": false,
     "disableGitFeatures": false,
 		"sitemap": {
