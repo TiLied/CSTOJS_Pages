@@ -16,6 +16,36 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "BWA/wwwroot/_framework/CSTOJS_BWA.g8iucl8rrl.dll",
+      "output": {
+        "resource": {
+          "relative_path": "BWA/_framework/CSTOJS_BWA.g8iucl8rrl.dll"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "BWA/wwwroot/_framework/CSTOJS_BWA.g8iucl8rrl.dll.br",
+      "output": {
+        "resource": {
+          "relative_path": "BWA/_framework/CSTOJS_BWA.g8iucl8rrl.dll.br"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "BWA/wwwroot/_framework/CSTOJS_BWA.g8iucl8rrl.dll.gz",
+      "output": {
+        "resource": {
+          "relative_path": "BWA/_framework/CSTOJS_BWA.g8iucl8rrl.dll.gz"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "BWA/wwwroot/_framework/CSTOJS_BWA.lud384l3cf.dll",
       "output": {
         "resource": {
