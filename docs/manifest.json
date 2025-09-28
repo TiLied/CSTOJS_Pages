@@ -16,120 +16,60 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/wwwroot/_framework/CSTOJS_BWA.g8iucl8rrl.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/CSTOJS_BWA.rzdlr9e8sl.dll",
       "output": {
         "resource": {
-          "relative_path": "BWA/_framework/CSTOJS_BWA.g8iucl8rrl.dll"
+          "relative_path": "BWA/_framework/CSTOJS_BWA.rzdlr9e8sl.dll"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/wwwroot/_framework/CSTOJS_BWA.g8iucl8rrl.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/CSTOJS_BWA.rzdlr9e8sl.dll.br",
       "output": {
         "resource": {
-          "relative_path": "BWA/_framework/CSTOJS_BWA.g8iucl8rrl.dll.br"
+          "relative_path": "BWA/_framework/CSTOJS_BWA.rzdlr9e8sl.dll.br"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/wwwroot/_framework/CSTOJS_BWA.g8iucl8rrl.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/CSTOJS_BWA.rzdlr9e8sl.dll.gz",
       "output": {
         "resource": {
-          "relative_path": "BWA/_framework/CSTOJS_BWA.g8iucl8rrl.dll.gz"
+          "relative_path": "BWA/_framework/CSTOJS_BWA.rzdlr9e8sl.dll.gz"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/wwwroot/_framework/CSTOJS_BWA.jpaey0coz2.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/CSharpToJavaScript.m3y2h4w8ur.dll",
       "output": {
         "resource": {
-          "relative_path": "BWA/_framework/CSTOJS_BWA.jpaey0coz2.dll"
+          "relative_path": "BWA/_framework/CSharpToJavaScript.m3y2h4w8ur.dll"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/wwwroot/_framework/CSTOJS_BWA.jpaey0coz2.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/CSharpToJavaScript.m3y2h4w8ur.dll.br",
       "output": {
         "resource": {
-          "relative_path": "BWA/_framework/CSTOJS_BWA.jpaey0coz2.dll.br"
+          "relative_path": "BWA/_framework/CSharpToJavaScript.m3y2h4w8ur.dll.br"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/wwwroot/_framework/CSTOJS_BWA.jpaey0coz2.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/CSharpToJavaScript.m3y2h4w8ur.dll.gz",
       "output": {
         "resource": {
-          "relative_path": "BWA/_framework/CSTOJS_BWA.jpaey0coz2.dll.gz"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "BWA/wwwroot/_framework/CSTOJS_BWA.lud384l3cf.dll",
-      "output": {
-        "resource": {
-          "relative_path": "BWA/_framework/CSTOJS_BWA.lud384l3cf.dll"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "BWA/wwwroot/_framework/CSTOJS_BWA.lud384l3cf.dll.br",
-      "output": {
-        "resource": {
-          "relative_path": "BWA/_framework/CSTOJS_BWA.lud384l3cf.dll.br"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "BWA/wwwroot/_framework/CSTOJS_BWA.lud384l3cf.dll.gz",
-      "output": {
-        "resource": {
-          "relative_path": "BWA/_framework/CSTOJS_BWA.lud384l3cf.dll.gz"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "BWA/wwwroot/_framework/CSharpToJavaScript.4e14njyr91.dll",
-      "output": {
-        "resource": {
-          "relative_path": "BWA/_framework/CSharpToJavaScript.4e14njyr91.dll"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "BWA/wwwroot/_framework/CSharpToJavaScript.4e14njyr91.dll.br",
-      "output": {
-        "resource": {
-          "relative_path": "BWA/_framework/CSharpToJavaScript.4e14njyr91.dll.br"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "BWA/wwwroot/_framework/CSharpToJavaScript.4e14njyr91.dll.gz",
-      "output": {
-        "resource": {
-          "relative_path": "BWA/_framework/CSharpToJavaScript.4e14njyr91.dll.gz"
+          "relative_path": "BWA/_framework/CSharpToJavaScript.m3y2h4w8ur.dll.gz"
         }
       },
       "version": ""
@@ -946,60 +886,60 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/wwwroot/_framework/System.ComponentModel.Primitives.g5w98dnwsr.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/System.ComponentModel.Primitives.n9m72908lv.dll",
       "output": {
         "resource": {
-          "relative_path": "BWA/_framework/System.ComponentModel.Primitives.g5w98dnwsr.dll"
+          "relative_path": "BWA/_framework/System.ComponentModel.Primitives.n9m72908lv.dll"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/wwwroot/_framework/System.ComponentModel.Primitives.g5w98dnwsr.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/System.ComponentModel.Primitives.n9m72908lv.dll.br",
       "output": {
         "resource": {
-          "relative_path": "BWA/_framework/System.ComponentModel.Primitives.g5w98dnwsr.dll.br"
+          "relative_path": "BWA/_framework/System.ComponentModel.Primitives.n9m72908lv.dll.br"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/wwwroot/_framework/System.ComponentModel.Primitives.g5w98dnwsr.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/System.ComponentModel.Primitives.n9m72908lv.dll.gz",
       "output": {
         "resource": {
-          "relative_path": "BWA/_framework/System.ComponentModel.Primitives.g5w98dnwsr.dll.gz"
+          "relative_path": "BWA/_framework/System.ComponentModel.Primitives.n9m72908lv.dll.gz"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/wwwroot/_framework/System.ComponentModel.TypeConverter.71rne5oq2j.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/System.ComponentModel.TypeConverter.i0u495qpn7.dll",
       "output": {
         "resource": {
-          "relative_path": "BWA/_framework/System.ComponentModel.TypeConverter.71rne5oq2j.dll"
+          "relative_path": "BWA/_framework/System.ComponentModel.TypeConverter.i0u495qpn7.dll"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/wwwroot/_framework/System.ComponentModel.TypeConverter.71rne5oq2j.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/System.ComponentModel.TypeConverter.i0u495qpn7.dll.br",
       "output": {
         "resource": {
-          "relative_path": "BWA/_framework/System.ComponentModel.TypeConverter.71rne5oq2j.dll.br"
+          "relative_path": "BWA/_framework/System.ComponentModel.TypeConverter.i0u495qpn7.dll.br"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/wwwroot/_framework/System.ComponentModel.TypeConverter.71rne5oq2j.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/System.ComponentModel.TypeConverter.i0u495qpn7.dll.gz",
       "output": {
         "resource": {
-          "relative_path": "BWA/_framework/System.ComponentModel.TypeConverter.71rne5oq2j.dll.gz"
+          "relative_path": "BWA/_framework/System.ComponentModel.TypeConverter.i0u495qpn7.dll.gz"
         }
       },
       "version": ""
@@ -1246,36 +1186,6 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/wwwroot/_framework/System.IO.FileSystem.Watcher.nb2cj18p9f.dll",
-      "output": {
-        "resource": {
-          "relative_path": "BWA/_framework/System.IO.FileSystem.Watcher.nb2cj18p9f.dll"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "BWA/wwwroot/_framework/System.IO.FileSystem.Watcher.nb2cj18p9f.dll.br",
-      "output": {
-        "resource": {
-          "relative_path": "BWA/_framework/System.IO.FileSystem.Watcher.nb2cj18p9f.dll.br"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "BWA/wwwroot/_framework/System.IO.FileSystem.Watcher.nb2cj18p9f.dll.gz",
-      "output": {
-        "resource": {
-          "relative_path": "BWA/_framework/System.IO.FileSystem.Watcher.nb2cj18p9f.dll.gz"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
       "source_relative_path": "BWA/wwwroot/_framework/System.IO.MemoryMappedFiles.pgio9andte.dll",
       "output": {
         "resource": {
@@ -1516,30 +1426,30 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/wwwroot/_framework/System.Private.CoreLib.xn0axhh0v5.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Private.CoreLib.qrmytgugi1.dll",
       "output": {
         "resource": {
-          "relative_path": "BWA/_framework/System.Private.CoreLib.xn0axhh0v5.dll"
+          "relative_path": "BWA/_framework/System.Private.CoreLib.qrmytgugi1.dll"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/wwwroot/_framework/System.Private.CoreLib.xn0axhh0v5.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Private.CoreLib.qrmytgugi1.dll.br",
       "output": {
         "resource": {
-          "relative_path": "BWA/_framework/System.Private.CoreLib.xn0axhh0v5.dll.br"
+          "relative_path": "BWA/_framework/System.Private.CoreLib.qrmytgugi1.dll.br"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/wwwroot/_framework/System.Private.CoreLib.xn0axhh0v5.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Private.CoreLib.qrmytgugi1.dll.gz",
       "output": {
         "resource": {
-          "relative_path": "BWA/_framework/System.Private.CoreLib.xn0axhh0v5.dll.gz"
+          "relative_path": "BWA/_framework/System.Private.CoreLib.qrmytgugi1.dll.gz"
         }
       },
       "version": ""
@@ -1876,30 +1786,30 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/wwwroot/_framework/System.Runtime.fbg33a7jwb.dll",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Runtime.u7d1xc38le.dll",
       "output": {
         "resource": {
-          "relative_path": "BWA/_framework/System.Runtime.fbg33a7jwb.dll"
+          "relative_path": "BWA/_framework/System.Runtime.u7d1xc38le.dll"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/wwwroot/_framework/System.Runtime.fbg33a7jwb.dll.br",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Runtime.u7d1xc38le.dll.br",
       "output": {
         "resource": {
-          "relative_path": "BWA/_framework/System.Runtime.fbg33a7jwb.dll.br"
+          "relative_path": "BWA/_framework/System.Runtime.u7d1xc38le.dll.br"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "BWA/wwwroot/_framework/System.Runtime.fbg33a7jwb.dll.gz",
+      "source_relative_path": "BWA/wwwroot/_framework/System.Runtime.u7d1xc38le.dll.gz",
       "output": {
         "resource": {
-          "relative_path": "BWA/_framework/System.Runtime.fbg33a7jwb.dll.gz"
+          "relative_path": "BWA/_framework/System.Runtime.u7d1xc38le.dll.gz"
         }
       },
       "version": ""
@@ -42719,73 +42629,23 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "articles/exampleHelloWorld.md",
+      "source_relative_path": "cli/intro.md",
       "output": {
         ".html": {
-          "relative_path": "articles/exampleHelloWorld.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/exampleOptAddSBAt.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/exampleOptAddSBAt.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/exampleOptCustomCSNamesToJS.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/exampleOptCustomCSNamesToJS.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/exampleOptCustomCSTypesToJS.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/exampleOptCustomCSTypesToJS.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/faq.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/faq.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/intro.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/intro.html"
+          "relative_path": "cli/intro.html"
         }
       },
       "version": ""
     },
     {
       "type": "Toc",
-      "source_relative_path": "articles/toc.yml",
+      "source_relative_path": "cli/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "articles/toc.html"
+          "relative_path": "cli/toc.html"
         },
         ".json": {
-          "relative_path": "articles/toc.json"
+          "relative_path": "cli/toc.json"
         }
       },
       "version": ""

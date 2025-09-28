@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>CSharpToJavaScript | CSharpToJavaScript </title>
+      <title> | CSharpToJavaScript </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="CSharpToJavaScript | CSharpToJavaScript ">
+      <meta name="title" content=" | CSharpToJavaScript ">
       
       
       <link rel="icon" href="favicon.ico">
@@ -71,141 +71,8 @@
         </div>
 
         <article data-uid="">
-<h1 id="csharptojavascript">CSharpToJavaScript</h1>
 
-<p><a href="https://github.com/TiLied/CSharpToJavaScript">Github</a> | <a href="https://www.nuget.org/packages/CSharpToJavaScript/">Nuget package</a>  | <a href="https://tilied.github.io/CSTOJS_Pages/">Website</a> | <a href="https://tilied.github.io/CSTOJS_Pages/BWA/">Try it online!</a> | <a href="https://github.com/TiLied/CSTOJS_CLI">CLI</a> | <a href="https://marketplace.visualstudio.com/items?itemName=tilied.cstojs-vscode-ext">VS Code Extension</a> | <a href="https://marketplace.visualstudio.com/items?itemName=tilied.cstojs-vs-ext">VS Extension</a></p>
-<p>C# conversion to JavaScript as-is.</p>
-<p><em>This is a personal project. Updates will be irregular.</em></p>
-<h3 id="c-input">C# input</h3>
-<pre><code class="lang-csharp">namespace ConsoleAppTest.CSharp;
-
-public class Test							
-{
-	public Test()
-	{
-		Console.WriteLine(&quot;Hello World!&quot;);
-	}
-}
-</code></pre>
-<h3 id="javascript-output">Javascript output</h3>
-<pre><code class="lang-javascript">class Test
-{
-	constructor()
-	{
-		console.log(&quot;Hello World!&quot;);
-	}
-}
-</code></pre>
-<h2 id="how-to-use">How to use</h2>
-<ul>
-<li>1 Create c# project or use existed one.</li>
-<li>2 Install <a href="https://www.nuget.org/packages/CSharpToJavaScript/">nuget package</a> or Download a <a href="https://github.com/TiLied/CSharpToJavaScript/releases">specific version</a> or Download a master(Code-Local-Download ZIP).</li>
-<li>3 Skip this if using Nuget package. Follow <a href="https://learn.microsoft.com/en-us/dotnet/core/tutorials/library-with-visual-studio?pivots=dotnet-7-0#add-a-project-reference">how to add a project reference</a>.</li>
-<li>4 In the Main method add:</li>
-</ul>
-<pre><code class="lang-csharp">CSTOJS cstojs = new();
-await cstojs.GenerateOneAsync(&quot;Path(full path) to c# file(folder with c# files)&quot;);
-</code></pre>
-<p><em>Other methods &quot;GenerateOne&quot; can be found <a href="https://tilied.github.io/CSTOJS_Pages/api/CSharpToJavaScript.CSTOJS.html#methods">on the website</a>.</em></p>
-<ul>
-<li>5 Run program and file will be generated in output path(default is &quot;Directory.GetCurrentDirectory()&quot;) with name &quot;|C# file name|.js&quot;(default)</li>
-<li>6 See below for an example &quot;Model&quot; and &quot;HelloWorld&quot;.</li>
-</ul>
-<h2 id="example-model">Example &quot;Model&quot;</h2>
-<p>Program.cs</p>
-<pre><code class="lang-csharp">using CSharpToJavaScript;
-namespace ConsoleAppTest;
-
-public class Program
-{
-	public static async Task Main()
-	{
-		CSTOJS cstojs = new(new CSTOJSOptions() 
-			{ 
-				KeepBraceOnTheSameLine = true,
-				NormalizeWhitespace = true
-			});
-		await cstojs.GenerateOneAsync(&quot;C:\\GitReps\\ConsoleAppTest\\CSharp\\Person.cs&quot;);
-
-		Console.ReadKey();
-	}
-}
-</code></pre>
-<p><em>List of <a href="https://tilied.github.io/CSTOJS_Pages/api/CSharpToJavaScript.CSTOJSOptions.html">options can be found on the website</a> or <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/CSTOJSOptions.cs">in the code directly</a>.</em></p>
-<p>CSharp/Person.cs</p>
-<pre><code class="lang-csharp">using static CSharpToJavaScript.APIs.JS.GlobalObject;
-namespace ConsoleAppTest.CSharp;
-
-public partial class Person
-{
-    private int _Id;
-    public string FullName { get; set; }
-    public int Age { get; set; }
-}
-</code></pre>
-<p>Above code will generate &quot;Person.js&quot; file that contains:</p>
-<pre><code class="lang-javascript">class Person {
-    _Id;
-    #_FullName_;
-    get FullName() { return this.#_FullName_; } 
-    set FullName(value) { this.#_FullName_ = value; }
-    #_Age_;
-    get Age() { return this.#_Age_; } 
-    set Age(value) { this.#_Age_ = value; }
-}
-</code></pre>
-<h2 id="example-helloworld">Example &quot;HelloWorld&quot;</h2>
-<p>Program.cs</p>
-<pre><code class="lang-csharp">using CSharpToJavaScript;
-namespace ConsoleAppTest;
-
-public class Program
-{
-	public static async Task Main()
-	{
-		CSTOJS cstojs = new();
-		await cstojs.GenerateOneAsync(&quot;C:\\GitReps\\ConsoleAppTest\\CSharp\\Test.cs&quot;);
-
-		Console.ReadKey();
-	}
-}
-</code></pre>
-<p>CSharp/Test.cs</p>
-<pre><code class="lang-csharp">using static CSharpToJavaScript.APIs.JS.GlobalObject;
-namespace ConsoleAppTest.CSharp;
-
-public class Test
-{
-	public Test()
-	{
-		GlobalThis.Console.Log(&quot;HelloWorld!&quot;);
-	}
-}
-</code></pre>
-<p>Above code will generate &quot;Test.js&quot; file that contains:</p>
-<pre><code class="lang-javascript">class Test
-{
-	constructor()
- 	{
-   		globalThis.console.log(&quot;HelloWorld!&quot;);
- 	}
-}
-</code></pre>
-<h2 id="related-repository">Related Repository</h2>
-<ul>
-<li>Library for generating docs: <a href="https://github.com/TiLied/GenDocsLib">https://github.com/TiLied/GenDocsLib</a></li>
-<li>Library for generating csharp: <a href="https://github.com/TiLied/GenCSharpLib">https://github.com/TiLied/GenCSharpLib</a></li>
-</ul>
-<p>CLI for library: <a href="https://github.com/TiLied/CSTOJS_CLI">https://github.com/TiLied/CSTOJS_CLI</a></p>
-<p>VS Code Extension using CLI: <a href="https://github.com/TiLied/CSTOJS_VSCode_Ext">https://github.com/TiLied/CSTOJS_VSCode_Ext</a></p>
-<p>VS Extension using CLI: <a href="https://github.com/TiLied/CSTOJS_VS_Ext">https://github.com/TiLied/CSTOJS_VS_Ext</a></p>
-<p>Website/documentation: <a href="https://github.com/TiLied/CSTOJS_Pages">https://github.com/TiLied/CSTOJS_Pages</a></p>
-<ul>
-<li>Blazor WebAssembly: <a href="https://github.com/TiLied/CSTOJS_BWA">https://github.com/TiLied/CSTOJS_BWA</a></li>
-</ul>
-<h2 id="project-includes">Project includes</h2>
-<p><a href="https://www.nuget.org/packages/Microsoft.CodeAnalysis.CSharp/">Microsoft CodeAnalysis CSharp</a> Core nuget package.</p>
-<p><a href="https://github.com/mdn/content">MDN-content</a> for JS api.</p>
+<p><a href="https://github.com/TiLied/CSTOJS_CLI">CLI</a> | <a href="">Dotnet tool</a> | <a href="https://github.com/TiLied/CSharpToJavaScript">Core</a> | <a href="https://www.nuget.org/packages/CSharpToJavaScript/">Nuget package</a> | <a href="https://tilied.github.io/CSTOJS_Pages/BWA/">Try it online!</a></p>
 
 </article>
 
