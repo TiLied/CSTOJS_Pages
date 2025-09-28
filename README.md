@@ -1,20 +1,11 @@
 # CSTOJS_Pages
-Website for [CSharpToJavaScript library](https://github.com/TiLied/CSharpToJavaScript).
+Website for a [CSharpToJavaScript library](https://github.com/TiLied/CSharpToJavaScript) and a [CSTOJS_CLI](https://github.com/TiLied/CSTOJS_CLI).
 
 https://tilied.github.io/CSTOJS_Pages/
 
 ## Related Repository 
-- Blazor WebAssembly: https://github.com/TiLied/CSTOJS_BWA
-
-CSharpToJavaScript library: https://github.com/TiLied/CSharpToJavaScript
-- Library for generating docs: https://github.com/TiLied/GenDocsLib
-- Library for generating csharp: https://github.com/TiLied/GenCSharpLib
-
-CLI for library: https://github.com/TiLied/CSTOJS_CLI
-
-VS Code Extension using CLI: https://github.com/TiLied/CSTOJS_VSCode_Ext
-
-VS Extension using CLI: https://github.com/TiLied/CSTOJS_VS_Ext
-
-## Thanks for packages and content <3
-[docfx](https://dotnet.github.io/docfx/) for generating static website.
+- Core library: https://github.com/TiLied/CSharpToJavaScript
+- Dotnet tool/CLI for a library: https://github.com/TiLied/CSTOJS_CLI
+- Tests: https://github.com/TiLied/CSTOJS_Tests
+- Library for generating various stuff: https://github.com/TiLied/CSTOJS_GenLib
+- Blazor WebAssembly app: https://github.com/TiLied/CSTOJS_BWA
