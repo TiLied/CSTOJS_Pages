@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class WebSocket | CSharpToJavaScript ">
       
-      <meta name="description" content="The WebSocket object provides the API for creating and managing a WebSocket connection to a server, as well as for sending and receiving data on the connection.">
+      
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/TiLied/CSharpToJavaScript/new/master/apiSpec/new?filename=CSharpToJavaScript_APIs_JS_WebSocket.md&amp;value=---%0Auid%3A%20CSharpToJavaScript.APIs.JS.WebSocket%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -89,7 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_WebSocket" data-uid="CSharpToJavaScript.APIs.JS.WebSocket" class="text-break">
-Class WebSocket  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L27138"><i class="bi bi-code-slash"></i></a>
+Class WebSocket  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,12 +97,11 @@ Class WebSocket  <a class="header-action link-secondary" title="View source" hre
   <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>The <code>WebSocket</code> object provides the API for creating and managing a <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API">WebSocket</a> connection to a server, as well as for sending and receiving data on the connection.</p>
-</div>
+  <div class="markdown summary"></div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+    <pre><code class="lang-csharp hljs">[Value(&quot;WebSocket&quot;)]
 public class WebSocket : EventTarget</code></pre>
   </div>
 
@@ -148,45 +147,31 @@ public class WebSocket : EventTarget</code></pre>
       <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_When_System_String_CSharpToJavaScript_APIs_JS_ObservableEventListenerOptions_">EventTarget.When(string, ObservableEventListenerOptions)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
-    </div>
-    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
     </div>
   </dd></dl>
 
 
 
 
-  <h2 id="CSharpToJavaScript_APIs_JS_WebSocket_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>To construct a <code>WebSocket</code>, use the <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebSocket/WebSocket"><code>WebSocket()</code></a> constructor.</p>
-<blockquote class="NOTE">
-  <h5>NOTE</h5>
-  <p>The <code>WebSocket</code> API has no way to apply <a href="https://developer.mozilla.org/en-US/docs/Web/API/Streams_API/Concepts#backpressure">backpressure</a>, therefore when messages arrive faster than the application can process them, the application will either fill up the device's memory by buffering those messages, become unresponsive due to 100% CPU usage, or both. For an alternative that provides backpressure automatically, see WebSocketStream.</p>
-</blockquote>
-<p></p>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_client_applications">Writing WebSocket client applications</a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebSocket">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
   <h2 class="section" id="constructors">Constructors
@@ -197,7 +182,7 @@ public class WebSocket : EventTarget</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_WebSocket__ctor" data-uid="CSharpToJavaScript.APIs.JS.WebSocket.#ctor">
   WebSocket()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L27167"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -223,11 +208,10 @@ public class WebSocket : EventTarget</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_WebSocket__ctor_System_String_CSharpToJavaScript_APIs_JS_Union232_" data-uid="CSharpToJavaScript.APIs.JS.WebSocket.#ctor(System.String,CSharpToJavaScript.APIs.JS.Union232)">
   WebSocket(string, Union232)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L27142"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>WebSocket()</code></strong> constructor returns a new <a class="xref" href="CSharpToJavaScript.APIs.JS.WebSocket.html">WebSocket</a> object and immediately attempts to establish a connection to the specified WebSocket URL.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -249,14 +233,6 @@ public class WebSocket : EventTarget</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_WebSocket__ctor_System_String_CSharpToJavaScript_APIs_JS_Union232__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a href="https://www.rfc-editor.org/rfc/rfc6455.html">RFC 6455</a> (the WebSocket Protocol specification)<br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebSocket/WebSocket">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -268,14 +244,15 @@ public class WebSocket : EventTarget</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_WebSocket_CLOSED" data-uid="CSharpToJavaScript.APIs.JS.WebSocket.CLOSED">
   CLOSED
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L27148"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const ushort CLOSED = 3</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;CLOSED&quot;)]
+public const ushort CLOSED = 3</code></pre>
   </div>
 
 
@@ -298,14 +275,15 @@ public class WebSocket : EventTarget</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_WebSocket_CLOSING" data-uid="CSharpToJavaScript.APIs.JS.WebSocket.CLOSING">
   CLOSING
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L27147"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const ushort CLOSING = 2</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;CLOSING&quot;)]
+public const ushort CLOSING = 2</code></pre>
   </div>
 
 
@@ -328,14 +306,15 @@ public class WebSocket : EventTarget</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_WebSocket_CONNECTING" data-uid="CSharpToJavaScript.APIs.JS.WebSocket.CONNECTING">
   CONNECTING
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L27145"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const ushort CONNECTING = 0</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;CONNECTING&quot;)]
+public const ushort CONNECTING = 0</code></pre>
   </div>
 
 
@@ -358,14 +337,15 @@ public class WebSocket : EventTarget</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_WebSocket_OPEN" data-uid="CSharpToJavaScript.APIs.JS.WebSocket.OPEN">
   OPEN
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L27146"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const ushort OPEN = 1</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;OPEN&quot;)]
+public const ushort OPEN = 1</code></pre>
   </div>
 
 
@@ -393,15 +373,15 @@ public class WebSocket : EventTarget</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_WebSocket_BinaryType" data-uid="CSharpToJavaScript.APIs.JS.WebSocket.BinaryType">
   BinaryType
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L27164"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>WebSocket.binaryType</code></strong> property controls the type of<br>binary data being received over the WebSocket connection.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public BinaryType BinaryType { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;binaryType&quot;)]
+public BinaryType BinaryType { get; set; }</code></pre>
   </div>
 
 
@@ -411,20 +391,12 @@ public class WebSocket : EventTarget</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.BinaryType.html">BinaryType</a></dt>
-    <dd><p>A string:</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_WebSocket_BinaryType_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebSocket/binaryType">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -433,15 +405,15 @@ public class WebSocket : EventTarget</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_WebSocket_BufferedAmount" data-uid="CSharpToJavaScript.APIs.JS.WebSocket.BufferedAmount">
   BufferedAmount
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L27152"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>WebSocket.bufferedAmount</code></strong> read-only property returns<br>the number of bytes of data that have been queued using calls to <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebSocket/send"><code>send()</code></a> but<br>not yet transmitted to the network. This value resets to zero once all queued data has<br>been sent. This value does not reset to zero when the connection is closed; if you keep<br>calling <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebSocket/send"><code>send()</code></a>, this will continue to climb.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ulong BufferedAmount { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;bufferedAmount&quot;)]
+public ulong BufferedAmount { get; }</code></pre>
   </div>
 
 
@@ -451,20 +423,12 @@ public class WebSocket : EventTarget</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
-    <dd><p>An <code>unsigned long</code>.</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_WebSocket_BufferedAmount_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebSocket/bufferedAmount">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -473,15 +437,15 @@ public class WebSocket : EventTarget</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_WebSocket_Extensions" data-uid="CSharpToJavaScript.APIs.JS.WebSocket.Extensions">
   Extensions
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L27157"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>WebSocket.extensions</code></strong> read-only property returns the<br>extensions selected by the server. This is currently only the empty string or a list of<br>extensions as negotiated by the connection.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Extensions { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;extensions&quot;)]
+public string Extensions { get; }</code></pre>
   </div>
 
 
@@ -491,20 +455,12 @@ public class WebSocket : EventTarget</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>A string.</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_WebSocket_Extensions_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebSocket/extensions">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -513,14 +469,15 @@ public class WebSocket : EventTarget</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_WebSocket_Onclose" data-uid="CSharpToJavaScript.APIs.JS.WebSocket.Onclose">
   Onclose
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L27155"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EventHandlerNonNull Onclose { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;onclose&quot;)]
+public EventHandlerNonNull Onclose { get; set; }</code></pre>
   </div>
 
 
@@ -544,14 +501,15 @@ public class WebSocket : EventTarget</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_WebSocket_Onerror" data-uid="CSharpToJavaScript.APIs.JS.WebSocket.Onerror">
   Onerror
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L27154"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EventHandlerNonNull Onerror { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;onerror&quot;)]
+public EventHandlerNonNull Onerror { get; set; }</code></pre>
   </div>
 
 
@@ -575,14 +533,15 @@ public class WebSocket : EventTarget</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_WebSocket_Onmessage" data-uid="CSharpToJavaScript.APIs.JS.WebSocket.Onmessage">
   Onmessage
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L27162"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EventHandlerNonNull Onmessage { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;onmessage&quot;)]
+public EventHandlerNonNull Onmessage { get; set; }</code></pre>
   </div>
 
 
@@ -606,14 +565,15 @@ public class WebSocket : EventTarget</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_WebSocket_Onopen" data-uid="CSharpToJavaScript.APIs.JS.WebSocket.Onopen">
   Onopen
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L27153"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EventHandlerNonNull Onopen { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;onopen&quot;)]
+public EventHandlerNonNull Onopen { get; set; }</code></pre>
   </div>
 
 
@@ -637,15 +597,15 @@ public class WebSocket : EventTarget</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_WebSocket_Protocol" data-uid="CSharpToJavaScript.APIs.JS.WebSocket.Protocol">
   Protocol
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L27159"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>WebSocket.protocol</code></strong> read-only property returns the name of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_servers#subprotocols">sub-protocol</a> the server selected; this will be one of the strings specified in the <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebSocket/WebSocket#protocols"><code>protocols</code></a> parameter when creating the <a class="xref" href="CSharpToJavaScript.APIs.JS.WebSocket.html">WebSocket</a> object, or the empty string if no connection is established.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Protocol { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;protocol&quot;)]
+public string Protocol { get; }</code></pre>
   </div>
 
 
@@ -655,21 +615,12 @@ public class WebSocket : EventTarget</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>A string.</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_WebSocket_Protocol_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-WebSocket-Protocol">Sec-WebSocket-Protocol</a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebSocket/protocol">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -678,15 +629,15 @@ public class WebSocket : EventTarget</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_WebSocket_ReadyState" data-uid="CSharpToJavaScript.APIs.JS.WebSocket.ReadyState">
   ReadyState
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L27150"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>WebSocket.readyState</code></strong> read-only property returns the<br>current state of the <a class="xref" href="CSharpToJavaScript.APIs.JS.WebSocket.html">WebSocket</a> connection.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ushort ReadyState { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;readyState&quot;)]
+public ushort ReadyState { get; }</code></pre>
   </div>
 
 
@@ -696,20 +647,12 @@ public class WebSocket : EventTarget</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint16">ushort</a></dt>
-    <dd><p>A number which is one of the four possible state constants defined on the <a class="xref" href="CSharpToJavaScript.APIs.JS.WebSocket.html">WebSocket</a> interface:</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_WebSocket_ReadyState_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebSocket/readyState">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -718,15 +661,15 @@ public class WebSocket : EventTarget</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_WebSocket_Url" data-uid="CSharpToJavaScript.APIs.JS.WebSocket.Url">
   Url
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L27144"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>WebSocket.url</code></strong> read-only property returns the absolute<br>URL of the <a class="xref" href="CSharpToJavaScript.APIs.JS.WebSocket.html">WebSocket</a> as resolved by the constructor.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Url { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;url&quot;)]
+public string Url { get; }</code></pre>
   </div>
 
 
@@ -736,20 +679,12 @@ public class WebSocket : EventTarget</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>A string.</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_WebSocket_Url_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebSocket/url">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -762,15 +697,15 @@ public class WebSocket : EventTarget</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_WebSocket_Close_System_UInt16_System_String_" data-uid="CSharpToJavaScript.APIs.JS.WebSocket.Close(System.UInt16,System.String)">
   Close(ushort, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L27161"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>WebSocket.close()</code></strong> method closes the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.WebSocket.html">WebSocket</a> connection or connection attempt, if any. If the connection is<br>already <code>CLOSED</code>, this method does nothing.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined Close(ushort code = 0, string reason = null)</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;close&quot;)]
+public GlobalObject.Undefined Close(ushort code = 0, string reason = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -783,9 +718,8 @@ public class WebSocket : EventTarget</code></pre>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
-    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -794,18 +728,6 @@ public class WebSocket : EventTarget</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_WebSocket_Close_System_UInt16_System_String__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><blockquote class="NOTE">
-  <h5>NOTE</h5>
-  <p>The process of closing the connection begins with a <a href="https://www.rfc-editor.org/rfc/rfc6455.html#section-1.4">closing handshake</a>, and the <code>close()</code> method does not discard previously-sent messages before starting that closing handshake; even if the user agent is still busy sending those messages, the handshake will only start after the messages are sent.</p>
-</blockquote>
-<p>-<a href="https://www.rfc-editor.org/rfc/rfc6455.html">RFC 6455</a> (the WebSocket Protocol specification)<br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebSocket/close">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -814,15 +736,15 @@ public class WebSocket : EventTarget</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_WebSocket_Send_CSharpToJavaScript_APIs_JS_Union233_" data-uid="CSharpToJavaScript.APIs.JS.WebSocket.Send(CSharpToJavaScript.APIs.JS.Union233)">
   Send(Union233)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L27166"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>WebSocket.send()</code></strong> method enqueues the specified data<br>to be transmitted to the server over the WebSocket connection, increasing the value of<br><code>bufferedAmount</code> by the number of bytes needed to contain the data. If the<br>data can&amp;apos;t be sent (for example, because it needs to be buffered but the buffer is<br>full), the socket is closed automatically.<br>The browser will throw an exception if you call <code>send()</code> when the connection is in the <code>CONNECTING</code> state. If you call <code>send()</code> when the connection is in the <code>CLOSING</code> or <code>CLOSED</code> states, the browser will silently discard the data.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined Send(Union233 data)</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;send&quot;)]
+public GlobalObject.Undefined Send(Union233 data)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -833,9 +755,8 @@ public class WebSocket : EventTarget</code></pre>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
-    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -844,13 +765,6 @@ public class WebSocket : EventTarget</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_WebSocket_Send_CSharpToJavaScript_APIs_JS_Union233__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebSocket/send">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -859,7 +773,7 @@ public class WebSocket : EventTarget</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L27138" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs" class="edit-link">Edit this page</a>
         </div>
 
 

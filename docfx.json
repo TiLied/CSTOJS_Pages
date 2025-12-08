@@ -3,8 +3,8 @@
     {
       "src": [
         {
-          "files": ["/bin/Release/net10.0/CSharpToJavaScript.dll"],
-          "src": "../CSharpToJavaScript/CSharpToJavaScript/"
+          "files": ["bin/CSharpToJavaScript.dll"],
+		  "src": "./"
         }
       ],
       "dest": "api",

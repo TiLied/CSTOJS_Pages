@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class AudioParam | CSharpToJavaScript ">
       
-      <meta name="description" content="The Web Audio API&amp;amp;apos;s AudioParam interface represents an audio-related parameter, usually a parameter of an  (such as ).">
+      
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/TiLied/CSharpToJavaScript/new/master/apiSpec/new?filename=CSharpToJavaScript_APIs_JS_AudioParam.md&amp;value=---%0Auid%3A%20CSharpToJavaScript.APIs.JS.AudioParam%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -89,7 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_AudioParam" data-uid="CSharpToJavaScript.APIs.JS.AudioParam" class="text-break">
-Class AudioParam  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L20964"><i class="bi bi-code-slash"></i></a>
+Class AudioParam  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,12 +97,11 @@ Class AudioParam  <a class="header-action link-secondary" title="View source" hr
   <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>The Web Audio API&amp;apos;s <code>AudioParam</code> interface represents an audio-related parameter, usually a parameter of an <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioNode.html">AudioNode</a> (such as <a class="xref" href="CSharpToJavaScript.APIs.JS.GainNode.html#CSharpToJavaScript_APIs_JS_GainNode_Gain">Gain</a>).</p>
-</div>
+  <div class="markdown summary"></div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+    <pre><code class="lang-csharp hljs">[Value(&quot;AudioParam&quot;)]
 public class AudioParam</code></pre>
   </div>
 
@@ -123,41 +122,61 @@ public class AudioParam</code></pre>
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
-    </div>
-    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
     </div>
   </dd></dl>
 
 
 
 
-  <h2 id="CSharpToJavaScript_APIs_JS_AudioParam_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>An <code>AudioParam</code> can be set to a specific value or a change in value, and can be scheduled to happen at a specific time and following a specific pattern.</p>
-<p>Each <code>AudioParam</code> has a list of events, initially empty, that define when and how values change. When this list is not empty, changes using the <code>AudioParam.value</code> attributes are ignored. This list of events allows us to schedule changes that have to happen at very precise times, using arbitrary timeline-based automation curves. The time used is the one defined in BaseAudioContext/currentTime.</p>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API">Using the Web Audio API</a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/AudioParam">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_AudioParam__ctor_" data-uid="CSharpToJavaScript.APIs.JS.AudioParam.#ctor*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_AudioParam__ctor" data-uid="CSharpToJavaScript.APIs.JS.AudioParam.#ctor">
+  AudioParam()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AudioParam()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
 
 
   <h2 class="section" id="properties">Properties
@@ -168,14 +187,15 @@ public class AudioParam</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_AudioParam_AutomationRate" data-uid="CSharpToJavaScript.APIs.JS.AudioParam.AutomationRate">
   AutomationRate
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L20969"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AutomationRate AutomationRate { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;automationRate&quot;)]
+public AutomationRate AutomationRate { get; set; }</code></pre>
   </div>
 
 
@@ -199,15 +219,15 @@ public class AudioParam</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_AudioParam_DefaultValue" data-uid="CSharpToJavaScript.APIs.JS.AudioParam.DefaultValue">
   DefaultValue
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L20971"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>defaultValue</code></strong><br>read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a> interface represents the initial<br>value of the attributes as defined by the specific <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioNode.html">AudioNode</a> creating<br>the <code>AudioParam</code>.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Number DefaultValue { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;defaultValue&quot;)]
+public Number DefaultValue { get; }</code></pre>
   </div>
 
 
@@ -216,22 +236,13 @@ public class AudioParam</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
-    <dd><p>A floating-point <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a>.</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.Number.html">Number</a></dt>
+    <dd></dd>
   </dl>
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_AudioParam_DefaultValue_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API">Using the Web Audio API</a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/AudioParam/defaultValue">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -240,15 +251,15 @@ public class AudioParam</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_AudioParam_MaxValue" data-uid="CSharpToJavaScript.APIs.JS.AudioParam.MaxValue">
   MaxValue
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L20975"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>maxValue</code></strong><br>read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a> interface represents the maximum<br>possible value for the parameter&amp;apos;s nominal (effective) range.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Number MaxValue { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;maxValue&quot;)]
+public Number MaxValue { get; }</code></pre>
   </div>
 
 
@@ -257,22 +268,13 @@ public class AudioParam</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
-    <dd><p>A floating-point <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a> indicating the maximum value permitted for the<br>parameter&amp;apos;s nominal range.The default value of <code>maxValue</code> is the maximum positive single-precision<br>floating-point value (+340,282,346,638,528,859,811,704,183,484,516,925,440).</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.Number.html">Number</a></dt>
+    <dd></dd>
   </dl>
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_AudioParam_MaxValue_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html#CSharpToJavaScript_APIs_JS_AudioParam_MinValue">MinValue</a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/AudioParam/maxValue">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -281,15 +283,15 @@ public class AudioParam</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_AudioParam_MinValue" data-uid="CSharpToJavaScript.APIs.JS.AudioParam.MinValue">
   MinValue
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L20973"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>minValue</code></strong><br>read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a> interface represents the minimum<br>possible value for the parameter&amp;apos;s nominal (effective) range.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Number MinValue { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;minValue&quot;)]
+public Number MinValue { get; }</code></pre>
   </div>
 
 
@@ -298,22 +300,13 @@ public class AudioParam</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
-    <dd><p>A floating-point <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a> indicating the minimum value permitted for the<br>parameter&amp;apos;s nominal range.The default value of <code>minValue</code> is the minimum negative single-precision<br>floating-point value (-340,282,346,638,528,859,811,704,183,484,516,925,440).</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.Number.html">Number</a></dt>
+    <dd></dd>
   </dl>
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_AudioParam_MinValue_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html#CSharpToJavaScript_APIs_JS_AudioParam_MaxValue">MaxValue</a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/AudioParam/minValue">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -322,15 +315,15 @@ public class AudioParam</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_AudioParam_Value" data-uid="CSharpToJavaScript.APIs.JS.AudioParam.Value">
   Value
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L20968"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>value</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a> interface gets or sets the value of this <code>AudioParam</code> at the current time.<br>Initially, the value is set to <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html#CSharpToJavaScript_APIs_JS_AudioParam_DefaultValue">DefaultValue</a>.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Number Value { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;value&quot;)]
+public Number Value { get; set; }</code></pre>
   </div>
 
 
@@ -339,23 +332,13 @@ public class AudioParam</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
-    <dd><p>A floating-point <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a> indicating the parameter's value as of the current time.<br>This value will be between the values specified by the <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html#CSharpToJavaScript_APIs_JS_AudioParam_MinValue">MinValue</a> and <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html#CSharpToJavaScript_APIs_JS_AudioParam_MaxValue">MaxValue</a> properties.The data type used internally to store <code>value</code> is a single-precision (32-bit) floating point number, while JavaScript uses 64-bit double-precision floating point numbers.<br>As a result, the value you read from the <code>value</code> property may not always exactly equal what you set it to.Consider this example:The log output will be <code>false</code>, because the playback rate parameter, <code>rate</code>, was converted to the 32-bit floating-point number closest to 5.3, which yields 5.300000190734863.<br>One solution is to use the MathFround method, which returns the single-precision value equivalent to the 64-bit JavaScript value specified—when setting <code>value</code>, like this:In this case, the log output will be <code>true</code>.The <code>value</code> of an <code>AudioParam</code> can either be fixed or can vary over time.<br>This is reflected by the <code>value</code> getter, which returns the value of the parameter as of the audio rendering engine&amp;apos;s most recent <strong>render quantum</strong>, or moment at which audio buffers are processed and updated.<br>In addition to processing audio buffers, each render quantum updates the <code>value</code> of each <code>AudioParam</code> as needed given the current time and any established time-based parameter value changes.Upon first creating the parameter, its value is set to its default value, given by <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html#CSharpToJavaScript_APIs_JS_AudioParam_DefaultValue">DefaultValue</a>.<br>This is the parameter&amp;apos;s value at a time of 0.0 seconds, and will remain the parameter&amp;apos;s value until the first render quantum in which the value is altered.During each render quantum, the browser does the following things related to managing the value of a parameter:Thus, the <code>value</code> of a parameter is maintained to accurately reflect the state of the parameter over time.</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.Number.html">Number</a></dt>
+    <dd></dd>
   </dl>
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_AudioParam_Value_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>Setting <code>value</code> has the same effect as calling <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html#CSharpToJavaScript_APIs_JS_AudioParam_SetValueAtTime_CSharpToJavaScript_APIs_JS_Number_CSharpToJavaScript_APIs_JS_Number_">SetValueAtTime(Number, Number)</a> with the time returned by the <code>AudioContext</code>'s BaseAudioContext/currentTime property.</p>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API">Using the Web Audio API</a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/AudioParam/value">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -366,30 +349,29 @@ public class AudioParam</code></pre>
 
   <a id="CSharpToJavaScript_APIs_JS_AudioParam_CancelAndHoldAtTime_" data-uid="CSharpToJavaScript.APIs.JS.AudioParam.CancelAndHoldAtTime*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_AudioParam_CancelAndHoldAtTime_CSharpToJavaScript_APIs_JS_Number_" data-uid="CSharpToJavaScript.APIs.JS.AudioParam.CancelAndHoldAtTime(CSharpToJavaScript.APIs.JS.Number)">
+  <h3 id="CSharpToJavaScript_APIs_JS_AudioParam_CancelAndHoldAtTime_CSharpToJavaScript_APIs_JS_Ecma_Number_" data-uid="CSharpToJavaScript.APIs.JS.AudioParam.CancelAndHoldAtTime(CSharpToJavaScript.APIs.JS.Ecma.Number)">
   CancelAndHoldAtTime(Number)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L20989"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>cancelAndHoldAtTime()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a> interface cancels all scheduled future changes to the<br><code>AudioParam</code> but holds its value at a given time until further changes are<br>made using other methods.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AudioParam CancelAndHoldAtTime(Number cancelTime)</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;cancelAndHoldAtTime&quot;)]
+public AudioParam CancelAndHoldAtTime(Number cancelTime)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>cancelTime</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dt><code>cancelTime</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.Number.html">Number</a></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a></dt>
-    <dd><p>A reference to the <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a> it was called on.</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
@@ -398,43 +380,35 @@ public class AudioParam</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_AudioParam_CancelAndHoldAtTime_CSharpToJavaScript_APIs_JS_Number__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/AudioParam/cancelAndHoldAtTime">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
 
   <a id="CSharpToJavaScript_APIs_JS_AudioParam_CancelScheduledValues_" data-uid="CSharpToJavaScript.APIs.JS.AudioParam.CancelScheduledValues*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_AudioParam_CancelScheduledValues_CSharpToJavaScript_APIs_JS_Number_" data-uid="CSharpToJavaScript.APIs.JS.AudioParam.CancelScheduledValues(CSharpToJavaScript.APIs.JS.Number)">
+  <h3 id="CSharpToJavaScript_APIs_JS_AudioParam_CancelScheduledValues_CSharpToJavaScript_APIs_JS_Ecma_Number_" data-uid="CSharpToJavaScript.APIs.JS.AudioParam.CancelScheduledValues(CSharpToJavaScript.APIs.JS.Ecma.Number)">
   CancelScheduledValues(Number)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L20987"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <code>cancelScheduledValues()</code> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a><br>Interface cancels all scheduled future changes to the <code>AudioParam</code>.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AudioParam CancelScheduledValues(Number cancelTime)</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;cancelScheduledValues&quot;)]
+public AudioParam CancelScheduledValues(Number cancelTime)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>cancelTime</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dt><code>cancelTime</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.Number.html">Number</a></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a></dt>
-    <dd><p>A reference to this <code>AudioParam</code> object. In some older implementations this<br>method returns 'undefined'.</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
@@ -443,46 +417,37 @@ public class AudioParam</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_AudioParam_CancelScheduledValues_CSharpToJavaScript_APIs_JS_Number__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API">Using the Web Audio API</a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/AudioParam/cancelScheduledValues">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
 
   <a id="CSharpToJavaScript_APIs_JS_AudioParam_ExponentialRampToValueAtTime_" data-uid="CSharpToJavaScript.APIs.JS.AudioParam.ExponentialRampToValueAtTime*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_AudioParam_ExponentialRampToValueAtTime_CSharpToJavaScript_APIs_JS_Number_CSharpToJavaScript_APIs_JS_Number_" data-uid="CSharpToJavaScript.APIs.JS.AudioParam.ExponentialRampToValueAtTime(CSharpToJavaScript.APIs.JS.Number,CSharpToJavaScript.APIs.JS.Number)">
+  <h3 id="CSharpToJavaScript_APIs_JS_AudioParam_ExponentialRampToValueAtTime_CSharpToJavaScript_APIs_JS_Ecma_Number_CSharpToJavaScript_APIs_JS_Ecma_Number_" data-uid="CSharpToJavaScript.APIs.JS.AudioParam.ExponentialRampToValueAtTime(CSharpToJavaScript.APIs.JS.Ecma.Number,CSharpToJavaScript.APIs.JS.Ecma.Number)">
   ExponentialRampToValueAtTime(Number, Number)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L20981"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>exponentialRampToValueAtTime()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a> Interface schedules a gradual exponential change in the value of the <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a>.<br>The change starts at the time specified for the <strong>previous</strong> event, follows an exponential ramp to the new value given in the <code>value</code> parameter, and reaches the new value at the time given in the<br><code>endTime</code> parameter.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AudioParam ExponentialRampToValueAtTime(Number value, Number endTime)</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;exponentialRampToValueAtTime&quot;)]
+public AudioParam ExponentialRampToValueAtTime(Number value, Number endTime)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>value</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dt><code>value</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.Number.html">Number</a></dt>
     <dd></dd>
-    <dt><code>endTime</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dt><code>endTime</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.Number.html">Number</a></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a></dt>
-    <dd><p>A reference to this <code>AudioParam</code> object. In some browsers older<br>implementations of this interface return 'undefined'.</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
@@ -491,50 +456,37 @@ public class AudioParam</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_AudioParam_ExponentialRampToValueAtTime_CSharpToJavaScript_APIs_JS_Number_CSharpToJavaScript_APIs_JS_Number__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><blockquote class="NOTE">
-  <h5>NOTE</h5>
-  <p>Exponential ramps are considered more useful when changing<br>frequencies or playback rates than linear ramps because of the way the human ear<br>works.</p>
-</blockquote>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API">Using the Web Audio API</a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/AudioParam/exponentialRampToValueAtTime">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
 
   <a id="CSharpToJavaScript_APIs_JS_AudioParam_LinearRampToValueAtTime_" data-uid="CSharpToJavaScript.APIs.JS.AudioParam.LinearRampToValueAtTime*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_AudioParam_LinearRampToValueAtTime_CSharpToJavaScript_APIs_JS_Number_CSharpToJavaScript_APIs_JS_Number_" data-uid="CSharpToJavaScript.APIs.JS.AudioParam.LinearRampToValueAtTime(CSharpToJavaScript.APIs.JS.Number,CSharpToJavaScript.APIs.JS.Number)">
+  <h3 id="CSharpToJavaScript_APIs_JS_AudioParam_LinearRampToValueAtTime_CSharpToJavaScript_APIs_JS_Ecma_Number_CSharpToJavaScript_APIs_JS_Ecma_Number_" data-uid="CSharpToJavaScript.APIs.JS.AudioParam.LinearRampToValueAtTime(CSharpToJavaScript.APIs.JS.Ecma.Number,CSharpToJavaScript.APIs.JS.Ecma.Number)">
   LinearRampToValueAtTime(Number, Number)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L20979"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <code>linearRampToValueAtTime()</code> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a><br>Interface schedules a gradual linear change in the value of the<br><code>AudioParam</code>. The change starts at the time specified for the<br><strong>previous</strong> event, follows a linear ramp to the new value given in the<br><code>value</code> parameter, and reaches the new value at the time given in the<br><code>endTime</code> parameter.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AudioParam LinearRampToValueAtTime(Number value, Number endTime)</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;linearRampToValueAtTime&quot;)]
+public AudioParam LinearRampToValueAtTime(Number value, Number endTime)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>value</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dt><code>value</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.Number.html">Number</a></dt>
     <dd></dd>
-    <dt><code>endTime</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dt><code>endTime</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.Number.html">Number</a></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a></dt>
-    <dd><p>A reference to this <code>AudioParam</code> object. In some browsers older<br>implementations of this interface return 'undefined'.</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
@@ -543,48 +495,39 @@ public class AudioParam</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_AudioParam_LinearRampToValueAtTime_CSharpToJavaScript_APIs_JS_Number_CSharpToJavaScript_APIs_JS_Number__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API">Using the Web Audio API</a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/AudioParam/linearRampToValueAtTime">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
 
   <a id="CSharpToJavaScript_APIs_JS_AudioParam_SetTargetAtTime_" data-uid="CSharpToJavaScript.APIs.JS.AudioParam.SetTargetAtTime*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_AudioParam_SetTargetAtTime_CSharpToJavaScript_APIs_JS_Number_CSharpToJavaScript_APIs_JS_Number_CSharpToJavaScript_APIs_JS_Number_" data-uid="CSharpToJavaScript.APIs.JS.AudioParam.SetTargetAtTime(CSharpToJavaScript.APIs.JS.Number,CSharpToJavaScript.APIs.JS.Number,CSharpToJavaScript.APIs.JS.Number)">
+  <h3 id="CSharpToJavaScript_APIs_JS_AudioParam_SetTargetAtTime_CSharpToJavaScript_APIs_JS_Ecma_Number_CSharpToJavaScript_APIs_JS_Ecma_Number_CSharpToJavaScript_APIs_JS_Ecma_Number_" data-uid="CSharpToJavaScript.APIs.JS.AudioParam.SetTargetAtTime(CSharpToJavaScript.APIs.JS.Ecma.Number,CSharpToJavaScript.APIs.JS.Ecma.Number,CSharpToJavaScript.APIs.JS.Ecma.Number)">
   SetTargetAtTime(Number, Number, Number)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L20983"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <code>setTargetAtTime()</code> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a> interface schedules the start of a gradual change to the<br><code>AudioParam</code> value. This is useful for decay or release portions of ADSR<br>envelopes.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AudioParam SetTargetAtTime(Number target, Number startTime, Number timeConstant)</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;setTargetAtTime&quot;)]
+public AudioParam SetTargetAtTime(Number target, Number startTime, Number timeConstant)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>target</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dt><code>target</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.Number.html">Number</a></dt>
     <dd></dd>
-    <dt><code>startTime</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dt><code>startTime</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.Number.html">Number</a></dt>
     <dd></dd>
-    <dt><code>timeConstant</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dt><code>timeConstant</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.Number.html">Number</a></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a></dt>
-    <dd><p>A reference to this <code>AudioParam</code> object. Some older browser implementations<br>of this interface return 'undefined'.</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
@@ -593,46 +536,37 @@ public class AudioParam</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_AudioParam_SetTargetAtTime_CSharpToJavaScript_APIs_JS_Number_CSharpToJavaScript_APIs_JS_Number_CSharpToJavaScript_APIs_JS_Number__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API">Using the Web Audio API</a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/AudioParam/setTargetAtTime">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
 
   <a id="CSharpToJavaScript_APIs_JS_AudioParam_SetValueAtTime_" data-uid="CSharpToJavaScript.APIs.JS.AudioParam.SetValueAtTime*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_AudioParam_SetValueAtTime_CSharpToJavaScript_APIs_JS_Number_CSharpToJavaScript_APIs_JS_Number_" data-uid="CSharpToJavaScript.APIs.JS.AudioParam.SetValueAtTime(CSharpToJavaScript.APIs.JS.Number,CSharpToJavaScript.APIs.JS.Number)">
+  <h3 id="CSharpToJavaScript_APIs_JS_AudioParam_SetValueAtTime_CSharpToJavaScript_APIs_JS_Ecma_Number_CSharpToJavaScript_APIs_JS_Ecma_Number_" data-uid="CSharpToJavaScript.APIs.JS.AudioParam.SetValueAtTime(CSharpToJavaScript.APIs.JS.Ecma.Number,CSharpToJavaScript.APIs.JS.Ecma.Number)">
   SetValueAtTime(Number, Number)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L20977"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <code>setValueAtTime()</code> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a> interface schedules an instant change to the<br><code>AudioParam</code> value at a precise time, as measured against<br>BaseAudioContext/currentTime. The new value is given in the value parameter.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AudioParam SetValueAtTime(Number value, Number startTime)</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;setValueAtTime&quot;)]
+public AudioParam SetValueAtTime(Number value, Number startTime)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>value</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dt><code>value</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.Number.html">Number</a></dt>
     <dd></dd>
-    <dt><code>startTime</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dt><code>startTime</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.Number.html">Number</a></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a></dt>
-    <dd><p>A reference to this <code>AudioParam</code> object. In some browsers older<br>implementations of this interface return 'undefined'.</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
@@ -641,48 +575,39 @@ public class AudioParam</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_AudioParam_SetValueAtTime_CSharpToJavaScript_APIs_JS_Number_CSharpToJavaScript_APIs_JS_Number__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API">Using the Web Audio API</a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/AudioParam/setValueAtTime">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
 
   <a id="CSharpToJavaScript_APIs_JS_AudioParam_SetValueCurveAtTime_" data-uid="CSharpToJavaScript.APIs.JS.AudioParam.SetValueCurveAtTime*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_AudioParam_SetValueCurveAtTime_System_Collections_Generic_List_CSharpToJavaScript_APIs_JS_Number__CSharpToJavaScript_APIs_JS_Number_CSharpToJavaScript_APIs_JS_Number_" data-uid="CSharpToJavaScript.APIs.JS.AudioParam.SetValueCurveAtTime(System.Collections.Generic.List{CSharpToJavaScript.APIs.JS.Number},CSharpToJavaScript.APIs.JS.Number,CSharpToJavaScript.APIs.JS.Number)">
+  <h3 id="CSharpToJavaScript_APIs_JS_AudioParam_SetValueCurveAtTime_System_Collections_Generic_List_CSharpToJavaScript_APIs_JS_Ecma_Number__CSharpToJavaScript_APIs_JS_Ecma_Number_CSharpToJavaScript_APIs_JS_Ecma_Number_" data-uid="CSharpToJavaScript.APIs.JS.AudioParam.SetValueCurveAtTime(System.Collections.Generic.List{CSharpToJavaScript.APIs.JS.Ecma.Number},CSharpToJavaScript.APIs.JS.Ecma.Number,CSharpToJavaScript.APIs.JS.Ecma.Number)">
   SetValueCurveAtTime(List&lt;Number&gt;, Number, Number)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L20985"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The<br><strong><code>setValueCurveAtTime()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a> interface schedules the parameter's value to change<br>following a curve defined by a list of values.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AudioParam SetValueCurveAtTime(List&lt;Number&gt; values, Number startTime, Number duration)</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;setValueCurveAtTime&quot;)]
+public AudioParam SetValueCurveAtTime(List&lt;Number&gt; values, Number startTime, Number duration)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>values</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a>&gt;</dt>
+    <dt><code>values</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.Number.html">Number</a>&gt;</dt>
     <dd></dd>
-    <dt><code>startTime</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dt><code>startTime</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.Number.html">Number</a></dt>
     <dd></dd>
-    <dt><code>duration</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dt><code>duration</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.Number.html">Number</a></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a></dt>
-    <dd><p>A reference to this <code>AudioParam</code> object. Some older browser implementations<br>of this interface return <code>undefined</code>.</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
@@ -691,15 +616,6 @@ public class AudioParam</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_AudioParam_SetValueCurveAtTime_System_Collections_Generic_List_CSharpToJavaScript_APIs_JS_Number__CSharpToJavaScript_APIs_JS_Number_CSharpToJavaScript_APIs_JS_Number__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>The curve is a linear<br>interpolation between the sequence of values defined in an array of floating-point<br>values, which are scaled to fit into the given interval starting at<br><code>startTime</code> and a specific duration.</p>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API">Using the Web Audio API</a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/AudioParam/setValueCurveAtTime">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -708,7 +624,7 @@ public class AudioParam</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L20964" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs" class="edit-link">Edit this page</a>
         </div>
 
 

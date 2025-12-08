@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class AudioParamDescriptor | CSharpToJavaScript ">
       
-      <meta name="description" content="The AudioParamDescriptor dictionary of the Web Audio API specifies properties for  objects.">
+      
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/TiLied/CSharpToJavaScript/new/master/apiSpec/new?filename=CSharpToJavaScript_APIs_JS_AudioParamDescriptor.md&amp;value=---%0Auid%3A%20CSharpToJavaScript.APIs.JS.AudioParamDescriptor%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -89,7 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_AudioParamDescriptor" data-uid="CSharpToJavaScript.APIs.JS.AudioParamDescriptor" class="text-break">
-Class AudioParamDescriptor  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L21593"><i class="bi bi-code-slash"></i></a>
+Class AudioParamDescriptor  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,12 +97,11 @@ Class AudioParamDescriptor  <a class="header-action link-secondary" title="View 
   <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>The <strong><code>AudioParamDescriptor</code></strong> dictionary of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API">Web Audio API</a> specifies properties for <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a> objects.</p>
-</div>
+  <div class="markdown summary"></div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+    <pre><code class="lang-csharp hljs">[Value(&quot;AudioParamDescriptor&quot;)]
 public class AudioParamDescriptor</code></pre>
   </div>
 
@@ -123,40 +122,61 @@ public class AudioParamDescriptor</code></pre>
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
-    </div>
-    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
     </div>
   </dd></dl>
 
 
 
 
-  <h2 id="CSharpToJavaScript_APIs_JS_AudioParamDescriptor_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>It is used to create custom <code>AudioParam</code>s on an <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioWorkletNode.html">AudioWorkletNode</a>. If the underlying <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioWorkletProcessor.html">AudioWorkletProcessor</a> has a AudioWorkletProcessor.ParameterDescriptors static getter, then the returned array of objects based on this dictionary is used internally by <code>AudioWorkletNode</code> constructor to populate its <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioWorkletNode.html#CSharpToJavaScript_APIs_JS_AudioWorkletNode_Parameters">Parameters</a> property accordingly.</p>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API">Web Audio API</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API">Using the Web Audio API</a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/AudioParamDescriptor">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_AudioParamDescriptor__ctor_" data-uid="CSharpToJavaScript.APIs.JS.AudioParamDescriptor.#ctor*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_AudioParamDescriptor__ctor" data-uid="CSharpToJavaScript.APIs.JS.AudioParamDescriptor.#ctor">
+  AudioParamDescriptor()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AudioParamDescriptor()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
 
 
   <h2 class="section" id="fields">Fields
@@ -166,14 +186,15 @@ public class AudioParamDescriptor</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_AudioParamDescriptor_AutomationRate" data-uid="CSharpToJavaScript.APIs.JS.AudioParamDescriptor.AutomationRate">
   AutomationRate
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L21600"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AutomationRate AutomationRate</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;automationRate&quot;)]
+public AutomationRate AutomationRate</code></pre>
   </div>
 
 
@@ -196,14 +217,15 @@ public class AudioParamDescriptor</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_AudioParamDescriptor_DefaultValue" data-uid="CSharpToJavaScript.APIs.JS.AudioParamDescriptor.DefaultValue">
   DefaultValue
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L21597"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Number DefaultValue</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;defaultValue&quot;)]
+public Number DefaultValue</code></pre>
   </div>
 
 
@@ -211,7 +233,7 @@ public class AudioParamDescriptor</code></pre>
 
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.Number.html">Number</a></dt>
     <dd></dd>
   </dl>
 
@@ -226,14 +248,15 @@ public class AudioParamDescriptor</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_AudioParamDescriptor_MaxValue" data-uid="CSharpToJavaScript.APIs.JS.AudioParamDescriptor.MaxValue">
   MaxValue
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L21599"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Number MaxValue</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;maxValue&quot;)]
+public Number MaxValue</code></pre>
   </div>
 
 
@@ -241,7 +264,7 @@ public class AudioParamDescriptor</code></pre>
 
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.Number.html">Number</a></dt>
     <dd></dd>
   </dl>
 
@@ -256,14 +279,15 @@ public class AudioParamDescriptor</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_AudioParamDescriptor_MinValue" data-uid="CSharpToJavaScript.APIs.JS.AudioParamDescriptor.MinValue">
   MinValue
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L21598"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Number MinValue</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;minValue&quot;)]
+public Number MinValue</code></pre>
   </div>
 
 
@@ -271,7 +295,7 @@ public class AudioParamDescriptor</code></pre>
 
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.Number.html">Number</a></dt>
     <dd></dd>
   </dl>
 
@@ -286,14 +310,15 @@ public class AudioParamDescriptor</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_AudioParamDescriptor_Name" data-uid="CSharpToJavaScript.APIs.JS.AudioParamDescriptor.Name">
   Name
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L21596"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public required string Name</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;name&quot;)]
+public required string Name</code></pre>
   </div>
 
 
@@ -317,7 +342,7 @@ public class AudioParamDescriptor</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L21593" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs" class="edit-link">Edit this page</a>
         </div>
 
 

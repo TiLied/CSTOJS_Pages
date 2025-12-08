@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class AnalyserNode | CSharpToJavaScript ">
       
-      <meta name="description" content="The AnalyserNode interface represents a node able to provide real-time frequency and time-domain analysis information. It is an  that passes the audio stream unchanged from the input to the output, but allows you to take the generated data, process it, and create audio visualizations.">
+      
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/TiLied/CSharpToJavaScript/new/master/apiSpec/new?filename=CSharpToJavaScript_APIs_JS_AnalyserNode.md&amp;value=---%0Auid%3A%20CSharpToJavaScript.APIs.JS.AnalyserNode%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -89,7 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_AnalyserNode" data-uid="CSharpToJavaScript.APIs.JS.AnalyserNode" class="text-break">
-Class AnalyserNode  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L21004"><i class="bi bi-code-slash"></i></a>
+Class AnalyserNode  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,12 +97,11 @@ Class AnalyserNode  <a class="header-action link-secondary" title="View source" 
   <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>The <strong><code>AnalyserNode</code></strong> interface represents a node able to provide real-time frequency and time-domain analysis information. It is an <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioNode.html">AudioNode</a> that passes the audio stream unchanged from the input to the output, but allows you to take the generated data, process it, and create audio visualizations.</p>
-</div>
+  <div class="markdown summary"></div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+    <pre><code class="lang-csharp hljs">[Value(&quot;AnalyserNode&quot;)]
 public class AnalyserNode : AudioNode</code></pre>
   </div>
 
@@ -194,44 +193,31 @@ public class AnalyserNode : AudioNode</code></pre>
       <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_When_System_String_CSharpToJavaScript_APIs_JS_ObservableEventListenerOptions_">EventTarget.When(string, ObservableEventListenerOptions)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
-    </div>
-    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
     </div>
   </dd></dl>
 
 
 
 
-  <h2 id="CSharpToJavaScript_APIs_JS_AnalyserNode_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>An <code>AnalyserNode</code> has exactly one input and one output. The node works even if the output is not connected.</p>
-<p>
-  <a href="https://developer.mozilla.orgfttaudiodata_en.svg">Without modifying the audio stream, the node allows to get the frequency and time-domain data associated to it, using a FFT.</a>
-</p>
-<p></p>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API">Using the Web Audio API</a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/AnalyserNode">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
   <h2 class="section" id="constructors">Constructors
@@ -242,7 +228,7 @@ public class AnalyserNode : AudioNode</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_AnalyserNode__ctor" data-uid="CSharpToJavaScript.APIs.JS.AnalyserNode.#ctor">
   AnalyserNode()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L21027"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -268,11 +254,10 @@ public class AnalyserNode : AudioNode</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_AnalyserNode__ctor_CSharpToJavaScript_APIs_JS_BaseAudioContext_CSharpToJavaScript_APIs_JS_AnalyserOptions_" data-uid="CSharpToJavaScript.APIs.JS.AnalyserNode.#ctor(CSharpToJavaScript.APIs.JS.BaseAudioContext,CSharpToJavaScript.APIs.JS.AnalyserOptions)">
   AnalyserNode(BaseAudioContext, AnalyserOptions)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L21008"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>AnalyserNode()</code></strong> constructor of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API">Web Audio API</a> creates a new <a class="xref" href="CSharpToJavaScript.APIs.JS.AnalyserNode.html">AnalyserNode</a> object instance.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -294,14 +279,6 @@ public class AnalyserNode : AudioNode</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_AnalyserNode__ctor_CSharpToJavaScript_APIs_JS_BaseAudioContext_CSharpToJavaScript_APIs_JS_AnalyserOptions__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.BaseAudioContext.html#CSharpToJavaScript_APIs_JS_BaseAudioContext_CreateAnalyser">CreateAnalyser()</a>, the equivalent factory method<br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/AnalyserNode/AnalyserNode">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -314,15 +291,15 @@ public class AnalyserNode : AudioNode</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_AnalyserNode_FftSize" data-uid="CSharpToJavaScript.APIs.JS.AnalyserNode.FftSize">
   FftSize
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L21018"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>fftSize</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.AnalyserNode.html">AnalyserNode</a> interface is an unsigned long value and represents the window size in samples that is used when performing a <a href="https://en.wikipedia.org/wiki/Fast_Fourier_transform">Fast Fourier Transform</a> (FFT) to get frequency domain data.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ulong FftSize { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;fftSize&quot;)]
+public ulong FftSize { get; set; }</code></pre>
   </div>
 
 
@@ -332,21 +309,12 @@ public class AnalyserNode : AudioNode</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
-    <dd><p>An unsigned integer, representing the window size of the FFT, given in number of samples. A higher value will result in more details in the frequency domain but fewer details in the amplitude domain.Must be a power of 2 between 2<strong>5 and 2</strong>15, so one of: <code>32</code>, <code>64</code>, <code>128</code>, <code>256</code>, <code>512</code>, <code>1024</code>, <code>2048</code>, <code>4096</code>, <code>8192</code>, <code>16384</code>, and <code>32768</code>. Defaults to <code>2048</code>.</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_AnalyserNode_FftSize_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API">Using the Web Audio API</a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/AnalyserNode/fftSize">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -355,15 +323,15 @@ public class AnalyserNode : AudioNode</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_AnalyserNode_FrequencyBinCount" data-uid="CSharpToJavaScript.APIs.JS.AnalyserNode.FrequencyBinCount">
   FrequencyBinCount
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L21020"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>frequencyBinCount</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.AnalyserNode.html">AnalyserNode</a> interface contains the total number of data points available to <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioContext.html">AudioContext</a><a class="xref" href="CSharpToJavaScript.APIs.JS.BaseAudioContext.html#CSharpToJavaScript_APIs_JS_BaseAudioContext_SampleRate">SampleRate</a>. This is half of the <code>value</code> of the <a class="xref" href="CSharpToJavaScript.APIs.JS.AnalyserNode.html#CSharpToJavaScript_APIs_JS_AnalyserNode_FftSize">FftSize</a>. The two methods' indices have a linear relationship with the frequencies they represent, between 0 and the <a href="https://en.wikipedia.org/wiki/Nyquist_frequency">Nyquist frequency</a>.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ulong FrequencyBinCount { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;frequencyBinCount&quot;)]
+public ulong FrequencyBinCount { get; }</code></pre>
   </div>
 
 
@@ -373,21 +341,12 @@ public class AnalyserNode : AudioNode</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
-    <dd><p>An unsigned integer, equal to the number of values that <a class="xref" href="CSharpToJavaScript.APIs.JS.AnalyserNode.html#CSharpToJavaScript_APIs_JS_AnalyserNode_GetByteFrequencyData_System_Byte_">GetByteFrequencyData(byte)</a> and <a class="xref" href="CSharpToJavaScript.APIs.JS.AnalyserNode.html#CSharpToJavaScript_APIs_JS_AnalyserNode_GetFloatFrequencyData_System_Single_">GetFloatFrequencyData(float)</a> copy into the provided <code>TypedArray</code>.For technical reasons related to how the <a href="https://en.wikipedia.org/wiki/Fast_Fourier_transform">Fast Fourier transform</a> is defined, it is always half the value of <a class="xref" href="CSharpToJavaScript.APIs.JS.AnalyserNode.html#CSharpToJavaScript_APIs_JS_AnalyserNode_FftSize">FftSize</a>. Therefore, it will be one of <code>16</code>, <code>32</code>, <code>64</code>, <code>128</code>, <code>256</code>, <code>512</code>, <code>1024</code>, <code>2048</code>, <code>4096</code>, <code>8192</code>, and <code>16384</code>.</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_AnalyserNode_FrequencyBinCount_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API">Using the Web Audio API</a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/AnalyserNode/frequencyBinCount">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -396,15 +355,15 @@ public class AnalyserNode : AudioNode</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_AnalyserNode_MaxDecibels" data-uid="CSharpToJavaScript.APIs.JS.AnalyserNode.MaxDecibels">
   MaxDecibels
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L21024"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>maxDecibels</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.AnalyserNode.html">AnalyserNode</a> interface is a double value representing the maximum power value in the scaling range for the FFT analysis data, for conversion to unsigned byte values — basically, this specifies the maximum value for the range of results when using <code>getByteFrequencyData()</code>.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Number MaxDecibels { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;maxDecibels&quot;)]
+public Number MaxDecibels { get; set; }</code></pre>
   </div>
 
 
@@ -413,22 +372,13 @@ public class AnalyserNode : AudioNode</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
-    <dd><p>A double, representing the maximum <a href="https://en.wikipedia.org/wiki/Decibel">decibel</a> value for scaling the FFT analysis data, where <code>0</code> dB is the loudest possible sound, <code>-10</code> dB is a 10th of that, etc. The default value is <code>-30</code> dB.When getting data from <code>getByteFrequencyData()</code>, any frequencies with an amplitude of <code>maxDecibels</code> or higher will be returned as <code>255</code>.</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.Number.html">Number</a></dt>
+    <dd></dd>
   </dl>
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_AnalyserNode_MaxDecibels_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API">Using the Web Audio API</a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/AnalyserNode/maxDecibels">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -437,15 +387,15 @@ public class AnalyserNode : AudioNode</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_AnalyserNode_MinDecibels" data-uid="CSharpToJavaScript.APIs.JS.AnalyserNode.MinDecibels">
   MinDecibels
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L21022"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>minDecibels</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.AnalyserNode.html">AnalyserNode</a> interface is a double value representing the minimum power value in the scaling range for the FFT analysis data, for conversion to unsigned byte values — basically, this specifies the minimum value for the range of results when using <code>getByteFrequencyData()</code>.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Number MinDecibels { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;minDecibels&quot;)]
+public Number MinDecibels { get; set; }</code></pre>
   </div>
 
 
@@ -454,22 +404,13 @@ public class AnalyserNode : AudioNode</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
-    <dd><p>A double, representing the minimum <a href="https://en.wikipedia.org/wiki/Decibel">decibel</a> value for scaling the FFT analysis data, where <code>0</code> dB is the loudest possible sound, <code>-10</code> dB is a 10th of that, etc. The default value is <code>-100</code> dB.When getting data from <code>getByteFrequencyData()</code>, any frequencies with an amplitude of <code>minDecibels</code> or lower will be returned as <code>0</code>.<blockquote class="NOTE"><h5>NOTE</h5>If a value greater than <code>AnalyserNode.maxDecibels</code> is set, an <code>INDEX_SIZE_ERR</code> exception is thrown.</blockquote>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.Number.html">Number</a></dt>
+    <dd></dd>
   </dl>
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_AnalyserNode_MinDecibels_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API">Using the Web Audio API</a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/AnalyserNode/minDecibels">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -478,15 +419,15 @@ public class AnalyserNode : AudioNode</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_AnalyserNode_SmoothingTimeConstant" data-uid="CSharpToJavaScript.APIs.JS.AnalyserNode.SmoothingTimeConstant">
   SmoothingTimeConstant
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L21026"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>smoothingTimeConstant</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.AnalyserNode.html">AnalyserNode</a> interface is a double value representing the averaging constant with the last analysis frame. It's basically an average between the current buffer and the last buffer the <code>AnalyserNode</code> processed, and results in a much smoother set of value changes over time.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Number SmoothingTimeConstant { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;smoothingTimeConstant&quot;)]
+public Number SmoothingTimeConstant { get; set; }</code></pre>
   </div>
 
 
@@ -495,22 +436,13 @@ public class AnalyserNode : AudioNode</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
-    <dd><p>A double within the range <code>0</code> to <code>1</code> (<code>0</code> meaning no time averaging). The default value is <code>0.8</code>.If 0 is set, there is no averaging done, whereas a value of 1 means &quot;overlap the previous and current buffer quite a lot while computing the value&quot;, which essentially smooths the changes across <a class="xref" href="CSharpToJavaScript.APIs.JS.AnalyserNode.html#CSharpToJavaScript_APIs_JS_AnalyserNode_GetFloatFrequencyData_System_Single_">GetFloatFrequencyData(float)</a>/<a class="xref" href="CSharpToJavaScript.APIs.JS.AnalyserNode.html#CSharpToJavaScript_APIs_JS_AnalyserNode_GetByteFrequencyData_System_Byte_">GetByteFrequencyData(byte)</a> calls.In technical terms, we apply a <a href="https://webaudio.github.io/web-audio-api/#blackman-window">Blackman window</a> and smooth the values over time. The default value is good enough for most cases.<blockquote class="NOTE"><h5>NOTE</h5>If a value outside the range 0–1 is set, an <code>INDEX_SIZE_ERR</code> exception is thrown.</blockquote>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.Number.html">Number</a></dt>
+    <dd></dd>
   </dl>
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_AnalyserNode_SmoothingTimeConstant_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API">Using the Web Audio API</a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/AnalyserNode/smoothingTimeConstant">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -521,30 +453,29 @@ public class AnalyserNode : AudioNode</code></pre>
 
   <a id="CSharpToJavaScript_APIs_JS_AnalyserNode_GetByteFrequencyData_" data-uid="CSharpToJavaScript.APIs.JS.AnalyserNode.GetByteFrequencyData*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_AnalyserNode_GetByteFrequencyData_System_Byte_" data-uid="CSharpToJavaScript.APIs.JS.AnalyserNode.GetByteFrequencyData(System.Byte)">
-  GetByteFrequencyData(byte)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L21012"><i class="bi bi-code-slash"></i></a>
+  <h3 id="CSharpToJavaScript_APIs_JS_AnalyserNode_GetByteFrequencyData_CSharpToJavaScript_APIs_JS_Ecma_Uint8Array_" data-uid="CSharpToJavaScript.APIs.JS.AnalyserNode.GetByteFrequencyData(CSharpToJavaScript.APIs.JS.Ecma.Uint8Array)">
+  GetByteFrequencyData(Uint8Array)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>getByteFrequencyData()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.AnalyserNode.html">AnalyserNode</a> interface copies the current frequency data into a {{jsxref(&quot;Uint8Array&quot;)}} (unsigned byte array) passed into it.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined GetByteFrequencyData(byte array)</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;getByteFrequencyData&quot;)]
+public GlobalObject.Undefined GetByteFrequencyData(Uint8Array array)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>array</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dt><code>array</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.Uint8Array.html">Uint8Array</a></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
-    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -553,47 +484,35 @@ public class AnalyserNode : AudioNode</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_AnalyserNode_GetByteFrequencyData_System_Byte__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>The frequency data is composed of integers on a scale from 0 to 255.</p>
-<p>Each item in the array represents the decibel value for a specific frequency. The frequencies are spread linearly from 0 to 1/2 of the sample rate. For example, for <code>48000</code> sample rate, the last item of the array will represent the decibel value for <code>24000</code> Hz.</p>
-<p>If the array has fewer elements than the <a class="xref" href="CSharpToJavaScript.APIs.JS.AnalyserNode.html#CSharpToJavaScript_APIs_JS_AnalyserNode_FrequencyBinCount">FrequencyBinCount</a>, excess elements are dropped. If it has more elements than needed, excess elements are ignored.</p>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API">Using the Web Audio API</a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/AnalyserNode/getByteFrequencyData">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
 
   <a id="CSharpToJavaScript_APIs_JS_AnalyserNode_GetByteTimeDomainData_" data-uid="CSharpToJavaScript.APIs.JS.AnalyserNode.GetByteTimeDomainData*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_AnalyserNode_GetByteTimeDomainData_System_Byte_" data-uid="CSharpToJavaScript.APIs.JS.AnalyserNode.GetByteTimeDomainData(System.Byte)">
-  GetByteTimeDomainData(byte)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L21016"><i class="bi bi-code-slash"></i></a>
+  <h3 id="CSharpToJavaScript_APIs_JS_AnalyserNode_GetByteTimeDomainData_CSharpToJavaScript_APIs_JS_Ecma_Uint8Array_" data-uid="CSharpToJavaScript.APIs.JS.AnalyserNode.GetByteTimeDomainData(CSharpToJavaScript.APIs.JS.Ecma.Uint8Array)">
+  GetByteTimeDomainData(Uint8Array)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>getByteTimeDomainData()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.AnalyserNode.html">AnalyserNode</a> Interface copies the current waveform, or time-domain, data into a {{jsxref(&quot;Uint8Array&quot;)}} (unsigned byte array) passed into it.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined GetByteTimeDomainData(byte array)</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;getByteTimeDomainData&quot;)]
+public GlobalObject.Undefined GetByteTimeDomainData(Uint8Array array)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>array</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a></dt>
+    <dt><code>array</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.Uint8Array.html">Uint8Array</a></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
-    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -602,45 +521,35 @@ public class AnalyserNode : AudioNode</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_AnalyserNode_GetByteTimeDomainData_System_Byte__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>If the array has fewer elements than the <a class="xref" href="CSharpToJavaScript.APIs.JS.AnalyserNode.html#CSharpToJavaScript_APIs_JS_AnalyserNode_FftSize">FftSize</a>, excess elements are dropped. If it has more elements than needed, excess elements are ignored.</p>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API">Using the Web Audio API</a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/AnalyserNode/getByteTimeDomainData">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
 
   <a id="CSharpToJavaScript_APIs_JS_AnalyserNode_GetFloatFrequencyData_" data-uid="CSharpToJavaScript.APIs.JS.AnalyserNode.GetFloatFrequencyData*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_AnalyserNode_GetFloatFrequencyData_System_Single_" data-uid="CSharpToJavaScript.APIs.JS.AnalyserNode.GetFloatFrequencyData(System.Single)">
-  GetFloatFrequencyData(float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L21010"><i class="bi bi-code-slash"></i></a>
+  <h3 id="CSharpToJavaScript_APIs_JS_AnalyserNode_GetFloatFrequencyData_CSharpToJavaScript_APIs_JS_Ecma_Float32Array_" data-uid="CSharpToJavaScript.APIs.JS.AnalyserNode.GetFloatFrequencyData(CSharpToJavaScript.APIs.JS.Ecma.Float32Array)">
+  GetFloatFrequencyData(Float32Array)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>getFloatFrequencyData()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.AnalyserNode.html">AnalyserNode</a> Interface copies the current frequency data into a {{jsxref(&quot;Float32Array&quot;)}} array passed into it.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined GetFloatFrequencyData(float array)</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;getFloatFrequencyData&quot;)]
+public GlobalObject.Undefined GetFloatFrequencyData(Float32Array array)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>array</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dt><code>array</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.Float32Array.html">Float32Array</a></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
-    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -649,46 +558,35 @@ public class AnalyserNode : AudioNode</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_AnalyserNode_GetFloatFrequencyData_System_Single__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>Each item in the array represents the decibel value for a specific frequency. The frequencies are spread linearly from 0 to 1/2 of the sample rate. For example, for a <code>48000</code> Hz sample rate, the last item of the array will represent the decibel value for <code>24000</code> Hz.</p>
-<p>If you need higher performance and don't care about precision, you can use <a class="xref" href="CSharpToJavaScript.APIs.JS.AnalyserNode.html#CSharpToJavaScript_APIs_JS_AnalyserNode_GetByteFrequencyData_System_Byte_">GetByteFrequencyData(byte)</a> instead, which works on a {{jsxref("Uint8Array")}}.</p>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API">Using the Web Audio API</a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/AnalyserNode/getFloatFrequencyData">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
 
   <a id="CSharpToJavaScript_APIs_JS_AnalyserNode_GetFloatTimeDomainData_" data-uid="CSharpToJavaScript.APIs.JS.AnalyserNode.GetFloatTimeDomainData*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_AnalyserNode_GetFloatTimeDomainData_System_Single_" data-uid="CSharpToJavaScript.APIs.JS.AnalyserNode.GetFloatTimeDomainData(System.Single)">
-  GetFloatTimeDomainData(float)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L21014"><i class="bi bi-code-slash"></i></a>
+  <h3 id="CSharpToJavaScript_APIs_JS_AnalyserNode_GetFloatTimeDomainData_CSharpToJavaScript_APIs_JS_Ecma_Float32Array_" data-uid="CSharpToJavaScript.APIs.JS.AnalyserNode.GetFloatTimeDomainData(CSharpToJavaScript.APIs.JS.Ecma.Float32Array)">
+  GetFloatTimeDomainData(Float32Array)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>getFloatTimeDomainData()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.AnalyserNode.html">AnalyserNode</a> Interface copies the current waveform, or time-domain, data into a {{jsxref(&quot;Float32Array&quot;)}} array passed into it. Each array value is a <strong>sample</strong>, the magnitude of the signal at a particular time.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined GetFloatTimeDomainData(float array)</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;getFloatTimeDomainData&quot;)]
+public GlobalObject.Undefined GetFloatTimeDomainData(Float32Array array)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>array</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dt><code>array</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.Float32Array.html">Float32Array</a></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
-    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -697,14 +595,6 @@ public class AnalyserNode : AudioNode</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_AnalyserNode_GetFloatTimeDomainData_System_Single__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API">Using the Web Audio API</a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/AnalyserNode/getFloatTimeDomainData">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -713,7 +603,7 @@ public class AnalyserNode : AudioNode</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L21004" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs" class="edit-link">Edit this page</a>
         </div>
 
 

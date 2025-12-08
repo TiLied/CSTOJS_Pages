@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class Touch | CSharpToJavaScript ">
       
-      <meta name="description" content="The Touch interface represents a single contact point on a touch-sensitive device. The contact point is commonly a finger or stylus and the device may be a touchscreen or trackpad.">
+      
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/TiLied/CSharpToJavaScript/new/master/apiSpec/new?filename=CSharpToJavaScript_APIs_JS_Touch.md&amp;value=---%0Auid%3A%20CSharpToJavaScript.APIs.JS.Touch%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -89,7 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_Touch" data-uid="CSharpToJavaScript.APIs.JS.Touch" class="text-break">
-Class Touch  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L18488"><i class="bi bi-code-slash"></i></a>
+Class Touch  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,12 +97,11 @@ Class Touch  <a class="header-action link-secondary" title="View source" href="h
   <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>The <strong><code>Touch</code></strong> interface represents a single contact point on a touch-sensitive device. The contact point is commonly a finger or stylus and the device may be a touchscreen or trackpad.</p>
-</div>
+  <div class="markdown summary"></div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+    <pre><code class="lang-csharp hljs">[Value(&quot;Touch&quot;)]
 public class Touch</code></pre>
   </div>
 
@@ -123,44 +122,31 @@ public class Touch</code></pre>
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
-    </div>
-    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
     </div>
   </dd></dl>
 
 
 
 
-  <h2 id="CSharpToJavaScript_APIs_JS_Touch_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.Touch.html#CSharpToJavaScript_APIs_JS_Touch_RadiusX">RadiusX</a>, <a class="xref" href="CSharpToJavaScript.APIs.JS.Touch.html#CSharpToJavaScript_APIs_JS_Touch_RadiusY">RadiusY</a>, and <a class="xref" href="CSharpToJavaScript.APIs.JS.Touch.html#CSharpToJavaScript_APIs_JS_Touch_RotationAngle">RotationAngle</a> describe the area of contact between the user and the screen, the <strong>touch area</strong>. This can be helpful when dealing with imprecise pointing devices such as fingers. These values are set to describe an ellipse that as closely as possible matches the entire area of contact (such as the user&amp;apos;s fingertip).</p>
-<blockquote class="NOTE">
-  <h5>NOTE</h5>
-  <p>Many of the properties&amp;apos; values are hardware-dependent; for example, if the device doesn&amp;apos;t have a way to detect the amount of pressure placed on the surface, the <code>force</code> value will always be 0. This may also be the case for <code>radiusX</code> and <code>radiusY</code>; if the hardware reports only a single point, these values will be 1.</p>
-</blockquote>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Touch_events">Touch events</a><br>-Document.CreateTouch<br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Touch">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
   <h2 class="section" id="constructors">Constructors
@@ -171,7 +157,7 @@ public class Touch</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Touch__ctor" data-uid="CSharpToJavaScript.APIs.JS.Touch.#ctor">
   Touch()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L18520"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -197,11 +183,10 @@ public class Touch</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Touch__ctor_CSharpToJavaScript_APIs_JS_TouchInit_" data-uid="CSharpToJavaScript.APIs.JS.Touch.#ctor(CSharpToJavaScript.APIs.JS.TouchInit)">
   Touch(TouchInit)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L18492"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>Touch()</code></strong> constructor creates a new <a class="xref" href="CSharpToJavaScript.APIs.JS.Touch.html">Touch</a> object.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -221,14 +206,6 @@ public class Touch</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Touch__ctor_CSharpToJavaScript_APIs_JS_TouchInit__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.TouchEvent.html">TouchEvent</a>, the interface of the objects it constructs.<br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Touch/Touch">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -241,14 +218,15 @@ public class Touch</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Touch_AltitudeAngle" data-uid="CSharpToJavaScript.APIs.JS.Touch.AltitudeAngle">
   AltitudeAngle
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L18517"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Number AltitudeAngle { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;altitudeAngle&quot;)]
+public Number AltitudeAngle { get; }</code></pre>
   </div>
 
 
@@ -257,7 +235,7 @@ public class Touch</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.Number.html">Number</a></dt>
     <dd></dd>
   </dl>
 
@@ -272,14 +250,15 @@ public class Touch</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Touch_AzimuthAngle" data-uid="CSharpToJavaScript.APIs.JS.Touch.AzimuthAngle">
   AzimuthAngle
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L18518"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Number AzimuthAngle { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;azimuthAngle&quot;)]
+public Number AzimuthAngle { get; }</code></pre>
   </div>
 
 
@@ -288,7 +267,7 @@ public class Touch</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.Number.html">Number</a></dt>
     <dd></dd>
   </dl>
 
@@ -303,15 +282,15 @@ public class Touch</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Touch_ClientX" data-uid="CSharpToJavaScript.APIs.JS.Touch.ClientX">
   ClientX
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L18502"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <code>Touch.clientX</code> read-only property returns the X coordinate of the touch<br>point relative to the viewport, not including any scroll offset.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Number ClientX { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;clientX&quot;)]
+public Number ClientX { get; }</code></pre>
   </div>
 
 
@@ -320,21 +299,13 @@ public class Touch</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
-    <dd><p>A <code>double</code> floating point value representing the X coordinate of the touch point<br>relative to the viewport, not including any scroll offset.</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.Number.html">Number</a></dt>
+    <dd></dd>
   </dl>
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Touch_ClientX_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Touch/clientX">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -343,15 +314,15 @@ public class Touch</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Touch_ClientY" data-uid="CSharpToJavaScript.APIs.JS.Touch.ClientY">
   ClientY
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L18504"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>Touch.clientY</code></strong> read-only property returns the Y<br>coordinate of the touch point relative to the browser&amp;apos;s viewport, not including any<br>scroll offset.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Number ClientY { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;clientY&quot;)]
+public Number ClientY { get; }</code></pre>
   </div>
 
 
@@ -360,21 +331,13 @@ public class Touch</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
-    <dd><p>A <code>double</code> floating point value representing the Y coordinate of the touch point<br>relative to the viewport, not including any scroll offset.</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.Number.html">Number</a></dt>
+    <dd></dd>
   </dl>
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Touch_ClientY_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Touch/clientY">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -383,15 +346,15 @@ public class Touch</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Touch_Force" data-uid="CSharpToJavaScript.APIs.JS.Touch.Force">
   Force
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L18516"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>Touch.force</code></strong> read-only property returns the amount of<br>pressure the user is applying to the touch surface for a <a class="xref" href="CSharpToJavaScript.APIs.JS.Touch.html">Touch</a> point.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Number Force { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;force&quot;)]
+public Number Force { get; }</code></pre>
   </div>
 
 
@@ -400,21 +363,13 @@ public class Touch</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
-    <dd><p>A <code>float</code> that represents the amount of pressure the user is applying to the<br>touch surface. This is a value between <code>0.0</code> (no pressure) and<br><code>1.0</code> (the maximum amount of pressure the hardware can recognize). A value of<br><code>0.0</code> is returned if no value is known (for example the touch device does not<br>support this property). In environments where force is known, the absolute pressure<br>represented by the force attribute, and the sensitivity in levels of pressure, may vary.</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.Number.html">Number</a></dt>
+    <dd></dd>
   </dl>
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Touch_Force_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Touch/force">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -423,15 +378,15 @@ public class Touch</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Touch_Identifier" data-uid="CSharpToJavaScript.APIs.JS.Touch.Identifier">
   Identifier
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L18494"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>Touch.identifier</code></strong> returns a value uniquely identifying<br>this point of contact with the touch surface. This value remains consistent for every<br>event involving this finger&amp;apos;s (or stylus&amp;apos;s) movement on the surface until it is lifted<br>off the surface.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public long Identifier { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;identifier&quot;)]
+public long Identifier { get; }</code></pre>
   </div>
 
 
@@ -441,20 +396,12 @@ public class Touch</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
-    <dd><p>A <code>long</code> that represents the unique ID of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Touch.html">Touch</a> object.</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Touch_Identifier_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Touch/identifier">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -463,15 +410,15 @@ public class Touch</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Touch_PageX" data-uid="CSharpToJavaScript.APIs.JS.Touch.PageX">
   PageX
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L18506"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>Touch.pageX</code></strong> read-only property returns the X<br>coordinate of the touch point relative to the viewport, including any scroll offset.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Number PageX { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;pageX&quot;)]
+public Number PageX { get; }</code></pre>
   </div>
 
 
@@ -480,21 +427,13 @@ public class Touch</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
-    <dd><p>A <code>double</code> floating point value representing the X coordinate of the touch point<br>relative to the viewport, including any scroll offset.</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.Number.html">Number</a></dt>
+    <dd></dd>
   </dl>
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Touch_PageX_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Touch/pageX">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -503,15 +442,15 @@ public class Touch</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Touch_PageY" data-uid="CSharpToJavaScript.APIs.JS.Touch.PageY">
   PageY
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L18508"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>Touch.pageY</code></strong> read-only property returns the Y<br>coordinate of the touch point relative to the viewport, including any scroll offset.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Number PageY { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;pageY&quot;)]
+public Number PageY { get; }</code></pre>
   </div>
 
 
@@ -520,21 +459,13 @@ public class Touch</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
-    <dd><p>A <code>double</code> floating point value representing the Y coordinate of the touch point<br>relative to the viewport, including any scroll offset.</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.Number.html">Number</a></dt>
+    <dd></dd>
   </dl>
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Touch_PageY_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Touch/pageY">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -543,15 +474,15 @@ public class Touch</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Touch_RadiusX" data-uid="CSharpToJavaScript.APIs.JS.Touch.RadiusX">
   RadiusX
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L18510"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>radiusX</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Touch.html">Touch</a> interface returns the X radius of the ellipse that most closely circumscribes the area of contact with the touch surface. The value is in CSS pixels of the same scale as <a class="xref" href="CSharpToJavaScript.APIs.JS.Touch.html#CSharpToJavaScript_APIs_JS_Touch_ScreenX">ScreenX</a>.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Number RadiusX { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;radiusX&quot;)]
+public Number RadiusX { get; }</code></pre>
   </div>
 
 
@@ -560,22 +491,13 @@ public class Touch</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
-    <dd><p>A number.</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.Number.html">Number</a></dt>
+    <dd></dd>
   </dl>
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Touch_RadiusX_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>This value, in combination with <a class="xref" href="CSharpToJavaScript.APIs.JS.Touch.html#CSharpToJavaScript_APIs_JS_Touch_RadiusY">RadiusY</a> and <a class="xref" href="CSharpToJavaScript.APIs.JS.Touch.html#CSharpToJavaScript_APIs_JS_Touch_RotationAngle">RotationAngle</a> constructs an ellipse that approximates the size and shape of the area of contact between the user and the screen. This may be a relatively large ellipse representing the contact between a fingertip and the screen or a small area representing the tip of a stylus, for example.</p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Touch/radiusX">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -584,15 +506,15 @@ public class Touch</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Touch_RadiusY" data-uid="CSharpToJavaScript.APIs.JS.Touch.RadiusY">
   RadiusY
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L18512"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>radiusY</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Touch.html">Touch</a> interface returns the Y radius of the ellipse that most closely circumscribes the area of contact with the touch surface. The value is in CSS pixels of the same scale as <a class="xref" href="CSharpToJavaScript.APIs.JS.Touch.html#CSharpToJavaScript_APIs_JS_Touch_ScreenX">ScreenX</a>.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Number RadiusY { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;radiusY&quot;)]
+public Number RadiusY { get; }</code></pre>
   </div>
 
 
@@ -601,22 +523,13 @@ public class Touch</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
-    <dd><p>A number.</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.Number.html">Number</a></dt>
+    <dd></dd>
   </dl>
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Touch_RadiusY_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>This value, in combination with <a class="xref" href="CSharpToJavaScript.APIs.JS.Touch.html#CSharpToJavaScript_APIs_JS_Touch_RadiusX">RadiusX</a> and <a class="xref" href="CSharpToJavaScript.APIs.JS.Touch.html#CSharpToJavaScript_APIs_JS_Touch_RotationAngle">RotationAngle</a> constructs an ellipse that approximates the size and shape of the area of contact between the user and the screen. This may be a large ellipse representing the contact between a fingertip and the screen or a small one representing the tip of a stylus, for example.</p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Touch/radiusY">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -625,15 +538,15 @@ public class Touch</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Touch_RotationAngle" data-uid="CSharpToJavaScript.APIs.JS.Touch.RotationAngle">
   RotationAngle
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L18514"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>rotationAngle</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Touch.html">Touch</a> interface returns the rotation angle, in degrees, of the contact area ellipse defined by <a class="xref" href="CSharpToJavaScript.APIs.JS.Touch.html#CSharpToJavaScript_APIs_JS_Touch_RadiusX">RadiusX</a> and <a class="xref" href="CSharpToJavaScript.APIs.JS.Touch.html#CSharpToJavaScript_APIs_JS_Touch_RadiusY">RadiusY</a>. The value may be between 0 and 90. Together, these three values describe an ellipse that approximates the size and shape of the area of contact between the user and the screen. This may be a relatively large ellipse representing the contact between a fingertip and the screen or a small area representing the tip of a stylus, for example.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Number RotationAngle { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;rotationAngle&quot;)]
+public Number RotationAngle { get; }</code></pre>
   </div>
 
 
@@ -642,21 +555,13 @@ public class Touch</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
-    <dd><p>A number.</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.Number.html">Number</a></dt>
+    <dd></dd>
   </dl>
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Touch_RotationAngle_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Touch/rotationAngle">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -665,15 +570,15 @@ public class Touch</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Touch_ScreenX" data-uid="CSharpToJavaScript.APIs.JS.Touch.ScreenX">
   ScreenX
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L18498"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Returns the X coordinate of the touch point relative to the screen, not including any scroll offset.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Number ScreenX { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;screenX&quot;)]
+public Number ScreenX { get; }</code></pre>
   </div>
 
 
@@ -682,21 +587,13 @@ public class Touch</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
-    <dd><p>A number.</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.Number.html">Number</a></dt>
+    <dd></dd>
   </dl>
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Touch_ScreenX_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Touch/screenX">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -705,15 +602,15 @@ public class Touch</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Touch_ScreenY" data-uid="CSharpToJavaScript.APIs.JS.Touch.ScreenY">
   ScreenY
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L18500"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Returns the Y coordinate of the touch point relative to the screen, not including any scroll offset.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Number ScreenY { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;screenY&quot;)]
+public Number ScreenY { get; }</code></pre>
   </div>
 
 
@@ -722,21 +619,13 @@ public class Touch</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
-    <dd><p>A number.</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.Number.html">Number</a></dt>
+    <dd></dd>
   </dl>
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Touch_ScreenY_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Touch/screenY">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -745,15 +634,15 @@ public class Touch</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Touch_Target" data-uid="CSharpToJavaScript.APIs.JS.Touch.Target">
   Target
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L18496"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The read-only <strong><code>target</code></strong> property of the <code>Touch</code> interface returns the (<a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html">EventTarget</a>) on which the touch contact started when it was first placed on the surface, even if the touch point has since moved outside the interactive area of that element or even been removed from the document. Note that if the target element is removed from the document, events will still be targeted at it, and hence won't necessarily bubble up to the window or document anymore. If there is any risk of an element being removed while it is being touched, the best practice is to attach the touch listeners directly to the target.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EventTarget Target { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;target&quot;)]
+public EventTarget Target { get; }</code></pre>
   </div>
 
 
@@ -763,20 +652,12 @@ public class Touch</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html">EventTarget</a></dt>
-    <dd><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html">EventTarget</a> the <a class="xref" href="CSharpToJavaScript.APIs.JS.Touch.html">Touch</a> object applies to.</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Touch_Target_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Touch/target">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -785,14 +666,15 @@ public class Touch</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Touch_TouchType" data-uid="CSharpToJavaScript.APIs.JS.Touch.TouchType">
   TouchType
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L18519"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TouchType TouchType { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;touchType&quot;)]
+public TouchType TouchType { get; }</code></pre>
   </div>
 
 
@@ -816,7 +698,7 @@ public class Touch</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L18488" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs" class="edit-link">Edit this page</a>
         </div>
 
 

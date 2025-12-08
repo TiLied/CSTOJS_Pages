@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class console | CSharpToJavaScript ">
       
-      <meta name="description" content="The console object provides access to the debugging console (e.g., the Web console in Firefox).">
+      
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/TiLied/CSharpToJavaScript/new/master/apiSpec/new?filename=CSharpToJavaScript_APIs_JS_console.md&amp;value=---%0Auid%3A%20CSharpToJavaScript.APIs.JS.console%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -89,7 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_console" data-uid="CSharpToJavaScript.APIs.JS.console" class="text-break">
-Class console  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L753"><i class="bi bi-code-slash"></i></a>
+Class console  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,12 +97,11 @@ Class console  <a class="header-action link-secondary" title="View source" href=
   <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>The <strong><code>console</code></strong> object provides access to the debugging console (e.g., the <a href="https://firefox-source-docs.mozilla.org/devtools-user/web_console/index.html">Web console</a> in Firefox).</p>
-</div>
+  <div class="markdown summary"></div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+    <pre><code class="lang-csharp hljs">[Value(&quot;console&quot;)]
 public class console</code></pre>
   </div>
 
@@ -123,41 +122,61 @@ public class console</code></pre>
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
-    </div>
-    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
     </div>
   </dd></dl>
 
 
 
 
-  <h2 id="CSharpToJavaScript_APIs_JS_console_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>Implementations of the console API may differ between runtimes. In particular, some console methods may work differently or not work at all in some online editors and IDEs. To see the behavior described in this documentation, try the methods in your browser&amp;apos;s developer tools, although even here, there are some differences between browsers.</p>
-<p>The <code>console</code> object can be accessed from any global object. <a class="xref" href="CSharpToJavaScript.APIs.JS.Window.html">Window</a> on browsing scopes and <a class="xref" href="CSharpToJavaScript.APIs.JS.WorkerGlobalScope.html">WorkerGlobalScope</a> as specific variants in workers via the property console. It's exposed as Window.Console, and can be referenced as <code>console</code>. For example:</p>
-<p>-<a href="https://firefox-source-docs.mozilla.org/devtools-user/index.html">Firefox Developer Tools</a><br>-<a href="https://firefox-source-docs.mozilla.org/devtools-user/web_console/index.html">Web console</a> — how the Web console in Firefox handles console API calls<br>-<a href="https://firefox-source-docs.mozilla.org/devtools-user/about_colon_debugging/index.html">about:debugging</a> — how to see console output when the debugging target is a mobile device<br>-<a href="https://developer.chrome.com/docs/devtools/console/api/">Google Chrome DevTools</a><br>-<a href="https://learn.microsoft.com/en-us/archive/microsoft-edge/legacy/developer/">Microsoft Edge DevTools</a><br>-<a href="https://developer.apple.com/library/archive/documentation/AppleApplications/Conceptual/Safari_Developer_Guide/Console/Console.html">Safari Web Inspector</a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/console">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_console__ctor_" data-uid="CSharpToJavaScript.APIs.JS.console.#ctor*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_console__ctor" data-uid="CSharpToJavaScript.APIs.JS.console.#ctor">
+  console()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public console()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
 
 
   <h2 class="section" id="methods">Methods
@@ -168,15 +187,15 @@ public class console</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_console_Assert_System_Boolean_System_Object___" data-uid="CSharpToJavaScript.APIs.JS.console.Assert(System.Boolean,System.Object[])">
   Assert(bool, params dynamic[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L757"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>console.assert()</code></strong> static method writes an error message to the console if the assertion is false. If the assertion is true, nothing happens.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined Assert(bool condition = false, params dynamic[] data)</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;assert&quot;)]
+public GlobalObject.Undefined Assert(bool condition = false, params dynamic[] data)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -189,9 +208,8 @@ public class console</code></pre>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
-    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -200,14 +218,6 @@ public class console</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_console_Assert_System_Boolean_System_Object____remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a href="https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api#assert">Microsoft Edge&amp;apos;s documentation for <code>console.assert()</code></a><br>-<a href="https://nodejs.org/docs/latest/api/console.html#consoleassertvalue-message">Node.js documentation for <code>console.assert()</code></a><br>-<a href="https://developer.chrome.com/docs/devtools/console/api/#dir">Google Chrome&amp;apos;s documentation for <code>console.dir()</code></a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/console/assert">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -216,23 +226,22 @@ public class console</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_console_Clear" data-uid="CSharpToJavaScript.APIs.JS.console.Clear">
   Clear()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L759"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>console.clear()</code></strong> static method clears the console if possible.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined Clear()</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;clear&quot;)]
+public GlobalObject.Undefined Clear()</code></pre>
   </div>
 
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
-    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -241,15 +250,6 @@ public class console</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_console_Clear_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>A graphical console, like those in web browsers, will remove all previous messages; a console displaying on a terminal, like the one in Node.js, will attempt to clear it using an escape code or system API; otherwise the method will have no effect (and no error).</p>
-<p>-<a href="https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api#clear">Microsoft Edge&amp;apos;s documentation for <code>console.clear()</code></a><br>-<a href="https://nodejs.org/docs/latest/api/console.html#consoleclear">Node.js documentation for <code>console.clear()</code></a><br>-<a href="https://developer.chrome.com/docs/devtools/console/api/#clear">Google Chrome&amp;apos;s documentation for <code>console.clear()</code></a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/console/clear">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -258,15 +258,15 @@ public class console</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_console_Count_System_String_" data-uid="CSharpToJavaScript.APIs.JS.console.Count(System.String)">
   Count(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L779"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>console.count()</code></strong> static method logs the number of times that this particular call to <code>count()</code> has been called.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined Count(string label = null)</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;count&quot;)]
+public GlobalObject.Undefined Count(string label = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -277,9 +277,8 @@ public class console</code></pre>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
-    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -288,14 +287,6 @@ public class console</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_console_Count_System_String__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a href="https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api#count">Microsoft Edge&amp;apos;s documentation for <code>console.count()</code></a><br>-<a href="https://nodejs.org/docs/latest/api/console.html#consolecountlabel">Node.js documentation for <code>console.count()</code></a><br>-<a href="https://developer.chrome.com/docs/devtools/console/api/#count">Google Chrome&amp;apos;s documentation for <code>console.count()</code></a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/console/count">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -304,15 +295,15 @@ public class console</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_console_CountReset_System_String_" data-uid="CSharpToJavaScript.APIs.JS.console.CountReset(System.String)">
   CountReset(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L781"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>console.countReset()</code></strong> static method resets counter used with Console/count.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined CountReset(string label = null)</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;countReset&quot;)]
+public GlobalObject.Undefined CountReset(string label = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -323,9 +314,8 @@ public class console</code></pre>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
-    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -334,14 +324,6 @@ public class console</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_console_CountReset_System_String__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a href="https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api#countreset">Microsoft Edge&amp;apos;s documentation for <code>console.countReset()</code></a><br>-<a href="https://nodejs.org/docs/latest/api/console.html#consolecountresetlabel">Node.js documentation for <code>console.countReset()</code></a><br>-<a href="https://developer.chrome.com/docs/devtools/console/api/#countreset">Google Chrome&amp;apos;s documentation for <code>console.countReset()</code></a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/console/countReset">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -350,15 +332,15 @@ public class console</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_console_Debug_System_Object___" data-uid="CSharpToJavaScript.APIs.JS.console.Debug(System.Object[])">
   Debug(params dynamic[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L761"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>console.debug()</code></strong> static method outputs a message to the console at the &amp;quot;debug&amp;quot; log level. The message is only displayed to the user if the console is configured to display debug output. In most cases, the log level is configured within the console UI. This log level might correspond to the <code>Debug</code> or <code>Verbose</code> log level.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined Debug(params dynamic[] data)</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;debug&quot;)]
+public GlobalObject.Undefined Debug(params dynamic[] data)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -369,9 +351,8 @@ public class console</code></pre>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
-    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -380,46 +361,37 @@ public class console</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_console_Debug_System_Object____remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a href="https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api#debug">Microsoft Edge&amp;apos;s documentation for <code>console.debug()</code></a><br>-<a href="https://nodejs.org/docs/latest/api/console.html#consoledebugdata-args">Node.js documentation for <code>console.debug()</code></a><br>-<a href="https://developer.chrome.com/docs/devtools/console/api/#debug">Google Chrome&amp;apos;s documentation for <code>console.debug()</code></a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/console/debug">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
 
   <a id="CSharpToJavaScript_APIs_JS_console_Dir_" data-uid="CSharpToJavaScript.APIs.JS.console.Dir*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_console_Dir_System_Object_CSharpToJavaScript_APIs_JS_Object_" data-uid="CSharpToJavaScript.APIs.JS.console.Dir(System.Object,CSharpToJavaScript.APIs.JS.Object)">
+  <h3 id="CSharpToJavaScript_APIs_JS_console_Dir_System_Object_CSharpToJavaScript_APIs_JS_Ecma_Object_" data-uid="CSharpToJavaScript.APIs.JS.console.Dir(System.Object,CSharpToJavaScript.APIs.JS.Ecma.Object)">
   Dir(dynamic, Object?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L775"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>console.dir()</code></strong> static method displays a list of the properties of the specified JavaScript object. In browser consoles, the output is presented as a hierarchical listing with disclosure triangles that let you see the contents of child objects.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined Dir(dynamic item = null, Object? options = null)</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;dir&quot;)]
+public GlobalObject.Undefined Dir(dynamic item = null, Object? options = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>item</code> <span class="xref">dynamic</span></dt>
     <dd></dd>
-    <dt><code>options</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Object.html">Object</a></dt>
+    <dt><code>options</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.Object.html">Object</a></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
-    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -428,19 +400,6 @@ public class console</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_console_Dir_System_Object_CSharpToJavaScript_APIs_JS_Object__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>Unlike other logging methods, <code>console.dir()</code> does not attempt to pretty-print the object. For example, if you pass a DOM element to <code>console.dir()</code>, it will not be displayed like in the element inspector, but will instead show a list of properties.</p>
-<p>
-  <a href="https://developer.mozilla.orgconsole-dir.png">A screenshot of the Firefox console where console.dir(document.location) is run. We can see the URL of the page, followed by a block of properties. If the property is a function or an object, a disclosure triangle is prepended.</a>
-</p>
-<p>In runtimes like <a href="https://developer.mozilla.org/en-US/docs/Glossary/Node.js">Node.js</a> and <a href="https://developer.mozilla.org/en-US/docs/Glossary/Deno">Deno</a>, where console output goes to the terminal and is therefore not interactive, the <code>options</code> parameter provides a way to customize the way the object is presented.</p>
-<p>-<a href="https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api#dir">Microsoft Edge&amp;apos;s documentation for <code>console.dir()</code></a><br>-<a href="https://nodejs.org/docs/latest/api/console.html#consoledirobj-options">Node.js documentation for <code>console.dir()</code></a><br>-<a href="https://developer.chrome.com/docs/devtools/console/api/#dir">Google Chrome&amp;apos;s documentation for <code>console.dir()</code></a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/console/dir">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -449,15 +408,15 @@ public class console</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_console_Dirxml_System_Object___" data-uid="CSharpToJavaScript.APIs.JS.console.Dirxml(System.Object[])">
   Dirxml(params dynamic[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L777"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>console.dirxml()</code></strong> static method displays an interactive tree of the descendant elements of the specified XML/HTML element. If it is not possible to display as an element the JavaScript Object view is shown instead. The output is presented as a hierarchical listing of expandable nodes that let you see the contents of child nodes.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined Dirxml(params dynamic[] data)</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;dirxml&quot;)]
+public GlobalObject.Undefined Dirxml(params dynamic[] data)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -468,9 +427,8 @@ public class console</code></pre>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
-    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -479,14 +437,6 @@ public class console</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_console_Dirxml_System_Object____remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a href="https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api#dirxml">Microsoft Edge&amp;apos;s documentation for <code>console.dirxml()</code></a><br>-<a href="https://nodejs.org/docs/latest/api/console.html#consoledirxmldata">Node.js documentation for <code>console.dirxml()</code></a><br>-<a href="https://developer.chrome.com/docs/devtools/console/api/#dirxml">Google Chrome&amp;apos;s documentation for <code>console.dirxml()</code></a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/console/dirxml">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -495,15 +445,15 @@ public class console</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_console_Error_System_Object___" data-uid="CSharpToJavaScript.APIs.JS.console.Error(System.Object[])">
   Error(params dynamic[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L763"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>console.error()</code></strong> static method outputs a message to the console at the &amp;quot;error&amp;quot; log level. The message is only displayed to the user if the console is configured to display error output. In most cases, the log level is configured within the console UI. The message may be formatted as an error, with red colors and call stack information.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined Error(params dynamic[] data)</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;error&quot;)]
+public GlobalObject.Undefined Error(params dynamic[] data)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -514,9 +464,8 @@ public class console</code></pre>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
-    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -525,14 +474,6 @@ public class console</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_console_Error_System_Object____remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a href="https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api#error">Microsoft Edge&amp;apos;s documentation for <code>console.error()</code></a><br>-<a href="https://nodejs.org/docs/latest/api/console.html#consoleerrordata-args">Node.js documentation for <code>console.error()</code></a><br>-<a href="https://developer.chrome.com/docs/devtools/console/api/#error">Google Chrome&amp;apos;s documentation for <code>console.error()</code></a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/console/error">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -541,15 +482,15 @@ public class console</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_console_Group_System_Object___" data-uid="CSharpToJavaScript.APIs.JS.console.Group(System.Object[])">
   Group(params dynamic[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L783"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>console.group()</code></strong> static method creates a new inline group in the <a href="https://firefox-source-docs.mozilla.org/devtools-user/web_console/index.html">Web console</a> log, causing any subsequent console messages to be indented by an additional level, until Console/groupEnd is called.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined Group(params dynamic[] data)</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;group&quot;)]
+public GlobalObject.Undefined Group(params dynamic[] data)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -560,9 +501,8 @@ public class console</code></pre>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
-    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -571,14 +511,6 @@ public class console</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_console_Group_System_Object____remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-Console/groupEnd<br>-Console/groupCollapsed<br>-<a href="https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api#group">Microsoft Edge&amp;apos;s documentation for <code>console.group()</code></a><br>-<a href="https://nodejs.org/docs/latest/api/console.html#consolegrouplabel">Node.js documentation for <code>console.group()</code></a><br>-<a href="https://developer.chrome.com/docs/devtools/console/api/#group">Google Chrome&amp;apos;s documentation for <code>console.group()</code></a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/console/group">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -587,15 +519,15 @@ public class console</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_console_GroupCollapsed_System_Object___" data-uid="CSharpToJavaScript.APIs.JS.console.GroupCollapsed(System.Object[])">
   GroupCollapsed(params dynamic[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L785"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>console.groupCollapsed()</code></strong> static method creates a new inline group in the console. Unlike Console/group, however, the new group is created collapsed. The user will need to use the disclosure button next to it to expand it, revealing the entries created in the group.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined GroupCollapsed(params dynamic[] data)</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;groupCollapsed&quot;)]
+public GlobalObject.Undefined GroupCollapsed(params dynamic[] data)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -606,9 +538,8 @@ public class console</code></pre>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
-    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -617,16 +548,6 @@ public class console</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_console_GroupCollapsed_System_Object____remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>Call Console/groupEnd to back out to the parent group.</p>
-<p>See <a href="https://developer.mozilla.org/en-US/docs/Web/API/console#using_groups_in_the_console">Using groups in the console</a> in the Console documentation for details and examples.</p>
-<p>-Console/group<br>-Console/groupEnd<br>-<a href="https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api#groupcollapsed">Microsoft Edge&amp;apos;s documentation for <code>console.groupCollapsed()</code></a><br>-<a href="https://nodejs.org/docs/latest/api/console.html#consolegroupcollapsed">Node.js documentation for <code>console.groupCollapsed()</code></a><br>-<a href="https://developer.chrome.com/docs/devtools/console/api/#groupcollapsed">Google Chrome&amp;apos;s documentation for <code>console.groupCollapsed()</code></a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/console/groupCollapsed">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -635,23 +556,22 @@ public class console</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_console_GroupEnd" data-uid="CSharpToJavaScript.APIs.JS.console.GroupEnd">
   GroupEnd()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L787"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>console.groupEnd()</code></strong> static method exits the current inline group in the console. See <a href="https://developer.mozilla.org/en-US/docs/Web/API/console#using_groups_in_the_console">Using groups in the console</a> in the Console documentation for details and examples.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined GroupEnd()</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;groupEnd&quot;)]
+public GlobalObject.Undefined GroupEnd()</code></pre>
   </div>
 
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
-    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -660,14 +580,6 @@ public class console</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_console_GroupEnd_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-Console/group<br>-Console/groupCollapsed<br>-<a href="https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api#groupend">Microsoft Edge&amp;apos;s documentation for <code>console.groupEnd()</code></a><br>-<a href="https://nodejs.org/docs/latest/api/console.html#consolegroupend">Node.js documentation for <code>console.groupEnd()</code></a><br>-<a href="https://developer.chrome.com/docs/devtools/console/api/#groupend">Google Chrome&amp;apos;s documentation for <code>console.groupEnd()</code></a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/console/groupEnd">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -676,15 +588,15 @@ public class console</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_console_Info_System_Object___" data-uid="CSharpToJavaScript.APIs.JS.console.Info(System.Object[])">
   Info(params dynamic[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L765"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>console.info()</code></strong> static method outputs a message to the console at the &amp;quot;info&amp;quot; log level. The message is only displayed to the user if the console is configured to display info output. In most cases, the log level is configured within the console UI. The message may receive special formatting, such as a small &amp;quot;i&amp;quot; icon next to it.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined Info(params dynamic[] data)</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;info&quot;)]
+public GlobalObject.Undefined Info(params dynamic[] data)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -695,9 +607,8 @@ public class console</code></pre>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
-    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -706,14 +617,6 @@ public class console</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_console_Info_System_Object____remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a href="https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api#info">Microsoft Edge&amp;apos;s documentation for <code>console.info()</code></a><br>-<a href="https://nodejs.org/docs/latest/api/console.html#consoleinfodata-args">Node.js documentation for <code>console.info()</code></a><br>-<a href="https://developer.chrome.com/docs/devtools/console/api/#info">Google Chrome&amp;apos;s documentation for <code>console.info()</code></a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/console/info">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -722,15 +625,15 @@ public class console</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_console_Log_System_Object___" data-uid="CSharpToJavaScript.APIs.JS.console.Log(System.Object[])">
   Log(params dynamic[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L767"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>console.log()</code></strong> static method outputs a message to the console.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined Log(params dynamic[] data)</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;log&quot;)]
+public GlobalObject.Undefined Log(params dynamic[] data)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -741,9 +644,8 @@ public class console</code></pre>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
-    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -752,18 +654,6 @@ public class console</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_console_Log_System_Object____remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>
-  <blockquote class="TIP">
-    <h5>TIP</h5> Partialy supported as <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.console.writeline#system-console-writeline">WriteLine()</a> and <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.console.write#system-console-write(system-boolean)">Write(bool)</a></blockquote>
-
-<p>-<a href="https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api#log">Microsoft Edge&amp;apos;s documentation for <code>console.log()</code></a><br>-<a href="https://nodejs.org/docs/latest/api/console.html#consolelogdata-args">Node.js documentation for <code>console.log()</code></a><br>-<a href="https://developer.chrome.com/docs/devtools/console/api/#log">Google Chrome&amp;apos;s documentation for <code>console.log()</code></a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/console/log">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -772,15 +662,15 @@ public class console</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_console_Table_System_Object_System_Collections_Generic_List_System_String__" data-uid="CSharpToJavaScript.APIs.JS.console.Table(System.Object,System.Collections.Generic.List{System.String})">
   Table(dynamic, List&lt;string&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L769"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>console.table()</code></strong> static method displays tabular data as a table.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined Table(dynamic tabularData = null, List&lt;string&gt; properties = null)</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;table&quot;)]
+public GlobalObject.Undefined Table(dynamic tabularData = null, List&lt;string&gt; properties = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -793,9 +683,8 @@ public class console</code></pre>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
-    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -804,14 +693,6 @@ public class console</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_console_Table_System_Object_System_Collections_Generic_List_System_String___remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a href="https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api#table">Microsoft Edge&amp;apos;s documentation for <code>console.table()</code></a><br>-<a href="https://nodejs.org/docs/latest/api/console.html#consoletabletabulardata-properties">Node.js documentation for <code>console.table()</code></a><br>-<a href="https://developer.chrome.com/docs/devtools/console/api/#table">Google Chrome&amp;apos;s documentation for <code>console.table()</code></a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/console/table">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -820,15 +701,15 @@ public class console</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_console_Time_System_String_" data-uid="CSharpToJavaScript.APIs.JS.console.Time(System.String)">
   Time(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L789"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>console.time()</code></strong> static method starts a timer you can use to track how long an operation takes. You give each timer a unique name, and may have up to 10,000 timers running on a given page. When you call Console/timeEnd with the same name, the browser will output the time, in milliseconds, that elapsed since the timer was started.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined Time(string label = null)</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;time&quot;)]
+public GlobalObject.Undefined Time(string label = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -839,9 +720,8 @@ public class console</code></pre>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
-    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -850,15 +730,6 @@ public class console</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_console_Time_System_String__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>See <a href="https://developer.mozilla.org/en-US/docs/Web/API/console#timers">Timers</a> in the Console documentation for details and examples.</p>
-<p>-See Console/timeLog and Console/timeEnd for examples<br>-<a href="https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api#time">Microsoft Edge&amp;apos;s documentation for <code>console.time()</code></a><br>-<a href="https://nodejs.org/docs/latest/api/console.html#consoletimelabel">Node.js documentation for <code>console.time()</code></a><br>-<a href="https://developer.chrome.com/docs/devtools/console/api/#time">Google Chrome&amp;apos;s documentation for <code>console.time()</code></a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/console/time">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -867,15 +738,15 @@ public class console</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_console_TimeEnd_System_String_" data-uid="CSharpToJavaScript.APIs.JS.console.TimeEnd(System.String)">
   TimeEnd(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L793"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>console.timeEnd()</code></strong> static method stops a timer that was previously started by calling Console/time.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined TimeEnd(string label = null)</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;timeEnd&quot;)]
+public GlobalObject.Undefined TimeEnd(string label = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -886,9 +757,8 @@ public class console</code></pre>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
-    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -897,15 +767,6 @@ public class console</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_console_TimeEnd_System_String__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>See <a href="https://developer.mozilla.org/en-US/docs/Web/API/console#timers">Timers</a> in the documentation for details and examples.</p>
-<p>-See Console/timeLog for additional examples<br>-Console/time<br>-<a href="https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api#timeend">Microsoft Edge&amp;apos;s documentation for <code>console.timeEnd()</code></a><br>-<a href="https://nodejs.org/docs/latest/api/console.html#consoletimeendlabel">Node.js documentation for <code>console.timeEnd()</code></a><br>-<a href="https://developer.chrome.com/docs/devtools/console/api/#timeend">Google Chrome&amp;apos;s documentation for <code>console.timeEnd()</code></a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/console/timeEnd">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -914,15 +775,15 @@ public class console</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_console_TimeLog_System_String_System_Object___" data-uid="CSharpToJavaScript.APIs.JS.console.TimeLog(System.String,System.Object[])">
   TimeLog(string, params dynamic[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L791"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>console.timeLog()</code></strong> static method logs the current value of a timer that was previously started by calling Console/time.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined TimeLog(string label = null, params dynamic[] data)</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;timeLog&quot;)]
+public GlobalObject.Undefined TimeLog(string label = null, params dynamic[] data)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -935,9 +796,8 @@ public class console</code></pre>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
-    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -946,14 +806,6 @@ public class console</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_console_TimeLog_System_String_System_Object____remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-Console/time<br>-See Console/timeEnd for additional examples<br>-<a href="https://nodejs.org/docs/latest/api/console.html#consoletimeloglabel-data">Node.js documentation for <code>console.timeLog()</code></a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/console/timeLog">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -962,15 +814,15 @@ public class console</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_console_Trace_System_Object___" data-uid="CSharpToJavaScript.APIs.JS.console.Trace(System.Object[])">
   Trace(params dynamic[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L771"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>console.trace()</code></strong> static method outputs a stack trace to the console.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined Trace(params dynamic[] data)</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;trace&quot;)]
+public GlobalObject.Undefined Trace(params dynamic[] data)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -981,9 +833,8 @@ public class console</code></pre>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
-    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -992,19 +843,6 @@ public class console</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_console_Trace_System_Object____remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><blockquote class="NOTE">
-  <h5>NOTE</h5>
-  <p>In some browsers, <code>console.trace()</code> may also output the sequence of calls and asynchronous events leading to the current <code>console.trace()</code> which are not on the call stack — to help identify the origin of the current event evaluation loop.</p>
-</blockquote>
-<p>See <a href="https://developer.mozilla.org/en-US/docs/Web/API/console#stack_traces">Stack traces</a> in the Console documentation for details and examples.</p>
-<p>-<a href="https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api#trace">Microsoft Edge&amp;apos;s documentation for <code>console.trace()</code></a><br>-<a href="https://nodejs.org/docs/latest/api/console.html#consoletracemessage-args">Node.js documentation for <code>console.trace()</code></a><br>-<a href="https://developer.chrome.com/docs/devtools/console/api/#trace">Google Chrome&amp;apos;s documentation for <code>console.trace()</code></a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/console/trace">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -1013,15 +851,15 @@ public class console</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_console_Warn_System_Object___" data-uid="CSharpToJavaScript.APIs.JS.console.Warn(System.Object[])">
   Warn(params dynamic[])
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L773"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>console.warn()</code></strong> static method outputs a warning message to the console at the &amp;quot;warning&amp;quot; log level. The message is only displayed to the user if the console is configured to display warning output. In most cases, the log level is configured within the console UI. The message may receive special formatting, such as yellow colors and a warning icon.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined Warn(params dynamic[] data)</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;warn&quot;)]
+public GlobalObject.Undefined Warn(params dynamic[] data)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -1032,9 +870,8 @@ public class console</code></pre>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
-    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -1043,14 +880,6 @@ public class console</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_console_Warn_System_Object____remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a href="https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api#warn">Microsoft Edge&amp;apos;s documentation for <code>console.warn()</code></a><br>-<a href="https://nodejs.org/docs/latest/api/console.html#consolewarndata-args">Node.js documentation for <code>console.warn()</code></a><br>-<a href="https://developer.chrome.com/docs/devtools/console/api/#warn">Google Chrome&amp;apos;s documentation for <code>console.warn()</code></a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/console/warn">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -1059,7 +888,7 @@ public class console</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L753" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs" class="edit-link">Edit this page</a>
         </div>
 
 

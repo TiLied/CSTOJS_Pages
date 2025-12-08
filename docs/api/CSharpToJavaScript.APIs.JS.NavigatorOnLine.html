@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Interface NavigatorOnLine | CSharpToJavaScript ">
       
-      <meta name="description" content="Returns the online status of the browser. The property returns a boolean value, withtrue meaning online and false meaning offline. The propertysends updates whenever the browser&amp;amp;apos;s ability to connect to the network changes. Theupdate occurs when the user follows links or when a script requests a remote page. Forexample, the property should return false when users click links soon afterthey lose internet connection.">
+      
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/TiLied/CSharpToJavaScript/new/master/apiSpec/new?filename=CSharpToJavaScript_APIs_JS_NavigatorOnLine.md&amp;value=---%0Auid%3A%20CSharpToJavaScript.APIs.JS.NavigatorOnLine%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -89,7 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_NavigatorOnLine" data-uid="CSharpToJavaScript.APIs.JS.NavigatorOnLine" class="text-break">
-Interface NavigatorOnLine  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS2.generated.cs/#L828"><i class="bi bi-code-slash"></i></a>
+Interface NavigatorOnLine  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS2.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,12 +97,11 @@ Interface NavigatorOnLine  <a class="header-action link-secondary" title="View s
   <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Returns the online status of the browser. The property returns a boolean value, with<br><code>true</code> meaning online and <code>false</code> meaning offline. The property<br>sends updates whenever the browser&amp;apos;s ability to connect to the network changes. The<br>update occurs when the user follows links or when a script requests a remote page. For<br>example, the property should return <code>false</code> when users click links soon after<br>they lose internet connection.</p>
-</div>
+  <div class="markdown summary"></div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+    <pre><code class="lang-csharp hljs">[Value(&quot;NavigatorOnLine&quot;)]
 public interface NavigatorOnLine</code></pre>
   </div>
 
@@ -116,17 +115,6 @@ public interface NavigatorOnLine</code></pre>
 
 
 
-  <h2 id="CSharpToJavaScript_APIs_JS_NavigatorOnLine_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>Browsers implement this property differently.</p>
-<p>In Chrome and Safari, if the browser is not able to connect to a local area network<br>(LAN) or a router, it is offline; all other conditions return <code>true</code>. So<br>while you can assume that the browser is offline when it returns a <code>false</code><br>value, you cannot assume that a true value necessarily means that the browser can access<br>the internet. You could be getting false positives, such as in cases where the computer<br>is running a virtualization software that has virtual ethernet adapters that are always<br>&amp;quot;connected.&amp;quot; Therefore, if you really want to determine the online status of the<br>browser, you should develop additional means for checking.</p>
-<p>In Firefox, switching the browser to offline mode sends a <code>false</code> value. Until Firefox<br>41, all other conditions returned a <code>true</code> value; testing actual behavior on Nightly 68 on<br>Windows shows that it only looks for LAN connection like Chrome and Safari giving false<br>positives.</p>
-<p>You can see changes in the network state by listening to the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/online_event"><code>online</code></a> and <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/offline_event"><code>offline</code></a> events.</p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Navigator/onLine">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
   <h2 class="section" id="properties">Properties
@@ -137,14 +125,15 @@ public interface NavigatorOnLine</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_NavigatorOnLine_OnLine" data-uid="CSharpToJavaScript.APIs.JS.NavigatorOnLine.OnLine">
   OnLine
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS2.generated.cs/#L831"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS2.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">bool OnLine { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;onLine&quot;)]
+bool OnLine { get; }</code></pre>
   </div>
 
 
@@ -168,7 +157,7 @@ public interface NavigatorOnLine</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS2.generated.cs/#L828" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS2.generated.cs" class="edit-link">Edit this page</a>
         </div>
 
 

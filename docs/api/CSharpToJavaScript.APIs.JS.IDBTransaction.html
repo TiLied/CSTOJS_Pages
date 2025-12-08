@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class IDBTransaction | CSharpToJavaScript ">
       
-      <meta name="description" content="The IDBTransaction interface of the IndexedDB API provides a static, asynchronous transaction on a database using event handler attributes. All reading and writing of data is done within transactions. You use  to start transactions, IDBTransaction to set the mode of the transaction (e.g. is it readonly or readwrite), and you access an  to make a request. You can also use an IDBTransaction object to abort transactions.">
+      
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/TiLied/CSharpToJavaScript/new/master/apiSpec/new?filename=CSharpToJavaScript_APIs_JS_IDBTransaction.md&amp;value=---%0Auid%3A%20CSharpToJavaScript.APIs.JS.IDBTransaction%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -89,7 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_IDBTransaction" data-uid="CSharpToJavaScript.APIs.JS.IDBTransaction" class="text-break">
-Class IDBTransaction  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L12240"><i class="bi bi-code-slash"></i></a>
+Class IDBTransaction  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,12 +97,11 @@ Class IDBTransaction  <a class="header-action link-secondary" title="View source
   <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>The <strong><code>IDBTransaction</code></strong> interface of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API">IndexedDB API</a> provides a static, asynchronous transaction on a database using event handler attributes. All reading and writing of data is done within transactions. You use <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBDatabase.html">IDBDatabase</a> to start transactions, <code>IDBTransaction</code> to set the mode of the transaction (e.g. is it <code>readonly</code> or <code>readwrite</code>), and you access an <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a> to make a request. You can also use an <code>IDBTransaction</code> object to abort transactions.</p>
-</div>
+  <div class="markdown summary"></div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+    <pre><code class="lang-csharp hljs">[Value(&quot;IDBTransaction&quot;)]
 public class IDBTransaction : EventTarget</code></pre>
   </div>
 
@@ -148,43 +147,61 @@ public class IDBTransaction : EventTarget</code></pre>
       <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_When_System_String_CSharpToJavaScript_APIs_JS_ObservableEventListenerOptions_">EventTarget.When(string, ObservableEventListenerOptions)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
-    </div>
-    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
     </div>
   </dd></dl>
 
 
 
 
-  <h2 id="CSharpToJavaScript_APIs_JS_IDBTransaction_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p></p>
-<p>Transactions are started when the transaction is created, not when the first request is placed; for example consider this:</p>
-<p>After the code is executed the object store should contain the value &amp;quot;2&amp;quot;, since <code>trans2</code> should run after <code>trans1</code>.</p>
-<p>A transaction alternates between <strong>active</strong> and <strong>inactive</strong> states between event loop tasks. It&amp;apos;s active in the task when it was created, and in each task of the requests&amp;apos; <a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBRequest/success_event"><code>success</code></a> or <a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBRequest/error_event"><code>error</code></a> event handlers. It&amp;apos;s inactive in all other tasks, in which case placing requests will fail. If no new requests are placed when the transaction is active, and there are no other outstanding requests, the transaction will automatically commit.</p>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB">Using IndexedDB</a><br>-Starting transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBDatabase.html">IDBDatabase</a><br>-Setting a range of keys: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a><br>-Retrieving and making changes to your data: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a><br>-Using cursors: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a><br>-Reference example: <a href="https://github.com/mdn/dom-examples/tree/main/to-do-notifications">To-do Notifications</a> (<a href="https://mdn.github.io/dom-examples/to-do-notifications/">View the example live</a>).<br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBTransaction">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_IDBTransaction__ctor_" data-uid="CSharpToJavaScript.APIs.JS.IDBTransaction.#ctor*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_IDBTransaction__ctor" data-uid="CSharpToJavaScript.APIs.JS.IDBTransaction.#ctor">
+  IDBTransaction()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IDBTransaction()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
 
 
   <h2 class="section" id="properties">Properties
@@ -195,15 +212,15 @@ public class IDBTransaction : EventTarget</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_IDBTransaction_Db" data-uid="CSharpToJavaScript.APIs.JS.IDBTransaction.Db">
   Db
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L12250"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>db</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a> interface returns the database connection<br>with which this transaction is associated.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IDBDatabase Db { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;db&quot;)]
+public IDBDatabase Db { get; }</code></pre>
   </div>
 
 
@@ -213,21 +230,12 @@ public class IDBTransaction : EventTarget</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBDatabase.html">IDBDatabase</a></dt>
-    <dd><p>An <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBDatabase.html">IDBDatabase</a> object.</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_IDBTransaction_Db_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB">Using IndexedDB</a><br>-Starting transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBDatabase.html">IDBDatabase</a><br>-Using transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a><br>-Setting a range of keys: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a><br>-Retrieving and making changes to your data: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a><br>-Using cursors: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a><br>-Reference example: <a href="https://github.com/mdn/dom-examples/tree/main/to-do-notifications">To-do Notifications</a> (<a href="https://mdn.github.io/dom-examples/to-do-notifications/">View the example live</a>).<br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBTransaction/db">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -236,15 +244,15 @@ public class IDBTransaction : EventTarget</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_IDBTransaction_Durability" data-uid="CSharpToJavaScript.APIs.JS.IDBTransaction.Durability">
   Durability
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L12248"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>durability</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a> interface returns the durability hint the transaction was created with.<br>This is a hint to the user agent of whether to prioritize performance or durability when committing the transaction.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IDBTransactionDurability Durability { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;durability&quot;)]
+public IDBTransactionDurability Durability { get; }</code></pre>
   </div>
 
 
@@ -254,21 +262,12 @@ public class IDBTransaction : EventTarget</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransactionDurability.html">IDBTransactionDurability</a></dt>
-    <dd><p>Any of the following literal 'String':</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_IDBTransaction_Durability_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>The value of this property is defined in the <a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBDatabase/transaction#options"><code>options.durability</code></a> parameter when creating a transaction using <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBDatabase.html#CSharpToJavaScript_APIs_JS_IDBDatabase_Transaction_CSharpToJavaScript_APIs_JS_Union104_CSharpToJavaScript_APIs_JS_IDBTransactionMode_CSharpToJavaScript_APIs_JS_IDBTransactionOptions_">Transaction(Union104, IDBTransactionMode, IDBTransactionOptions)</a>.</p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBTransaction/durability">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -277,15 +276,15 @@ public class IDBTransaction : EventTarget</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_IDBTransaction_Error" data-uid="CSharpToJavaScript.APIs.JS.IDBTransaction.Error">
   Error
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L12252"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>IDBTransaction.error</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a> interface<br>returns the type of error when there is an unsuccessful transaction.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DOMException? Error { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;error&quot;)]
+public DOMException? Error { get; }</code></pre>
   </div>
 
 
@@ -295,21 +294,12 @@ public class IDBTransaction : EventTarget</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.DOMException.html">DOMException</a></dt>
-    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMException.html">DOMException</a> containing the relevant error, or <code>null</code> if there are none.It can be a reference to the same error as the request object that raised it, or a transaction<br>failure (for example <code>QuotaExceededError</code>).This property is <code>null</code> if the transaction is not finished, or is finished and<br>was successfully committed.</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_IDBTransaction_Error_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB">Using IndexedDB</a><br>-Starting transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBDatabase.html">IDBDatabase</a><br>-Using transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a><br>-Setting a range of keys: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a><br>-Retrieving and making changes to your data: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a><br>-Using cursors: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a><br>-Reference example: <a href="https://github.com/mdn/dom-examples/tree/main/to-do-notifications">To-do Notifications</a> (<a href="https://mdn.github.io/dom-examples/to-do-notifications/">View the example live</a>).<br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBTransaction/error">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -318,15 +308,15 @@ public class IDBTransaction : EventTarget</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_IDBTransaction_Mode" data-uid="CSharpToJavaScript.APIs.JS.IDBTransaction.Mode">
   Mode
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L12246"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>mode</code></strong> read-only property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a> interface returns the current mode for accessing the<br>data in the object stores in the scope of the transaction (i.e. is the mode to be<br>read-only, or do you want to write to the object stores?) The default value is<br><code>readonly</code>.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IDBTransactionMode Mode { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;mode&quot;)]
+public IDBTransactionMode Mode { get; }</code></pre>
   </div>
 
 
@@ -336,21 +326,12 @@ public class IDBTransaction : EventTarget</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransactionMode.html">IDBTransactionMode</a></dt>
-    <dd><p>An object defining the mode for isolating access to<br>data in the current object stores:<br>A string defining the mode for isolating access to data in the current object stores.<br>The following values are available:</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_IDBTransaction_Mode_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB">Using IndexedDB</a><br>-Starting transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBDatabase.html">IDBDatabase</a><br>-Using transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a><br>-Setting a range of keys: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a><br>-Retrieving and making changes to your data: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a><br>-Using cursors: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a><br>-Reference example: <a href="https://github.com/mdn/dom-examples/tree/main/to-do-notifications">To-do Notifications</a> (<a href="https://mdn.github.io/dom-examples/to-do-notifications/">View the example live</a>).<br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBTransaction/mode">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -359,15 +340,15 @@ public class IDBTransaction : EventTarget</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_IDBTransaction_ObjectStoreNames" data-uid="CSharpToJavaScript.APIs.JS.IDBTransaction.ObjectStoreNames">
   ObjectStoreNames
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L12244"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>objectStoreNames</code></strong> read-only property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a> interface returns a <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMStringList.html">DOMStringList</a> of names<br>of <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a> objects.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DOMStringList ObjectStoreNames { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;objectStoreNames&quot;)]
+public DOMStringList ObjectStoreNames { get; }</code></pre>
   </div>
 
 
@@ -377,21 +358,12 @@ public class IDBTransaction : EventTarget</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.DOMStringList.html">DOMStringList</a></dt>
-    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.DOMStringList.html">DOMStringList</a> of names of <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a> objects.</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_IDBTransaction_ObjectStoreNames_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB">Using IndexedDB</a><br>-Starting transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBDatabase.html">IDBDatabase</a><br>-Using transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a><br>-Setting a range of keys: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a><br>-Retrieving and making changes to your data: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a><br>-Using cursors: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a><br>-Reference example: <a href="https://github.com/mdn/dom-examples/tree/main/to-do-notifications">To-do Notifications</a> (<a href="https://mdn.github.io/dom-examples/to-do-notifications/">View the example live</a>).<br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBTransaction/objectStoreNames">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -400,14 +372,15 @@ public class IDBTransaction : EventTarget</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_IDBTransaction_Onabort" data-uid="CSharpToJavaScript.APIs.JS.IDBTransaction.Onabort">
   Onabort
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L12259"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EventHandlerNonNull Onabort { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;onabort&quot;)]
+public EventHandlerNonNull Onabort { get; set; }</code></pre>
   </div>
 
 
@@ -431,14 +404,15 @@ public class IDBTransaction : EventTarget</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_IDBTransaction_Oncomplete" data-uid="CSharpToJavaScript.APIs.JS.IDBTransaction.Oncomplete">
   Oncomplete
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L12260"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EventHandlerNonNull Oncomplete { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;oncomplete&quot;)]
+public EventHandlerNonNull Oncomplete { get; set; }</code></pre>
   </div>
 
 
@@ -462,14 +436,15 @@ public class IDBTransaction : EventTarget</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_IDBTransaction_Onerror" data-uid="CSharpToJavaScript.APIs.JS.IDBTransaction.Onerror">
   Onerror
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L12261"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EventHandlerNonNull Onerror { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;onerror&quot;)]
+public EventHandlerNonNull Onerror { get; set; }</code></pre>
   </div>
 
 
@@ -497,23 +472,22 @@ public class IDBTransaction : EventTarget</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_IDBTransaction_Abort" data-uid="CSharpToJavaScript.APIs.JS.IDBTransaction.Abort">
   Abort()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L12258"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>abort()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a><br>interface rolls back all the changes to objects in the database associated with this<br>transaction.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined Abort()</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;abort&quot;)]
+public GlobalObject.Undefined Abort()</code></pre>
   </div>
 
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
-    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -522,15 +496,6 @@ public class IDBTransaction : EventTarget</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_IDBTransaction_Abort_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>All pending <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBRequest.html">IDBRequest</a> objects created during this transaction have<br>their <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBRequest.html#CSharpToJavaScript_APIs_JS_IDBRequest_Error">Error</a> attribute set to an <code>AbortError</code><a class="xref" href="CSharpToJavaScript.APIs.JS.DOMException.html">DOMException</a>.</p>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB">Using IndexedDB</a><br>-Starting transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBDatabase.html">IDBDatabase</a><br>-Using transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a><br>-Setting a range of keys: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a><br>-Retrieving and making changes to your data: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a><br>-Using cursors: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a><br>-Reference example: <a href="https://github.com/mdn/dom-examples/tree/main/to-do-notifications">To-do Notifications</a> (<a href="https://mdn.github.io/dom-examples/to-do-notifications/">View the example live</a>).<br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBTransaction/abort">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -539,23 +504,22 @@ public class IDBTransaction : EventTarget</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_IDBTransaction_Commit" data-uid="CSharpToJavaScript.APIs.JS.IDBTransaction.Commit">
   Commit()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L12256"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>commit()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a> interface commits the transaction if it is called on an active transaction.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined Commit()</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;commit&quot;)]
+public GlobalObject.Undefined Commit()</code></pre>
   </div>
 
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
-    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -564,16 +528,6 @@ public class IDBTransaction : EventTarget</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_IDBTransaction_Commit_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>Note that <code>commit()</code> doesn&amp;apos;t normally <strong>have</strong> to be called — a transaction will automatically commit when all outstanding requests have been satisfied and no new requests have been made. <code>commit()</code> can be used to start the commit process without waiting for events from outstanding requests to be dispatched.</p>
-<p>If it is called on a transaction that is not active, it throws an <code>InvalidStateError</code><a class="xref" href="CSharpToJavaScript.APIs.JS.DOMException.html">DOMException</a>.</p>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB">Using IndexedDB</a><br>-Starting transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBDatabase.html">IDBDatabase</a><br>-Using transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a><br>-Setting a range of keys: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a><br>-Retrieving and making changes to your data: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a><br>-Using cursors: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a><br>-Reference example: <a href="https://github.com/mdn/dom-examples/tree/main/to-do-notifications">To-do Notifications</a> (<a href="https://mdn.github.io/dom-examples/to-do-notifications/">View the example live</a>).<br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBTransaction/commit">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -582,15 +536,15 @@ public class IDBTransaction : EventTarget</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_IDBTransaction_ObjectStore_System_String_" data-uid="CSharpToJavaScript.APIs.JS.IDBTransaction.ObjectStore(System.String)">
   ObjectStore(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L12254"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>objectStore()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a> interface returns an object store that has already been<br>added to the scope of this transaction.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IDBObjectStore ObjectStore(string name)</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;objectStore&quot;)]
+public IDBObjectStore ObjectStore(string name)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -602,8 +556,7 @@ public class IDBTransaction : EventTarget</code></pre>
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a></dt>
-    <dd><p>An <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a> object for accessing an object store.</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
@@ -612,15 +565,6 @@ public class IDBTransaction : EventTarget</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_IDBTransaction_ObjectStore_System_String__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>Every call to this method on the same transaction object, with the same name, returns<br>the same <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a> instance. If this method is called on a different<br>transaction object, a different <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a> instance is returned.</p>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB">Using IndexedDB</a><br>-Starting transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBDatabase.html">IDBDatabase</a><br>-Using transactions: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBTransaction.html">IDBTransaction</a><br>-Setting a range of keys: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBKeyRange.html">IDBKeyRange</a><br>-Retrieving and making changes to your data: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBObjectStore.html">IDBObjectStore</a><br>-Using cursors: <a class="xref" href="CSharpToJavaScript.APIs.JS.IDBCursor.html">IDBCursor</a><br>-Reference example: <a href="https://github.com/mdn/dom-examples/tree/main/to-do-notifications">To-do Notifications</a> (<a href="https://mdn.github.io/dom-examples/to-do-notifications/">View the example live</a>).<br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/IDBTransaction/objectStore">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -629,7 +573,7 @@ public class IDBTransaction : EventTarget</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L12240" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs" class="edit-link">Edit this page</a>
         </div>
 
 

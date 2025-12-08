@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class GPUSupportedLimits | CSharpToJavaScript ">
       
-      <meta name="description" content="NOTE   Experimental  The GPUSupportedLimits interface of the {{domxref(&amp;amp;quot;WebGPU API&amp;amp;quot;, &amp;amp;quot;WebGPU API&amp;amp;quot;, &amp;amp;quot;&amp;amp;quot;, &quot;nocode&quot;)}} describes the limits supported by a .">
+      
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/TiLied/CSharpToJavaScript/new/master/apiSpec/new?filename=CSharpToJavaScript_APIs_JS_GPUSupportedLimits.md&amp;value=---%0Auid%3A%20CSharpToJavaScript.APIs.JS.GPUSupportedLimits%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -89,7 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_GPUSupportedLimits" data-uid="CSharpToJavaScript.APIs.JS.GPUSupportedLimits" class="text-break">
-Class GPUSupportedLimits  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L23344"><i class="bi bi-code-slash"></i></a>
+Class GPUSupportedLimits  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,15 +97,11 @@ Class GPUSupportedLimits  <a class="header-action link-secondary" title="View so
   <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><div class="NOTE">
-  <h5>NOTE</h5>
-  <strong>Experimental</strong>
-</div> The <strong><code>GPUSupportedLimits</code></strong> interface of the {{domxref(&amp;quot;WebGPU API&amp;quot;, &amp;quot;WebGPU API&amp;quot;, &amp;quot;&amp;quot;, "nocode")}} describes the limits supported by a <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUAdapter.html">GPUAdapter</a>.
-</div>
+  <div class="markdown summary"></div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+    <pre><code class="lang-csharp hljs">[Value(&quot;GPUSupportedLimits&quot;)]
 public class GPUSupportedLimits</code></pre>
   </div>
 
@@ -126,43 +122,61 @@ public class GPUSupportedLimits</code></pre>
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
-    </div>
-    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
     </div>
   </dd></dl>
 
 
 
 
-  <h2 id="CSharpToJavaScript_APIs_JS_GPUSupportedLimits_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>The <code>GPUSupportedLimits</code> object for the current adapter is accessed via the <a class="xref" href="CSharpToJavaScript.APIs.JS.GPUAdapter.html#CSharpToJavaScript_APIs_JS_GPUAdapter_Limits">Limits</a> property.</p>
-<p>You should note that, rather than reporting the exact limits of each GPU, browsers will likely report different tier values of different limits to reduce the unique information available to drive-by fingerprinting. For example, the tiers of a certain limit might be 2048, 8192, and 32768. If your GPU&amp;apos;s actual limit is 16384, the browser will still report 8192.</p>
-<p>Given that different browsers will handle this differently and the tier values may change over time, it is hard to provide an accurate account of what limit values to expect — thorough testing is advised.</p>
-<p></p>
-<p>-The <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API">WebGPU API</a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/GPUSupportedLimits">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_GPUSupportedLimits__ctor_" data-uid="CSharpToJavaScript.APIs.JS.GPUSupportedLimits.#ctor*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_GPUSupportedLimits__ctor" data-uid="CSharpToJavaScript.APIs.JS.GPUSupportedLimits.#ctor">
+  GPUSupportedLimits()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GPUSupportedLimits()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
 
 
   <h2 class="section" id="properties">Properties
@@ -173,14 +187,15 @@ public class GPUSupportedLimits</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_GPUSupportedLimits_MaxBindGroups" data-uid="CSharpToJavaScript.APIs.JS.GPUSupportedLimits.MaxBindGroups">
   MaxBindGroups
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L23351"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ulong MaxBindGroups { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;maxBindGroups&quot;)]
+public ulong MaxBindGroups { get; }</code></pre>
   </div>
 
 
@@ -204,14 +219,15 @@ public class GPUSupportedLimits</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_GPUSupportedLimits_MaxBindGroupsPlusVertexBuffers" data-uid="CSharpToJavaScript.APIs.JS.GPUSupportedLimits.MaxBindGroupsPlusVertexBuffers">
   MaxBindGroupsPlusVertexBuffers
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L23352"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ulong MaxBindGroupsPlusVertexBuffers { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;maxBindGroupsPlusVertexBuffers&quot;)]
+public ulong MaxBindGroupsPlusVertexBuffers { get; }</code></pre>
   </div>
 
 
@@ -235,14 +251,15 @@ public class GPUSupportedLimits</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_GPUSupportedLimits_MaxBindingsPerBindGroup" data-uid="CSharpToJavaScript.APIs.JS.GPUSupportedLimits.MaxBindingsPerBindGroup">
   MaxBindingsPerBindGroup
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L23353"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ulong MaxBindingsPerBindGroup { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;maxBindingsPerBindGroup&quot;)]
+public ulong MaxBindingsPerBindGroup { get; }</code></pre>
   </div>
 
 
@@ -266,14 +283,15 @@ public class GPUSupportedLimits</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_GPUSupportedLimits_MaxBufferSize" data-uid="CSharpToJavaScript.APIs.JS.GPUSupportedLimits.MaxBufferSize">
   MaxBufferSize
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L23366"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ulong MaxBufferSize { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;maxBufferSize&quot;)]
+public ulong MaxBufferSize { get; }</code></pre>
   </div>
 
 
@@ -297,14 +315,15 @@ public class GPUSupportedLimits</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_GPUSupportedLimits_MaxColorAttachmentBytesPerSample" data-uid="CSharpToJavaScript.APIs.JS.GPUSupportedLimits.MaxColorAttachmentBytesPerSample">
   MaxColorAttachmentBytesPerSample
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L23371"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ulong MaxColorAttachmentBytesPerSample { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;maxColorAttachmentBytesPerSample&quot;)]
+public ulong MaxColorAttachmentBytesPerSample { get; }</code></pre>
   </div>
 
 
@@ -328,14 +347,15 @@ public class GPUSupportedLimits</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_GPUSupportedLimits_MaxColorAttachments" data-uid="CSharpToJavaScript.APIs.JS.GPUSupportedLimits.MaxColorAttachments">
   MaxColorAttachments
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L23370"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ulong MaxColorAttachments { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;maxColorAttachments&quot;)]
+public ulong MaxColorAttachments { get; }</code></pre>
   </div>
 
 
@@ -359,14 +379,15 @@ public class GPUSupportedLimits</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_GPUSupportedLimits_MaxComputeInvocationsPerWorkgroup" data-uid="CSharpToJavaScript.APIs.JS.GPUSupportedLimits.MaxComputeInvocationsPerWorkgroup">
   MaxComputeInvocationsPerWorkgroup
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L23373"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ulong MaxComputeInvocationsPerWorkgroup { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;maxComputeInvocationsPerWorkgroup&quot;)]
+public ulong MaxComputeInvocationsPerWorkgroup { get; }</code></pre>
   </div>
 
 
@@ -390,14 +411,15 @@ public class GPUSupportedLimits</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_GPUSupportedLimits_MaxComputeWorkgroupSizeX" data-uid="CSharpToJavaScript.APIs.JS.GPUSupportedLimits.MaxComputeWorkgroupSizeX">
   MaxComputeWorkgroupSizeX
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L23374"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ulong MaxComputeWorkgroupSizeX { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;maxComputeWorkgroupSizeX&quot;)]
+public ulong MaxComputeWorkgroupSizeX { get; }</code></pre>
   </div>
 
 
@@ -421,14 +443,15 @@ public class GPUSupportedLimits</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_GPUSupportedLimits_MaxComputeWorkgroupSizeY" data-uid="CSharpToJavaScript.APIs.JS.GPUSupportedLimits.MaxComputeWorkgroupSizeY">
   MaxComputeWorkgroupSizeY
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L23375"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ulong MaxComputeWorkgroupSizeY { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;maxComputeWorkgroupSizeY&quot;)]
+public ulong MaxComputeWorkgroupSizeY { get; }</code></pre>
   </div>
 
 
@@ -452,14 +475,15 @@ public class GPUSupportedLimits</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_GPUSupportedLimits_MaxComputeWorkgroupSizeZ" data-uid="CSharpToJavaScript.APIs.JS.GPUSupportedLimits.MaxComputeWorkgroupSizeZ">
   MaxComputeWorkgroupSizeZ
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L23376"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ulong MaxComputeWorkgroupSizeZ { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;maxComputeWorkgroupSizeZ&quot;)]
+public ulong MaxComputeWorkgroupSizeZ { get; }</code></pre>
   </div>
 
 
@@ -483,14 +507,15 @@ public class GPUSupportedLimits</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_GPUSupportedLimits_MaxComputeWorkgroupStorageSize" data-uid="CSharpToJavaScript.APIs.JS.GPUSupportedLimits.MaxComputeWorkgroupStorageSize">
   MaxComputeWorkgroupStorageSize
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L23372"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ulong MaxComputeWorkgroupStorageSize { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;maxComputeWorkgroupStorageSize&quot;)]
+public ulong MaxComputeWorkgroupStorageSize { get; }</code></pre>
   </div>
 
 
@@ -514,14 +539,15 @@ public class GPUSupportedLimits</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_GPUSupportedLimits_MaxComputeWorkgroupsPerDimension" data-uid="CSharpToJavaScript.APIs.JS.GPUSupportedLimits.MaxComputeWorkgroupsPerDimension">
   MaxComputeWorkgroupsPerDimension
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L23377"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ulong MaxComputeWorkgroupsPerDimension { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;maxComputeWorkgroupsPerDimension&quot;)]
+public ulong MaxComputeWorkgroupsPerDimension { get; }</code></pre>
   </div>
 
 
@@ -545,14 +571,15 @@ public class GPUSupportedLimits</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_GPUSupportedLimits_MaxDynamicStorageBuffersPerPipelineLayout" data-uid="CSharpToJavaScript.APIs.JS.GPUSupportedLimits.MaxDynamicStorageBuffersPerPipelineLayout">
   MaxDynamicStorageBuffersPerPipelineLayout
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L23355"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ulong MaxDynamicStorageBuffersPerPipelineLayout { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;maxDynamicStorageBuffersPerPipelineLayout&quot;)]
+public ulong MaxDynamicStorageBuffersPerPipelineLayout { get; }</code></pre>
   </div>
 
 
@@ -576,14 +603,15 @@ public class GPUSupportedLimits</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_GPUSupportedLimits_MaxDynamicUniformBuffersPerPipelineLayout" data-uid="CSharpToJavaScript.APIs.JS.GPUSupportedLimits.MaxDynamicUniformBuffersPerPipelineLayout">
   MaxDynamicUniformBuffersPerPipelineLayout
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L23354"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ulong MaxDynamicUniformBuffersPerPipelineLayout { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;maxDynamicUniformBuffersPerPipelineLayout&quot;)]
+public ulong MaxDynamicUniformBuffersPerPipelineLayout { get; }</code></pre>
   </div>
 
 
@@ -607,14 +635,15 @@ public class GPUSupportedLimits</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_GPUSupportedLimits_MaxInterStageShaderVariables" data-uid="CSharpToJavaScript.APIs.JS.GPUSupportedLimits.MaxInterStageShaderVariables">
   MaxInterStageShaderVariables
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L23369"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ulong MaxInterStageShaderVariables { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;maxInterStageShaderVariables&quot;)]
+public ulong MaxInterStageShaderVariables { get; }</code></pre>
   </div>
 
 
@@ -638,14 +667,15 @@ public class GPUSupportedLimits</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_GPUSupportedLimits_MaxSampledTexturesPerShaderStage" data-uid="CSharpToJavaScript.APIs.JS.GPUSupportedLimits.MaxSampledTexturesPerShaderStage">
   MaxSampledTexturesPerShaderStage
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L23356"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ulong MaxSampledTexturesPerShaderStage { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;maxSampledTexturesPerShaderStage&quot;)]
+public ulong MaxSampledTexturesPerShaderStage { get; }</code></pre>
   </div>
 
 
@@ -669,14 +699,15 @@ public class GPUSupportedLimits</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_GPUSupportedLimits_MaxSamplersPerShaderStage" data-uid="CSharpToJavaScript.APIs.JS.GPUSupportedLimits.MaxSamplersPerShaderStage">
   MaxSamplersPerShaderStage
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L23357"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ulong MaxSamplersPerShaderStage { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;maxSamplersPerShaderStage&quot;)]
+public ulong MaxSamplersPerShaderStage { get; }</code></pre>
   </div>
 
 
@@ -700,14 +731,15 @@ public class GPUSupportedLimits</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_GPUSupportedLimits_MaxStorageBufferBindingSize" data-uid="CSharpToJavaScript.APIs.JS.GPUSupportedLimits.MaxStorageBufferBindingSize">
   MaxStorageBufferBindingSize
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L23362"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ulong MaxStorageBufferBindingSize { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;maxStorageBufferBindingSize&quot;)]
+public ulong MaxStorageBufferBindingSize { get; }</code></pre>
   </div>
 
 
@@ -731,14 +763,15 @@ public class GPUSupportedLimits</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_GPUSupportedLimits_MaxStorageBuffersPerShaderStage" data-uid="CSharpToJavaScript.APIs.JS.GPUSupportedLimits.MaxStorageBuffersPerShaderStage">
   MaxStorageBuffersPerShaderStage
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L23358"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ulong MaxStorageBuffersPerShaderStage { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;maxStorageBuffersPerShaderStage&quot;)]
+public ulong MaxStorageBuffersPerShaderStage { get; }</code></pre>
   </div>
 
 
@@ -762,14 +795,15 @@ public class GPUSupportedLimits</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_GPUSupportedLimits_MaxStorageTexturesPerShaderStage" data-uid="CSharpToJavaScript.APIs.JS.GPUSupportedLimits.MaxStorageTexturesPerShaderStage">
   MaxStorageTexturesPerShaderStage
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L23359"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ulong MaxStorageTexturesPerShaderStage { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;maxStorageTexturesPerShaderStage&quot;)]
+public ulong MaxStorageTexturesPerShaderStage { get; }</code></pre>
   </div>
 
 
@@ -793,14 +827,15 @@ public class GPUSupportedLimits</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_GPUSupportedLimits_MaxTextureArrayLayers" data-uid="CSharpToJavaScript.APIs.JS.GPUSupportedLimits.MaxTextureArrayLayers">
   MaxTextureArrayLayers
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L23350"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ulong MaxTextureArrayLayers { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;maxTextureArrayLayers&quot;)]
+public ulong MaxTextureArrayLayers { get; }</code></pre>
   </div>
 
 
@@ -824,14 +859,15 @@ public class GPUSupportedLimits</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_GPUSupportedLimits_MaxTextureDimension1D" data-uid="CSharpToJavaScript.APIs.JS.GPUSupportedLimits.MaxTextureDimension1D">
   MaxTextureDimension1D
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L23347"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ulong MaxTextureDimension1D { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;maxTextureDimension1D&quot;)]
+public ulong MaxTextureDimension1D { get; }</code></pre>
   </div>
 
 
@@ -855,14 +891,15 @@ public class GPUSupportedLimits</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_GPUSupportedLimits_MaxTextureDimension2D" data-uid="CSharpToJavaScript.APIs.JS.GPUSupportedLimits.MaxTextureDimension2D">
   MaxTextureDimension2D
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L23348"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ulong MaxTextureDimension2D { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;maxTextureDimension2D&quot;)]
+public ulong MaxTextureDimension2D { get; }</code></pre>
   </div>
 
 
@@ -886,14 +923,15 @@ public class GPUSupportedLimits</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_GPUSupportedLimits_MaxTextureDimension3D" data-uid="CSharpToJavaScript.APIs.JS.GPUSupportedLimits.MaxTextureDimension3D">
   MaxTextureDimension3D
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L23349"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ulong MaxTextureDimension3D { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;maxTextureDimension3D&quot;)]
+public ulong MaxTextureDimension3D { get; }</code></pre>
   </div>
 
 
@@ -917,14 +955,15 @@ public class GPUSupportedLimits</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_GPUSupportedLimits_MaxUniformBufferBindingSize" data-uid="CSharpToJavaScript.APIs.JS.GPUSupportedLimits.MaxUniformBufferBindingSize">
   MaxUniformBufferBindingSize
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L23361"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ulong MaxUniformBufferBindingSize { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;maxUniformBufferBindingSize&quot;)]
+public ulong MaxUniformBufferBindingSize { get; }</code></pre>
   </div>
 
 
@@ -948,14 +987,15 @@ public class GPUSupportedLimits</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_GPUSupportedLimits_MaxUniformBuffersPerShaderStage" data-uid="CSharpToJavaScript.APIs.JS.GPUSupportedLimits.MaxUniformBuffersPerShaderStage">
   MaxUniformBuffersPerShaderStage
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L23360"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ulong MaxUniformBuffersPerShaderStage { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;maxUniformBuffersPerShaderStage&quot;)]
+public ulong MaxUniformBuffersPerShaderStage { get; }</code></pre>
   </div>
 
 
@@ -979,14 +1019,15 @@ public class GPUSupportedLimits</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_GPUSupportedLimits_MaxVertexAttributes" data-uid="CSharpToJavaScript.APIs.JS.GPUSupportedLimits.MaxVertexAttributes">
   MaxVertexAttributes
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L23367"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ulong MaxVertexAttributes { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;maxVertexAttributes&quot;)]
+public ulong MaxVertexAttributes { get; }</code></pre>
   </div>
 
 
@@ -1010,14 +1051,15 @@ public class GPUSupportedLimits</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_GPUSupportedLimits_MaxVertexBufferArrayStride" data-uid="CSharpToJavaScript.APIs.JS.GPUSupportedLimits.MaxVertexBufferArrayStride">
   MaxVertexBufferArrayStride
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L23368"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ulong MaxVertexBufferArrayStride { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;maxVertexBufferArrayStride&quot;)]
+public ulong MaxVertexBufferArrayStride { get; }</code></pre>
   </div>
 
 
@@ -1041,14 +1083,15 @@ public class GPUSupportedLimits</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_GPUSupportedLimits_MaxVertexBuffers" data-uid="CSharpToJavaScript.APIs.JS.GPUSupportedLimits.MaxVertexBuffers">
   MaxVertexBuffers
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L23365"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ulong MaxVertexBuffers { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;maxVertexBuffers&quot;)]
+public ulong MaxVertexBuffers { get; }</code></pre>
   </div>
 
 
@@ -1072,14 +1115,15 @@ public class GPUSupportedLimits</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_GPUSupportedLimits_MinStorageBufferOffsetAlignment" data-uid="CSharpToJavaScript.APIs.JS.GPUSupportedLimits.MinStorageBufferOffsetAlignment">
   MinStorageBufferOffsetAlignment
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L23364"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ulong MinStorageBufferOffsetAlignment { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;minStorageBufferOffsetAlignment&quot;)]
+public ulong MinStorageBufferOffsetAlignment { get; }</code></pre>
   </div>
 
 
@@ -1103,14 +1147,15 @@ public class GPUSupportedLimits</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_GPUSupportedLimits_MinUniformBufferOffsetAlignment" data-uid="CSharpToJavaScript.APIs.JS.GPUSupportedLimits.MinUniformBufferOffsetAlignment">
   MinUniformBufferOffsetAlignment
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L23363"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ulong MinUniformBufferOffsetAlignment { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;minUniformBufferOffsetAlignment&quot;)]
+public ulong MinUniformBufferOffsetAlignment { get; }</code></pre>
   </div>
 
 
@@ -1134,7 +1179,7 @@ public class GPUSupportedLimits</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L23344" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs" class="edit-link">Edit this page</a>
         </div>
 
 

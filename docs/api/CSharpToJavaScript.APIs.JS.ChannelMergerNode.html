@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class ChannelMergerNode | CSharpToJavaScript ">
       
-      <meta name="description" content="The ChannelMergerNode interface, often used in conjunction with its opposite, , reunites different mono inputs into a single output. Each input is used to fill a channel of the output. This is useful for accessing each channels separately, e.g. for performing channel mixing where gain must be separately controlled on each channel.">
+      
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/TiLied/CSharpToJavaScript/new/master/apiSpec/new?filename=CSharpToJavaScript_APIs_JS_ChannelMergerNode.md&amp;value=---%0Auid%3A%20CSharpToJavaScript.APIs.JS.ChannelMergerNode%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -89,7 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_ChannelMergerNode" data-uid="CSharpToJavaScript.APIs.JS.ChannelMergerNode" class="text-break">
-Class ChannelMergerNode  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L21164"><i class="bi bi-code-slash"></i></a>
+Class ChannelMergerNode  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,12 +97,11 @@ Class ChannelMergerNode  <a class="header-action link-secondary" title="View sou
   <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>The <code>ChannelMergerNode</code> interface, often used in conjunction with its opposite, <a class="xref" href="CSharpToJavaScript.APIs.JS.ChannelSplitterNode.html">ChannelSplitterNode</a>, reunites different mono inputs into a single output. Each input is used to fill a channel of the output. This is useful for accessing each channels separately, e.g. for performing channel mixing where gain must be separately controlled on each channel.</p>
-</div>
+  <div class="markdown summary"></div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+    <pre><code class="lang-csharp hljs">[Value(&quot;ChannelMergerNode&quot;)]
 public class ChannelMergerNode : AudioNode</code></pre>
   </div>
 
@@ -194,45 +193,31 @@ public class ChannelMergerNode : AudioNode</code></pre>
       <a class="xref" href="CSharpToJavaScript.APIs.JS.EventTarget.html#CSharpToJavaScript_APIs_JS_EventTarget_When_System_String_CSharpToJavaScript_APIs_JS_ObservableEventListenerOptions_">EventTarget.When(string, ObservableEventListenerOptions)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
-    </div>
-    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
     </div>
   </dd></dl>
 
 
 
 
-  <h2 id="CSharpToJavaScript_APIs_JS_ChannelMergerNode_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>
-  <a href="https://developer.mozilla.orgwebaudiomerger.png">Default channel merger node with six mono inputs combining to form a single output.</a>
-</p>
-<p>If <code>ChannelMergerNode</code> has one single output, but as many inputs as there are channels to merge; the number of inputs is defined as a parameter of its constructor and the call to BaseAudioContext/createChannelMerger. In the case that no value is given, it will default to <code>6</code>.</p>
-<p>Using a <code>ChannelMergerNode</code>, it is possible to create outputs with more channels than the rendering hardware is able to process. In that case, when the signal is sent to the BaseAudioContext/listener object, supernumerary channels will be ignored.</p>
-<p></p>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API">Using the Web Audio API</a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/ChannelMergerNode">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
   <h2 class="section" id="constructors">Constructors
@@ -243,7 +228,7 @@ public class ChannelMergerNode : AudioNode</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_ChannelMergerNode__ctor" data-uid="CSharpToJavaScript.APIs.JS.ChannelMergerNode.#ctor">
   ChannelMergerNode()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L21169"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -269,11 +254,10 @@ public class ChannelMergerNode : AudioNode</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_ChannelMergerNode__ctor_CSharpToJavaScript_APIs_JS_BaseAudioContext_CSharpToJavaScript_APIs_JS_ChannelMergerOptions_" data-uid="CSharpToJavaScript.APIs.JS.ChannelMergerNode.#ctor(CSharpToJavaScript.APIs.JS.BaseAudioContext,CSharpToJavaScript.APIs.JS.ChannelMergerOptions)">
   ChannelMergerNode(BaseAudioContext, ChannelMergerOptions)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L21168"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>ChannelMergerNode()</code></strong> constructor creates a new <a class="xref" href="CSharpToJavaScript.APIs.JS.ChannelMergerNode.html">ChannelMergerNode</a> object instance.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -295,13 +279,6 @@ public class ChannelMergerNode : AudioNode</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_ChannelMergerNode__ctor_CSharpToJavaScript_APIs_JS_BaseAudioContext_CSharpToJavaScript_APIs_JS_ChannelMergerOptions__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/ChannelMergerNode/ChannelMergerNode">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -310,7 +287,7 @@ public class ChannelMergerNode : AudioNode</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L21164" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs" class="edit-link">Edit this page</a>
         </div>
 
 

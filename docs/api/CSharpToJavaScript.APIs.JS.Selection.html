@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class Selection | CSharpToJavaScript ">
       
-      <meta name="description" content="A Selection object represents the range of text selected by the user or the current position of the caret. Each  is associated with a unique selection object, which can be retrieved by  or  and then be examined and modified.">
+      
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/TiLied/CSharpToJavaScript/new/master/apiSpec/new?filename=CSharpToJavaScript_APIs_JS_Selection.md&amp;value=---%0Auid%3A%20CSharpToJavaScript.APIs.JS.Selection%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -89,7 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_Selection" data-uid="CSharpToJavaScript.APIs.JS.Selection" class="text-break">
-Class Selection  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L16189"><i class="bi bi-code-slash"></i></a>
+Class Selection  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,12 +97,11 @@ Class Selection  <a class="header-action link-secondary" title="View source" hre
   <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>A <strong><code>Selection</code></strong> object represents the range of text selected by the user or the current position of the caret. Each <a class="xref" href="CSharpToJavaScript.APIs.JS.Document.html">Document</a> is associated with a unique selection object, which can be retrieved by <a class="xref" href="CSharpToJavaScript.APIs.JS.Document.html#CSharpToJavaScript_APIs_JS_Document_GetSelection">GetSelection()</a> or <a class="xref" href="CSharpToJavaScript.APIs.JS.Window.html#CSharpToJavaScript_APIs_JS_Window_GetSelection">GetSelection()</a> and then be examined and modified.</p>
-</div>
+  <div class="markdown summary"></div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+    <pre><code class="lang-csharp hljs">[Value(&quot;Selection&quot;)]
 public class Selection</code></pre>
   </div>
 
@@ -123,46 +122,61 @@ public class Selection</code></pre>
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
-    </div>
-    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
     </div>
   </dd></dl>
 
 
 
 
-  <h2 id="CSharpToJavaScript_APIs_JS_Selection_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>A user may make a selection from left to right (in document order) or right to left (reverse of document order). The <strong><strong>anchor</strong></strong> is where the user began the selection and the <strong><strong>focus</strong></strong> is where the user ends the selection. If you make a selection with a desktop mouse, the anchor is placed where you pressed the mouse button, and the focus is placed where you released the mouse button.</p>
-<blockquote class="NOTE">
-  <h5>NOTE</h5>
-  <p>
-    <strong>Note:</strong>
-    <strong>Anchor</strong> and <strong>focus</strong> should not be confused with the <strong>start</strong> and <strong>end</strong> positions of a selection. The anchor can be placed before the focus or vice versa, depending on the direction you made your selection.</p>
-</blockquote>
-<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Window.html#CSharpToJavaScript_APIs_JS_Window_GetSelection">GetSelection()</a>, <a class="xref" href="CSharpToJavaScript.APIs.JS.Document.html#CSharpToJavaScript_APIs_JS_Document_GetSelection">GetSelection()</a>, <a class="xref" href="CSharpToJavaScript.APIs.JS.Range.html">Range</a><br>-Selection-related events: Document/selectionchange_event and Node/selectstart_event<br>-HTML inputs provide simpler helper APIs for working with selection (see <a class="xref" href="CSharpToJavaScript.APIs.JS.HTMLInputElement.html#CSharpToJavaScript_APIs_JS_HTMLInputElement_SetSelectionRange_System_UInt64_System_UInt64_System_String_">SetSelectionRange(ulong, ulong, string)</a>)<br>-Document.ActiveElement, HTMLElement.Focus, and HTMLElement.Blur<br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Selection">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_Selection__ctor_" data-uid="CSharpToJavaScript.APIs.JS.Selection.#ctor*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_Selection__ctor" data-uid="CSharpToJavaScript.APIs.JS.Selection.#ctor">
+  Selection()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Selection()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
 
 
   <h2 class="section" id="properties">Properties
@@ -173,15 +187,15 @@ public class Selection</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Selection_AnchorNode" data-uid="CSharpToJavaScript.APIs.JS.Selection.AnchorNode">
   AnchorNode
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L16193"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>Selection.anchorNode</code></strong> read-only property returns the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a> in which the selection begins.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Node? AnchorNode { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;anchorNode&quot;)]
+public Node? AnchorNode { get; }</code></pre>
   </div>
 
 
@@ -191,22 +205,12 @@ public class Selection</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a></dt>
-    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a> object.</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Selection_AnchorNode_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>A user may make a selection from left to right (in document order) or right to left<br>(reverse of document order). The anchor is where the user began the selection. This can<br>be visualized by holding the Shift key and pressing the arrow keys on your keyboard. The<br>selection&amp;apos;s anchor does not move, but the selection&amp;apos;s focus, the other end of the<br>selection, does move.</p>
-<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Selection.html">Selection</a>, the interface it belongs to.<br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Selection/anchorNode">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -215,15 +219,15 @@ public class Selection</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Selection_AnchorOffset" data-uid="CSharpToJavaScript.APIs.JS.Selection.AnchorOffset">
   AnchorOffset
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L16195"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>Selection.anchorOffset</code></strong> read-only property returns the<br>number of characters that the selection&amp;apos;s anchor is offset within the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Selection.html#CSharpToJavaScript_APIs_JS_Selection_AnchorNode">AnchorNode</a> if said node is of type <a class="xref" href="CSharpToJavaScript.APIs.JS.Text.html">Text</a>, <a class="xref" href="CSharpToJavaScript.APIs.JS.CDATASection.html">CDATASection</a> or <a class="xref" href="CSharpToJavaScript.APIs.JS.Comment.html">Comment</a>.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ulong AnchorOffset { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;anchorOffset&quot;)]
+public ulong AnchorOffset { get; }</code></pre>
   </div>
 
 
@@ -233,23 +237,12 @@ public class Selection</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
-    <dd><p>A number.</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Selection_AnchorOffset_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>In the case of <a class="xref" href="CSharpToJavaScript.APIs.JS.Selection.html#CSharpToJavaScript_APIs_JS_Selection_AnchorNode">AnchorNode</a> being another type of node, <strong><code>Selection.anchorOffset</code></strong> returns the number of <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_ChildNodes">ChildNodes</a> the selection's focus is offset within the <a class="xref" href="CSharpToJavaScript.APIs.JS.Selection.html#CSharpToJavaScript_APIs_JS_Selection_AnchorNode">AnchorNode</a>.</p>
-<p>This number is zero-based. If the selection begins with the first character in the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Selection.html#CSharpToJavaScript_APIs_JS_Selection_AnchorNode">AnchorNode</a>, <code>0</code> is returned.</p>
-<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Selection.html">Selection</a>, the interface it belongs to.<br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Selection/anchorOffset">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -258,15 +251,15 @@ public class Selection</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Selection_Direction" data-uid="CSharpToJavaScript.APIs.JS.Selection.Direction">
   Direction
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L16207"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>direction</code></strong> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Selection.html">Selection</a> interface is a string that provides the direction of the current selection.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Direction { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;direction&quot;)]
+public string Direction { get; }</code></pre>
   </div>
 
 
@@ -276,23 +269,12 @@ public class Selection</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>A string describing the type of the current selection.<br>Possible values are:</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Selection_Direction_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>The value is determined by the order in which the user chooses the boundary points of the selection.<br>For example, a user might make a selection by clicking a starting boundary point, dragging the cursor, and releasing at an end boundary point.<br>If the end boundary point is later in the document than the start point, then the direction is &amp;quot;forwards&amp;quot;, while the direction is &amp;quot;backwards&amp;quot; if the end point is before the start point within the document.<br>The value is &amp;quot;directionless&amp;quot; if no direction is implied by the user. For example, if the user made the selection by double-clicking on a word or element, or the selection was made programmatically.</p>
-<p>The direction does not change if a selection's range is mutated, for example, using methods like <a class="xref" href="CSharpToJavaScript.APIs.JS.Range.html#CSharpToJavaScript_APIs_JS_Range_SelectNode_CSharpToJavaScript_APIs_JS_Node_">SelectNode(Node)</a>.</p>
-<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Selection.html">Selection</a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Selection/direction">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -301,15 +283,15 @@ public class Selection</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Selection_FocusNode" data-uid="CSharpToJavaScript.APIs.JS.Selection.FocusNode">
   FocusNode
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L16197"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>Selection.focusNode</code></strong> read-only property returns the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a> in which the selection ends.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Node? FocusNode { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;focusNode&quot;)]
+public Node? FocusNode { get; }</code></pre>
   </div>
 
 
@@ -319,22 +301,12 @@ public class Selection</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a></dt>
-    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html">Node</a> object.</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Selection_FocusNode_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>A user may make a selection from left to right (in document order) or right to left<br>(reverse of document order). The focus is where the user ended the selection. This can<br>be visualized by holding the &amp;lt;kbd&amp;gt;Shift&amp;lt;/kbd&amp;gt; key and pressing the arrow keys on your<br>keyboard to modify the current selection. The selection&amp;apos;s focus moves, but the<br>selection&amp;apos;s anchor, the other end of the selection, does not move.</p>
-<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Selection.html">Selection</a>, the interface it belongs to.<br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Selection/focusNode">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -343,15 +315,15 @@ public class Selection</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Selection_FocusOffset" data-uid="CSharpToJavaScript.APIs.JS.Selection.FocusOffset">
   FocusOffset
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L16199"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>Selection.focusOffset</code></strong> read-only property returns the<br>number of characters that the selection&amp;apos;s focus is offset within the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Selection.html#CSharpToJavaScript_APIs_JS_Selection_FocusNode">FocusNode</a> if said node is of type <a class="xref" href="CSharpToJavaScript.APIs.JS.Text.html">Text</a>, <a class="xref" href="CSharpToJavaScript.APIs.JS.CDATASection.html">CDATASection</a> or <a class="xref" href="CSharpToJavaScript.APIs.JS.Comment.html">Comment</a>.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ulong FocusOffset { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;focusOffset&quot;)]
+public ulong FocusOffset { get; }</code></pre>
   </div>
 
 
@@ -361,23 +333,12 @@ public class Selection</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
-    <dd><p>A number.</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Selection_FocusOffset_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>In the case of <a class="xref" href="CSharpToJavaScript.APIs.JS.Selection.html#CSharpToJavaScript_APIs_JS_Selection_FocusNode">FocusNode</a> being another type of node, <strong><code>Selection.focusOffset</code></strong> returns the number of <a class="xref" href="CSharpToJavaScript.APIs.JS.Node.html#CSharpToJavaScript_APIs_JS_Node_ChildNodes">ChildNodes</a> the selection's focus is offset within the <a class="xref" href="CSharpToJavaScript.APIs.JS.Selection.html#CSharpToJavaScript_APIs_JS_Selection_FocusNode">FocusNode</a>.</p>
-<p>This number is zero-based. If the selection ends with the first character in the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Selection.html#CSharpToJavaScript_APIs_JS_Selection_FocusNode">FocusNode</a>, <code>0</code> is returned.</p>
-<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Selection.html">Selection</a>, the interface it belongs to.<br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Selection/focusOffset">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -386,15 +347,15 @@ public class Selection</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Selection_IsCollapsed" data-uid="CSharpToJavaScript.APIs.JS.Selection.IsCollapsed">
   IsCollapsed
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L16201"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>Selection.isCollapsed</code></strong> read-only property returns a<br>boolean value which indicates whether or not there is currently any text<br>selected. No text is selected when the selection&amp;apos;s start and end points are at the same<br>position in the content.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsCollapsed { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;isCollapsed&quot;)]
+public bool IsCollapsed { get; }</code></pre>
   </div>
 
 
@@ -404,22 +365,12 @@ public class Selection</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p>A boolean.</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Selection_IsCollapsed_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>Keep in mind that a collapsed selection may still have one (or more, in Gecko)<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Range.html">Range</a>s, so <a class="xref" href="CSharpToJavaScript.APIs.JS.Selection.html#CSharpToJavaScript_APIs_JS_Selection_RangeCount">RangeCount</a> may not be zero. In that<br>scenario, calling a <a class="xref" href="CSharpToJavaScript.APIs.JS.Selection.html">Selection</a> object's <a class="xref" href="CSharpToJavaScript.APIs.JS.Selection.html#CSharpToJavaScript_APIs_JS_Selection_GetRangeAt_System_UInt64_">GetRangeAt(ulong)</a><br>method may return a <code>Range</code> object which is collapsed.</p>
-<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Selection.html">Selection</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Range.html">Range</a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Selection/isCollapsed">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -428,15 +379,15 @@ public class Selection</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Selection_RangeCount" data-uid="CSharpToJavaScript.APIs.JS.Selection.RangeCount">
   RangeCount
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L16203"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>Selection.rangeCount</code></strong> read-only property returns the<br>number of ranges in the selection.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ulong RangeCount { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;rangeCount&quot;)]
+public ulong RangeCount { get; }</code></pre>
   </div>
 
 
@@ -446,24 +397,12 @@ public class Selection</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.uint64">ulong</a></dt>
-    <dd><p>A number.</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Selection_RangeCount_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>Before the user has clicked a freshly loaded page, the <code>rangeCount</code> is<br><code>0</code>. After the user clicks on the page, <code>rangeCount</code> is<br><code>1</code>, even if no selection is visible.</p>
-<p>A user can normally only select one range at a time, so the <code>rangeCount</code><br>will usually be <code>1</code>. Scripting can be used to make the selection contain more<br>than one range.</p>
-<p>Gecko browsers allow multiple selections across table cells. Firefox allows to select<br>multiple ranges in the document by using Ctrl+click (unless the click occurs within an<br>element that has the <code>display: table-cell</code> CSS property assigned).</p>
-<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Selection.html">Selection</a>, the interface it belongs to.<br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Selection/rangeCount">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -472,15 +411,15 @@ public class Selection</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Selection_Type" data-uid="CSharpToJavaScript.APIs.JS.Selection.Type">
   Type
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L16205"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>type</code></strong> read-only property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Selection.html">Selection</a> interface returns a string describing the<br>type of the current selection.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Type { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;type&quot;)]
+public string Type { get; }</code></pre>
   </div>
 
 
@@ -490,21 +429,12 @@ public class Selection</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>A string describing the type of the current selection. Possible<br>values are:</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Selection_Type_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Selection.html">Selection</a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Selection/type">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -517,15 +447,15 @@ public class Selection</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Selection_AddRange_CSharpToJavaScript_APIs_JS_Range_" data-uid="CSharpToJavaScript.APIs.JS.Selection.AddRange(CSharpToJavaScript.APIs.JS.Range)">
   AddRange(Range)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L16211"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>Selection.addRange()</code></strong> method adds a<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Range.html">Range</a> to a <a class="xref" href="CSharpToJavaScript.APIs.JS.Selection.html">Selection</a>.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined AddRange(Range range)</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;addRange&quot;)]
+public GlobalObject.Undefined AddRange(Range range)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -536,9 +466,8 @@ public class Selection</code></pre>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
-    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -547,14 +476,6 @@ public class Selection</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Selection_AddRange_CSharpToJavaScript_APIs_JS_Range__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Selection.html">Selection</a>, the interface this method belongs to<br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Selection/addRange">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -563,15 +484,15 @@ public class Selection</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Selection_Collapse_CSharpToJavaScript_APIs_JS_Node_System_UInt64_" data-uid="CSharpToJavaScript.APIs.JS.Selection.Collapse(CSharpToJavaScript.APIs.JS.Node,System.UInt64)">
   Collapse(Node?, ulong)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L16221"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>Selection.collapse()</code></strong> method collapses the current selection to a single point. The document is not modified. If the content is focused and editable, the caret will blink there.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined Collapse(Node? node, ulong offset = 0)</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;collapse&quot;)]
+public GlobalObject.Undefined Collapse(Node? node, ulong offset = 0)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -584,9 +505,8 @@ public class Selection</code></pre>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
-    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -595,18 +515,6 @@ public class Selection</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Selection_Collapse_CSharpToJavaScript_APIs_JS_Node_System_UInt64__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><blockquote class="NOTE">
-  <h5>NOTE</h5>
-  <p>This method is an alias for the <a class="xref" href="CSharpToJavaScript.APIs.JS.Selection.html#CSharpToJavaScript_APIs_JS_Selection_SetPosition_CSharpToJavaScript_APIs_JS_Node_System_UInt64_">SetPosition(Node?, ulong)</a> method.</p>
-</blockquote>
-<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Selection.html#CSharpToJavaScript_APIs_JS_Selection_SetPosition_CSharpToJavaScript_APIs_JS_Node_System_UInt64_">SetPosition(Node?, ulong)</a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Selection/collapse">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -615,23 +523,22 @@ public class Selection</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Selection_CollapseToEnd" data-uid="CSharpToJavaScript.APIs.JS.Selection.CollapseToEnd">
   CollapseToEnd()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L16227"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>Selection.collapseToEnd()</code></strong> method collapses the<br>selection to the end of the last range in the selection. If the content of the selection<br>is focused and editable, the caret will blink there.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined CollapseToEnd()</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;collapseToEnd&quot;)]
+public GlobalObject.Undefined CollapseToEnd()</code></pre>
   </div>
 
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
-    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -640,14 +547,6 @@ public class Selection</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Selection_CollapseToEnd_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Selection.html">Selection</a>, the interface it belongs to.<br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Selection/collapseToEnd">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -656,23 +555,22 @@ public class Selection</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Selection_CollapseToStart" data-uid="CSharpToJavaScript.APIs.JS.Selection.CollapseToStart">
   CollapseToStart()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L16225"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>Selection.collapseToStart()</code></strong> method collapses the<br>selection to the start of the first range in the selection. If the content of the<br>selection is focused and editable, the caret will blink there.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined CollapseToStart()</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;collapseToStart&quot;)]
+public GlobalObject.Undefined CollapseToStart()</code></pre>
   </div>
 
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
-    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -681,14 +579,6 @@ public class Selection</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Selection_CollapseToStart_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Selection.html">Selection</a>, the interface it belongs to.<br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Selection/collapseToStart">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -697,15 +587,15 @@ public class Selection</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Selection_ContainsNode_CSharpToJavaScript_APIs_JS_Node_System_Boolean_" data-uid="CSharpToJavaScript.APIs.JS.Selection.ContainsNode(CSharpToJavaScript.APIs.JS.Node,System.Boolean)">
   ContainsNode(Node, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L16239"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>Selection.containsNode()</code></strong> method indicates whether a<br>specified node is part of the selection.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool ContainsNode(Node node, bool allowPartialContainment = false)</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;containsNode&quot;)]
+public bool ContainsNode(Node node, bool allowPartialContainment = false)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -719,8 +609,7 @@ public class Selection</code></pre>
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd><p>Returns <code>true</code> if the given node is part of the selection, and <code>false</code> otherwise.</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
@@ -729,14 +618,6 @@ public class Selection</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Selection_ContainsNode_CSharpToJavaScript_APIs_JS_Node_System_Boolean__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Selection.html">Selection</a>, the interface it belongs to.<br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Selection/containsNode">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -745,23 +626,22 @@ public class Selection</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Selection_DeleteFromDocument" data-uid="CSharpToJavaScript.APIs.JS.Selection.DeleteFromDocument">
   DeleteFromDocument()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L16237"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>deleteFromDocument()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Selection.html">Selection</a> interface invokes the <a class="xref" href="CSharpToJavaScript.APIs.JS.Range.html#CSharpToJavaScript_APIs_JS_Range_DeleteContents">DeleteContents()</a> method on the selected <a class="xref" href="CSharpToJavaScript.APIs.JS.Range.html">Range</a>.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined DeleteFromDocument()</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;deleteFromDocument&quot;)]
+public GlobalObject.Undefined DeleteFromDocument()</code></pre>
   </div>
 
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
-    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -770,14 +650,6 @@ public class Selection</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Selection_DeleteFromDocument_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Selection.html">Selection</a>, the interface defining this method<br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Selection/deleteFromDocument">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -786,23 +658,22 @@ public class Selection</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Selection_Empty" data-uid="CSharpToJavaScript.APIs.JS.Selection.Empty">
   Empty()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L16217"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>Selection.empty()</code></strong> method removes all ranges from the selection, leaving the <a class="xref" href="CSharpToJavaScript.APIs.JS.Selection.html#CSharpToJavaScript_APIs_JS_Selection_AnchorNode">AnchorNode</a> and <a class="xref" href="CSharpToJavaScript.APIs.JS.Selection.html#CSharpToJavaScript_APIs_JS_Selection_FocusNode">FocusNode</a> properties equal to <code>null</code> and nothing selected. When this method is called, a Document/selectionchange_event event is fired at the document.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined Empty()</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;empty&quot;)]
+public GlobalObject.Undefined Empty()</code></pre>
   </div>
 
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
-    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -811,18 +682,6 @@ public class Selection</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Selection_Empty_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><blockquote class="NOTE">
-  <h5>NOTE</h5>
-  <p>This method is an alias for the <a class="xref" href="CSharpToJavaScript.APIs.JS.Selection.html#CSharpToJavaScript_APIs_JS_Selection_RemoveAllRanges">RemoveAllRanges()</a> method.</p>
-</blockquote>
-<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Selection.html#CSharpToJavaScript_APIs_JS_Selection_RemoveAllRanges">RemoveAllRanges()</a><br>-Document/selectionchange_event<br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Selection/empty">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -831,15 +690,15 @@ public class Selection</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Selection_Extend_CSharpToJavaScript_APIs_JS_Node_System_UInt64_" data-uid="CSharpToJavaScript.APIs.JS.Selection.Extend(CSharpToJavaScript.APIs.JS.Node,System.UInt64)">
   Extend(Node, ulong)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L16229"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>Selection.extend()</code></strong> method moves the focus of the<br>selection to a specified point. The anchor of the selection does not move. The selection<br>will be from the anchor to the new focus, regardless of direction.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined Extend(Node node, ulong offset = 0)</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;extend&quot;)]
+public GlobalObject.Undefined Extend(Node node, ulong offset = 0)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -852,9 +711,8 @@ public class Selection</code></pre>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
-    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -863,14 +721,6 @@ public class Selection</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Selection_Extend_CSharpToJavaScript_APIs_JS_Node_System_UInt64__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Selection.html">Selection</a>, the interface it belongs to.<br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Selection/extend">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -879,18 +729,15 @@ public class Selection</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Selection_GetComposedRanges_CSharpToJavaScript_APIs_JS_GetComposedRangesOptions_" data-uid="CSharpToJavaScript.APIs.JS.Selection.GetComposedRanges(CSharpToJavaScript.APIs.JS.GetComposedRangesOptions)">
   GetComposedRanges(GetComposedRangesOptions)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L16219"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><div class="NOTE">
-  <h5>NOTE</h5>
-  <strong>Experimental</strong>
-</div> The <strong><code>Selection.getComposedRanges()</code></strong> method returns an array of <a class="xref" href="CSharpToJavaScript.APIs.JS.StaticRange.html">StaticRange</a> objects representing the current selection ranges, and can return ranges that potentially cross shadow boundaries.
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;StaticRange&gt; GetComposedRanges(GetComposedRangesOptions options = null)</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;getComposedRanges&quot;)]
+public List&lt;StaticRange&gt; GetComposedRanges(GetComposedRangesOptions options = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -902,8 +749,7 @@ public class Selection</code></pre>
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="CSharpToJavaScript.APIs.JS.StaticRange.html">StaticRange</a>&gt;</dt>
-    <dd><p>An array of <a class="xref" href="CSharpToJavaScript.APIs.JS.StaticRange.html">StaticRange</a> objects that represent the selected ranges within the composed (flattened) tree of the document.<br>At time of writing the specification expects this array to only contain one object.</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
@@ -912,20 +758,6 @@ public class Selection</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Selection_GetComposedRanges_CSharpToJavaScript_APIs_JS_GetComposedRangesOptions__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>As the selection range endpoints may be within a shadow tree, or even different shadow trees, and because these may be closed, the method cannot by default return nodes from within a shadow tree.<br>If the method needs to return a selection that includes nodes inside shadow trees, then the <a class="xref" href="CSharpToJavaScript.APIs.JS.ShadowRoot.html">ShadowRoot</a> objects for these trees must be passed as arguments to the method.<br>If a corresponding roots are not provided and the start or endpoint of the selection are within a shadow tree, the returned range is re-scoped to include the host of the shadow root rather than some node with in the root.</p>
-<p>The returned ranges represent the range at the time that <code>getComposedRanges()</code> was called.<br>If the DOM or a shadow DOM is mutated, the selected range is likely to be incorrect.<br>Application code might use a <a class="xref" href="CSharpToJavaScript.APIs.JS.MutationObserver.html">MutationObserver</a> to monitor for DOM mutations and then call <a class="xref" href="CSharpToJavaScript.APIs.JS.Selection.html#CSharpToJavaScript_APIs_JS_Selection_SetBaseAndExtent_CSharpToJavaScript_APIs_JS_Node_System_UInt64_CSharpToJavaScript_APIs_JS_Node_System_UInt64_">SetBaseAndExtent(Node, ulong, Node, ulong)</a> to update the selection.</p>
-<blockquote class="NOTE">
-  <h5>NOTE</h5>
-  <p>This method should be used instead of <a class="xref" href="CSharpToJavaScript.APIs.JS.Selection.html#CSharpToJavaScript_APIs_JS_Selection_GetRangeAt_System_UInt64_">GetRangeAt(ulong)</a> when selecting ranges that can potentially cross shadow root boundaries.<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Selection.html#CSharpToJavaScript_APIs_JS_Selection_GetRangeAt_System_UInt64_">GetRangeAt(ulong)</a> is not aware of shadow roots.<br>The returned range is not specified, and varies between browsers.</p>
-</blockquote>
-<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Selection.html">Selection</a>, the interface it belongs to.<br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Selection/getComposedRanges">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -934,15 +766,15 @@ public class Selection</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Selection_GetRangeAt_System_UInt64_" data-uid="CSharpToJavaScript.APIs.JS.Selection.GetRangeAt(System.UInt64)">
   GetRangeAt(ulong)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L16209"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>getRangeAt()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Selection.html">Selection</a> interface returns a range object representing a currently selected range.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Range GetRangeAt(ulong index)</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;getRangeAt&quot;)]
+public Range GetRangeAt(ulong index)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -954,8 +786,7 @@ public class Selection</code></pre>
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Range.html">Range</a></dt>
-    <dd><p>The specified <a class="xref" href="CSharpToJavaScript.APIs.JS.Range.html">Range</a> object.</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
@@ -964,19 +795,6 @@ public class Selection</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Selection_GetRangeAt_System_UInt64__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>If the endpoints of the selected range are within a <a href="https://developer.mozilla.org/en-US/docs/Glossary/shadow tree">shadow tree</a> then JavaScript does not have visibility of the shadow nodes, and the method should re-scope the range to include the host element that contains the end point.<br>In practice most browsers do not yet implement this behavior, and the returned range is unpredictable.</p>
-<blockquote class="NOTE">
-  <h5>NOTE</h5>
-  <p>When selecting within nodes that might contain a shadow root, you can use <a class="xref" href="CSharpToJavaScript.APIs.JS.Selection.html#CSharpToJavaScript_APIs_JS_Selection_GetComposedRanges_CSharpToJavaScript_APIs_JS_GetComposedRangesOptions_">GetComposedRanges(GetComposedRangesOptions)</a> (if supported) to get a selection range inside a shadow tree, or to reliably re-scope the selection to the host node.</p>
-</blockquote>
-<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Selection.html">Selection</a>, the interface it belongs to.<br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Selection/getRangeAt">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -985,15 +803,15 @@ public class Selection</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Selection_Modify_System_String_System_String_System_String_" data-uid="CSharpToJavaScript.APIs.JS.Selection.Modify(System.String,System.String,System.String)">
   Modify(string, string, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L16235"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>Selection.modify()</code></strong> method applies a change to the<br>current selection or cursor position, using simple textual commands.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined Modify(string alter = null, string direction = null, string granularity = null)</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;modify&quot;)]
+public GlobalObject.Undefined Modify(string alter = null, string direction = null, string granularity = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -1008,9 +826,8 @@ public class Selection</code></pre>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
-    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -1019,14 +836,6 @@ public class Selection</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Selection_Modify_System_String_System_String_System_String__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Selection.html">Selection</a>, the interface it belongs to.<br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Selection/modify">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -1035,23 +844,22 @@ public class Selection</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Selection_RemoveAllRanges" data-uid="CSharpToJavaScript.APIs.JS.Selection.RemoveAllRanges">
   RemoveAllRanges()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L16215"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>Selection.removeAllRanges()</code></strong> method removes all ranges from the selection, leaving the <a class="xref" href="CSharpToJavaScript.APIs.JS.Selection.html#CSharpToJavaScript_APIs_JS_Selection_AnchorNode">AnchorNode</a> and <a class="xref" href="CSharpToJavaScript.APIs.JS.Selection.html#CSharpToJavaScript_APIs_JS_Selection_FocusNode">FocusNode</a> properties equal to <code>null</code> and nothing selected. When this method is called, a Document/selectionchange_event event is fired at the document.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined RemoveAllRanges()</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;removeAllRanges&quot;)]
+public GlobalObject.Undefined RemoveAllRanges()</code></pre>
   </div>
 
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
-    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -1060,18 +868,6 @@ public class Selection</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Selection_RemoveAllRanges_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><blockquote class="NOTE">
-  <h5>NOTE</h5>
-  <p>This method is an alias for the <a class="xref" href="CSharpToJavaScript.APIs.JS.Selection.html#CSharpToJavaScript_APIs_JS_Selection_Empty">Empty()</a> method.</p>
-</blockquote>
-<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Selection.html#CSharpToJavaScript_APIs_JS_Selection_Empty">Empty()</a><br>-Document/selectionchange_event<br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Selection/removeAllRanges">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -1080,15 +876,15 @@ public class Selection</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Selection_RemoveRange_CSharpToJavaScript_APIs_JS_Range_" data-uid="CSharpToJavaScript.APIs.JS.Selection.RemoveRange(CSharpToJavaScript.APIs.JS.Range)">
   RemoveRange(Range)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L16213"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>Selection.removeRange()</code></strong> method removes a range from a<br>selection.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined RemoveRange(Range range)</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;removeRange&quot;)]
+public GlobalObject.Undefined RemoveRange(Range range)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -1099,9 +895,8 @@ public class Selection</code></pre>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
-    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -1110,14 +905,6 @@ public class Selection</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Selection_RemoveRange_CSharpToJavaScript_APIs_JS_Range__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Selection.html">Selection</a>, the interface it belongs to.<br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Selection/removeRange">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -1126,15 +913,15 @@ public class Selection</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Selection_SelectAllChildren_CSharpToJavaScript_APIs_JS_Node_" data-uid="CSharpToJavaScript.APIs.JS.Selection.SelectAllChildren(CSharpToJavaScript.APIs.JS.Node)">
   SelectAllChildren(Node)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L16233"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>Selection.selectAllChildren()</code></strong> method adds all the<br>children of the specified node to the selection. Previous selection is lost.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined SelectAllChildren(Node node)</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;selectAllChildren&quot;)]
+public GlobalObject.Undefined SelectAllChildren(Node node)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -1145,9 +932,8 @@ public class Selection</code></pre>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
-    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -1156,14 +942,6 @@ public class Selection</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Selection_SelectAllChildren_CSharpToJavaScript_APIs_JS_Node__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Selection.html">Selection</a>, the interface it belongs to.<br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Selection/selectAllChildren">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -1172,15 +950,15 @@ public class Selection</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Selection_SetBaseAndExtent_CSharpToJavaScript_APIs_JS_Node_System_UInt64_CSharpToJavaScript_APIs_JS_Node_System_UInt64_" data-uid="CSharpToJavaScript.APIs.JS.Selection.SetBaseAndExtent(CSharpToJavaScript.APIs.JS.Node,System.UInt64,CSharpToJavaScript.APIs.JS.Node,System.UInt64)">
   SetBaseAndExtent(Node, ulong, Node, ulong)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L16231"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>setBaseAndExtent()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Selection.html">Selection</a> interface sets the selection to be a range including all or parts of two specified DOM nodes, and any content located between them.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined SetBaseAndExtent(Node anchorNode, ulong anchorOffset, Node focusNode, ulong focusOffset)</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;setBaseAndExtent&quot;)]
+public GlobalObject.Undefined SetBaseAndExtent(Node anchorNode, ulong anchorOffset, Node focusNode, ulong focusOffset)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -1197,9 +975,8 @@ public class Selection</code></pre>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
-    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -1208,15 +985,6 @@ public class Selection</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Selection_SetBaseAndExtent_CSharpToJavaScript_APIs_JS_Node_System_UInt64_CSharpToJavaScript_APIs_JS_Node_System_UInt64__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>The anchor and focus nodes can be located in a <a href="https://developer.mozilla.org/en-US/docs/Glossary/shadow tree">shadow tree</a>, if supported by the browser.</p>
-<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Selection.html">Selection</a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Selection/setBaseAndExtent">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -1225,15 +993,15 @@ public class Selection</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Selection_SetPosition_CSharpToJavaScript_APIs_JS_Node_System_UInt64_" data-uid="CSharpToJavaScript.APIs.JS.Selection.SetPosition(CSharpToJavaScript.APIs.JS.Node,System.UInt64)">
   SetPosition(Node?, ulong)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L16223"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>Selection.setPosition()</code></strong> method collapses the current selection to a single point. The document is not modified. If the content is focused and editable, the caret will blink there.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined SetPosition(Node? node, ulong offset = 0)</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;setPosition&quot;)]
+public GlobalObject.Undefined SetPosition(Node? node, ulong offset = 0)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -1246,9 +1014,8 @@ public class Selection</code></pre>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
-    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -1257,18 +1024,6 @@ public class Selection</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Selection_SetPosition_CSharpToJavaScript_APIs_JS_Node_System_UInt64__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><blockquote class="NOTE">
-  <h5>NOTE</h5>
-  <p>This method is an alias for the <a class="xref" href="CSharpToJavaScript.APIs.JS.Selection.html#CSharpToJavaScript_APIs_JS_Selection_Collapse_CSharpToJavaScript_APIs_JS_Node_System_UInt64_">Collapse(Node?, ulong)</a> method.</p>
-</blockquote>
-<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Selection.html#CSharpToJavaScript_APIs_JS_Selection_Collapse_CSharpToJavaScript_APIs_JS_Node_System_UInt64_">Collapse(Node?, ulong)</a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Selection/setPosition">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -1277,7 +1032,7 @@ public class Selection</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L16189" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs" class="edit-link">Edit this page</a>
         </div>
 
 

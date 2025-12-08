@@ -72,7 +72,42 @@
 
         <article data-uid="">
 
-<p><a href="https://github.com/TiLied/CSTOJS_CLI">CLI</a> | <a href="">Dotnet tool</a> | <a href="https://github.com/TiLied/CSharpToJavaScript">Core</a> | <a href="https://www.nuget.org/packages/CSharpToJavaScript/">Nuget package</a> | <a href="https://tilied.github.io/CSTOJS_Pages/BWA/">Try it online!</a></p>
+<p><a href="https://github.com/TiLied/CSTOJS_CLI">CLI</a> | <a href="https://www.nuget.org/packages/TiLied.CSTOJS_CLI">Dotnet tool</a> | <a href="https://github.com/TiLied/CSharpToJavaScript">Core</a> | <a href="https://www.nuget.org/packages/CSharpToJavaScript/">Nuget package</a> | <a href="https://tilied.github.io/CSTOJS_Pages/BWA/">Try it online!</a></p>
+<h2 id="quick-start-for-a-cli">Quick start for a CLI</h2>
+<h3 id="to-install">To install:</h3>
+<pre><code class="lang-csharp">dotnet tool install --global TiLied.CSTOJS_CLI
+</code></pre>
+<h3 id="to-use">To use:</h3>
+<pre><code class="lang-csharp">cstojs-cli setup &quot;Output&quot;
+</code></pre>
+<pre><code class="lang-csharp">cstojs-cli translate
+</code></pre>
+<h3 id="to-update">To update:</h3>
+<pre><code class="lang-csharp">dotnet tool update --global TiLied.CSTOJS_CLI
+</code></pre>
+<h3 id="to-delete">To delete:</h3>
+<pre><code class="lang-csharp">dotnet tool uninstall --global TiLied.CSTOJS_CLI
+</code></pre>
+<h2 id="using-as-a-library">Using as a library</h2>
+<ul>
+<li>Install <a href="https://www.nuget.org/packages/CSharpToJavaScript/">nuget package</a> or download a <a href="https://github.com/TiLied/CSharpToJavaScript/releases">specific version</a>.</li>
+<li>Skip this if using a Nuget package. Follow <a href="https://learn.microsoft.com/en-us/dotnet/core/tutorials/library-with-visual-studio?pivots=dotnet-7-0#add-a-project-reference">the instructions on how to add a project reference</a>.</li>
+<li>In the Main method, add:</li>
+</ul>
+<pre><code class="lang-csharp">FileData file = new()
+{
+	SourceStr = @&quot;Console.WriteLine(&quot;&quot;Hello world.&quot;&quot;);&quot;
+};
+file = CSTOJS.Translate(file);
+
+Console.WriteLine(file.TranslatedStr);
+</code></pre>
+<ul>
+<li>Run a program</li>
+<li>Console output should be:</li>
+</ul>
+<pre><code class="lang-javascript">console.log(&quot;Hello world.&quot;);
+</code></pre>
 
 </article>
 

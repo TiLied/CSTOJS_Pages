@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class PerformanceEntry | CSharpToJavaScript ">
       
-      <meta name="description" content="The PerformanceEntry object encapsulates a single performance metric that is part of the browser&amp;amp;apos;s performance timeline.">
+      
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/TiLied/CSharpToJavaScript/new/master/apiSpec/new?filename=CSharpToJavaScript_APIs_JS_PerformanceEntry.md&amp;value=---%0Auid%3A%20CSharpToJavaScript.APIs.JS.PerformanceEntry%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -89,7 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_PerformanceEntry" data-uid="CSharpToJavaScript.APIs.JS.PerformanceEntry" class="text-break">
-Class PerformanceEntry  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L14727"><i class="bi bi-code-slash"></i></a>
+Class PerformanceEntry  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,12 +97,11 @@ Class PerformanceEntry  <a class="header-action link-secondary" title="View sour
   <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>The <strong><code>PerformanceEntry</code></strong> object encapsulates a single performance metric that is part of the browser&amp;apos;s performance timeline.</p>
-</div>
+  <div class="markdown summary"></div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+    <pre><code class="lang-csharp hljs">[Value(&quot;PerformanceEntry&quot;)]
 public class PerformanceEntry</code></pre>
   </div>
 
@@ -141,41 +140,61 @@ public class PerformanceEntry</code></pre>
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
-    </div>
-    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
     </div>
   </dd></dl>
 
 
 
 
-  <h2 id="CSharpToJavaScript_APIs_JS_PerformanceEntry_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>The Performance API offers built-in metrics which are specialized subclasses of <code>PerformanceEntry</code>. This includes entries for resource loading, event timing, and more.</p>
-<p>A performance entry can also be created by calling the <a class="xref" href="CSharpToJavaScript.APIs.JS.Performance.html#CSharpToJavaScript_APIs_JS_Performance_Mark_System_String_CSharpToJavaScript_APIs_JS_PerformanceMarkOptions_">Mark(string, PerformanceMarkOptions)</a> or <a class="xref" href="CSharpToJavaScript.APIs.JS.Performance.html#CSharpToJavaScript_APIs_JS_Performance_Measure_System_String_CSharpToJavaScript_APIs_JS_Union158_System_String_">Measure(string, Union158, string)</a> methods at an explicit point in an application. This allows you to add your own metrics to the performance timeline.</p>
-<p>The <code>PerformanceEntry</code> instances will always be one of the following subclasses:</p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/PerformanceEntry">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_PerformanceEntry__ctor_" data-uid="CSharpToJavaScript.APIs.JS.PerformanceEntry.#ctor*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_PerformanceEntry__ctor" data-uid="CSharpToJavaScript.APIs.JS.PerformanceEntry.#ctor">
+  PerformanceEntry()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PerformanceEntry()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
 
 
   <h2 class="section" id="properties">Properties
@@ -186,15 +205,15 @@ public class PerformanceEntry</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_PerformanceEntry_Duration" data-uid="CSharpToJavaScript.APIs.JS.PerformanceEntry.Duration">
   Duration
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L14738"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The read-only <strong><code>duration</code></strong> property returns a {{domxref(&amp;quot;DOMHighResTimeStamp&amp;quot;,&amp;quot;timestamp&amp;quot;, &amp;quot;&amp;quot;, &amp;quot;no-code&amp;quot;)}} that is the duration of the {{domxref(&amp;quot;PerformanceEntry&amp;quot;,&amp;quot;performance entry&amp;quot;, &amp;quot;&amp;quot;, &quot;no-code&quot;)}}. The meaning of this property depends on the value of this entry's <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceEntry.html#CSharpToJavaScript_APIs_JS_PerformanceEntry_EntryType">EntryType</a>.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Number Duration { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;duration&quot;)]
+public Number Duration { get; }</code></pre>
   </div>
 
 
@@ -203,21 +222,13 @@ public class PerformanceEntry</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
-    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a> representing the duration of the {{domxref(&quot;PerformanceEntry&quot;,&quot;performance entry&quot;, &amp;quot;&amp;quot;, &amp;quot;no-code&amp;quot;)}}. If the duration concept doesn&amp;apos;t apply for a particular performance metric, a duration of <code>0</code> is returned.The meaning of this property depends on the value of this performance entry's <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceEntry.html#CSharpToJavaScript_APIs_JS_PerformanceEntry_EntryType">EntryType</a>:For the following entry types, <code>duration</code> is not applicable, and in this case the value is always <code>0</code>:</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.Number.html">Number</a></dt>
+    <dd></dd>
   </dl>
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_PerformanceEntry_Duration_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/PerformanceEntry/duration">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -226,15 +237,15 @@ public class PerformanceEntry</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_PerformanceEntry_EntryType" data-uid="CSharpToJavaScript.APIs.JS.PerformanceEntry.EntryType">
   EntryType
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L14734"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The read-only <strong><code>entryType</code></strong> property returns a string representing the type of performance metric that this entry represents.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string EntryType { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;entryType&quot;)]
+public string EntryType { get; }</code></pre>
   </div>
 
 
@@ -244,22 +255,12 @@ public class PerformanceEntry</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>A string. The return value depends on the subtype of the <code>PerformanceEntry</code> object. Some subtypes have more than one <code>entryType</code>.</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_PerformanceEntry_EntryType_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>All supported <code>entryTypes</code> are available using the static property <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceObserver.html#CSharpToJavaScript_APIs_JS_PerformanceObserver_SupportedEntryTypes">SupportedEntryTypes</a>.</p>
-<p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceObserver.html#CSharpToJavaScript_APIs_JS_PerformanceObserver_SupportedEntryTypes">SupportedEntryTypes</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Performance.html#CSharpToJavaScript_APIs_JS_Performance_GetEntriesByType_System_String_">GetEntriesByType(string)</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceObserverEntryList.html#CSharpToJavaScript_APIs_JS_PerformanceObserverEntryList_GetEntriesByType_System_String_">GetEntriesByType(string)</a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/PerformanceEntry/entryType">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -268,14 +269,15 @@ public class PerformanceEntry</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_PerformanceEntry_Id" data-uid="CSharpToJavaScript.APIs.JS.PerformanceEntry.Id">
   Id
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L14730"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ulong Id { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;id&quot;)]
+public ulong Id { get; }</code></pre>
   </div>
 
 
@@ -299,15 +301,15 @@ public class PerformanceEntry</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_PerformanceEntry_Name" data-uid="CSharpToJavaScript.APIs.JS.PerformanceEntry.Name">
   Name
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L14732"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The read-only <strong><code>name</code></strong> property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceEntry.html">PerformanceEntry</a> interface is a string representing the name for a performance entry. It acts as an identifier, but it does not have to be unique. The value depends on the subclass.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Name { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;name&quot;)]
+public string Name { get; }</code></pre>
   </div>
 
 
@@ -317,21 +319,12 @@ public class PerformanceEntry</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>A string. The value depends on the subclass of the <code>PerformanceEntry</code> object as shown by the table below.</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_PerformanceEntry_Name_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Performance.html#CSharpToJavaScript_APIs_JS_Performance_GetEntriesByName_System_String_System_String_">GetEntriesByName(string, string)</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceObserverEntryList.html#CSharpToJavaScript_APIs_JS_PerformanceObserverEntryList_GetEntriesByName_System_String_System_String_">GetEntriesByName(string, string)</a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/PerformanceEntry/name">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -340,14 +333,15 @@ public class PerformanceEntry</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_PerformanceEntry_NavigationId" data-uid="CSharpToJavaScript.APIs.JS.PerformanceEntry.NavigationId">
   NavigationId
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L14739"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ulong NavigationId { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;navigationId&quot;)]
+public ulong NavigationId { get; }</code></pre>
   </div>
 
 
@@ -371,15 +365,15 @@ public class PerformanceEntry</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_PerformanceEntry_StartTime" data-uid="CSharpToJavaScript.APIs.JS.PerformanceEntry.StartTime">
   StartTime
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L14736"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The read-only <strong><code>startTime</code></strong> property returns the first {{domxref(&amp;quot;DOMHighResTimeStamp&amp;quot;,&amp;quot;timestamp&amp;quot;, &amp;quot;&amp;quot;, &quot;no-code&quot;)}} recorded for this <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceEntry.html">PerformanceEntry</a>. The meaning of this property depends on the value of this entry's <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceEntry.html#CSharpToJavaScript_APIs_JS_PerformanceEntry_EntryType">EntryType</a>.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Number StartTime { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;startTime&quot;)]
+public Number StartTime { get; }</code></pre>
   </div>
 
 
@@ -388,21 +382,13 @@ public class PerformanceEntry</code></pre>
 
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
-    <dd><p>A <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a> representing the first timestamp when the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceEntry.html">PerformanceEntry</a> was created.The meaning of this property depends on the value of this performance entry's <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceEntry.html#CSharpToJavaScript_APIs_JS_PerformanceEntry_EntryType">EntryType</a>:</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.Number.html">Number</a></dt>
+    <dd></dd>
   </dl>
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_PerformanceEntry_StartTime_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/PerformanceEntry/startTime">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -415,23 +401,22 @@ public class PerformanceEntry</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_PerformanceEntry_ToJSON" data-uid="CSharpToJavaScript.APIs.JS.PerformanceEntry.ToJSON">
   ToJSON()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L14741"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>toJSON()</code></strong> method is a {{Glossary(&quot;Serialization&quot;,&quot;serializer&quot;)}}; it returns a JSON representation of the <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceEntry.html">PerformanceEntry</a> object.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Object ToJSON()</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;toJSON&quot;)]
+public Object ToJSON()</code></pre>
   </div>
 
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Object.html">Object</a></dt>
-    <dd><p>A {{jsxref(&quot;JSON&quot;)}} object that is the serialization of the <a class="xref" href="CSharpToJavaScript.APIs.JS.PerformanceEntry.html">PerformanceEntry</a> object.</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.Object.html">Object</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -440,14 +425,6 @@ public class PerformanceEntry</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_PerformanceEntry_ToJSON_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-JSON<br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/PerformanceEntry/toJSON">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -456,7 +433,7 @@ public class PerformanceEntry</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L14727" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs" class="edit-link">Edit this page</a>
         </div>
 
 

@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class AudioListener | CSharpToJavaScript ">
       
-      <meta name="description" content="The AudioListener interface represents the position and orientation of the unique person listening to the audio scene, and is used in audio spatialization. All s spatialize in relation to the AudioListener stored in the  attribute.">
+      
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/TiLied/CSharpToJavaScript/new/master/apiSpec/new?filename=CSharpToJavaScript_APIs_JS_AudioListener.md&amp;value=---%0Auid%3A%20CSharpToJavaScript.APIs.JS.AudioListener%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -89,7 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_AudioListener" data-uid="CSharpToJavaScript.APIs.JS.AudioListener" class="text-break">
-Class AudioListener  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L21082"><i class="bi bi-code-slash"></i></a>
+Class AudioListener  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,12 +97,11 @@ Class AudioListener  <a class="header-action link-secondary" title="View source"
   <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>The <code>AudioListener</code> interface represents the position and orientation of the unique person listening to the audio scene, and is used in <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Web_audio_spatialization_basics">audio spatialization</a>. All <a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html">PannerNode</a>s spatialize in relation to the <code>AudioListener</code> stored in the <a class="xref" href="CSharpToJavaScript.APIs.JS.BaseAudioContext.html#CSharpToJavaScript_APIs_JS_BaseAudioContext_Listener">Listener</a> attribute.</p>
-</div>
+  <div class="markdown summary"></div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+    <pre><code class="lang-csharp hljs">[Value(&quot;AudioListener&quot;)]
 public class AudioListener</code></pre>
   </div>
 
@@ -123,43 +122,61 @@ public class AudioListener</code></pre>
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
-    </div>
-    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
     </div>
   </dd></dl>
 
 
 
 
-  <h2 id="CSharpToJavaScript_APIs_JS_AudioListener_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>It is important to note that there is only one listener per context and that it isn't an <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioNode.html">AudioNode</a>.</p>
-<p>
-  <a href="https://developer.mozilla.orgwebaudiolistenerreduced.png">We see the position, up and front vectors of an AudioListener, with the up and front vectors at 90° from the other.</a>
-</p>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API">Using the Web Audio API</a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/AudioListener">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_AudioListener__ctor_" data-uid="CSharpToJavaScript.APIs.JS.AudioListener.#ctor*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_AudioListener__ctor" data-uid="CSharpToJavaScript.APIs.JS.AudioListener.#ctor">
+  AudioListener()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AudioListener()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
 
 
   <h2 class="section" id="properties">Properties
@@ -170,15 +187,15 @@ public class AudioListener</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_AudioListener_ForwardX" data-uid="CSharpToJavaScript.APIs.JS.AudioListener.ForwardX">
   ForwardX
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L21092"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <code>forwardX</code> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioListener.html">AudioListener</a> interface is an <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a> representing the x value of the direction vector defining the forward direction the listener is pointing in.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AudioParam ForwardX { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;forwardX&quot;)]
+public AudioParam ForwardX { get; }</code></pre>
   </div>
 
 
@@ -188,25 +205,12 @@ public class AudioListener</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a></dt>
-    <dd><p>An <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a>. Its default value is 0, and it can range between positive and negative infinity.</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_AudioListener_ForwardX_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><blockquote class="NOTE">
-  <h5>NOTE</h5>
-  <p>The parameter is <strong>a-rate</strong> when used with a <a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html">PannerNode</a> whose <a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_PanningModel">PanningModel</a> is set to equalpower, or <strong>k-rate</strong> otherwise.</p>
-</blockquote>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API">Using the Web Audio API</a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/AudioListener/forwardX">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -215,15 +219,15 @@ public class AudioListener</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_AudioListener_ForwardY" data-uid="CSharpToJavaScript.APIs.JS.AudioListener.ForwardY">
   ForwardY
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L21094"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <code>forwardY</code> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioListener.html">AudioListener</a> interface is an <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a> representing the y value of the direction vector defining the forward direction the listener is pointing in.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AudioParam ForwardY { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;forwardY&quot;)]
+public AudioParam ForwardY { get; }</code></pre>
   </div>
 
 
@@ -233,25 +237,12 @@ public class AudioListener</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a></dt>
-    <dd><p>An <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a>. Its default value is 0, and it can range between positive and negative infinity.</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_AudioListener_ForwardY_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><blockquote class="NOTE">
-  <h5>NOTE</h5>
-  <p>The parameter is <strong>a-rate</strong> when used with a <a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html">PannerNode</a> whose <a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_PanningModel">PanningModel</a> is set to equalpower, or <strong>k-rate</strong> otherwise.</p>
-</blockquote>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API">Using the Web Audio API</a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/AudioListener/forwardY">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -260,15 +251,15 @@ public class AudioListener</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_AudioListener_ForwardZ" data-uid="CSharpToJavaScript.APIs.JS.AudioListener.ForwardZ">
   ForwardZ
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L21096"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <code>forwardZ</code> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioListener.html">AudioListener</a> interface is an <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a> representing the z value of the direction vector defining the forward direction the listener is pointing in.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AudioParam ForwardZ { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;forwardZ&quot;)]
+public AudioParam ForwardZ { get; }</code></pre>
   </div>
 
 
@@ -278,25 +269,12 @@ public class AudioListener</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a></dt>
-    <dd><p>An <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a>. Its default value is -1, and it can range between positive and negative infinity.</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_AudioListener_ForwardZ_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><blockquote class="NOTE">
-  <h5>NOTE</h5>
-  <p>The parameter is <strong>a-rate</strong> when used with a <a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html">PannerNode</a> whose <a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_PanningModel">PanningModel</a> is set to equalpower, or <strong>k-rate</strong> otherwise.</p>
-</blockquote>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API">Using the Web Audio API</a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/AudioListener/forwardZ">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -305,15 +283,15 @@ public class AudioListener</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_AudioListener_PositionX" data-uid="CSharpToJavaScript.APIs.JS.AudioListener.PositionX">
   PositionX
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L21086"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <code>positionX</code> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioListener.html">AudioListener</a> interface is an <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a> representing the x position of the listener in 3D cartesian space.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AudioParam PositionX { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;positionX&quot;)]
+public AudioParam PositionX { get; }</code></pre>
   </div>
 
 
@@ -323,25 +301,12 @@ public class AudioListener</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a></dt>
-    <dd><p>An <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a>. Its default value is 0, and it can range between positive and negative infinity.</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_AudioListener_PositionX_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><blockquote class="NOTE">
-  <h5>NOTE</h5>
-  <p>The parameter is <a href="https://developer.mozilla.org/en-US/docs/Web/API/AudioParam#a-rate"><strong>a-rate</strong></a> when used with a <a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html">PannerNode</a> whose <a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_PanningModel">PanningModel</a> is set to equalpower, or <a href="https://developer.mozilla.org/en-US/docs/Web/API/AudioParam#k-rate"><strong>k-rate</strong></a> otherwise.</p>
-</blockquote>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API">Using the Web Audio API</a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/AudioListener/positionX">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -350,15 +315,15 @@ public class AudioListener</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_AudioListener_PositionY" data-uid="CSharpToJavaScript.APIs.JS.AudioListener.PositionY">
   PositionY
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L21088"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <code>positionY</code> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioListener.html">AudioListener</a> interface is an <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a> representing the y position of the listener in 3D cartesian space.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AudioParam PositionY { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;positionY&quot;)]
+public AudioParam PositionY { get; }</code></pre>
   </div>
 
 
@@ -368,25 +333,12 @@ public class AudioListener</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a></dt>
-    <dd><p>An <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a>. Its default value is 0, and it can range between positive and negative infinity.</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_AudioListener_PositionY_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><blockquote class="NOTE">
-  <h5>NOTE</h5>
-  <p>The parameter is <a href="https://developer.mozilla.org/en-US/docs/Web/API/AudioParam#a-rate"><strong>a-rate</strong></a> when used with a <a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html">PannerNode</a> whose <a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_PanningModel">PanningModel</a> is set to equalpower, or <a href="https://developer.mozilla.org/en-US/docs/Web/API/AudioParam#k-rate"><strong>k-rate</strong></a> otherwise.</p>
-</blockquote>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API">Using the Web Audio API</a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/AudioListener/positionY">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -395,15 +347,15 @@ public class AudioListener</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_AudioListener_PositionZ" data-uid="CSharpToJavaScript.APIs.JS.AudioListener.PositionZ">
   PositionZ
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L21090"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <code>positionZ</code> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioListener.html">AudioListener</a> interface is an <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a> representing the z position of the listener in 3D cartesian space.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AudioParam PositionZ { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;positionZ&quot;)]
+public AudioParam PositionZ { get; }</code></pre>
   </div>
 
 
@@ -413,25 +365,12 @@ public class AudioListener</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a></dt>
-    <dd><p>An <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a>. Its default value is 0, and it can range between positive and negative infinity.</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_AudioListener_PositionZ_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><blockquote class="NOTE">
-  <h5>NOTE</h5>
-  <p>The parameter is <a href="https://developer.mozilla.org/en-US/docs/Web/API/AudioParam#a-rate"><strong>a-rate</strong></a> when used with a <a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html">PannerNode</a> whose <a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_PanningModel">PanningModel</a> is set to equalpower, or <a href="https://developer.mozilla.org/en-US/docs/Web/API/AudioParam#k-rate"><strong>k-rate</strong></a> otherwise.</p>
-</blockquote>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API">Using the Web Audio API</a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/AudioListener/positionZ">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -440,15 +379,15 @@ public class AudioListener</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_AudioListener_UpX" data-uid="CSharpToJavaScript.APIs.JS.AudioListener.UpX">
   UpX
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L21098"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <code>upX</code> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioListener.html">AudioListener</a> interface is an <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a> representing the x value of the direction vector defining the up direction the listener is pointing in.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AudioParam UpX { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;upX&quot;)]
+public AudioParam UpX { get; }</code></pre>
   </div>
 
 
@@ -458,25 +397,12 @@ public class AudioListener</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a></dt>
-    <dd><p>An <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a>. Its default value is 0, and it can range between positive and negative infinity.</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_AudioListener_UpX_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><blockquote class="NOTE">
-  <h5>NOTE</h5>
-  <p>The parameter is <strong>a-rate</strong> when used with a <a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html">PannerNode</a> whose <a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_PanningModel">PanningModel</a> is set to equalpower, or <strong>k-rate</strong> otherwise.</p>
-</blockquote>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API">Using the Web Audio API</a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/AudioListener/upX">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -485,15 +411,15 @@ public class AudioListener</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_AudioListener_UpY" data-uid="CSharpToJavaScript.APIs.JS.AudioListener.UpY">
   UpY
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L21100"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <code>upY</code> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioListener.html">AudioListener</a> interface is an <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a> representing the y value of the direction vector defining the up direction the listener is pointing in.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AudioParam UpY { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;upY&quot;)]
+public AudioParam UpY { get; }</code></pre>
   </div>
 
 
@@ -503,25 +429,12 @@ public class AudioListener</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a></dt>
-    <dd><p>An <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a>. Its default value is 1, and it can range between positive and negative infinity.</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_AudioListener_UpY_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><blockquote class="NOTE">
-  <h5>NOTE</h5>
-  <p>The parameter is <strong>a-rate</strong> when used with a <a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html">PannerNode</a> whose <a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_PanningModel">PanningModel</a> is set to equalpower, or <strong>k-rate</strong> otherwise.</p>
-</blockquote>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API">Using the Web Audio API</a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/AudioListener/upY">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -530,15 +443,15 @@ public class AudioListener</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_AudioListener_UpZ" data-uid="CSharpToJavaScript.APIs.JS.AudioListener.UpZ">
   UpZ
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L21102"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <code>upZ</code> read-only property of the <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioListener.html">AudioListener</a> interface is an <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a> representing the z value of the direction vector defining the up direction the listener is pointing in.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AudioParam UpZ { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;upZ&quot;)]
+public AudioParam UpZ { get; }</code></pre>
   </div>
 
 
@@ -548,25 +461,12 @@ public class AudioListener</code></pre>
   <h4 class="section">Property Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a></dt>
-    <dd><p>An <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioParam.html">AudioParam</a>. Its default value is 0, and it can range between positive and negative infinity.</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_AudioListener_UpZ_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><blockquote class="NOTE">
-  <h5>NOTE</h5>
-  <p>The parameter is <strong>a-rate</strong> when used with a <a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html">PannerNode</a> whose <a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html#CSharpToJavaScript_APIs_JS_PannerNode_PanningModel">PanningModel</a> is set to equalpower, or <strong>k-rate</strong> otherwise.</p>
-</blockquote>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API">Using the Web Audio API</a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/AudioListener/upZ">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -577,43 +477,39 @@ public class AudioListener</code></pre>
 
   <a id="CSharpToJavaScript_APIs_JS_AudioListener_SetOrientation_" data-uid="CSharpToJavaScript.APIs.JS.AudioListener.SetOrientation*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_AudioListener_SetOrientation_CSharpToJavaScript_APIs_JS_Number_CSharpToJavaScript_APIs_JS_Number_CSharpToJavaScript_APIs_JS_Number_CSharpToJavaScript_APIs_JS_Number_CSharpToJavaScript_APIs_JS_Number_CSharpToJavaScript_APIs_JS_Number_" data-uid="CSharpToJavaScript.APIs.JS.AudioListener.SetOrientation(CSharpToJavaScript.APIs.JS.Number,CSharpToJavaScript.APIs.JS.Number,CSharpToJavaScript.APIs.JS.Number,CSharpToJavaScript.APIs.JS.Number,CSharpToJavaScript.APIs.JS.Number,CSharpToJavaScript.APIs.JS.Number)">
+  <h3 id="CSharpToJavaScript_APIs_JS_AudioListener_SetOrientation_CSharpToJavaScript_APIs_JS_Ecma_Number_CSharpToJavaScript_APIs_JS_Ecma_Number_CSharpToJavaScript_APIs_JS_Ecma_Number_CSharpToJavaScript_APIs_JS_Ecma_Number_CSharpToJavaScript_APIs_JS_Ecma_Number_CSharpToJavaScript_APIs_JS_Ecma_Number_" data-uid="CSharpToJavaScript.APIs.JS.AudioListener.SetOrientation(CSharpToJavaScript.APIs.JS.Ecma.Number,CSharpToJavaScript.APIs.JS.Ecma.Number,CSharpToJavaScript.APIs.JS.Ecma.Number,CSharpToJavaScript.APIs.JS.Ecma.Number,CSharpToJavaScript.APIs.JS.Ecma.Number,CSharpToJavaScript.APIs.JS.Ecma.Number)">
   SetOrientation(Number, Number, Number, Number, Number, Number)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L21106"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><div class="IMPORTANT">
-  <h5>IMPORTANT</h5>
-  <strong>Deprecated</strong>
-</div> The <code>setOrientation()</code> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioListener.html">AudioListener</a> interface defines the orientation of the listener.
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined SetOrientation(Number x, Number y, Number z, Number xUp, Number yUp, Number zUp)</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;setOrientation&quot;)]
+public GlobalObject.Undefined SetOrientation(Number x, Number y, Number z, Number xUp, Number yUp, Number zUp)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>x</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dt><code>x</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.Number.html">Number</a></dt>
     <dd></dd>
-    <dt><code>y</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dt><code>y</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.Number.html">Number</a></dt>
     <dd></dd>
-    <dt><code>z</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dt><code>z</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.Number.html">Number</a></dt>
     <dd></dd>
-    <dt><code>xUp</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dt><code>xUp</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.Number.html">Number</a></dt>
     <dd></dd>
-    <dt><code>yUp</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dt><code>yUp</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.Number.html">Number</a></dt>
     <dd></dd>
-    <dt><code>zUp</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dt><code>zUp</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.Number.html">Number</a></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
-    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -622,53 +518,39 @@ public class AudioListener</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_AudioListener_SetOrientation_CSharpToJavaScript_APIs_JS_Number_CSharpToJavaScript_APIs_JS_Number_CSharpToJavaScript_APIs_JS_Number_CSharpToJavaScript_APIs_JS_Number_CSharpToJavaScript_APIs_JS_Number_CSharpToJavaScript_APIs_JS_Number__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>It consists of two direction vectors:</p>
-<p>The two vectors must be separated by an angle of 90° — in linear analysis terms, they must be perpendicular to each other.</p>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API">Using the Web Audio API</a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/AudioListener/setOrientation">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
 
   <a id="CSharpToJavaScript_APIs_JS_AudioListener_SetPosition_" data-uid="CSharpToJavaScript.APIs.JS.AudioListener.SetPosition*"></a>
 
-  <h3 id="CSharpToJavaScript_APIs_JS_AudioListener_SetPosition_CSharpToJavaScript_APIs_JS_Number_CSharpToJavaScript_APIs_JS_Number_CSharpToJavaScript_APIs_JS_Number_" data-uid="CSharpToJavaScript.APIs.JS.AudioListener.SetPosition(CSharpToJavaScript.APIs.JS.Number,CSharpToJavaScript.APIs.JS.Number,CSharpToJavaScript.APIs.JS.Number)">
+  <h3 id="CSharpToJavaScript_APIs_JS_AudioListener_SetPosition_CSharpToJavaScript_APIs_JS_Ecma_Number_CSharpToJavaScript_APIs_JS_Ecma_Number_CSharpToJavaScript_APIs_JS_Ecma_Number_" data-uid="CSharpToJavaScript.APIs.JS.AudioListener.SetPosition(CSharpToJavaScript.APIs.JS.Ecma.Number,CSharpToJavaScript.APIs.JS.Ecma.Number,CSharpToJavaScript.APIs.JS.Ecma.Number)">
   SetPosition(Number, Number, Number)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L21104"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><div class="IMPORTANT">
-  <h5>IMPORTANT</h5>
-  <strong>Deprecated</strong>
-</div> The <code>setPosition()</code> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioListener.html">AudioListener</a> Interface defines the position of the listener.
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalObject.Undefined SetPosition(Number x, Number y, Number z)</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;setPosition&quot;)]
+public GlobalObject.Undefined SetPosition(Number x, Number y, Number z)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>x</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dt><code>x</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.Number.html">Number</a></dt>
     <dd></dd>
-    <dt><code>y</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dt><code>y</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.Number.html">Number</a></dt>
     <dd></dd>
-    <dt><code>z</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Number.html">Number</a></dt>
+    <dt><code>z</code> <a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.Number.html">Number</a></dt>
     <dd></dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a></dt>
-    <dd><p>None (<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>).</p>
-</dd>
+    <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.Undefined.html">Undefined</a></dt>
+    <dd></dd>
   </dl>
 
 
@@ -677,20 +559,6 @@ public class AudioListener</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_AudioListener_SetPosition_CSharpToJavaScript_APIs_JS_Number_CSharpToJavaScript_APIs_JS_Number_CSharpToJavaScript_APIs_JS_Number__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>The three parameters <code>x</code>, <code>y</code> and <code>z</code> are unitless and describe the listener's position in 3D space according to the right-hand Cartesian coordinate system. <a class="xref" href="CSharpToJavaScript.APIs.JS.PannerNode.html">PannerNode</a> objects use this position relative to individual audio sources for spatialization.</p>
-<p>The default value of the position vector is <code>(0, 0, 0)</code>.</p>
-<blockquote class="NOTE">
-  <h5>NOTE</h5>
-  <p>As this method is deprecated, use the three <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioListener.html#CSharpToJavaScript_APIs_JS_AudioListener_PositionX">PositionX</a>, <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioListener.html#CSharpToJavaScript_APIs_JS_AudioListener_PositionY">PositionY</a>, and <a class="xref" href="CSharpToJavaScript.APIs.JS.AudioListener.html#CSharpToJavaScript_APIs_JS_AudioListener_PositionZ">PositionZ</a> properties instead.</p>
-</blockquote>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API">Using the Web Audio API</a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/AudioListener/setPosition">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -699,7 +567,7 @@ public class AudioListener</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L21082" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs" class="edit-link">Edit this page</a>
         </div>
 
 

@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class RTCIceCandidateStats | CSharpToJavaScript ">
       
-      <meta name="description" content="The RTCIceCandidateStats dictionary of the WebRTC API is used to report statistics related to an .">
+      
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/TiLied/CSharpToJavaScript/new/master/apiSpec/new?filename=CSharpToJavaScript_APIs_JS_RTCIceCandidateStats.md&amp;value=---%0Auid%3A%20CSharpToJavaScript.APIs.JS.RTCIceCandidateStats%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -89,7 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_RTCIceCandidateStats" data-uid="CSharpToJavaScript.APIs.JS.RTCIceCandidateStats" class="text-break">
-Class RTCIceCandidateStats  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26322"><i class="bi bi-code-slash"></i></a>
+Class RTCIceCandidateStats  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,12 +97,11 @@ Class RTCIceCandidateStats  <a class="header-action link-secondary" title="View 
   <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>The <strong><code>RTCIceCandidateStats</code></strong> dictionary of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API">WebRTC API</a> is used to report statistics related to an <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidate.html">RTCIceCandidate</a>.</p>
-</div>
+  <div class="markdown summary"></div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+    <pre><code class="lang-csharp hljs">[Value(&quot;RTCIceCandidateStats&quot;)]
 public class RTCIceCandidateStats : RTCStats</code></pre>
   </div>
 
@@ -133,39 +132,61 @@ public class RTCIceCandidateStats : RTCStats</code></pre>
       <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCStats.html#CSharpToJavaScript_APIs_JS_RTCStats_Id">RTCStats.Id</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
-    </div>
-    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
     </div>
   </dd></dl>
 
 
 
 
-  <h2 id="CSharpToJavaScript_APIs_JS_RTCIceCandidateStats_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>The statistics can be obtained by iterating the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCStatsReport.html">RTCStatsReport</a> returned by <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCPeerConnection.html#CSharpToJavaScript_APIs_JS_RTCPeerConnection_GetStats_CSharpToJavaScript_APIs_JS_MediaStreamTrack_">GetStats(MediaStreamTrack?)</a> until you find a report with the <a href="https://developer.mozilla.org#type"><code>type</code></a> of <code>local-candidate</code>.</p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCIceCandidateStats">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_RTCIceCandidateStats__ctor_" data-uid="CSharpToJavaScript.APIs.JS.RTCIceCandidateStats.#ctor*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RTCIceCandidateStats__ctor" data-uid="CSharpToJavaScript.APIs.JS.RTCIceCandidateStats.#ctor">
+  RTCIceCandidateStats()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RTCIceCandidateStats()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
 
 
   <h2 class="section" id="fields">Fields
@@ -175,15 +196,15 @@ public class RTCIceCandidateStats : RTCStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCIceCandidateStats_Address" data-uid="CSharpToJavaScript.APIs.JS.RTCIceCandidateStats.Address">
   Address
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26328"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>address</code></strong> property of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidateStats.html">RTCIceCandidateStats</a> dictionary indicates the address of the<br><a href="https://developer.mozilla.org/en-US/docs/Glossary/ICE">ICE</a> candidate. While it's preferred that the address be specified as<br>an IPv4 or IPv6 numeric address, a fully-qualified domain name can be used as<br>well.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string? Address</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;address&quot;)]
+public string? Address</code></pre>
   </div>
 
 
@@ -192,22 +213,13 @@ public class RTCIceCandidateStats : RTCStats</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>Either an IPv4 or IPv6 address or a fully-qualified domain name, which corresponds to<br>the candidate.</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCIceCandidateStats_Address_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>When a domain name is specified, the first IP address selected for that<br>address is used, even if the domain name maps to multiple IP addresses.</p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCIceCandidateStats/address">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -215,15 +227,15 @@ public class RTCIceCandidateStats : RTCStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCIceCandidateStats_CandidateType" data-uid="CSharpToJavaScript.APIs.JS.RTCIceCandidateStats.CandidateType">
   CandidateType
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26334"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidateStats.html">RTCIceCandidateStats</a> interface's<br><strong><code>candidateType</code></strong> property is a string that indicates the<br>type of <a href="https://developer.mozilla.org/en-US/docs/Glossary/ICE">ICE</a> candidate the object represents.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public required RTCIceCandidateType CandidateType</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;candidateType&quot;)]
+public required RTCIceCandidateType CandidateType</code></pre>
   </div>
 
 
@@ -232,21 +244,13 @@ public class RTCIceCandidateStats : RTCStats</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidateType.html">RTCIceCandidateType</a></dt>
-    <dd><p>A string whose value is one of the strings found in <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCIceCandidate/type#value"><code>RTCIceCandidate.type</code></a>.</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCIceCandidateStats_CandidateType_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCIceCandidateStats/candidateType">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -254,14 +258,15 @@ public class RTCIceCandidateStats : RTCStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCIceCandidateStats_Foundation" data-uid="CSharpToJavaScript.APIs.JS.RTCIceCandidateStats.Foundation">
   Foundation
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26341"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Foundation</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;foundation&quot;)]
+public string Foundation</code></pre>
   </div>
 
 
@@ -284,15 +289,15 @@ public class RTCIceCandidateStats : RTCStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCIceCandidateStats_Port" data-uid="CSharpToJavaScript.APIs.JS.RTCIceCandidateStats.Port">
   Port
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26330"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidateStats.html">RTCIceCandidateStats</a> dictionary's <strong><code>port</code></strong><br>property specifies the network port used by the candidate.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public long Port</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;port&quot;)]
+public long Port</code></pre>
   </div>
 
 
@@ -301,21 +306,13 @@ public class RTCIceCandidateStats : RTCStats</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
-    <dd><p>An integer value indicating the network port used by the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidate.html">RTCIceCandidate</a><br>described by the <code>RTCIceCandidateStats</code> object.</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCIceCandidateStats_Port_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCIceCandidateStats/port">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -323,15 +320,15 @@ public class RTCIceCandidateStats : RTCStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCIceCandidateStats_Priority" data-uid="CSharpToJavaScript.APIs.JS.RTCIceCandidateStats.Priority">
   Priority
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26336"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidateStats.html">RTCIceCandidateStats</a> dictionary's<br><strong><code>priority</code></strong> property is a positive integer value<br>indicating the priority (or desirability) of the described candidate.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public long Priority</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;priority&quot;)]
+public long Priority</code></pre>
   </div>
 
 
@@ -340,23 +337,13 @@ public class RTCIceCandidateStats : RTCStats</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></dt>
-    <dd><p>A positive integer indicating the priority of the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidate.html">RTCIceCandidate</a><br>described by the <code>RTCIceCandidateStats</code> object. The value may be anywhere<br>from 1 to 2,147,483,647.</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCIceCandidateStats_Priority_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>During <a href="https://developer.mozilla.org/en-US/docs/Glossary/ICE">ICE</a> negotiation while setting up a WebRTC peer connection, the<br>priority values reported to the remote peer by a <a href="https://developer.mozilla.org/en-US/docs/Glossary/user agent">user agent</a> are used<br>to determine which candidates are considered &amp;quot;more desirable&amp;quot;. The higher the value,<br>the more desirable the candidate is.</p>
-<p>-{{RFC(5245, &amp;quot;&amp;quot;, &amp;quot;4.1.2.1&amp;quot;)}}: Recommended Formula section in the ICE specification<br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCIceCandidateStats/priority">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -364,15 +351,15 @@ public class RTCIceCandidateStats : RTCStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCIceCandidateStats_Protocol" data-uid="CSharpToJavaScript.APIs.JS.RTCIceCandidateStats.Protocol">
   Protocol
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26332"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidateStats.html">RTCIceCandidateStats</a> dictionary's<br><strong><code>protocol</code></strong> property specifies the protocol the specified<br>candidate would use for communication with the remote peer.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Protocol</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;protocol&quot;)]
+public string Protocol</code></pre>
   </div>
 
 
@@ -381,21 +368,13 @@ public class RTCIceCandidateStats : RTCStats</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The value is one of the following string:</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCIceCandidateStats_Protocol_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCIceCandidateStats/protocol">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -403,14 +382,15 @@ public class RTCIceCandidateStats : RTCStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCIceCandidateStats_RelatedAddress" data-uid="CSharpToJavaScript.APIs.JS.RTCIceCandidateStats.RelatedAddress">
   RelatedAddress
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26342"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string RelatedAddress</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;relatedAddress&quot;)]
+public string RelatedAddress</code></pre>
   </div>
 
 
@@ -433,14 +413,15 @@ public class RTCIceCandidateStats : RTCStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCIceCandidateStats_RelatedPort" data-uid="CSharpToJavaScript.APIs.JS.RTCIceCandidateStats.RelatedPort">
   RelatedPort
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26343"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public long RelatedPort</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;relatedPort&quot;)]
+public long RelatedPort</code></pre>
   </div>
 
 
@@ -463,15 +444,15 @@ public class RTCIceCandidateStats : RTCStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCIceCandidateStats_RelayProtocol" data-uid="CSharpToJavaScript.APIs.JS.RTCIceCandidateStats.RelayProtocol">
   RelayProtocol
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26340"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidateStats.html">RTCIceCandidateStats</a> dictionary's<br><strong><code>relayProtocol</code></strong> property specifies the protocol being used<br>by a local <a href="https://developer.mozilla.org/en-US/docs/Glossary/ICE">ICE</a> candidate to communicate with the <a href="https://developer.mozilla.org/en-US/docs/Glossary/TURN">TURN</a><br>server.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public RTCIceServerTransportProtocol RelayProtocol</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;relayProtocol&quot;)]
+public RTCIceServerTransportProtocol RelayProtocol</code></pre>
   </div>
 
 
@@ -480,22 +461,13 @@ public class RTCIceCandidateStats : RTCStats</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceServerTransportProtocol.html">RTCIceServerTransportProtocol</a></dt>
-    <dd><p>A string identifying the protocol being used by the endpoint to<br>communicate with the TURN server. The possible values are:<blockquote class="NOTE"><h5>NOTE</h5>This property is only present on<br><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidateStats.html">RTCIceCandidateStats</a> objects that represent local candidates.</blockquote>
-</dd>
+    <dd></dd>
   </dl>
 
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCIceCandidateStats_RelayProtocol_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>The ICE protocol being used by the candidate otherwise can be obtained from the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidateStats.html#CSharpToJavaScript_APIs_JS_RTCIceCandidateStats_Protocol">Protocol</a> property.</p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCIceCandidateStats/relayProtocol">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -503,14 +475,15 @@ public class RTCIceCandidateStats : RTCStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCIceCandidateStats_TcpType" data-uid="CSharpToJavaScript.APIs.JS.RTCIceCandidateStats.TcpType">
   TcpType
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26345"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public RTCIceTcpCandidateType TcpType</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;tcpType&quot;)]
+public RTCIceTcpCandidateType TcpType</code></pre>
   </div>
 
 
@@ -533,15 +506,15 @@ public class RTCIceCandidateStats : RTCStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCIceCandidateStats_TransportId" data-uid="CSharpToJavaScript.APIs.JS.RTCIceCandidateStats.TransportId">
   TransportId
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26326"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidateStats.html">RTCIceCandidateStats</a> dictionary's<br><strong><code>transportId</code></strong> property is a string that uniquely<br>identifies the transport that produced the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCTransportStats.html">RTCTransportStats</a> from which<br>information about this candidate was taken.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public required string TransportId</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;transportId&quot;)]
+public required string TransportId</code></pre>
   </div>
 
 
@@ -550,21 +523,13 @@ public class RTCIceCandidateStats : RTCStats</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>A string whose value uniquely identifies the transport from which any<br>transport-related information accumulated in the <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidateStats.html">RTCIceCandidateStats</a> was<br>taken. This can be used to compare candidates that would use the same transport, for<br>example.</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCIceCandidateStats_TransportId_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCIceCandidateStats/transportId">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -572,15 +537,15 @@ public class RTCIceCandidateStats : RTCStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCIceCandidateStats_Url" data-uid="CSharpToJavaScript.APIs.JS.RTCIceCandidateStats.Url">
   Url
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26338"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <a class="xref" href="CSharpToJavaScript.APIs.JS.RTCIceCandidateStats.html">RTCIceCandidateStats</a> dictionary's<br><strong><code>url</code></strong> property specifies the URL of the<br><a href="https://developer.mozilla.org/en-US/docs/Glossary/ICE">ICE</a> server from which the described candidate was obtained. This<br>property is <strong>only</strong> available for local candidates.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Url</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;url&quot;)]
+public string Url</code></pre>
   </div>
 
 
@@ -589,21 +554,13 @@ public class RTCIceCandidateStats : RTCStats</code></pre>
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>A string specifying the URL of the ICE server from which the<br>candidate described by the <code>RTCIceCandidateStats</code> was obtained. This is the<br>same URL that would be received in the RTCPeerConnection.Icecandidate_event event's<br><a class="xref" href="CSharpToJavaScript.APIs.JS.RTCPeerConnectionIceEvent.html#CSharpToJavaScript_APIs_JS_RTCPeerConnectionIceEvent_Url">Url</a> property.<blockquote class="NOTE"><h5>NOTE</h5>This property does not exist for remote candidates.</blockquote>
-</dd>
+    <dd></dd>
   </dl>
 
 
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_RTCIceCandidateStats_Url_remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCIceCandidateStats/url">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -611,14 +568,15 @@ public class RTCIceCandidateStats : RTCStats</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RTCIceCandidateStats_UsernameFragment" data-uid="CSharpToJavaScript.APIs.JS.RTCIceCandidateStats.UsernameFragment">
   UsernameFragment
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26344"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string UsernameFragment</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;usernameFragment&quot;)]
+public string UsernameFragment</code></pre>
   </div>
 
 
@@ -642,7 +600,7 @@ public class RTCIceCandidateStats : RTCStats</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L26322" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs" class="edit-link">Edit this page</a>
         </div>
 
 

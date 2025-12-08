@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class Cache | CSharpToJavaScript ">
       
-      <meta name="description" content="The Cache interface provides a persistent storage mechanism for  /  object pairs that are cached in long lived memory. How long a Cache object lives is browser dependent, but a single origin&amp;amp;apos;s scripts can typically rely on the presence of a previously populated Cache object. Note that the Cache interface is exposed to windowed scopes as well as workers. You don&amp;amp;apos;t have to use it in conjunction with service workers, even though it is defined in the service worker spec.">
+      
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/TiLied/CSharpToJavaScript/new/master/apiSpec/new?filename=CSharpToJavaScript_APIs_JS_Cache.md&amp;value=---%0Auid%3A%20CSharpToJavaScript.APIs.JS.Cache%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -89,7 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_Cache" data-uid="CSharpToJavaScript.APIs.JS.Cache" class="text-break">
-Class Cache  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L16679"><i class="bi bi-code-slash"></i></a>
+Class Cache  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,12 +97,11 @@ Class Cache  <a class="header-action link-secondary" title="View source" href="h
   <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>The <strong><code>Cache</code></strong> interface provides a persistent storage mechanism for <a class="xref" href="CSharpToJavaScript.APIs.JS.Request.html">Request</a> / <a class="xref" href="CSharpToJavaScript.APIs.JS.Response.html">Response</a> object pairs that are cached in long lived memory. How long a <code>Cache</code> object lives is browser dependent, but a single origin&amp;apos;s scripts can typically rely on the presence of a previously populated <code>Cache</code> object. Note that the <code>Cache</code> interface is exposed to windowed scopes as well as workers. You don&amp;apos;t have to use it in conjunction with service workers, even though it is defined in the service worker spec.</p>
-</div>
+  <div class="markdown summary"></div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+    <pre><code class="lang-csharp hljs">[Value(&quot;Cache&quot;)]
 public class Cache</code></pre>
   </div>
 
@@ -123,49 +122,61 @@ public class Cache</code></pre>
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
-    </div>
-    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
     </div>
   </dd></dl>
 
 
 
 
-  <h2 id="CSharpToJavaScript_APIs_JS_Cache_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>An origin can have multiple, named <code>Cache</code> objects. You are responsible for implementing how your script (e.g. in a <a class="xref" href="CSharpToJavaScript.APIs.JS.ServiceWorker.html">ServiceWorker</a>) handles <code>Cache</code> updates. Items in a <code>Cache</code> do not get updated unless explicitly requested; they don't expire unless deleted. Use <a class="xref" href="CSharpToJavaScript.APIs.JS.CacheStorage.html#CSharpToJavaScript_APIs_JS_CacheStorage_Open_System_String_">Open(string)</a> to open a specific named <code>Cache</code> object and then call any of the <code>Cache</code> methods to maintain the <code>Cache</code>.</p>
-<p>You are also responsible for periodically purging cache entries. Each browser has a hard limit on the amount of cache storage that a given origin can use. <code>Cache</code> quota usage estimates are available via the <a class="xref" href="CSharpToJavaScript.APIs.JS.StorageManager.html#CSharpToJavaScript_APIs_JS_StorageManager_Estimate">Estimate()</a> method. The browser does its best to manage disk space, but it may delete the <code>Cache</code> storage for an origin. The browser will generally delete all of the data for an origin or none of the data for an origin. Make sure to version caches by name and use the caches only from the version of the script that they can safely operate on. See <a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers#deleting_old_caches">Deleting old caches</a> for more information.</p>
-<blockquote class="NOTE">
-  <h5>NOTE</h5>
-  <p>The key matching algorithm depends on the <a href="https://www.fastly.com/blog/best-practices-using-vary-header">VARY header</a> in the value. So matching a new key requires looking at both key and value for entries in the <code>Cache</code> object.</p>
-</blockquote>
-<blockquote class="NOTE">
-  <h5>NOTE</h5>
-  <p>The caching API doesn&amp;apos;t honor HTTP caching headers.</p>
-</blockquote>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers">Using Service Workers</a><br>-<a href="https://github.com/mdn/dom-examples/tree/main/service-worker/simple-service-worker">Service workers basic code example</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers">Using web workers</a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Cache">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_Cache__ctor_" data-uid="CSharpToJavaScript.APIs.JS.Cache.#ctor*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_Cache__ctor" data-uid="CSharpToJavaScript.APIs.JS.Cache.#ctor">
+  Cache()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Cache()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
 
 
   <h2 class="section" id="methods">Methods
@@ -176,15 +187,15 @@ public class Cache</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Cache_Add_CSharpToJavaScript_APIs_JS_Union42_" data-uid="CSharpToJavaScript.APIs.JS.Cache.Add(CSharpToJavaScript.APIs.JS.Union42)">
   Add(Union42)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L16687"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>add()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html">Cache</a> interface takes a URL, retrieves it, and adds the resulting response object to the given cache.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;GlobalObject.Undefined&gt; Add(Union42 request)</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;add&quot;)]
+public Task&lt;GlobalObject.Undefined&gt; Add(Union42 request)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -195,9 +206,8 @@ public class Cache</code></pre>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a>&gt;</dt>
-    <dd><p>A Promise that resolves with <code>undefined</code>.</p>
-</dd>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.Undefined.html">Undefined</a>&gt;</dt>
+    <dd></dd>
   </dl>
 
 
@@ -206,22 +216,6 @@ public class Cache</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Cache_Add_CSharpToJavaScript_APIs_JS_Union42__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>The <code>add()</code> method is functionally equivalent to the following:</p>
-<p>For more complex operations, you'll need to use <a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html#CSharpToJavaScript_APIs_JS_Cache_Put_CSharpToJavaScript_APIs_JS_Union42_CSharpToJavaScript_APIs_JS_Response_">Put(Union42, Response)</a> directly.</p>
-<blockquote class="NOTE">
-  <h5>NOTE</h5>
-  <p>
-    <strong>Note:</strong>
-    <code>add()</code> will overwrite any key/value pair previously stored in the cache that matches the request.</p>
-</blockquote>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers">Using Service Workers</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html">Cache</a><br>-Window.Caches and WorkerGlobalScope.Caches<br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Cache/add">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -230,15 +224,15 @@ public class Cache</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Cache_AddAll_System_Collections_Generic_List_CSharpToJavaScript_APIs_JS_Union42__" data-uid="CSharpToJavaScript.APIs.JS.Cache.AddAll(System.Collections.Generic.List{CSharpToJavaScript.APIs.JS.Union42})">
   AddAll(List&lt;Union42&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L16689"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>addAll()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html">Cache</a> interface takes an array of URLs, retrieves them, and adds the resulting response objects to the given cache. The request objects created during retrieval become keys to the stored response operations.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;GlobalObject.Undefined&gt; AddAll(List&lt;Union42&gt; requests)</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;addAll&quot;)]
+public Task&lt;GlobalObject.Undefined&gt; AddAll(List&lt;Union42&gt; requests)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -249,9 +243,8 @@ public class Cache</code></pre>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a>&gt;</dt>
-    <dd><p>A Promise that resolves with <code>undefined</code>.</p>
-</dd>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.Undefined.html">Undefined</a>&gt;</dt>
+    <dd></dd>
   </dl>
 
 
@@ -260,20 +253,6 @@ public class Cache</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Cache_AddAll_System_Collections_Generic_List_CSharpToJavaScript_APIs_JS_Union42___remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><blockquote class="NOTE">
-  <h5>NOTE</h5>
-  <p>
-    <strong>Note:</strong>
-    <code>addAll()</code> will overwrite any key/value pairs<br>previously stored in the cache that match the request, but will fail if a<br>resulting <code>put()</code> operation would overwrite a previous cache entry stored by the same <code>addAll()</code> method.</p>
-</blockquote>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers">Using Service Workers</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html">Cache</a><br>-Window.Caches and WorkerGlobalScope.Caches<br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Cache/addAll">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -282,15 +261,15 @@ public class Cache</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Cache_Delete_CSharpToJavaScript_APIs_JS_Union42_CSharpToJavaScript_APIs_JS_CacheQueryOptions_" data-uid="CSharpToJavaScript.APIs.JS.Cache.Delete(CSharpToJavaScript.APIs.JS.Union42,CSharpToJavaScript.APIs.JS.CacheQueryOptions)">
   Delete(Union42, CacheQueryOptions)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L16693"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>delete()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html">Cache</a> interface finds the <a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html">Cache</a> entry whose key is the request, and if found, deletes the <a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html">Cache</a> entry and returns a {{jsxref(&quot;Promise&quot;)}} that resolves to <code>true</code>.<br>If no <a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html">Cache</a> entry is found, it resolves to <code>false</code>.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;bool&gt; Delete(Union42 request, CacheQueryOptions options = null)</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;delete&quot;)]
+public Task&lt;bool&gt; Delete(Union42 request, CacheQueryOptions options = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -304,8 +283,7 @@ public class Cache</code></pre>
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
-    <dd><p>a Promise that resolves to <code>true</code> if the cache entry is<br>deleted, or <code>false</code> otherwise.</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
@@ -314,14 +292,6 @@ public class Cache</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Cache_Delete_CSharpToJavaScript_APIs_JS_Union42_CSharpToJavaScript_APIs_JS_CacheQueryOptions__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers">Using Service Workers</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html">Cache</a><br>-Window.Caches and WorkerGlobalScope.Caches<br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Cache/delete">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -330,15 +300,15 @@ public class Cache</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Cache_Keys_CSharpToJavaScript_APIs_JS_Union42_CSharpToJavaScript_APIs_JS_CacheQueryOptions_" data-uid="CSharpToJavaScript.APIs.JS.Cache.Keys(CSharpToJavaScript.APIs.JS.Union42,CSharpToJavaScript.APIs.JS.CacheQueryOptions)">
   Keys(Union42, CacheQueryOptions)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L16695"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>keys()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html">Cache</a> interface returns a<br>{{jsxref(&quot;Promise&quot;)}} that resolves to an array of <a class="xref" href="CSharpToJavaScript.APIs.JS.Request.html">Request</a> objects<br>representing the keys of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html">Cache</a>.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;Request[]&gt; Keys(Union42 request = default, CacheQueryOptions options = null)</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;keys&quot;)]
+public Task&lt;Request[]&gt; Keys(Union42 request = default, CacheQueryOptions options = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -352,8 +322,7 @@ public class Cache</code></pre>
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CSharpToJavaScript.APIs.JS.Request.html">Request</a>[]&gt;</dt>
-    <dd><p>A {{jsxref(&quot;Promise&quot;)}} that resolves to an array of <a class="xref" href="CSharpToJavaScript.APIs.JS.Request.html">Request</a><br>objects.</p>
-</dd>
+    <dd></dd>
   </dl>
 
 
@@ -362,19 +331,6 @@ public class Cache</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Cache_Keys_CSharpToJavaScript_APIs_JS_Union42_CSharpToJavaScript_APIs_JS_CacheQueryOptions__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>The requests are returned in the same order that they were inserted.</p>
-<blockquote class="NOTE">
-  <h5>NOTE</h5>
-  <p>Requests with duplicate URLs but different headers can be<br>returned if their responses have the <code>VARY</code> header set on them.</p>
-</blockquote>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers">Using Service Workers</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html">Cache</a><br>-Window.Caches and WorkerGlobalScope.Caches<br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Cache/keys">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -383,15 +339,15 @@ public class Cache</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Cache_Match_CSharpToJavaScript_APIs_JS_Union42_CSharpToJavaScript_APIs_JS_CacheQueryOptions_" data-uid="CSharpToJavaScript.APIs.JS.Cache.Match(CSharpToJavaScript.APIs.JS.Union42,CSharpToJavaScript.APIs.JS.CacheQueryOptions)">
   Match(Union42, CacheQueryOptions)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L16683"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>match()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html">Cache</a> interface returns a {{jsxref(&quot;Promise&quot;)}} that resolves to the <a class="xref" href="CSharpToJavaScript.APIs.JS.Response.html">Response</a> associated with the first matching request in the <a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html">Cache</a> object.<br>If no match is found, the Promise resolves to <a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a>.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;Response&gt; Match(Union42 request, CacheQueryOptions options = null)</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;match&quot;)]
+public Task&lt;Response&gt; Match(Union42 request, CacheQueryOptions options = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -405,8 +361,7 @@ public class Cache</code></pre>
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CSharpToJavaScript.APIs.JS.Response.html">Response</a>&gt;</dt>
-    <dd><p>A {{jsxref(&quot;Promise&quot;)}} that resolves to the first <a class="xref" href="CSharpToJavaScript.APIs.JS.Response.html">Response</a> that matches<br>the request or to <a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">GlobalObject.Undefined</a> if no match is found.<blockquote class="NOTE"><h5>NOTE</h5><strong>Note:</strong><code>Cache.match()</code> is basically identical to<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html#CSharpToJavaScript_APIs_JS_Cache_MatchAll_CSharpToJavaScript_APIs_JS_Union42_CSharpToJavaScript_APIs_JS_CacheQueryOptions_">MatchAll(Union42, CacheQueryOptions)</a>, except that rather than resolving with an array of<br>all matching responses, it resolves with the first matching response only (that is,<br><code>response[0]</code>).</blockquote>
-</dd>
+    <dd></dd>
   </dl>
 
 
@@ -415,14 +370,6 @@ public class Cache</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Cache_Match_CSharpToJavaScript_APIs_JS_Union42_CSharpToJavaScript_APIs_JS_CacheQueryOptions__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers">Using Service Workers</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html">Cache</a><br>-Window.Caches and WorkerGlobalScope.Caches<br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Cache/match">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -431,15 +378,15 @@ public class Cache</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Cache_MatchAll_CSharpToJavaScript_APIs_JS_Union42_CSharpToJavaScript_APIs_JS_CacheQueryOptions_" data-uid="CSharpToJavaScript.APIs.JS.Cache.MatchAll(CSharpToJavaScript.APIs.JS.Union42,CSharpToJavaScript.APIs.JS.CacheQueryOptions)">
   MatchAll(Union42, CacheQueryOptions)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L16685"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>matchAll()</code></strong> method of the <a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html">Cache</a><br>interface returns a Promise that resolves to an array of all matching<br>responses in the <a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html">Cache</a> object.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;Response[]&gt; MatchAll(Union42 request = default, CacheQueryOptions options = null)</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;matchAll&quot;)]
+public Task&lt;Response[]&gt; MatchAll(Union42 request = default, CacheQueryOptions options = null)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -453,8 +400,7 @@ public class Cache</code></pre>
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CSharpToJavaScript.APIs.JS.Response.html">Response</a>[]&gt;</dt>
-    <dd><p>A Promise that resolves to an array of all matching responses in the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html">Cache</a> object.<blockquote class="NOTE"><h5>NOTE</h5><strong>Note:</strong><a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html#CSharpToJavaScript_APIs_JS_Cache_Match_CSharpToJavaScript_APIs_JS_Union42_CSharpToJavaScript_APIs_JS_CacheQueryOptions_">Match(Union42, CacheQueryOptions)</a> is basically identical to<br><code>Cache.matchAll()</code>, except that rather than resolving with an array of all<br>matching responses, it resolves with the first matching response only (that is,<br><code>response[0]</code>).</blockquote>
-</dd>
+    <dd></dd>
   </dl>
 
 
@@ -463,14 +409,6 @@ public class Cache</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Cache_MatchAll_CSharpToJavaScript_APIs_JS_Union42_CSharpToJavaScript_APIs_JS_CacheQueryOptions__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers">Using Service Workers</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html">Cache</a><br>-Window.Caches and WorkerGlobalScope.Caches<br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Cache/matchAll">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -479,15 +417,15 @@ public class Cache</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_Cache_Put_CSharpToJavaScript_APIs_JS_Union42_CSharpToJavaScript_APIs_JS_Response_" data-uid="CSharpToJavaScript.APIs.JS.Cache.Put(CSharpToJavaScript.APIs.JS.Union42,CSharpToJavaScript.APIs.JS.Response)">
   Put(Union42, Response)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L16691"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>The <strong><code>put()</code></strong> method of the<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html">Cache</a> interface allows key/value pairs to be added to the current<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html">Cache</a> object.</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;GlobalObject.Undefined&gt; Put(Union42 request, Response response)</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;put&quot;)]
+public Task&lt;GlobalObject.Undefined&gt; Put(Union42 request, Response response)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
@@ -500,9 +438,8 @@ public class Cache</code></pre>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.GlobalObject.Undefined.html">Undefined</a>&gt;</dt>
-    <dd><p>A Promise that resolves with <code>undefined</code>.</p>
-</dd>
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.html">GlobalObject</a>.<a class="xref" href="CSharpToJavaScript.APIs.JS.Ecma.GlobalObject.Undefined.html">Undefined</a>&gt;</dt>
+    <dd></dd>
   </dl>
 
 
@@ -511,27 +448,6 @@ public class Cache</code></pre>
 
 
 
-  <h4 class="section" id="CSharpToJavaScript_APIs_JS_Cache_Put_CSharpToJavaScript_APIs_JS_Union42_CSharpToJavaScript_APIs_JS_Response__remarks">Remarks</h4>
-  <div class="markdown level1 remarks"><p>Often, you will just want to Window/fetch<br>one or more requests, then add the result straight to your cache. In such cases you are<br>better off using<br><a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html#CSharpToJavaScript_APIs_JS_Cache_Add_CSharpToJavaScript_APIs_JS_Union42_">Add(Union42)</a>/<a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html#CSharpToJavaScript_APIs_JS_Cache_AddAll_System_Collections_Generic_List_CSharpToJavaScript_APIs_JS_Union42__">AddAll(List&lt;Union42&gt;)</a>, as<br>they are shorthand functions for one or more of these operations.</p>
-<blockquote class="NOTE">
-  <h5>NOTE</h5>
-  <p>
-    <strong>Note:</strong>
-    <code>put()</code> will overwrite any key/value pair<br>previously stored in the cache that matches the request.</p>
-</blockquote>
-<blockquote class="NOTE">
-  <h5>NOTE</h5>
-  <p>
-    <strong>Note:</strong>
-    <a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html#CSharpToJavaScript_APIs_JS_Cache_Add_CSharpToJavaScript_APIs_JS_Union42_">Add(Union42)</a>/<a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html#CSharpToJavaScript_APIs_JS_Cache_AddAll_System_Collections_Generic_List_CSharpToJavaScript_APIs_JS_Union42__">AddAll(List&lt;Union42&gt;)</a> do not<br>cache responses with <code>Response.status</code> values that are not in the 200<br>range, whereas <code>Cache.put</code> lets you store any request/response pair. As a<br>result, <a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html#CSharpToJavaScript_APIs_JS_Cache_Add_CSharpToJavaScript_APIs_JS_Union42_">Add(Union42)</a>/<a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html#CSharpToJavaScript_APIs_JS_Cache_AddAll_System_Collections_Generic_List_CSharpToJavaScript_APIs_JS_Union42__">AddAll(List&lt;Union42&gt;)</a> can't be used to store<br>opaque responses, whereas <code>Cache.put</code> can.</p>
-</blockquote>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers">Using Service Workers</a><br>-<a class="xref" href="CSharpToJavaScript.APIs.JS.Cache.html">Cache</a><br>-Window.Caches and WorkerGlobalScope.Caches<br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/Cache/put">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
 
 
 
@@ -540,7 +456,7 @@ public class Cache</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L16679" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs" class="edit-link">Edit this page</a>
         </div>
 
 

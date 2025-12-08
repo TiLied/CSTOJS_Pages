@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class RequestInit | CSharpToJavaScript ">
       
-      <meta name="description" content="The RequestInit dictionary of the Fetch API represents the set of options that can be used to configure a fetch request.">
+      
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/TiLied/CSharpToJavaScript/new/master/apiSpec/new?filename=CSharpToJavaScript_APIs_JS_RequestInit.md&amp;value=---%0Auid%3A%20CSharpToJavaScript.APIs.JS.RequestInit%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -89,7 +89,7 @@
 
 
   <h1 id="CSharpToJavaScript_APIs_JS_RequestInit" data-uid="CSharpToJavaScript.APIs.JS.RequestInit" class="text-break">
-Class RequestInit  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L19000"><i class="bi bi-code-slash"></i></a>
+Class RequestInit  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -97,12 +97,11 @@ Class RequestInit  <a class="header-action link-secondary" title="View source" h
   <dl><dt>Assembly</dt><dd>CSharpToJavaScript.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>The <strong><code>RequestInit</code></strong> dictionary of the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API">Fetch API</a> represents the set of options that can be used to configure a <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/fetch">fetch request</a>.</p>
-</div>
+  <div class="markdown summary"></div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[To(&quot;FirstCharToLowerCase&quot;)]
+    <pre><code class="lang-csharp hljs">[Value(&quot;RequestInit&quot;)]
 public class RequestInit</code></pre>
   </div>
 
@@ -123,41 +122,61 @@ public class RequestInit</code></pre>
     <dt>Inherited Members</dt>
     <dd>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
-    </div>
-    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
     </div>
     <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
     </div>
     <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
     </div>
     <div>
-      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
     </div>
   </dd></dl>
 
 
 
 
-  <h2 id="CSharpToJavaScript_APIs_JS_RequestInit_remarks">Remarks</h2>
-  <div class="markdown level0 remarks"><p>You can pass a <code>RequestInit</code> object into the <a class="xref" href="CSharpToJavaScript.APIs.JS.Request.html#CSharpToJavaScript_APIs_JS_Request__ctor_CSharpToJavaScript_APIs_JS_Union42_CSharpToJavaScript_APIs_JS_RequestInit_">Request(Union42, RequestInit)</a> constructor, or directly into the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/fetch"><code>fetch()</code></a> function call.</p>
-<p>You can also construct a <code>Request</code> with a <code>RequestInit</code>, and pass the <code>Request</code> to a <code>fetch()</code> call along with another <code>RequestInit</code>. If you do this, and the same option is set in both places, then the value passed directly into <code>fetch()</code> is used.</p>
-<p>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch">Using Fetch</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API">ServiceWorker API</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS">HTTP access control (CORS)</a><br>-<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP">HTTP</a><br></p>
-<p>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/API/RequestInit">
-    <em>See also on MDN</em>
-  </a>
-</p>
-</div>
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="CSharpToJavaScript_APIs_JS_RequestInit__ctor_" data-uid="CSharpToJavaScript.APIs.JS.RequestInit.#ctor*"></a>
+
+  <h3 id="CSharpToJavaScript_APIs_JS_RequestInit__ctor" data-uid="CSharpToJavaScript.APIs.JS.RequestInit.#ctor">
+  RequestInit()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RequestInit()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
 
 
   <h2 class="section" id="fields">Fields
@@ -167,14 +186,15 @@ public class RequestInit</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RequestInit_AdAuctionHeaders" data-uid="CSharpToJavaScript.APIs.JS.RequestInit.AdAuctionHeaders">
   AdAuctionHeaders
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L19002"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool AdAuctionHeaders</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;adAuctionHeaders&quot;)]
+public bool AdAuctionHeaders</code></pre>
   </div>
 
 
@@ -197,14 +217,15 @@ public class RequestInit</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RequestInit_AttributionReporting" data-uid="CSharpToJavaScript.APIs.JS.RequestInit.AttributionReporting">
   AttributionReporting
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L295"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AttributionReportingRequestOptions AttributionReporting</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;attributionReporting&quot;)]
+public AttributionReportingRequestOptions AttributionReporting</code></pre>
   </div>
 
 
@@ -227,14 +248,15 @@ public class RequestInit</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RequestInit_Body" data-uid="CSharpToJavaScript.APIs.JS.RequestInit.Body">
   Body
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L6019"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Union41? Body</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;body&quot;)]
+public Union41? Body</code></pre>
   </div>
 
 
@@ -257,14 +279,15 @@ public class RequestInit</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RequestInit_Cache" data-uid="CSharpToJavaScript.APIs.JS.RequestInit.Cache">
   Cache
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L6024"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public RequestCache Cache</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;cache&quot;)]
+public RequestCache Cache</code></pre>
   </div>
 
 
@@ -287,14 +310,15 @@ public class RequestInit</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RequestInit_Credentials" data-uid="CSharpToJavaScript.APIs.JS.RequestInit.Credentials">
   Credentials
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L6023"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public RequestCredentials Credentials</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;credentials&quot;)]
+public RequestCredentials Credentials</code></pre>
   </div>
 
 
@@ -317,14 +341,15 @@ public class RequestInit</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RequestInit_Duplex" data-uid="CSharpToJavaScript.APIs.JS.RequestInit.Duplex">
   Duplex
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L6029"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public RequestDuplex Duplex</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;duplex&quot;)]
+public RequestDuplex Duplex</code></pre>
   </div>
 
 
@@ -347,14 +372,15 @@ public class RequestInit</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RequestInit_Headers" data-uid="CSharpToJavaScript.APIs.JS.RequestInit.Headers">
   Headers
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L6018"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Union39 Headers</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;headers&quot;)]
+public Union39 Headers</code></pre>
   </div>
 
 
@@ -377,14 +403,15 @@ public class RequestInit</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RequestInit_Integrity" data-uid="CSharpToJavaScript.APIs.JS.RequestInit.Integrity">
   Integrity
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L6026"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Integrity</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;integrity&quot;)]
+public string Integrity</code></pre>
   </div>
 
 
@@ -407,14 +434,15 @@ public class RequestInit</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RequestInit_Keepalive" data-uid="CSharpToJavaScript.APIs.JS.RequestInit.Keepalive">
   Keepalive
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L6027"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Keepalive</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;keepalive&quot;)]
+public bool Keepalive</code></pre>
   </div>
 
 
@@ -437,14 +465,15 @@ public class RequestInit</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RequestInit_Method" data-uid="CSharpToJavaScript.APIs.JS.RequestInit.Method">
   Method
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L6017"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Method</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;method&quot;)]
+public string Method</code></pre>
   </div>
 
 
@@ -467,14 +496,15 @@ public class RequestInit</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RequestInit_Mode" data-uid="CSharpToJavaScript.APIs.JS.RequestInit.Mode">
   Mode
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L6022"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public RequestMode Mode</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;mode&quot;)]
+public RequestMode Mode</code></pre>
   </div>
 
 
@@ -497,14 +527,15 @@ public class RequestInit</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RequestInit_Priority" data-uid="CSharpToJavaScript.APIs.JS.RequestInit.Priority">
   Priority
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L6030"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public RequestPriority Priority</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;priority&quot;)]
+public RequestPriority Priority</code></pre>
   </div>
 
 
@@ -527,14 +558,15 @@ public class RequestInit</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RequestInit_PrivateToken" data-uid="CSharpToJavaScript.APIs.JS.RequestInit.PrivateToken">
   PrivateToken
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L18576"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PrivateToken PrivateToken</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;privateToken&quot;)]
+public PrivateToken PrivateToken</code></pre>
   </div>
 
 
@@ -557,14 +589,15 @@ public class RequestInit</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RequestInit_Redirect" data-uid="CSharpToJavaScript.APIs.JS.RequestInit.Redirect">
   Redirect
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L6025"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public RequestRedirect Redirect</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;redirect&quot;)]
+public RequestRedirect Redirect</code></pre>
   </div>
 
 
@@ -587,14 +620,15 @@ public class RequestInit</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RequestInit_Referrer" data-uid="CSharpToJavaScript.APIs.JS.RequestInit.Referrer">
   Referrer
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L6020"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Referrer</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;referrer&quot;)]
+public string Referrer</code></pre>
   </div>
 
 
@@ -617,14 +651,15 @@ public class RequestInit</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RequestInit_ReferrerPolicy" data-uid="CSharpToJavaScript.APIs.JS.RequestInit.ReferrerPolicy">
   ReferrerPolicy
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L6021"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ReferrerPolicy ReferrerPolicy</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;referrerPolicy&quot;)]
+public ReferrerPolicy ReferrerPolicy</code></pre>
   </div>
 
 
@@ -647,14 +682,15 @@ public class RequestInit</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RequestInit_SharedStorageWritable" data-uid="CSharpToJavaScript.APIs.JS.RequestInit.SharedStorageWritable">
   SharedStorageWritable
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L16917"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool SharedStorageWritable</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;sharedStorageWritable&quot;)]
+public bool SharedStorageWritable</code></pre>
   </div>
 
 
@@ -677,14 +713,15 @@ public class RequestInit</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RequestInit_Signal" data-uid="CSharpToJavaScript.APIs.JS.RequestInit.Signal">
   Signal
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L6028"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AbortSignal? Signal</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;signal&quot;)]
+public AbortSignal? Signal</code></pre>
   </div>
 
 
@@ -707,14 +744,15 @@ public class RequestInit</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RequestInit_TargetAddressSpace" data-uid="CSharpToJavaScript.APIs.JS.RequestInit.TargetAddressSpace">
   TargetAddressSpace
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L15338"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IPAddressSpace TargetAddressSpace</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;targetAddressSpace&quot;)]
+public IPAddressSpace TargetAddressSpace</code></pre>
   </div>
 
 
@@ -737,14 +775,15 @@ public class RequestInit</code></pre>
 
   <h3 id="CSharpToJavaScript_APIs_JS_RequestInit_Window" data-uid="CSharpToJavaScript.APIs.JS.RequestInit.Window">
   Window
-  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L6031"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public dynamic Window</code></pre>
+    <pre><code class="lang-csharp hljs">[Value(&quot;window&quot;)]
+public dynamic Window</code></pre>
   </div>
 
 
@@ -768,7 +807,7 @@ public class RequestInit</code></pre>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs/#L19000" class="edit-link">Edit this page</a>
+          <a href="https://github.com/TiLied/CSharpToJavaScript/blob/fd7963461b8b3cbd1f002d4e99870551dcd6d498/CSharpToJavaScript/APIs/JS/Generated/JS3.generated.cs" class="edit-link">Edit this page</a>
         </div>
 
 
