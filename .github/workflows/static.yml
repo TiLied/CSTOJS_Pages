@@ -34,14 +34,30 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/checkout@v6
+      - name: Clone CSharpToJavaScript
+        uses: whyakari/github-repo-action@v3.1
         with:
-          # Upload entire repository
-          path: './docs'
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          owner: TiLied
+          repository: CSharpToJavaScript
+          branch: 'master'
+      - name: Access cloned repository content
+        run: ls -R ./CSharpToJavaScript
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 10.0.x
+      - name: Build CSharpToJavaScript
+        run: dotnet build ./CSharpToJavaScript/CSharpToJavaScript.csproj --configuration Release --output ./bin
+      - name: ls ./bin
+        run: ls ./bin
+      #- name: Setup Pages
+      #  uses: actions/configure-pages@v5
+      #- name: Upload artifact
+      #  uses: actions/upload-pages-artifact@v3
+      #  with:
+      #    # Upload entire repository
+      #    path: './docs'
+      #- name: Deploy to GitHub Pages
+      #  id: deployment
+      #  uses: actions/deploy-pages@v4
