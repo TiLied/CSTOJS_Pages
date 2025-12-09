@@ -6,10 +6,6 @@ on:
   push:
     branches:
       - "main"
-    paths:
-      - "docs/**"
-
-
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -34,11 +30,30 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
+      - name: Clone CSharpToJavaScript
+        uses: whyakari/github-repo-action@v3.1
+        with:
+          owner: TiLied
+          repository: CSharpToJavaScript
+          branch: 'master'
+      - name: Access cloned repository content
+        run: ls -R ./CSharpToJavaScript
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v5
+        with:
+          dotnet-version: 10.0.x
+      - name: Build CSharpToJavaScript
+        run: dotnet build ./CSharpToJavaScript/CSharpToJavaScript.csproj --configuration Release --output ./bin
+      - name: ls ./bin
+        run: ls ./bin
+      #TODO clone CSTOJS_BWA and build it!
+      - run: dotnet tool update -g docfx
+      - run: docfx
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           # Upload entire repository
           path: './docs'
