@@ -29,7 +29,9 @@
         "files": [
           "cli/**.md",
           "cli/**/toc.yml",
-          "toc.yml",
+		  "tutorials/**.md",
+		  "tutorials/**/toc.yml",
+		  "toc.yml",
           "*.md"
         ]
       }
@@ -37,7 +39,9 @@
     "resource": [
       {
         "files": [
-          "images/**"
+          "images/**",
+		  "tutorials/**/**/**.html",
+		  "tutorials/**/**/**.js"
         ]
       },
 			{
