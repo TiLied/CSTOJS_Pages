@@ -1,0 +1,5 @@
+<ProjectOptions>
+  <Output Folder="Output" />
+  <Option KeepBraceOnTheSameLine="true" /> 
+  <File Source="./Program.cs" />
+</ProjectOptions>
