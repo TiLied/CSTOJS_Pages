@@ -15,21 +15,13 @@ The command will create a dotnet project with an "Output" folder as an output fo
 ![Folder structure](../images/HelloWorld_Images/0.png)
 
 "Output" - folder where js files will be placed.
+
 "cstojs_options.xml" - various options for a csharptojavascript library.
 
 Now before we start "coding" hello world :) let's create an HTML file inside of "Output", I called "index.html"
 
-```html
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Hello, world!</title>
-		<script src="./Program.js" type="text/javascript"></script>
-	</head>
-	<body>
-	</body>
-</html> 
-```
+[!code-javascript[](./HelloWorld_Example/Output/index.html)]
+
 Now in the opened terminal type:
 
 ```bash
@@ -42,23 +34,9 @@ Once translated, open "index.html" and open a console, you should see a message 
 Now, let's code!
 
 Open "Program.cs" in your favorite ide, delete everything, and add this code.
-```csharp
-using CSharpToJavaScript.APIs.JS;
-using static CSharpToJavaScript.APIs.JS.Ecma.GlobalObject;
 
-GlobalThis.Window.Document.AddEventListener("DOMContentLoaded", (Event e) =>
-{
-	HTMLElement body = GlobalThis.Window.Document.Body;
+[!code-csharp[](./HelloWorld_Example/Program.cs)]
 
-	Element paragraph = GlobalThis.Window.Document.CreateElement("p");
-	Text helloWorld = GlobalThis.Window.Document.CreateTextNode("Hello, World!");
-	
-	paragraph.AppendChild(helloWorld);
-
-	(body as ParentNode).Append(paragraph);
-}, true);
-
-```
 Now, let me explain line by line. In the meantime, you can run `cstojs-cli translate` and see a "Hello, World!" message on a reloaded "index.html".
 
 > [!NOTE]
@@ -66,73 +44,65 @@ Now, let me explain line by line. In the meantime, you can run `cstojs-cli trans
 
 ![Folder structure](../images/HelloWorld_Images/2.png)
 
-First using static, this is needed if you want (you do!) to use ECMA api/web api:
-```csharp
-...
-using static CSharpToJavaScript.APIs.JS.Ecma.GlobalObject;
-...
-```
+1. Using static directive, this is needed if you want (you do!) to use ECMA api/web api:
+[!code-csharp[](./HelloWorld_Example/Program.cs?highlight=2#L1-L3)]
 
-Second, adding an event listener to make sure the body is loaded before js execution:
-```csharp
-...
-GlobalThis.Window.Document.AddEventListener("DOMContentLoaded", (Event e) =>
-...
-```
+2. Adding an event listener to make sure the body is loaded before js execution:
+[!code-csharp[](./HelloWorld_Example/Program.cs?highlight=2#L3-L5)]
 
-Third, keeping reference to the body:
-```csharp
-...
-HTMLElement body = GlobalThis.Window.Document.Body;
-...
-```
+3. Keeping reference to the body:
+[!code-csharp[](./HelloWorld_Example/Program.cs?highlight=2#L5-L7)]
 
-Fourth, this shows how to create an element and textnode, explore other methods in "Document":
-```csharp
-...
-Element paragraph = GlobalThis.Window.Document.CreateElement("p");
-Text helloWorld = GlobalThis.Window.Document.CreateTextNode("Hello, World!");
-...
-```
+4. This shows how to create an element and textnode, explore other methods in <xref:CSharpToJavaScript.APIs.JS.Document>:
+[!code-csharp[](./HelloWorld_Example/Program.cs?highlight=2,3#L7-L10)]
 
-Fifth, appendChild is easy:
-```csharp
-...
-paragraph.AppendChild(helloWorld);
-...
-```
+5. AppendChild is easy:
+[!code-csharp[](./HelloWorld_Example/Program.cs?highlight=2#L10-L12)]
 
-Sixth, but what about "Append"??? 
-Well, you need to cast to the "ParentNode" interface before you can use methods like "Append" and "QuerySelector".
-See <xref:CSharpToJavaScript.APIs.JS.ParentNode>.
+6. But what about "Append"??? 
+Well, you need to cast a class object to the "ParentNode" interface before you can use methods like "Append" and "QuerySelector".
+See all methods <xref:CSharpToJavaScript.APIs.JS.ParentNode>.
 
 > [!NOTE]
 > As of 0.1.2, explicit cast `(ParentNode(body))` is broken, I need to fix it..
 
-```csharp
-...
-(body as ParentNode).Append(paragraph);
-...
-```
+[!code-csharp[](./HelloWorld_Example/Program.cs?highlight=2#L12-L14)]
 
 Translated js:
-```javascript
-globalThis.window.document.addEventListener("DOMContentLoaded", (e) =>
-{
-	let body = globalThis.window.document.body;
-
-	let paragraph = globalThis.window.document.createElement("p");
-	let helloWorld = globalThis.window.document.createTextNode("Hello, World!");
-		
-	paragraph.appendChild(helloWorld);
-
-	body.append(paragraph);
-}, true);
-
-```
+[!code-javascript[](./HelloWorld_Example/Output/Program.js)]
 
 See the full source code: https://github.com/TiLied/CSTOJS_Pages/tree/main/tutorials/HelloWorld_Example
 
 Live example:
 
 <iframe src="./HelloWorld_Example/Output/index.html"></iframe>
+
+## Hello world(Class edition)
+You may ask, what about more traditional c#, more classical. You can do that!
+1. First, create a folder and run:
+```bash
+cstojs-cli setup "js"
+```
+Why "js", why not :)
+
+2. Copy and paste "index.html" to the "js" folder.
+
+3. Program.cs is almost the same:
+[!code-csharp[](./HelloWorldClass_Example/Program.cs)]
+4. Try running `cstojs-cli translate` and open "index.html".
+![nothing](../images/HelloWorldClass_Images/0.png)
+5. And... nothing. Well, we need to call a static method "Main" somehow.
+As of 0.1.2, the only way to call it is to modify "cstojs_options.xml".
+Open "cstojs_options.xml" and change the content to:
+[!code-xml[](./HelloWorldClass_Example/cstojs_options.xml?highlight=4)]
+6. Now, run `cstojs-cli translate` again, and here we go "Hello, World!" is showing.
+See <xref:CSharpToJavaScript.CSTOJSOptions> for more options. They can be applied as a global option or local to the file. In this example, the option applied to the "Program.cs" file only.
+
+Translated js:
+[!code-javascript[](./HelloWorldClass_Example/js/Program.js)]
+
+See the full source code: https://github.com/TiLied/CSTOJS_Pages/tree/main/tutorials/HelloWorldClass_Example
+
+Live example:
+
+<iframe src="./HelloWorldClass_Example/js/index.html"></iframe>

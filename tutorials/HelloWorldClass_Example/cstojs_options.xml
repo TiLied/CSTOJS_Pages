@@ -1,0 +1,6 @@
+<ProjectOptions>
+  <Output Folder="js" />
+  <File Source="./Program.cs">
+    <Option AddSBAtTheBottom="Program.Main();" />
+  </File>
+</ProjectOptions>
