@@ -8,13 +8,12 @@
         }
       ],
       "dest": "api",
-      "includePrivateMembers": false,
+	  "includeExplicitInterfaceImplementations": true,
       "disableGitFeatures": false,
       "disableDefaultFilter": false,
       "noRestore": false,
-      "namespaceLayout": "flattened",
-      "memberLayout": "samePage",
-      "allowCompilationErrors": false
+      "allowCompilationErrors": false,
+	  "enumSortOrder": "declaringOrder"
     }
   ],
   "build": {
@@ -29,7 +28,9 @@
         "files": [
           "cli/**.md",
           "cli/**/toc.yml",
-          "toc.yml",
+		  "tutorials/**.md",
+		  "tutorials/**/toc.yml",
+		  "toc.yml",
           "*.md"
         ]
       }
@@ -37,7 +38,9 @@
     "resource": [
       {
         "files": [
-          "images/**"
+          "images/**",
+		  "tutorials/**/**/**.html",
+		  "tutorials/**/**/**.js"
         ]
       },
 			{

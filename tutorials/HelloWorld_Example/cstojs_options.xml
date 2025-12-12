@@ -1,0 +1,4 @@
+<ProjectOptions>
+  <Output Folder="Output" />
+  <File Source="./Program.cs" />
+</ProjectOptions>

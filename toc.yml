@@ -2,6 +2,8 @@
   href: cli/
 - name: Api Documentation
   href: api/
+- name: Tutorials/Examples
+  href: tutorials/
 - name: Try it online!
   href: BWA/
   homepage: api/index.md
