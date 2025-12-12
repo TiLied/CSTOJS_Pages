@@ -8,13 +8,12 @@
         }
       ],
       "dest": "api",
-      "includePrivateMembers": false,
+	  "includeExplicitInterfaceImplementations": true,
       "disableGitFeatures": false,
       "disableDefaultFilter": false,
       "noRestore": false,
-      "namespaceLayout": "flattened",
-      "memberLayout": "samePage",
-      "allowCompilationErrors": false
+      "allowCompilationErrors": false,
+	  "enumSortOrder": "declaringOrder"
     }
   ],
   "build": {

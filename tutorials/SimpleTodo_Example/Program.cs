@@ -34,7 +34,7 @@ void AddEntry(FormData data, HTMLUListElement ulList)
 
 	HTMLButtonElement buttonElement = (HTMLButtonElement)GlobalThis.Window.Document.CreateElement("button");
 	
-	buttonElement.TextContent = "Delete";
+	buttonElement.TextContent = "Done";
 	
 	HTMLLIElement liElement = (HTMLLIElement)GlobalThis.Window.Document.CreateElement("li");
 

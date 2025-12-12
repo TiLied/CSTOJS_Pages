@@ -33,7 +33,7 @@ function AddEntry(data, ulList) {
 	let buttonElement = globalThis.window.document.createElement("button");
 	
 		
-	buttonElement.textContent = "Delete";
+	buttonElement.textContent = "Done";
 	
 	let liElement = globalThis.window.document.createElement("li");
 
