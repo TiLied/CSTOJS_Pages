@@ -1,0 +1,9 @@
+<ProjectOptions>
+  <Output Folder="Output" />
+  <File Source="./Program.cs">
+	<Option AddSBAtTheTop="import { Hello } from './Module.js';" />
+  </File>
+  <File Source="./Module.cs">
+	<Option AddSBAtTheBottom="export { Hello };"/>
+  </File>
+</ProjectOptions>
