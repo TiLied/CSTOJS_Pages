@@ -4,7 +4,6 @@ globalThis.window.document.addEventListener("DOMContentLoaded", (e) =>
 	//hack
 	let ctx = canvas.getContext("2d");
 
-	
 	ctx.fillStyle = "rgb(180 0 180)";
-		ctx.fillRect(50, 50, 50, 50);
+	ctx.fillRect(50, 50, 50, 50);
 }, true);

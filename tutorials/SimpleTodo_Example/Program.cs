@@ -10,7 +10,6 @@ GlobalThis.Window.Document.AddEventListener("DOMContentLoaded", (Event e) =>
 
 	todoForm.AddEventListener("submit", (Event e) =>
 	{
-		
 		e.PreventDefault();
 
 		FormData data = new FormData(todoForm);
@@ -25,21 +24,16 @@ void AddEntry(FormData data, HTMLUListElement ulList)
 {
 	HTMLDivElement divElement = (HTMLDivElement)GlobalThis.Window.Document.CreateElement("div");
 
-	//Hack, "Union237" is not converting to a string implicitly.
-	//I need another way around "Union237" to string, not string to "Union237"
-	//Union237 test = "str";
-	dynamic todo_str = data.Get("todo") + " ";
+	string todo_str = data.Get("todo") + " ";
 
 	Text todoText = GlobalThis.Window.Document.CreateTextNode(todo_str);
 
 	HTMLButtonElement buttonElement = (HTMLButtonElement)GlobalThis.Window.Document.CreateElement("button");
-	
 	buttonElement.TextContent = "Done";
 	
 	HTMLLIElement liElement = (HTMLLIElement)GlobalThis.Window.Document.CreateElement("li");
 
 	divElement.AppendChild(todoText);
-	
 	divElement.AppendChild(buttonElement);
 
 	liElement.AppendChild(divElement);

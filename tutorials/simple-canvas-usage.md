@@ -1,7 +1,7 @@
 ## Simple Canvas Usage
 
 > [!NOTE]
-> cstojs-cli 0.1.2 is used.
+> cstojs-cli 0.1.3 is used.
 
 cstojs_options.xml:
 [!code-xml[](./SimpleCanvasUsage_Example/cstojs_options.xml)]

@@ -1,5 +1,5 @@
 > [!NOTE]
-> cstojs-cli 0.1.2 is used.
+> cstojs-cli 0.1.3 is used.
 
 I assume that the cli installed as a dotnet tool, that way, the cli can be called as "cstojs-cli".
 
@@ -38,9 +38,6 @@ Open "Program.cs" in your favorite ide, delete everything, and add this code.
 [!code-csharp[](./HelloWorld_Example/Program.cs)]
 
 Now, let me explain line by line. In the meantime, you can run `cstojs-cli translate` and see a "Hello, World!" message on a reloaded "index.html".
-
-> [!NOTE]
-> You can ignore warnings as of 0.1.2, something regressed...
 
 ![Folder structure](../images/HelloWorld_Images/2.png)
 
