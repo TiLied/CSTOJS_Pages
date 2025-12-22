@@ -18,7 +18,6 @@ All options applying to the file. If you what global options, for example `Norma
 	<Option AddSBAtTheBottom="//comment at the bottom" />
 	<Option AddSBAtTheTop="/*comment at the top*/"/>
 	<Option CustomCSNamesToJS="Console-console,Beep-log"/>
-	<Option Debug="true"/>
 	<Option KeepBraceOnTheSameLine="true"/>
 	<Option UseVarOverLet="true"/>
   </File>

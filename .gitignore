@@ -1,6 +1,9 @@
 docs/*
 READTHIS.txt
 
+api/*
+!api/index.md
+
 ###############
 #    folder   #
 ###############

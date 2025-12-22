@@ -1,5 +1,4 @@
-﻿
-void Test()
+﻿void Test()
 {
 	string str = "Hello, World!";
 	Console.WriteLine(str);
