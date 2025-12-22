@@ -8,3 +8,5 @@
   href: options.md
 - name: Simple Module
   href: simple-module.md
+- name: Simple Shadow DOM
+  href: simple-shadow-dom.md
