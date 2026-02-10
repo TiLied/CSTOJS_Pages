@@ -56,9 +56,9 @@ jobs:
       - name: Access cloned repository content
         run: ls -R ./CSTOJS_BWA
       - name: publish CSTOJS_BWA
-        run: dotnet publish ./CSTOJS_BWA/CSTOJS_BWA/CSTOJS_BWA.csproj --configuration Release --self-contained --property:PublishDir=/home/runner/work/CSTOJS_Pages/BWA
-      - name: ls /home/runner/work/CSTOJS_Pages/BWA
-        run: ls /home/runner/work/CSTOJS_Pages/BWA
+        run: dotnet publish ./CSTOJS_BWA/CSTOJS_BWA/CSTOJS_BWA.csproj --configuration Release --self-contained --property:PublishDir=/home/runner/work/CSTOJS_Pages/CSTOJS_Pages/BWA
+      - name: ls /home/runner/work/CSTOJS_Pages/CSTOJS_Pages/BWA
+        run: ls /home/runner/work/CSTOJS_Pages/CSTOJS_Pages/BWA
       - run: dotnet tool update -g docfx
       - run: docfx
       - name: Setup Pages
