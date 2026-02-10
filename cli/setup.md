@@ -17,7 +17,8 @@ Options:
 
 Runs `dotnet new console -f net10.0` and `dotnet add package CSharpToJavaScript` then creates an Output folder and `cstojs_options.xml`
 
-Specifying an output folder is required.
+> [!IMPORTANT]
+> Specifying an output folder is required.
 
 ## Example
 ```bash

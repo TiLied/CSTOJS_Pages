@@ -20,8 +20,8 @@ Watches specified files in the 'cstojs_options.xml' with an interval (--delay) a
 
 A project file (--project) can be specified.
 
-## Note:
-The 'cstojs_options.xml' file is not being monitored, so any changes require the command to be restarted.
+> [!NOTE]
+> The 'cstojs_options.xml' file is not being monitored, so any changes require the command to be restarted.
 
 ## Example
 'cstojs_options.xml':

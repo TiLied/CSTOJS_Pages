@@ -18,10 +18,11 @@ Options:
 
 Creates a bare-bones 'cstojs_options.xml' in the current directory and output folder, without running the dotnet commands.
 
-Specifying an output folder is required.
+> [!IMPORTANT]
+> Specifying an output folder is required.
 
-## NOTE
-Specifying files in the 'cstojs_options.xml' needed before running `cstojs-cli translate`.
+> [!NOTE]
+> Specifying files in the 'cstojs_options.xml' needed before running `cstojs-cli translate`.
 
 ## Example
 ```bash
