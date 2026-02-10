@@ -1,2 +1,12 @@
-- name: Introduction
-  href: intro.md
+- name: CLI
+  href: cli.md
+- name: init subcommand
+  href: init.md
+- name: setup subcommand
+  href: setup.md
+- name: translate subcommand
+  href: translate.md
+- name: watch subcommand
+  href: watch.md
+- name: cstojs_options.xml file
+  href: cstojs-options.md
