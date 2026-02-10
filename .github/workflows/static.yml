@@ -45,8 +45,8 @@ jobs:
           dotnet-version: 10.0.x
       - name: Build CSharpToJavaScript
         run: dotnet build ./CSharpToJavaScript/CSharpToJavaScript.csproj --configuration Release --output ./bin
-      - name: ls ./bin
-        run: ls ./bin
+      - name: ls -R ./bin
+        run: ls -R ./bin
       - name: Clone CSTOJS_BWA
         uses: whyakari/github-repo-action@v3.1
         with:
@@ -57,17 +57,17 @@ jobs:
         run: ls -R ./CSTOJS_BWA
       - name: publish CSTOJS_BWA
         run: dotnet publish ./CSTOJS_BWA/CSTOJS_BWA/CSTOJS_BWA.csproj --configuration Release --self-contained --property:PublishDir=/home/runner/work/CSTOJS_Pages/CSTOJS_Pages/BWA
-      - name: ls /home/runner/work/CSTOJS_Pages/CSTOJS_Pages/BWA
-        run: ls /home/runner/work/CSTOJS_Pages/CSTOJS_Pages/BWA
+      - name: ls -R /home/runner/work/CSTOJS_Pages/CSTOJS_Pages/BWA
+        run: ls -R /home/runner/work/CSTOJS_Pages/CSTOJS_Pages/BWA
       - run: dotnet tool update -g docfx
       - run: docfx
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
-        with:
-          # Upload entire repository
-          path: './docs'
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      #- name: Setup Pages
+      #  uses: actions/configure-pages@v5
+      #- name: Upload artifact
+      #  uses: actions/upload-pages-artifact@v4
+      #  with:
+      #    # Upload entire repository
+      #    path: './docs'
+      #- name: Deploy to GitHub Pages
+      #  id: deployment
+      #  uses: actions/deploy-pages@v4
