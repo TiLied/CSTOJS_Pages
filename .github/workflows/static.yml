@@ -61,13 +61,13 @@ jobs:
         run: ls -R /home/runner/work/CSTOJS_Pages/CSTOJS_Pages/BWA
       - run: dotnet tool update -g docfx
       - run: docfx
-      #- name: Setup Pages
-      #  uses: actions/configure-pages@v5
-      #- name: Upload artifact
-      #  uses: actions/upload-pages-artifact@v4
-      #  with:
-      #    # Upload entire repository
-      #    path: './docs'
-      #- name: Deploy to GitHub Pages
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          # Upload entire repository
+          path: './docs'
+      - name: Deploy to GitHub Pages
       #  id: deployment
       #  uses: actions/deploy-pages@v4
