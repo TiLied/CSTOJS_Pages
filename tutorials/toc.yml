@@ -10,3 +10,5 @@
   href: simple-module.md
 - name: Simple Shadow DOM
   href: simple-shadow-dom.md
+- name: Simple custom element
+  href: simple-custom-element.md
