@@ -61,7 +61,7 @@ Well, you need to cast a class object to the "ParentNode" interface before you c
 See all methods <xref:CSharpToJavaScript.APIs.JS.ParentNode>.
 
 > [!NOTE]
-> As of 0.1.2, explicit cast `(ParentNode(body))` is broken, I need to fix it..
+> As of CSharpToJavaScript 0.1.7, you can use explicit cast `(ParentNode(body))`.
 
 [!code-csharp[](./HelloWorld_Example/Program.cs?highlight=2#L12-L14)]
 

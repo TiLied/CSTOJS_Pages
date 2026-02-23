@@ -16,7 +16,7 @@ Options:
   -?, -h, --help  Show help and usage information
 ```
 
-Creates a bare-bones 'cstojs_options.xml' in the current directory and output folder, without running the dotnet commands.
+Creates a barebone 'cstojs_options.xml' file in the current directory and output folder without running the dotnet commands.
 
 > [!IMPORTANT]
 > Specifying an output folder is required.

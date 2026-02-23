@@ -1,7 +1,7 @@
 ## Simple Canvas Usage
 
 > [!NOTE]
-> cstojs-cli 0.1.3 is used.
+> cstojs-cli 0.1.7 is used, with CSharpToJavaScript 0.1.7.
 
 cstojs_options.xml:
 [!code-xml[](./SimpleCanvasUsage_Example/cstojs_options.xml)]
