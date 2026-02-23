@@ -2,10 +2,10 @@
 using static CSharpToJavaScript.APIs.JS.Ecma.GlobalObject;
 GlobalThis.Window.Document.AddEventListener("DOMContentLoaded", (Event e) =>
 {
-	HTMLCanvasElement canvas = (GlobalThis.Window.Document.Body as ParentNode).QuerySelector<HTMLCanvasElement>("canvas");
-	//hack
-	dynamic ctx = canvas.GetContext("2d");
+	HTMLCanvasElement canvas = ((ParentNode)GlobalThis.Window.Document.Body).QuerySelector<HTMLCanvasElement>("canvas");
 
-	ctx.fillStyle = "rgb(180 0 180)";
-	ctx.fillRect(50, 50, 50, 50);
+	CanvasRenderingContext2D ctx = canvas.GetContext("2d");
+
+	((CanvasFillStrokeStyles)ctx).FillStyle = "rgb(180 0 180)";
+	((CanvasRect)ctx).FillRect(50, 50, 50, 50);
 }, true);
