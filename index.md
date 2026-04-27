@@ -17,7 +17,7 @@ cstojs-cli translate
 ```csharp
 dotnet tool update --global TiLied.CSTOJS_CLI
 ```
-### To delete:
+### To uninstall:
 ```csharp
 dotnet tool uninstall --global TiLied.CSTOJS_CLI
 ```
