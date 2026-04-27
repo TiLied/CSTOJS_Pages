@@ -1,0 +1,5 @@
+<ProjectOptions>
+  <Output Folder="Output_auto" />
+  <File Source="./Program.cs" />
+  <File Source="./Module.cs" />
+</ProjectOptions>

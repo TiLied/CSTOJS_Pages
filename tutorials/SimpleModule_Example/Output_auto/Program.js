@@ -1,4 +1,5 @@
 import { Hello } from './Module.js';
+
 class Program
 {
 	static
@@ -6,3 +7,4 @@ class Program
 		Hello.Module();
 	}
 }
+export { Program };
