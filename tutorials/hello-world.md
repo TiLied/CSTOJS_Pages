@@ -92,6 +92,10 @@ Why "js", why not :)
 As of 0.1.2, the only way to call it is to modify "cstojs_options.xml".
 Open "cstojs_options.xml" and change the content to:
 [!code-xml[](./HelloWorldClass_Example/cstojs_options.xml?highlight=4)]
+
+> [!TIP]
+> Rather than modifying `cstojs_options.xml` you can use [static constructor](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/static-constructors).
+
 6. Now, run `cstojs-cli translate` again, and here we go "Hello, World!" is showing.
 See <xref:CSharpToJavaScript.CSTOJSOptions> for more options. They can be applied as a global option or local to the file. In this example, the option applied to the "Program.cs" file only.
 

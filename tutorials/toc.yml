@@ -10,3 +10,5 @@
   href: simple-shadow-dom.md
 - name: Simple custom element
   href: simple-custom-element.md
+- name: Node api example
+  href: node-api.md

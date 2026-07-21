@@ -30,7 +30,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
       - name: Clone CSharpToJavaScript
         uses: whyakari/github-repo-action@v3.1
         with:
@@ -40,7 +40,7 @@ jobs:
       - name: Access cloned repository content
         run: ls -R ./CSharpToJavaScript
       - name: Setup .NET
-        uses: actions/setup-dotnet@v5
+        uses: actions/setup-dotnet@v6
         with:
           dotnet-version: 10.0.x
       - name: Build CSharpToJavaScript
@@ -62,12 +62,12 @@ jobs:
       - run: dotnet tool update -g docfx
       - run: docfx
       - name: Setup Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v5
         with:
           # Upload entire repository
           path: './docs'
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
