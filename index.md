@@ -1,8 +1,12 @@
 # CSharpToJavaScript
 
+---
+
 [CLI github](https://github.com/TiLied/CSTOJS_CLI) | [Dotnet tool](https://www.nuget.org/packages/TiLied.CSTOJS_CLI) | [Core github](https://github.com/TiLied/CSharpToJavaScript) | [Nuget package](https://www.nuget.org/packages/CSharpToJavaScript/) | [Try it online!](https://tilied.github.io/CSTOJS_Pages/BWA/)
 
 ## Features
+
+---
 
 ### Web api included by default.
 
@@ -162,8 +166,11 @@ The translated file will be:
 For a slightly more complex example using the node api visit [tutorial](./tutorials/node-api.md).
 
 ### Automatic modules by default.
+
 Can be disabled, see [EnableModules](xref:CSharpToJavaScript.CSTOJSOptions#CSharpToJavaScript_CSTOJSOptions_EnableModules).
 See the [tutorial](./tutorials/simple-module.md) for an example.
+
+---
 
 > [!WARNING]
 > Because translation is happening as-is, there are many (BIG!) limitations.
@@ -175,6 +182,8 @@ See the [tutorial](./tutorials/simple-module.md) for an example.
 > The output is not tied to the ECMA standard, meaning if you use a static constructor in cs it will be translated as a static constructor even though it is ECMA 13th.
 
 ## Quick start for a CLI
+
+---
 
 ### To install:
 ```csharp
@@ -197,6 +206,9 @@ dotnet tool uninstall --global TiLied.CSTOJS_CLI
 ```
 
 ## Using as a library
+
+---
+
 - Install [nuget package](https://www.nuget.org/packages/CSharpToJavaScript/) or download a [specific version](https://github.com/TiLied/CSharpToJavaScript/releases).
 - Skip this if using a Nuget package. Follow [the instructions on how to add a project reference](https://learn.microsoft.com/en-us/dotnet/core/tutorials/library-with-visual-studio?pivots=dotnet-7-0#add-a-project-reference).
 - In the Main method, add:

@@ -4,6 +4,9 @@
 I assume that the cli installed as a dotnet tool, that way, the cli can be called as "cstojs-cli".
 
 ## Hello world
+
+---
+
 First, let's create a folder where the project will be, I called it "HelloWorld_Example".
 Now, inside that folder, open a terminal and type:
 
@@ -61,7 +64,7 @@ Well, you need to cast a class object to the "ParentNode" interface before you c
 See all methods <xref:CSharpToJavaScript.APIs.JS.ParentNode>.
 
 > [!NOTE]
-> As of CSharpToJavaScript 0.1.7, you can use explicit cast `(ParentNode(body))`.
+> As of CSharpToJavaScript 0.1.7, you can use explicit cast `((ParentNode)body)`.
 
 [!code-csharp[](./HelloWorld_Example/Program.cs?highlight=2#L12-L14)]
 
@@ -75,6 +78,9 @@ Live example:
 <iframe src="./HelloWorld_Example/Output/index.html"></iframe>
 
 ## Hello world(Class edition)
+
+---
+
 You may ask, what about more traditional c#, more classical. You can do that!
 1. First, create a folder and run:
 ```bash

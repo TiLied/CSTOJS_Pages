@@ -1,4 +1,6 @@
-## Simple todo
+# Simple todo
+
+---
 
 > [!NOTE]
 > cstojs-cli 0.1.3 is used.

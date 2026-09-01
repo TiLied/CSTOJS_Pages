@@ -1,10 +1,13 @@
 # init subcommand
 
+---
+
 cstojs-cli init -h
 
 ```bash
 Description:
-  Create a barebone 'cstojs_options.xml', without running the dotnet commands.
+  Create a barebone 'cstojs_options.xml' in the current directory, without running the dotnet commands.
+  This command should be used if a C# project already exists.
 
 Usage:
   CSTOJS_CLI init <folder> [options]
@@ -13,7 +16,9 @@ Arguments:
   <folder>  Output folder. Can be absolute path or relative.
 
 Options:
-  -?, -h, --help  Show help and usage information
+  -?, -h, --help            Show help and usage information
+  --disable-console-output  Self-explanatory, Disable Console Output.
+  --disable-console-colors  Self-explanatory, Disable Console Colors.
 ```
 
 Creates a barebone 'cstojs_options.xml' file in the current directory and output folder without running the dotnet commands.
@@ -25,6 +30,9 @@ Creates a barebone 'cstojs_options.xml' file in the current directory and output
 > Specifying files in the 'cstojs_options.xml' needed before running `cstojs-cli translate`.
 
 ## Example
+
+---
+
 ```bash
 cstojs-cli init "Output"
 ```

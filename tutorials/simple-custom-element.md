@@ -1,6 +1,10 @@
 # Simple Custom Element
 
+---
+
 ## As of CSharpToJavaScript 0.1.6
+
+---
 
 cstojs_options.xml:
 [!code-xml[](./SimpleCustomElement_Example/cstojs_options.xml)]
@@ -19,6 +23,8 @@ Live example:
 
 ## As of CSharpToJavaScript 0.1.5
 
+---
+
 Using special syntax `//...\\`.
 ```csharp
 ...
@@ -31,6 +37,8 @@ customElements.define("my-element", CustomElement);
 ```
 
 ## Modifying `cstojs_options.xml`.
+
+---
 
 ```xml
  <File Source="./Program.cs">

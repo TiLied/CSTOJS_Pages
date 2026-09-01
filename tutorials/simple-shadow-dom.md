@@ -1,4 +1,6 @@
-## Simple Shadow DOM
+# Simple Shadow DOM
+
+---
 
 > [!NOTE]
 > cstojs-cli 0.1.4 is used.
