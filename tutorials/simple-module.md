@@ -1,6 +1,11 @@
-## Simple Module
+# Simple Module
+
+---
 
 ## As of CSharpToJavaScript 0.2.1
+
+---
+
 There is an option [EnableModules](xref:CSharpToJavaScript.CSTOJSOptions#CSharpToJavaScript_CSTOJSOptions_EnableModules).
 By default, if more than 2 files are supplied, it is enabled.
 
@@ -30,6 +35,8 @@ See the full source code: https://github.com/TiLied/CSTOJS_Pages/tree/main/tutor
 
 ## As of CSharpToJavaScript 0.1.5
 
+---
+
 Using special syntax `//...\\`.
 ```csharp
 ...
@@ -42,6 +49,8 @@ export { Hello };
 ```
 
 ## Modifying `cstojs_options.xml`.
+
+---
 
 Program.cs:
 [!code-csharp[](./SimpleModule_Example/Program.cs)]

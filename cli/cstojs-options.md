@@ -1,10 +1,15 @@
 # cstojs_options.xml
 
+---
+
 Simple configuration file for a cli. The name of the file can be anything as long as the file ends with xml and follows structure `<ProjectOptionx>...</ProjectOptions>`.
 > [!NOTE]
 > To specify a different configuration file use the `--project` option. For example, if you have `./cstojs_debug.xml` then you would run `cstojs-cli translate --project "./cstojs_debug.xml"`.
 
 ## Elements
+
+---
+
 ### Output element
 The Output element is a path for outputting JS files.
 
@@ -42,6 +47,9 @@ Local option for the file example:
 ```
 
 ## Example:
+
+---
+
 ```xml
 <ProjectOptions>
   <!-- This specifies an output folder for js files. This example is "Output". -->

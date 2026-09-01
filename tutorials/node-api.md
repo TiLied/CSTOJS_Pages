@@ -1,6 +1,10 @@
-## Node api
+# Node api
+
+---
 
 ## As of CSharpToJavaScript 0.2.3
+
+---
 
 There are a couple of ways to call node js using attributes, but the simplest that I found is to use [ImportAttribute](xref:CSharpToJavaScript.Utils.ImportAttribute) with [IgnoreAttribute](xref:CSharpToJavaScript.Utils.IgnoreAttribute) and
 [ValueAttribute](xref:CSharpToJavaScript.Utils.ValueAttribute).
