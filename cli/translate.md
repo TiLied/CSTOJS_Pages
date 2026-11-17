@@ -6,23 +6,23 @@ cstojs-cli translate -h
 
 ```bash
 Description:
-  Translate specified files in the 'cstojs_options.xml'.
+  Translate specified files in the --project file.
 
 Usage:
-  CSTOJS_CLI translate [options]
+  cstojs-cli translate [options]
 
 Options:
-  -p, --project <path>      Path to the 'cstojs_options.xml'. 
+  -p, --project <path>      Path to the project file. 
                             Note: The name of the file can be anything as long as the file ends with xml and follows 
-                            structure `<ProjectOptionx>...</ProjectOptions>`. [default: ./cstojs_options.xml]
+                            structure `<ProjectOptions>...</ProjectOptions>`. [default: ./cstojs_options.xml]
   -?, -h, --help            Show help and usage information
   --disable-console-output  Self-explanatory, Disable Console Output.
   --disable-console-colors  Self-explanatory, Disable Console Colors.
 ```
 
-Translates specified files in the 'cstojs_options.xml'. 
+Translates specified files in the project file. 
 
-Optionally, a path to the 'cstojs_options.xml' can be specified.
+Optionally, a path to a different project file can be specified.
 
 ## Example
 
@@ -32,7 +32,7 @@ Optionally, a path to the 'cstojs_options.xml' can be specified.
 
 ```xml
 <ProjectOptions>
-  <Output Folder="Output" />
+  <Output Folder="./Output" />
   <File Source="./Program.cs" />
 </ProjectOptions>
 ```

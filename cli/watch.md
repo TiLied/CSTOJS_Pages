@@ -6,28 +6,28 @@ cstojs-cli watch -h
 
 ```bash
 Description:
-  Watches specified files in the 'cstojs_options.xml' with an interval and translates them. 
-  Note: The 'cstojs_options.xml' file is not being monitored, so any changes require the command to be restarted.
+  Watches specified files in the --project file with an interval and translates them. 
+  Note: The --project file is not being monitored, so any changes to it require the command to be restarted.
 
 Usage:
-  CSTOJS_CLI watch [options]
+  cstojs-cli watch [options]
 
 Options:
-  -p, --project <path>      Path to the 'cstojs_options.xml'. 
+  -p, --project <path>      Path to the project file. 
                             Note: The name of the file can be anything as long as the file ends with xml and follows 
-                            structure `<ProjectOptionx>...</ProjectOptions>`. [default: ./cstojs_options.xml]
+                            structure `<ProjectOptions>...</ProjectOptions>`. [default: ./cstojs_options.xml]
   -d, --delay <ms>          Delay watching the files again by milliseconds. (1000-10000) [default: 3000]
   -?, -h, --help            Show help and usage information
   --disable-console-output  Self-explanatory, Disable Console Output.
   --disable-console-colors  Self-explanatory, Disable Console Colors.
 ```
 
-Watches specified files in the 'cstojs_options.xml' with an interval (--delay) and translates them. 
+Watches specified files in the project file with an interval (--delay) and translates them. 
 
-A project file (--project) can be specified.
+Optionally, a path to a different project file can be specified.
 
 > [!NOTE]
-> The 'cstojs_options.xml' file is not being monitored, so any changes require the command to be restarted.
+> The --project file is not being monitored, so any changes to it require the command to be restarted.
 
 ## Example
 
@@ -37,7 +37,7 @@ A project file (--project) can be specified.
 
 ```xml
 <ProjectOptions>
-  <Output Folder="Output" />
+  <Output Folder="./Output" />
   <File Source="./Program.cs" />
 </ProjectOptions>
 ```

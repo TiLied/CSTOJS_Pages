@@ -8,5 +8,7 @@
   href: translate.md
 - name: watch subcommand
   href: watch.md
+- name: configure subcommand
+  href: configure.md
 - name: cstojs_options.xml file
   href: cstojs-options.md

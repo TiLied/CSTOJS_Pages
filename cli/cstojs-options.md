@@ -2,7 +2,7 @@
 
 ---
 
-Simple configuration file for a cli. The name of the file can be anything as long as the file ends with xml and follows structure `<ProjectOptionx>...</ProjectOptions>`.
+Simple configuration file for a cli. The name of the file can be anything as long as the file ends with xml and follows structure `<ProjectOptions>...</ProjectOptions>`.
 > [!NOTE]
 > To specify a different configuration file use the `--project` option. For example, if you have `./cstojs_debug.xml` then you would run `cstojs-cli translate --project "./cstojs_debug.xml"`.
 
@@ -15,9 +15,9 @@ The Output element is a path for outputting JS files.
 
 The Folder argument is required, the path can be absolute or relative.
 
-Example with "Output" as an argument:
+Example with "./Output" as an argument:
 ```xml
-<Output Folder="Output" />
+<Output Folder="./Output" />
 ```
 
 ### File element
@@ -53,7 +53,7 @@ Local option for the file example:
 ```xml
 <ProjectOptions>
   <!-- This specifies an output folder for js files. This example is "Output". -->
-  <Output Folder="Output" />
+  <Output Folder="./Output" />
 
   <!-- This is the default option which will be applied to every file that follows. -->
   <!-- See all available options at https://github.com/TiLied/CSharpToJavaScript/blob/master/CSharpToJavaScript/CSTOJSOptions.cs -->

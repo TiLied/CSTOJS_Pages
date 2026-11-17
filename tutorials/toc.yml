@@ -12,3 +12,5 @@
   href: simple-custom-element.md
 - name: Node api example
   href: node-api.md
+- name: Model example
+  href: model.md
