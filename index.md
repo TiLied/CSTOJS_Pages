@@ -4,6 +4,8 @@
 
 [CLI github](https://github.com/TiLied/CSTOJS_CLI) | [Dotnet tool](https://www.nuget.org/packages/TiLied.CSTOJS_CLI) | [Core github](https://github.com/TiLied/CSharpToJavaScript) | [Nuget package](https://www.nuget.org/packages/CSharpToJavaScript/) | [Try it online!](https://tilied.github.io/CSTOJS_Pages/BWA/)
 
+Library and CLI for translating c# to js. The best way to find out if the library is for you is to try it [online](https://tilied.github.io/CSTOJS_Pages/BWA/), just copy-paste c# code and see what it can or cannot translate. Also, check the warnings/notes below.
+
 ## Features
 
 ---
@@ -180,8 +182,12 @@ See the [tutorial](./tutorials/simple-module.md) for an example.
 > Structs/Interfaces and many more are completely ignored.
 > 
 > The output is not tied to the ECMA standard, meaning if you use a static constructor in cs it will be translated as a static constructor even though it is ECMA 13th.
+> 
+> While the library provides a webapi by default, it is NOT a framework and never plans to be, it is just C# to JS translation. You are free to build on top of it if you want.
 
-## Quick start for a CLI
+With all the notes/warnings above, what the library is useful for, honestly I find it useful for model/DTO translation as-is. See the [model example](./tutorials/model.md).
+
+## Quick start for the CLI
 
 ---
 
@@ -191,7 +197,7 @@ dotnet tool install --global TiLied.CSTOJS_CLI
 ```
 ### To use:
 ```csharp
-cstojs-cli setup "Output"
+cstojs-cli setup "./Output"
 ```
 ```csharp
 cstojs-cli translate
@@ -219,6 +225,7 @@ FileData file = new()
 };
 file = CSTOJS.Translate(file);
 
+//TranslatedStr is in the same object FileData. The method "Translate" also returns the same object.
 Console.WriteLine(file.TranslatedStr);
 ```
 - Run a program
